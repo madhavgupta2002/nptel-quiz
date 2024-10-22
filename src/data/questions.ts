@@ -62,11 +62,11 @@ export const assignments: Assignment = {
             "options": {
                 "a": "Fitness is environment-specific",
                 "b": "Fitness is species-specific",
-                "c": "Higher reproductive rate means higher fitness",
+                "c": "Higher reproductive rate always means higher fitness",
                 "d": "Fitness should be measured across several generations"
             },
-            "answer": "b",
-            "explanation": "Fitness is not species-specific; it's a measure of an individual's reproductive success relative to others in its population."
+            "answer": "c",
+            "explanation": "Higher reproductive rate doesn't always mean higher fitness. Fitness is environment-specific, species-specific, and measured across generations, not just by reproductive rate alone."
         },
         {
             "q": "Which of these is not a kind of selection",
