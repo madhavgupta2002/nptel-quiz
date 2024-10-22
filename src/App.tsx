@@ -19,8 +19,8 @@ const App: React.FC = () => {
     showResult: false,
     questions: [],
     incorrectAnswers: [],
+    answeredQuestions: [],
   });
-
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
 

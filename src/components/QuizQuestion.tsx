@@ -55,6 +55,12 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
           </button>
         ))}
       </div>
+      {showResult && (
+        <div className="mt-6 p-4 bg-blue-100 rounded-lg">
+          <h3 className="text-lg font-semibold text-blue-800 mb-2">Explanation:</h3>
+          <p className="text-blue-700">{question.explanation}</p>
+        </div>
+      )}
     </div>
   );
 };

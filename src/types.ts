@@ -9,6 +9,7 @@ export interface Question {
   q: string;
   options: Option;
   answer: string;
+  explanation: string;
 }
 
 export interface Assignment {
@@ -29,4 +30,5 @@ export interface QuizState {
   showResult: boolean;
   questions: Question[];
   incorrectAnswers: Question[];
+  answeredQuestions: (string | null)[];
 }

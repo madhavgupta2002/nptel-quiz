@@ -10,7 +10,8 @@ export const assignments: Assignment = {
                 "c": "Malthus",
                 "d": "Humboldt"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Theophrastus, often considered the 'father of botany', wrote 'Enquiry into Plants' around 350 BC."
         },
         {
             "q": "In the Greek word root of Ecology, Oikos refers to",
@@ -20,7 +21,8 @@ export const assignments: Assignment = {
                 "c": "environment",
                 "d": "study"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "In Greek, 'oikos' means 'house' or 'household', forming the root of 'ecology' which literally translates to 'study of the household'."
         },
         {
             "q": "In the Greek word root of Ecology, logos refers to",
@@ -30,7 +32,8 @@ export const assignments: Assignment = {
                 "c": "environment",
                 "d": "study"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "In Greek, 'logos' means 'study' or 'discourse', forming the second part of 'ecology'."
         },
         {
             "q": "Ecology is the scientific study of interactions among organisms and their ___.",
@@ -40,7 +43,8 @@ export const assignments: Assignment = {
                 "c": "environment",
                 "d": "population"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Ecology studies how organisms interact with their environment, which includes both living and non-living components."
         },
         {
             "q": "Who amongst these is considered the father of Biogeography?",
@@ -50,7 +54,8 @@ export const assignments: Assignment = {
                 "c": "Malthus",
                 "d": "Humboldt"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Alexander von Humboldt is often referred to as the father of biogeography due to his extensive work on plant geography."
         },
         {
             "q": "Which of these is not a characteristic of fitness?",
@@ -60,7 +65,8 @@ export const assignments: Assignment = {
                 "c": "Higher reproductive rate means higher fitness",
                 "d": "Fitness should be measured across several generations"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Fitness is not species-specific; it's a measure of an individual's reproductive success relative to others in its population."
         },
         {
             "q": "Which of these is not a kind of selection",
@@ -70,7 +76,8 @@ export const assignments: Assignment = {
                 "c": "disruptive",
                 "d": "stabilising"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Stochastic refers to random processes and is not a type of selection. The other options are valid types of natural selection."
         },
         {
             "q": "Ecology is the scientific study of ___ that determine the distribution and abundance of organisms.",
@@ -80,7 +87,8 @@ export const assignments: Assignment = {
                 "c": "dynamics",
                 "d": "habitat"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Ecology focuses on the interactions between organisms and their environment, which determine their distribution and abundance."
         },
         {
             "q": "Which of these is not a characteristic of fitness?",
@@ -90,7 +98,8 @@ export const assignments: Assignment = {
                 "c": "Fitness works on traits such as size and speed",
                 "d": "Fitness should be measured across several generations"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "While traits like size and speed can influence fitness, fitness itself is a measure of reproductive success, not a force acting on traits."
         },
         {
             "q": "Which of these is not a step in natural selection?",
@@ -100,7 +109,8 @@ export const assignments: Assignment = {
                 "c": "struggle for existence",
                 "d": "survival of the fittest"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Underpopulation is not a step in natural selection. The process involves variation, struggle for existence, and differential survival and reproduction."
         }
     ],
     "Assignment 2": [
@@ -112,7 +122,8 @@ export const assignments: Assignment = {
                 "c": "stable",
                 "d": "unstable"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Hierarchical structures tend to be more stable, which is why they often emerge through evolutionary processes."
         },
         {
             "q": "The mitochondrion is a/an",
@@ -122,7 +133,8 @@ export const assignments: Assignment = {
                 "c": "Tissue",
                 "d": "Organ"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Mitochondria are sub-cellular organelles, often referred to as the 'powerhouses' of the cell."
         },
         {
             "q": "The laboratory approach to Ecology uses",
@@ -132,7 +144,8 @@ export const assignments: Assignment = {
                 "c": "observations",
                 "d": "experiments"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "The laboratory approach in ecology primarily involves controlled experiments to test hypotheses."
         },
         {
             "q": "\"The diversity that exists among different geographies\" is",
@@ -142,7 +155,8 @@ export const assignments: Assignment = {
                 "c": "gamma (γ) biodiversity",
                 "d": "delta (δ) biodiversity"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Beta biodiversity refers to the diversity between different ecosystems or geographic areas."
         },
         {
             "q": "The hierarchical system was given by",
@@ -152,7 +166,8 @@ export const assignments: Assignment = {
                 "c": "Hutchinson",
                 "d": "Humboldt"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Herbert Simon proposed the concept of hierarchical systems in complex systems theory."
         },
         {
             "q": "\"Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
@@ -162,7 +177,8 @@ export const assignments: Assignment = {
                 "c": "ecosystems",
                 "d": "biomes"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This is the biological species concept, defining species based on reproductive isolation."
         },
         {
             "q": "\"The diversity that exists within an ecosystem\" is",
@@ -172,7 +188,8 @@ export const assignments: Assignment = {
                 "c": "gamma (γ) biodiversity",
                 "d": "delta (δ) biodiversity"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Gamma biodiversity refers to the overall diversity within a large area or ecosystem."
         },
         {
             "q": "The emergent principle can be stated as",
@@ -182,7 +199,8 @@ export const assignments: Assignment = {
                 "c": "Whole > sum of parts",
                 "d": "None of these"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "The emergent principle states that the whole is greater than the sum of its parts, as new properties emerge at higher levels of organization."
         },
         {
             "q": "There is more biodiversity in areas with",
@@ -192,7 +210,8 @@ export const assignments: Assignment = {
                 "c": "more competition, more predation",
                 "d": "more competition, less predation"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Areas with more competition and predation often have higher biodiversity due to increased specialization and niche partitioning."
         },
         {
             "q": "For more biodiversity, the level of disturbance should be",
@@ -202,7 +221,8 @@ export const assignments: Assignment = {
                 "c": "more",
                 "d": "none of these"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "The intermediate disturbance hypothesis suggests that biodiversity is highest at intermediate levels of disturbance."
         }
     ],
     "Assignment 3": [
@@ -214,7 +234,8 @@ export const assignments: Assignment = {
                 "c": "protocooperation",
                 "d": "allelopathy"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Birds on giraffes is an example of protocooperation, where both species benefit but the relationship is not obligatory."
         },
         {
             "q": "Egrets with buffaloes are an example of",
@@ -224,7 +245,8 @@ export const assignments: Assignment = {
                 "c": "protocooperation",
                 "d": "allelopathy"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Egrets with buffaloes is an example of commensalism, where one species (egrets) benefits while the other (buffaloes) is unaffected."
         },
         {
             "q": "The scientific study of animal behaviour is called",
@@ -234,7 +256,8 @@ export const assignments: Assignment = {
                 "c": "ethology",
                 "d": "prey-predator dynamics"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Ethology is the scientific study of animal behavior, especially as it occurs in a natural environment."
         },
         {
             "q": "The interaction between exotic shrubs and trees through the action of seed predators is an example of",
@@ -244,7 +267,8 @@ export const assignments: Assignment = {
                 "c": "disguised competition",
                 "d": "harmonious competition"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This is apparent competition, where two species indirectly compete by being preyed upon by the same predator."
         },
         {
             "q": "Harmonious interactions occur where",
@@ -254,7 +278,8 @@ export const assignments: Assignment = {
                 "c": "both participants are benefitted",
                 "d": "both participants are unharmed"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Harmonious interactions are those where neither species is harmed, though they may not necessarily benefit either."
         },
         {
             "q": "Hamilton's rule can be stated as",
@@ -264,7 +289,8 @@ export const assignments: Assignment = {
                 "c": "rB = C",
                 "d": "rB + C = 0"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Hamilton's rule states that altruistic behavior will be favored by natural selection when rB > C, where r is genetic relatedness, B is benefit to the recipient, and C is cost to the altruist."
         },
         {
             "q": "Trampling of grass due to the movement of animals is an example of",
@@ -274,7 +300,8 @@ export const assignments: Assignment = {
                 "c": "commensalism",
                 "d": "protocooperation"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This is amensalism, where one species is harmed (grass) while the other is unaffected (animals moving)."
         },
         {
             "q": "I observe a monkey take a tick out of another monkey's head and eat it. In the social context, this behaviour would be called",
@@ -284,7 +311,8 @@ export const assignments: Assignment = {
                 "c": "allo grooming",
                 "d": "foraging"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Allo grooming refers to grooming behavior directed towards another individual of the same species."
         },
         {
             "q": "An inventory of behaviours exhibited by an animal during a behaviour exercise is called",
@@ -294,7 +322,8 @@ export const assignments: Assignment = {
                 "c": "behaviourogram",
                 "d": "animalogram"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "An ethogram is a catalog or inventory of all behaviors or actions exhibited by an animal."
         },
         {
             "q": "I observe a bird take a tick out of another bird's head and eat it. In the social context, this behaviour would be called",
@@ -304,7 +333,8 @@ export const assignments: Assignment = {
                 "c": "allo grooming",
                 "d": "foraging"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Similar to the monkey example, this is also allo grooming, where one individual grooms another of the same species."
         }
     ],
     "Assignment 4": [
@@ -316,7 +346,8 @@ export const assignments: Assignment = {
                 "c": "available energy remains same",
                 "d": "available energy is zero everywhere"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Energy is lost at each trophic level due to metabolic processes, so available energy decreases as we move up the food chain."
         },
         {
             "q": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
@@ -326,7 +357,8 @@ export const assignments: Assignment = {
                 "c": "hawk is consumer and herbivore",
                 "d": "hawk is decomposer"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "The hawk is at the top of this food chain, making it a consumer and specifically a carnivore as it eats other animals."
         },
         {
             "q": "Trees → Birds → Parasites → Hyperparasites represents",
@@ -336,7 +368,8 @@ export const assignments: Assignment = {
                 "c": "spindle pyramid of numbers",
                 "d": "dumb-bell pyramid of numbers"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This represents an inverted pyramid of numbers because there are fewer trees than birds, and more parasites than birds."
         },
         {
             "q": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
@@ -346,7 +379,8 @@ export const assignments: Assignment = {
                 "c": "frog is consumer and herbivore",
                 "d": "frog is decomposer"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "The frog is a consumer and carnivore as it eats grasshoppers, which are also consumers."
         },
         {
             "q": "At the compensation point,",
@@ -356,7 +390,8 @@ export const assignments: Assignment = {
                 "c": "photosynthesis > respiration",
                 "d": "photosynthesis = 0"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "The compensation point is where the rate of photosynthesis exactly equals the rate of respiration."
         },
         {
             "q": "Tree → Frugivorous birds → Hawk represents",
@@ -366,7 +401,8 @@ export const assignments: Assignment = {
                 "c": "spindle pyramid of numbers",
                 "d": "dumb-bell pyramid of numbers"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "This represents a spindle pyramid of numbers because there are fewer trees than frugivorous birds, but fewer hawks than birds."
         },
         {
             "q": "Glacial lakes are typical examples of",
@@ -376,7 +412,8 @@ export const assignments: Assignment = {
                 "c": "oligotrophic lakes",
                 "d": "mesotrophic lakes"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Glacial lakes are typically oligotrophic, meaning they have low nutrient content and low primary productivity."
         },
         {
             "q": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
@@ -386,7 +423,8 @@ export const assignments: Assignment = {
                 "c": "equal number of hawks and grasshoppers can be supported",
                 "d": "none of these"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Due to the loss of energy at each trophic level, more individuals can be supported at lower levels of the food chain."
         },
         {
             "q": "If we all became vegetarians, we'll be able to support our large populations. This can be explained through",
@@ -396,7 +434,8 @@ export const assignments: Assignment = {
                 "c": "trophic cascade",
                 "d": "biodiversity"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "The 10% rule states that only about 10% of energy is transferred between trophic levels. By eating at a lower trophic level (plants), more energy is available to support a larger population."
         },
         {
             "q": "Net primary productivity is given by",
@@ -406,7 +445,8 @@ export const assignments: Assignment = {
                 "c": "APAR - LUE",
                 "d": "APAR / LUE"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Net Primary Productivity (NPP) is calculated by multiplying Absorbed Photosynthetically Active Radiation (APAR) by Light Use Efficiency (LUE)."
         }
     ],
     "Assignment 5": [
@@ -418,7 +458,8 @@ export const assignments: Assignment = {
                 "c": "Bias",
                 "d": "Variance"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Accuracy refers to how close a measurement is to the true or accepted value."
         },
         {
             "q": "Which of these is not a measure of absolute population density?",
@@ -428,7 +469,8 @@ export const assignments: Assignment = {
                 "c": "capture-recapture method",
                 "d": "removal method"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Pelt count is not a measure of absolute population density. It's typically used for estimating harvested animals and doesn't directly measure living population density."
         },
         {
             "q": "The logistic growth equation, when plotted, appears",
@@ -438,7 +480,8 @@ export const assignments: Assignment = {
                 "c": "S shaped",
                 "d": "O shaped"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "The logistic growth equation produces an S-shaped (sigmoidal) curve, showing initial slow growth, rapid growth, and then leveling off as carrying capacity is reached."
         },
         {
             "q": "___ employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start.",
@@ -448,7 +491,8 @@ export const assignments: Assignment = {
                 "c": "Stratified sampling",
                 "d": "Multistage sampling"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Systematic sampling involves selecting every kth unit from a population after a random starting point."
         },
         {
             "q": "The juvenile mortality rate is the annual number of deaths of juveniles per",
@@ -458,7 +502,8 @@ export const assignments: Assignment = {
                 "c": "100 live births",
                 "d": "1000 live births"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "The juvenile mortality rate is typically expressed as the number of deaths per 1000 live births in a given year."
         },
         {
             "q": "The minimum replacement level fertility for a population to grow should be greater than",
@@ -468,7 +513,8 @@ export const assignments: Assignment = {
                 "c": "3",
                 "d": "4"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "The replacement level fertility rate is slightly above 2 (typically 2.1 in developed countries) to account for deaths before reaching reproductive age."
         },
         {
             "q": "Pan traps are used for sampling",
@@ -478,7 +524,8 @@ export const assignments: Assignment = {
                 "c": "non-pollinator insects",
                 "d": "pollinator insects"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Pan traps are commonly used for sampling pollinator insects, including bees and other flying insects that are attracted to the colors of the traps."
         },
         {
             "q": "Which of these is true?",
@@ -488,7 +535,8 @@ export const assignments: Assignment = {
                 "c": "Physiological longevity < Ecological longevity",
                 "d": "a or b"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Physiological longevity (maximum lifespan under ideal conditions) is typically greater than or equal to ecological longevity (average lifespan in natural conditions)."
         },
         {
             "q": "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
@@ -498,7 +546,8 @@ export const assignments: Assignment = {
                 "c": "Stratified sampling",
                 "d": "Multistage sampling"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Simple random sampling ensures that every possible sample has an equal probability of being chosen."
         },
         {
             "q": "Cover board surveys are typically used for sampling",
@@ -508,7 +557,8 @@ export const assignments: Assignment = {
                 "c": "large mammals",
                 "d": "carnivores"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Cover board surveys are commonly used for sampling herpetofauna (reptiles and amphibians) as these animals often seek shelter under objects on the ground."
         }
     ],
     "Assignment 6": [
@@ -520,7 +570,8 @@ export const assignments: Assignment = {
                 "c": "disclimax",
                 "d": "catastrophic climax"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "A catastrophic climax is a climax community that is maintained by recurring catastrophic disturbances, such as wildfires."
         },
         {
             "q": "When compared to generalist species, specialist species have",
@@ -530,7 +581,8 @@ export const assignments: Assignment = {
                 "c": "same-size niches",
                 "d": "none of these"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Specialist species have narrower niches compared to generalist species, as they are adapted to specific environmental conditions or resources."
         },
         {
             "q": "Which of these depicts correctly the lithosere primary succession?",
@@ -540,7 +592,8 @@ export const assignments: Assignment = {
                 "c": "Moss → Crustose lichen → Foliose lichen → Rock → Herbaceous stage → Shrub → Woodland → Climax",
                 "d": "Rock → Crustose lichen → Foliose lichen → Shrub → Herbaceous stage → Moss → Woodland → Climax"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "This option correctly depicts the typical stages of lithosere primary succession, starting with bare rock and progressing through increasingly complex plant communities."
         },
         {
             "q": "Importance value can be written as",
@@ -550,7 +603,8 @@ export const assignments: Assignment = {
                 "c": "Relative density + Relative frequency + Relative dominance",
                 "d": "Relative density X Relative frequency X Relative dominance"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "The Importance Value Index is typically calculated as the sum of relative density, relative frequency, and relative dominance."
         },
         {
             "q": "Lithosere is an example of",
@@ -560,7 +614,8 @@ export const assignments: Assignment = {
                 "c": "psammosere",
                 "d": "halosere"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Lithosere is an example of xerosere, which is a type of ecological succession that begins on bare rock in dry conditions."
         },
         {
             "q": "Importance value varies from",
@@ -570,7 +625,8 @@ export const assignments: Assignment = {
                 "c": "0 to 100",
                 "d": "0 to 300"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "The Importance Value Index typically ranges from 0 to 300, as it's the sum of three percentages (relative density, frequency, and dominance), each ranging from 0 to 100."
         },
         {
             "q": "A species found most frequently in a particular community, but also present occasionally in others is called",
@@ -580,7 +636,8 @@ export const assignments: Assignment = {
                 "c": "selective species",
                 "d": "exclusive species"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "A selective species is one that shows a preference for a particular community but can also be found in others."
         },
         {
             "q": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
@@ -590,7 +647,8 @@ export const assignments: Assignment = {
                 "c": "disclimax",
                 "d": "catastrophic climax"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "A disclimax is a persistent ecological community that is maintained by human or animal disturbances, in this case, cattle grazing."
         },
         {
             "q": "Which of these is correct?",
@@ -600,7 +658,8 @@ export const assignments: Assignment = {
                 "c": "Fundamental niche < Realised niche",
                 "d": "a or b"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "The fundamental niche is always greater than or equal to the realized niche. The realized niche is the actual niche occupied by a species due to various limiting factors."
         },
         {
             "q": "Which of these is not a characteristic of pioneer species",
@@ -610,7 +669,8 @@ export const assignments: Assignment = {
                 "c": "large size",
                 "d": "short life span"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Pioneer species are typically small in size. Large size is not a characteristic of pioneer species, which are adapted to colonize bare or disturbed areas."
         },
         {
             "q": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
@@ -620,7 +680,8 @@ export const assignments: Assignment = {
                 "c": "flagship species",
                 "d": "extinct species"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Flagship species are charismatic species that serve as symbols and rallying points for conservation efforts. In this case, orchids are attracting visitors and attention to the sanctuary."
         },
         {
             "q": "The fig tree bears fruits in times when animals do not have much access to food. In this text, it would be a good example of",
@@ -630,7 +691,8 @@ export const assignments: Assignment = {
                 "c": "flagship species",
                 "d": "extinct species"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "A keystone species has a disproportionately large effect on its environment relative to its abundance. The fig tree, by providing food when it's scarce, plays a crucial role in supporting the ecosystem."
         }
     ],
     "Assignment 7": [
@@ -642,7 +704,8 @@ export const assignments: Assignment = {
                 "c": "autopathy",
                 "d": "allelopathy"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Allelopathy refers to the chemical inhibition of one plant by another. Teak trees are known to have allelopathic effects on other plants."
         },
         {
             "q": "Which of these is not a physical factor of habitat?",
@@ -652,7 +715,8 @@ export const assignments: Assignment = {
                 "c": "predators",
                 "d": "temperature"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Predators are a biotic factor, not a physical (abiotic) factor of habitat. Soil, moisture, and temperature are all physical factors."
         },
         {
             "q": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor.\" This is the statement for",
@@ -662,7 +726,8 @@ export const assignments: Assignment = {
                 "c": "Shelford's law of tolerance",
                 "d": "Shelford's law of intolerance"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "This statement describes Liebig's law of the minimum, which states that growth is dictated not by total resources available, but by the scarcest resource."
         },
         {
             "q": "Transplantation experiments are used to find",
@@ -672,7 +737,8 @@ export const assignments: Assignment = {
                 "c": "actual range",
                 "d": "economic range"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Transplantation experiments are used to determine the potential range of a species by moving it to new areas and observing if it can survive and reproduce."
         },
         {
             "q": "\"Quick movement over large distances, often across unsuitable terrain\" is a description of",
@@ -682,7 +748,8 @@ export const assignments: Assignment = {
                 "c": "jump dispersal",
                 "d": "drifting"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Jump dispersal refers to sudden, long-distance movement of organisms, often across barriers that would normally prevent their spread."
         },
         {
             "q": "The movement of lions across the Gir landscape is an example of",
@@ -692,7 +759,8 @@ export const assignments: Assignment = {
                 "c": "jump dispersal",
                 "d": "drifting"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Diffusion refers to the gradual spread of a population across a landscape, which is what lions would typically do in their natural habitat."
         },
         {
             "q": "Good climate is a",
@@ -702,7 +770,8 @@ export const assignments: Assignment = {
                 "c": "push factor",
                 "d": "pull factor"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "A good climate is considered a pull factor in migration, as it attracts organisms to move to that area."
         },
         {
             "q": "Scarcity of food is a",
@@ -712,7 +781,8 @@ export const assignments: Assignment = {
                 "c": "push factor",
                 "d": "pull factor"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Scarcity of food is a push factor, as it encourages organisms to leave an area in search of better resources."
         },
         {
             "q": "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
@@ -722,7 +792,8 @@ export const assignments: Assignment = {
                 "c": "Shelford's law of tolerance",
                 "d": "Shelford's law of intolerance"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "This statement describes Shelford's law of tolerance, which states that the presence and success of an organism depend on a complex set of conditions."
         },
         {
             "q": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
@@ -732,7 +803,8 @@ export const assignments: Assignment = {
                 "c": "dispersal",
                 "d": "drifting"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "This describes dispersal, which is the movement of organisms or gametes away from their area of origin to new areas."
         }
     ],
     "Assignment 8": [
@@ -744,7 +816,8 @@ export const assignments: Assignment = {
                 "c": "cattle",
                 "d": "sickle"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Aldo Leopold, a pioneer in wildlife management, did not include sickle in his list of habitat management tools. Fire, gun (for hunting), and cattle (for grazing) are all tools he recognized."
         },
         {
             "q": "Which of these correctly represents the process of habitat fragmentation and loss?",
@@ -754,7 +827,8 @@ export const assignments: Assignment = {
                 "c": "Original forest → Dissection → Perforation → Attrition → Fragmentation",
                 "d": "Original forest → Dissection → Fragmentation → Perforation → Attrition"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "This sequence correctly represents the typical process of habitat fragmentation, from initial dissection to final attrition (complete loss of habitat patches)."
         },
         {
             "q": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
@@ -764,7 +838,8 @@ export const assignments: Assignment = {
                 "c": "very low",
                 "d": "non-existent"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Areas with medium threat levels are often preferred for conservation reserves as they are at risk but not so degraded that restoration would be extremely difficult or impossible."
         },
         {
             "q": "The \"subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce\" is the definition of",
@@ -774,7 +849,8 @@ export const assignments: Assignment = {
                 "c": "biome",
                 "d": "biosphere"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "This definition describes a habitat, which is the natural environment where an organism lives and reproduces."
         },
         {
             "q": "Captive breeding is an example of",
@@ -784,7 +860,8 @@ export const assignments: Assignment = {
                 "c": "in-situ preservation",
                 "d": "ex-situ preservation"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Captive breeding is a form of ex-situ conservation, where species are preserved and bred outside their natural habitat."
         },
         {
             "q": "Which of these is a deterministic factor?",
@@ -794,7 +871,8 @@ export const assignments: Assignment = {
                 "c": "death rate",
                 "d": "diseases"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Death rate is a deterministic factor as it can be predicted and modeled based on known variables, unlike stochastic factors which are more random."
         },
         {
             "q": "Which of these is a stochastic factor?",
@@ -804,7 +882,8 @@ export const assignments: Assignment = {
                 "c": "population structure",
                 "d": "environmental fluctuation"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "Environmental fluctuation is a stochastic (random) factor that can affect populations unpredictably."
         },
         {
             "q": "Zoo is an example of",
@@ -814,7 +893,8 @@ export const assignments: Assignment = {
                 "c": "in-situ preservation",
                 "d": "ex-situ preservation"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Like captive breeding, zoos are examples of ex-situ conservation, where species are preserved outside their natural habitat."
         },
         {
             "q": "The acronym HIPPO does not include",
@@ -824,7 +904,8 @@ export const assignments: Assignment = {
                 "c": "invasive species",
                 "d": "human over-population"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "HIPPO stands for Habitat loss, Invasive species, Pollution, human over-Population, and Overharvesting. It does not include habitat enhancement."
         },
         {
             "q": "The acronym HIPPO does not include",
@@ -834,7 +915,8 @@ export const assignments: Assignment = {
                 "c": "pollination",
                 "d": "pollution"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "HIPPO stands for Habitat loss, Invasive species, Pollution, human over-Population, and Overharvesting. It does not include pollination."
         }
     ],
     "Assignment 9": [
@@ -846,7 +928,8 @@ export const assignments: Assignment = {
                 "c": "celibacy",
                 "d": "moral restraint"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Malthus classified war as a positive check, which increases death rates to control population growth."
         },
         {
             "q": "The demographic transition sees a society move from",
@@ -856,7 +939,8 @@ export const assignments: Assignment = {
                 "c": "high birth rate, high death rate to low birth rate, low death rate",
                 "d": "high birth rate, high death rate to low birth rate, high death rate"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "The demographic transition model describes how populations typically move from high birth and death rates to low birth and death rates as a country develops."
         },
         {
             "q": "According to Malthusian model,",
@@ -866,7 +950,8 @@ export const assignments: Assignment = {
                 "c": "Population grows in arithmetic progression, food supply increases in arithmetic progression",
                 "d": "Population grows in arithmetic progression, food supply increases in geometric progression"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Malthus proposed that population grows exponentially (geometric progression) while food supply grows linearly (arithmetic progression), leading to potential overpopulation."
         },
         {
             "q": "The book \"An Essay on the Principle of Population\" was written by",
@@ -876,7 +961,8 @@ export const assignments: Assignment = {
                 "c": "Spencer",
                 "d": "Owens"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Thomas Malthus wrote \"An Essay on the Principle of Population\" in 1798, which outlined his theories on population growth and food supply."
         },
         {
             "q": "___ is used to identify which potential impacts are relevant to assess.",
@@ -886,7 +972,8 @@ export const assignments: Assignment = {
                 "c": "reporting",
                 "d": "review"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Scoping is the process of determining which potential impacts should be considered in an environmental impact assessment."
         },
         {
             "q": "Which of these is a preventive check according to Malthus?",
@@ -896,7 +983,8 @@ export const assignments: Assignment = {
                 "c": "misery",
                 "d": "flood"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Malthus classified foresight as a preventive check, which reduces birth rates to control population growth."
         },
         {
             "q": "___ determines which projects or developments require a full or partial impact assessment study.",
@@ -906,7 +994,8 @@ export const assignments: Assignment = {
                 "c": "reporting",
                 "d": "review"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Screening is the initial step in environmental impact assessment that determines whether a full assessment is necessary for a project."
         },
         {
             "q": "Which of these is a pillar of sustainability",
@@ -916,7 +1005,8 @@ export const assignments: Assignment = {
                 "c": "agricultural sustainability",
                 "d": "trans-boundary sustainability"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Social sustainability is one of the three main pillars of sustainability, alongside environmental and economic sustainability."
         },
         {
             "q": "Which of these is not a pillar of sustainability?",
@@ -926,7 +1016,8 @@ export const assignments: Assignment = {
                 "c": "trans-boundary sustainability",
                 "d": "social sustainability"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Trans-boundary sustainability is not one of the three main pillars of sustainability, which are environmental, economic, and social sustainability."
         },
         {
             "q": "The quantum of human impacts is given by",
@@ -936,7 +1027,8 @@ export const assignments: Assignment = {
                 "c": "I = P + A - T",
                 "d": "I = P - (A + T)"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "The IPAT equation (I = P × A × T) represents the impact of human activity on the environment, where I is impact, P is population, A is affluence, and T is technology."
         }
     ],
     "Assignment 10": [
@@ -948,7 +1040,8 @@ export const assignments: Assignment = {
                 "c": "changes in Sun's orbit",
                 "d": "changes in Sun's strength"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Changes in the Sun's orbit are not a climatic forcing for Earth. The Sun's position in the galaxy doesn't significantly affect Earth's climate."
         },
         {
             "q": "Mesodebris in the context of plastic debris has fragments of size",
@@ -958,7 +1051,8 @@ export const assignments: Assignment = {
                 "c": "< 5 mm",
                 "d": "< 1 mm"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Mesodebris refers to plastic fragments between 5 and 20 mm in size, falling between macro and micro debris."
         },
         {
             "q": "Macrodebris in the context of plastic debris has fragments of size",
@@ -968,7 +1062,8 @@ export const assignments: Assignment = {
                 "c": "< 5 mm",
                 "d": "< 1 mm"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "Macrodebris refers to plastic fragments larger than 20 mm in size, which are visible to the naked eye."
         },
         {
             "q": "\"Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead\" is a definition for",
@@ -978,7 +1073,8 @@ export const assignments: Assignment = {
                 "c": "maladaptation",
                 "d": "malmitigation"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Maladaptation refers to actions that aim to reduce vulnerability to climate change but actually increase it or create new vulnerabilities."
         },
         {
             "q": "Which of these is not a principle of ecological restoration?",
@@ -988,7 +1084,8 @@ export const assignments: Assignment = {
                 "c": "benefits and engages scientists",
                 "d": "informed by past and future"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "While scientists are involved in ecological restoration, 'benefits and engages scientists' is not a core principle. The focus is on ecosystem and community benefits."
         },
         {
             "q": "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
@@ -998,7 +1095,8 @@ export const assignments: Assignment = {
                 "c": "deceleration",
                 "d": "maladaptation"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This action is mitigation because it aims to reduce greenhouse gas emissions, thereby addressing the root cause of climate change."
         },
         {
             "q": "Which of these is not a principle of ecological restoration?",
@@ -1008,7 +1106,8 @@ export const assignments: Assignment = {
                 "c": "benefits and engages society",
                 "d": "informed by past and future"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "Short-term sustainability is not a principle of ecological restoration. The focus is on long-term sustainability and ecological integrity."
         },
         {
             "q": "\"The ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences\" is a definition for",
@@ -1018,7 +1117,8 @@ export const assignments: Assignment = {
                 "c": "mitigative response",
                 "d": "mitigative capacity"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This definition describes adaptive capacity, which refers to the ability of a system to adjust to climate change and its effects."
         },
         {
             "q": "Which of these is not a climatic forcing for Earth?",
@@ -1028,7 +1128,8 @@ export const assignments: Assignment = {
                 "c": "changes in Moon's orbit",
                 "d": "changes in Sun's strength"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Changes in the Moon's orbit are not considered a significant climatic forcing for Earth. The Moon's orbit affects tides but not long-term climate patterns."
         },
         {
             "q": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
@@ -1038,7 +1139,8 @@ export const assignments: Assignment = {
                 "c": "deceleration",
                 "d": "maladaptation"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "This is an example of adaptation, as it helps the ecosystem cope with the effects of climate change (drought) rather than addressing its causes."
         }
     ],
     "Assignment 11": [
@@ -1050,7 +1152,8 @@ export const assignments: Assignment = {
                 "c": "R + F = M + G",
                 "d": "R + G + M + F = 0"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "This equation represents the balance of energy in an ecosystem, where R (respiration) + F (fecal loss) = M (metabolism) + G (growth)."
         },
         {
             "q": "Which of these is not an impact of toxic chemicals?",
@@ -1060,7 +1163,8 @@ export const assignments: Assignment = {
                 "c": "reduction of existing stressors",
                 "d": "reduced fecundity"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Reduction of existing stressors is not typically an impact of toxic chemicals. Toxic chemicals generally add stress to an ecosystem rather than reduce it."
         },
         {
             "q": "A pest population is called controlled when",
@@ -1070,7 +1174,8 @@ export const assignments: Assignment = {
                 "c": "it is not causing any economic damage",
                 "d": "it is not causing excessive economic damage"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "A pest population is considered controlled when it's maintained at a level that doesn't cause excessive economic damage, not necessarily when it's completely eliminated."
         },
         {
             "q": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with soil and species of deciduous forest planted again. This is an example of",
@@ -1080,7 +1185,8 @@ export const assignments: Assignment = {
                 "c": "enhancement",
                 "d": "replacement"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "This is an example of restoration, as it involves actively returning the ecosystem to its original state after disturbance."
         },
         {
             "q": "A root zone treatment plant is an example of",
@@ -1090,7 +1196,8 @@ export const assignments: Assignment = {
                 "c": "biomagnification",
                 "d": "bioaccumulation"
             },
-            "answer": "a"
+            "answer": "a",
+            "explanation": "A root zone treatment plant uses phytoremediation, which is the use of living plants to clean up soil, air, and water contaminated with hazardous contaminants."
         },
         {
             "q": "A pest population is called uncontrolled when",
@@ -1100,7 +1207,8 @@ export const assignments: Assignment = {
                 "c": "it is causing some economic damage",
                 "d": "it is causing excessive economic damage"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "A pest population is considered uncontrolled when it's causing excessive economic damage, regardless of whether it's increasing or decreasing."
         },
         {
             "q": "The impact of El Nino on fishery collapse in Peru is explained by",
@@ -1110,7 +1218,8 @@ export const assignments: Assignment = {
                 "c": "match-mismatch hypothesis",
                 "d": "none of these"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "The match-mismatch hypothesis explains how climate events like El Nino can disrupt the timing between predators (fish) and their prey, leading to fishery collapses."
         },
         {
             "q": "Which of these is correct?",
@@ -1120,7 +1229,8 @@ export const assignments: Assignment = {
                 "c": "The maximum sustainable yield is near the end of the sigmoidal curve",
                 "d": "None of these"
             },
-            "answer": "b"
+            "answer": "b",
+            "explanation": "The maximum sustainable yield typically occurs near the mid-point of the sigmoidal (S-shaped) growth curve, where population growth is at its highest rate."
         },
         {
             "q": "Ludwig's ratchet predicts",
@@ -1130,7 +1240,8 @@ export const assignments: Assignment = {
                 "c": "increasing harvesting rate",
                 "d": "fluctuating harvesting rate"
             },
-            "answer": "c"
+            "answer": "c",
+            "explanation": "Ludwig's ratchet predicts an increasing harvesting rate over time, as economic pressures drive continued exploitation even as resources decline."
         },
         {
             "q": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
@@ -1140,7 +1251,8 @@ export const assignments: Assignment = {
                 "c": "enhancement",
                 "d": "replacement"
             },
-            "answer": "d"
+            "answer": "d",
+            "explanation": "This is an example of replacement, as the original ecosystem (deciduous forest) has been replaced by a different ecosystem (lake) that serves a new ecological function."
         }
     ]
 };

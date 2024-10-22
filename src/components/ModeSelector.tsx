@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PracticeMode, QuestionOrder } from '../types';
 
 interface ModeSelectorProps {
@@ -7,20 +7,35 @@ interface ModeSelectorProps {
 }
 
 const ModeSelector: React.FC<ModeSelectorProps> = ({ onSelectMode, onSelectOrder }) => {
+  const [selectedMode, setSelectedMode] = useState<PracticeMode | null>(null);
+  const [selectedOrder, setSelectedOrder] = useState<QuestionOrder | null>(null);
+
+  const handleModeSelect = (mode: PracticeMode) => {
+    setSelectedMode(mode);
+    onSelectMode(mode);
+  };
+
+  const handleOrderSelect = (order: QuestionOrder) => {
+    setSelectedOrder(order);
+    onSelectOrder(order);
+  };
+
   return (
     <div className="mb-8">
       <h2 className="text-2xl font-bold mb-4 text-indigo-700">Select Practice Mode</h2>
       <div className="flex flex-col gap-4">
         <div>
           <button
-            onClick={() => onSelectMode('assignment')}
-            className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out mr-4"
+            onClick={() => handleModeSelect('assignment')}
+            className={`px-6 py-3 text-white rounded-full font-semibold transition duration-300 ease-in-out mr-4 ${selectedMode === 'assignment' ? 'bg-indigo-800' : 'bg-indigo-600 hover:bg-indigo-700'
+              }`}
           >
             Assignment Practice
           </button>
           <button
-            onClick={() => onSelectMode('full')}
-            className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out"
+            onClick={() => handleModeSelect('full')}
+            className={`px-6 py-3 text-white rounded-full font-semibold transition duration-300 ease-in-out ${selectedMode === 'full' ? 'bg-indigo-800' : 'bg-indigo-600 hover:bg-indigo-700'
+              }`}
           >
             Full Practice
           </button>
@@ -28,14 +43,16 @@ const ModeSelector: React.FC<ModeSelectorProps> = ({ onSelectMode, onSelectOrder
         <div>
           <h3 className="text-xl font-bold mb-2 text-indigo-700">Question Order</h3>
           <button
-            onClick={() => onSelectOrder('random')}
-            className="px-6 py-3 bg-purple-600 text-white rounded-full font-semibold hover:bg-purple-700 transition duration-300 ease-in-out mr-4"
+            onClick={() => handleOrderSelect('random')}
+            className={`px-6 py-3 text-white rounded-full font-semibold transition duration-300 ease-in-out mr-4 ${selectedOrder === 'random' ? 'bg-purple-800' : 'bg-purple-600 hover:bg-purple-700'
+              }`}
           >
             Random
           </button>
           <button
-            onClick={() => onSelectOrder('inOrder')}
-            className="px-6 py-3 bg-purple-600 text-white rounded-full font-semibold hover:bg-purple-700 transition duration-300 ease-in-out"
+            onClick={() => handleOrderSelect('inOrder')}
+            className={`px-6 py-3 text-white rounded-full font-semibold transition duration-300 ease-in-out ${selectedOrder === 'inOrder' ? 'bg-purple-800' : 'bg-purple-600 hover:bg-purple-700'
+              }`}
           >
             In Order
           </button>
