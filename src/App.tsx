@@ -5,6 +5,7 @@ import AssignmentSelector from './components/AssignmentSelector';
 import ModeSelector from './components/ModeSelector';
 import QuizQuestion from './components/QuizQuestion';
 import QuizStats from './components/QuizStats';
+import AnswerStatus from './components/AnswerStatus';
 import { ArrowRight, ArrowLeft, RefreshCw, Home } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -62,23 +63,34 @@ const App: React.FC = () => {
       showResult: false,
       questions: questions,
       incorrectAnswers: [],
+      answeredQuestions: new Array(questions.length).fill(null),
     }));
     setQuizCompleted(false);
   };
 
   const handleAnswer = (answer: string) => {
+    if (quizState.answeredQuestions[quizState.currentQuestionIndex] !== null) {
+      return; // Question already answered
+    }
+
     const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
     const isCorrect = answer === currentQuestion.answer;
 
-    setQuizState(prev => ({
-      ...prev,
-      selectedAnswer: answer,
-      showResult: true,
-      score: isCorrect ? prev.score + 1 : prev.score,
-      incorrectAnswers: isCorrect
-        ? prev.incorrectAnswers
-        : [...prev.incorrectAnswers, { ...currentQuestion, selectedAnswer: answer }],
-    }));
+    setQuizState(prev => {
+      const newAnsweredQuestions = [...prev.answeredQuestions];
+      newAnsweredQuestions[prev.currentQuestionIndex] = answer;
+
+      return {
+        ...prev,
+        selectedAnswer: answer,
+        showResult: true,
+        score: isCorrect ? prev.score + 1 : prev.score,
+        incorrectAnswers: isCorrect
+          ? prev.incorrectAnswers
+          : [...prev.incorrectAnswers, { ...currentQuestion, selectedAnswer: answer }],
+        answeredQuestions: newAnsweredQuestions,
+      };
+    });
   };
 
   const moveQuestion = (direction: 'next' | 'prev') => {
@@ -93,8 +105,17 @@ const App: React.FC = () => {
     setQuizState(prev => ({
       ...prev,
       currentQuestionIndex: newIndex,
-      selectedAnswer: null,
-      showResult: false,
+      selectedAnswer: prev.answeredQuestions[newIndex],
+      showResult: prev.answeredQuestions[newIndex] !== null,
+    }));
+  };
+
+  const jumpToQuestion = (index: number) => {
+    setQuizState(prev => ({
+      ...prev,
+      currentQuestionIndex: index,
+      selectedAnswer: prev.answeredQuestions[index],
+      showResult: prev.answeredQuestions[index] !== null,
     }));
   };
 
@@ -110,6 +131,7 @@ const App: React.FC = () => {
       showResult: false,
       questions: [],
       incorrectAnswers: [],
+      answeredQuestions: [],
     });
     setQuizCompleted(false);
   };
@@ -125,11 +147,9 @@ const App: React.FC = () => {
     }
   };
 
-  const remainingQuestions = quizState.totalQuestions - quizState.currentQuestionIndex - 1;
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">WildLife Ecology</h1>
 
         {quizState.questions.length === 0 ? (
@@ -149,7 +169,11 @@ const App: React.FC = () => {
         ) : quizCompleted ? (
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <h2 className="text-2xl font-bold mb-4 text-indigo-700">Quiz Completed!</h2>
-            <QuizStats score={quizState.score} totalQuestions={quizState.totalQuestions} />
+            <QuizStats 
+              score={quizState.score} 
+              totalQuestions={quizState.totalQuestions} 
+              answeredQuestions={quizState.answeredQuestions}
+            />
             {quizState.incorrectAnswers.length > 0 && (
               <div className="mt-8">
                 <h3 className="text-xl font-bold mb-4 text-indigo-700">Incorrect Answers:</h3>
@@ -170,55 +194,67 @@ const App: React.FC = () => {
             </button>
           </div>
         ) : (
-          <>
-            <div className="mb-4 text-center">
-              <span className="text-lg font-semibold text-indigo-700">
-                Remaining Questions: {remainingQuestions}
-              </span>
-            </div>
-            <QuizStats score={quizState.score} totalQuestions={quizState.totalQuestions} />
+          <div className="grid grid-cols-12 gap-6">
+            <div className="col-span-12 lg:col-span-9">
+              <QuizStats 
+                score={quizState.score} 
+                totalQuestions={quizState.totalQuestions}
+                answeredQuestions={quizState.answeredQuestions}
+              />
 
-            <QuizQuestion
-              question={quizState.questions[quizState.currentQuestionIndex]}
-              onAnswer={handleAnswer}
-              selectedAnswer={quizState.selectedAnswer}
-              showResult={quizState.showResult}
-            />
+              <QuizQuestion
+                question={quizState.questions[quizState.currentQuestionIndex]}
+                onAnswer={handleAnswer}
+                selectedAnswer={quizState.selectedAnswer}
+                showResult={quizState.showResult}
+              />
 
-            <div className="mt-8 flex justify-between items-center">
-              <button
-                onClick={() => moveQuestion('prev')}
-                disabled={quizState.currentQuestionIndex === 0}
-                className={`px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center ${quizState.currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
+              <div className="mt-8 flex justify-between items-center">
+                <button
+                  onClick={() => moveQuestion('prev')}
+                  disabled={quizState.currentQuestionIndex === 0}
+                  className={`px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center ${
+                    quizState.currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
                   }`}
-              >
-                <ArrowLeft className="mr-2" size={20} /> Previous
-              </button>
-
-              <button
-                onClick={confirmGoToMainMenu}
-                className="px-6 py-3 bg-gray-600 text-white rounded-full font-semibold hover:bg-gray-700 transition duration-300 ease-in-out flex items-center"
-              >
-                <Home className="mr-2" size={20} /> Main Menu
-              </button>
-
-              {quizState.currentQuestionIndex === quizState.totalQuestions - 1 ? (
-                <button
-                  onClick={() => moveQuestion('next')}
-                  className="px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out flex items-center"
                 >
-                  Finish Quiz <RefreshCw className="ml-2" size={20} />
+                  <ArrowLeft className="mr-2" size={20} /> Previous
                 </button>
-              ) : (
+
                 <button
-                  onClick={() => moveQuestion('next')}
-                  className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center"
+                  onClick={confirmGoToMainMenu}
+                  className="px-6 py-3 bg-gray-600 text-white rounded-full font-semibold hover:bg-gray-700 transition duration-300 ease-in-out flex items-center"
                 >
-                  Next <ArrowRight className="ml-2" size={20} />
+                  <Home className="mr-2" size={20} /> Main Menu
                 </button>
-              )}
+
+                {quizState.currentQuestionIndex === quizState.totalQuestions - 1 ? (
+                  <button
+                    onClick={() => moveQuestion('next')}
+                    className="px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out flex items-center"
+                  >
+                    Finish Quiz <RefreshCw className="ml-2" size={20} />
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => moveQuestion('next')}
+                    className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center"
+                  >
+                    Next <ArrowRight className="ml-2" size={20} />
+                  </button>
+                )}
+              </div>
             </div>
-          </>
+
+            <div className="col-span-12 lg:col-span-3">
+              <AnswerStatus
+                totalQuestions={quizState.totalQuestions}
+                currentQuestionIndex={quizState.currentQuestionIndex}
+                answeredQuestions={quizState.answeredQuestions}
+                correctAnswers={quizState.questions.map(q => q.answer)}
+                onQuestionSelect={jumpToQuestion}
+              />
+            </div>
+          </div>
         )}
       </div>
 
