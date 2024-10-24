@@ -24,6 +24,7 @@ const App: React.FC = () => {
   });
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [showStudyPlan, setShowStudyPlan] = useState(true);
 
   const shuffleArray = (array: any[]) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -66,6 +67,7 @@ const App: React.FC = () => {
       answeredQuestions: new Array(questions.length).fill(null),
     }));
     setQuizCompleted(false);
+    setShowStudyPlan(false);
   };
 
   const handleAnswer = (answer: string) => {
@@ -134,6 +136,7 @@ const App: React.FC = () => {
       answeredQuestions: [],
     });
     setQuizCompleted(false);
+    setShowStudyPlan(true);
   };
 
   const confirmGoToMainMenu = () => {
@@ -152,6 +155,114 @@ const App: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-12 text-indigo-900">WildLife Ecology</h1>
 
+        {showStudyPlan && (
+          <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 className="text-2xl font-bold mb-4 text-indigo-700">Study Plan for <em>Wildlife Ecology</em>:</h2>
+
+            {/* Full Preparation */}
+            <div className="mb-4">
+              <h3 className="text-xl font-bold mb-2">1. <strong>Full Preparation</strong></h3>
+              <table className="table-auto w-full">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2">Material</th>
+                    <th className="px-4 py-2">Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">Main Lectures</td>
+                    <td className="border px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLFW6lRTa1g81YMhPVMSPwEpZbVz64acBS" className="bg-blue-500 text-white px-3 py-1 rounded-full">Playlist</a></td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Notes</td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/1pg0wYLSwVvlO3JBkzSpcWnKDRKorflgC/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Notes</a></td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Revision</td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/1PgKfi3gUNhLMjn5RZRqxtNuYJZrbvhvT/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Notes</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* 4-5 Days Preparation */}
+            <div className="mb-4">
+              <h3 className="text-xl font-bold mb-2">2. <strong>4-5 Days Preparation</strong></h3>
+              <p>Watch TA Lectures (ranked in order of preference):</p>
+              <table className="table-auto w-full">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2">TA</th>
+                    <th className="px-4 py-2">Playlist</th>
+                    <th className="px-4 py-2">Notes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">Geetika 2023 (Best)</td>
+                    <td className="border px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL8uRJ-DU5HqNB-tloVDAVr-xoSKVXBXgG" className="bg-blue-500 text-white px-3 py-1 rounded-full">Playlist</a></td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Notes</a></td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Chiti Arvind 2023</td>
+                    <td className="border px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLlinxzRfuQpIildQmYrpMQ2fnQmhB6A7r" className="bg-blue-500 text-white px-3 py-1 rounded-full">Playlist</a></td>
+                    <td className="border px-4 py-2">-</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Abdus Shakur 2023</td>
+                    <td className="border px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL0vcsWrsLHmR_YwSlqsjTllsSbda03ewz" className="bg-blue-500 text-white px-3 py-1 rounded-full">Playlist</a></td>
+                    <td className="border px-4 py-2">-</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2">Arpit Omprakash 2024</td>
+                    <td className="border px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLsz06jx70WInasR_LjCSemY2gXsHO7pez" className="bg-blue-500 text-white px-3 py-1 rounded-full">Playlist</a></td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Notes</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* 1-2 Days Preparation */}
+            <div className="mb-4">
+              <h3 className="text-xl font-bold mb-2">3. <strong>1-2 Days Preparation</strong></h3>
+              <p><strong>Notes Only</strong>: Stick to lecture notes or revision lectures of above TA (week 12).</p>
+              <ul className="list-disc list-inside">
+                <li><strong>Geetika 2023 Notes</strong>: <a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Download here</a></li>
+                <li><strong>Arpit Omprakash 2024 Notes</strong>: <a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="bg-green-500 text-white px-3 py-1 rounded-full">Download here</a></li>
+              </ul>
+            </div>
+
+            {/* Assignment & Practice */}
+            <div className="mb-4">
+              <h3 className="text-xl font-bold mb-2">4. <strong>Assignment & Practice</strong></h3>
+              <table className="table-auto w-full">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2">Description</th>
+                    <th className="px-4 py-2">Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2"><strong>Official MCQ Answers</strong> (Not helpful for studying)</td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/1WvIwQbLc1PRFhFg7f0Pa_i4ZKFfaPMLr/view?usp=drive_link" className="bg-red-500 text-white px-3 py-1 rounded-full">Download here</a></td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2"><strong>Concise Revision Assignment Questions</strong> (Revise before exam)</td>
+                    <td className="border px-4 py-2"><a href="https://drive.google.com/file/d/1lvbxkAQjmnrnqZZUgeo2YVnXhJjjDD0K/view?usp=drive_link" className="bg-yellow-500 text-white px-3 py-1 rounded-full">Download here</a></td>
+                  </tr>
+                  <tr>
+                    <td className="border px-4 py-2"><strong>Assignment Practice Quiz</strong> (Aim for 90%+ accuracy by attempting it 3-4 times,below)</td>
+                    <td className="border px-4 py-2"><a href="http://mooc-quiz.vercel.app/" className="bg-purple-500 text-white px-3 py-1 rounded-full">Attempt here</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+
         {quizState.questions.length === 0 ? (
           <>
             <ModeSelector onSelectMode={selectPracticeMode} onSelectOrder={selectQuestionOrder} />
@@ -169,9 +280,9 @@ const App: React.FC = () => {
         ) : quizCompleted ? (
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <h2 className="text-2xl font-bold mb-4 text-indigo-700">Quiz Completed!</h2>
-            <QuizStats 
-              score={quizState.score} 
-              totalQuestions={quizState.totalQuestions} 
+            <QuizStats
+              score={quizState.score}
+              totalQuestions={quizState.totalQuestions}
               answeredQuestions={quizState.answeredQuestions}
             />
             {quizState.incorrectAnswers.length > 0 && (
@@ -196,8 +307,8 @@ const App: React.FC = () => {
         ) : (
           <div className="grid grid-cols-12 gap-6">
             <div className="col-span-12 lg:col-span-9">
-              <QuizStats 
-                score={quizState.score} 
+              <QuizStats
+                score={quizState.score}
                 totalQuestions={quizState.totalQuestions}
                 answeredQuestions={quizState.answeredQuestions}
               />
@@ -213,9 +324,8 @@ const App: React.FC = () => {
                 <button
                   onClick={() => moveQuestion('prev')}
                   disabled={quizState.currentQuestionIndex === 0}
-                  className={`px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center ${
-                    quizState.currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
-                  }`}
+                  className={`px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center ${quizState.currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
+                    }`}
                 >
                   <ArrowLeft className="mr-2" size={20} /> Previous
                 </button>
