@@ -389,6 +389,11 @@ const App: React.FC = () => {
           </div>
         </div>
       )}
+      <div className="fixed bottom-0 right-0 p-4 bg-white border-2 border-blue-600 rounded-lg shadow-lg">
+        <a href="https://www.linkedin.com/in/madhavgupta2002" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold text-lg hover:underline">
+          Credits: Madhav Gupta
+        </a>
+      </div>
     </div>
   );
 };
