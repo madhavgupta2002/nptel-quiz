@@ -1152,8 +1152,8 @@ export const assignments: Assignment = {
                 "c": "R + F = M + G",
                 "d": "R + G + M + F = 0"
             },
-            "answer": "c",
-            "explanation": "This equation represents the balance of energy in an ecosystem, where R (respiration) + F (fecal loss) = M (metabolism) + G (growth)."
+            "answer": "a",
+            "explanation": "This equation represents the balance of energy in an ecosystem, where R (respiration) + G (growth) = M (metabolism) + F (fecal loss)."
         },
         {
             "q": "Which of these is not an impact of toxic chemicals?",
