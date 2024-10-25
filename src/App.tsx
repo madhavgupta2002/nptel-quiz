@@ -7,6 +7,7 @@ import QuizQuestion from './components/QuizQuestion';
 import QuizStats from './components/QuizStats';
 import AnswerStatus from './components/AnswerStatus';
 import { ArrowRight, ArrowLeft, RefreshCw, Home } from 'lucide-react';
+import ReactGA from 'react-ga4';
 
 const App: React.FC = () => {
   const [quizState, setQuizState] = useState<QuizState>({
@@ -68,6 +69,12 @@ const App: React.FC = () => {
     }));
     setQuizCompleted(false);
     setShowStudyPlan(false);
+
+    ReactGA.event({
+      category: 'Quiz',
+      action: 'Start Quiz',
+      label: assignment || 'Full Practice'
+    });
   };
 
   const handleAnswer = (answer: string) => {
@@ -100,16 +107,16 @@ const App: React.FC = () => {
       ? Math.min(quizState.currentQuestionIndex + 1, quizState.totalQuestions - 1)
       : Math.max(quizState.currentQuestionIndex - 1, 0);
 
-    if (newIndex === quizState.totalQuestions - 1 && direction === 'next') {
-      setQuizCompleted(true);
-    }
-
     setQuizState(prev => ({
       ...prev,
       currentQuestionIndex: newIndex,
       selectedAnswer: prev.answeredQuestions[newIndex],
       showResult: prev.answeredQuestions[newIndex] !== null,
     }));
+  };
+
+  const finishQuiz = () => {
+    setQuizCompleted(true);
   };
 
   const jumpToQuestion = (index: number) => {
@@ -321,14 +328,14 @@ const App: React.FC = () => {
               />
 
               <div className="mt-8 flex justify-between items-center">
-                <button
-                  onClick={() => moveQuestion('prev')}
-                  disabled={quizState.currentQuestionIndex === 0}
-                  className={`px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center ${quizState.currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''
-                    }`}
-                >
-                  <ArrowLeft className="mr-2" size={20} /> Previous
-                </button>
+                {quizState.currentQuestionIndex > 0 && (
+                  <button
+                    onClick={() => moveQuestion('prev')}
+                    className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center"
+                  >
+                    <ArrowLeft className="mr-2" size={20} /> Previous
+                  </button>
+                )}
 
                 <button
                   onClick={confirmGoToMainMenu}
@@ -337,14 +344,7 @@ const App: React.FC = () => {
                   <Home className="mr-2" size={20} /> Main Menu
                 </button>
 
-                {quizState.currentQuestionIndex === quizState.totalQuestions - 1 ? (
-                  <button
-                    onClick={() => moveQuestion('next')}
-                    className="px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out flex items-center"
-                  >
-                    Finish Quiz <RefreshCw className="ml-2" size={20} />
-                  </button>
-                ) : (
+                {quizState.currentQuestionIndex < quizState.totalQuestions - 1 && (
                   <button
                     onClick={() => moveQuestion('next')}
                     className="px-6 py-3 bg-indigo-600 text-white rounded-full font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out flex items-center"
@@ -363,6 +363,12 @@ const App: React.FC = () => {
                 correctAnswers={quizState.questions.map(q => q.answer)}
                 onQuestionSelect={jumpToQuestion}
               />
+              <button
+                onClick={finishQuiz}
+                className="w-full mt-4 px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out flex items-center justify-center"
+              >
+                Finish Quiz <RefreshCw className="ml-2" size={20} />
+              </button>
             </div>
           </div>
         )}
