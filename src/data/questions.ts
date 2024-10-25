@@ -188,8 +188,8 @@ export const assignments: Assignment = {
                 "c": "gamma (γ) biodiversity",
                 "d": "delta (δ) biodiversity"
             },
-            "answer": "c",
-            "explanation": "Gamma biodiversity refers to the overall diversity within a large area or ecosystem."
+            "answer": "a",
+            "explanation": "Alpha biodiversity refers to the overall diversity within a large area or ecosystem."
         },
         {
             "q": "The emergent principle can be stated as",
