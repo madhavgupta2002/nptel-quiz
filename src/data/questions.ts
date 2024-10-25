@@ -155,8 +155,8 @@ export const assignments: Assignment = {
                 "c": "gamma (γ) biodiversity",
                 "d": "delta (δ) biodiversity"
             },
-            "answer": "b",
-            "explanation": "Beta biodiversity refers to the diversity between different ecosystems or geographic areas."
+            "answer": "c",
+            "explanation": "Gamma biodiversity refers to the diversity of species across a larger geographical area, encompassing multiple ecosystems or habitats within a region."
         },
         {
             "q": "The hierarchical system was given by",
