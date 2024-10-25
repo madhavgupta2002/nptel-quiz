@@ -6,8 +6,9 @@ import ModeSelector from './components/ModeSelector';
 import QuizQuestion from './components/QuizQuestion';
 import QuizStats from './components/QuizStats';
 import AnswerStatus from './components/AnswerStatus';
-import { ArrowRight, ArrowLeft, RefreshCw, Home, ChevronDown, ChevronUp } from 'lucide-react';
+import { ArrowRight, ArrowLeft, RefreshCw, Home, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
 import ReactGA from 'react-ga4';
+import ShortNotes from './components/ShortNotes';
 
 const App: React.FC = () => {
   const [quizState, setQuizState] = useState<QuizState>({
@@ -27,6 +28,7 @@ const App: React.FC = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [showStudyPlan, setShowStudyPlan] = useState(true);
   const [isStudyPlanExpanded, setIsStudyPlanExpanded] = useState(false);
+  const [showShortNotes, setShowShortNotes] = useState(false);
 
   const shuffleArray = (array: any[]) => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -165,128 +167,142 @@ const App: React.FC = () => {
 
         {showStudyPlan && (
           <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-8">
-            <div className="flex justify-between items-center cursor-pointer" onClick={() => setIsStudyPlanExpanded(!isStudyPlanExpanded)}>
-              <h2 className="text-xl sm:text-2xl font-bold text-indigo-700">Study Plan for <em>Wildlife Ecology</em></h2>
-              {isStudyPlanExpanded ? (
-                <ChevronUp className="w-6 h-6 text-indigo-700" />
-              ) : (
-                <ChevronDown className="w-6 h-6 text-indigo-700" />
-              )}
+            <div className="flex justify-between items-center">
+              <div className="flex items-center cursor-pointer" onClick={() => setIsStudyPlanExpanded(!isStudyPlanExpanded)}>
+                <h2 className="text-xl sm:text-2xl font-bold text-indigo-700">Study Plan for <em>Wildlife Ecology</em></h2>
+                {isStudyPlanExpanded ? (
+                  <ChevronUp className="w-6 h-6 text-indigo-700 ml-2" />
+                ) : (
+                  <ChevronDown className="w-6 h-6 text-indigo-700 ml-2" />
+                )}
+              </div>
+              <button
+                onClick={() => setShowShortNotes(!showShortNotes)}
+                className="px-4 py-2 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition duration-300 ease-in-out flex items-center"
+              >
+                <BookOpen className="mr-2" size={20} /> View Short Notes
+              </button>
             </div>
 
             <div className={`transition-all duration-300 ease-in-out overflow-hidden ${isStudyPlanExpanded ? 'max-h-[2000px] opacity-100 mt-4' : 'max-h-0 opacity-0'}`}>
-              {/* Full Preparation */}
-              <div className="mb-4 overflow-x-auto">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">1. <strong>Full Preparation</strong></h3>
-                <div className="min-w-full overflow-hidden">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead>
-                      <tr>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Material</th>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Link</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Main Lectures</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLFW6lRTa1g81YMhPVMSPwEpZbVz64acBS" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Notes</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1pg0wYLSwVvlO3JBkzSpcWnKDRKorflgC/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Revision</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1PgKfi3gUNhLMjn5RZRqxtNuYJZrbvhvT/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+              {showShortNotes ? (
+                <ShortNotes />
+              ) : (
+                <>
+                  {/* Full Preparation */}
+                  <div className="mb-4 overflow-x-auto">
+                    <h3 className="text-lg sm:text-xl font-bold mb-2">1. <strong>Full Preparation</strong></h3>
+                    <div className="min-w-full overflow-hidden">
+                      <table className="min-w-full divide-y divide-gray-200">
+                        <thead>
+                          <tr>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Material</th>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Link</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Main Lectures</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLFW6lRTa1g81YMhPVMSPwEpZbVz64acBS" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Notes</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1pg0wYLSwVvlO3JBkzSpcWnKDRKorflgC/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Revision</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1PgKfi3gUNhLMjn5RZRqxtNuYJZrbvhvT/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
 
-              {/* 4-5 Days Preparation */}
-              <div className="mb-4 overflow-x-auto">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">2. <strong>4-5 Days Preparation</strong></h3>
-                <p className="mb-2">Watch TA Lectures (ranked in order of preference):</p>
-                <div className="min-w-full overflow-hidden">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead>
-                      <tr>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">TA</th>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Playlist</th>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Notes</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Geetika 2023 (Best)</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL8uRJ-DU5HqNB-tloVDAVr-xoSKVXBXgG" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Chiti Arvind 2023</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLlinxzRfuQpIildQmYrpMQ2fnQmhB6A7r" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
-                        <td className="px-2 sm:px-4 py-2">-</td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Abdus Shakur 2023</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL0vcsWrsLHmR_YwSlqsjTllsSbda03ewz" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
-                        <td className="px-2 sm:px-4 py-2">-</td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Arpit Omprakash 2024</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLsz06jx70WInasR_LjCSemY2gXsHO7pez" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+                  {/* 4-5 Days Preparation */}
+                  <div className="mb-4 overflow-x-auto">
+                    <h3 className="text-lg sm:text-xl font-bold mb-2">2. <strong>4-5 Days Preparation</strong></h3>
+                    <p className="mb-2">Watch TA Lectures (ranked in order of preference):</p>
+                    <div className="min-w-full overflow-hidden">
+                      <table className="min-w-full divide-y divide-gray-200">
+                        <thead>
+                          <tr>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">TA</th>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Playlist</th>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Notes</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Geetika 2023 (Best)</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL8uRJ-DU5HqNB-tloVDAVr-xoSKVXBXgG" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Chiti Arvind 2023</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLlinxzRfuQpIildQmYrpMQ2fnQmhB6A7r" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
+                            <td className="px-2 sm:px-4 py-2">-</td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Abdus Shakur 2023</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PL0vcsWrsLHmR_YwSlqsjTllsSbda03ewz" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
+                            <td className="px-2 sm:px-4 py-2">-</td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2 whitespace-nowrap">Arpit Omprakash 2024</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://www.youtube.com/playlist?list=PLsz06jx70WInasR_LjCSemY2gXsHO7pez" className="inline-block bg-blue-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Playlist</a></td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Notes</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
 
-              {/* 1-2 Days Preparation */}
-              <div className="mb-4">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">3. <strong>1-2 Days Preparation</strong></h3>
-                <p className="mb-2"><strong>Notes Only</strong>: Stick to lecture notes or revision lectures of above TA (week 12).</p>
-                <ul className="list-disc list-inside space-y-2">
-                  <li className="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span><strong>Geetika 2023 Notes</strong>:</span>
-                    <a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a>
-                  </li>
-                  <li className="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span><strong>Arpit Omprakash 2024 Notes</strong>:</span>
-                    <a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a>
-                  </li>
-                </ul>
-              </div>
+                  {/* 1-2 Days Preparation */}
+                  <div className="mb-4">
+                    <h3 className="text-lg sm:text-xl font-bold mb-2">3. <strong>1-2 Days Preparation</strong></h3>
+                    <p className="mb-2"><strong>Notes Only</strong>: Stick to lecture notes or revision lectures of above TA (week 12).</p>
+                    <ul className="list-disc list-inside space-y-2">
+                      <li className="flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span><strong>Geetika 2023 Notes</strong>:</span>
+                        <a href="https://drive.google.com/file/d/14UQa4YLVG2Q9da4IMUijvQ_zhZ7Qu6Tb/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a>
+                      </li>
+                      <li className="flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span><strong>Arpit Omprakash 2024 Notes</strong>:</span>
+                        <a href="https://drive.google.com/file/d/1o01RTSsk7ixZdXsNoRUZw6-zh442peQM/view?usp=drive_link" className="inline-block bg-green-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a>
+                      </li>
+                    </ul>
+                  </div>
 
-              {/* Assignment & Practice */}
-              <div className="mb-4 overflow-x-auto">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">4. <strong>Assignment & Practice</strong></h3>
-                <div className="min-w-full overflow-hidden">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead>
-                      <tr>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Description</th>
-                        <th className="px-2 sm:px-4 py-2 bg-gray-50">Link</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-gray-200">
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2"><strong>Official MCQ Answers</strong> (Not helpful for studying)</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1WvIwQbLc1PRFhFg7f0Pa_i4ZKFfaPMLr/view?usp=drive_link" className="inline-block bg-red-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a></td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2"><strong>Concise Revision Assignment Questions</strong> (Revise before exam)</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1lvbxkAQjmnrnqZZUgeo2YVnXhJjjDD0K/view?usp=drive_link" className="inline-block bg-yellow-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a></td>
-                      </tr>
-                      <tr>
-                        <td className="px-2 sm:px-4 py-2"><strong>Assignment Practice Quiz</strong> (Aim for 90%+ accuracy by attempting it 3-4 times,below)</td>
-                        <td className="px-2 sm:px-4 py-2"><a href="http://mooc-quiz.vercel.app/" className="inline-block bg-purple-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Attempt here</a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+                  {/* Assignment & Practice */}
+                  <div className="mb-4 overflow-x-auto">
+                    <h3 className="text-lg sm:text-xl font-bold mb-2">4. <strong>Assignment & Practice</strong></h3>
+                    <div className="min-w-full overflow-hidden">
+                      <table className="min-w-full divide-y divide-gray-200">
+                        <thead>
+                          <tr>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Description</th>
+                            <th className="px-2 sm:px-4 py-2 bg-gray-50">Link</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-200">
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2"><strong>Official MCQ Answers</strong> (Not helpful for studying)</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1WvIwQbLc1PRFhFg7f0Pa_i4ZKFfaPMLr/view?usp=drive_link" className="inline-block bg-red-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a></td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2"><strong>Concise Revision Assignment Questions</strong> (Revise before exam)</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="https://drive.google.com/file/d/1lvbxkAQjmnrnqZZUgeo2YVnXhJjjDD0K/view?usp=drive_link" className="inline-block bg-yellow-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Download here</a></td>
+                          </tr>
+                          <tr>
+                            <td className="px-2 sm:px-4 py-2"><strong>Assignment Practice Quiz</strong> (Aim for 90%+ accuracy by attempting it 3-4 times,below)</td>
+                            <td className="px-2 sm:px-4 py-2"><a href="http://mooc-quiz.vercel.app/" className="inline-block bg-purple-500 text-white px-2 sm:px-3 py-1 rounded-full text-sm">Attempt here</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         )}
