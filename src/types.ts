@@ -4,6 +4,7 @@ export interface Option {
   c?: string;
   d?: string;
   e?: string;
+  f?: string;
 }
 
 export interface Question {

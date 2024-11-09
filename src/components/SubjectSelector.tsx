@@ -21,7 +21,7 @@ const SubjectSelector: React.FC<SubjectSelectorProps> = ({ subjects, onSelect })
         <h1 className="text-4xl font-bold text-indigo-900 mb-4">NPTEL Courses</h1>
         <p className="text-lg text-indigo-700">Select a subject to start practicing</p>
       </div>
-      
+
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {subjects.map((subject) => (
           <div

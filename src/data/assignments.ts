@@ -2702,5 +2702,4783 @@ export const assignment: Assignment = {
                 "explanation": "GAP stands for Global Action Programme in ESD context."
             }
         ],
+    },
+    "Programming In Java": {
+        // Add assignments for Programming In Java here
+        // copy them as it is from prompt 
+        "Assignment 1": [
+            {
+                "q": "Which of the following is not a valid comment in Java?",
+                "options": {
+                    "a": "/** comment */",
+                    "b": "/* comment */",
+                    "c": "/* comment /",
+                    "d": "// comment"
+                },
+                "answer": "c",
+                "explanation": "The comment /* comment / is not valid because it's missing the closing */"
+            },
+            {
+                "q": "What is the output of the following code?\npublic class Main {\n public static void main(String[] args) {\n String str1 = \"NPTEL\";\n String str2 = \"java\";\n int a = 20;\n int b = 24;\n System.out.println(str1 + a + b); // Statement 1\n System.out.println(a + b + str2); // Statement 2\n }\n}",
+                "options": {
+                    "a": "NPTEL2024\n44java",
+                    "b": "NPTEL44\n44java",
+                    "c": "NPTEL2024\n2024java",
+                    "d": "NPTEL44\n2024java"
+                },
+                "answer": "a",
+                "explanation": "The + operator is overloaded in Java. When the first operand is a string it performs string concatenation, when the first operand is numeric it performs addition."
+            },
+            {
+                "q": "Which of the following is used to find and fix bugs in the Java programs?",
+                "options": {
+                    "a": "JVM",
+                    "b": "JRE",
+                    "c": "JDK",
+                    "d": "JDB"
+                },
+                "answer": "d",
+                "explanation": "The Java Debugger (JDB or jdb) is a command-line java debugger that debugs the java class."
+            },
+            {
+                "q": "What is the value returned by the method f() defined below?\npublic static int f(int x, int y){return (x>y) ? y : x;}",
+                "options": {
+                    "a": "The sum of x and y, that is, x + y",
+                    "b": "The difference of x and y, that is, x - y",
+                    "c": "The maximum of x and y, that is, the larger value of x and y",
+                    "d": "The minimum of x and y, that is, the smaller value of x and y"
+                },
+                "answer": "d",
+                "explanation": "The ternary operator returns y if x>y, and x otherwise, effectively returning the minimum value."
+            },
+            {
+                "q": "Consider the following program. What will be the output?\npublic class Question {\n public static void main(String args[]) {\n int f = 0, g = 1;\n for (int i = 0; i <= 5; i++) {\n System.out.println(f);\n f = f + g;\n g = f - g;\n }\n }\n}",
+                "options": {
+                    "a": "Print first six even numbers",
+                    "b": "Print first six odd numbers",
+                    "c": "Print first six prime numbers",
+                    "d": "Print first six Fibonacci numbers"
+                },
+                "answer": "d",
+                "explanation": "It will print 0 1 1 2 3 5, which are the first six Fibonacci numbers."
+            },
+            {
+                "q": "Which program is used to compile Java source code into bytecode?",
+                "options": {
+                    "a": "javap",
+                    "b": "javac",
+                    "c": "java",
+                    "d": "javad"
+                },
+                "answer": "b",
+                "explanation": "The JDK includes a tool, 'javac' that compiles from Java source code to Java bytecodes. The program 'java' is used to execute Java bytecode."
+            },
+            {
+                "q": "Consider the following program:\npublic class Question {\n public static void main(String[] args) {\n int x = 5;\n x *= (2 + 8);\n System.out.println(x);\n }\n}",
+                "options": {
+                    "a": "50",
+                    "b": "10",
+                    "c": "Compiler error",
+                    "d": "5"
+                },
+                "answer": "a",
+                "explanation": "Here, x *= (2 + 8) is equivalent to x * (2+ 8) = x * 10. Therefore, x = 50."
+            },
+            {
+                "q": "What is the incorrect statement about bytecode?",
+                "options": {
+                    "a": "Java when compiles the source code, it converts it to bytecode",
+                    "b": "JVM (Java Virtual Machine) is an interpreter of bytecode",
+                    "c": "Bytecode is not portable and it needs to be compiled separately for each platform",
+                    "d": "JVM offers a protected environment which helps in enhanced safety for the system"
+                },
+                "answer": "c",
+                "explanation": "Bytecode is actually portable and doesn't need to be compiled separately for each platform. This is one of Java's key features - 'Write Once, Run Anywhere'."
+            },
+            {
+                "q": "In Java, what is the role of the public static void main(String[] args) method?",
+                "options": {
+                    "a": "Initialization method",
+                    "b": "Execution entry point",
+                    "c": "Constructor",
+                    "d": "Destructor"
+                },
+                "answer": "b",
+                "explanation": "The public static void main(String[] args) method is the entry point for the execution of a Java program."
+            },
+            {
+                "q": "What is the purpose of the break statement in Java?",
+                "options": {
+                    "a": "To terminate the program",
+                    "b": "To exit a loop or switch statement",
+                    "c": "To skip the next iteration of a loop",
+                    "d": "To return a value from a method"
+                },
+                "answer": "b",
+                "explanation": "The break statement is used to exit a loop or switch statement prematurely."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Which of the following is the correct way to declare a class in Java?",
+                "options": {
+                    "a": "public class MyClass {}",
+                    "b": "class MyClass[] {}",
+                    "c": "public MyClass class {}",
+                    "d": "MyClass public class {}"
+                },
+                "answer": "a",
+                "explanation": "The correct way to declare a class in Java is by using the class keyword followed by the class name and curly braces."
+            },
+            {
+                "q": "What is the purpose of a constructor in a class?",
+                "options": {
+                    "a": "To destroy objects of the class",
+                    "b": "To create static methods",
+                    "c": "To implement inheritance",
+                    "d": "To initialize objects of the class"
+                },
+                "answer": "d",
+                "explanation": "A constructor is used to initialize objects of a class. It is called when an instance of the class is created and can set initial values for object attributes."
+            },
+            {
+                "q": "Which keyword is used in Java to refer to the current object?",
+                "options": {
+                    "a": "that",
+                    "b": "self",
+                    "c": "current",
+                    "d": "this"
+                },
+                "answer": "d",
+                "explanation": "In Java, the this keyword is used to refer to the current object within an instance method or a constructor."
+            },
+            {
+                "q": "Consider the following code snippet. What will be the output?\nclass NPTEL_W2 {\n int x;\n NPTEL_W2(int x) {\n this.x = x;\n }\n void printX() {\n System.out.println(this.x);\n }\n public static void main(String[] args) {\n NPTEL_W2 obj = new NPTEL_W2(10);\n obj.printX();\n }\n}",
+                "options": {
+                    "a": "0",
+                    "b": "10",
+                    "c": "Compilation error",
+                    "d": "Runtime error"
+                },
+                "answer": "b",
+                "explanation": "The constructor NPTEL_W2 (int x) initializes the instance variable x with the value passed as an argument. The method printX() prints the value of x, which is 10."
+            },
+            {
+                "q": "Which of the following demonstrates constructor overloading in Java?",
+                "options": {
+                    "a": "Defining multiple constructors in a class with different parameter lists",
+                    "b": "Defining multiple methods in a class with the same name",
+                    "c": "Defining a constructor in a subclass",
+                    "d": "Using the super keyword"
+                },
+                "answer": "a",
+                "explanation": "Constructor overloading in Java is achieved by defining multiple constructors in a class, each with different parameter lists. This allows creating objects in different ways."
+            },
+            {
+                "q": "What is the purpose of the this keyword in the context of avoiding name space collision?",
+                "options": {
+                    "a": "To call another constructor in the same class",
+                    "b": "To refer to the current object",
+                    "c": "To differentiate between instance variables and parameters with the same name",
+                    "d": "To import another class"
+                },
+                "answer": "c",
+                "explanation": "The this keyword is used to differentiate between instance variables and parameters when they have the same name, avoiding name space collision."
+            },
+            {
+                "q": "Which of the following is the correct signature of the main method in Java?",
+                "options": {
+                    "a": "public void main(String[] args)",
+                    "b": "public static void main(String[] args)",
+                    "c": "public static void main()",
+                    "d": "public main(String[] args)"
+                },
+                "answer": "b",
+                "explanation": "The correct signature of the main method in Java is public static void main(String[] args). This method serves as the entry point for the Java application."
+            },
+            {
+                "q": "Which class is used in Java to take runtime data input from the user?",
+                "options": {
+                    "a": "BufferReader",
+                    "b": "UserInputStreamReader",
+                    "c": "Scanner",
+                    "d": "DataInputStreamReader"
+                },
+                "answer": "c",
+                "explanation": "The Scanner class is used to take runtime data input from the user. It provides methods to read various types of input such as strings, integers, and floating-point numbers."
+            },
+            {
+                "q": "What is the output of the following Java code snippet?\npublic class Main {\n public static void main(String[] args) {\n System.out.print(\"Hello \");\n System.out.println(\"World\");\n System.out.printf(\"Number: %d\", 10);\n }\n}",
+                "options": {
+                    "a": "Hello World\\nNumber: 10",
+                    "b": "Hello WorldNumber: 10",
+                    "c": "Hello \\nWorld\\nNumber: 10",
+                    "d": "Hello World\\nNumber: 10\\n"
+                },
+                "answer": "a",
+                "explanation": "The print method prints text without a newline, println prints text with a newline, and printf prints formatted text. The output is Hello World on the first line and Number: 10 on the second line."
+            },
+            {
+                "q": "How do you read a line of text from the console using the Scanner class in Java?",
+                "options": {
+                    "a": "scanner.readLine()",
+                    "b": "scanner.nextLine()",
+                    "c": "scanner.getLine()",
+                    "d": "scanner.fetchLine()"
+                },
+                "answer": "b",
+                "explanation": "The nextLine() method of the Scanner class reads a line of text from the console."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "What will be the output of the following program?\nclass First {\n static void staticMethod() {\n System.out.println(\"Static Method\");\n }\n}\nclass MainClass {\n public static void main(String[] args) {\n First first = null;\n First.staticMethod();\n }\n}",
+                "options": {
+                    "a": "Static Method",
+                    "b": "Throws a NullPointerException",
+                    "c": "Compile-time error",
+                    "d": "Run time error"
+                },
+                "answer": "a",
+                "explanation": "The provided Java code will compile and execute successfully without any exceptions. When calling a static method, it doesn't require an instance of the class. Therefore, you can call the static method staticMethod() from class First using the null reference first."
+            },
+            {
+                "q": "What will be the output of the following program?\nclass superDemoClass {\n final int a = 20;\n}\nclass subDemoClass extends superDemoClass {\n void subFunc() {\n a = 40;\n System.out.println(\"value of a = \" + a);\n }\n}\nclass demo {\n public static void main(String[] args) {\n subDemoClass subc = new subDemoClass();\n subc.subFunc();\n }\n}",
+                "options": {
+                    "a": "value of a = 20",
+                    "b": "error: cannot assign a value to final variable 'a'",
+                    "c": "error: unknown variable 'a' in class subDemoClass",
+                    "d": "value of a = 40"
+                },
+                "answer": "b",
+                "explanation": "Since the variable 'a' is declared as final, therefore, it can be accessed in the subclass however, its value cannot be changed in the subclass. Therefore, the output will be error: cannot assign a value to final variable a."
+            },
+            {
+                "q": "All the variables of interface should be?",
+                "options": {
+                    "a": "default and final",
+                    "b": "default and static",
+                    "c": "public, static and final",
+                    "d": "protect, static and final"
+                },
+                "answer": "c",
+                "explanation": "Variables of an interface are public, static and final by default because the interfaces cannot be instantiated, final ensures the value assigned cannot be changed with the implementing class and public for it to be accessible by all the implementing classes."
+            },
+            {
+                "q": "What will be the output of the following program?\nclass static_out {\n static int x;\n static int y;\n void add(int a, int b) {\n x = a + b;\n y = x + b;\n }\n}\npublic class static_use {\n public static void main(String args[]) {\n static_out obj1 = new static_out();\n static_out obj2 = new static_out();\n int a = 2;\n obj1.add(a, a + 1);\n obj2.add(5, a);\n System.out.println(obj1.x + \" \" + obj2.y);\n }\n}",
+                "options": {
+                    "a": "7 7.4",
+                    "b": "6 6.4",
+                    "c": "7 9",
+                    "d": "9 7"
+                },
+                "answer": "c",
+                "explanation": "x and y are static variables, so they are shared across all instances of the class static_out. When obj1.add(a, a + 1) is called, x and y are updated to 5 and 8, respectively. When obj2.add(5, a) is called, x and y are updated to 7 and 9, respectively. The final values of x and y after all method calls are 7 and 9."
+            },
+            {
+                "q": "What will be the output of the following Java code?\nclass access {\n public int x;\n private int y;\n void cal(int a, int b) {\n x = a + 1;\n y = b;\n }\n void print() {\n System.out.println(\" \" + y);\n }\n}\npublic class access_specifier {\n public static void main(String args[]) {\n access obj = new access();\n obj.cal(2, 3);\n System.out.print(obj.x);\n obj.print();\n }\n}",
+                "options": {
+                    "a": "2 3",
+                    "b": "3 3",
+                    "c": "Runtime Error",
+                    "d": "Compilation Error"
+                },
+                "answer": "b",
+                "explanation": "The first 3 is printed by System.out.println(obj.x); because x was set to 3 (2 + 1) in the cal method. The second 3 is printed by obj.print(); because y was set to 3 in the cal method. Although y is a private variable, it is still accessible within the methods of the same class."
+            },
+            {
+                "q": "If a variable of primitive datatype in Java is declared as final, then",
+                "options": {
+                    "a": "It cannot get inherited",
+                    "b": "Its value cannot be changed",
+                    "c": "It cannot be accessed in the subclass",
+                    "d": "All of the above"
+                },
+                "answer": "b",
+                "explanation": "A final variable of a primitive data type cannot change its value once it has been initialize."
+            },
+            {
+                "q": "Members which are not intended to be inherited are declared as",
+                "options": {
+                    "a": "Public members",
+                    "b": "Protected members",
+                    "c": "Private members",
+                    "d": "Private or Protected members"
+                },
+                "answer": "c",
+                "explanation": "Private access specifier is the most secure access mode. It doesn't allow members to be inherited. Even Private inheritance can only inherit protected and public members."
+            },
+            {
+                "q": "If a base class is inherited in protected access mode then which among the following is true?",
+                "options": {
+                    "a": "Public and Protected members of base class becomes protected members of derived class",
+                    "b": "Only protected members become protected members of derived class",
+                    "c": "Private, Protected and Public all members of base, become private of derived class",
+                    "d": "Only private members of base, become private of derived class"
+                },
+                "answer": "a",
+                "explanation": "As the programming language rules apply, all the public and protected members of base class becomes protected members of derived class in protected access mode. It can't be changed because it would hinder the security of data and may add vulnerability in the program."
+            },
+            {
+                "q": "Which type of inheritance leads to diamond problem?",
+                "options": {
+                    "a": "Single level",
+                    "b": "Multi-level",
+                    "c": "Multiple",
+                    "d": "Hierarchical"
+                },
+                "answer": "c",
+                "explanation": "When 2 or more classes inherit the same class using multiple inheritance and then one more class inherits those two base classes, we get a diamond like structure. Here, ambiguity arises when same function gets derived into 2 base classes and finally to 3rd level class because same name functions are being inherited."
+            },
+            {
+                "q": "What will be the output of the following program:\nclass superDemoClass {\n final void func() {\n int a = 20;\n System.out.println(\"value of a = \" + a);\n }\n}\nclass subDemoClass extends superDemoClass {\n void func() {\n int b = 60;\n System.out.println(\"value of b = \" + b);\n }\n}\nclass demo {\n public static void main(String[] args) {\n subDemoClass subc = new subDemoClass();\n subc.func();\n }\n}",
+                "options": {
+                    "a": "error: func() in subDemoClass cannot override func() in superDemoClass",
+                    "b": "value of b = 60",
+                    "c": "value of a = 20",
+                    "d": "None of the above"
+                },
+                "answer": "a",
+                "explanation": "Here in this program, the subclass is trying to override the final method of the superclass, i.e. it is trying to change the behavior of the final method. The behavior of the final method cannot be changed in the subclass. In other words, the final method cannot be overridden in any subclass because the final method is a complete method."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Which of these access specifiers must be used for main() method?",
+                "options": {
+                    "a": "private",
+                    "b": "public",
+                    "c": "protected",
+                    "d": "default"
+                },
+                "answer": "b",
+                "explanation": "main() method must be specified public as it called by Java run time system, outside of the program. If no access specifier is used then by default member is public within its own package & cannot be accessed by Java run time system."
+            },
+            {
+                "q": "What is the output of the below Java Code Snippet with protected access modifier?\n// Teacher.java ------------------\npackage nptel1;\npublic class Teacher {\nprotected void showMarks() {\nSystem.out.println(\"100 Marks\");\n}\n}\n// Student.java ------------------\npackage nptel2;\nimport nptel1.*;\npublic class Student extends Teacher {\nvoid show() {\nshowMarks();\n}\npublic static void main(String[] args) {\nStudent st1 = new Student();\nst1.show();\n}\n}",
+                "options": {
+                    "a": "100 marks",
+                    "b": "No output",
+                    "c": "Compiler error",
+                    "d": "None of the above"
+                },
+                "answer": "a",
+                "explanation": "Through inheritance, one can access a protected variable or method of a class even from outside the package. Here, we accessed Teacher class of nptel1 from Student class of nptel2."
+            },
+            {
+                "q": "What is the process by which we can control what parts of a program can access the members of a class?",
+                "options": {
+                    "a": "Polymorphism",
+                    "b": "Augmentation",
+                    "c": "Encapsulation",
+                    "d": "Recursion"
+                },
+                "answer": "c",
+                "explanation": "Encapsulation in Java is the process by which data (variables) and the code that acts upon them (methods) are integrated as a single unit. By encapsulating a class's variables, other classes cannot access them, and only the methods of the class can access them."
+            },
+            {
+                "q": "Consider the 2 programs:\n// Main1.java ------------------\npublic class Main1{\npublic static void main(String args[]){\nint number = 10;\nSystem.out.println(number++ + ++number);\n}\n}\n// Main2.java ------------------\npublic class Main2{\npublic static void main(String args[]){\nint number = 10;\nSystem.out.println(++number + number++);\n}\n}",
+                "options": {
+                    "a": "Both pre-increment and post-increment operators becomes pre-increment during print",
+                    "b": "Both pre-increment and post-increment operators becomes post-increment during print",
+                    "c": "Both Main1 and Main2 classes give the same output",
+                    "d": "Pre-increment and post-increment operators don't work during print"
+                },
+                "answer": "c",
+                "explanation": "The output of both the program are 22. Therefore, option c is correct and we can eliminate option d that the operators don't work. Further, the operators are doing exactly what they are supposed to do i.e. pre-increment first increases the values and post-increment increases the value during the next operation. The print statement is the next operation; hence it received the post incremented value as well making option a and b invalid."
+            },
+            {
+                "q": "Which is the least restrictive access modifier in Java?",
+                "options": {
+                    "a": "public",
+                    "b": "private",
+                    "c": "protected",
+                    "d": "default"
+                },
+                "answer": "a",
+                "explanation": "A variable or a method marked public is available to all outside classes irrespective of package that a class lives in. So, public is the least restrictive access modifier in Java."
+            },
+            {
+                "q": "Choose the correct syntax of a Java Package below.",
+                "options": {
+                    "a": "package PACKAGE_NAME;",
+                    "b": "package PACKAGE_NAME.*;",
+                    "c": "pkg PACKAGE_NAME;",
+                    "d": "pkg PACKAGE_NAME.*;"
+                },
+                "answer": "a",
+                "explanation": "A package declaration statement should end with a package name but not with *."
+            },
+            {
+                "q": "What is the default package in Java?",
+                "options": {
+                    "a": "It is a package that contains all built-in classes",
+                    "b": "It is a package that needs to be defined as default",
+                    "c": "It is a package that does not have a name",
+                    "d": "It is a package used for importing external libraries"
+                },
+                "answer": "c",
+                "explanation": "The default package is a package without a specified name. It's not recommended to use the default package for your classes."
+            },
+            {
+                "q": "A package is a collection of:",
+                "options": {
+                    "a": "classes",
+                    "b": "interfaces",
+                    "c": "editing tools",
+                    "d": "classes and interfaces"
+                },
+                "answer": "d",
+                "explanation": "A package is a collection of classes, methods and interfaces."
+            },
+            {
+                "q": "In Java, can a subclass in a different package access a superclass's protected method?",
+                "options": {
+                    "a": "Yes, without any restrictions",
+                    "b": "Yes, but only if they are in the same package",
+                    "c": "No, protected methods are not accessible by subclasses",
+                    "d": "No, protected methods are only accessible within the same class"
+                },
+                "answer": "b",
+                "explanation": "Yes, a subclass in a different package can access a superclass's protected method, as long as they are in a subclass relationship."
+            },
+            {
+                "q": "Consider the program given below. What will be the output if the program is executed?\npublic class Main{\npublic static void main(String args[]){\nSystem.out.println(cos(2*PI));\n}\n}",
+                "options": {
+                    "a": "It will give compile-time error",
+                    "b": "It will give run-time error",
+                    "c": "1.0",
+                    "d": "3.14"
+                },
+                "answer": "a",
+                "explanation": "The program gives a compile time error as the Math class is missing. The static import statement needs to be used to import the static members (e.g., PI) of java.lang.Math. import static java.lang.Math.*; This will allow the program to use PI directly."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Which exception will be thrown by parseInt() method in Java?",
+                "options": {
+                    "a": "IntegerOutOfBoundException",
+                    "b": "IntegerFormatException",
+                    "c": "ArithmeticException",
+                    "d": "NumberFormatException"
+                },
+                "answer": "d",
+                "explanation": "parseInt() method parses input into integer. This method will throw NumberFormatException."
+            },
+            {
+                "q": "What will be the output of the following program?\ninterface P {\n    String p = \"PPPP\";\n    String methodP();\n}\ninterface Q extends P {\n    String q = \"QQQQ\";\n    String methodQ();\n}\nclass R implements P, Q {\n    public String methodP() {\n        return q + p;\n    }\n    public String methodQ() {\n        return p + q;\n    }\n}\npublic class Main{\n    public static void main(String[] args) {\n        R r = new R();\n        System.out.println(r.methodP());\n        System.out.println(r.methodQ());\n    }\n}",
+                "options": {
+                    "a": "QQQQPPPP\nPPPPQQQQ",
+                    "b": "PPPPQQQQ\nQQQQPPPP",
+                    "c": "PPPPPPPP\nQQQQQQQQ",
+                    "d": "Compilation error"
+                },
+                "answer": "a",
+                "explanation": "methodP() returns the concatenation of q and p, resulting in \"QQQQPPPP\". methodQ() returns the concatenation of p and q, resulting in \"PPPPQQQQ\"."
+            },
+            {
+                "q": "What will be the output of the following code?\nclass A implements B {\n    public int methodB(int i) {\n        return i = +i * i;\n    }\n}\ninterface B {\n    int methodB(int i);\n}\npublic class MainClass {\n    public static void main(String[] args) {\n        B b = new A();\n        System.out.println(b.methodB(2));\n    }\n}",
+                "options": {
+                    "a": "4",
+                    "b": "6",
+                    "c": "2",
+                    "d": "8"
+                },
+                "answer": "a",
+                "explanation": "methodB(2) calculates 2 * 2, which equals 4. This value is then returned."
+            },
+            {
+                "q": "A method that potentially generates a checked exception must include this keyword in its method signature:",
+                "options": {
+                    "a": "throw",
+                    "b": "extend",
+                    "c": "throws",
+                    "d": "extends"
+                },
+                "answer": "c",
+                "explanation": "Any Java class that generates a checked exception and does not handle it internally must use the throws keyword to alert other methods of its instability."
+            },
+            {
+                "q": "Which of the following statements is true about Java's finally block?",
+                "options": {
+                    "a": "The finally block is only executed if an exception is thrown in the try block",
+                    "b": "The finally block is only executed if an exception is thrown in the catch block",
+                    "c": "The finally block is only executed if an exception is not thrown in the try or catch block",
+                    "d": "The finally block is executed regardless of whether an exception is thrown in the try or catch block"
+                },
+                "answer": "d",
+                "explanation": "The finally block always executes, regardless of whether or not Java throws an exception in the try block."
+            },
+            {
+                "q": "Which of the following statements is true about exception handling in Java:",
+                "options": {
+                    "a": "A try block can have many catch blocks but only one finally block",
+                    "b": "A try block can have many catch blocks and many finally blocks",
+                    "c": "A try block must have one finally block for each catch block",
+                    "d": "A try block must have at least one catch block to have a finally block"
+                },
+                "answer": "a",
+                "explanation": "A try block can only have one finally block. However, multiple catches are allowed. It is even allowable to have no catch blocks and only a finally block."
+            },
+            {
+                "q": "What will be the output of the following program?\nclass Output {\n    public static void main(String args[]) {\n        try {\n            int a = 0;\n            int b = 5;\n            int c = b / a;\n            System.out.print(\"Hello\");\n        } catch (Exception e) {\n            System.out.print(\"World\");\n        } finally {\n            System.out.print(\"World\");\n        }\n    }\n}",
+                "options": {
+                    "a": "Hello",
+                    "b": "World",
+                    "c": "HelloWOrld",
+                    "d": "WorldWorld"
+                },
+                "answer": "d",
+                "explanation": "finally block is always executed after tryblock, no matter exception is found or not. catch block is executed only when exception is found. Here divide by zero exception is found hence both catch and finally are executed."
+            },
+            {
+                "q": "What will be the output of the following Java code?\nclass Output {\n    public static void main(String args[]) {\n        try {\n            int a = 0;\n            int b = 5;\n            int c = a / b;\n            System.out.print(\"Hello\");\n        } finally {\n            System.out.print(\"World\");\n        }\n    }\n}",
+                "options": {
+                    "a": "Hello",
+                    "b": "World",
+                    "c": "HelloWOrld",
+                    "d": "Compilation Error"
+                },
+                "answer": "c",
+                "explanation": "finally block is always executed after try block, no matter exception is found or not."
+            },
+            {
+                "q": "What will be the output of the following Java program?\ninterface calculate {\n    void cal(int item);\n}\nclass displayA implements calculate {\n    int x;\n    public void cal(int item) {\n        x = item * item;\n    }\n}\nclass displayB implements calculate {\n    int x;\n    public void cal(int item) {\n        x = item / item;\n    }\n}\nclass interfaces {\n    public static void main(String args[]) {\n        displayA arr1 = new displayA();\n        displayB arr2 = new displayB();\n        arr1.x = 0;\n        arr2.x = 0;\n        arr1.cal(2);\n        arr2.cal(2);\n        System.out.print(arr1.x + \" \" + arr2.x);\n    }\n}",
+                "options": {
+                    "a": "0 0",
+                    "b": "2 2",
+                    "c": "4 1",
+                    "d": "1 4"
+                },
+                "answer": "c",
+                "explanation": "class displayA implements the interface calculate by doubling the value of item, where as class displayB implements the interface by dividing item by item, therefore variable x of class displayA stores 4 and variable x of class displayB stores 1."
+            },
+            {
+                "q": "Which of the following exceptions is not a subclass of the RuntimeException class?",
+                "options": {
+                    "a": "NullPointerException",
+                    "b": "ArrayIndexOutOfBoundsException",
+                    "c": "IOException",
+                    "d": "ArithmeticException"
+                },
+                "answer": "c",
+                "explanation": "IOException is not a subclass of the RuntimeException class. It is a checked exception in Java."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "What is the output of the following program?\npublic class Question {\n public static void main(String[] args) {\n try {\n int a = 5 / 0;\n }\n catch (Exception e) {\n catch (ArithmeticException a) {\n System.out.println(\"Cannot divide by 0\");\n }\n }\n System.out.println(\"Hello World\");\n }\n}",
+                "options": {
+                    "a": "\"Hello World\"",
+                    "b": "\"Cannot divide by 0\"",
+                    "c": "Compilation Error",
+                    "d": "Runtime Error (the code compiles successfully)"
+                },
+                "answer": "c",
+                "explanation": "This first handler catches exceptions of type Exception; therefore, it catches any exception, including ArithmeticException. The second handler could never be reached. This code will not compile."
+            },
+            {
+                "q": "What will be the output of the following program?\nclass Question {\n int i;\n public Question(int i) {\n this.i = i--;\n }\n}\nclass Question1 extends Question {\n public Question1(int i) {\n super(++i);\n System.out.println(i);\n }\n}\npublic class Check {\n public static void main(String[] args) {\n Question1 n = new Question1(20);\n }\n}",
+                "options": {
+                    "a": "20",
+                    "b": "21",
+                    "c": "19",
+                    "d": "22"
+                },
+                "answer": "b",
+                "explanation": "The program creates an instance of Question1 with an initial value of 20. Inside the Question1 constructor, i is pre-incremented to 21 before being passed to the Question superclass constructor. In the Question constructor, this.i is assigned the value 21 (from i-- which uses i before decrementing it). Returning to the Question1 constructor, i is still 21, and this value is printed. Thus, the output is 21."
+            },
+            {
+                "q": "What is the output of the following program?\nclass Question {\n static int x;\n static {\n x++;\n }\n {\n ++x;\n }\n}\nclass Question1 extends Question {\n static {\n --x;\n }\n {\n x--;\n }\n}\npublic class Check {\n public static void main(String[] args) {\n System.out.println(new Question1().x);\n }\n}",
+                "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "0",
+                    "d": "Compilation Error"
+                },
+                "answer": "c",
+                "explanation": "When the Question class is loaded, its static block increments x to 1. Then, the Question1 class is loaded, and its static block decrements x back to 0. When an instance of Question1 is created, the instance initializer blocks run: Question's block increments x to 1, and Question1's block decrements x back to 0. Therefore, printing x in the main method outputs 0."
+            },
+            {
+                "q": "Which exception is thrown when an array element is accessed beyond the array size?",
+                "options": {
+                    "a": "ArrayElementOutOfBounds",
+                    "b": "ArrayIndexOutOfBoundsException",
+                    "c": "ArrayIndexOutOfBounds",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The exception that is thrown when an array element is accessed beyond the array size in Java is: ArrayIndexOutOfBoundsException. This is the specific exception in Java that indicates that an array has been accessed with an illegal index, either negative or greater than or equal to the size of the array. The other options listed do not represent valid exceptions in Java."
+            },
+            {
+                "q": "What is the output of the following program?\nclass Q {\n public void disp() {\n System.out.println(\"java\");\n }\n}\nclass P extends Q {\n public void disp() {\n System.out.println(\"nptel\");\n }\n}\nclass C extends P {\n public void disp(){\n super.super.disp();\n System.out.println(\"course\");\n }\n}\npublic class Question {\n public static void main(String[] args) {\n C c = new C();\n c.disp();\n }\n}",
+                "options": {
+                    "a": "java",
+                    "b": "java\ncourse",
+                    "c": "nptel\ncourse",
+                    "d": "Compilation Error"
+                },
+                "answer": "d",
+                "explanation": "The code attempts to use super.super.disp() in the C class, which is invalid in Java. Java does not support accessing a grandparent class's method directly using super.super. This syntax results in a compilation error because super can only be used to refer to the immediate superclass."
+            },
+            {
+                "q": "Fill in the blank in the program so that the output is \"Java\".\ninterface X {\n void display();\n}\nclass Y implements X {\n ___________ display() { //MISSING_CODE\n System.out.println(\"Java\");\n }\n}\npublic class MainClass {\n public static void main(String[] args) {\n Y r = new Y();\n r.display();\n }\n}",
+                "options": {
+                    "a": "public void",
+                    "b": "void",
+                    "c": "private void",
+                    "d": "static void"
+                },
+                "answer": "a",
+                "explanation": "Interface methods must be implemented as public. Because, interface methods are public by default and you should not reduce the visibility of any methods while overriding."
+            },
+            {
+                "q": "How many times will \"Java\" be printed if the following code is executed?\nclass X {\n static {\n Y.display();\n }\n}\nclass Y extends X {\n static void display() {\n System.out.println(\"Java\");\n }\n}\npublic class MainClass {\n public static void main(String[] args) {\n Y.display();\n }\n}",
+                "options": {
+                    "a": "0",
+                    "b": "1",
+                    "c": "2",
+                    "d": "3"
+                },
+                "answer": "c",
+                "explanation": "When the code is executed, the static block in class X is executed first, which calls Y.display(). This prints \"Java\" once. Then, in the main method of MainClass, Y.display() is called again, resulting in \"Java\" being printed for the second time. Thus, \"Java\" is printed twice in total."
+            },
+            {
+                "q": "The following is a simple program using the concept of thread. What is the output of the following program?\npublic class Question extends Thread {\n public void run() {\n for (int i = 1; i < 8; i++) {\n System.out.print(++i + \" \");\n }\n }\n public static void main(String args[]) {\n Question t1 = new Question();\n t1.run();\n }\n}",
+                "options": {
+                    "a": "1 3 5 7",
+                    "b": "2 4 6 8",
+                    "c": "1 3 5 7 9",
+                    "d": "2 4 6"
+                },
+                "answer": "b",
+                "explanation": "The increment operators increase the value of i to 2 in the first run. Afterwards, two increments are happening till i < 8 condition is not satisfied."
+            },
+            {
+                "q": "For the program given below, what will be the output after its execution?\npublic class Main {\n public static void main(String[] args) {\n Thread thread = Thread.currentThread();\n thread.run();\n System.out.print(Thread.activeCount());\n }\n}",
+                "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "0",
+                    "d": "01"
+                },
+                "answer": "a",
+                "explanation": "java.lang.Thread.activeCount() : Returns an estimate of the number of active threads in the current thread's thread group and its subgroups."
+            },
+            {
+                "q": "Which of the following method returns a reference to the currently executing thread object?",
+                "options": {
+                    "a": "public static boolean interrupted();",
+                    "b": "public static Thread currentThread();",
+                    "c": "public final boolean isAlive();",
+                    "d": "public final void suspend();"
+                },
+                "answer": "b",
+                "explanation": "Only public static Thread currentThread() method returns a reference to the currently executing thread object among the options."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Which of these exception is thrown in cases when the file specified for writing is not found?",
+                "options": {
+                    "a": "IOException",
+                    "b": "FileException",
+                    "c": "FileNotFoundException",
+                    "d": "FileInputException"
+                },
+                "answer": "c",
+                "explanation": "In cases when the file specified is not found, then FileNotFoundException is thrown by java run-time system, earlier versions of java used to throw IOException but after Java 2.0 they throw FileNotFoundException."
+            },
+            {
+                "q": "Which of these values is returned by read() method is end of file (EOF) is encountered?",
+                "options": {
+                    "a": "0",
+                    "b": "1",
+                    "c": "-1",
+                    "d": "Null"
+                },
+                "answer": "c",
+                "explanation": "Each time read() is called, it reads a single byte from the file and returns the byte as an integer value. read() returns -1 when the end of the file is encountered."
+            },
+            {
+                "q": "What will be the output of the following Java program?\nimport java.io.*;\nclass Chararrayinput {\n public static void main(String[] args) {\n String obj = \"abcdef\";\n int length = obj.length();\n char c[] = new char[length];\n obj.getChars(0, length, c, 0);\n CharArrayReader input1 = new CharArrayReader(c);\n CharArrayReader input2 = new CharArrayReader(c, 0, 3);\n int i;\n try {\n while ((i = input2.read()) != -1) {\n System.out.print((char) i);\n }\n } catch (IOException e) {\n e.printStackTrace();\n }\n }\n}",
+                "options": {
+                    "a": "abc",
+                    "b": "abcd",
+                    "c": "abcde",
+                    "d": "abcdef"
+                },
+                "answer": "a",
+                "explanation": "A while loop reads characters from input2 until the end of the stream is reached (i.e., read() returns -1). Each character read is cast to a char and printed."
+            },
+            {
+                "q": "What is the purpose of a ByteArrayOutputStream in Java?",
+                "options": {
+                    "a": "To write binary data to an output stream",
+                    "b": "To read binary data from an input stream",
+                    "c": "To convert characters to bytes",
+                    "d": "To store binary data in memory"
+                },
+                "answer": "d",
+                "explanation": "The ByteArrayOutputStream class is used to store binary data in memory. It provides a byte array that can be accessed and manipulated."
+            },
+            {
+                "q": "Which method is used to read b length bytes from the input stream into an array?",
+                "options": {
+                    "a": "public void read(int b)throws IOException{{",
+                    "b": "public int read(byte[ ] b)throws IOException{}",
+                    "c": "public void read(byte[ ] b)throws IOException{}",
+                    "d": "public int read(int b)throws IOException{}"
+                },
+                "answer": "b",
+                "explanation": "public int read(byte[ ] b)throws IOException{} is used to read b length bytes from the input stream into an array."
+            },
+            {
+                "q": "Which method is used to create a directory with fileattributes?",
+                "options": {
+                    "a": "Path.create()",
+                    "b": "Path.createDirectory()",
+                    "c": "Files.createDirectory(path, fileAttributes)",
+                    "d": "Files.create(fileAttributes)"
+                },
+                "answer": "c",
+                "explanation": "New directory can be created using Files.createDirectory(path, fileAttribute)."
+            },
+            {
+                "q": "What will be the output of the following Java program?\npublic class Calculator {\n int num = 100;\n public void calc(int num) {\n this.num = num * 10;\n }\n public void printNum() {\n System.out.println(num);\n }\n public static void main(String[] args) {\n Calculator obj = new Calculator();\n obj.calc(2);\n obj.printNum();\n }\n}",
+                "options": {
+                    "a": "20",
+                    "b": "100",
+                    "c": "1000",
+                    "d": "2"
+                },
+                "answer": "a",
+                "explanation": "Here the class instance variable name(num) is same as calc() method local variable name(num). So for referencing class instance variable from calc() method, this keyword is used. So in statement this.num = num * 10, num represents local variable of the method whose value is 2 and this.num represents class instance variable whose initial value is 100. Now in printNum() method, as it has no local variable whose name is same as class instance variable, so we can directly use num to reference instance variable, although this.num can be used."
+            },
+            {
+                "q": "Which class is used to write primitive data types to an output stream in Java?",
+                "options": {
+                    "a": "DataOutputStream",
+                    "b": "ObjectOutputStream",
+                    "c": "OutputStream",
+                    "d": "PrintWriter"
+                },
+                "answer": "a",
+                "explanation": "The DataOutputStream class is used to write primitive data types to an output stream. It provides methods to write data types like int, double, boolean, etc., to the stream."
+            },
+            {
+                "q": "What will be the output of the following code?\nimport java.io.*;\npublic class W7 {\n public static void main(String[] args) {\n try {\n PrintWriter writer = new PrintWriter(System.out);\n writer.write(9 + 97);\n writer.close();\n } catch (Exception e) {\n System.out.println(e);\n }\n }\n}",
+                "options": {
+                    "a": "It will give compile-time error",
+                    "b": "It will give run-time error",
+                    "c": "j",
+                    "d": "106"
+                },
+                "answer": "c",
+                "explanation": "The output of this program will be the character 'j' because the Unicode code point for 106 corresponds to 'j'."
+            },
+            {
+                "q": "What will be the output of the following code.\nfile.txt contain \"This is Programming in Java online course.\" (without quotes)\nimport java.io.File;\nclass FileSizeEample {\n public static void main(String[] args) {\n // Specify the file path\n String filePath = \"file.txt\";\n // Create a File object\n File file = new File(filePath);\n // Get the size of the file\n long fileSize = file.length();\n // Print the size of the file\n System.out.println(fileSize);\n }\n}",
+                "options": {
+                    "a": "42",
+                    "b": "35",
+                    "c": "7",
+                    "d": "0"
+                },
+                "answer": "a",
+                "explanation": "The length() method on the File object, which returns the size of the file in bytes."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "What does AWT stand for in Java?",
+                "options": {
+                    "a": "Applet Windowing Toolkit",
+                    "b": "Abstract Window Toolkit",
+                    "c": "Absolute Windowing Toolkit",
+                    "d": "Amazing Window Toolkit"
+                },
+                "answer": "b",
+                "explanation": "The Abstract Window Toolkit (AWT) is Java's original platform-dependent windowing, graphics, and user-interface widget toolkit, preceding Swing."
+            },
+            {
+                "q": "In Java, what is the purpose of a Card Layout?",
+                "options": {
+                    "a": "To create a card game interface",
+                    "b": "To arrange components in a card-like fashion",
+                    "c": "To manage multiple panels within a single container",
+                    "d": "To display images of cards"
+                },
+                "answer": "c",
+                "explanation": "Card Layout allows you to manage multiple panels within a single container, where only one panel is visible at a time."
+            },
+            {
+                "q": "Which layout manager divides the container into five regions: North, South, East, West, and Center?",
+                "options": {
+                    "a": "Border Layout",
+                    "b": "Grid Layout",
+                    "c": "Flow Layout",
+                    "d": "Card Layout"
+                },
+                "answer": "a",
+                "explanation": "Border Layout divides the container into five regions, and components can be added to each region: North, South, East, West, and Center."
+            },
+            {
+                "q": "In Java, what is the primary purpose of a layout manager?",
+                "options": {
+                    "a": "To manage memory allocation",
+                    "b": "To arrange GUI components within a container",
+                    "c": "To handle exception handling",
+                    "d": "To control database connections"
+                },
+                "answer": "b",
+                "explanation": "A layout manager in Java is responsible for arranging and positioning GUI components within a container."
+            },
+            {
+                "q": "What will be the output of the Java code given below?\nimport java.awt.*;\nimport java.awt.event.*;\npublic class ButtonExample extends Frame {\n public static void main(String[] args) {\n ButtonExample frame = new ButtonExample();\n Button b = new Button(\"Programming in Java - 2024\");\n b.setBounds(30, 50, 80, 30);\n frame.add(b);\n frame.setSize(300, 200);\n frame.setLayout(null);\n frame.setVisible(true);\n }\n}",
+                "options": {
+                    "a": "Compilation error",
+                    "b": "An empty frame with no button",
+                    "c": "A frame with a button \"Programming in Java - 2024\" at coordinates (30, 50)",
+                    "d": "A frame with a button, but not at the specified coordinates"
+                },
+                "answer": "c",
+                "explanation": "The code creates a frame and adds a button with the label \"Programming in Java - 2024\" at coordinates (30, 50)."
+            },
+            {
+                "q": "Which layout manager arranges components in a top-to-bottom flow, adding them to the next available position?",
+                "options": {
+                    "a": "Grid Layout",
+                    "b": "Flow Layout",
+                    "c": "Border Layout",
+                    "d": "Card Layout"
+                },
+                "answer": "b",
+                "explanation": "Flow Layout arranges components in a top-to-bottom, left-to-right flow, adding them to the next available position in the container."
+            },
+            {
+                "q": "What is the significance of AWT components being heavyweight?",
+                "options": {
+                    "a": "They have higher memory requirements",
+                    "b": "They are slower in performance",
+                    "c": "They are dependent on the underlying operating system",
+                    "d": "They are easier to customize"
+                },
+                "answer": "c",
+                "explanation": "AWT components being heavyweight means they rely on the native components of the underlying operating system, which can affect their appearance and behavior."
+            },
+            {
+                "q": "Which AWT concept allows you to handle events such as button clicks or mouse movements?",
+                "options": {
+                    "a": "Event Handling",
+                    "b": "Function Overloading",
+                    "c": "Mouse Manager",
+                    "d": "GUI Processing"
+                },
+                "answer": "a",
+                "explanation": "Event Handling in AWT enables the response to user actions, such as button clicks or mouse movements, in a graphical user interface."
+            },
+            {
+                "q": "Which layout manager organizes components in a grid, with each cell of the grid containing a component?",
+                "options": {
+                    "a": "Flow Layout",
+                    "b": "Grid Layout",
+                    "c": "Border Layout",
+                    "d": "Card Layout"
+                },
+                "answer": "b",
+                "explanation": "Grid Layout organizes components in a grid, and each cell of the grid contains a component. Components are added in a left-to-right, top-to-bottom order."
+            },
+            {
+                "q": "What is the layout manager used in the Java code given below?\nimport java.awt.*;\npublic class LayoutExample extends Frame {\n public static void main(String[] args) {\n LayoutExample frame = new LayoutExample();\n Button b1 = new Button(\"Button 1\");\n Button b2 = new Button(\"Button 2\");\n Button b3 = new Button(\"Button 3\");\n frame.add(b1);\n frame.add(b2);\n frame.add(b3);\n // create a flow layout\n frame.setLayout(new FlowLayout());\n frame.setLayout(new GridLayout(2, 2));\n frame.setSize(300, 200);\n frame.setVisible(true);\n }\n}",
+                "options": {
+                    "a": "Grid Layout",
+                    "b": "Border Layout",
+                    "c": "Flow Layout",
+                    "d": "Card Layout"
+                },
+                "answer": "a",
+                "explanation": "The code sets the layout manager of the frame to a 2x2 grid layout using frame.setLayout(new GridLayout(2, 2)). The FlowLayout gets overridden by the GridLayout, you can try to comment out the GridLayout line to see the difference."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "Which of the following is a one-line input field that allows the user to choose a number or an object value from an ordered sequence?",
+                "options": {
+                    "a": "JTextarea",
+                    "b": "Jtextfield",
+                    "c": "Jspinner",
+                    "d": "Jslider"
+                },
+                "answer": "c",
+                "explanation": "A JSpinner is a one-line input field that allows the user to choose a number or an object value from an ordered sequence."
+            },
+            {
+                "q": "What is true about the following code.\nimport javax.swing.*;\npublic class Nptel {\n public static void main(String[] args) {\n JFrame frame = new JFrame(\"My Frame\");\n frame.add(new JButton(\"OK\"));\n frame.add(new JButton(\"Cancel\"));\n frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n frame.setSize(200, 200);\n frame.setVisible(true);\n }\n}",
+                "options": {
+                    "a": "Both \"OK\" and \"Cancel\" button is added, but only \"Cancel\" button is visble.",
+                    "b": "Only \"OK\" button is added and visible, \"Cancel\" button is not added.",
+                    "c": "Only \"Cancel\" button will be added and visible, \"OK\" button is not added.",
+                    "d": "Code throws an ERROR."
+                },
+                "answer": "a",
+                "explanation": "By default, the layout of the content pane in a JFrame is BorderLayout. Button OK is placed in the center of content pane, then button Cancel is placed in the same place. So you only can see button Cancel."
+            },
+            {
+                "q": "Which of the following is a container for other components and is used to build bespoke panels for organizing and arranging components?",
+                "options": {
+                    "a": "JPanel",
+                    "b": "JFrame",
+                    "c": "JCombo",
+                    "d": "JBox"
+                },
+                "answer": "a",
+                "explanation": "JPanel is a container for other components and is used to build bespoke panels for organizing and arranging components."
+            },
+            {
+                "q": "Which of the following component gives a drop-down list of options from which to choose?",
+                "options": {
+                    "a": "JPanel",
+                    "b": "JButton",
+                    "c": "JComboBox",
+                    "d": "Jbox"
+                },
+                "answer": "c",
+                "explanation": "JComboBox component gives a drop-down list of options from which to choose."
+            },
+            {
+                "q": "Which of the following Swing components inherently support the WindowListener interface?",
+                "options": {
+                    "a": "Swing frames (JFrame)",
+                    "b": "Swing checkboxes (JCheckBox)",
+                    "c": "None of these",
+                    "d": "Swing combo boxes (JComboBox)"
+                },
+                "answer": "a",
+                "explanation": "Swing frames (JFrame) and Swing dialogs (JDialog) Swing components inherently support the WindowListener interface."
+            },
+            {
+                "q": "Which class in Swing provides a graphical way to display images, icons, or custom graphics?",
+                "options": {
+                    "a": "JImage",
+                    "b": "JLabel",
+                    "c": "JImageIcon",
+                    "d": "JDialog"
+                },
+                "answer": "b",
+                "explanation": "JLabel is used to display images, icons, or custom graphics."
+            },
+            {
+                "q": "What is/are the way(s) to create a Frame in Java Swing?",
+                "options": {
+                    "a": "By creating the object of Frame class (association)",
+                    "b": "None of these",
+                    "c": "By importing a package named JFrame",
+                    "d": "By declaring a class with name JFrame"
+                },
+                "answer": "a",
+                "explanation": "We can create a frame component by creating the object of Frame class (association) and by extending Frame class (inheritance)."
+            },
+            {
+                "q": "Which method is used to set the graphics current color to the specified color in the graphics class?",
+                "options": {
+                    "a": "public abstract void setFont(Font font)",
+                    "b": "public abstract void setColor(Color c)",
+                    "c": "public abstract void drawString(String str, int x, int y)",
+                    "d": "None of the above"
+                },
+                "answer": "b",
+                "explanation": "The method used to set the graphics current color to the specified color in the Graphics class is: public abstract void setColor(Color c)."
+            },
+            {
+                "q": "When are the keyboard events fired?",
+                "options": {
+                    "a": "When the user manually calls the button",
+                    "b": "When the user right clicks the mouse",
+                    "c": "When the user calls the modifier",
+                    "d": "When the user clicks a key"
+                },
+                "answer": "d",
+                "explanation": "The keydown and keyup are the keyboard events are fired when the user presses or releases a key on the keyboard. They are generated for modifier keys, function keys, and alphanumeric keys."
+            },
+            {
+                "q": "Which of the following function is used to specify the layout of a container.",
+                "options": {
+                    "a": "UseLayeout()",
+                    "b": "setLayout()",
+                    "c": "layout()",
+                    "d": "DesignLayout()"
+                },
+                "answer": "b",
+                "explanation": "The setLayout() function is used to specify the layout of a container."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "What will be the output of the following Java program?\nimport java.net.*;\npublic class NPTEL {\n public static void main(String[] args) {\n try {\n URI uri = new URI(\"https://nptel.ac.in/\");\n URL url = uri.toURL();\n System.out.println(\"Protocol: \" + url.getProtocol());\n System.out.println(\"Host Name: \" + url.getHost());\n System.out.println(\"Port Number: \" + url.getPort());\n } catch (Exception e) {\n System.out.println(e);\n }\n }\n}",
+                "options": {
+                    "a": "Protocol: https",
+                    "b": "Host Name: nptel.ac.in",
+                    "c": "Port Number: -1",
+                    "d": "All of the mentioned"
+                },
+                "answer": "d",
+                "explanation": "getProtocol() gives protocol which is https. getUrl() gives domain name which is nptel.ac.in. getPort() returns -1 since port is not explicitly set."
+            },
+            {
+                "q": "What will be the output of the following Java program?\nimport java.net.*;\nclass NPTEL {\n public static void main(String[] args) throws UnknownHostException {\n InetAddress obj1 = InetAddress.getByName(\"nptel.ac.in\");\n System.out.print(obj1.getHostName());\n }\n}",
+                "options": {
+                    "a": "nptel",
+                    "b": "nptel.ac.in",
+                    "c": "www.nptel.ac.in",
+                    "d": "None of the mentioned"
+                },
+                "answer": "b",
+                "explanation": "The host name is nptel.ac.in. It is printed when getHostName() is called."
+            },
+            {
+                "q": "Which class provides methods to work with URLs?",
+                "options": {
+                    "a": "URLConnection",
+                    "b": "HttpURL",
+                    "c": "NetURL",
+                    "d": "URL"
+                },
+                "answer": "d",
+                "explanation": "The URL class provides methods to work with Uniform Resource Locators."
+            },
+            {
+                "q": "Which exception is thrown when a connection cannot be established with a remote server?",
+                "options": {
+                    "a": "IOException",
+                    "b": "UnknownHostException",
+                    "c": "ConnectionException",
+                    "d": "NetworkException"
+                },
+                "answer": "b",
+                "explanation": "UnknownHostException is thrown if no IP address for the host could be found, or if a scope_id was specified for a global IPv6 address."
+            },
+            {
+                "q": "Which class provides methods to create a client-side socket in Java?",
+                "options": {
+                    "a": "ServerSocket",
+                    "b": "NetSocket",
+                    "c": "Socket",
+                    "d": "ClientSocket"
+                },
+                "answer": "c",
+                "explanation": "The Socket class in the java.net package is used to create client-side sockets."
+            },
+            {
+                "q": "Which of the following statement is TRUE?",
+                "options": {
+                    "a": "With stream sockets there is no need to establish any connection and data flows between the processes are as continuous streams",
+                    "b": "Stream sockets are said to provide a connection-less service and UDP protocol is used",
+                    "c": "Datagram sockets are said to provide a connection-oriented service and TCP protocol is used",
+                    "d": "With datagram sockets there is no need to establish any connection and data flows between the processes are as packets"
+                },
+                "answer": "d",
+                "explanation": "The datagram sockets allow communication without establishing any connection."
+            },
+            {
+                "q": "The server listens for a connection request from a client using which of the following statement?",
+                "options": {
+                    "a": "Socket s = new Socket(ServerName, port);",
+                    "b": "Socket s = serverSocket.accept()",
+                    "c": "Socket s = serverSocket.getSocket()",
+                    "d": "Socket s = new Socket(ServerName);"
+                },
+                "answer": "b",
+                "explanation": "The serverSocket.accept() method is used by the server to listen for and accept incoming connection requests from clients."
+            },
+            {
+                "q": "Which of the following is/are application layer protocol(s)?",
+                "options": {
+                    "a": "TCP",
+                    "b": "UDP",
+                    "c": "ARP",
+                    "d": "SMTP"
+                },
+                "answer": "d",
+                "explanation": "TCP, UDP are transport layer protocols. ARP is a Network - IP layer protocol. SMTP is Application layer protocol."
+            },
+            {
+                "q": "In the following URL, identify the Resource name?\nhttps://nptel.ac.in",
+                "options": {
+                    "a": "https",
+                    "b": "nptel.ac.in",
+                    "c": "ac.in",
+                    "d": "nptel"
+                },
+                "answer": "b",
+                "explanation": "Resource name is nptel.ac.in. In the URL https://nptel.ac.in, the resource name typically refers to the domain name or hostname, which in this case is nptel.ac.in."
+            },
+            {
+                "q": "What does this Java code snippet do?\nimport java.net.*;\npublic class NPTEL {\n public static void main(String[] args) {\n try {\n InetAddress address = InetAddress.getByName(\"nptel.ac.in\");\n System.out.println(\"Host Name: \" + address.getHostName());\n System.out.println(\"IP Address: \"+ address.getHostAddress());\n } catch (Exception e) {\n System.out.println(e);\n }\n }\n}",
+                "options": {
+                    "a": "Just prints the IP address of the local machine",
+                    "b": "Prints the IP address and host name of the local machine",
+                    "c": "Prints the IP address and host name of \"nptel.ac.in\"",
+                    "d": "Just prints the IP address of \"nptel.ac.in\""
+                },
+                "answer": "c",
+                "explanation": "The code snippet retrieves and prints the IP address and host name of the specified domain \"nptel.ac.in\"."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "How do you establish a connection to a database using JDBC?",
+                "options": {
+                    "a": "By creating an instance of the Connection interface",
+                    "b": "By using the DriverManager.getConnection() method",
+                    "c": "By implementing the Connection interface",
+                    "d": "By extending the Connection class"
+                },
+                "answer": "b",
+                "explanation": "To establish a connection to a database using JDBC, you use the DriverManager.getConnection() method. This method takes a JDBC URL, username, and password as parameters and returns a Connection object."
+            },
+            {
+                "q": "Which method executes a simple query and returns a single Result Set object?",
+                "options": {
+                    "a": "executeQuery()",
+                    "b": "executeUpdate()",
+                    "c": "execute()",
+                    "d": "run()"
+                },
+                "answer": "a",
+                "explanation": "The executeQuery() method is used to execute a simple SQL query that returns a single ResultSet object."
+            },
+            {
+                "q": "What is the correct order to close database resources?",
+                "options": {
+                    "a": "Connection then Statement then ResultSet",
+                    "b": "ResultSet then Statement then Connection",
+                    "c": "Statement then Connection then ResultSet",
+                    "d": "Statement then ResultSet then Connection"
+                },
+                "answer": "b",
+                "explanation": "The correct order to close database resources is to first close the ResultSet, then the Statement, and finally the Connection. This ensures that all resources are properly released in the correct sequence."
+            },
+            {
+                "q": "Which of the following ensures that the correct driver is used to access each data source.",
+                "options": {
+                    "a": "java.sql.Connection",
+                    "b": "java.sql.DriverManager",
+                    "c": "java.sql.Statement",
+                    "d": "java.sql.Driver"
+                },
+                "answer": "b",
+                "explanation": "The DriverManager class ensures that the correct driver is used to access each data source. It manages a list of database drivers and handles establishing connections to the database."
+            },
+            {
+                "q": "What is the purpose of the ResultSet interface in JDBC?",
+                "options": {
+                    "a": "To store the result of a query",
+                    "b": "To execute SQL queries",
+                    "c": "To manage database connections",
+                    "d": "To update data in the database"
+                },
+                "answer": "a",
+                "explanation": "The ResultSet interface in JDBC represents the result set returned by a query. It provides methods to navigate through the result set, retrieve data, and get information about the columns in the result set."
+            },
+            {
+                "q": "The following is a statement in Java using JDBC.\nConnection con = DriverManager.getConnection(\n \"jdbc:mysql://localhost:3306/nptel\",\"joy\",\"java\"\n );\nWhich of the following statement is FALSE?",
+                "options": {
+                    "a": "3306 is the default MySQL port",
+                    "b": "Database name is 'nptel'",
+                    "c": "The database server is hosted on IP 127.0.0.1",
+                    "d": "Password for 'java' user is 'joy'"
+                },
+                "answer": "d",
+                "explanation": "In the statement, joy is the username and java is the password. Therefore, statement d, which incorrectly claims that the password for the java user is joy, is false."
+            },
+            {
+                "q": "Which resources have their close() method called when this code runs?\npublic static void runQuery(Connection conn) throws SQLException {\n try (Statement stmt = conn.createStatement()) {\n ResultSet rs = stmt.executeQuery(\"select * from clowns\");\n rs.next();\n }\n}",
+                "options": {
+                    "a": "No close() methods are called",
+                    "b": "Only Statement",
+                    "c": "Only Statement and Connection",
+                    "d": "Only Statement and ResultSet"
+                },
+                "answer": "d",
+                "explanation": "Since this code opens Statement using a try-with-resources, Statement gets closed automatically at the end of the block. Further, closing a Statement automatically closes a ResultSet created by it."
+            },
+            {
+                "q": "Which of the following is used to call stored procedure?",
+                "options": {
+                    "a": "Statement",
+                    "b": "PreparedStatement",
+                    "c": "CallableStatment",
+                    "d": "CalledStatement"
+                },
+                "answer": "c",
+                "explanation": "CallableStatement is used in JDBC to call stored procedure from Java program."
+            },
+            {
+                "q": "The executeUpdate method can be used with",
+                "options": {
+                    "a": "Statements(Select and Update both)",
+                    "b": "Select statement",
+                    "c": "Update/delete/insert operations in the database",
+                    "d": "Only insert operation"
+                },
+                "answer": "c",
+                "explanation": "The executeUpdate method is used to execute SQL statements that change the data in the database, such as UPDATE, DELETE, and INSERT operations."
+            },
+            {
+                "q": "What does setAutoCommit(false) do?",
+                "options": {
+                    "a": "commits transaction after each query",
+                    "b": "explicitly commits transaction",
+                    "c": "does not commit transaction automatically after each query",
+                    "d": "never commits transaction"
+                },
+                "answer": "c",
+                "explanation": "setAutoCommit(false) does not commit transaction automatically after each query. That saves a lot of time of the execution and hence improves performance."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "Execution of the following SQL command\nSELECT * FROM myTable\nusing JDBC program will return a ResultSet object. This object is:",
+                "options": {
+                    "a": "Same as the myTable",
+                    "b": "All records in verbatim from the table",
+                    "c": "All records in verbatim from the table but those records with null values",
+                    "d": "All records in verbatim from the table but those records are not with null values"
+                },
+                "answer": "b",
+                "explanation": "When executing an SQL SELECT query using JDBC, the result is returned as a ResultSet object. This ResultSet object contains all the records (rows) returned by the SELECT query from the specified table (myTable in this case), without any filtering based on null values."
+            },
+            {
+                "q": "Which of the following method is used to set a frame, f with size 300 × 200 pixels?\nJFrame f = newJFrame();",
+                "options": {
+                    "a": "f.setSize(300, 200);",
+                    "b": "f.setSize(200, 300);",
+                    "c": "f.paint(300, 200);",
+                    "d": "f.setVisible(300, 200);"
+                },
+                "answer": "a",
+                "explanation": "The method setSize(int width, int height) is used to set the size of a JFrame (or any component) in Java Swing."
+            },
+            {
+                "q": "Consider the following program:\npublic class Question {\n public static void main(String[] args) {\n String str = \"NPTEL - Programming in JAVA - JULY 2024\";\n System.out.println(str.length());\n }\n}",
+                "options": {
+                    "a": "38",
+                    "b": "39",
+                    "c": "40",
+                    "d": "41"
+                },
+                "answer": "b",
+                "explanation": "The string \"NPTEL - Programming in JAVA - JULY 2024\" consists of 39 characters, including spaces and hyphens."
+            },
+            {
+                "q": "What is the output of the following program?\npublic class Test {\n public static void aMethod() throws Exception {\n try {\n throw new Exception();\n } finally {\n System.out.print(\"finally \");\n }\n }\n public static void main(String args[]) {\n try {\n aMethod();\n } catch (Exception e) {\n System.out.print(\"exception \");\n }\n System.out.print(\"finished \");\n }\n}",
+                "options": {
+                    "a": "finally",
+                    "b": "exception finished",
+                    "c": "finally exception finished",
+                    "d": "Compilation fails"
+                },
+                "answer": "c",
+                "explanation": "The finally block is executed first, then the exception is caught in main printing 'exception', and finally 'finished' is printed."
+            },
+            {
+                "q": "What is the output of the following program?\nclass Program {\n public static void main(String[] args) {\n int counter = 10;\n do {\n System.out.print(2 / counter);\n counter--;\n } while (counter > 2);\n }\n}",
+                "options": {
+                    "a": "00000012",
+                    "b": "00000000",
+                    "c": "10011001",
+                    "d": "12211221"
+                },
+                "answer": "b",
+                "explanation": "The program uses integer division which results in 0 for all iterations since 2 divided by any number greater than 2 gives 0 in integer division."
+            },
+            {
+                "q": "What should be the value of X and Y for the output of the below program to be 36?\npublic class Question {\n public static void main(String[] args) {\n int X = 4;\n int Y = 5;\n int sum = 0;\n for (int i = 0; i < X; i++) {\n for (int j = i; j < Y; j++) {\n sum = sum + j;\n }\n }\n System.out.print(sum);\n }\n}",
+                "options": {
+                    "a": "X = 6 and Y = 5",
+                    "b": "X = 2 and Y = 7",
+                    "c": "X = 1 and Y = 10",
+                    "d": "X = 4 and Y = 5"
+                },
+                "answer": "d",
+                "explanation": "When X = 4 and Y = 5, the nested loops calculate a sum that equals 36."
+            },
+            {
+                "q": "Which of the following options correctly initializes the elements of the numbers array with values 1, 2, 3, 4, and 5?\npublic class NPTEL {\n public static void main(String[] args) {\n int[] numbers = new int[5];\n // #1 : Missing code block\n System.out.println(\"First element: \" + numbers[0]);\n }\n}",
+                "options": {
+                    "a": "numbers = {1, 2, 3, 4, 5};",
+                    "b": "for (int i = 1; i < numbers.length; i++) {\n    numbers[i] = i;\n}",
+                    "c": "numbers[] = {1, 2, 3, 4, 5};",
+                    "d": "numbers = new int[]{1, 2, 3, 4, 5};"
+                },
+                "answer": "d",
+                "explanation": "numbers = new int[]{1, 2, 3, 4, 5}; is the correct syntax for initializing an array with specific values."
+            },
+            {
+                "q": "Which of the following statements are correct and would NOT cause a compilation error?\ni. float[] = new float(3);\nii. float f1[] = new float[];\niii. float[] f2 = new float[3];\niv. float f3[] = new float[3];\nv. float f4[]= { 1.0f, 2.0f, 2.0f };\nvi. float f5[] = new float[] { 1.0f, 2.0f, 3.0f};",
+                "options": {
+                    "a": "iii, iv, v, vi",
+                    "b": "i, ii, iii, iv",
+                    "c": "ii, iii, v, vi",
+                    "d": "i, ii, iv, vi"
+                },
+                "answer": "a",
+                "explanation": "Options iii, iv, v and vi are syntactically correct for declaration of an array."
+            },
+            {
+                "q": "What will be the output of this program?\npublic class NPTEL {\n public static void main(String[] args) {\n String str1 = \"Hello\";\n String str2 = \"Hello\";\n String str3 = new String(\"Hello\");\n System.out.print((str1 == str2) + \" \");\n System.out.print(str1 == str3);\n }\n}",
+                "options": {
+                    "a": "true false",
+                    "b": "false true",
+                    "c": "true true",
+                    "d": "false false"
+                },
+                "answer": "a",
+                "explanation": "str1 and str2 are string literals and will be interned to the same memory location, so str1 == str2 will be true. However, str3 is created using the new keyword, so it will be stored in a different memory location, leading str1 == str3 to be false."
+            },
+            {
+                "q": "What will be the output of this program?\npublic class NPTEL {\n public static void main(String[] args) {\n try {\n int num = 10 / 0;\n System.out.println(num);\n } catch (ArithmeticException e) {\n System.out.println(\"Arithmetic exception occurred\");\n } finally {\n System.out.println(\"Finally block executed\");\n }\n }\n}",
+                "options": {
+                    "a": "Compilation ERROR",
+                    "b": "\"Finally block executed\"",
+                    "c": "\"Arithmetic exception occurred\nFinally block executed\"",
+                    "d": "Runtime ERROR"
+                },
+                "answer": "c",
+                "explanation": "The division by zero will throw an ArithmeticException, which will be caught in the catch block. Then, the finally block will be executed."
+            }
+        ]
+    },
+    "Introduction to Internet of Things": {
+        // PROMPT IS COPY EXACTLY FROM PROMPT Q, OPTION , DETAIL
+        "Assignment 0": [
+            {
+                "q": "Which of the following allows us to identify objects and extract information?",
+                "options": {
+                    "a": "RFID",
+                    "b": "Sensors",
+                    "c": "Actuators",
+                    "d": "IoT Nodes"
+                },
+                "answer": "a",
+                "explanation": "RFID Technology allows us to automatically identify and track tags that are attached to the objects. It extracts information from the tags through electromagnetic fields."
+            },
+            {
+                "q": "How many layers does Zigbee consist of?",
+                "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "3",
+                    "d": "4"
+                },
+                "answer": "d",
+                "explanation": "Zigbee consists of 4 layers: Physical, Medium Access Control, Network, and Application."
+            },
+            {
+                "q": "Which of the following is not a component of cloud computing?",
+                "options": {
+                    "a": "Clients",
+                    "b": "Local Servers",
+                    "c": "Services",
+                    "d": "Applications"
+                },
+                "answer": "b",
+                "explanation": "Cloud computing components include clients, services, applications, platform, storage, and infrastructure."
+            },
+            {
+                "q": "Which of the following is a distance measuring sensor module?",
+                "options": {
+                    "a": "DHT22",
+                    "b": "HC-SR04",
+                    "c": "TSL2591",
+                    "d": "HC-SR505"
+                },
+                "answer": "b",
+                "explanation": "HC-SR04 is the distance measuring module ultrasonic sensor, which measures the distance between 2cm~450cm."
+            },
+            {
+                "q": "Which of the following is a component in a typical sensor network?",
+                "options": {
+                    "a": "Sink",
+                    "b": "Gateway",
+                    "c": "Router",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "A typical sensor network comprises of sensor nodes, routers, gateway, and sink."
+            },
+            {
+                "q": "Which of the following sensors are responsible for measuring orientation and angular velocity?",
+                "options": {
+                    "a": "Accelerometer",
+                    "b": "GPS",
+                    "c": "Temperature",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "A gyroscope is responsible for measuring orientation and angular velocity."
+            },
+            {
+                "q": "\"ISA 100.11A\" is a wireless networking technology standard. ISA stands for _______.",
+                "options": {
+                    "a": "International Society of Automation",
+                    "b": "International Society of Advancement",
+                    "c": "Industrial Society of Automation",
+                    "d": "Industrial Society of Advancement"
+                },
+                "answer": "a",
+                "explanation": "ISA100.11a is a wireless networking technology standard developed by the International Society of Automation (ISA)."
+            },
+            {
+                "q": "Which of the following is not a difference between traditional data center and cloud computing?",
+                "options": {
+                    "a": "Scalability",
+                    "b": "Flexibility",
+                    "c": "Elasticity",
+                    "d": "Storage"
+                },
+                "answer": "d",
+                "explanation": "Major differences between traditional data center and cloud computing include scalability, flexibility, elasticity, automation, running costs, and security"
+            },
+            {
+                "q": "Smart grid is also known as the energy internet.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Smart grid is also known as the energy internet."
+            },
+            {
+                "q": "Can a point of node failure result in the partition of the network in the stationary sensor network?",
+                "options": {
+                    "a": "Yes",
+                    "b": "No"
+                },
+                "answer": "a",
+                "explanation": "If there is a failure in the stationary sensor network then it is likely that the point of failure can partition the network into two or more fragments."
+            }
+        ],
+        "Assignment 1": [
+            {
+                "q": "Which of the following are the enablers of IoT?",
+                "options": {
+                    "a": "RFID",
+                    "b": "Nanotechnology",
+                    "c": "Sensors",
+                    "d": "All of the these"
+                },
+                "answer": "d",
+                "explanation": "The enablers of IoT are – RFID, Nanotechnology, and Sensors."
+            },
+            {
+                "q": "Which of the following is/are NOT a characteristic of IoT?",
+                "options": {
+                    "a": "Efficient, scalable and associated architecture.",
+                    "b": "Ambiguous naming and addressing.",
+                    "c": "Abundance of sleeping nodes, mobile and non-IP devices.",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The characteristics of IoT are – efficient/scalable/associated architecture, unambiguous naming and addressing, and abundance of sleeping nodes/mobile/non-IP devices."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: The increasing number of devices in IoT is expected to result in an address crunch.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The increasing number of devices in IoT is expected to result in an address crunch."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: The gateway has a unique network prefix, which can be used to identify them globally.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The gateway has a unique network prefix, which can be used to identify them globally."
+            },
+            {
+                "q": "Sometimes, when there is a need for the nodes to communicate directly to the Internet, ______________ can be used.",
+                "options": {
+                    "a": "Sensors",
+                    "b": "Actuators",
+                    "c": "Tunneling",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Sometimes, there is a need for the nodes to communicate directly to the Internet. This is achieved by tunneling."
+            },
+            {
+                "q": "In _______________ a node/network is connected to multiple networks for improved reliability.",
+                "options": {
+                    "a": "Transparent roaming",
+                    "b": "Multi-homing",
+                    "c": "None of these",
+                    "d": "Both (a) and (b)"
+                },
+                "answer": "b",
+                "explanation": "In multi-homing, a node/network is connected to multiple networks for improved reliability."
+            },
+            {
+                "q": "The IPv6 notation uses ___________________ values.",
+                "options": {
+                    "a": "Roman",
+                    "b": "Hexadecimal",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The IPv6 notation uses hexadecimal values."
+            },
+            {
+                "q": "A _____________ detects (senses) changes in the ambient conditions or in the state of another device or a system, and forwards or processes this information in a certain manner.",
+                "options": {
+                    "a": "Sensor",
+                    "b": "Actuator",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "A sensor detects (senses) changes in the ambient conditions or in the state of another device or a system, and forwards or processes this information in a certain manner."
+            },
+            {
+                "q": "A microphone is an example of an _____________.",
+                "options": {
+                    "a": "Input device and actuator",
+                    "b": "Only actuator",
+                    "c": "Only Transducer",
+                    "d": "Input device and transducer"
+                },
+                "answer": "d",
+                "explanation": "A microphone is an example of an input device and transducer."
+            },
+            {
+                "q": "The ________________ of a sensor is the smallest change it can detect in the quantity that it is measuring.",
+                "options": {
+                    "a": "Resolution",
+                    "b": "Bias",
+                    "c": "Noise",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "The resolution of a sensor is the smallest change it can detect in the quantity that it is measuring."
+            },
+            {
+                "q": "Based on the data type, sensors are classified as _______________________.",
+                "options": {
+                    "a": "Scalar and Vector/Multimedia",
+                    "b": "Only scalar",
+                    "c": "Both (a) and (b)",
+                    "d": "Only vector"
+                },
+                "answer": "a",
+                "explanation": "Based on the data type, sensors are classified as Scalar and Vector/Multimedia."
+            },
+            {
+                "q": "Solenoid valve is an example of ______________________.",
+                "options": {
+                    "a": "Sensor",
+                    "b": "Actuator",
+                    "c": "Processing unit",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Solenoid valve is an example of actuator."
+            },
+            {
+                "q": "An actuator requires a ______________________ and ______________________.",
+                "options": {
+                    "a": "Control signal and a bias signal",
+                    "b": "Control signal and a source of energy",
+                    "c": "Noise signal and a source of energy",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "An actuator requires a control signal and source of energy."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: Pneumatic rack and pinion actuators are used for valve controls of water pipes.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Pneumatic rack and pinion actuators are used for valve controls of water pipes."
+            },
+            {
+                "q": "Which of the following is NOT a function of an IoT gateway?",
+                "options": {
+                    "a": "Switching",
+                    "b": "Routing",
+                    "c": "Protocol conversion",
+                    "d": "Generating noise"
+                },
+                "answer": "d",
+                "explanation": "Switching, routing, and protocol conversion are the functions of an IoT gateway."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "The full form of MQTT is",
+                "options": {
+                    "a": "Message Queue Telemetry Transport",
+                    "b": "Message Query Telemetry Transport",
+                    "c": "Message Queue Telemedicine Transport",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "The full form of MQTT is Message Queue Telemetry Transport."
+            },
+            {
+                "q": "In MQTT, a ________________ controls the publish-subscribe messaging pattern.",
+                "options": {
+                    "a": "Publishers",
+                    "b": "Message Broker",
+                    "c": "Subscribers",
+                    "d": "All of these"
+                },
+                "answer": "b",
+                "explanation": "In MQTT, a message broker controls the publish-subscribe messaging pattern."
+            },
+            {
+                "q": "Which of the following is NOT a component of MQTT?",
+                "options": {
+                    "a": "Publishers",
+                    "b": "Users",
+                    "c": "Brokers",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The three components of MQTT are – Publishers, Subscribers, and Brokers"
+            },
+            {
+                "q": "______________ is an extension of MQTT which uses lightweight attribute based encryption. It has ___________ main stages.",
+                "options": {
+                    "a": "SMQTT, three",
+                    "b": "BMQTT, three",
+                    "c": "SMQTT, four",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "SMQTT is an extension of MQTT which uses lightweight attribute based encryption. It has four main stages."
+            },
+            {
+                "q": "Which of the following is based on Request-Response model between end-points.",
+                "options": {
+                    "a": "MQTT",
+                    "b": "CoAP",
+                    "c": "Both (a) and (b)",
+                    "d": "Neither (a) nor (b)"
+                },
+                "answer": "b",
+                "explanation": "CoAP is based on Request-Response model between end-points."
+            },
+            {
+                "q": "The two sub-layers of CoAP are -",
+                "options": {
+                    "a": "Messaging and Holding",
+                    "b": "Messaging and Backoff",
+                    "c": "Messaging and Teardown",
+                    "d": "Messaging and Request/response"
+                },
+                "answer": "d",
+                "explanation": "CoAP has two sub-layers which are – Messaging and Request/response"
+            },
+            {
+                "q": "Which of the following is used for real-time exchange of structured data?",
+                "options": {
+                    "a": "MQTT",
+                    "b": "SMQTT",
+                    "c": "XMPP",
+                    "d": "CoAP"
+                },
+                "answer": "c",
+                "explanation": "XMPP is used for real-time exchange of structured data."
+            },
+            {
+                "q": "XMPP uses the ________________ architecture.",
+                "options": {
+                    "a": "Publish-subscribe",
+                    "b": "Client-server",
+                    "c": "Both (a) and (b)",
+                    "d": "Neither (a) nor (b)"
+                },
+                "answer": "b",
+                "explanation": "XMPP uses the client-server architecture."
+            },
+            {
+                "q": "With respect to AMQP, which of the following message delivery guarantees allow for each message to be delivered certainly as well as to be delivered multiple times.",
+                "options": {
+                    "a": "At-least-once",
+                    "b": "At-most-once",
+                    "c": "Exactly-once",
+                    "d": "Both (a) and (b)"
+                },
+                "answer": "a",
+                "explanation": "The message delivery guarantees of AMQP are – At-most-once (each message is delivered once or never), At-least-once (each message is certain to be delivered, but may do so multiple times), Exactly-once (message will always certainly arrive and do so only once)."
+            },
+            {
+                "q": "Which of the following is/are NOT an AMQP frame type?",
+                "options": {
+                    "a": "Open",
+                    "b": "Close",
+                    "c": "End",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Open, close, and end are valid frame types of the AMQP protocol."
+            },
+            {
+                "q": "Which of the following is/are NOT the function/functions of the Bindings component of the AMQP protocol?",
+                "options": {
+                    "a": "Receives messages and routes them to queues",
+                    "b": "Separate queues for separate business process",
+                    "c": "Consumer receive messages from queues",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The Bindings component of the AMQP protocol manages the rules for distributing messages (who can access what messages, destination of the message)"
+            },
+            {
+                "q": "Which of the following is/are NOT exchange types in AMQP?",
+                "options": {
+                    "a": "Direct",
+                    "b": "Indirect",
+                    "c": "Fan-out",
+                    "d": "Topic"
+                },
+                "answer": "b",
+                "explanation": "The AMQP exchange types are – Direct, Fan-out, Topic, Header"
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: The IEEE 802.15.4 is a well-known standard for low data-rate Wireless Personal Area Network (WPAN).",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The IEEE 802.15.4 is a well-known standard for low data-rate Wireless Personal Area Network (WPAN)."
+            },
+            {
+                "q": "The networking topologies supported in the IEEE 802.15.4 are -",
+                "options": {
+                    "a": "Only Star",
+                    "b": "Star and Mesh",
+                    "c": "Only Mesh",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The networking topologies defined in IEEE 802.15.4 are star and mesh."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: Periodic transmission of beacon messages does not occur in beacon enabled networks (IEEE 802.15.4).",
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "a",
+                "explanation": "Periodic transmission of beacon messages occur in beacon enabled networks (IEEE 802.15.4)."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Wired HART lacks a network layer.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Wired HART lacks a network layer."
+            },
+            {
+                "q": "The HART physical layer is derived from ____________ protocol and operates only in __________ GHz ISM band.",
+                "options": {
+                    "a": "IEEE 802.15.4, 2.4",
+                    "b": "IEEE 802.15.4, 4.8",
+                    "c": "IEEE 802.16.5, 4.8",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "The HART physical layer is derived from IEEE 802.15.4 protocol and operates only in 2.4 GHz ISM band."
+            },
+            {
+                "q": "State whether the following statement is True or False\nStatement: Super-frames in HART consist of grouped 20ms wide timeslots.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Super-frames in HART consist of grouped 10ms wide timeslots."
+            },
+            {
+                "q": "_________________ identifies channels consistently affected by interference and removes them from use.",
+                "options": {
+                    "a": "Channel hopping",
+                    "b": "Channel aggregating",
+                    "c": "Channel blacklisting",
+                    "d": "Frequency aggregating"
+                },
+                "answer": "c",
+                "explanation": "Channel Blacklisting identifies channels consistently affected by interference and removes them from use."
+            },
+            {
+                "q": "The _________________ supervises each node in the network and guides them on when and where to send packets.",
+                "options": {
+                    "a": "Application manager",
+                    "b": "Network manager",
+                    "c": "Trust manager",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The Network manager supervises each node in the network and guides them on when and where to send packets."
+            },
+            {
+                "q": "NFC is designed for use by devices within _________ to each other?",
+                "options": {
+                    "a": "Close proximity",
+                    "b": "No near contact",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "NFC is designed for use by devices within close proximity to each other."
+            },
+            {
+                "q": "______________ contain information which is readable by other devices, however it cannot read information itself.",
+                "options": {
+                    "a": "Active NFC devices",
+                    "b": "Dumb NFC devices",
+                    "c": "Passive NFC devices",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Passive NFC devices contain information which is readable by other devices, however it cannot read information itself."
+            },
+            {
+                "q": "NFC devices work on the principle of ___________________?",
+                "options": {
+                    "a": "Magnetic introduction",
+                    "b": "Magnetic induction",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "NFC devices work on the principle of magnetic induction."
+            },
+            {
+                "q": "Which of these is NOT a mode of operation NFC?",
+                "options": {
+                    "a": "Server-to-Server",
+                    "b": "Peer-to-Peer",
+                    "c": "Read/Write",
+                    "d": "Card emulation"
+                },
+                "answer": "a",
+                "explanation": "There are primarily three modes of operation in NFC as – Peer-to-peer, Read/Write, Card emulation"
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: Paging in Bluetooth is the process of forming a connection between two Bluetooth devices.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Paging in Bluetooth is the process of forming a connection between two Bluetooth devices."
+            },
+            {
+                "q": "There are ______ modes of operation in Bluetooth.",
+                "options": {
+                    "a": "3",
+                    "b": "4",
+                    "c": "5",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "There are 4 modes of operation in Bluetooth."
+            },
+            {
+                "q": "Zwave uses __________ for signaling and control?",
+                "options": {
+                    "a": "Light",
+                    "b": "RF",
+                    "c": "Sound",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Zwave uses RF for signaling and control."
+            },
+            {
+                "q": "Which of the following is/are not a constraint on sensor nodes?",
+                "options": {
+                    "a": "Must consume high power",
+                    "b": "Not be adaptive to the environment",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Sensor nodes must consume extremely low power and be adaptive to the environment."
+            },
+            {
+                "q": "___________ are simply those that are unable to perform an operation; this could be because of power failure and environmental events.",
+                "options": {
+                    "a": "Normal nodes",
+                    "b": "Failed nodes",
+                    "c": "Badly failed nodes",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Failed nodes are simply those that are unable to perform an operation; this could be because of power failure and environmental events."
+            },
+            {
+                "q": "Dumb behavior of sensor nodes is _______________ in nature (as it is dependent on the effects of the environmental conditions).",
+                "options": {
+                    "a": "Temporal",
+                    "b": "Spatial",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Dumb behavior of sensor nodes is Temporal in nature (as it is dependent on the effects of the environmental conditions)."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Coverage in WSN is defined as the area-of-interest is covered satisfactorily.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Coverage in WSN is defined as the area-of-interest is covered satisfactorily."
+            },
+            {
+                "q": "If transmission range >= 2* sensing range,",
+                "options": {
+                    "a": "Coverage implies greater coverage",
+                    "b": "Coverage implies connectivity",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "If transmission range >= 2* sensing range, coverage implies connectivity."
+            },
+            {
+                "q": "The two types of reporting in WSN are -",
+                "options": {
+                    "a": "Event driven and machine driven",
+                    "b": "Event driven and weather driven",
+                    "c": "Event driven and on demand",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The two types of reporting in WSN are Event driven and on demand"
+            },
+            {
+                "q": "The objective of coverage in WSN is to use a _______________ number of sensors and _______________ the network lifetime.",
+                "options": {
+                    "a": "minimum, minimize",
+                    "b": "minimum, maximize",
+                    "c": "maximum, minimize",
+                    "d": "maximum, maximize"
+                },
+                "answer": "b",
+                "explanation": "The objective of coverage in WSN is to use minimum number of sensors and maximize the network lifetime."
+            },
+            {
+                "q": "State true or false.\nThe disadvantages of stationary Wireless Sensor Networks are -\nStatement-I: Node failure may result in partition of networks.\nStatement-II: Topology cannot change automatically.",
+                "options": {
+                    "a": "Statement-I True, Statement-II False",
+                    "b": "Both Statements are False",
+                    "c": "Both Statements are True",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The disadvantages of stationary Wireless Sensor Networks are – Node failure may result in partition of networks and topology cannot change automatically."
+            },
+            {
+                "q": "A _________________ in MWSN moves in order to collect data from sensor nodes and goes to the sink and delivers the collected data from different sensor nodes.",
+                "options": {
+                    "a": "Drop",
+                    "b": "Molecule",
+                    "c": "Mule",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "A mule in MWSN moves in order to collect data from sensor nodes and goes to the sink and delivers the collected data from different sensor nodes."
+            },
+            {
+                "q": "________________ allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge.",
+                "options": {
+                    "a": "Voluntary sensing",
+                    "b": "Compressive sensing",
+                    "c": "Dynamic sensing",
+                    "d": "Participatory sensing"
+                },
+                "answer": "d",
+                "explanation": "Participatory sensing allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge."
+            },
+            {
+                "q": "Which of the following is/are NOT feature/features of UAV networks?",
+                "options": {
+                    "a": "Mesh or star networks",
+                    "b": "Multi-tasking",
+                    "c": "Large coverage area",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The following are the features of UAV networks - Mesh or star networks, Multi-tasking, Large coverage area"
+            },
+            {
+                "q": "Which of the following is NOT a UAV network constraint?",
+                "options": {
+                    "a": "Frequent link breakages",
+                    "b": "Prone to malfunction",
+                    "c": "Very Complex",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The following are UAV network constraints - Frequent link breakages, Prone to malfunction, Very Complex"
+            },
+            {
+                "q": "In _____________________ configuration, UAVs form multiple star topology. One node from each group connects to the ground station.",
+                "options": {
+                    "a": "Multi-star",
+                    "b": "Ring",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "In multi-star configuration, UAVs form multiple star topology. One node from each group connects to the ground station."
+            },
+            {
+                "q": "The full form of FANET is?",
+                "options": {
+                    "a": "Flying Ad Hoc Network",
+                    "b": "Fast Ad Hoc Network",
+                    "c": "Fidelity Ad Hoc Network",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "The full form of FANET is Flying Ad Hoc Network."
+            },
+            {
+                "q": "Low-end sensor nodes are -",
+                "options": {
+                    "a": "Whose deployment has high density in order to increase network lifetime and survivability.",
+                    "b": "Who perform basic functions such as data aggregation, auto configuration, and power saving.",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Low-end sensor nodes are those whose deployment has high density in order to increase network lifetime and survivability, and who perform basic functions such as data aggregation, auto configuration, and power saving."
+            },
+            {
+                "q": "Which of the following are the components of the M2M ecosystem?",
+                "options": {
+                    "a": "Trees",
+                    "b": "Ocean",
+                    "c": "Device Providers",
+                    "d": "Non-service users"
+                },
+                "answer": "c",
+                "explanation": "The components of the M2M ecosystem are – Device Providers, Internet Service Providers (ISPs), Platform Providers, Service Providers, Service Users"
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: The M2M Device Platform enables access to objects connected to the Internet anywhere any time.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The M2M Device Platform enables access to objects connected to the Internet anywhere any time."
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: The M2M Application Platform provides integrated services based on device collected data-sets.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The M2M Application Platform provides integrated services based on device collected data-sets."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Company ABC manufactures a room temperature monitor which sends data via protocol X and company MNO manufactures another kind of room temperature sensor which sends data via protocol Y. With respect to this, which among the following correctly captures the said scenario?",
+                "options": {
+                    "a": "Homogeneity of IoT",
+                    "b": "Heterogeneity of IoT"
+                },
+                "answer": "b",
+                "explanation": "IoT is characterized by heterogeneity where different kinds of devices, each communicating with different set of protocols are designed. Refer first part of Lecture 21."
+            },
+            {
+                "q": "When two IoT devices wish to communicate, semantic conflict in such a scenario in IoT interoperability refers to____________________.",
+                "options": {
+                    "a": "Two devices built by the same manufacturer",
+                    "b": "Two devices sensing the same physical parameter",
+                    "c": "Two devices having different deployment location",
+                    "d": "Two devices having different processing and business logic"
+                },
+                "answer": "d",
+                "explanation": "Semantic conflict refers to when different IoT devices have different processing and business execution logic. Refer Lecture 21@5:32"
+            },
+            {
+                "q": "Which of the following issues needs to be addressed while solving user interoperability?",
+                "options": {
+                    "a": "Device characterization and identification",
+                    "b": "Syntactic interoperability",
+                    "c": "Semantic interoperability",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "All of the options given should be addressed while solving user interoperability issues. Refer Lecture 21@15:16."
+            },
+            {
+                "q": "Which UMB interoperability component is responsible for converting physical devices into virtually abstracted ones?",
+                "options": {
+                    "a": "UMB Adaptor",
+                    "b": "UMB Core",
+                    "c": "UMB Hypervisor",
+                    "d": "UMB Abstractor"
+                },
+                "answer": "a",
+                "explanation": "UMB-A is responsible for converting physical devices into virtually abstracted ones. (Please refer Lecture 21@27:16)"
+            },
+            {
+                "q": "A Protocol Translation Unit (PTU) acts as a middleware between two IoT devices with different native protocols to enable them communicate with each other by translating the language of one device to the other one and vice versa.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Refer Lecture 21@22:16 and onwards where PTU has been explained."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "Python doesn't support strict rules for syntax and static variable declaration like C",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "As per Python program. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 4:23)"
+            },
+            {
+                "q": "Fill in the blanks. _____ is a data-type in Python.",
+                "options": {
+                    "a": "List",
+                    "b": "Tuple",
+                    "c": "Dictionary",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "As per Python program. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 15:18)"
+            },
+            {
+                "q": "Fill in the blanks. _____ are the variables declared inside a function.",
+                "options": {
+                    "a": "Immediate variables",
+                    "b": "Global variables",
+                    "c": "Local variables",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "As per Python program (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 25:41)."
+            },
+            {
+                "q": "What does the open() function return for file operations?",
+                "options": {
+                    "a": "File mode",
+                    "b": "File object",
+                    "c": "File name",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "As per the basics of Python programming. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @ 3:00)"
+            },
+            {
+                "q": "Python does not follow rigid indentation.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "As per the basics of Python programming. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 8:18)"
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Raspberry Pi is like a mini computer which can perform a wide range of general purpose tasks.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Raspberry Pi devices act just like mini computers and can be configured to perform many things. Refer to the lectures on Raspberry Pi"
+            },
+            {
+                "q": "What is the complete form of GPIO pins on Raspberry Pi devices.",
+                "options": {
+                    "a": "General Public Input/Output",
+                    "b": "Generative Purpose Input/Output",
+                    "c": "General Purpose Input/Output",
+                    "d": "Global Purpose Input/Output"
+                },
+                "answer": "c",
+                "explanation": "GPIO stands for General Purpose Input/Output. Refer to any standard documentation on Raspberry Pi. Also visit (https://projects.raspberrypi.org/en/projects/physical-computing/1)"
+            },
+            {
+                "q": "The Python program which you execute on Raspberry Pi to read data from sensors and control actuators has the same syntax and style as any other Python program.",
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "b",
+                "explanation": "It does not matter for what a Python program is written, all Python programs follow the same syntax and style."
+            },
+            {
+                "q": "During remote server access by a Raspberry Pi, where the Raspberry Pi acts as a client, the client needs the following?",
+                "options": {
+                    "a": "Only IP address of server",
+                    "b": "Only port number",
+                    "c": "Both server IP address and port number",
+                    "d": "Client's IP address"
+                },
+                "answer": "c",
+                "explanation": "A client can communicate with a server only if both IP address and port numbers are known. (Please refer Lecture 31@14:13)"
+            },
+            {
+                "q": "Which among the following are valid data processing activities",
+                "options": {
+                    "a": "Data Splitting",
+                    "b": "Data filtering",
+                    "c": "Data plotting",
+                    "d": "All of the given"
+                },
+                "answer": "d",
+                "explanation": "As per the basics of Python programming (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @19:44)."
+            },
+            {
+                "q": "Consider the following Python code snippet. Assume the syntax is correct and all required libraries are imported\nvar = 'Sensor@Actuator%Arduino'\npt = var.split('%')\nprint(pt)\nWhat will be the output (See every detail, including the apostrophes carefully)?",
+                "options": {
+                    "a": "['Sensor','Actuator','Arduino']",
+                    "b": "['Sensor@Actuator','Arduino']",
+                    "c": "['Sensor','Actuator%Arduino']",
+                    "d": "['Sensor@Actuator%Arduino']"
+                },
+                "answer": "b",
+                "explanation": "As per Python programming directives and the working of the split function(). Refer Python documentation and Lecture 32@26:00"
+            },
+            {
+                "q": "Which among the following functions do you use while using MATPLOTLIB to add title to a plot?",
+                "options": {
+                    "a": "plot()",
+                    "b": "add()",
+                    "c": "label()",
+                    "d": "title()"
+                },
+                "answer": "d",
+                "explanation": "The title(<name_of_title>) functions adds title to a plot while using matplotlib. Refer Lecture 32@12:00"
+            },
+            {
+                "q": "In traditional non software-defined network consisting of a network of switches, suppose OSPF is being used as the routing protocol. In this context which among the following is true.",
+                "options": {
+                    "a": "All the switches execute OSPF distributively",
+                    "b": "Only one switch executes OSPF",
+                    "c": "No switch executes OSPF",
+                    "d": "All of these are true"
+                },
+                "answer": "a",
+                "explanation": "Traditional networks are distributive, hence all the switches of the network execute OSPF. Refer Lecture 33 from 3:50 onwards."
+            },
+            {
+                "q": "In SDN, the Operating System (OS) is separated (i.e not strongly coupled) from the physical hardware for each switch.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "SDN separates the physical and logical plane of the switch. So OS (part of logical plane) is separated from the hardware (part of the physical plane) for each switch. Refer Lecture 33 from 9:20 onwards."
+            },
+            {
+                "q": "Which among the following is a popular protocol implementing SDN?",
+                "options": {
+                    "a": "OpenSwitch",
+                    "b": "OpenStack",
+                    "c": "OpenFlow",
+                    "d": "OpenEdge"
+                },
+                "answer": "c",
+                "explanation": "OpenFlow by ONF is the most popular protocol implementing the principles of SDN. Refer to any standard documentation on OpwnFlow."
+            },
+            {
+                "q": "With respect to Software Defined Networking (SDN), which among the following is true?",
+                "options": {
+                    "a": "SDN couples the data plane and control plane.",
+                    "b": "SDN has no relation to either data plane or control plane",
+                    "c": "SDN separates the data plane and control plane.",
+                    "d": "None of the stated."
+                },
+                "answer": "c",
+                "explanation": "SDN separates the data plane and control plane. It is the fundamental principle of SDN. Refer Lecture 33 from 12:17 onwards, SDN Architecture."
+            },
+            {
+                "q": "Consider the following figure below. To which issue of SDN does this particular figure can be related to?",
+                "options": {
+                    "a": "Controller placement issue",
+                    "b": "Flow Rule placement issue",
+                    "c": "Hardware placement issue",
+                    "d": "Analysis placement issue"
+                },
+                "answer": "b",
+                "explanation": "The given figures shows the tabular structure of how flow rules are installed within SDN switches, so it pertains to flow rule placement issues. Refer Lecture 33@18:54, Rule Placement."
+            },
+            {
+                "q": "Suppose that there are two LANs, each configured to be SDN enabled with their own set of switches and controller. Which among the following directional APIs will be used for communication between the two controllers?",
+                "options": {
+                    "a": "Northbound API",
+                    "b": "East-Westbound API",
+                    "c": "Southbound API",
+                    "d": "Northeastbound API"
+                },
+                "answer": "b",
+                "explanation": "East-Westbound APIs are responsible for communication between different SDN controllers and domains. Refer Lecture 34, APIs in SDN"
+            },
+            {
+                "q": "Which among the following is true?",
+                "options": {
+                    "a": "Backup Controllers have no use is SDN",
+                    "b": "There is no difference between the main controller and backup controller",
+                    "c": "Backup controllers take over when the main controller goes down",
+                    "d": "It is not a good idea to keep backup controllers."
+                },
+                "answer": "c",
+                "explanation": "Backup Controllers are required to take over the network control when the main controller fails. Refer Lecture 34@8:24"
+            },
+            {
+                "q": "IoT being data intensive and having a lot of security concerns, it is a good idea to integrate SDN with IoT to mitigate many of these issues.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "SDN can be integrated with IoT to reap several benefits of both. Refer Lecture 35"
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "Traditional Wireless Mobile Networks are cost expensive in terms of _____________?",
+                "options": {
+                    "a": "Only CAPEX",
+                    "b": "Only OPEX",
+                    "c": "Both CAPEX and OPEX",
+                    "d": "Neither CAPEX and OPEX"
+                },
+                "answer": "c",
+                "explanation": "Traditional wireless mobile networks are cost expensive both with respect to capital expenditure (CAPEX) and Operational Expenditure (OPEX)."
+            },
+            {
+                "q": "High mobility of users is one of the key challenges in rule placement for software defined wireless mobile networks.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Dynamic user mobility restricts the ease with which rules can be placed for software defined wireless mobile networks."
+            },
+            {
+                "q": "Which among the following is a solution for mobility-aware flow rule placement in SDIoT?",
+                "options": {
+                    "a": "Mobility-Flow",
+                    "b": "Mobile-Flow",
+                    "c": "Mobi-Flow",
+                    "d": "M-Flow"
+                },
+                "answer": "c",
+                "explanation": "Mobi-Flow has been proposed to provide a solution for mobility-aware flow rule placement."
+            },
+            {
+                "q": "Cloud, Utility, Grid and ______________________ have been the major trends in computing",
+                "options": {
+                    "a": "Clone",
+                    "b": "Cluster",
+                    "c": "Closure",
+                    "d": "Cloud"
+                },
+                "answer": "b",
+                "explanation": "Cloud, Utility, Grid and Cluster computing are some of the major trends in computing."
+            },
+            {
+                "q": "Cloud computing models allow different users to share the same physical resources?",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Cloud computing uses virtualization heavily and thus it allows different users to share the same underlying physical infrastructure."
+            },
+            {
+                "q": "As per NIST Visual Model of Cloud Computing, 'Hybrid Cloud' model and PaaS model both fall in the same category.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "'Hybrid Cloud' is an example of cloud deployment model while 'PaaS' is an example of cloud service model."
+            },
+            {
+                "q": "When you are accessing Google docs or Microsoft Word online for accessing the features of a document writing software from your browser without specifically installing them, which among the following cloud service models is the most appropriate one that you are using.",
+                "options": {
+                    "a": "SaaS",
+                    "b": "PaaS",
+                    "c": "IaaS",
+                    "d": "DaaS"
+                },
+                "answer": "a",
+                "explanation": "This is an example of SaaS, since you are accessing a word/document processing software as a client over the network. The actual software itself runs on some remote cloud server."
+            },
+            {
+                "q": "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
+                "options": {
+                    "a": "Private Cloud",
+                    "b": "Public Cloud",
+                    "c": "Hybrid Cloud",
+                    "d": "Any of these"
+                },
+                "answer": "c",
+                "explanation": "Hybrid cloud deployment model supports both the features of public and private cloud."
+            },
+            {
+                "q": "Cloud services and resources should be rapidly ______________ in order to achieve their required performance",
+                "options": {
+                    "a": "entrusted",
+                    "b": "elastic",
+                    "c": "enterprise",
+                    "d": "None of the given"
+                },
+                "answer": "b",
+                "explanation": "Rapid elasticity is one of the key requirements for cloud computing paradigms and models."
+            },
+            {
+                "q": "Suppose that a start-up wants to enter into online book delivery business. It wants to create the user interface and the application by itself, but it does not have any networking or storage facility, so it wants to adopt the cloud computing practice. In this respect, which among the following cloud service models is most suitable for the start-up.",
+                "options": {
+                    "a": "Only SaaS",
+                    "b": "Neither PaaS nor IaaS",
+                    "c": "Both PaaS and IaaS can be adopted",
+                    "d": "Neither SaaS, PaaS or IaaS"
+                },
+                "answer": "c",
+                "explanation": "Since both IaaS and PaaS provides infrastructure and storage support to clients, either of PaaS or IaaS can be employed."
+            },
+            {
+                "q": "Data security and client authentication is an issue in which of the following cloud service models?",
+                "options": {
+                    "a": "SaaS",
+                    "b": "SaaS and PaaS",
+                    "c": "IaaS",
+                    "d": "All of them"
+                },
+                "answer": "d",
+                "explanation": "Security is a pertinent issue in all of the cloud service models, which includes SaaS, PaaS and IaaS."
+            },
+            {
+                "q": "Network, ___________________ and application level securities are the three aspects of cloud infrastructure securities.",
+                "options": {
+                    "a": "Client",
+                    "b": "Web",
+                    "c": "Host",
+                    "d": "Wireless"
+                },
+                "answer": "c",
+                "explanation": "Network, host and application level securities are the fundamental aspects of cloud infrastructure securities."
+            },
+            {
+                "q": "When a new user logs into a cloud framework, the first thing that needs to be done is ______________________________.",
+                "options": {
+                    "a": "User should be authenticated",
+                    "b": "User should immediately be granted all the resources",
+                    "c": "User should log off",
+                    "d": "User should be penalized"
+                },
+                "answer": "a",
+                "explanation": "User authentication is one of the primary security issue and any user which logs into the cloud framework must first be authenticated."
+            },
+            {
+                "q": "Service Level Agreements (SLAs) are mutually agreed by the client (customer) and cloud service provider (CSP) at the beginning. With respect to SLAs, what are the views that SLAs provide?",
+                "options": {
+                    "a": "Customer Point of View",
+                    "b": "CSP Point of View",
+                    "c": "Both Customer and CSP Point of View",
+                    "d": "Neither Customer nor CSP Point of View"
+                },
+                "answer": "c",
+                "explanation": "SLAs provide both the customer point of view and the CSP point of view between the customer and the CSP."
+            },
+            {
+                "q": "CloudAnalyst simulation tool provides GUI and is written on top of CloudSim modules.",
+                "options": {
+                    "a": "Yes",
+                    "b": "No"
+                },
+                "answer": "a",
+                "explanation": "CloudAnalyst is built on top of CloudSim and also provides a GUI."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "Which component of OpenStack do you use to access all the other components?",
+                "options": {
+                    "a": "Horizon",
+                    "b": "Glance",
+                    "c": "Neutron",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Horizon is the dashboard of OpenStack which provides the GUI and from where you can access other components."
+            },
+            {
+                "q": "Which among the following is NOT a component of OpenStack?",
+                "options": {
+                    "a": "Horizon",
+                    "b": "Heat",
+                    "c": "Plasma",
+                    "d": "Neutron"
+                },
+                "answer": "c",
+                "explanation": "Plasma is not a component of OpenStack. The rest are various components, including Nova, Glance, Swift etc."
+            },
+            {
+                "q": "Sensor cloud is simply dumping and organizing of sensor data on cloud computing platforms.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Sensor cloud incorporates many aspects and not simply dumping of senor data over cloud platforms."
+            },
+            {
+                "q": "Which among the following are limitations of traditional Wireless Sensor Networks (WSNs)?",
+                "options": {
+                    "a": "Procurement Issues",
+                    "b": "Deployment Issues",
+                    "c": "Maintenance Issues",
+                    "d": "All of the given"
+                },
+                "answer": "d",
+                "explanation": "For traditional WSNs, procurement, deployment and maintenance are all critical issues that needs to be taken care of."
+            },
+            {
+                "q": "In a typical sensor cloud architecture, the sensor cloud infrastructure that provides the virtualization lies ______________________________",
+                "options": {
+                    "a": "At the same layer as physical sensor devices",
+                    "b": "At the application layer",
+                    "c": "In between the physical sensor layer and the application layer",
+                    "d": "Sensor cloud does not support virtualization"
+                },
+                "answer": "c",
+                "explanation": "In a typical sensor cloud architecture, the sensor cloud infrastructure that provides the virtualization lies in between the physical sensor layer and the application layer."
+            },
+            {
+                "q": "Generally speaking, Sensor Cloud Service Providers (SCSPs) are also always the owners of the physical sensors",
+                "options": {
+                    "a": "Yes",
+                    "b": "No"
+                },
+                "answer": "b",
+                "explanation": "SCSPs are providers of the virtualized sensor services, but they may not the owners of the physical sensors in a typical deployment."
+            },
+            {
+                "q": "In a typical sensor cloud architecture with virtualization, one virtual sensor can be associated with how many physical sensors?",
+                "options": {
+                    "a": "Only one",
+                    "b": "One or more than one",
+                    "c": "None",
+                    "d": "Only two"
+                },
+                "answer": "b",
+                "explanation": "One instance of a virtual sensor in sensor cloud architecture can be mapped with one, two or more physical sensors below."
+            },
+            {
+                "q": "Sensor virtualization aims to achieve more _________________________ in providing sensor based services",
+                "options": {
+                    "a": "Complexity",
+                    "b": "Flexibility"
+                },
+                "answer": "b",
+                "explanation": "Sensor virtualization and sensor cloud architecture are designed to provide more flexibility and convenience than traditional sensor based services."
+            },
+            {
+                "q": "Suppose that you want to start a business to provide some IoT based application, but you do not have the means to develop the application layer logic, neither you have the means to purchase and deploy physical sensors. You can however, rent cloud servers for use and write interface logic for interfacing with other modules. Which among the following actors will be the most suitable for you?",
+                "options": {
+                    "a": "Physical sensor owner",
+                    "b": "Application layer developer",
+                    "c": "Sensor Cloud Service Provider (SCSP)",
+                    "d": "You cannot start the business"
+                },
+                "answer": "c",
+                "explanation": "SCSPs provide the sensor virtualization layer in between the application layer and the physical sensor layer and thus this is the best business model as per the requirements and constraints given."
+            },
+            {
+                "q": "Which among the following is implemented along with sensor cloud to make its services and performance better?",
+                "options": {
+                    "a": "Cashing",
+                    "b": "Caching",
+                    "c": "Casing",
+                    "d": "Calling"
+                },
+                "answer": "b",
+                "explanation": "Caching is very important in sensor cloud and is implemented along with sensor cloud to make the performances better."
+            },
+            {
+                "q": "Which among the following cases is most likely to reduce the overall price of sensor-cloud implementation provided that the data traverses through multiple sensor hops starting from the origin sensor to the sink node, and provided that all owners are honest and charge for only what is required?",
+                "options": {
+                    "a": "If physical sensors are owned by multiple owners with high profit margin",
+                    "b": "If all physical sensors are owned by a single owner with uniform profit margin"
+                },
+                "answer": "b",
+                "explanation": "If all the physical sensors are owned by a single owner, then the single owner will charge an uniform price for data traversing through the sensors. On the other hand, if multiple sensor owners are there, different owners will charge different rates, which may increase the price."
+            },
+            {
+                "q": "Fog computing is aimed to replace cloud computing completely and has no scope for integration with cloud",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Fog computing is designed to assist and compliment cloud based technologies in providing better services, not remove cloud all together."
+            },
+            {
+                "q": "Suppose data from an IoT device first goes to Fog layer for some basic processing, after which it goes to Cloud layer for advanced processing, then the processed data comes back to the Fog layer and then, it finally comes back to the origin sensor node. In the return journey no processing of data takes place anywhere, just transfer of data takes place. If 'Tf' is the time taken by the data to travel from sensor to fog and vice versa, and 'Tc' is the time taken by the data to travel from fog to cloud and vice versa, 'Tfp' is the data processing time at fog and 'Tcp' is the data processing time at cloud, what is the total round trip time 'T' taken by data starting from the origin sensor node, processing the data and then back to the sensor node after being processed.",
+                "options": {
+                    "a": "T = Tf + Tc + Tfp + Tcp",
+                    "b": "T = Tf + Tc",
+                    "c": "T = 2(Tf + Tc) + Tfp + Tcp",
+                    "d": "T = 4(Tf + Tc + Tfp + Tcp)"
+                },
+                "answer": "c",
+                "explanation": "Since data comes back to the origin sensor node, the traversal latency Tf and Tc will be counted twice. But, since processing takes place only once during onward journey, processing delay is only one time. Therefore, T = 2(Tf + Tc) + Tfp + Tcp."
+            },
+            {
+                "q": "Consider the standard Fog computing architecture. In which of the following layer will 'very time sensitive data' be processed?",
+                "options": {
+                    "a": "Nearest fog node",
+                    "b": "Distant aggregate fog node",
+                    "c": "Cloud",
+                    "d": "Does not matter"
+                },
+                "answer": "a",
+                "explanation": "Since the data is very time sensitive, it is required that the nearest fog node processes the data so that immediate action can taken. This is the benefit of having fog computing."
+            },
+            {
+                "q": "\"Network, Accelerator, Compute and Storage\" constitute the part of which view of fog computing architecture, as defined by OpenFog Consortium Architecture Working Group?",
+                "options": {
+                    "a": "System View",
+                    "b": "Node View",
+                    "c": "Software View",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Fog Computing Architectural framework has several views, node, system and software among them. Network, Accelerator, Compute and Storage fall under Node View."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "Data fusion enables optimum utilization of massive data gathered from multiple sources.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Data fusion enables optimum utilization of massive data gathered from multiple sources. (Please refer Lecture 47@5:40)"
+            },
+            {
+                "q": "Which of the following is a stage in data fusion?",
+                "options": {
+                    "a": "Decision level",
+                    "b": "Feature level",
+                    "c": "Pixel level",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Decision level, feature level, pixel level and signal level are the four stages of data fusion. (Please refer Lecture 47@11:00)"
+            },
+            {
+                "q": "Which of the following is one of the challenges of Data fusion?",
+                "options": {
+                    "a": "Imperfection",
+                    "b": "Conflicts",
+                    "c": "Ambiguity",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "The challenges of data fusion involves Imperfection, Conflicts and Ambiguity. (Please refer Lecture 47@9:16)"
+            },
+            {
+                "q": "Which of the following is one of the theory of evidence-based mathematical methods of data fusion?",
+                "options": {
+                    "a": "Belief function",
+                    "b": "Bayesian analysis",
+                    "c": "ANN",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Belief function is one of the theory of evidence-based mathematical methods of data fusion. (Please refer Lecture 47 @11:49)"
+            },
+            {
+                "q": "DLNA stands for Digital Living Network Alliance.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "DLNA stands for Digital Living Network Alliance. (Please refer Lecture 48@13:45)"
+            },
+            {
+                "q": "Which of the following are the functional layers in smart parking?",
+                "options": {
+                    "a": "Information collection",
+                    "b": "System Deployment",
+                    "c": "Service Dissemination",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Information collection, System Deployment and Service Dissemination are the three functional layers in smart parking (Please refer Lecture 47@17:25)"
+            },
+            {
+                "q": "Which of the following statements are true about the HAN standards?\nStatement I: Physical and MAC layers are defined by IEEE802.15.4.\nStatement II: Network layer is defined by Zigbee.\nStatement III: Application layer is defined by IEEE802.15.4",
+                "options": {
+                    "a": "Statements I and II",
+                    "b": "Statements I and III",
+                    "c": "Statements II and III",
+                    "d": "Statements I, II and III"
+                },
+                "answer": "a",
+                "explanation": "Physical and MAC layers are defined by IEEE802.15.4. Network layer and Application layers are defined by Zigbee. (Please refer Lecture 48@16:11)"
+            },
+            {
+                "q": "Which of the following are true about X-10?\nStatement I: It allows remote control of compliant transmitters.\nStatement II: It has low speed and data rate.\nStatement III: It is adopted by GE.",
+                "options": {
+                    "a": "Statement I and II",
+                    "b": "Statement II and III",
+                    "c": "Statement I and III",
+                    "d": "Statement I, II and III"
+                },
+                "answer": "d",
+                "explanation": "X-10 allows remote control of compliant transmitters, has low speed and data rate and is adopted by GE. (Please refer Lecture 48@17:04)"
+            },
+            {
+                "q": "____________enables vehicles to wirelessly share a diverse range of information.",
+                "options": {
+                    "a": "Local area network",
+                    "b": "V2X Paradigm",
+                    "c": "V2A Paradigm",
+                    "d": "Metropolitan area network"
+                },
+                "answer": "b",
+                "explanation": "V2X enables vehicles to wirelessly share a diverse range of information (Please refer Lecture 49@10:48)"
+            },
+            {
+                "q": "Which of the following is a property of Vehicular Ad-hoc Networks?",
+                "options": {
+                    "a": "Is based on DSRC",
+                    "b": "Is based on WAVE",
+                    "c": "Guaranteed low latency",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "VANETs are based on DSRC and WAVE. They also have guaranteed low-latency in mobile environments. (Please refer Lecture 49@16:50)"
+            },
+            {
+                "q": "Knob is a switch type of INN.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Knob is a switch type of INN. (Please refer Lecture 49@23:56)"
+            },
+            {
+                "q": "Which of the following is responsible for central coordination in Body-brain architecture?",
+                "options": {
+                    "a": "Body",
+                    "b": "INN",
+                    "c": "Spinal cord",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The brain is responsible for central coordination in Body-brain architecture (Please refer Lecture 49@23:03)"
+            },
+            {
+                "q": "Which of the following stands for DSRC?",
+                "options": {
+                    "a": "Directed Short Range Communication",
+                    "b": "Dedicated Short Range Communication",
+                    "c": "Directed Small Range Communication",
+                    "d": "Dedicated Small Range Communication"
+                },
+                "answer": "b",
+                "explanation": "DSRC stands for Dedicated Short Range Communication (Please refer Lecture 50@7:27)"
+            },
+            {
+                "q": "Ad-hoc is a domain of VANET.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Ad-hoc is a domain of VANET. (Please refer Lecture 50@14:12)"
+            },
+            {
+                "q": "What are the disadvantages of V2X communication?",
+                "options": {
+                    "a": "Increased traffic safety",
+                    "b": "Tracking of movement",
+                    "c": "Efficient use of fuel",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Disadvantages of V2X communication includes tracking of movement, violation of privacy, loss of data control, etc. (Please refer Lecture 50@21:04)"
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "What are some of the other names of the smart grids?",
+                "options": {
+                    "a": "Electricity with a brain",
+                    "b": "Energy internet",
+                    "c": "Electronet",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Smart grids are also known as Electricity with a brain, Energy internet, and Electronet. (Please refer Lecture 51@8:33)"
+            },
+            {
+                "q": "Smart Grid follows which type of the flow of energy?",
+                "options": {
+                    "a": "Bidirectional",
+                    "b": "Unidirectional",
+                    "c": "All of these",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Smart grid is a modernized grid that enables bidirectional flow of energy. (Please refer Lecture 51@9:43)"
+            },
+            {
+                "q": "Which of the following is not a benefit associated with smart grids?",
+                "options": {
+                    "a": "Efficient transmission of electricity",
+                    "b": "Lower electricity rates",
+                    "c": "Unreliable and insecure electricity",
+                    "d": "Improved security"
+                },
+                "answer": "c",
+                "explanation": "Smart Grids provide efficient transmission of electricity, lower electricity rates and Improved security. (Please refer Lecture 51@11:26)"
+            },
+            {
+                "q": "Which of the following is a component of smart grid communication?",
+                "options": {
+                    "a": "Gateways",
+                    "b": "Smart meters",
+                    "c": "MDMSs",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The components of Smart Grid are Smart meters, Gateways, DAUs and MDMSs (Please refer Lecture 52 @12:16)"
+            },
+            {
+                "q": "___________ can be used as an energy source in on-peak hours.",
+                "options": {
+                    "a": "PMUs",
+                    "b": "DAUs",
+                    "c": "PEVs",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "PEVs or Plug-In Electric Vehicles can be used as an energy source in on-peak hours(Please refer Lecture 52 @6:29)"
+            },
+            {
+                "q": "Which of the following is a type of Dynamic System Attacks?",
+                "options": {
+                    "a": "Replay Attacks",
+                    "b": "Dynamic data injection attacks",
+                    "c": "Covert attacks",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Replay Attacks, Dynamic data injection attacks and Covert attacks are all types of Dynamic System Attacks (Please refer Lecture 52@19:55)"
+            },
+            {
+                "q": "Which of the following statements are true about gateways?\nStatement I: Each gateway connects a few closely located smart meters.\nStatement II: Gateways communicate mostly based on WiFi.\nStatement III: They help in two-way communication.",
+                "options": {
+                    "a": "Statements I and II",
+                    "b": "Statements I and III",
+                    "c": "Statements II and III",
+                    "d": "Statement I, II and III"
+                },
+                "answer": "d",
+                "explanation": "The gateways connect a few closely located smart meters, communicate mostly on WiFi and help in two-way communication. (Please refer Lecture 52@14:11)"
+            },
+            {
+                "q": "____________ is a centralized coordinator for smart grid communication.",
+                "options": {
+                    "a": "Gateway",
+                    "b": "Smart meter",
+                    "c": "PMU",
+                    "d": "MDMS"
+                },
+                "answer": "d",
+                "explanation": "MDMS is a centralized coordinator for smart grid communication. (Please refer Lecture 52@15:32)"
+            },
+            {
+                "q": "____________ are available protocols for smart home appliances.",
+                "options": {
+                    "a": "C-Bus",
+                    "b": "DECT",
+                    "c": "EnOcean",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "C-Bus, DECT, EnOcean and Universal Powerline Bus (Please refer Lecture 52@12:35)"
+            },
+            {
+                "q": "Fill in the blank. IIoT is a network of____________.",
+                "options": {
+                    "a": "Physical objects",
+                    "b": "Systems",
+                    "c": "Platforms",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "IIoT is a network of physical objects, systems, platforms and applications (Please refer Lecture 53@15:24)"
+            },
+            {
+                "q": "IIoT is based on Rip & Replace approach.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "IIoT is based on wrap & re-use approach. (Please refer Lecture 53@9:53)"
+            },
+            {
+                "q": "Which of the following happened in the 1st Revolution?",
+                "options": {
+                    "a": "Mass production",
+                    "b": "Internet evolution",
+                    "c": "Automation",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Mass production, internet evolution, automation happened in forth revolution. (Please refer Lecture 53@10:06)"
+            },
+            {
+                "q": "Which of the following is a challenge of IIoT?",
+                "options": {
+                    "a": "Worker health and safety",
+                    "b": "Environmental production",
+                    "c": "Optimized operations",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Worker health and safety, environmental production and optimized operations are all the safety challenges of IIoT. (Please refer Lecture 54@15:15)"
+            },
+            {
+                "q": "Monitoring and restoration of the traditional electrical grid is done manually.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Monitoring and restoration of the traditional electrical grid is done manually (Please refer Lecture 51@5:34)"
+            },
+            {
+                "q": "What is Hadoop used in?",
+                "options": {
+                    "a": "Distributed processing of large datasets",
+                    "b": "Large clusters of computers",
+                    "c": "All of these",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Hadoop is used for distributed processing of large datasets across Large clusters of computers (Please refer Lecture 55@23:18)"
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "The two types of data analysis are _____________.",
+                "options": {
+                    "a": "Qualitative and Quantitative",
+                    "b": "Repetitive and Quantitative",
+                    "c": "Repetitive and Qualitative",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Qualitative and Quantitative are the two types of data analysis. (Please refer Lecture 56@2:33)"
+            },
+            {
+                "q": "Which of the following is a principle of Qualitative analysis?",
+                "options": {
+                    "a": "Notice things",
+                    "b": "Think about things",
+                    "c": "Collect things",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The three principles of Qualitative analysis are: Notice things, think about things and collect things. (Please refer Lecture 56@4:12)"
+            },
+            {
+                "q": "Select the statement(s) that denote the type of ANOVA.\nStatement I: One way analysis\nStatement II: Two way analysis\nStatement III: K-way analysis",
+                "options": {
+                    "a": "Statement I",
+                    "b": "Statement II",
+                    "c": "Statements I, II, and III",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The types of ANOVA includes One way analysis, Two way analysis and K-way analysis (Please refer Lecture 56@11:57)"
+            },
+            {
+                "q": "What is the type of the data dispersion?",
+                "options": {
+                    "a": "Range",
+                    "b": "Average absolute deviation",
+                    "c": "Variance",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Range, average absolute deviation and variation are the type of data dispersions. (Please refer Lecture 56@13:43)"
+            },
+            {
+                "q": "The process by which numerical data is analyzed is known as __________.",
+                "options": {
+                    "a": "Qualitative analysis",
+                    "b": "Quantitative analysis",
+                    "c": "None of these",
+                    "d": "All of these"
+                },
+                "answer": "b",
+                "explanation": "Quantitative analysis is the process by which numerical data is analyzed. (Please refer Lecture 56@4:47)"
+            },
+            {
+                "q": "The mathematical equation that is formulated in the form of relationships between variables is known as __________.",
+                "options": {
+                    "a": "Logical model",
+                    "b": "Relational model",
+                    "c": "Data dispersion",
+                    "d": "Statistical model"
+                },
+                "answer": "d",
+                "explanation": "The mathematical equation that is formulated in the form of relationships between variables is known as Statistical model (Please refer Lecture 56@7:53)"
+            },
+            {
+                "q": "What are the two types of statistical models?",
+                "options": {
+                    "a": "Qualitative and quantitative",
+                    "b": "Complete and incomplete",
+                    "c": "Regression and dispersion",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Complete and incomplete are two types of statistical models (Please refer Lecture 56@8:11)"
+            },
+            {
+                "q": "Contingency table is also known as?",
+                "options": {
+                    "a": "Cross tabulation",
+                    "b": "Cross table",
+                    "c": "All of these",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Contingency table is also known as Cross tabulation and Cross table. (Please refer Lecture 56@14:36)"
+            },
+            {
+                "q": "Advances in sensor and connectivity have disabled preventive care.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Advances in sensor and connectivity have disabled preventive care. (Please refer Lecture 58@4:22)"
+            },
+            {
+                "q": "Which of the following is a feature of IoT Healthcare?",
+                "options": {
+                    "a": "Non-invasive monitoring",
+                    "b": "Cloud-based analytics",
+                    "c": "Wireless transmission",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Non-invasive monitoring, Cloud-based analytics and Wireless transmission are all types of IoT healthcare. (Please refer Lecture 58@12:36)"
+            },
+            {
+                "q": "Which of the following are components of IoT?",
+                "options": {
+                    "a": "Sensing layer",
+                    "b": "Aggregated layer",
+                    "c": "Processing layer",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Sensing layer, Aggregated layer, Processing layer and cloud platform are components of IoT. (Please refer Lecture 58@8:17)"
+            },
+            {
+                "q": "Which of the following is the advantage of activity monitoring?",
+                "options": {
+                    "a": "Hard integration",
+                    "b": "Long term monitoring",
+                    "c": "Expensive",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Long term monitoring is one of the advantages of Activity monitoring. (Please refer Lecture 59@16:17)"
+            },
+            {
+                "q": "Deep learning based data analysis cannot be performed on videos",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Deep learning based data analysis can be done on sensor data, images and videos. (Please refer Lecture 59@19:34)"
+            },
+            {
+                "q": "Which of the following is true for in-place activity monitoring data analysis?",
+                "options": {
+                    "a": "Low power",
+                    "b": "Good network connection required",
+                    "c": "On-device",
+                    "d": "Group-based analytics"
+                },
+                "answer": "c",
+                "explanation": "In-place activity monitoring data analysis is on-device and power intensive (Please refer Lecture 59@20:10)"
+            },
+            {
+                "q": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for ________.",
+                "options": {
+                    "a": "Fall detection",
+                    "b": "Heart rate detection",
+                    "c": "Vehicle detection",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Processing the handheld activity device data with artificial intelligence can be used for detecting sudden fall of a person. (Please refer Lecture 60@11:56)"
+            }
+        ]
+    },
+    "Ethical Hacking": {
+        // PROMPT IS COPY EXACTLY FROM PROMPT Q, OPTION , DETAIL
+        "Assignment 0": [
+            {
+                "q": "What is ethical hacking?",
+                "options": {
+                    "a": "Unauthorized intrusion in a system or a network. And commit malicious activities such as privacy invasion, stealing personal/corporate data, and more.",
+                    "b": "Systematically attempts to penetrate/intrude into a computer system/network on behalf of its owner and finds out threats and vulnerabilities."
+                },
+                "answer": "b",
+                "explanation": "Ethical hacking is also known as penetration testing or intrusion testing where the person systematically attempts to penetrate/intrude into a computer system, application, network, or some other computing resources on behalf of its owner and finds out threats and vulnerabilities that a malicious hacker could potentially exploit. The main objective of ethical hacking is to improve the security of the system or network and fix the vulnerabilities found during the testing."
+            },
+            {
+                "q": "Which of the following application(s) is/are used to secure personal laptop/desktop?",
+                "options": {
+                    "a": "Antivirus",
+                    "b": "Virus",
+                    "c": "Malware",
+                    "d": "Firewall"
+                },
+                "answer": "a, d",
+                "explanation": "Antivirus applications are used to secure personal laptops/desktops. You can also secure your system by installing a firewall software."
+            },
+            {
+                "q": "Which of the following is/are example of social engineering attacks?",
+                "options": {
+                    "a": "Phishing",
+                    "b": "Baiting",
+                    "c": "Vishing"
+                },
+                "answer": "a, b, c",
+                "explanation": "(a) Phishing is a cyber-attack that uses disguised email/sms as a weapon. The goal is to trick the email recipient into believing that the message is something they want or need (b) Baiting involves luring an unsuspecting victim with a highly attractive offer playing on fear, greed and temptation to make them part with their personal sensitive data like log-in details. (c) Voice phishing, or vishing, is the use of telephony to conduct phishing attacks."
+            },
+            {
+                "q": "How you can secure your website?",
+                "options": {
+                    "a": "Using firewall",
+                    "b": "Encrypting the Cookies",
+                    "c": "Validating and Verifying user input",
+                    "d": "Validating users parameters"
+                },
+                "answer": "a, b, c, d",
+                "explanation": "All of the listed approach can be used to secure website. (a) Firewall can be used to drop traffic from suspicious IP (b) Encrypted cookies can eliminate cookies based attack. (c) By validating user input we can prevent access of the website by unwanted user. (d) by validating user parameters we can eliminate injection of malicious query on our website database."
+            },
+            {
+                "q": "Which of the following is true for firewall?",
+                "options": {
+                    "a": "A firewall is a network security system",
+                    "b": "Firewall can allows or blocks network traffic as per predetermined security rules",
+                    "c": "Firewall are placed on the boundary of trusted and untrusted networks",
+                    "d": "None of these"
+                },
+                "answer": "a, b, c",
+                "explanation": "All of the statements are true for firewall."
+            },
+            {
+                "q": "Which of the following Linux command can be used to view network configuration?",
+                "options": {
+                    "a": "ipconfig",
+                    "b": "ifconfig",
+                    "c": "ls",
+                    "d": "cd",
+                    "e": "None of these"
+                },
+                "answer": "b",
+                "explanation": "In Linux based system ifconfig command is used to check network configuration."
+            },
+            {
+                "q": "How many layers are there in OSI model?",
+                "options": {
+                    "a": "5",
+                    "b": "6",
+                    "c": "7",
+                    "d": "8"
+                },
+                "answer": "c",
+                "explanation": "OSI consist of 7 layers."
+            },
+            {
+                "q": "Which of the following is/are transport layer protocol(s)?",
+                "options": {
+                    "a": "UDP",
+                    "b": "TCP",
+                    "c": "IP",
+                    "d": "Ethernet"
+                },
+                "answer": "a, b",
+                "explanation": "Ethernet is data link layer protocol, IP is network layer protocol, UDP and TCP are transport layer protocols."
+            },
+            {
+                "q": "In IPv6, the number of bits used in IP address is?",
+                "options": {
+                    "a": "32",
+                    "b": "64",
+                    "c": "128",
+                    "d": "256"
+                },
+                "answer": "c",
+                "explanation": "IPv6 uses 128 bits for the IP address."
+            },
+            {
+                "q": "Which of the following command(s) can be used to check the reachability of one system from another?",
+                "options": {
+                    "a": "ifconfig",
+                    "b": "ls",
+                    "c": "mkdir",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "None of the above command can check the reachability of one system from another. We can use ping command to check if any system is reachable or not."
+            },
+            {
+                "q": "Which of the following is/are a networking device?",
+                "options": {
+                    "a": "Hub",
+                    "b": "Switch",
+                    "c": "Router",
+                    "d": "None of these"
+                },
+                "answer": "a, b, c",
+                "explanation": "Hub, Switch and router all are networking devices used to connect multiple devices/subnetwork in a network."
+            },
+            {
+                "q": "Which of the following is used to host a website?",
+                "options": {
+                    "a": "Mail Server",
+                    "b": "Webserver",
+                    "c": "Database",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Webserver is mainly used to host websites."
+            },
+            {
+                "q": "Which of the following network is used to cover small area like a room/building?",
+                "options": {
+                    "a": "LAN",
+                    "b": "WAN",
+                    "c": "MAN",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "LAN is used to provide networking facility in small area like a room/building. WAN is used to cover larger area such as city. MAN is used to cover large geographical area like countries."
+            }
+        ],
+        "Assignment 1": [
+            {
+                "q": "Which of the following point(s) is/are true for an ethical hacker?",
+                "options": {
+                    "a": "An ethical hacker intends to gain unauthorized access to a resource for financial gain or personal recognition.",
+                    "b": "An ethical hacker defaces websites or crash backend servers for fun, reputation damage or to cause financial loss.",
+                    "c": "An ethical hacker is not concerned with improving the organization's security posture.",
+                    "d": "None of these."
+                },
+                "answer": "d",
+                "explanation": "Ethical hackers use their knowledge to secure and improve the technology of organizations. An ethical hacker reports the identified vulnerabilities to the organization. Malicious hackers intend to gain unauthorized access to a resource for financial gain or personal recognition. Some malicious hackers deface websites or crash backend servers for fun, reputation damage, or to cause financial loss. The methods used and vulnerabilities found remain unreported. They are concerned with improving the organization's security posture. Thus all the points given are false for an ethical hacker."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true?",
+                "options": {
+                    "a": "In the black box model, the tester has complete information about the network.",
+                    "b": "In the white box model, the tester does not have any information about the network.",
+                    "c": "In the gray box model, the tester has partial information about the network.",
+                    "d": "None of these."
+                },
+                "answer": "c",
+                "explanation": "In the white box model, the tester has complete information about the network. In the black box model, the tester does not have any information about the network. Gray box model is somewhere in between, where the tester is only provided with partial information about the network."
+            },
+            {
+                "q": "Which of the following statement(s) is/are false for a packet switched network?",
+                "options": {
+                    "a": "A communication link can be shared by more than one connection.",
+                    "b": "A communication link is dedicated to a connection and cannot be shared with other connections.",
+                    "c": "It is efficient for bursty traffic.",
+                    "d": "The packet transfer delay between a pair of nodes may depend on the prevailing network traffic."
+                },
+                "answer": "b",
+                "explanation": "In a packet switched network, communication links may be shared by more than one connection. Also, in a packet switched network, packets between the same source and destination may follow different paths, and hence the packet transfer delay can vary with time; this depends on the prevailing traffic situation in the network. It is efficient for high bandwidth traffic like data streaming."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for datagram-based packet transfer approach?",
+                "options": {
+                    "a": "It is a connection-less packet switching approach, where no route is established priori to transfer of packets.",
+                    "b": "In this approach, each packet is transmitted as an independent entity.",
+                    "c": "In this approach each intermediate node can perform dynamic routing.",
+                    "d": "In this approach all the packets reach in order to the destination."
+                },
+                "answer": "a, b, c",
+                "explanation": "Datagram approach is a connection-less packet switching approach where no route is established before packet transmission starts. In this approach each packet is transmitted as an independent entity containing source and destination addresses. Thus it is not necessary to follow same path for all packets and thus the packets can be delivered out of order. For forwarding the packet to next node, every node maintains a routing table that is updated dynamically to take routing decision."
+            },
+            {
+                "q": "What is the purpose of the port number in TCP/IP networks?",
+                "options": {
+                    "a": "It uniquely identifies a network interface of a computer system.",
+                    "b": "It uniquely identifies a host in the network.",
+                    "c": "It uniquely identifies a running application on a specific host in the network.",
+                    "d": "It indicates how many hardware ports are there in the computer system.",
+                    "e": "None of these."
+                },
+                "answer": "c",
+                "explanation": "Port number uniquely identifies a running application on a specified host in the network."
+            },
+            {
+                "q": "Which of the following is not a valid port numbers in TCP/IP?",
+                "options": {
+                    "a": "21",
+                    "b": "80",
+                    "c": "443",
+                    "d": "8080",
+                    "e": "80800"
+                },
+                "answer": "e",
+                "explanation": "In TCP/IP, port numbers are 16-bit quantities, with values in the range of 0 to 2^16-1 = 65535."
+            },
+            {
+                "q": "Which of the following functionality does Address Resolution Protocol (ARP) perform?",
+                "options": {
+                    "a": "Map IP addresses to hardware (MAC) addresses.",
+                    "b": "Map hardware addresses (MAC) to IP addresses.",
+                    "c": "Performs error control and correction.",
+                    "d": "Breaks the packet into smaller packets, if required."
+                },
+                "answer": "a",
+                "explanation": "ARP is responsible for mapping IP addresses to MAC addresses."
+            },
+            {
+                "q": "Which of the following statement(s) is/are false?",
+                "options": {
+                    "a": "IP provides connectionless, unreliable delivery systems for packets.",
+                    "b": "UDP provides connectionless, unreliable delivery systems for packets",
+                    "c": "TCP provides connectionless, unreliable delivery systems for packets.",
+                    "d": "None of these."
+                },
+                "answer": "c",
+                "explanation": "IP and UDP provide connectionless, unreliable delivery systems for packets. However TCP provides a connection-oriented reliable service."
+            },
+            {
+                "q": "If the IP header is 96 bits long, what will be the value (in decimal) of the \"HLEN\" field?",
+                "options": {
+                    "a": "2",
+                    "b": "3",
+                    "c": "4",
+                    "d": "6"
+                },
+                "answer": "b",
+                "explanation": "The HLEN field contains the size of the IP header in multiples of 32 bits or 4 bytes. Here, size of the IP header = 96 bits = 3 x 32 bits. Hence, HLEN will contain 0011, which is the binary equivalent of the number 3."
+            },
+            {
+                "q": "The maximum size of data that can be accommodated in an IP datagram is ________ bytes.",
+                "options": {
+                    "a": "65500",
+                    "b": "65515",
+                    "c": "65535",
+                    "d": "65550"
+                },
+                "answer": "b",
+                "explanation": "The TOTAL-LENGTH field in the IP header is 16 bits, which can contain values from 0 to 2^16 – 1 = 65535, the total size of an IP packet can be 65535 bytes. Also, the minimum size of the IP header is 20 bytes, which makes the maximum size of data as 65535 – 20 = 65515 bytes."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Why there is a need for fragmentation of IP packets?",
+                "options": {
+                    "a": "Fragmentation is necessary because every network has a unique limit for the maximum size of datagrams that it can process.",
+                    "b": "Fragmentation is necessary for faster data transfer.",
+                    "c": "Fragmentation is necessary for error-recovery and flow control.",
+                    "d": "All of these."
+                },
+                "answer": "a",
+                "explanation": "IP fragmentation is necessary for data transmission, as every network has a unique limit for the size of datagrams that it can process, which is known as maximum transmission unit (MTU). In fragmentation, the packets are divided into smaller pieces and each piece is considered as separate IP packet. This is typically done by the routers in the network layer (or layer-3 switches)."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true?",
+                "options": {
+                    "a": "In transparent fragmentation the subsequent networks are aware that the fragmentation had occurred.",
+                    "b": "In transparent fragmentation, it is required to route all packet to the same exit router in a network.",
+                    "c": "In non-transparent fragmentation, each fragment is treated as an independent packet.",
+                    "d": "In non-transparent fragmentation, an exit router reassembles all fragmented packets."
+                },
+                "answer": "b, c",
+                "explanation": "In transparent fragmentation, all packets are routed through an exit router that assembles the fragmented packets. In this approach the subsequent network(s) have no information about fragmentation. Whereas in non-transparent fragmentation the packets can be transmitted through multiple routers as each packet is treated as independent packet and the reassembly is done by the destination host system."
+            },
+            {
+                "q": "An IP packet arrives at the final destination with the M flag set as 1. Which of the following statement is true about the packet?",
+                "options": {
+                    "a": "Prevents the fragmentation from taking place.",
+                    "b": "The packet will be fragmented by the next router.",
+                    "c": "The packet represents a fragment of a larger packet.",
+                    "d": "None of these."
+                },
+                "answer": "c",
+                "explanation": "When the More (M) flag in a packet is 1, this indicates that the original packet has definitely been fragmented and there are more fragments following."
+            },
+            {
+                "q": "Which of the following statement(s) is/are false for IP address?",
+                "options": {
+                    "a": "IP address is 32-bit quantity.",
+                    "b": "IP address is typically expressed as dotted decimal notation where dots are used to separate each of the four octets of the address.",
+                    "c": "IP address consists of three logical parts: network number, host number and port number.",
+                    "d": "None of these."
+                },
+                "answer": "c",
+                "explanation": "IP address is 32-bit quantity, it is expressed as dotted decimal notation where dots are used to separate each of the four octets of the address. IP address consist of two logical parts: network number and host number, while routing a packet to the destination network, only the network number is looked at whereas for uniquely identification of the system inside a network host number is used which is managed by local network administrator."
+            },
+            {
+                "q": "Which address classes do the IP addresses 144.16.75.12 and 10.10.85.120 belong to?",
+                "options": {
+                    "a": "Class C and Class A",
+                    "b": "Class B and Class C",
+                    "c": "Class B and Class A",
+                    "d": "Class B and Class D"
+                },
+                "answer": "c",
+                "explanation": "Class A addresses start with \"0\", class B addresses start with \"10\", class C addresses start with \"110\", and class D addresses start with \"1110\". For the IP address 144.16.75.12, the first byte 144 = 10010000 in binary; for the IP address 10.10.85.120, the first byte 10 = 0000 1010 in binary. Clearly, the first one is Class B, and the second one is Class A address."
+            },
+            {
+                "q": "Which of the following IP addresses represent broadcast address?",
+                "options": {
+                    "a": "144.15.255.255",
+                    "b": "144.16.0.255",
+                    "c": "202.0.255.250",
+                    "d": "202.0.255.255"
+                },
+                "answer": "a, d",
+                "explanation": "In a broadcast address, all the bits in the \"host\" part of the IP address will be 1. (a) and (b) are class B addresses, where the last 16 bits indicate the host. (c) and (d) are class C addresses, where the last 8 bits indicate the host."
+            },
+            {
+                "q": "The maximum number of hosts that are possible in a class C network is?",
+                "options": {
+                    "a": "252",
+                    "b": "253",
+                    "c": "254",
+                    "d": "255"
+                },
+                "answer": "c",
+                "explanation": "For a class C network, 8 bits are provided to specify the host. The all-0 and all-1 combinations cannot be used as host addresses. Therefore, the maximum number of hosts possible is 2^8 – 2 = 254."
+            },
+            {
+                "q": "What is a TCP half-open connection in the context of connection establishment using 3-way handshake?",
+                "options": {
+                    "a": "The first transaction does not complete.",
+                    "b": "The second transaction does not complete.",
+                    "c": "The first transaction does not complete but the second transaction completes.",
+                    "d": "The last transaction does not complete.",
+                    "e": "None of these."
+                },
+                "answer": "d",
+                "explanation": "In the TCP protocol, connection establishment is carried out using a 3-way handshake protocol. When the third transaction in the 3-way handshake does not complete, it is referred to as a half-open connection."
+            },
+            {
+                "q": "In the TCP header field, what do SYN=1 and ACK=0 represent?",
+                "options": {
+                    "a": "Connection request message.",
+                    "b": "Connection confirmation message.",
+                    "c": "Reject connection request.",
+                    "d": "Reset connection request."
+                },
+                "answer": "a",
+                "explanation": "In the TCP header, SYN=1 and ACK=0 represents connection request, whereas SYN=1 and ACK=1 represents connection confirmation. RST is used to reset/reject connection."
+            },
+            {
+                "q": "What is the subnet address if the destination IP address is 144.16.75.105 and the subnet mask is 255.255.240.0?",
+                "options": {
+                    "a": "144.16.32.0",
+                    "b": "144.16.75.0",
+                    "c": "144.16.16.0",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Let us express the two numbers in binary: 144.16.75.105 = 10010000 00010000 01001011 01101001 255.255.240.0 = 11111111 11111111 11110000 00000000 If we take bit-by-bit AND, we shall get the subnet address as 10010000 00010000 01000000 00000000 = 144.16.64.0"
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "Consider the following statements:\n(i) In connection-oriented approach, network layer first makes a connection.\n(ii) IP protocol uses connection-oriented routing.",
+                "options": {
+                    "a": "Only (i) is true",
+                    "b": "Only (ii) is true",
+                    "c": "Both (i) and (ii) are true.",
+                    "d": "Both (i) and (ii) are false."
+                },
+                "answer": "a",
+                "explanation": "In connection-oriented approach, network layer first makes a connection and then all packets are delivered as per the connection. In connection-less protocol, network layer treats each packets independently. IP protocol uses connection-less approach for packet delivery."
+            },
+            {
+                "q": "Which of the following is/are true for default route?",
+                "options": {
+                    "a": "Default route is used when no specific address for next hop is available.",
+                    "b": "In routing table default route is specified by an address 0.0.0.0.",
+                    "c": "In routing table default route is specified by an address 255.255.255.255.",
+                    "d": "In routing table default route is specified by an address 127.0.0.1.",
+                    "e": "None of these."
+                },
+                "answer": "a, b",
+                "explanation": "Default route, also known as the gateway of last resort, is used in forwarding packets whose destination address does not match any route in the routing table. In IPv4 the CIDR notation for a default route is 0.0.0.0/0."
+            },
+            {
+                "q": "Which of the following is/are true for static routing?",
+                "options": {
+                    "a": "In static routing routes are user defined.",
+                    "b": "In static routing, routing table updates periodically depending on the network condition.",
+                    "c": "Static routing is easy to configure.",
+                    "d": "None of these."
+                },
+                "answer": "a",
+                "explanation": "In static routing routes are defined manually and the routing table does not change until the network administrator changes manually or modify them manually. Also if any network change occurs, then the complete table needs to be modified."
+            },
+            {
+                "q": "Which of the following routing flags indicates that the router is up and running?",
+                "options": {
+                    "a": "U",
+                    "b": "G",
+                    "c": "H",
+                    "d": "D",
+                    "e": "M"
+                },
+                "answer": "a",
+                "explanation": "U flag indicates if the router is up and running."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for interior routing protocol?",
+                "options": {
+                    "a": "All the participating routers are present in the same autonomous system.",
+                    "b": "The participating routers are present in different autonomous systems.",
+                    "c": "Routers in different autonomous systems exchange messages to update their routing tables.",
+                    "d": "Routers in the same autonomous system exchange messages to update their routing tables."
+                },
+                "answer": "a, d",
+                "explanation": "The interior routing protocols applies to a single autonomous system. All the routers inside the AS exchange messages using some standard protocol (e.g. RIP or OSPF) and update their routing tables."
+            },
+            {
+                "q": "Which of the following statement(s) is/are false for Routing Information Protocol (RIP)?",
+                "options": {
+                    "a": "RIP is an example of interior routing protocol.",
+                    "b": "RIP maintains timers to detect failed links.",
+                    "c": "RIP converges faster for large networks.",
+                    "d": "RIP consumes high bandwidth to update routes.",
+                    "e": "None of these."
+                },
+                "answer": "c",
+                "explanation": "RIP shows slow convergence for larger network, because to confirm or detect any failed link it requires to send larger number of packets as compare to other routing protocols."
+            },
+            {
+                "q": "Which of the following is/are false for Border Gateway Protocol (BGP)?",
+                "options": {
+                    "a": "BGP allows routers belonging to different autonomous systems to exchange routing information.",
+                    "b": "BGP uses TCP connection to send routing messages.",
+                    "c": "BGP can also be used by routers within the same autonomous systems.",
+                    "d": "BGP sends keepalive messages periodically to ensure that the connection between the BGP peers is alive.",
+                    "e": "None of these."
+                },
+                "answer": "e",
+                "explanation": "BGP is used for exchanging routing information by the routers belongs to different autonomous systems. However it can also be used to exchange information by routers within same AS. BGP sends routing information through TCP connection. Two BGP routers exchange information on a connection are called peers, to know if the peer is alive or not. BGP sends keepalive message periodically to its peer."
+            },
+            {
+                "q": "If a packet is to be delivered to a specific host in a network, what kind of address should be used to specify the destination?",
+                "options": {
+                    "a": "Unicast address.",
+                    "b": "Broadcast address.",
+                    "c": "Anycast address.",
+                    "d": "None of these."
+                },
+                "answer": "a",
+                "explanation": "Unicast address is used if a packet is to be delivered to a specific host. Broadcast address is used if a packet has to be delivered to all the hosts within a network or subnetwork. Anycast address is used if a packet has to be delivered to exactly one of the hosts in a network or subnetwork."
+            },
+            {
+                "q": "Which of the following is not true for IPv6?",
+                "options": {
+                    "a": "It uses 32-bit IP addresses.",
+                    "b": "IPv6 address does not have any defined classes.",
+                    "c": "It uses 128-bit IP addresses.",
+                    "d": "None of these."
+                },
+                "answer": "a",
+                "explanation": "IPv6 uses 128-bit IP addresses, and provides a large address space. Unlike IPv4 it does not have any defined classes."
+            },
+            {
+                "q": "Consider the following routing table in a router. On which interface will an IP packet with destination address 161.44.64.120 be forwarded?\nDestination Subnet Mask Interface\n161.44.0.0 255.255.0.0 a\n161.44.64.0 255.255.224.0 b\n161.44.68.0 255.255.255.0 c\n161.44.68.64 255.255.255.224 d\nDefault 0.0.0.0 e",
+                "options": {
+                    "a": "Interface a",
+                    "b": "Interface b",
+                    "c": "Interface c",
+                    "d": "Interface d",
+                    "e": "Interface e"
+                },
+                "answer": "b",
+                "explanation": "Row 1: 161.44.64.120 AND 255.255.0.0 = 161.44.0.0  Matches with destination address\nRow 2: 161.44.64.120 AND 255.255.224.0 = 161.44.64.0  Matches with destination address\nRow 3: 161.44.64.120 AND 255.255.255.0 = 161.44.64.0  No match\nRow 4: 161.44.64.120 AND 255.255.255.224 = 161.44.64.112  No match\nRow 2 provides the longest prefix match; hence the packet will be forwarded to Interface b."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Which of the following statement(s) is/are true for NAT networking mode?",
+                "options": {
+                    "a": "In NAT mode, the virtual machines cannot access each other.",
+                    "b": "NAT mode does not allow access of internet to the installed virtual machines.",
+                    "c": "In NAT mode, the hypervisor allocate same IP address to all virtual machines.",
+                    "d": "All of these."
+                },
+                "answer": "a, c",
+                "explanation": "By default, virtual box uses NAT mode. In this mode internet access is allowed; however, each system gets the same IP, and thus the virtual machines cannot access each other in this mode."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true about \"Passive Reconnaissance\"?",
+                "options": {
+                    "a": "Information about the target is collected indirectly.",
+                    "b": "Information about the target is collected directly.",
+                    "c": "There is a chance of detection.",
+                    "d": "There is no chance of detection."
+                },
+                "answer": "a, d",
+                "explanation": "Reconnaissance is the process of gathering information about a target network or system. In passive reconnaissance, we collect information about a target indirectly, e.g., web search. As the attacker and victim does not communicate directly, there is no a chance of detection."
+            },
+            {
+                "q": "Which of the following can be used for active reconnaissance.",
+                "options": {
+                    "a": "Whois",
+                    "b": "Archive.org",
+                    "c": "NMAP",
+                    "d": "Nessus",
+                    "e": "Metasploit",
+                    "f": "Hydra"
+                },
+                "answer": "c, d, e",
+                "explanation": "Whois and archive are used for passive reconnaissance. NMAP, Nessus and Metasploit are used in active reconnaissance as they directly communicate with the target system. Hydra is a tool used for password cracking."
+            },
+            {
+                "q": "Which of the following information cannot be retrieved using active reconnaissance?",
+                "options": {
+                    "a": "Live host in a network.",
+                    "b": "Open ports.",
+                    "c": "Services running in the systems.",
+                    "d": "Operating system of the target system.",
+                    "e": "Vulnerabilities of target machine/application.",
+                    "f": "None of these."
+                },
+                "answer": "f",
+                "explanation": "In active reconnaissance scanning tool performs major role, it can be used for identification of live host, active ports, services, operating system and vulnerabilities of the target system."
+            },
+            {
+                "q": "Which of the following tools cannot be used for DNS enumeration?",
+                "options": {
+                    "a": "host",
+                    "b": "dnsenum",
+                    "c": "dig",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "For DNS enumeration various tools can be used such as host, dnsenum, dig, nslookup, nmap, dnsrecon, etc."
+            },
+            {
+                "q": "What is the main objective of host discovery?",
+                "options": {
+                    "a": "Identification of live hosts.",
+                    "b": "Identification of services running in the target system.",
+                    "c": "Identification of version of the services running in the target system.",
+                    "d": "Identification of the operating system of the target systems.",
+                    "e": "Identification of open ports."
+                },
+                "answer": "a",
+                "explanation": "The main objective of host discovery is to identify the live hosts in the network or network infrastructure."
+            },
+            {
+                "q": "Which of the following options is used to trace the details of the sent/received packets?",
+                "options": {
+                    "a": "--packet-trace",
+                    "b": "--reason",
+                    "c": "--disable-arp-ping",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "To get the details of the packets used for scanning, --packet-trace option can be used. – reason option is used to get the reason of the report (why the port/system is up/down). – disable-arp-ping is used to disable arp table check."
+            },
+            {
+                "q": "Which of the following options can be used to perform ICMP ECHO sweep?",
+                "options": {
+                    "a": "–PE",
+                    "b": "–PP",
+                    "c": "–PM",
+                    "d": "–PU"
+                },
+                "answer": "a",
+                "explanation": "In ICMP ECHO sweep, the attacker sends out an ICMP ECHO request packet (ICMP type 8) to the target. If it receives an ICMP ECHO reply packet, it assumes that the target is alive. To perform ICMP ECHO sweep scan –PE option is used."
+            },
+            {
+                "q": "The establishment of a TCP connection involves a negotiation called 3-way handshake. What type of message the client sends to the server in order to begin this negotiation?",
+                "options": {
+                    "a": "RST",
+                    "b": "ACK",
+                    "c": "SYN-ACK",
+                    "d": "SYN"
+                },
+                "answer": "d",
+                "explanation": "TCP connection establishment involves a 3-way handshake. Step 1 (SYN): In the first step, client wants to establish a connection with server, so it sends a segment with SYN that informs server that client is likely to start communication and with what sequence number it starts the segments. Step 2 (SYN + ACK): Server responds to the client request with SYN-ACK signal bits set. Step 3 (ACK): In the final part client acknowledges the response of server and they both establish a reliable connection with which they will start actual data transfer."
+            },
+            {
+                "q": "How does port scanning using TCP Connect works?",
+                "options": {
+                    "a": "It creates a half-open connection during TCP connection establishment, and decides whether the port is open or not.",
+                    "b": "It completes the 3-way handshake in TCP connection establishment, and decides whether the port is open.",
+                    "c": "It does not use 3-way handshake.",
+                    "d": "None of these."
+                },
+                "answer": "b",
+                "explanation": "In TCP Connect, the attacker tries to complete a TCP connection with the target by using 3-way handshake. If successful, it concludes that the given port is open."
+            },
+            {
+                "q": "In port scanning using TCP SYN scan, how are the open and closed ports identified?",
+                "options": {
+                    "a": "An attacker sends a SYN packet to a port, if it receives an SYN-ACK (SA) then the port is reported as open.",
+                    "b": "An attacker sends a SYN packet to a port, if it receives an RST (RA) then the port is reported as closed.",
+                    "c": "An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as open.",
+                    "d": "An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as closed."
+                },
+                "answer": "a, b",
+                "explanation": "In TCP SYN scan open and closed ports are identified by sending SYN request to various ports of the target system. If a SYN-ACK packet is received for a port then the port is reported as open, whereas if it receives a RST (RA) packet then the port is reported as closed. ACK packets are not used in TCP SYN scan."
+            },
+            {
+                "q": "Can the use of firewall prevent port/host scanning?",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Use of firewalls (inbuilt as well as software firewall) can protect you to prevent port/host scanning. We have already done demonstration for this."
+            },
+            {
+                "q": "By default how many ports are scanned in NMAP for a target system ________?",
+                "options": {
+                    "a": "1000",
+                    "b": "2000",
+                    "c": "3000",
+                    "d": "4000"
+                },
+                "answer": "a",
+                "explanation": "By default nmap scans for top 1000 ports."
+            },
+            {
+                "q": "If we does not want to carry out port scanning then which of the following options can be used with NMAP?",
+                "options": {
+                    "a": "-F",
+                    "b": "-p",
+                    "c": "-Pn",
+                    "d": "-sn",
+                    "e": "We cannot disable port scanning."
+                },
+                "answer": "d",
+                "explanation": "The –sn options tells nmap not to carry out a port scan after host discovery, and only provide a list of the available hosts that respond to the scan. Basically, only a ping scan is performed."
+            },
+            {
+                "q": "Which of the following options can be used for OS and Version detection?",
+                "options": {
+                    "a": "–sn",
+                    "b": "-Pn",
+                    "c": "-A",
+                    "d": "–sT",
+                    "e": "None of these"
+                },
+                "answer": "c",
+                "explanation": "For OS and version detection –O and –sV option is used. However scanning with option –A, which is known as aggressive scan, performs various type of scanning such as port scanning, host scanning, OS and version detection, vulnerabilities, etc."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Which of the following tools can be used for scanning vulnerabilities?",
+                "options": {
+                    "a": "Hypervisor",
+                    "b": "Nessus",
+                    "c": "Hydra",
+                    "d": "Nmap",
+                    "e": "Crunch"
+                },
+                "answer": "b, d",
+                "explanation": "The typical tools that are used for scanning vulnerabilities in hosts and networks are NMAP, Nessus, Nexpose, MPSA, etc. Hypervisor is a software tool used for virtualization. Hydra and Crunch are used for performing password attack."
+            },
+            {
+                "q": "NMAP scripts can be used for:",
+                "options": {
+                    "a": "Vulnerability scanning",
+                    "b": "Backdoor detection.",
+                    "c": "Port detection.",
+                    "d": "Password attack."
+                },
+                "answer": "a, b, c, d",
+                "explanation": "The NMAP scripts can be useful for automated scanning. NMAP scripts can be used for vulnerability detection, backdoor detection, port detection, performing password attacks etc."
+            },
+            {
+                "q": "Which of the following NMAP scripts is used to identify the OS of a target system?",
+                "options": {
+                    "a": "smb-os-brute",
+                    "b": "smb-os-discovery",
+                    "c": "http-os-check",
+                    "d": "None of these."
+                },
+                "answer": "b",
+                "explanation": "smb-os-discovery is used to identify the OS of the target system; there is no script such as smo-os-brute, http-os-check."
+            },
+            {
+                "q": "Which of the following scripts can be used to detect if a target system is vulnerable to DoS attack?",
+                "options": {
+                    "a": "http-methos",
+                    "b": "http-brute",
+                    "c": "http-dos-ckeck",
+                    "d": "http-slowloris-check",
+                    "e": "ftp-anon"
+                },
+                "answer": "d",
+                "explanation": "http-methos script is used to check if the host is running a web server on particular port. It can also identify the supported methods (i.e. POST, GET etc). http-brute script is used for a dictionary attack on web server to get some valid credentials. http-slowloris-check script is used to detect a web server vulnerability for DoS attack. ftp-anon script is used to identify if the host is running ftp server or not, it can also identify if it provides anonymous login on ftp or not. There is no script named as http-dos-check."
+            },
+            {
+                "q": "Assume that we want to connect to a target system (10.0.0.1) through ssh service, the username and password are \"user\" and \"pwd\" respectively. Which of the following commands can be used to create a ssh connection?",
+                "options": {
+                    "a": "ssh 10.0.0.1 –p pwd",
+                    "b": "ssh 10.0.0.1 -l pwd -p user",
+                    "c": "ssh 10.0.0.1 user pwd",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "To create a ssh connection, the ssh command is used. With this command username is provided by using -l option or can be combined with target IP address using @ symbol. Password is asked by target after validating username. None of the commands are correct."
+            },
+            {
+                "q": "The necessary parameters required to generate word list using crunch tool is:",
+                "options": {
+                    "a": "Minimum length of the word list.",
+                    "b": "Maximum length of the word list.",
+                    "c": "File name where the word list will be stored.",
+                    "d": "No parameters are required to generate a word list."
+                },
+                "answer": "a, b",
+                "explanation": "To generate a word list using crunch, the necessary parameters which needs to be provided are minimum and maximum length of the word list. All other parameters are optional."
+            },
+            {
+                "q": "Which of the following tools can be used to perform password attack?",
+                "options": {
+                    "a": "Hydra",
+                    "b": "Archive.org",
+                    "c": "Netcraft",
+                    "d": "Whois",
+                    "e": "None of these."
+                },
+                "answer": "a",
+                "explanation": "To perform password attack we can use Hydra tool."
+            },
+            {
+                "q": "Which of the following can be used for gaining higher privileges than existing one?",
+                "options": {
+                    "a": "Vertical privilege escalation.",
+                    "b": "Horizontal privilege escalation.",
+                    "c": "Diagonal privilege escalation.",
+                    "d": "Triangular privilege escalation.",
+                    "e": "None of these."
+                },
+                "answer": "a",
+                "explanation": "Vertical privilege escalation refers to gaining higher than existing privileges. Horizontal privilege escalation refers to acquiring the same level of privilege with the identity of some other user. There is nothing called diagonal/triangular privilege escalation."
+            },
+            {
+                "q": "Which of the following approaches can be used to extract information about all users in a target system?",
+                "options": {
+                    "a": "Use of nmap script smb-enum-user",
+                    "b": "Hydra tool",
+                    "c": "Crunch tool",
+                    "d": "Enum4linux"
+                },
+                "answer": "a, d",
+                "explanation": "An nmap script smb-enum-user and enum4linux tools can be used to retrieve user information. Enum4linux tools can also enumerate password related information such as password policy. Hydra is used for password cracking, whereas crunch is used to create dictionary."
+            },
+            {
+                "q": "In an attack using the remote administrative tool, which part of the tool needs to be placed in target system?",
+                "options": {
+                    "a": "Client",
+                    "b": "Server"
+                },
+                "answer": "b",
+                "explanation": "In remote administrative tool attack, server part of the tool needs to be placed on the target system."
+            },
+            {
+                "q": "To upload any file in the target system which is connected through FTP connection which of the following command can be used?",
+                "options": {
+                    "a": "put",
+                    "b": "get",
+                    "c": "upload",
+                    "d": "download"
+                },
+                "answer": "a",
+                "explanation": "To upload any file we use the \"put\" command."
+            },
+            {
+                "q": "Which of the following can self-replicate itself?",
+                "options": {
+                    "a": "Trojan",
+                    "b": "Virus",
+                    "c": "Ransomware",
+                    "d": "All of these"
+                },
+                "answer": "b",
+                "explanation": "Virus and worms typically replicate themselves and get attached to other files."
+            },
+            {
+                "q": "How a malware can get inside into a system?",
+                "options": {
+                    "a": "Removable devices",
+                    "b": "Attachments",
+                    "c": "Fake Programs",
+                    "d": "Untrusted sites and freeware software."
+                },
+                "answer": "a, b, c, d",
+                "explanation": "Malware can get inside the system through all the given approaches."
+            },
+            {
+                "q": "The major loophole of ARP is that \"a host can send unlimited number of ARP requests\", and this can be used for ARP spoofing / ARP poisoning.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "In ARP protocol there is no limitations to send an ARP request, and this loophole is used to create ARP-based attack by sending multiple false ARP requests in network to flood ARP tables."
+            },
+            {
+                "q": "Which of the following commands is used to see all arp entries in a system?",
+                "options": {
+                    "a": "arp -a",
+                    "b": "arp -s",
+                    "c": "arp -i",
+                    "d": "arp -d"
+                },
+                "answer": "a",
+                "explanation": "To access all information related to ARP, arp command is used, -a option is used to see all arp entries, -s option is used to create new arp entry, -i option is used to specify a particular network interface, -d option is used to delete an arp entry."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "Which of the following is not an example of active security attack?",
+                "options": {
+                    "a": "Masquerade",
+                    "b": "Replay",
+                    "c": "Traffic analysis",
+                    "d": "Modification",
+                    "e": "Denial of Service."
+                },
+                "answer": "c",
+                "explanation": "Analyzing the network traffic refers to passive attack. Masquerade, replay, modification, denial of service are active attacks."
+            },
+            {
+                "q": "Consider the following statements:\n(i) In symmetric key cryptography, single shared key is used by sender and receiver.\n(ii) In Asymmetric key cryptography, separate keys are used by sender and receiver.",
+                "options": {
+                    "a": "Only (i) is true",
+                    "b": "Only (ii) is true",
+                    "c": "Both (i) and (ii) are true.",
+                    "d": "Both (i) and (ii) are false."
+                },
+                "answer": "c",
+                "explanation": "In symmetric key (private key) cryptography, a single key is shared and used by sender and receiver, whereas in public key cryptography separate keys are used by sender and receiver."
+            },
+            {
+                "q": "15 parties want to exchange messages securely using a symmetric key encryption algorithm. The number of distinct key values required will be _________.",
+                "options": {
+                    "a": "105",
+                    "b": "110",
+                    "c": "115",
+                    "d": "120"
+                },
+                "answer": "a",
+                "explanation": "In symmetric encryption, every pair of communicating parties must have a separate key. For N parties, the number of keys will be NC2. For N = 15, 15C2 = 15 × 14 / 2 = 105."
+            },
+            {
+                "q": "Consider a mono-alphabetic cipher with the following key value:\n(A B C D I J K L E F G H M N O P U V W X Q R S T Y Z)\nWhat will be the encrypted form of the message \"W I N D O W\"?",
+                "options": {
+                    "a": "W E N D H W",
+                    "b": "S K N G H S",
+                    "c": "S E N D O S",
+                    "d": "None of these."
+                },
+                "answer": "c",
+                "explanation": "According to the specified key, the letter 'W' maps to 'S', 'I' maps to 'E', 'N' maps to 'N', 'D' maps to 'D', and 'O' maps to 'O'. Hence the encrypted form of \"WINDOW\" will be \"SENDOS\"."
+            },
+            {
+                "q": "How many AES rounds are required for 192-bit key size?",
+                "options": {
+                    "a": "10",
+                    "b": "11",
+                    "c": "12",
+                    "d": "14"
+                },
+                "answer": "c",
+                "explanation": "12 rounds are required in the AES algorithm for 192-bit key size."
+            },
+            {
+                "q": "What is the key length in data encryption standard (DES)?",
+                "options": {
+                    "a": "56",
+                    "b": "64",
+                    "c": "128",
+                    "d": "192"
+                },
+                "answer": "a",
+                "explanation": "The DES encryption algorithm is a \"block cipher\" that encrypts information in blocks of 64 bits (8 bytes). Using a 56-bit key, DES encrypts each block in 16 identical rounds."
+            },
+            {
+                "q": "100 parties want to exchange messages securely using some public key encryption technique like RSA. The number of distinct key values required will be __________.",
+                "options": {
+                    "a": "100",
+                    "b": "150",
+                    "c": "200",
+                    "d": "250"
+                },
+                "answer": "c",
+                "explanation": "In public-key or asymmetric encryption, every party is in possession of two keys, a public key and a private key. For N parties, the number of keys will be 2N. For N = 100, the number of distinct keys required will be 100 x 2 = 200."
+            },
+            {
+                "q": "In Digital signature sender signs a message with its:",
+                "options": {
+                    "a": "Private key",
+                    "b": "Public key"
+                },
+                "answer": "a",
+                "explanation": "For digital signature or authentication sender signs a message with its private key that is authenticated by the corresponding public key."
+            },
+            {
+                "q": "On which difficult mathematical problem does the security of RSA algorithm depend on?",
+                "options": {
+                    "a": "Discrete logarithm problem.",
+                    "b": "Testing whether a given number if prime or not.",
+                    "c": "Prime factorization problem.",
+                    "d": "The RSA threshold detection.",
+                    "e": "All of these."
+                },
+                "answer": "c",
+                "explanation": "The security of the RSA algorithm depends on the complexity of factoring the product of two large prime numbers."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for Diffie-Hellman Key Exchange algorithm?",
+                "options": {
+                    "a": "It allows group of users to agree on secret key over insecure channel.",
+                    "b": "The security of the algorithm depends on prime factorization problem.",
+                    "c": "The algorithm is vulnerable to man-in-the-middle attack.",
+                    "d": "It does not require any prior communication between sender and receiver."
+                },
+                "answer": "a, c, d",
+                "explanation": "D-H algorithm is mainly used for key exchange between users over an insecure channel; it does not require any prior communication between sender and receiver for key exchange. As the communication is done over insecure channel it is vulnerable to man-in-the-middle attack. The complexity of the algorithm depends on that of cracking the discrete logarithm problem."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Which of the following is/are true for Unkeyed hash function (Modification Detection Code)?",
+                "options": {
+                    "a": "Unkeyed hash function is used to preserve integrity of message.",
+                    "b": "Unkeyed hash function is used to authenticate source of message.",
+                    "c": "Unkeyed hash function produces an output that depends only on the input data.",
+                    "d": "None of these."
+                },
+                "answer": "a, c",
+                "explanation": "Unkeyed hash function takes an input of variable length and converts it to a fixed-length output. It does not use any key, and thus the output only depends on the input data. Unkeyed hash function is used to preserve data integrity. It is impossible to figure out the sender of the message when we use Unkeyed hash function."
+            },
+            {
+                "q": "Two messages M1 and M2 are fed to a hash function HASH to generate the hash values:\nH1 = HASH (M1)\nH2 = HASH (M2)\nWhen do we say there is a collision?",
+                "options": {
+                    "a": "H1 = H2.",
+                    "b": "M1 = M2.",
+                    "c": "H1 = HASH (H2).",
+                    "d": "None of these."
+                },
+                "answer": "a",
+                "explanation": "With respect to hashing, collision refers to the situation where more than one messages (here M1 and M2) map to the same hash value."
+            },
+            {
+                "q": "Which of the following corresponds to second preimage resistance in the context of hash functions?",
+                "options": {
+                    "a": "Except of few hash values H, it should be difficult to find a message M1 such that HASH(M1) = H.",
+                    "b": "Given a message M1, it should be difficult to find another message M2 such that HASH(M1) = HASH(M2).",
+                    "c": "It should be difficult to find two messages M1 and M2 such that HASH(M1) = HASH(M2).",
+                    "d": "None of these."
+                },
+                "answer": "b",
+                "explanation": "When we use hash function then it is expected that it should be computationally infeasible to identify the input data; for this preimage resistance and collison rules are used. The first preimage resistance is defined as: Except for few hash values H, it should be difficult to find a message M1 such that HASH(M1) = H. This means that for all pre-specified outputs, it should be computationally infeasible to find any input which hashes to that output. The second preimage resistance is defined as: Given a message M1, it should be difficult to find another message M2 such that HASH(M1)=HASH(M2), which means it should be computationally infeasible to find any second input which has the same output as any specified input. Collison resistance is defined as: It should be difficult to find two messages M1 and M2 such that HASH(M1)=HASH(M2). This means it should be difficult to find two messages with same hash values."
+            },
+            {
+                "q": "What is the message digest length of MD5 and SHA-1 hash functions?",
+                "options": {
+                    "a": "32-bit, 64-bit.",
+                    "b": "64-bit, 128-bit.",
+                    "c": "128-bit, 160-bit.",
+                    "d": "128-bit, 256-bit.",
+                    "e": "None of these."
+                },
+                "answer": "c",
+                "explanation": "MD5 and SHA-1 hash function results in 128-bit and 160-bit hash values that is often termed as message digest."
+            },
+            {
+                "q": "Which of the following is/are not hash functions?",
+                "options": {
+                    "a": "MD5",
+                    "b": "Triple-DES",
+                    "c": "SHA-1",
+                    "d": "RSA."
+                },
+                "answer": "b, d",
+                "explanation": "MD5 and SHA-1 are examples of hash function, while Triple-DES is a symmetric key encryption algorithm, and RSA is a public key encryption algorithm."
+            },
+            {
+                "q": "Hash functions are faster than symmetric and public key encryption?",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Computation of hash function is the fastest. Computation of public-key encryption is the slowest. Symmetric-key encryption lies in between the two."
+            },
+            {
+                "q": "Which of the following is/are false for digital signature?",
+                "options": {
+                    "a": "Digital signature is legally equivalent to hand-written signature.",
+                    "b": "In digital signature, signer uses his public key to sign.",
+                    "c": "Anybody having access to the signer's public key can verify the signature.",
+                    "d": "None of these."
+                },
+                "answer": "b",
+                "explanation": "Digital signature is an example of authentication where the signer uses his private key to sign any document, a receiver or anybody having the access of public key of the signer can identify the signer, digital signature is equivalent to hand written signature."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true?",
+                "options": {
+                    "a": "Secure Socket Layer (SSL) provides security to the data transferred between web browser and server.",
+                    "b": "SSL can be used for any network service running over TCP/IP.",
+                    "c": "SSL Handshake Protocol provides mutual authentication.",
+                    "d": "None of these."
+                },
+                "answer": "a, b, c",
+                "explanation": "SSL is used to provide secure channel for data transfer. It uses TCP to provide reliable end-to-end secure service and can be used for any network service running over TCP/IP. SSL is responsible for data security and integrity; it can also perform some other functionalities such as fragmentation and encryption. SSL Handshake Protocol is used to initial session between server and client and provides mutual authentication."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for SSL Alert Protocol?",
+                "options": {
+                    "a": "If the first byte is 1 then it indicates that this alert has no impact on the connection between sender and receiver.",
+                    "b": "If the fist byte is 1 then the SSL connection is terminated.",
+                    "c": "If the first byte is 2 then it indicates that this alert has no impact on the connection between sender and receiver.",
+                    "d": "If the first byte is 2 then the SSL connection is terminated."
+                },
+                "answer": "a, d",
+                "explanation": "SSL Alert protocol is used to send session messages associated with data exchange and functioning of the protocol. Each SSL alert message consists of two bytes. The first byte can be either 1 or 2. The value 1 indicates warning such as bad certificate, no certificate, certificate expired, unsupported certificate etc. This alert does not have any impact on the session. The value 2 indicates the fatal error such as handshake failure, incorrect MAC etc. which leads to connection termination. The second byte describes the error."
+            },
+            {
+                "q": "Consider the following statements:\n(i) SSL is designed to establish secure connection between two hosts.\n(ii) s-HTTP is designed to send individual messages securely.",
+                "options": {
+                    "a": "Only (i) is true",
+                    "b": "Only (ii) is true",
+                    "c": "Both (i) and (ii) are true",
+                    "d": "Both (i) and (ii) are false"
+                },
+                "answer": "c",
+                "explanation": "Secure HTTP is an extension of HTTP protocol that is used to send data securely over the web. The main difference between SSL and s-HTTP is that SSL is designed to establish a secure connection between two hosts whereas s-HTTP is designed to send individual messages securely."
+            },
+        ],
+        "Assignment 8": [
+            {
+                "q": "Consider the following statements:\n(i) Steganography refers to a set of methods to hide some secrete information in an audio/image/executable files.\n(ii) Steganography and digital watermarking shares same operational and functional behaviors.",
+                "options": {
+                    "a": "Only (i) is true",
+                    "b": "Only (ii) is true",
+                    "c": "Both (i) and (ii) are true",
+                    "d": "Both (i) and (ii) are false"
+                },
+                "answer": "c",
+                "explanation": "Steganography refers to a set of methods where some information is hidden within some other file (like image, audio, video, executable, etc.). Digital watermarking embeds copyright, ownership, license and similar information in a medium such as audio, video, image etc. Digital watermarking is different from steganography only in the intent of hiding. They share same operational and functional behavior."
+            },
+            {
+                "q": "Consider a gray-level image of size 2000 x 2000, where each pixel is stored in 24-bits (containing red, green, and blue components as 8-bit each. How many bytes of information can be hidden in the image by using LSB steganography technique? (Assume that only the least significant bit in each 8-bit color component is modified).",
+                "answer": "1500000",
+                "explanation": "Each pixel consists of 24 bits or 3 bytes, and hence 3 bits of information can be stored in each pixel. The number of bits of hidden information that can be stored in the whole image will be: 2000 x 2000 x 3 bits = 2000 x 2000 x 3 / 8 bytes = 15, 00,000 bytes."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true?",
+                "options": {
+                    "a": "Biometrics refers to an automated method for hiding information in a media like audio, video, image etc.",
+                    "b": "Biometrics refers to embedding copyright, ownership, license and similar information in a medium such as audio, video, image etc.",
+                    "c": "Biometrics refers to an automated method for recognizing individuals based on measurable biological and behavioral characteristics.",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Hiding information is referred to as steganography, hiding information such as copyright is known as digital watermarking. Biometrics refers to an automated method for recognizing individuals based on measurable biological and behavioral characteristics."
+            },
+            {
+                "q": "Which of the following is/are example(s) of behaviour biometric?",
+                "options": {
+                    "a": "Retina scan",
+                    "b": "Fingerprint recognition",
+                    "c": "Facial recognition",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Physical biometrics refers to physiological features on the human body such as a fingerprint, retina scan whereas behavioral biometrics analyzes parameters such as keystroke pattern, typing speed, mouse movement, signature styles etc."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true in biometric systems?",
+                "options": {
+                    "a": "For authentication application, a user template is compared against all possible templates stored in the database.",
+                    "b": "For verification application, a user template is compared against a specific single template stored in the database.",
+                    "c": "Biometric systems can provide 100% accuracy in security applications.",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "When biometric is used for authenticating a known person, his/her biometric template is compared against the corresponding template stored in the database. However, for identifying a person whose id is not known, his/her biometric template has to be compared with all the templates stored in the database. None of the biometric systems can provide 100% accuracy."
+            },
+            {
+                "q": "Which of the following attacks rely on the accumulation of TCP half-open connections on the server?",
+                "options": {
+                    "a": "Ping of death attack",
+                    "b": "SYN flooding attack",
+                    "c": "Smurf attack",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The SYN flooding attack tries to exploit a weakness in the TCP connection establishment phase. The attacker floods the victim machine with a large number of TCP connection requests, each of which is left as half-open (i.e. the third packet in 3-way handshake is not sent). Each connection request will take up some resources on the victim machine (e.g. port number, buffer space, etc.), and ultimately genuine requests will not get processed."
+            },
+            {
+                "q": "In which of the following denial-of-service attacks, the attacker attempts to crash/freeze target computer/service by sending oversized packet in simple ping command?",
+                "options": {
+                    "a": "SYN flooding attack",
+                    "b": "Smurf attack",
+                    "c": "Ping-of-death",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "In the ping-of-death attack, attacker uses larger than maximum packet size (65536) ping packets that are broken into smaller segments and resembled at receiver end. Systems that are unable to handle such abnormalities either crash or reboot."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for HTTP Flood attack?",
+                "options": {
+                    "a": "It is a type of Distributed-Denial-of-Service (DDoS) attack",
+                    "b": "It overwhelms a target server by accumulating large number of TCP half-open connections",
+                    "c": "It overwhelms a target server using oversized ping packets",
+                    "d": "It overwhelms a target server with HTTP request",
+                    "e": "None of these"
+                },
+                "answer": "a, d",
+                "explanation": "HTTP Flood attack is a type DDoS attack which is designed to overwhelm the target server with HTTP requests. Once the target is saturated with HTTP requests, it does not respond to HTTP request from legitimate users."
+            },
+            {
+                "q": "Which of the following approach can be used to mitigate HTTP flood attack?",
+                "options": {
+                    "a": "Use captcha test",
+                    "b": "Use JavaScript computational challenge",
+                    "c": "Use web application firewall",
+                    "d": "Block ping requests",
+                    "e": "Block TCP connections",
+                    "f": "None of these"
+                },
+                "answer": "a, b, c",
+                "explanation": "To protect web server from HTTP flood attack a simple method can be giving challenge to the requesting machine in order to test whether it is a bot or a legitimate user. For this we can use captcha test or simple JavaScript computational challenge. The other way to mitigate HTTP flood attack is to use web application firewall that can identify an authentic source of traffic and selectively block all malicious traffic."
+            },
+            {
+                "q": "Which of the following is true for recursive name resolution?",
+                "options": {
+                    "a": "A host may have to send multiple DNS requests to several DNS servers",
+                    "b": "A host sends a single DNS request to its next higher-level DNS server",
+                    "c": "Name resolution happens recursively within the host itself",
+                    "d": "All of these"
+                },
+                "answer": "b",
+                "explanation": "The DNS server receives a DNS request from a host containing a domain name, and it returns the corresponding IP address. In iterative name resolution, in response to a DNS request, the DNS server sends back a response specifying the next DNS server to send the query. In this way, the host may have to send a number of DNS requests before it gets resolved. In recursive name resolution, the host sends a DNS request to the next higher level DNS server. The DNS server in turn recursively forwards the request to its next higher-level DNS server, and so on, until the request gets resolved. The final reply gets back to the host. Here, the host sends a single DNS request."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "In promiscuous mode, a network device, such as an adapter on a host system, can intercept and read all traffic on the network segment to which the adapter is connected.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "In computer networking, promiscuous mode is a mode of operation, as well as a security, monitoring and administration technique which is mostly used for network analyzer tools such as Wireshark and burpsuit. In promiscuous mode, a network device, such as an adapter on a host system, can intercept and read in its entirety each network packet that arrives."
+            },
+            {
+                "q": "Which of the following commands can be used to put the NIC of a machine to promiscuous mode? (Assumption: Machine IP - 192.168.43.48, IP of default gateway - 192.168.43.141, the machine is connected with eth0 interface).",
+                "options": {
+                    "a": "arpspoof 192.168.43.48",
+                    "b": "arpspoof 192.168.43.141",
+                    "c": "arpspoof –i eth0 192.168.43.48",
+                    "d": "arpspoof –i eth0 192.168.43.141"
+                },
+                "answer": "d",
+                "explanation": "To put any machine (say M) into promiscuous mode we need to send fake ARP messages to all devices stating that the MAC address of default gateway is changed to the MAC address of the machine M. To achieve this, arpspoof tool is used, and the command used for the same is arpspoof –i 192.168.43.141."
+            },
+            {
+                "q": "In Wireshark, to filter all the packets used by an IP address 23.36.4.106, which of the following filter option/command can be used?",
+                "options": {
+                    "a": "23.36.4.106",
+                    "b": "ip == 23.36.4.106",
+                    "c": "ip.addr == 23.36.4.106",
+                    "d": "ip.address = 23.36.4.106",
+                    "e": "None of these"
+                },
+                "answer": "c",
+                "explanation": "To filter all packets \"ip.addr ==\" option is used along with the IP address."
+            },
+            {
+                "q": "A simple packet analyzer tool such as Wireshark can capture login credential of a user if the login page is using the following Protocol:",
+                "options": {
+                    "a": "HTTP",
+                    "b": "SSH",
+                    "c": "HTTPS",
+                    "d": "SSL",
+                    "e": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Wireshark can capture credentials of webpages which uses unsecure protocols such as HTTP, FTP."
+            },
+            {
+                "q": "How to detect whether network sniffing is probably going on in a network?",
+                "options": {
+                    "a": "By checking the ARP entry",
+                    "b": "By conducting TCP stealth scan on all the machines in the network",
+                    "c": "By using a script that checks whether any of the machines has the network card configured in the promiscuous mode",
+                    "d": "None of these"
+                },
+                "answer": "a, c",
+                "explanation": "By manually checking the ARP entry we can identify if any system is using same MAC address as the MAC of default gateway, which basically indicates that that particular system is configured in the promiscuous mode. Using the following NMAP command, we can find out whether any of the network cards on the network is configured in the promiscuous mode. (It is done by broadcasting fake ARP packets) nmap –script=sniffer-detect <IP addresses to check>"
+            },
+            {
+                "q": "What is the purpose of scanner module available in burp suite?",
+                "options": {
+                    "a": "It is used to mount password attack",
+                    "b": "It is used for manipulating and reissuing packets and to analyze their response",
+                    "c": "It is used for creating dictionary",
+                    "d": "It is used for automotive crawling web applications",
+                    "e": "None of these"
+                },
+                "answer": "e",
+                "explanation": "Scanner module is used for finding vulnerabilities in web applications."
+            },
+            {
+                "q": "In Burp suite which of the following module is used to intercept, inspect and modify raw traffic?",
+                "options": {
+                    "a": "Spider",
+                    "b": "Scanner",
+                    "c": "Intruder",
+                    "d": "Proxy",
+                    "e": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Spider module is used for automotive crawling, scanner is used for vulnerability scanning, intruder is used for automatic customized attack against web application, proxy module gives a direct view of how target application works by working as proxy server. It gives facility to intercept, inspect and modify raw traffic of the application."
+            },
+            {
+                "q": "Which of the following is/are example(s) of computer-based social engineering attack?",
+                "options": {
+                    "a": "Impersonation",
+                    "b": "Tailgating",
+                    "c": "Shoulder surfing",
+                    "d": "Chain letters",
+                    "e": "phishing"
+                },
+                "answer": "d, e",
+                "explanation": "The options (a), (b) and (c) are example of human-based social engineering attacks, while d and e are examples of computer-based social engineering attack."
+            },
+            {
+                "q": "How does Slowloris attack work?",
+                "options": {
+                    "a": "It sends a single large ping packet to victim system",
+                    "b": "It sends multiple HTTP requests to the victim system but never completes the request",
+                    "c": "It sends large number ARP packet to the victim system",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "It sends multiple HTTP packets to connect with the victim system, but never completes resulting DoS for legitimate users."
+            },
+            {
+                "q": "Which of the following tools can be used to mount DoS attack?",
+                "options": {
+                    "a": "LOIC tool",
+                    "b": "Hping3",
+                    "c": "Hydra",
+                    "d": "Crunch",
+                    "e": "None of these"
+                },
+                "answer": "a, b",
+                "explanation": "LOIC and Hping3 tools can be used for DoS attack, Hydra and Crunch are used for password attack."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "Which of the following are examples of hardware-based attacks?",
+                "options": {
+                    "a": "Side-channel attack",
+                    "b": "Physical probing",
+                    "c": "Denial of service stack",
+                    "d": "SQL injection attack"
+                },
+                "answer": "a, b",
+                "explanation": "In side-channel attack, some side channels (like delay, power, etc.) are monitored during some computation using some sophisticated measuring instruments, and as such requires access to the hardware that runs the computation. In comparison, denial-of-service and SQL injection are essentially software-based attacks."
+            },
+            {
+                "q": "For modular exponentiation computation of x25, how many squaring and multiplication operations would be required?",
+                "options": {
+                    "a": "4 and 4",
+                    "b": "4 and 2",
+                    "c": "3 and 4",
+                    "d": "5 and 2",
+                    "e": "5 and 3"
+                },
+                "answer": "b",
+                "explanation": "The binary representation of 25 is 11001. Thus, x25 = x16 * x8 * x1 = (x8 * x4)2 * x1 = ((x4 * x2)2)2 * x1 = (((x2 * x)2)2)2 * x1. This computation requires 4 squaring and 2 multiplication operations."
+            },
+            {
+                "q": "Which of the following is/are true for side-channel attacks?",
+                "options": {
+                    "a": "They exploit weakness in cryptographic algorithm",
+                    "b": "They exploit weakness in algorithm implementation",
+                    "c": "They do not require physical access to the device",
+                    "d": "It is used to encrypted ciphertexts for a number of given plaintext messages"
+                },
+                "answer": "b",
+                "explanation": "Side-channel attacks basically exploit weaknesses in the implementation (hardware or software) of an algorithm. It requires physical access to the device for measurement of some parameter."
+            },
+            {
+                "q": "Which of the following is/are true for simple power analysis?",
+                "options": {
+                    "a": "In this analysis attacker directly uses power consumption to learn bits of secret key",
+                    "b": "Using this analysis we can identify features like rounds of DES/AES, multiply in RSA exponentiation",
+                    "c": "In this analysis the waveform is partitioned into two sets according to selected bits",
+                    "d": "It relies on the use of a hardware Trojan in the circuit",
+                    "e": "None of these"
+                },
+                "answer": "a, b",
+                "explanation": "In simple power analysis the waveform is examined to identify the bit stream/key, In this analysis the attacker directly uses the power consumption of bits, using this attack, attacker can identify number of rounds in AES/DES, multiply in RSA exponentiations. It is easy to defend. In counter to this Differential power analysis waveform is portioned according to bit stream and then the difference of the waveform is used for analysis. Power analysis attacks does not use hardware Trojan."
+            },
+            {
+                "q": "Which of the following strategies can be used to prevent timing analysis attack?",
+                "options": {
+                    "a": "Make the computation independent of the input",
+                    "b": "Package the chip in a temper proof casing",
+                    "c": "Use highly secured cryptographic algorithm",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Side channel attacks such as power and time analysis attacks exploit the weakness in the algorithm implementation. So if we use highly secure algorithm and do not implement it correctly then it can be exploited using side channel attack. Side-channel attacks can be prevented by making all the branches in conditional statements symmetric with respect to computation (or in simple word making the computation constant irrespective of input pattern)."
+            },
+            {
+                "q": "Which of the following is not a desirable property of PUF?",
+                "options": {
+                    "a": "Given a PUF, it is hard to construct a procedure PUF', where PUF != PUF', and PUF'(x) = PUF(x) for all x",
+                    "b": "Given only y and corresponding PUF instance, it is hard to find x such that PUF(x) = y",
+                    "c": "Given PUF and x, it should be easy to evaluate y = PUF(x)",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "All the given points are desirable properties of PUF."
+            },
+            {
+                "q": "PUF can be used for:",
+                "options": {
+                    "a": "Security Primitive",
+                    "b": "Identification",
+                    "c": "Private/Public key pair generation",
+                    "d": "None of these"
+                },
+                "answer": "a, b, c",
+                "explanation": "PUFs can be used for all given applications (refer week 10, lecture 49, slide number 9,10,11)."
+            },
+            {
+                "q": "Number of possible paths in 8-bit arbiter PUF will be _________.",
+                "answer": "256",
+                "explanation": "Arbiter PUF is composed of n two-port switching stages. For an n-bit challenge size, number of possible paths will be 2n; for n= 8, number of possible paths will be 256."
+            },
+            {
+                "q": "Consider the following statements:\n(i) Hardware Trojans are small modifications in the circuit.\n(ii) It is used to reduce power consumption of a circuit.",
+                "options": {
+                    "a": "Only (i) is true",
+                    "b": "Only (ii) is true",
+                    "c": "Both (i) and (ii) are true",
+                    "d": "Both (i) and (ii) are true"
+                },
+                "answer": "a",
+                "explanation": "A hardware Trojan is a small malicious circuit integrated with a normal chip which incurs small hardware overhead, and is difficult to detect. It does not lead to reduction in power consumption."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true about Hardware Trojan?",
+                "options": {
+                    "a": "It performs tasks for which it are designed or programmed",
+                    "b": "It can replicate itself",
+                    "c": "It does nothing harmful to the user's computer system",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "A hardware Trojan is a small malicious circuit integrated with a normal chip which incurs small hardware overhead, and triggers in some event; it cannot replicate itself."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "Which of the following is used to take advantage of system/application bugs?",
+                "options": {
+                    "a": "Exploit",
+                    "b": "Payload",
+                    "c": "Auxiliary",
+                    "d": "Encoder",
+                    "e": "msfvenum"
+                },
+                "answer": "a",
+                "explanation": "Encoder module is used to encode the payloads. Exploit module is used to take advantage of System/Application bugs. Payload module is used to establish communication channel between Metasploit framework and target system. Auxiliary module is used to perform brute force attack, DoS attack, host and port scanning, vulnerability scanning, etc."
+            },
+            {
+                "q": "Which of the following statement is true for meterpreter payload?",
+                "options": {
+                    "a": "Meterpreter payload is used to perform brute force attack.",
+                    "b": "Meterpreter payload provides an interactive shell to the attacker from which attacker can explore the target machine and can execute codes.",
+                    "c": "Meterpreter payload is used to launch Metasploit framework.",
+                    "d": "Meterpreter payload is used to bypass the anti-virus installed in target system.",
+                    "e": "None of these."
+                },
+                "answer": "b",
+                "explanation": "To perform brute force attack auxiliaries are used, to bypass antivirus encoders are used to encode payloads, to launch Metasploit framework msfconsole command is used. Meterpreter payload is used to create an interactive shell such that an attacker can explore target system and can run various other commands."
+            },
+            {
+                "q": "Which of the following module is used to create new payloads.",
+                "options": {
+                    "a": "Msfconsol",
+                    "b": "Encoders",
+                    "c": "Exploit",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "msfconsol provides an user interface for Metasploit framework, encoders are used to encode payloads to bypass anti-virus installed in target system, Exploit module consist of exploits which is basically a piece of code that is made to take advantage of system/application bugs. Msfvenom is used to create new payloads."
+            },
+            {
+                "q": "In Metasploit, to check various parameters that need to be set for an exploit, which of the following commands is used?",
+                "options": {
+                    "a": "Show parameters",
+                    "b": "Show options",
+                    "c": "Set parameters",
+                    "d": "Set options",
+                    "e": "None of these"
+                },
+                "answer": "b",
+                "explanation": "To check all parameters that need to be set for any exploit we can use \"show options\" command."
+            },
+            {
+                "q": "To create a payload (backdoor), which of the following is required?",
+                "options": {
+                    "a": "Name of the payload",
+                    "b": "IP of the target system",
+                    "c": "IP of an attacker system",
+                    "d": "Port of target system",
+                    "e": "Port of an attacker system"
+                },
+                "answer": "a, c, e",
+                "explanation": "To create payload, name of payload, IP and port of the attacker system are required."
+            },
+            {
+                "q": "Which of the following tools/approach can be used to extract existing and hidden pages of a webserver?",
+                "options": {
+                    "a": "Dirb",
+                    "b": "NMAP scan using \"http-enum\" script",
+                    "c": "Hydra",
+                    "d": "Crunch"
+                },
+                "answer": "a, b",
+                "explanation": "To scan a webserver tools like dirb, dnsenum is used, we also use nmap script http-enum for the same purpose. Hydra and Crunch are used for password cracking."
+            },
+            {
+                "q": "Consider the table \"USERS\" consist of 3 column u_id, u_name and pass as given below:\nu_id u_name Pass\n1 NPTEL nptel1234\n2 IIT_KGP kgp1234\n3 Eth_Hack eth4321\nWhich of the following SQL queries are malicious with respect to the above table?",
+                "options": {
+                    "a": "SELECT * from USERS;",
+                    "b": "SELECT * from USERS where u_id = \"5\"",
+                    "c": "SELECT * from USERS where u_name = \"any\"",
+                    "d": "SELECT * from USERS where u_name = \"any\" or 1=1"
+                },
+                "answer": "d",
+                "explanation": "The first three SQL queries are valid queries; however, we will not get any output for the queries (b) and (c). The last query is a malicious query, which has the malicious condition 1=1."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for sql injection attack?",
+                "options": {
+                    "a": "If a webpage is vulnerable to blind sql injection then it will print error message for an incorrect user input.",
+                    "b": "If a webpage is vulnerable to blind sql injection then it will not print anything for an incorrect user input.",
+                    "c": "If a webpage is vulnerable to error-based sql injection then it will print error message for an incorrect user input.",
+                    "d": "If a webpage is vulnerable to error-based sql injection then it will not print anything for an incorrect user input."
+                },
+                "answer": "b, c",
+                "explanation": "If the webpage is vulnerable to error-based sql injection, then it will generate an error message for incorrect user input. And if it is vulnerable to blind sql injection attack then it will not through any error to an incorrect user input."
+            },
+            {
+                "q": "Which of the following tools is used to automate sql injection attacks?",
+                "options": {
+                    "a": "Hydra",
+                    "b": "Metasploit",
+                    "c": "SQL MAP",
+                    "d": "NMAP"
+                },
+                "answer": "c",
+                "explanation": "To automate sql injection attack, SQL MAP tool can be used. NMAP is used for vulnerability scanning in a network or web application, whereas Metasploit framework is used to exploit various weakness of the system, Hydra is used to perform dictionary based password attack."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for reflected XXS?",
+                "options": {
+                    "a": "It affects all users of that web application.",
+                    "b": "It affects only a single client of the web application.",
+                    "c": "It is stored in the database of web application.",
+                    "d": "None of these."
+                },
+                "answer": "b",
+                "explanation": "Stored XSS is stored in a database of web application and can affect all users; however, reflected XSS is limited to a single client."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "Which of the following options can be used for host discovery using NMAP?",
+                "options": {
+                    "a": "–PE",
+                    "b": "–PC",
+                    "c": "–PM",
+                    "d": "–PP"
+                },
+                "answer": "a, c, d",
+                "explanation": "For host discovery using NMAP various options can be used, the most common option is ping sweep. –PE is used for ICMP ECHO Sweep, -PP and –PM is used for ICMP NON-ECHO ping sweep scanning. There is no option as –PC."
+            },
+            {
+                "q": "Which of the following packets will be received in response form a target if an attacker sends out an ICMP ECHO request (Type 8) packet (Assume that the target is live).",
+                "options": {
+                    "a": "ICMP Echo Request (Type 8)",
+                    "b": "ICMP Echo Reply (Type 0)",
+                    "c": "ICMP Timestamp reply (Type 14)",
+                    "d": "ICMP Address mask reply (Type 18)"
+                },
+                "answer": "b",
+                "explanation": "In response to ICMP Echo request, if the host is live we will receive an ICMP Echo reply (Type 0) packet. If the host is down we will not get any response form the target system."
+            },
+            {
+                "q": "In TCP sweep scan, a scanner sends a \"S\" packet (Synchronization) and receives a \"RA\" packet (Reset) from target. What does it indicates?",
+                "options": {
+                    "a": "Target is alive/up.",
+                    "b": "Target is down."
+                },
+                "answer": "b",
+                "explanation": "TCP sweep is carried out using the –PS, –PA option in NMAP. It is also done by some default options such as –sT, -p, -Pn. In TCP sweep scan using –PS option, Synchronization packet (S) is sent from attacker system, if the attacker get an Acknowledge packet (SA) as response then it conclude the target system as up, and if it receives a Reset (RA) packet then attacker systems conclude that the target is down."
+            },
+            {
+                "q": "To see why NMAP is reporting any port as open or close (or a host as up or down) which of the following options is used?",
+                "options": {
+                    "a": "--disable-arp-ping",
+                    "b": "--packet-trace",
+                    "c": "--show-reason",
+                    "d": "--reason"
+                },
+                "answer": "d",
+                "explanation": "disable-arp-ping option is used to disable arp request for host scanning, packet-trace option is used to trace the incoming and outgoing packets, reason option is used to see why nmap is reporting any port as open or close or any host as up and down. There is no option called show-reason."
+            },
+            {
+                "q": "Which of the following scanning options uses all type of sweep operations (except UDP sweep)?",
+                "options": {
+                    "a": "–sn",
+                    "b": "–PE",
+                    "c": "–PP",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "By default NMAP uses all type of sweep operations in common scanning options such that it can get better details about any system. Options that use all type of sweep operations are –sP, -sn, -sl, -Pn. If we use options such as –PE and PP, then specific sweep operation (ICM sweep operation) will be performed."
+            },
+            {
+                "q": "Which of the following NMAP scans completes 3-way handshake?",
+                "options": {
+                    "a": "ICMP Echo Sweep Scan",
+                    "b": "ICMP Non-Echo Sweep Scan",
+                    "c": "TCP Connect Scan",
+                    "d": "TCP Stealth Scan"
+                },
+                "answer": "c",
+                "explanation": "When we do not have root privilege then for scanning we can use TCP connect scan (-sT) option which done port scanning by completing a TCP 3 way handshake process. ICMP Echo and Non-Echo sweep scan use ICMP packets. TCP stealth scan uses TCP 3 way handshake but it never completes the third step."
+            },
+            {
+                "q": "In NMAP, _________ number of ports are scanned when we use –F option.",
+                "answer": "100",
+                "explanation": "By default NMAP scans for top 1000 ports, if we use –F option then top 100 ports are scanned."
+            },
+            {
+                "q": "Which of the following NMAP option is used for OS detection?",
+                "options": {
+                    "a": "–sL",
+                    "b": "–sP",
+                    "c": "–PO",
+                    "d": "–sU",
+                    "e": "None of these"
+                },
+                "answer": "e",
+                "explanation": "For OS detection –O option is used, we can also use –A option which is known as aggressive scan which can be used for OS, version and vulnerability scanning."
+            },
+            {
+                "q": "Which of the following protocols are vulnerable to sniffing attack?",
+                "options": {
+                    "a": "HTTP",
+                    "b": "HTTPS",
+                    "c": "SSL",
+                    "d": "SSH",
+                    "e": "FTP"
+                },
+                "answer": "a, e",
+                "explanation": "The protocols that does not uses secure channel for data transfer such as HTTP, FTP are vulnerable to sniffing."
+            },
+            {
+                "q": "Which of the following statement(s) is/are true for promiscuous mode?",
+                "options": {
+                    "a": "While running network analyzer tool such as sniffer, it is necessary to enable promiscuous mode.",
+                    "b": "In promiscuous mode the sniffer can read all traffic on the network segment to which the NIC is connected.",
+                    "c": "We do not require root privilege to set the NIC to promiscuous mode.",
+                    "d": "All of these."
+                },
+                "answer": "a, b",
+                "explanation": "In computer networking, promiscuous mode is a mode of operation, as well as a security, monitoring and administration technique that is mostly used for network analyzer tools such as Wireshark and burpsuit. In promiscuous mode, a network device, such as an adapter on a host system, can intercept and read in its entirety each network packet that arrives (irrespective of sender and receiver). We need root privilege to enable promiscuous mode in the device."
+            }
+        ]
     }
-};
+}
