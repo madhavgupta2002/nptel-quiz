@@ -6,10 +6,17 @@ export interface Option {
 }
 
 export interface Question {
-  q: string;
-  options: Option;
-  answer: string;
-  explanation: string;
+  id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  explanation?: string;
+}
+
+export interface SubjectData {
+  name: string;
+  description: string;
+  questions: Question[];
 }
 
 export interface Assignment {
