@@ -1,26 +1,22 @@
 export interface Option {
   a: string;
   b: string;
-  c: string;
-  d: string;
+  c?: string;
+  d?: string;
+  e?: string;
 }
 
 export interface Question {
-  id: string;
-  question: string;
-  options: string[];
-  correctAnswer: number;
-  explanation?: string;
-}
-
-export interface SubjectData {
-  name: string;
-  description: string;
-  questions: Question[];
+  q: string;
+  options: Option;
+  answer: string;
+  explanation: string;
 }
 
 export interface Assignment {
-  [key: string]: Question[];
+  [key: string]: {
+    [key: string]: Question[];
+  };
 }
 
 export type PracticeMode = 'assignment' | 'full';

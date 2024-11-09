@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { assignments } from '../data/questions';
+import { assignment } from '../data/assignments';
 import { QuizState, PracticeMode, QuestionOrder, Question } from '../types';
 import AssignmentSelector from './AssignmentSelector';
 import ModeSelector from './ModeSelector';
@@ -16,6 +16,7 @@ interface QuizAppProps {
 }
 
 const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
+  const assignments = assignment[subject];
   const [quizState, setQuizState] = useState<QuizState>({
     practiceMode: 'assignment',
     questionOrder: 'inOrder',
@@ -175,10 +176,10 @@ const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
           >
             <ArrowLeftCircle className="w-6 h-6 text-indigo-900" />
           </button>
-          <h1 className="text-3xl sm:text-4xl font-bold text-indigo-900">Wildlife Ecology</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-indigo-900">{subject}</h1>
         </div>
 
-        {showStudyPlan && (
+        {showStudyPlan && subject === 'wildlifeEcology' && (
           <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-8">
             <div className="flex justify-between items-center">
               <div className="flex items-center cursor-pointer" onClick={() => setIsStudyPlanExpanded(!isStudyPlanExpanded)}>
