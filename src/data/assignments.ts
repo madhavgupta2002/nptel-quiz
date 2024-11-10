@@ -5887,14 +5887,14 @@ export const assignment: Assignment = {
                 "explanation": "Ethical hacking is also known as penetration testing or intrusion testing where the person systematically attempts to penetrate/intrude into a computer system, application, network, or some other computing resources on behalf of its owner and finds out threats and vulnerabilities that a malicious hacker could potentially exploit. The main objective of ethical hacking is to improve the security of the system or network and fix the vulnerabilities found during the testing."
             },
             {
-                "q": "Which of the following application(s) is/are used to secure personal laptop/desktop?",
+                "q": "Which of the following application(s) is/are used to secure personal laptop/desktop?\n\n1. Antivirus\n2. Virus\n3. Malware\n4. Firewall",
                 "options": {
-                    "a": "Antivirus",
-                    "b": "Virus",
-                    "c": "Malware",
-                    "d": "Firewall"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "2 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, d",
+                "answer": "d",
                 "explanation": "Antivirus applications are used to secure personal laptops/desktops. You can also secure your system by installing a firewall software."
             },
             {
@@ -5919,14 +5919,14 @@ export const assignment: Assignment = {
                 "explanation": "All of the listed approach can be used to secure website. (a) Firewall can be used to drop traffic from suspicious IP (b) Encrypted cookies can eliminate cookies based attack. (c) By validating user input we can prevent access of the website by unwanted user. (d) by validating user parameters we can eliminate injection of malicious query on our website database."
             },
             {
-                "q": "Which of the following is true for firewall?",
+                "q": "Which of the following statement(s) is/are true for firewall?\n\n1. A firewall is a network security system\n2. Firewall can allows or blocks network traffic as per predetermined security rules\n3. Firewall are placed on the boundary of trusted and untrusted networks\n4. None of these",
                 "options": {
-                    "a": "A firewall is a network security system",
-                    "b": "Firewall can allows or blocks network traffic as per predetermined security rules",
-                    "c": "Firewall are placed on the boundary of trusted and untrusted networks",
-                    "d": "None of these"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1, 2 and 3",
+                    "d": "4"
                 },
-                "answer": "a, b, c",
+                "answer": "c",
                 "explanation": "All of the statements are true for firewall."
             },
             {
@@ -5986,14 +5986,14 @@ export const assignment: Assignment = {
                 "explanation": "None of the above command can check the reachability of one system from another. We can use ping command to check if any system is reachable or not."
             },
             {
-                "q": "Which of the following is/are a networking device?",
+                "q": "Which of the following are networking devices?\n\n1. Hub\n2. Switch\n3. Router\n4. None of these",
                 "options": {
-                    "a": "Hub",
-                    "b": "Switch",
-                    "c": "Router",
-                    "d": "None of these"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1, 2 and 3",
+                    "d": "4 only"
                 },
-                "answer": "a, b, c",
+                "answer": "c",
                 "explanation": "Hub, Switch and router all are networking devices used to connect multiple devices/subnetwork in a network."
             },
             {
@@ -6054,14 +6054,14 @@ export const assignment: Assignment = {
                 "explanation": "In a packet switched network, communication links may be shared by more than one connection. Also, in a packet switched network, packets between the same source and destination may follow different paths, and hence the packet transfer delay can vary with time; this depends on the prevailing traffic situation in the network. It is efficient for high bandwidth traffic like data streaming."
             },
             {
-                "q": "Which of the following statement(s) is/are true for datagram-based packet transfer approach?",
+                "q": "Which of the following statement(s) is/are true for datagram-based packet transfer approach?\n\n1. It is a connection-less packet switching approach, where no route is established priori to transfer of packets.\n2. In this approach, each packet is transmitted as an independent entity.\n3. In this approach each intermediate node can perform dynamic routing.\n4. In this approach all the packets reach in order to the destination.",
                 "options": {
-                    "a": "It is a connection-less packet switching approach, where no route is established priori to transfer of packets.",
-                    "b": "In this approach, each packet is transmitted as an independent entity.",
-                    "c": "In this approach each intermediate node can perform dynamic routing.",
-                    "d": "In this approach all the packets reach in order to the destination."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1, 2 and 3",
+                    "d": "1, 2, 3 and 4"
                 },
-                "answer": "a, b, c",
+                "answer": "c",
                 "explanation": "Datagram approach is a connection-less packet switching approach where no route is established before packet transmission starts. In this approach each packet is transmitted as an independent entity containing source and destination addresses. Thus it is not necessary to follow same path for all packets and thus the packets can be delivered out of order. For forwarding the packet to next node, every node maintains a routing table that is updated dynamically to take routing decision."
             },
             {
@@ -6259,15 +6259,14 @@ export const assignment: Assignment = {
                 "explanation": "In connection-oriented approach, network layer first makes a connection and then all packets are delivered as per the connection. In connection-less protocol, network layer treats each packets independently. IP protocol uses connection-less approach for packet delivery."
             },
             {
-                "q": "Which of the following is/are true for default route?",
+                "q": "Which of the following statements are true for default route?\n\n1. Default route is used when no specific address for next hop is available.\n2. In routing table default route is specified by an address 0.0.0.0.\n3. In routing table default route is specified by an address 255.255.255.255.\n4. In routing table default route is specified by an address 127.0.0.1.",
                 "options": {
-                    "a": "Default route is used when no specific address for next hop is available.",
-                    "b": "In routing table default route is specified by an address 0.0.0.0.",
-                    "c": "In routing table default route is specified by an address 255.255.255.255.",
-                    "d": "In routing table default route is specified by an address 127.0.0.1.",
-                    "e": "None of these."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "Default route, also known as the gateway of last resort, is used in forwarding packets whose destination address does not match any route in the routing table. In IPv4 the CIDR notation for a default route is 0.0.0.0/0."
             },
             {
@@ -6294,14 +6293,14 @@ export const assignment: Assignment = {
                 "explanation": "U flag indicates if the router is up and running."
             },
             {
-                "q": "Which of the following statement(s) is/are true for interior routing protocol?",
+                "q": "Which of the following statement(s) is/are true for interior routing protocol?\n\n1. All the participating routers are present in the same autonomous system.\n2. The participating routers are present in different autonomous systems.\n3. Routers in different autonomous systems exchange messages to update their routing tables.\n4. Routers in the same autonomous system exchange messages to update their routing tables.",
                 "options": {
-                    "a": "All the participating routers are present in the same autonomous system.",
-                    "b": "The participating routers are present in different autonomous systems.",
-                    "c": "Routers in different autonomous systems exchange messages to update their routing tables.",
-                    "d": "Routers in the same autonomous system exchange messages to update their routing tables."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, d",
+                "answer": "d",
                 "explanation": "The interior routing protocols applies to a single autonomous system. All the routers inside the AS exchange messages using some standard protocol (e.g. RIP or OSPF) and update their routing tables."
             },
             {
@@ -6365,38 +6364,36 @@ export const assignment: Assignment = {
         ],
         "Assignment 4": [
             {
-                "q": "Which of the following statement(s) is/are true for NAT networking mode?",
+                "q": "Which of the following statement(s) is/are true for NAT networking mode?\n\n1. In NAT mode, the virtual machines cannot access each other.\n2. NAT mode does not allow access of internet to the installed virtual machines.\n3. In NAT mode, the hypervisor allocate same IP address to all virtual machines.",
                 "options": {
-                    "a": "In NAT mode, the virtual machines cannot access each other.",
-                    "b": "NAT mode does not allow access of internet to the installed virtual machines.",
-                    "c": "In NAT mode, the hypervisor allocate same IP address to all virtual machines.",
-                    "d": "All of these."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "All of these"
                 },
-                "answer": "a, c",
+                "answer": "c",
                 "explanation": "By default, virtual box uses NAT mode. In this mode internet access is allowed; however, each system gets the same IP, and thus the virtual machines cannot access each other in this mode."
             },
             {
-                "q": "Which of the following statement(s) is/are true about \"Passive Reconnaissance\"?",
+                "q": "Which of the following statement(s) is/are true about \"Passive Reconnaissance\"?\n\n1. Information about the target is collected indirectly.\n2. Information about the target is collected directly.\n3. There is a chance of detection.\n4. There is no chance of detection.",
                 "options": {
-                    "a": "Information about the target is collected indirectly.",
-                    "b": "Information about the target is collected directly.",
-                    "c": "There is a chance of detection.",
-                    "d": "There is no chance of detection."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, d",
+                "answer": "d",
                 "explanation": "Reconnaissance is the process of gathering information about a target network or system. In passive reconnaissance, we collect information about a target indirectly, e.g., web search. As the attacker and victim does not communicate directly, there is no a chance of detection."
             },
             {
-                "q": "Which of the following can be used for active reconnaissance.",
+                "q": "Which of the following can be used for active reconnaissance?\n\n1. Whois\n2. Archive.org\n3. NMAP\n4. Nessus\n5. Metasploit\n6. Hydra",
                 "options": {
-                    "a": "Whois",
-                    "b": "Archive.org",
-                    "c": "NMAP",
-                    "d": "Nessus",
-                    "e": "Metasploit",
-                    "f": "Hydra"
+                    "a": "1, 2 and 3",
+                    "b": "3, 4 and 5",
+                    "c": "4, 5 and 6",
+                    "d": "1, 2 and 6"
                 },
-                "answer": "c, d, e",
+                "answer": "b",
                 "explanation": "Whois and archive are used for passive reconnaissance. NMAP, Nessus and Metasploit are used in active reconnaissance as they directly communicate with the target system. Hydra is a tool used for password cracking."
             },
             {
@@ -6480,14 +6477,14 @@ export const assignment: Assignment = {
                 "explanation": "In TCP Connect, the attacker tries to complete a TCP connection with the target by using 3-way handshake. If successful, it concludes that the given port is open."
             },
             {
-                "q": "In port scanning using TCP SYN scan, how are the open and closed ports identified?",
+                "q": "Which of the following statements are true about TCP SYN scan port identification?\n\n1. An attacker sends a SYN packet to a port, if it receives an SYN-ACK (SA) then the port is reported as open.\n2. An attacker sends a SYN packet to a port, if it receives an RST (RA) then the port is reported as closed.\n3. An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as open.\n4. An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as closed.",
                 "options": {
-                    "a": "An attacker sends a SYN packet to a port, if it receives an SYN-ACK (SA) then the port is reported as open.",
-                    "b": "An attacker sends a SYN packet to a port, if it receives an RST (RA) then the port is reported as closed.",
-                    "c": "An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as open.",
-                    "d": "An attacker sends an ACK packet to a port, if it receives an RST then the port is reported as closed."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "In TCP SYN scan open and closed ports are identified by sending SYN request to various ports of the target system. If a SYN-ACK packet is received for a port then the port is reported as open, whereas if it receives a RST (RA) packet then the port is reported as closed. ACK packets are not used in TCP SYN scan."
             },
             {
@@ -6537,26 +6534,25 @@ export const assignment: Assignment = {
         ],
         "Assignment 5": [
             {
-                "q": "Which of the following tools can be used for scanning vulnerabilities?",
+                "q": "Which of the following tools can be used for scanning vulnerabilities?\n\n1. Hypervisor\n2. Nessus\n3. Hydra\n4. Nmap\n5. Crunch",
                 "options": {
-                    "a": "Hypervisor",
-                    "b": "Nessus",
-                    "c": "Hydra",
-                    "d": "Nmap",
-                    "e": "Crunch"
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "3 and 4",
+                    "d": "4 and 5"
                 },
-                "answer": "b, d",
+                "answer": "b",
                 "explanation": "The typical tools that are used for scanning vulnerabilities in hosts and networks are NMAP, Nessus, Nexpose, MPSA, etc. Hypervisor is a software tool used for virtualization. Hydra and Crunch are used for performing password attack."
             },
             {
-                "q": "NMAP scripts can be used for:",
+                "q": "Which of the following statements are true for NMAP scripts?\n\n1. Can be used for vulnerability scanning\n2. Can be used for backdoor detection\n3. Can be used for port detection\n4. Can be used for password attack",
                 "options": {
-                    "a": "Vulnerability scanning",
-                    "b": "Backdoor detection.",
-                    "c": "Port detection.",
-                    "d": "Password attack."
+                    "a": "1 and 2 only",
+                    "b": "1, 2 and 3 only",
+                    "c": "2, 3 and 4 only",
+                    "d": "All of the above"
                 },
-                "answer": "a, b, c, d",
+                "answer": "d",
                 "explanation": "The NMAP scripts can be useful for automated scanning. NMAP scripts can be used for vulnerability detection, backdoor detection, port detection, performing password attacks etc."
             },
             {
@@ -6803,14 +6799,14 @@ export const assignment: Assignment = {
                 "explanation": "The security of the RSA algorithm depends on the complexity of factoring the product of two large prime numbers."
             },
             {
-                "q": "Which of the following statement(s) is/are true for Diffie-Hellman Key Exchange algorithm?",
+                "q": "Which of the following statement(s) is/are true for Diffie-Hellman Key Exchange algorithm?\n\n1. It allows group of users to agree on secret key over insecure channel.\n2. The security of the algorithm depends on prime factorization problem.\n3. The algorithm is vulnerable to man-in-the-middle attack.\n4. It does not require any prior communication between sender and receiver.",
                 "options": {
-                    "a": "It allows group of users to agree on secret key over insecure channel.",
-                    "b": "The security of the algorithm depends on prime factorization problem.",
-                    "c": "The algorithm is vulnerable to man-in-the-middle attack.",
-                    "d": "It does not require any prior communication between sender and receiver."
+                    "a": "1, 2 and 3",
+                    "b": "2, 3 and 4",
+                    "c": "1, 3 and 4",
+                    "d": "1, 2 and 4"
                 },
-                "answer": "a, c, d",
+                "answer": "c",
                 "explanation": "D-H algorithm is mainly used for key exchange between users over an insecure channel; it does not require any prior communication between sender and receiver for key exchange. As the communication is done over insecure channel it is vulnerable to man-in-the-middle attack. The complexity of the algorithm depends on that of cracking the discrete logarithm problem."
             }
         ],
@@ -6861,14 +6857,14 @@ export const assignment: Assignment = {
                 "explanation": "MD5 and SHA-1 hash function results in 128-bit and 160-bit hash values that is often termed as message digest."
             },
             {
-                "q": "Which of the following is/are not hash functions?",
+                "q": "Which of the following is/are not hash functions?\n\n1. MD5\n2. Triple-DES\n3. SHA-1\n4. RSA",
                 "options": {
-                    "a": "MD5",
-                    "b": "Triple-DES",
-                    "c": "SHA-1",
-                    "d": "RSA."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "2 and 4"
                 },
-                "answer": "b, d",
+                "answer": "d",
                 "explanation": "MD5 and SHA-1 are examples of hash function, while Triple-DES is a symmetric key encryption algorithm, and RSA is a public key encryption algorithm."
             },
             {
@@ -6903,14 +6899,14 @@ export const assignment: Assignment = {
                 "explanation": "SSL is used to provide secure channel for data transfer. It uses TCP to provide reliable end-to-end secure service and can be used for any network service running over TCP/IP. SSL is responsible for data security and integrity; it can also perform some other functionalities such as fragmentation and encryption. SSL Handshake Protocol is used to initial session between server and client and provides mutual authentication."
             },
             {
-                "q": "Which of the following statement(s) is/are true for SSL Alert Protocol?",
+                "q": "Which of the following statement(s) is/are true for SSL Alert Protocol?\n\n1. If the first byte is 1 then it indicates that this alert has no impact on the connection between sender and receiver.\n2. If the fist byte is 1 then the SSL connection is terminated.\n3. If the first byte is 2 then it indicates that this alert has no impact on the connection between sender and receiver.\n4. If the first byte is 2 then the SSL connection is terminated.",
                 "options": {
-                    "a": "If the first byte is 1 then it indicates that this alert has no impact on the connection between sender and receiver.",
-                    "b": "If the fist byte is 1 then the SSL connection is terminated.",
-                    "c": "If the first byte is 2 then it indicates that this alert has no impact on the connection between sender and receiver.",
-                    "d": "If the first byte is 2 then the SSL connection is terminated."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, d",
+                "answer": "d",
                 "explanation": "SSL Alert protocol is used to send session messages associated with data exchange and functioning of the protocol. Each SSL alert message consists of two bytes. The first byte can be either 1 or 2. The value 1 indicates warning such as bad certificate, no certificate, certificate expired, unsupported certificate etc. This alert does not have any impact on the session. The value 2 indicates the fatal error such as handshake failure, incorrect MAC etc. which leads to connection termination. The second byte describes the error."
             },
             {
@@ -6938,9 +6934,15 @@ export const assignment: Assignment = {
                 "explanation": "Steganography refers to a set of methods where some information is hidden within some other file (like image, audio, video, executable, etc.). Digital watermarking embeds copyright, ownership, license and similar information in a medium such as audio, video, image etc. Digital watermarking is different from steganography only in the intent of hiding. They share same operational and functional behavior."
             },
             {
-                "q": "Consider a gray-level image of size 2000 x 2000, where each pixel is stored in 24-bits (containing red, green, and blue components as 8-bit each. How many bytes of information can be hidden in the image by using LSB steganography technique? (Assume that only the least significant bit in each 8-bit color component is modified).",
-                "answer": "1500000",
-                "explanation": "Each pixel consists of 24 bits or 3 bytes, and hence 3 bits of information can be stored in each pixel. The number of bits of hidden information that can be stored in the whole image will be: 2000 x 2000 x 3 bits = 2000 x 2000 x 3 / 8 bytes = 15, 00,000 bytes."
+                "q": "Consider a gray-level image of size 2000 x 2000, where each pixel is stored in 24-bits (containing red, green, and blue components as 8-bit each). How many bytes of information can be hidden in the image by using LSB steganography technique? (Assume that only the least significant bit in each 8-bit color component is modified).",
+                "options": {
+                    "a": "500000 bytes",
+                    "b": "1000000 bytes",
+                    "c": "1500000 bytes",
+                    "d": "2000000 bytes"
+                },
+                "answer": "c",
+                "explanation": "Each pixel consists of 24 bits or 3 bytes, and hence 3 bits of information can be stored in each pixel. The number of bits of hidden information that can be stored in the whole image will be: 2000 x 2000 x 3 bits = 2000 x 2000 x 3 / 8 bytes = 15,00,000 bytes."
             },
             {
                 "q": "Which of the following statement(s) is/are true?",
@@ -7010,16 +7012,14 @@ export const assignment: Assignment = {
                 "explanation": "HTTP Flood attack is a type DDoS attack which is designed to overwhelm the target server with HTTP requests. Once the target is saturated with HTTP requests, it does not respond to HTTP request from legitimate users."
             },
             {
-                "q": "Which of the following approach can be used to mitigate HTTP flood attack?",
+                "q": "Which of the following approach can be used to mitigate HTTP flood attack?\n\n1. Use captcha test\n2. Use JavaScript computational challenge\n3. Use web application firewall\n4. Block ping requests\n5. Block TCP connections",
                 "options": {
-                    "a": "Use captcha test",
-                    "b": "Use JavaScript computational challenge",
-                    "c": "Use web application firewall",
-                    "d": "Block ping requests",
-                    "e": "Block TCP connections",
-                    "f": "None of these"
+                    "a": "1, 2 and 3",
+                    "b": "2, 3 and 4",
+                    "c": "3, 4 and 5",
+                    "d": "1, 4 and 5"
                 },
-                "answer": "a, b, c",
+                "answer": "a",
                 "explanation": "To protect web server from HTTP flood attack a simple method can be giving challenge to the requesting machine in order to test whether it is a bot or a legitimate user. For this we can use captcha test or simple JavaScript computational challenge. The other way to mitigate HTTP flood attack is to use web application firewall that can identify an authentic source of traffic and selectively block all malicious traffic."
             },
             {
@@ -7080,14 +7080,14 @@ export const assignment: Assignment = {
                 "explanation": "Wireshark can capture credentials of webpages which uses unsecure protocols such as HTTP, FTP."
             },
             {
-                "q": "How to detect whether network sniffing is probably going on in a network?",
+                "q": "Which of the following methods can be used to detect network sniffing in a network?\n\n1. By checking the ARP entry\n2. By conducting TCP stealth scan on all the machines in the network\n3. By using a script that checks whether any of the machines has the network card configured in the promiscuous mode\n4. None of these",
                 "options": {
-                    "a": "By checking the ARP entry",
-                    "b": "By conducting TCP stealth scan on all the machines in the network",
-                    "c": "By using a script that checks whether any of the machines has the network card configured in the promiscuous mode",
-                    "d": "None of these"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
                 },
-                "answer": "a, c",
+                "answer": "c",
                 "explanation": "By manually checking the ARP entry we can identify if any system is using same MAC address as the MAC of default gateway, which basically indicates that that particular system is configured in the promiscuous mode. Using the following NMAP command, we can find out whether any of the network cards on the network is configured in the promiscuous mode. (It is done by broadcasting fake ARP packets) nmap –script=sniffer-detect <IP addresses to check>"
             },
             {
@@ -7138,28 +7138,27 @@ export const assignment: Assignment = {
                 "explanation": "It sends multiple HTTP packets to connect with the victim system, but never completes resulting DoS for legitimate users."
             },
             {
-                "q": "Which of the following tools can be used to mount DoS attack?",
+                "q": "Which of the following tools can be used to mount DoS attack?\n\n1. LOIC tool\n2. Hping3\n3. Hydra\n4. Crunch",
                 "options": {
-                    "a": "LOIC tool",
-                    "b": "Hping3",
-                    "c": "Hydra",
-                    "d": "Crunch",
-                    "e": "None of these"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "LOIC and Hping3 tools can be used for DoS attack, Hydra and Crunch are used for password attack."
             }
         ],
         "Assignment 10": [
             {
-                "q": "Which of the following are examples of hardware-based attacks?",
+                "q": "Which of the following are examples of hardware-based attacks?\n\n1. Side-channel attack\n2. Physical probing\n3. Denial of service stack\n4. SQL injection attack",
                 "options": {
-                    "a": "Side-channel attack",
-                    "b": "Physical probing",
-                    "c": "Denial of service stack",
-                    "d": "SQL injection attack"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "In side-channel attack, some side channels (like delay, power, etc.) are monitored during some computation using some sophisticated measuring instruments, and as such requires access to the hardware that runs the computation. In comparison, denial-of-service and SQL injection are essentially software-based attacks."
             },
             {
@@ -7231,8 +7230,14 @@ export const assignment: Assignment = {
                 "explanation": "PUFs can be used for all given applications (refer week 10, lecture 49, slide number 9,10,11)."
             },
             {
-                "q": "Number of possible paths in 8-bit arbiter PUF will be _________.",
-                "answer": "256",
+                "q": "Number of possible paths in 8-bit arbiter PUF will be:",
+                "options": {
+                    "a": "128",
+                    "b": "256",
+                    "c": "512",
+                    "d": "1024"
+                },
+                "answer": "b",
                 "explanation": "Arbiter PUF is composed of n two-port switching stages. For an n-bit challenge size, number of possible paths will be 2n; for n= 8, number of possible paths will be 256."
             },
             {
@@ -7307,26 +7312,25 @@ export const assignment: Assignment = {
                 "explanation": "To check all parameters that need to be set for any exploit we can use \"show options\" command."
             },
             {
-                "q": "To create a payload (backdoor), which of the following is required?",
+                "q": "To create a payload (backdoor), which of the following is required?\n\n1. Name of the payload\n2. IP of the target system\n3. IP of an attacker system\n4. Port of target system\n5. Port of an attacker system",
                 "options": {
-                    "a": "Name of the payload",
-                    "b": "IP of the target system",
-                    "c": "IP of an attacker system",
-                    "d": "Port of target system",
-                    "e": "Port of an attacker system"
+                    "a": "1, 2 and 4",
+                    "b": "1, 3 and 5",
+                    "c": "2, 3 and 4",
+                    "d": "3, 4 and 5"
                 },
-                "answer": "a, c, e",
+                "answer": "b",
                 "explanation": "To create payload, name of payload, IP and port of the attacker system are required."
             },
             {
-                "q": "Which of the following tools/approach can be used to extract existing and hidden pages of a webserver?",
+                "q": "Which of the following tools/approach can be used to extract existing and hidden pages of a webserver?\n\n1. Dirb\n2. NMAP scan using \"http-enum\" script\n3. Hydra\n4. Crunch",
                 "options": {
-                    "a": "Dirb",
-                    "b": "NMAP scan using \"http-enum\" script",
-                    "c": "Hydra",
-                    "d": "Crunch"
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "To scan a webserver tools like dirb, dnsenum is used, we also use nmap script http-enum for the same purpose. Hydra and Crunch are used for password cracking."
             },
             {
@@ -7341,14 +7345,14 @@ export const assignment: Assignment = {
                 "explanation": "The first three SQL queries are valid queries; however, we will not get any output for the queries (b) and (c). The last query is a malicious query, which has the malicious condition 1=1."
             },
             {
-                "q": "Which of the following statement(s) is/are true for sql injection attack?",
+                "q": "Which of the following statement(s) is/are true for sql injection attack?\n\n1. If a webpage is vulnerable to blind sql injection then it will print error message for an incorrect user input.\n2. If a webpage is vulnerable to blind sql injection then it will not print anything for an incorrect user input.\n3. If a webpage is vulnerable to error-based sql injection then it will print error message for an incorrect user input.\n4. If a webpage is vulnerable to error-based sql injection then it will not print anything for an incorrect user input.",
                 "options": {
-                    "a": "If a webpage is vulnerable to blind sql injection then it will print error message for an incorrect user input.",
-                    "b": "If a webpage is vulnerable to blind sql injection then it will not print anything for an incorrect user input.",
-                    "c": "If a webpage is vulnerable to error-based sql injection then it will print error message for an incorrect user input.",
-                    "d": "If a webpage is vulnerable to error-based sql injection then it will not print anything for an incorrect user input."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
                 },
-                "answer": "b, c",
+                "answer": "b",
                 "explanation": "If the webpage is vulnerable to error-based sql injection, then it will generate an error message for incorrect user input. And if it is vulnerable to blind sql injection attack then it will not through any error to an incorrect user input."
             },
             {
@@ -7376,14 +7380,14 @@ export const assignment: Assignment = {
         ],
         "Assignment 12": [
             {
-                "q": "Which of the following options can be used for host discovery using NMAP?",
+                "q": "Which of the following options can be used for host discovery using NMAP?\n\n1. –PE\n2. –PC\n3. –PM\n4. –PP",
                 "options": {
-                    "a": "–PE",
-                    "b": "–PC",
-                    "c": "–PM",
-                    "d": "–PP"
+                    "a": "1, 2 and 3",
+                    "b": "2, 3 and 4",
+                    "c": "1, 3 and 4",
+                    "d": "1, 2 and 4"
                 },
-                "answer": "a, c, d",
+                "answer": "c",
                 "explanation": "For host discovery using NMAP various options can be used, the most common option is ping sweep. –PE is used for ICMP ECHO Sweep, -PP and –PM is used for ICMP NON-ECHO ping sweep scanning. There is no option as –PC."
             },
             {
@@ -7440,8 +7444,14 @@ export const assignment: Assignment = {
                 "explanation": "When we do not have root privilege then for scanning we can use TCP connect scan (-sT) option which done port scanning by completing a TCP 3 way handshake process. ICMP Echo and Non-Echo sweep scan use ICMP packets. TCP stealth scan uses TCP 3 way handshake but it never completes the third step."
             },
             {
-                "q": "In NMAP, _________ number of ports are scanned when we use –F option.",
-                "answer": "100",
+                "q": "In NMAP, how many ports are scanned when we use –F option?",
+                "options": {
+                    "a": "50",
+                    "b": "100",
+                    "c": "500",
+                    "d": "1000"
+                },
+                "answer": "b",
                 "explanation": "By default NMAP scans for top 1000 ports, if we use –F option then top 100 ports are scanned."
             },
             {
@@ -7457,28 +7467,1314 @@ export const assignment: Assignment = {
                 "explanation": "For OS detection –O option is used, we can also use –A option which is known as aggressive scan which can be used for OS, version and vulnerability scanning."
             },
             {
-                "q": "Which of the following protocols are vulnerable to sniffing attack?",
+                "q": "Which of the following protocols are vulnerable to sniffing attack?\n\n1. HTTP\n2. HTTPS\n3. SSL\n4. SSH\n5. FTP",
                 "options": {
-                    "a": "HTTP",
-                    "b": "HTTPS",
-                    "c": "SSL",
-                    "d": "SSH",
-                    "e": "FTP"
+                    "a": "1 and 5",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "2 and 4",
+                    "e": "1 and 3"
                 },
-                "answer": "a, e",
+                "answer": "a",
                 "explanation": "The protocols that does not uses secure channel for data transfer such as HTTP, FTP are vulnerable to sniffing."
             },
             {
-                "q": "Which of the following statement(s) is/are true for promiscuous mode?",
+                "q": "Which of the following statement(s) is/are true for promiscuous mode?\n\n1. While running network analyzer tool such as sniffer, it is necessary to enable promiscuous mode.\n2. In promiscuous mode the sniffer can read all traffic on the network segment to which the NIC is connected.\n3. We do not require root privilege to set the NIC to promiscuous mode.",
                 "options": {
-                    "a": "While running network analyzer tool such as sniffer, it is necessary to enable promiscuous mode.",
-                    "b": "In promiscuous mode the sniffer can read all traffic on the network segment to which the NIC is connected.",
-                    "c": "We do not require root privilege to set the NIC to promiscuous mode.",
-                    "d": "All of these."
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "All of these"
                 },
-                "answer": "a, b",
+                "answer": "a",
                 "explanation": "In computer networking, promiscuous mode is a mode of operation, as well as a security, monitoring and administration technique that is mostly used for network analyzer tools such as Wireshark and burpsuit. In promiscuous mode, a network device, such as an adapter on a host system, can intercept and read in its entirety each network packet that arrives (irrespective of sender and receiver). We need root privilege to enable promiscuous mode in the device."
             }
         ]
+    },
+    "Cloud Computing": {
+        "Assignment 1": [
+            {
+                "q": "Which of the following is a common property of distributed computing?",
+                "options": {
+                    "a": "Centralized control",
+                    "b": "Fault tolerance",
+                    "c": "Single point of failure",
+                    "d": "Limited scalability"
+                },
+                "answer": "b",
+                "explanation": "Distributed systems are designed to be resilient, incorporating fault tolerance mechanisms to avoid single points of failure."
+            },
+            {
+                "q": "Peer-to-Peer computing resembles truly distributed applications.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Refer to slide-13 of Week-1 (Distributed applications)"
+            },
+            {
+                "q": "Which of the following application(s) uses grid computing?\n\n1. Reactor Applications\n2. Air conditioning\n3. Crystallography\n4. Steganography",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "c",
+                "explanation": "Refer to slide-21 of week-1 ( Who uses grid computing?)"
+            },
+            {
+                "q": "Which of the following is(are) a key component(s) of cluster computing?\n\n1. Parallel programming environment\n2. Single central processing unit\n3. Symmetric Multiprocessing (SMP)\n4. Node affinity",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "c",
+                "explanation": "A cluster is a type of parallel or distributed computing platform consisting of a collection of interconnected stand-alone computing computers working together in a single integrated computing resource. So, key components of stand-alone computers may be PC workstations or SMPs, operating systems, hyper-performance interconnects middleware, parallel programming environment and applications."
+            },
+            {
+                "q": "Utility computing is a _______________ model, in which a service provider makes computing resources and _____________ available to the customer.",
+                "options": {
+                    "a": "service-provisioning, infrastructure management",
+                    "b": "infrastructure management,service-provisioning",
+                    "c": "cloud computing, resource management",
+                    "d": "service-provisioning, resource management"
+                },
+                "answer": "a",
+                "explanation": "Utility computing is a service-provisioning model, in which a service provider makes computing resources and infrastructure management available to the customer."
+            },
+            {
+                "q": "Utility computing encapsulates the following characteristic(s)",
+                "options": {
+                    "a": "Mobility amalgamation",
+                    "b": "Pay-per-use pricing business model",
+                    "c": "No impact on resource utilization",
+                    "d": "None of above"
+                },
+                "answer": "b",
+                "explanation": "Utility computing is a pay-per-use pricing business model."
+            },
+            {
+                "q": "In utility computing, the payment model differs for different customers based on scale and payment frequency alone.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "In utility computing, the payment model differs with the customers based on many factors like scale, payment frequency, and commitments."
+            },
+            {
+                "q": "Which of the following are characteristics of cloud computing?\n\n1. Virtualization\n2. Service disagreement\n3. Service orientated\n4. Scalability",
+                "options": {
+                    "a": "1, 2 and 3",
+                    "b": "2, 3 and 4",
+                    "c": "1, 3 and 4",
+                    "d": "1, 2 and 4"
+                },
+                "answer": "c",
+                "explanation": "Refer to slide- \"common characteristics\" of week-1."
+            },
+            {
+                "q": "Google Spreadsheet is an example of :",
+                "options": {
+                    "a": "Platform as a Service or PaaS",
+                    "b": "Software as a Service or SaaS",
+                    "c": "Function as a Service of FaaS",
+                    "d": "Infrastructure as a Service or Iaas"
+                },
+                "answer": "b",
+                "explanation": "Google Workspace (previously known as G Suite) is a collection of productivity tools that includes Google Spreadsheet, a web-based spreadsheet application. Users can create, edit, and collaborate on spreadsheets online without the need for local software installation. Users can access the application through their web browsers, and Google is responsible for managing the underlying infrastructure and software. Therefore, Google Spreadsheet falls under the category of Software as a Service (SaaS)."
+            },
+            {
+                "q": "In the case of the client-server model: Statement (i) Virtualization is a core concept; Statement (ii) system can scale infinitely",
+                "options": {
+                    "a": "Only Statement (i) is correct",
+                    "b": "Only Statement (ii) is correct",
+                    "c": "Both Statements (i) and (ii) are correct",
+                    "d": "None of the statements is correct"
+                },
+                "answer": "d",
+                "explanation": "In the case of the client-server model: there is no concept of virtualization; the system can scale up to a certain extent."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Public cloud has ____________ and _________ service level agreements(SLAs).",
+                "options": {
+                    "a": "loosely coupled, default",
+                    "b": "restrictive, customized",
+                    "c": "customized, default",
+                    "d": "default, restrictive"
+                },
+                "answer": "d",
+                "explanation": "Public cloud has default and restrictive service level agreements(SLAs)."
+            },
+            {
+                "q": "In the XML parser processing model, the parser should not stop processing even if the data is not well-formed.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "In the XML parser processing model, the parser must stop processing and throw an exception if the data is not well-formed."
+            },
+            {
+                "q": "The on-site private cloud's network capacity restricts on-demand bulk data import or export.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "On-demand bulk data import or export is limited by the network capacity of the on-site private cloud, and real-time processing may be problematic due to networking limitations."
+            },
+            {
+                "q": "Electronic Data Interchange (EDI) has _______ errors and ________ accuracy.",
+                "options": {
+                    "a": "low, medium",
+                    "b": "medium, low",
+                    "c": "high, medium",
+                    "d": "low, high"
+                },
+                "answer": "d",
+                "explanation": "EDI is computer to computer exchange of business data and documents between companies using standard formats recognized both nationally and internationally. EDI has low errors and high accuracy."
+            },
+            {
+                "q": "Web services provide capabilities similar to EDI but are ________ expensive to implement.",
+                "options": {
+                    "a": "more",
+                    "b": "less",
+                    "c": "not applicable",
+                    "d": "equal"
+                },
+                "answer": "b",
+                "explanation": "Web services provide capabilities similar to EDI but are simpler and less expensive to implement."
+            },
+            {
+                "q": "In XML, a special 'xmlsn' attribute is used to define the namespace.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "In XML, a special 'xmlns' attribute is used to define the namespace."
+            },
+            {
+                "q": "Which of the following are examples of private cloud?\n\n1. Amazon VPC\n2. Eucalyptus\n3. Microsoft Azure\n4. Oracle Cloud",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "a",
+                "explanation": "Refer to slide-9 of Week-2 (Private Cloud)"
+            },
+            {
+                "q": "Which of the following are goals for a virtual machine architecture?\n\n1. Equivalence\n2. Resource control\n3. Efficiency\n4. None of these",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1, 2 and 3",
+                    "d": "4"
+                },
+                "answer": "c",
+                "explanation": "Virtual machine architecture has three goals: equivalence, resource control, and efficiency."
+            },
+            {
+                "q": "Within a cluster manager, _______ manager is connected via high-speed network.",
+                "options": {
+                    "a": "grid",
+                    "b": "cloud",
+                    "c": "computer",
+                    "d": "Node"
+                },
+                "answer": "c",
+                "explanation": "Within a cluster manager the computer manager is connected via high-speed network."
+            },
+            {
+                "q": "Which statement(s) is(are) applicable to Data Object Storage (DOS)?\n\nStatement(i) DOS stores user credentials\nStatement(ii) DOS is usually single for a cloud",
+                "options": {
+                    "a": "Only Statement (i) is correct",
+                    "b": "Only Statement (ii) is correct",
+                    "c": "Both Statements (i) and (ii) are correct",
+                    "d": "None of the statements is correct"
+                },
+                "answer": "c",
+                "explanation": "Data Object Storage (DOS) stores user credentials and is usually single for a cloud."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "In the context of aggregated demand in resource provisioning in the cloud, how does adding n independent demands affect the coefficient of variation (Cv)?",
+                "options": {
+                    "a": "Increases the Cv",
+                    "b": "Decreases the Cv",
+                    "c": "Does not change the Cv",
+                    "d": "Inversely proportional to the mean"
+                },
+                "answer": "b",
+                "explanation": "Adding n independent demands reduces the Cv by 1/√n"
+            },
+            {
+                "q": "What does the term \"biasness towards vendors\" imply in the context of SLA monitoring?",
+                "options": {
+                    "a": "Vendor-driven selection of monitoring parameters",
+                    "b": "Customer-driven selection of monitoring parameters",
+                    "c": "Balanced approach in monitoring parameters",
+                    "d": "Lack of active monitoring on the customer's side"
+                },
+                "answer": "a",
+                "explanation": "Biasness towards vendors means measurement of parameters is mostly established according to vendor advantage or in other words vendor-driven selection of monitoring parameters"
+            },
+            {
+                "q": "In the Openstack storage concept, ______ storage persists until the VM is terminated and is managed by _______.",
+                "options": {
+                    "a": "Nova, Cinder",
+                    "b": "Ephemeral, Cinder",
+                    "c": "Cinder, Ephemeral",
+                    "d": "Ephemeral, Nova"
+                },
+                "answer": "d",
+                "explanation": "In the Openstack storage concept, ephemeral storage persists until the VM terminates and is managed by Nova."
+            },
+            {
+                "q": "What condition makes periodic provisioning acceptable in the presence of linear demand?",
+                "options": {
+                    "a": "High resource utilization",
+                    "b": "Non-linear demand",
+                    "c": "Instantaneous demand",
+                    "d": "Flat demand"
+                },
+                "answer": "d",
+                "explanation": "If demand is flat, it is linear and periodic provisioning is acceptable."
+            },
+            {
+                "q": "What is(are) the key factor(s) to consider in a hybrid model for utility pricing?",
+                "options": {
+                    "a": "Reliability and accessibility",
+                    "b": "Network cost and usage costs",
+                    "c": "Peak to average demand ratio",
+                    "d": "Interoperability overhead"
+                },
+                "answer": "c",
+                "explanation": "The key factor to consider in a hybrid model for utility pricing is ratio of peak to average demand."
+            },
+            {
+                "q": "What architecture is used in a parallel database for the efficient execution of SQL queries?",
+                "options": {
+                    "a": "Shared memory architecture",
+                    "b": "Shared disk architecture",
+                    "c": "Shared nothing architecture",
+                    "d": "Shared cache architecture"
+                },
+                "answer": "c",
+                "explanation": "For shared-nothing architecture in the parallel database, tables are partitioned and distributed across multiple processing nodes and SQL optimizer handles distributed joins."
+            },
+            {
+                "q": "What type of environment benefits from utility pricing?",
+                "options": {
+                    "a": "Environments with fixed demand levels",
+                    "b": "Environments with limited resource scalability",
+                    "c": "Environments with variable demand levels",
+                    "d": "Environments with prepaid resource allocation"
+                },
+                "answer": "c",
+                "explanation": "Utility pricing or pay-per-use pricing benefits apply in environments with variable demand levels."
+            },
+            {
+                "q": "What is the role of Neutron in the provisioning flow in OpenStack?",
+                "options": {
+                    "a": "Fetches information about the whole cluster from the database",
+                    "b": "Publishes a message to the compute queue to trigger VM provisioning",
+                    "c": "Configures IP, gateway, DNS name, and L2 connectivity.",
+                    "d": "Contacts Cinder to get volume data"
+                },
+                "answer": "c",
+                "explanation": "Refer to slide 18 of OpenStack"
+            },
+            {
+                "q": "How does the master node in the Google File System maintain communication with chunk servers?",
+                "options": {
+                    "a": "Command messages",
+                    "b": "Update messages",
+                    "c": "Query messages",
+                    "d": "Heartbeat messages"
+                },
+                "answer": "d",
+                "explanation": "In GFS, master maintains regular communication with chunk servers by Heartbeat messages"
+            },
+            {
+                "q": "What does the 'availability' metric represent in the monitoring and auditing of SLAs?",
+                "options": {
+                    "a": "The speed at which a service responds",
+                    "b": "The percentage of uptime for a service",
+                    "c": "How often the service is available",
+                    "d": "The ability for a resource to grow infinitely"
+                },
+                "answer": "b",
+                "explanation": "Availability is represented as a percentage of uptime for a service in a given observation period."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "In Microsoft Azure, a deployment user is required for FTP and local Git deployment to a web app.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "A deployment user is required for FTP and local Git deployment to a web app in Microsoft Azure."
+            },
+            {
+                "q": "Azure Web Apps lack scalability.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Azure Web Apps are highly scalable, self-patching web hosting services. Therefore, the statement is false."
+            },
+            {
+                "q": "Match the Google Cloud Platform services with their respective domain (compute, storage or app services).\n\nColumn I Column II\n1. BigQuery\n2. App Engine\n3. Cloud SQL\n\nI. Compute\nII. App Services\nIII. Storage",
+                "options": {
+                    "a": "1 => II, 2 => III, 3 => I",
+                    "b": "1 => II, 2 => I, 3 => III",
+                    "c": "1 => III, 2 => I, 3 => II",
+                    "d": "1 => I, 2 => III, 3 => II"
+                },
+                "answer": "b",
+                "explanation": "In Google Cloud Platform (GCP), BigQuery is used as an app service, App Engine is used as a compute service and Cloud SQL provides storage service."
+            },
+            {
+                "q": "Which of the following is/are App services provided by Google Cloud Platform?\n\n1. Cloud Endpoints\n2. Google App Engine\n3. Cloud SQL\n4. BigQuery",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "d",
+                "explanation": "Cloud Endpoints and BigQuery are App services provided by Google Cloud Platform."
+            },
+            {
+                "q": "Identify the correct statement(s) about Google Cloud Platform(GCP) storage.\n\n1. Cloud SQL is Google's fully managed, petabyte scale, low cost analytics data warehouse to find meaningful insights.\n2. MySQL or NoSQL databases are present in Google DataStore\n3. BigQuery maintains, manages, and administers relational databases on Google Cloud Platform\n4. Cloud Storage provides flexible object storage with global edge caching",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "2 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "c",
+                "explanation": "Cloud SQL maintains, manages, and administers relational databases on Google Cloud Platform. We get MySQL or NoSQL databases in Google DataStore. BigQuery is Google's fully managed, petabyte scale, low cost analytics data warehouse to find meaningful insights. Cloud Storage provides flexible object storage with global edge caching. So, the correct options are MySQL/NoSQL databases in DataStore and Cloud Storage with global edge caching."
+            },
+            {
+                "q": "At the time of deployment of an app in Azure, the system asks for a password. The password used to login to the Azure portal should be entered.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "The user should make sure to enter the password created in \"Configure a deployment user\", not the password used to log in to the Azure portal."
+            },
+            {
+                "q": "Google APIs help to:",
+                "options": {
+                    "a": "migrate the web app to Google Cloud Platform.",
+                    "b": "scale up the app according to the demand/ service requests.",
+                    "c": "provide flexible object storage with global edge caching.",
+                    "d": "integrate Google's services into the application."
+                },
+                "answer": "d",
+                "explanation": "Google APIs help to integrate Google's services into the application."
+            },
+            {
+                "q": "Statement 1: Azure supports public cloud platforms.\nStatement 2: Azure App Service plan defines security.",
+                "options": {
+                    "a": "Statement 1 is True and Statement 2 is False",
+                    "b": "Statement 1 is False and Statement 2 is True",
+                    "c": "Both statements are True",
+                    "d": "Both statements are False"
+                },
+                "answer": "a",
+                "explanation": "Microsoft Azure is Microsoft's public cloud computing platform. Azure App Service Plan is the container for hosting Web Apps, API Apps, Mobile Apps and Function Apps."
+            },
+            {
+                "q": "What core function(s) do(es) Keystone perform in OpenStack?",
+                "options": {
+                    "a": "Networking",
+                    "b": "Compute",
+                    "c": "Authentication and Identity service",
+                    "d": "Storage"
+                },
+                "answer": "c",
+                "explanation": "Keystone is an OpenStack service that provides API client authentication, service discovery, and distributed multi-tenant authorization by implementing OpenStack's Identity API. So, the correct option is C."
+            },
+            {
+                "q": "Which of the following statements about Google App Engine is/are incorrect?\n\n1. It is a part of Google Cloud Platform (GCP) \"compute\" infrastructure\n2. It is a part of Google Cloud Platform (GCP) \"services\" infrastructure\n3. While using Google App Engine, we need to worry about patching and maintenance.\n4. It is a Platform as a Service (PaaS) component of GCP",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "b",
+                "explanation": "Google App Service is a part of GCP compute infrastructure. It is a Platform as a Service (PaaS) component of GCP. Using App Engine, we can just focus on our code and do not need to worry about patching or maintenance. So, the incorrect options are B and C."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Which of the following is/are the objective(s) of Resource Management?",
+                "options": {
+                    "a": "Increased overhead",
+                    "b": "Increased throughput",
+                    "c": "Increased latency",
+                    "d": "Scalability"
+                },
+                "answer": "b, d",
+                "explanation": "The objectives of Resource Management include increased throughput and scalability. Increased overhead and latency are not objectives."
+            },
+            {
+                "q": "Multiple KPIs are aggregated to SLA.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Multiple KPIs are not aggregated to SLA."
+            },
+            {
+                "q": "In computing, Performance Watt follows Moore's law",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Performance per Watt does not follow Moore's law."
+            },
+            {
+                "q": "Which of the following is/are resource adaptation approaches?\n\n1. Reinforcement learning guided control policy\n2. Intelligent multi-agent model\n3. Network queueing model\n4. Web-service based prototype",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "d",
+                "explanation": "Reinforcement learning guided control policy and web-service based prototype are resource adaptation approaches."
+            },
+            {
+                "q": "A third party application runs in the cloud for 18 hours/day. At the end of one month (30 days), it was found that the cloud suffered outages totaling 6 hours and T hours, on different days over the service period. The cloud guarantees service availability for 98% of the time. What are the value(s) of T among the given options such that the SLA negotiation does NOT get honored in terms of service availability?\n\n1. 3 hours\n2. 5 hours\n3. 6 hours\n4. 4 hours",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "b",
+                "explanation": "With 5 or 6 additional hours of outage, the total outage would exceed the guaranteed 98% availability."
+            },
+            {
+                "q": "Consider that the peak computing demand for an organization is 200 units. The demand as a function of time can be expressed as D(t) = 5t. Baseline (owned) unit cost is 120 and cloud unit cost is 150. The cloud is owned for a period of T time units. Select the values of T for which cloud is cheaper than owning\n\n1. 25\n2. 30\n3. 35\n4. 45",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "c",
+                "explanation": "For T=25 and T=35, the cloud computing cost would be less than owning the infrastructure."
+            },
+            {
+                "q": "Which of the following is/are true regarding penalty cost? (Here D(t) and R(t) are instantaneous demand and resources at time t.)\n\n1. If demand is flat, the penalty is equal to 0\n2. Penalty cost[\\D(t)/R(t)\\dt\n3. If demand is exponential (D(t)=e), any fixed provisioning interval (tp) according to the current demands will fall linearly behind\n4. The penalty cost for exponential demand is exponential",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "d",
+                "explanation": "For flat demand, penalty cost is 0, and for exponential demand, the penalty cost is also exponential."
+            },
+            {
+                "q": "In resource management, _______ is determining when an activity should start or end, depending on its duration, predecessor activities, predecessor relationships etc.",
+                "options": {
+                    "a": "Resource allocation",
+                    "b": "Resource mapping",
+                    "c": "Resource scheduling",
+                    "d": "Resource modeling"
+                },
+                "answer": "c",
+                "explanation": "Resource scheduling determines activity timing based on dependencies and relationships."
+            },
+            {
+                "q": "Which of the following techniques can be used to conserve energy within a Cloud environment?\n\n1. Schedule VMs to conserve energy\n2. Optimize data center design\n3. Maximize operating inefficiencies for non-essential tasks\n4. Management of both VMs and underlying infrastructure",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1, 2 and 4"
+                },
+                "answer": "d",
+                "explanation": "VM scheduling, data center optimization, and infrastructure management help conserve energy. Maximizing inefficiencies would waste energy."
+            },
+            {
+                "q": "An app collects the ratings of restaurants in a particular location and logs it in the following form: <userId, restaurantId, rating>. 'restaurantId' takes any of the values (A, B, C, D) and each user having a unique userId can provide [0,5] rating. There are three files and each file consists of three columns: userId, restaurantId and rating. Each file may consist of the data for the same user or same restaurant multiple times. Now, out of this data, we need to calculate the number of times each restaurant gets a \"5 star\" rating from users.",
+                "options": {
+                    "a": "<A, 5>; <B, 5>; <C, 5>; <D, 5>",
+                    "b": "<A, 5>; <B, 2>; <C, 3>; <D, 5>",
+                    "c": "A; B; C; D",
+                    "d": "<A, 5>; <D, 5>"
+                },
+                "answer": "b",
+                "explanation": "Based on the MapReduce tasks M1, M2, and M3, restaurant A gets 5 five-star ratings, B gets 2, C gets 3, and D gets 5."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "Fabrication is an attack on:",
+                "options": {
+                    "a": "Integrity",
+                    "b": "Confidentiality",
+                    "c": "Authenticity",
+                    "d": "Availability"
+                },
+                "answer": "a",
+                "explanation": "Fabrication is an attack on integrity as it involves creating false data or transactions."
+            },
+            {
+                "q": "Reliability and efficiency are basic components of security.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "While reliability and efficiency are important system properties, they are not considered basic components of security."
+            },
+            {
+                "q": "Spoofing threat on cloud security is an example of:",
+                "options": {
+                    "a": "Deception",
+                    "b": "Disruption",
+                    "c": "Usurpation",
+                    "d": "Disclosure"
+                },
+                "answer": "a",
+                "explanation": "Spoofing is a form of deception where an attacker impersonates another entity."
+            },
+            {
+                "q": "Statement I: Intrusion Detection System (IDS) scans the incoming messages, and creates alerts when suspected scans/attacks are in progress.\nStatement II: Authentication is the determination of whether or not an operation is allowed by a certain user.",
+                "options": {
+                    "a": "Statement I is TRUE and Statement II is FALSE",
+                    "b": "Statement II is TRUE and Statement I is FALSE",
+                    "c": "Both statements are TRUE",
+                    "d": "Both statements are FALSE"
+                },
+                "answer": "a",
+                "explanation": "Statement I is correct about IDS functionality. Statement II is false as it describes authorization, not authentication."
+            },
+            {
+                "q": "Which of the following is/are hypervisor risks associated with rough hypervisor root kits?",
+                "options": {
+                    "a": "Improper configuration of VM",
+                    "b": "Hypervisor that hides itself from normal malware detection systems",
+                    "c": "Hypervisor that creates a covert channel to dump unauthorized code",
+                    "d": "Vulnerable virtual machine applications like Vmchat, VMftp, Vmcat etc"
+                },
+                "answer": "b",
+                "explanation": "A hypervisor rootkit that can hide from malware detection is a significant security risk."
+            },
+            {
+                "q": "In fault tolerance, replication is mirroring sharing data over disks which are located in separate physical locations to maintain consistency.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is correct - replication in fault tolerance involves mirroring data across physically separated locations."
+            },
+            {
+                "q": "In which of the following web service(s) based security attacks does(do) the attacker send huge amounts of requests to a certain service, causing denial of service?",
+                "options": {
+                    "a": "Injection attack",
+                    "b": "Flooding",
+                    "c": "Cross-site scripting (XSS)",
+                    "d": "Metadata (WSDL) spoofing attack"
+                },
+                "answer": "b",
+                "explanation": "Flooding attacks work by overwhelming services with a large volume of requests."
+            },
+            {
+                "q": "When is it better to switch cloud providers?",
+                "options": {
+                    "a": "Contract price decrease",
+                    "b": "Provider bankruptcy",
+                    "c": "Provider service shutdown",
+                    "d": "Increase in service quality"
+                },
+                "answer": "b",
+                "explanation": "Provider bankruptcy is a critical reason to switch providers to ensure business continuity."
+            },
+            {
+                "q": "Which of the following Open-source tools is/are used to perform TCP SYN trace routes on the Amazon EC2 platform?",
+                "options": {
+                    "a": "wget",
+                    "b": "nmap",
+                    "c": "ipconfig",
+                    "d": "hping"
+                },
+                "answer": "d",
+                "explanation": "hping is specifically designed for TCP SYN tracerouting and is commonly used on EC2."
+            },
+            {
+                "q": "In risk-based access control (RAC), computing security uncertainty is addressed.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Risk-based access control does not specifically address computing security uncertainty."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "_______ ensures the ability to exchange/obtain the information to be \"consumed\".",
+                "options": {
+                    "a": "Data Level Interoperability",
+                    "b": "Security Level Interoperability",
+                    "c": "Service Level Interoperability",
+                    "d": "None of the above"
+                },
+                "answer": "c",
+                "explanation": "Service Level Interoperability ensures the ability to exchange and obtain information to be consumed."
+            },
+            {
+                "q": "Which of the following are enablers of fog computing?\n\n1. Virtualization\n2. Big data\n3. Service oriented architecture\n4. None of these",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "c",
+                "explanation": "Virtualization and Service oriented architecture are key enablers of fog computing."
+            },
+            {
+                "q": "Consider the following statements:\nStatement 1: In Geospatial Cloud, it is needed to integrate data from heterogeneous back-end data services\nStatement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud",
+                "options": {
+                    "a": "Statement 1 is Correct, but Statement 2 is Incorrect",
+                    "b": "Statement 2 is Correct, but Statement 1 is Incorrect",
+                    "c": "Both statements are Correct",
+                    "d": "Both statements are Incorrect"
+                },
+                "answer": "c",
+                "explanation": "Both statements are correct regarding the characteristics of Geospatial Cloud."
+            },
+            {
+                "q": "Which of the following statements is false about Code offloading using cloudlet? (Choose the most appropriate option)\nStatement 1: The architecture reduces latency by using multi-hop network\nStatement 2: It potentially lowers battery consumption by using short range radio.",
+                "options": {
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct",
+                    "d": "Both the statements are incorrect"
+                },
+                "answer": "b",
+                "explanation": "Statement 2 is correct about battery consumption, but Statement 1 is incorrect as cloudlet reduces latency by using single-hop network, not multi-hop."
+            },
+            {
+                "q": "Which of the following features of Mobile Cloud Computing are true?\n\n1. Uses lesser mobile device resources because applications are cloud-supported\n2. Reduces reliability with information backed up and stored in the cloud\n3. Mobile devices connect to services delivered through an API architecture\n4. Facilitates slower development, delivery and management of mobile apps",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "c",
+                "explanation": "Mobile Cloud Computing features include reduced device resource usage through cloud support and API-based service delivery."
+            },
+            {
+                "q": "Which of the following statements about Fog Computing are FALSE?\n\n1. Fog nodes present near to the end-user\n2. Fog computing enables real-time applications\n3. Fog nodes' response time is much higher than Cloud's\n4. Network routers, WiFi Gateways will not be capable of running applications",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "c",
+                "explanation": "Fog nodes have lower response time than cloud, and network devices can run applications in fog computing."
+            },
+            {
+                "q": "Which of the following options is correct about geographic information?\nStatement 1: Geographic information could be static or dynamic.\nStatement 2: Geographic information varies in scale.\nStatement 3: Population of a city/town is a static geographic information",
+                "options": {
+                    "a": "Statement 1 & 2 are True, but Statement 3 is False",
+                    "b": "Statement 2 & 3 are True, but Statement 1 is False",
+                    "c": "Statement 1 & 3 are True, but Statement 2 is False",
+                    "d": "All the statements are True"
+                },
+                "answer": "a",
+                "explanation": "Geographic information can be static or dynamic and varies in scale, but population is a dynamic rather than static information."
+            },
+            {
+                "q": "Which of the following are benefits of Fog Computing?\n\n1. Immobility\n2. Low latency and location-aware\n3. Homogeneity\n4. Widespread geographical distribution",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "d",
+                "explanation": "Key benefits of fog computing include low latency, location awareness, and widespread geographical distribution."
+            },
+            {
+                "q": "Distance between the client and server in Cloud Computing is _____ and Fog computing is _____",
+                "options": {
+                    "a": "One Hop, Multiple Hop",
+                    "b": "One Hop, One Hop",
+                    "c": "Multiple Hop, One Hop",
+                    "d": "Multiple Hop, Multiple Hop"
+                },
+                "answer": "c",
+                "explanation": "Cloud computing involves multiple hops between client and server, while fog computing uses one hop."
+            },
+            {
+                "q": "Match the following tables related to Mobile Cloud Computing key components:\nTable-I\n1. Profiler\n2. Solver\n3. Synchronizer\n\nTable-II\ni. Collects results of split execution and combine, and make the execution details transparent to the user\nii. Monitors application execution to collect data about execution time, power consumption, network traffic\niii. The task of selecting which parts of an app runs on mobile and cloud",
+                "options": {
+                    "a": "1. -> (ii), 2. -> (iii), 3. -> (i)",
+                    "b": "1. -> (iii), 2. -> (i), 3. -> (ii)",
+                    "c": "1. -> (i), 2. -> (ii), 3. -> (iii)",
+                    "d": "1. -> (ii), 2. -> (i), 3. -> (iii)"
+                },
+                "answer": "a",
+                "explanation": "The profiler monitors execution metrics, the solver determines execution distribution, and the synchronizer handles result collection and transparency."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "Statement 1: Sensor-Cloud proxy exposes sensor resources as cloud services.\nStatement 2: Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy",
+                "options": {
+                    "a": "Statement 1 is True and Statement 2 is False",
+                    "b": "Statement 2 is True and Statement 1 is False",
+                    "c": "Both statements are True",
+                    "d": "Both statements are False"
+                },
+                "answer": "c",
+                "explanation": "Both statements are true - Sensor-Cloud proxy exposes sensor resources as cloud services, and the sensor network is managed through the Sensor-Cloud Interface via the Sensor Network Proxy."
+            },
+            {
+                "q": "A typical cloud broker performs scheduling of applications and a Green broker performs carbon aware scheduling.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is true - a typical cloud broker handles application scheduling while a Green broker specifically performs carbon-aware scheduling."
+            },
+            {
+                "q": "In IoT based vehicular data clouds, vehicles providing their networking and data processing capabilities to other vehicles through the cloud is best identified with which of the following services?",
+                "options": {
+                    "a": "SaaS",
+                    "b": "PaaS",
+                    "c": "IaaS",
+                    "d": "BaaS"
+                },
+                "answer": "c",
+                "explanation": "This is Infrastructure as a Service (IaaS) since vehicles are providing fundamental computing and networking resources to other vehicles."
+            },
+            {
+                "q": "Which of the following statements is/are true about Docker?\nStatement 1: Docker hub is used for building docker images and creating docker containers.\nStatement 2: Docker compose is a registry used to host various docker images.",
+                "options": {
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct",
+                    "d": "Both the statements are incorrect"
+                },
+                "answer": "d",
+                "explanation": "Both statements are incorrect. Docker Hub is a registry for docker images, not for building them. Docker Compose is a tool for defining multi-container applications, not a registry."
+            },
+            {
+                "q": "Statement 1: An image is a lightweight, stand-alone, executable package that includes everything to run a piece of software.\nStatement 2: Container is a run time instance of an image.",
+                "options": {
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct",
+                    "d": "Both the statements are incorrect"
+                },
+                "answer": "c",
+                "explanation": "Both statements are correct. An image is a packaged template containing all necessary components, and a container is a running instance of that image."
+            },
+            {
+                "q": "Sensor data can be easily shared by different groups of users without any extra effort/measure.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "This is false. Sharing sensor data between different groups requires proper security measures, access controls, and data management protocols."
+            },
+            {
+                "q": "An IoT platform's basic building blocks is/are:",
+                "options": {
+                    "a": "Gateway",
+                    "b": "Images",
+                    "c": "Network and Cloud",
+                    "d": "Containers"
+                },
+                "answer": "a",
+                "explanation": "Gateway is a fundamental building block of IoT platforms, serving as the connection point between IoT devices and the cloud."
+            },
+            {
+                "q": "_____ enables different networks, spreads in a huge geographical area to connect together and be employed simultaneously by multiple users on demand.",
+                "options": {
+                    "a": "Serverless",
+                    "b": "IoT Cloud",
+                    "c": "Sensor Cloud",
+                    "d": "Green Cloud"
+                },
+                "answer": "c",
+                "explanation": "Sensor Cloud enables the connection of different networks across large geographical areas and allows simultaneous use by multiple users on demand."
+            },
+            {
+                "q": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as:",
+                "options": {
+                    "a": "Power Delivered/Overall Power",
+                    "b": "Overall Power/Power Delivered",
+                    "c": "Overall Power - Power Delivered",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Power Usage Effectiveness (PUE) is calculated as the ratio of Overall Power consumption to Power Delivered to computing equipment."
+            },
+            {
+                "q": "_____ get virtual access to host resources through a hypervisor.",
+                "options": {
+                    "a": "Containers",
+                    "b": "Virtual machines",
+                    "c": "Both a and b",
+                    "d": "Images"
+                },
+                "answer": "b",
+                "explanation": "Virtual machines access host resources through a hypervisor, while containers share the host OS kernel directly."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "Statement I: Fog computing supports real-time interactions which is not the case in cloud computing\nStatement II: Fog computing reduces latency compared to cloud computing.\nSelect the correct option.",
+                "options": {
+                    "a": "Statement I is TRUE and Statement II is FALSE",
+                    "b": "Statement II is TRUE and Statement I is FALSE",
+                    "c": "Both statements are TRUE",
+                    "d": "Both statements are FALSE"
+                },
+                "answer": "b",
+                "explanation": "Statement II is true as fog computing reduces latency compared to cloud computing. However, Statement I is false as cloud computing can also support real-time interactions."
+            },
+            {
+                "q": "In the Cloud-Fog-Edge Computing paradigm, Cellular base stations, Network routers and WiFi Gateways can run applications.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "In the Cloud-Fog-Edge Computing paradigm, network infrastructure components like cellular base stations, routers and WiFi gateways can indeed run applications."
+            },
+            {
+                "q": "Which of the following statement(s) are true regarding the cloud-fog environment model?\n\n1. The cloud-fog environment model consists of three layers: a client layer (edge), a fog layer, and a cloud layer\n2. Virtual machines (VMs) operate for the cloud data server, process them, and then deliver the results to the cloud server manager\n3. If there is no limited availability of resources in the fog layer, then the request is passed to the cloud layer\n4. Fog servers contain fog server manager and virtual machines to manage requests by using container virtualization technique",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "c",
+                "explanation": "The cloud-fog model has three layers (client/edge, fog, cloud) and requests are passed to cloud when fog resources are limited."
+            },
+            {
+                "q": "Which of the following algorithms used in resource management in cloud-fog-edge computing is used to capture the performance (of entities like, CPU, storage, network, etc.) of a computing system?",
+                "options": {
+                    "a": "Discovery",
+                    "b": "Load Balancing",
+                    "c": "Placement",
+                    "d": "Benchmarking"
+                },
+                "answer": "d",
+                "explanation": "Benchmarking algorithms are used to capture and measure the performance of computing system components like CPU, storage, and network."
+            },
+            {
+                "q": "According to the service placement taxonomy in fog-edge computing, which of the following can be classified as online vs offline?",
+                "options": {
+                    "a": "Control plan design",
+                    "b": "Placement characteristic",
+                    "c": "System dynamicity",
+                    "d": "Mobility support"
+                },
+                "answer": "b",
+                "explanation": "In fog-edge computing service placement taxonomy, placement characteristic can be classified as either online or offline."
+            },
+            {
+                "q": "Which of the following statements regarding offloading are correct?\n\n1. Offloading is a technique in which a server, an application, and the associated data are moved from the edge to the cloud\n2. Offloading augments the computing requirements of individuals or a collection of user devices\n3. Offloading from cloud to the edge can be achieved by server offloading\n4. Offloading from user device to edge can be achieved by application partitioning",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "2, 3 and 4"
+                },
+                "answer": "d",
+                "explanation": "Offloading augments computing capabilities, can be achieved through server offloading (cloud to edge) and application partitioning (device to edge)."
+            },
+            {
+                "q": "Different Cloud Service Providers join together to form a federation.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Cloud federation is formed when different cloud service providers join together to share resources."
+            },
+            {
+                "q": "Which of the following are NOT benefits of cloud federation?\n\n1. Minimize resource utilization\n2. Load balancing\n3. Maximize power consumption\n4. Global utility",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 3"
+                },
+                "answer": "d",
+                "explanation": "Minimizing resource utilization and maximizing power consumption are not benefits of cloud federation."
+            },
+            {
+                "q": "In which of the following cloud federation architectures, creation of cross site networks and cross site migration of VMs are used?",
+                "options": {
+                    "a": "Loosely coupled federation",
+                    "b": "Partially coupled federation",
+                    "c": "Tightly coupled federation",
+                    "d": "None of the above"
+                },
+                "answer": "c",
+                "explanation": "Tightly coupled federation architecture enables cross-site networks and VM migration between federated clouds."
+            },
+            {
+                "q": "In which of the following architectures, two or more partner clouds interoperate to aggregate their resources and provide users with a larger virtual infrastructure?",
+                "options": {
+                    "a": "Hybrid/Bursting Architecture",
+                    "b": "Aggregated Architecture",
+                    "c": "Broker Architecture",
+                    "d": "Multiplier Architecture"
+                },
+                "answer": "b",
+                "explanation": "Aggregated Architecture allows partner clouds to interoperate and combine their resources to provide users with an expanded virtual infrastructure."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "Given the VM memory size of 1024 GB and the transmission rate of 16 MB/sec, what are the total migration time and downtime for non-live VM migration?",
+                "options": {
+                    "a": "20 hours, 25 hours",
+                    "b": "18 hours, 18 hours",
+                    "c": "16 hours, 16 hours",
+                    "d": "24 hours, 20 hours"
+                },
+                "answer": "b",
+                "explanation": "Total Migration time = VM memory size/ transmission rate =(1024x2^30)/(16x2^20)=65536 secs= 18 hours. For non-live migration, overall migration time is the same as overall downtime."
+            },
+            {
+                "q": "Which of the following is (are) true in the case of Docker architecture?\nStatement-1: Private Docker registry is a service that stores Docker images.\nStatement-2: Docker on the host machine is split into two parts- a daemon with a RESTful API and a client who talks with the daemon.",
+                "options": {
+                    "a": "Only Statement-1 is true",
+                    "b": "Only Statement-2 is true",
+                    "c": "Both Statement-1 and 2 are true",
+                    "d": "Neither Statement 1 nor 2 is true"
+                },
+                "answer": "c",
+                "explanation": "Private Docker registry is a service that stores Docker images. Moreover, Docker on the host machine is split into two parts- a daemon with RESTful API and a client who talks with the daemon."
+            },
+            {
+                "q": "Which of the following are key advantages of Docker?\n\n1. Facilitating microservices\n2. Modeling networks\n3. Packaging software\n4. None of these",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1, 2 and 3",
+                    "d": "4"
+                },
+                "answer": "c",
+                "explanation": "Facilitating microservices, packaging software, and modeling networks for initiating multiple isolated containers on a single machine, are the key advantages of Docker."
+            },
+            {
+                "q": "Which of the following are reasons to opt for VM migration in the cloud computing paradigm?\n\n1. No particular reason; depends on the will of the end client/user\n2. To remove a physical machine from service\n3. To save power consumption\n4. To relieve the load on the congested hosts",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "3 and 4",
+                    "d": "1 and 3"
+                },
+                "answer": "b",
+                "explanation": "We should opt for VM migration either in order to remove a physical machine from service or to relieve the load on the congested hosts and/or both."
+            },
+            {
+                "q": "A Kubernetes cluster consists of a set of worker machines called _________.",
+                "options": {
+                    "a": "Pods",
+                    "b": "Nodes",
+                    "c": "Control plane",
+                    "d": "Centers"
+                },
+                "answer": "b",
+                "explanation": "A Kubernetes cluster consists of set of worker machines, called nodes."
+            },
+            {
+                "q": "Docker builds are more reproducible and replicable than traditional software building methods.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Docker builds are more reproducible and replicable than traditional software building methods. This makes implementing CD much easier."
+            },
+            {
+                "q": "VM migration is the process of moving running applications or VMs from one physical host to another host.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "VM migration is a process to move running applications or VMs from one physical host/server to another host. So option (a) is correct."
+            },
+            {
+                "q": "In Docker utility, ___________ is a collection of filesystem layers and some metadata that, if taken together, can be spun up as Docker containers.",
+                "options": {
+                    "a": "Operating System",
+                    "b": "Microservice",
+                    "c": "Virtual Machine",
+                    "d": "Image"
+                },
+                "answer": "d",
+                "explanation": "In Docker utility, an image is a collection of filesystem layers and some metadata which if taken together, they can be spun up as Docker containers."
+            },
+            {
+                "q": "Post-copy and Pre-copy migration approaches are followed in:",
+                "options": {
+                    "a": "Live Migration process",
+                    "b": "Non-live Migration process",
+                    "c": "Hybrid Migration process",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Both Post-copy and Pre-copy are approaches for live migration process."
+            },
+            {
+                "q": "Kubernetes operates at the hardware level.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Kubernetes operates at the container level."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "Serverless covers a wide range of technologies that can be grouped into two categories",
+                "options": {
+                    "a": "BaaS and YaaS",
+                    "b": "FaaS and BaaS",
+                    "c": "FaaS and YaaS",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Serverless computing technologies can be categorized into Function as a Service (FaaS) and Backend as a Service (BaaS)."
+            },
+            {
+                "q": "BigQuery is a fully-managed, serverless data warehouse by",
+                "options": {
+                    "a": "AWS",
+                    "b": "Google",
+                    "c": "Microsoft",
+                    "d": "IBM"
+                },
+                "answer": "b",
+                "explanation": "BigQuery is Google's fully managed serverless data warehouse solution."
+            },
+            {
+                "q": "Which of the following statements is/are false?\n\na. Serverless computing allows the users with more control over the deployment environment compared to PaaS.\nb. Serverless computing is a form of cloud computing that allows users to run event driven granular applications.",
+                "options": {
+                    "a": "Only statement a is false",
+                    "b": "Only statement b is false",
+                    "c": "Both statements are false",
+                    "d": "Neither statement is false"
+                },
+                "answer": "a",
+                "explanation": "Statement a is false because serverless computing actually provides less control over the deployment environment compared to PaaS. Statement b is true."
+            },
+            {
+                "q": "Runtimes allows you to annotate your function code with custom logging statements which helps you to analyze the execution flow and performance of your AWS Lambda functions.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "This statement is false. CloudWatch, not runtimes, provides logging capabilities for AWS Lambda functions."
+            },
+            {
+                "q": "Which of the following is not a category of a research initiative on sustainable cloud computing?",
+                "options": {
+                    "a": "Renewable Energy",
+                    "b": "Capacity planning",
+                    "c": "Environment Sandboxing",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Environment Sandboxing is not a category of research initiative on sustainable cloud computing."
+            },
+            {
+                "q": "VMs can be migrated to a remote CDC to balance the load effectively as per sustainable cloud computing model.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is true - VMs can be migrated to remote Cloud Data Centers (CDCs) for effective load balancing in sustainable cloud computing."
+            },
+            {
+                "q": "The focus of cloud computing was _____ and the serverless is _____",
+                "options": {
+                    "a": "programmers, system administrators",
+                    "b": "system administrators, programmers",
+                    "c": "developers, operators",
+                    "d": "operators, developers"
+                },
+                "answer": "b",
+                "explanation": "Cloud computing focused on system administrators while serverless computing shifts focus to programmers."
+            },
+            {
+                "q": "Cloud Data Centers (CDCs) consist of a chassis and racks to place the servers to process the IT workloads.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is true - CDCs use chassis and racks to organize and house servers for IT workload processing."
+            },
+            {
+                "q": "_____ are an important distribution mechanism for libraries and custom runtimes in AWS serverless ecosystem.",
+                "options": {
+                    "a": "Runtimes",
+                    "b": "Lambda Layers",
+                    "c": "Log streams",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Lambda Layers serve as a distribution mechanism for libraries and custom runtimes in AWS serverless ecosystem."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "In which computing environment is latency fixed due to the location of application modules at the Area Gateway?",
+                "options": {
+                    "a": "Fog computing",
+                    "b": "Cloud computing",
+                    "c": "Serverless Computing",
+                    "d": "None of the above"
+                },
+                "answer": "a",
+                "explanation": "In fog computing, latency is fixed because application modules are located at the Area Gateway."
+            },
+            {
+                "q": "What does spatial cloud support in terms of resource pooling?",
+                "options": {
+                    "a": "Individual resource allocation for participating organizations",
+                    "b": "Exclusive resource ownership for each organization",
+                    "c": "Shared resource pooling for participating organizations",
+                    "d": "Restricted access to network, servers, apps, services, storages, and databases"
+                },
+                "answer": "c",
+                "explanation": "Spatial cloud supports shared resource pooling for participating organizations."
+            },
+            {
+                "q": "Dew computing is an on premises computer software-hardware organization paradigm where on premises computers provide functionality that is _____ of cloud services and is also _____ with cloud services.",
+                "options": {
+                    "a": "independent, serverless",
+                    "b": "dependant, collaborative",
+                    "c": "independent, collaborative",
+                    "d": "serverless, collaborative"
+                },
+                "answer": "c",
+                "explanation": "Dew computing provides functionality that is independent of cloud services while being collaborative with them."
+            },
+            {
+                "q": "Fog-Edge computing leads to increased network congestion",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Fog-Edge computing actually helps reduce network congestion by processing data closer to the source."
+            },
+            {
+                "q": "A Cyber Physical Cloud Computing (CPCC) architectural framework is a _____ environment that can rapidly build, modify and provision cyber physical systems composed of a set of _____ based sensor, processing, control, and data services.",
+                "options": {
+                    "a": "system, cloud computing",
+                    "b": "cloud computing, system",
+                    "c": "system, edge computing",
+                    "d": "edge, system computing"
+                },
+                "answer": "a",
+                "explanation": "CPCC is a system environment that uses cloud computing-based services for cyber physical systems."
+            },
+            {
+                "q": "Which of the following are key features of Mobile Cloud computing for 5G networks?\n\n1. Increased resource consumption by mobile applications\n2. Improved reliability due to data storage in the cloud\n3. Sharing resources for mobile applications\n4. None of these",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "3 and 4",
+                    "d": "1 and 4"
+                },
+                "answer": "b",
+                "explanation": "Key features include improved reliability through cloud storage and resource sharing capabilities for mobile applications."
+            },
+            {
+                "q": "The key aspect of the intelligent transportation system is efficient _____",
+                "options": {
+                    "a": "cost",
+                    "b": "mobility",
+                    "c": "speed",
+                    "d": "delivery"
+                },
+                "answer": "b",
+                "explanation": "Efficient mobility is the key aspect of intelligent transportation systems."
+            },
+            {
+                "q": "In conjunction with 5G and cloud computing, what should service providers focus on in the evolving computing paradigm?",
+                "options": {
+                    "a": "Limiting end-to-end orchestration",
+                    "b": "Providing manual service layer agreements",
+                    "c": "Offering limited self-service options",
+                    "d": "Providing full end-to-end orchestration with defined service layer agreements"
+                },
+                "answer": "d",
+                "explanation": "Service providers should focus on providing comprehensive end-to-end orchestration with clearly defined service layer agreements."
+            },
+            {
+                "q": "Mobility Analytics utilizes the cloud platform for computation and storage.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Mobility Analytics does utilize cloud platforms for both computation and storage purposes."
+            },
+            {
+                "q": "What is (are) the benefit(s) of 5G technology for enhanced mobile broadband?",
+                "options": {
+                    "a": "Slower data rates",
+                    "b": "Higher latency",
+                    "c": "Lower cost-per-bit",
+                    "d": "Limited device compatibility"
+                },
+                "answer": "c",
+                "explanation": "A key benefit of 5G technology for enhanced mobile broadband is lower cost-per-bit."
+            }
+        ],
+
     }
 }

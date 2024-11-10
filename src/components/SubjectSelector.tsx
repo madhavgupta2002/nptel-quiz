@@ -1,5 +1,6 @@
 import React from 'react';
 import { LucideIcon } from 'lucide-react';
+import { useDarkMode } from '../contexts/DarkModeContext';
 
 interface Subject {
   id: string;
@@ -15,6 +16,8 @@ interface SubjectSelectorProps {
 }
 
 const SubjectSelector: React.FC<SubjectSelectorProps> = ({ subjects, onSelect }) => {
+  const { isDarkMode } = useDarkMode();
+
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-12">
@@ -26,7 +29,7 @@ const SubjectSelector: React.FC<SubjectSelectorProps> = ({ subjects, onSelect })
         {subjects.map((subject) => (
           <div
             key={subject.id}
-            className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 cursor-pointer"
+            className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 cursor-pointer`}
             onClick={() => onSelect(subject.id)}
           >
             <div className="relative h-48">
@@ -40,8 +43,8 @@ const SubjectSelector: React.FC<SubjectSelectorProps> = ({ subjects, onSelect })
               </div>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-bold text-indigo-900 mb-2">{subject.title}</h3>
-              <p className="text-indigo-600">{subject.description}</p>
+              <h3 className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-indigo-900'} mb-2`}>{subject.title}</h3>
+              <p className={`${isDarkMode ? 'text-gray-300' : 'text-indigo-600'}`}>{subject.description}</p>
               <button
                 className="mt-4 w-full bg-indigo-600 text-white py-2 px-4 rounded-full font-semibold hover:bg-indigo-700 transition duration-300"
               >

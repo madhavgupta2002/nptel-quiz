@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BookOpen, Brain, Linkedin, Moon } from 'lucide-react';
 import QuizApp from './components/QuizApp';
 import SubjectSelector from './components/SubjectSelector';
+import { useDarkMode } from './contexts/DarkModeContext';
 
 const SUBJECTS = [
   {
@@ -38,12 +39,20 @@ const SUBJECTS = [
     description: 'Learn cybersecurity concepts, penetration testing techniques, and ethical hacking methodologies',
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
-  }
+  },
+  {
+    id: 'Cloud Computing',
+    title: 'Cloud Computing',
+    description: 'Learn about cloud service models, deployment models, virtualization, and cloud platforms',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
 
 ];
 
 const App: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState<typeof SUBJECTS[0] | null>(null);
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   const handleSubjectSelect = (subject: typeof SUBJECTS[0]) => {
     setSelectedSubject(subject);
@@ -54,26 +63,30 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-purple-100">
-      <nav className="bg-indigo-50/50 backdrop-blur-sm shadow-sm">
+    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-indigo-100 to-purple-100'}`}>
+      <nav className={`${isDarkMode ? 'bg-gray-800/50' : 'bg-indigo-50/50'} backdrop-blur-sm shadow-sm`}>
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <button
+            onClick={handleBackToSubjects}
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+          >
             <Brain className="h-8 w-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-800">NPTEL Course Quiz</span>
-          </div>
+            <span className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>NPTEL Course Quiz</span>
+          </button>
 
           <div className="flex items-center space-x-4">
             <a
               href="https://www.linkedin.com/in/madhavgupta2002"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-gray-600 hover:text-indigo-600 transition-colors"
+              className={`flex items-center space-x-2 border border-gray-300 rounded-full px-3 py-1 ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-indigo-600'} transition-colors`}
             >
               <span className="text-sm">Made by Madhav Gupta</span>
               <Linkedin className="h-5 w-5" />
             </a>
             <button
-              className="p-2 text-gray-600 hover:text-indigo-600 transition-colors rounded-full hover:bg-indigo-100"
+              onClick={toggleDarkMode}
+              className={`p-2 ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-indigo-600'} transition-colors rounded-full hover:bg-indigo-100`}
               aria-label="Toggle dark mode"
             >
               <Moon className="h-5 w-5" />

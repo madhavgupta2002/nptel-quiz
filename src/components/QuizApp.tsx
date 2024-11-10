@@ -36,6 +36,25 @@ const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
   const [isStudyPlanExpanded, setIsStudyPlanExpanded] = useState(false);
   const [showShortNotes, setShowShortNotes] = useState(false);
 
+  React.useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (quizState.questions.length === 0 || quizCompleted) return;
+
+      if (event.key === 'ArrowLeft') {
+        if (quizState.currentQuestionIndex > 0) {
+          moveQuestion('prev');
+        }
+      } else if (event.key === 'ArrowRight') {
+        if (quizState.currentQuestionIndex < quizState.totalQuestions - 1) {
+          moveQuestion('next');
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [quizState.currentQuestionIndex, quizState.questions.length, quizCompleted, quizState.totalQuestions]);
+
   const shuffleArray = (array: any[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -179,7 +198,7 @@ const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
           <h1 className="text-3xl sm:text-4xl font-bold text-indigo-900">{subject}</h1>
         </div>
 
-        {showStudyPlan && subject === 'wildlifeEcology' && (
+        {showStudyPlan && subject === 'Wildlife Ecology' && (
           <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 mb-8">
             <div className="flex justify-between items-center">
               <div className="flex items-center cursor-pointer" onClick={() => setIsStudyPlanExpanded(!isStudyPlanExpanded)}>
