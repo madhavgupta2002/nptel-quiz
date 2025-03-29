@@ -47,6 +47,13 @@ const SUBJECTS = [
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   },
+  {
+    id: 'Forests and their Management',
+    title: 'Forests and their Management',
+    description: 'Learn about forest ecosystems, sustainable forestry practices, conservation, and management techniques',
+    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
 
 ];
 
