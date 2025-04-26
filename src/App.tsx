@@ -68,6 +68,20 @@ const SUBJECTS = [
     image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   },
+  {
+    id: 'Network Security',
+    title: 'Network Security',
+    description: 'Learn about network vulnerabilities, security protocols, encryption techniques, and defense mechanisms',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'GPU Architecture and Programming',
+    title: 'GPU Architecture and Programming',
+    description: 'Study GPU hardware design, parallel computing principles, and programming models like CUDA and OpenCL',
+    image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  }
 
 ];
 

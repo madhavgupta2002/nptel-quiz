@@ -14248,5 +14248,1351 @@ export const assignment: Assignment = {
 
 
 
+    },
+    "Network Security": {
+        "Assignment 1": [
+            {
+                "q": "(MCQ) Suppose users share a 2 Mbps link. Also suppose each user transmits continuously at 1 Mbps when transmitting, but each user transmits only 20 percent of the time. When circuit switching is used, how many users can be supported?",
+                "options": {
+                    "a": "1 user",
+                    "b": "2 users",
+                    "c": "5 users",
+                    "d": "10 users"
+                },
+                "answer": "b",
+                "explanation": "Circuit switching requires dedicated bandwidth, so with a 2 Mbps link and each user needing 1 Mbps, only 2 users can be supported simultaneously."
+            },
+            {
+                "q": "(MCQ) Suppose three users share a 2 Mbps link. Also suppose each user transmits continuously at 1 Mbps when transmitting, but each user transmits only 20 percent of the time. Packet switching is used. What is the fraction of time during which the queue of packets to be sent on the link grows?",
+                "options": {
+                    "a": "0.2",
+                    "b": "0.04",
+                    "c": "0.008",
+                    "d": "0.0016"
+                },
+                "answer": "c",
+                "explanation": "The queue grows only when the total required bandwidth exceeds the link capacity (2 Mbps), which occurs only when all 3 users transmit simultaneously (3*1Mbps=3Mbps), happening with probability (0.2)^3 = 0.008."
+            },
+            {
+                "q": "(MCQ) Suppose a packet of 1000 bytes is sent over a link of rate 10 Mbps and length 500 m. The speed of light on the link is 2 × 10^8 m/s. What is the transmission delay?",
+                "options": {
+                    "a": "0.8 milliseconds",
+                    "b": "2.5 microseconds",
+                    "c": "2.5 milliseconds",
+                    "d": "0.1 milliseconds"
+                },
+                "answer": "a",
+                "explanation": "Transmission delay = Packet Size / Link Rate = (1000 bytes * 8 bits/byte) / (10 * 10^6 bits/sec) = 8000 / 10,000,000 sec = 0.0008 sec = 0.8 milliseconds."
+            },
+            {
+                "q": "(MCQ) Which of the following statements is true?",
+                "options": {
+                    "a": "Dijkstra's algorithm and Bellman-Ford's algorithm are both centralized algorithms.",
+                    "b": "Dijkstra's algorithm and Bellman-Ford's algorithm are both distributed algorithms.",
+                    "c": "Dijkstra's algorithm is distributed and Bellman-Ford's algorithm is centralized.",
+                    "d": "Dijkstra's algorithm is centralized and Bellman-Ford's algorithm is distributed."
+                },
+                "answer": "d",
+                "explanation": "Dijkstra's requires global link-state knowledge (centralized perspective), while Bellman-Ford operates via message passing between neighbors (distributed)."
+            },
+            {
+                "q": "Which of the following are mechanisms used for reliable data transfer?\n\n1. Timeouts\n2. Retransmissions\n3. Spanning trees\n4. Sequence numbers\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 2, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "Timeouts, retransmissions, and sequence numbers are essential components used by protocols like TCP to ensure data arrives correctly and in order."
+            },
+            {
+                "q": "(MCQ) Which approach does TCP use for congestion control?",
+                "options": {
+                    "a": "Network-assisted congestion control",
+                    "b": "End-to-end congestion control",
+                    "c": "A combination of network-assisted and end-to-end congestion control",
+                    "d": "Neither network-assisted nor end-to-end congestion control"
+                },
+                "answer": "b",
+                "explanation": "TCP infers network congestion based on end-to-end observations like packet loss and delay, without explicit signals from network routers."
+            },
+            {
+                "q": "Which of the following are point-to-point links?\n\n1. Dial-up\n2. Wi-Fi\n3. Cable Internet\n4. DSL\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "1 and 4",
+                    "c": "2 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "Dial-up and DSL establish a direct, dedicated connection between the subscriber's equipment and the ISP's equipment."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. A Tier-1 ISP typically pays a Tier-2 ISP\n2. A Tier-3 ISP typically pays a Tier-2 ISP\n3. A Tier-1 ISP typically does not pay other Tier-1 ISPs\n4. A Tier-3 ISP typically pays a Tier-1 ISP\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Lower-tier ISPs (like Tier-3) usually pay higher-tier ISPs (like Tier-2 or Tier-1) for transit, while Tier-1 ISPs often peer with each other settlement-free."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. In the original version of Ethernet, each end system is connected to a shared cable.\n2. In modern Ethernet, each end system is connected to a shared cable.\n3. In the original version of Ethernet, switches are used.\n4. In modern Ethernet, switches are used.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "Original Ethernet used shared coaxial cables (bus topology), whereas modern Ethernet uses switches and point-to-point links (star topology)."
+            },
+            {
+                "q": "Which of the following are transport-layer protocols?\n\n1. PPP\n2. IP\n3. TCP\n4. UDP\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "TCP and UDP operate at the transport layer (Layer 4), providing end-to-end communication services like reliable streams or unreliable datagrams."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "(MCQ) Which of the following mechanisms allows a user at one end of a connection to check whether the user at the other end is indeed who they claim to be?",
+                "options": {
+                    "a": "Message integrity",
+                    "b": "End-point authentication",
+                    "c": "Encryption",
+                    "d": "Timing information"
+                },
+                "answer": "b",
+                "explanation": "End-point authentication is the process of verifying the identity of the party at the other end of a communication session."
+            },
+            {
+                "q": "(MCQ) Consider the two equations x mod 8 = 3 and x mod 9 = 5. How many values of x in the range {0,1, ...,71} satisfy both these equations?",
+                "options": {
+                    "a": "3",
+                    "b": "2",
+                    "c": "1",
+                    "d": "0"
+                },
+                "answer": "c",
+                "explanation": "Using the Chinese Remainder Theorem, there is a unique solution modulo 72 (8*9); within the range 0-71, the only solution is x=59."
+            },
+            {
+                "q": "(MCQ) Suppose a block cipher is used to encrypt a sequence of plaintext blocks m1, m2, ..., mi, ..., mN into the corresponding ciphertext blocks C1, C2, ..., Ci, ..., CN. If Cipher Block Chaining (CBC) is used and block Ci is corrupted during transmission, which block(s) will not be decrypted successfully at the receiver?",
+                "options": {
+                    "a": "C1, C2, ..., Ci, ..., CN",
+                    "b": "Ci, ..., CN",
+                    "c": "Ci and Ci+1",
+                    "d": "Only Ci"
+                },
+                "answer": "c",
+                "explanation": "In CBC decryption (mi = DK(Ci) XOR C(i-1)), corrupting Ci affects the decryption of mi directly and also affects the decryption of m(i+1) because m(i+1) depends on Ci."
+            },
+            {
+                "q": "(MCQ) In a public-key system using RSA, you intercept the ciphertext C = 10 sent to a user whose public key is e = 5, n = 35. What is the plaintext m?",
+                "options": {
+                    "a": "5",
+                    "b": "7",
+                    "c": "10",
+                    "d": "25"
+                },
+                "answer": "a",
+                "explanation": "To decrypt RSA, calculate d such that e*d ≡ 1 mod phi(n). Here n=35=5*7, phi(n)=4*6=24. 5*d ≡ 1 mod 24 => d=5. Then m = C^d mod n = 10^5 mod 35 = 5."
+            },
+            {
+                "q": "(MCQ) A and B perform Diffie-Hellman key exchange using p = 53 and g = 2. If A chooses her secret to be 10 and B chooses his secret to be 33, then what is the common secret that they agree upon?",
+                "options": {
+                    "a": "31",
+                    "b": "17",
+                    "c": "10",
+                    "d": "6"
+                },
+                "answer": "d",
+                "explanation": "A calculates 2^10 mod 53 = 17. B calculates 2^33 mod 53 = 31. The shared secret is (B's public)^A's secret mod p = 31^10 mod 53 = 6, or (A's public)^B's secret mod p = 17^33 mod 53 = 6."
+            },
+            {
+                "q": "Which of the following are safe primes?\n\n1. 11\n2. 13\n3. 23\n4. 29\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "A prime p is safe if (p-1)/2 is also prime; 11 is safe ( (11-1)/2 = 5, prime) and 23 is safe ( (23-1)/2 = 11, prime)."
+            },
+            {
+                "q": "Which of the following schemes use an Initialization Vector?\n\n1. ECB\n2. CBC\n3. OFB\n4. CTR\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Block cipher modes CBC, OFB, and CTR require an Initialization Vector (IV) to ensure semantic security and prevent identical plaintext blocks from producing identical ciphertext blocks."
+            },
+            {
+                "q": "Which of the following are block ciphers?\n\n1. 3DES\n2. RSA\n3. AES\n4. Diffie-Hellman\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "3DES and AES are symmetric algorithms that encrypt data in fixed-size blocks using a shared key."
+            },
+            {
+                "q": "(MCQ) Which of the following techniques can be used to efficiently break a monoalphabetic cipher?",
+                "options": {
+                    "a": "Exhaustive search",
+                    "b": "Frequency analysis",
+                    "c": "Traffic analysis",
+                    "d": "Pohlig-Hellman algorithm"
+                },
+                "answer": "b",
+                "explanation": "Monoalphabetic substitution ciphers preserve letter frequencies, making them vulnerable to frequency analysis based on known language statistics."
+            },
+            {
+                "q": "Which of the following are types of malware?\n\n1. Trapdoor\n2. Buffer overflow\n3. Logic bomb\n4. Rootkit\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Trapdoors (backdoors), logic bombs, and rootkits are distinct categories of malicious software (malware); buffer overflow is an exploitation technique."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "Which of the following, when appended to a message, ensures the integrity of the message?\n\n1. Message Authentication Code\n2. Checksum\n3. Digital Signature\n4. Cyclic Redundancy Check\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "Message Authentication Codes (MACs) and Digital Signatures use cryptographic methods to ensure message integrity and authenticity, while checksums/CRCs only detect accidental errors."
+            },
+            {
+                "q": "Which of the following statements about a cryptographic hash function are true?\n\n1. Its output is a variable length string\n2. It is computationally expensive to compute the hash of a given input\n3. It is computationally infeasible to find a message that has a pre-specified hash\n4. it is computationally infeasible to find two messages whose hash value is the same\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Cryptographic hash functions are designed to be pre-image resistant (3) and collision resistant (4), produce fixed-size outputs, and be efficient to compute."
+            },
+            {
+                "q": "Which of the following are cryptographic hash functions?\n\n1. SHA-3\n2. Hamming code\n3. Cyclic redundancy check\n4. MD5\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "SHA-3 and MD5 are specific algorithms designed as cryptographic hash functions; Hamming codes and CRCs are for error detection/correction."
+            },
+            {
+                "q": "(MCQ) Recall that SHA-1 pads the input message before computing its hash value. What are the minimum and maximum possible lengths of the padding?",
+                "options": {
+                    "a": "64 and 512",
+                    "b": "65 and 576",
+                    "c": "1 and 511",
+                    "d": "256 and 448"
+                },
+                "answer": "b",
+                "explanation": "SHA-1 padding includes a '1' bit, '0' bits, and a 64-bit length, making the total message length a multiple of 512; this results in padding between 65 and 576 bits."
+            },
+            {
+                "q": "(MCQ) Suppose Alice has a message that she is ready to send to anyone who asks. Thousands of people want to obtain Alice's message, but each wants to be sure of the integrity of the message. Which of the following techniques can be used to efficiently achieve the integrity of the message?",
+                "options": {
+                    "a": "Message Authentication Code",
+                    "b": "Checksum",
+                    "c": "Digital Signature",
+                    "d": "Cyclic Redundancy Check"
+                },
+                "answer": "c",
+                "explanation": "Digital signatures allow anyone with Alice's public key to verify the message's integrity and authenticity, suitable for one-to-many distribution."
+            },
+            {
+                "q": "(MCQ) Consider a cryptographic hash function whose output is 256 bits in length. There is a target hash value h desired by an intruder. Suppose the intruder finds out the hash values of n different randomly chosen inputs. What is the expected number of inputs whose hash value equals h?",
+                "options": {
+                    "a": "n/256",
+                    "b": "n/128",
+                    "c": "n/2^255",
+                    "d": "n/2^256"
+                },
+                "answer": "d",
+                "explanation": "For a hash function with 2^256 possible outputs, the probability of hitting a specific target h is 1/2^256, so the expected number of hits in n trials is n * (1/2^256)."
+            },
+            {
+                "q": "(MCQ) Consider an attack on a cryptographic hash function, in which an intruder tries n inputs to find two different inputs with the same hash value. What is such an attack called?",
+                "options": {
+                    "a": "Birthday attack",
+                    "b": "Collision attack",
+                    "c": "Pre-image attack",
+                    "d": "Sybil attack"
+                },
+                "answer": "a",
+                "explanation": "Finding any two inputs that produce the same hash output is called a collision attack, often accomplished efficiently using a birthday attack strategy."
+            },
+            {
+                "q": "Which of the following are properties that must be satisfied by a digital signature?\n\n1. Verifiability\n2. Confidentiality\n3. Nonforgeability\n4. Availability\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "Digital signatures must allow recipients to verify the signature's validity (Verifiability) and must be computationally infeasible to forge by anyone other than the private key owner (Nonforgeability)."
+            },
+            {
+                "q": "Which of the following statements is true for the SHA-1 cryptographic hash function?\n\n1. Its output is 128 bits in length\n2. Its output is 160 bits in length\n3. It processes the input data in 512-bit blocks\n4. It processes the input data in 480-bit blocks\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "SHA-1 produces a 160-bit hash output and processes the padded input message in 512-bit blocks."
+            },
+            {
+                "q": "Which of the following are cryptographic hash functions that are vulnerable to the length extension attack?\n\n1. SHA-1\n2. SHA-2\n3. SHA-3\n4. AES\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "Hash functions based on the Merkle–Damgård construction, like SHA-1 and SHA-2 families (SHA-256, SHA-512), are inherently vulnerable to length extension attacks unless countermeasures are used."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Suppose Alice and Bob share a secret symmetric key K. Alice authenticates to Bob using protocol ap4.0, which we discussed in the video lectures. Let R denote the nonce used in the protocol and X(Y ) denote Y encrypted using the key X. After executing protocol ap4.0, which of the following would be secure as a session key?\n\n1. K(3R)\n2. K(R + K)\n3. K(K)\n4. (R+K)(R)\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "A secure session key should depend on both the long-term key (K) and the fresh nonce (R); options involving combinations like K(R+K) or using (R+K) as a key are plausible constructions."
+            },
+            {
+                "q": "Which of the following protocols, which we discussed in the video lectures, defends against IP spoofing?\n\n1. ap1.0\n2. ap2.0\n3. ap3.0\n4. ap4.0\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Authentication protocols involving cryptographic challenges (like nonces) and responses tied to secret keys (ap3.0, ap4.0) prevent attackers from completing the protocol with a spoofed IP."
+            },
+            {
+                "q": "Which of the following statements about a nonce are true?\n\n1. It is used by a protocol only once during its operation\n2. It can be reused once the two communicating parties restart their computers\n3. It can be used to check the liveness of the party at the other end of a connection\n4. It acts as a substitute for a password\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "A nonce (number used once) primarily ensures freshness, prevents replay attacks, and implicitly checks liveness when used in challenge-response mechanisms."
+            },
+            {
+                "q": "Which of the following protocols, which we discussed in the video lectures, defend against the eavesdropping attack?\n\n1. ap3.0\n2. ap4.0\n3. Lamport's hash\n4. Public key-based authentication\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Protocols using encryption (ap4.0), one-way functions for credentials (Lamport's hash), or public-key cryptography generally protect sensitive information from eavesdroppers."
+            },
+            {
+                "q": "(MCQ) How many nonces are used in the Expanded Needham-Schroeder protocol?",
+                "options": {
+                    "a": "One",
+                    "b": "Two",
+                    "c": "Three",
+                    "d": "Four"
+                },
+                "answer": "d",
+                "explanation": "Depending on the specific interpretation or variant labeled 'Expanded Needham-Schroeder', it might involve up to four nonces for client/KDC, client/server authentication, and key confirmation steps."
+            },
+            {
+                "q": "Which of the following are used in the Needham-Schroeder protocol?\n\n1. Public key cryptography\n2. Nonce\n3. Key Distribution Center\n4. Cryptographic hash function\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "The original Needham-Schroeder symmetric-key protocol uses nonces for freshness and a Key Distribution Center (KDC) to generate session keys."
+            },
+            {
+                "q": "Consider a sequence of packets being sent from Alice to Bob. An intruder on the path between Alice and Bob can delete some of the packets. Which of the following techniques can be used to defend against this attack?\n\n1. Encryption of the packets\n2. Addition of sequence numbers to packets\n3. Addition of a MAC computed over a packet to that packet\n4. Addition, to a packet, of a MAC computed over all the packets from the beginning of a session to the current packet\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "Sequence numbers allow the receiver to detect missing packets, and a chained MAC (computed over all preceding data) prevents undetected deletion or reordering."
+            },
+            {
+                "q": "Which of the following statements about the Lamport's Hash protocol are true?\n\n1. It defends against eavesdropping\n2. It uses public key cryptography\n3. It uses cryptographic hash functions\n4. It defends against the server database reading attack\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Lamport's hash scheme uses one-way hash functions to protect the password from eavesdroppers and from being compromised if the server's hash store is read."
+            },
+            {
+                "q": "(MCQ) Which of the following is an attack on Lamport's Hash?",
+                "options": {
+                    "a": "Birthday attack",
+                    "b": "Sybil attack",
+                    "c": "Small n attack",
+                    "d": "Length extension attack"
+                },
+                "answer": "c",
+                "explanation": "The 'small n' attack refers to the practical limitation of Lamport's scheme allowing only 'n' logins before requiring password reset and re-initialization."
+            },
+            {
+                "q": "Which of the following statements are true for the ap4.0 protocol, which we discussed in the video lectures?\n\n1. It provides mutual authentication\n2. It provides one-way authentication\n3. It uses public key cryptography\n4. It uses symmetric key cryptography\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "The ap4.0 protocol (challenge R, response K(R)) provides one-way authentication (Bob authenticates to Alice) using a shared symmetric key K."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Which of the following are fields in an ITU X.509 certificate?\n\n1. Serial number\n2. Issuer public key\n3. Subject public key\n4. Version\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "X.509 certificates contain the subject's public key, a serial number, version number, issuer/subject names, validity period, but not the issuer's public key directly."
+            },
+            {
+                "q": "Which of the following statements about certificates are true?\n\n1. A user, Bob, typically displays his encrypted certificate on his website\n2. The subject and issuer of a certificate may be the same\n3. A certificate is typically used in conjunction with a Key Distribution Center\n4. Certificates are often issued by Certification Authorities\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "Certificates are issued by CAs, bind a public key to an identity, are public information (not encrypted), and can be self-signed (subject=issuer)."
+            },
+            {
+                "q": "(MCQ) Which of the following models is commonly used in web browsers?",
+                "options": {
+                    "a": "Monopoly model",
+                    "b": "Monopoly and Registration Authorities (RA) model",
+                    "c": "Oligarchy model",
+                    "d": "Anarchy model"
+                },
+                "answer": "c",
+                "explanation": "Web browsers trust a limited set of pre-installed root Certification Authorities (CAs), representing an oligarchy (rule by a few)."
+            },
+            {
+                "q": "Which of the following statements about delta CRLs are true?\n\n1. Delta CRLs are intended for making CRL distribution more efficient\n2. Delta CRLs are successors of gamma CRLs\n3. If a verifier has a copy of the latest delta CRL, then he/ she does not need to consult any full CRL\n4. Delta CRLs are typically posted more frequently than full CRLs\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "Delta CRLs provide only the changes since a base CRL, making updates smaller and more frequent, thus improving distribution efficiency."
+            },
+            {
+                "q": "Which of the following are systems for securing email?\n\n1. IPsec\n2. VPN\n3. PGP\n4. S/MIME\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "PGP (Pretty Good Privacy) and S/MIME (Secure/Multipurpose Internet Mail Extensions) are the predominant standards for providing email confidentiality and authenticity."
+            },
+            {
+                "q": "Which of the following does PGP provide?\n\n1. Confidentiality\n2. Message Integrity\n3. Compression\n4. Spam detection\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "a",
+                "explanation": "PGP offers confidentiality via encryption, message integrity/authentication via digital signatures, and typically includes compression to reduce data size."
+            },
+            {
+                "q": "(MCQ) Which of the following formats does PGP use?",
+                "options": {
+                    "a": "Base128",
+                    "b": "Base64",
+                    "c": "Base32",
+                    "d": "Base16"
+                },
+                "answer": "b",
+                "explanation": "PGP often uses Base64 encoding (also called ASCII Armor) to represent binary encrypted data or signatures in a text-based format suitable for email."
+            },
+            {
+                "q": "Which of the following are phases of SSL?\n\n1. Synchronization\n2. Handshake\n3. Data Transfer\n4. Key derivation\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "The SSL/TLS process involves a Handshake phase (negotiation, authentication, key exchange), Key Derivation (from master secret), and subsequent secure Data Transfer."
+            },
+            {
+                "q": "Which of the following are fields in an SSL record?\n\n1. Type\n2. Length\n3. Sequence number\n4. Version\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 4",
+                    "b": "1, 2, and 3",
+                    "c": "1, 3, and 4",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "a",
+                "explanation": "The SSL/TLS record header contains fields indicating the content Type, protocol Version, and fragment Length; sequence numbers are managed implicitly for security."
+            },
+            {
+                "q": "(MCQ) Which of the following statements is true?",
+                "options": {
+                    "a": "Server authentication is mandatory, but client authentication is optional in the SSL handshake",
+                    "b": "Client authentication is mandatory, but server authentication is optional in the SSL handshake",
+                    "c": "Server and client authentication are both mandatory in the SSL handshake",
+                    "d": "Server and client authentication are both optional in the SSL handshake"
+                },
+                "answer": "a",
+                "explanation": "In most common SSL/TLS usage (like HTTPS), the server must authenticate itself to the client, while client authentication remains optional."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "Which of the following statements are true?\n\n1. Consider sending a stream of packets from Host A to Host B using IPsec. Typically, a new SA will be established for each packet sent in the stream.\n2. Suppose that the headquarters and the branch office of a company, which are in different cities, are connected via a VPN deployed over the Internet. TCP is being run between a host in the headquarters and a host in the branch office. If the TCP flow from the host in the headquarters to the host in the branch office retransmits the same packet, then the two corresponding packets sent by the headquarters gateway router to the branch office gateway router will have the same sequence number in the ESP header.\n3. An IKE SA and an IPsec SA are the same thing.\n4. ESP provides confidentiality and message integrity.\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 4",
+                    "b": "1 and 4",
+                    "c": "2 and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "a",
+                "explanation": "ESP (Encapsulating Security Payload) in IPsec can provide confidentiality through encryption and message integrity/authentication through a MAC. SAs are established per flow, not per packet. ESP sequence numbers increment per packet, regardless of TCP retransmissions."
+            },
+            {
+                "q": "(MCQ) Which of the following statements is true?",
+                "options": {
+                    "a": "An IKE SA is unidirectional and an IPsec SA is bidirectional.",
+                    "b": "An IKE SA is bidirectional and an IPsec SA is unidirectional.",
+                    "c": "An IKE SA and an IPsec SA are both unidirectional.",
+                    "d": "An IKE SA and an IPsec SA are both bidirectional."
+                },
+                "answer": "b",
+                "explanation": "The Internet Key Exchange (IKE) establishes a bidirectional control channel (IKE SA), which then negotiates unidirectional data protection channels (IPsec SAs)."
+            },
+            {
+                "q": "Which of the following are included in the Security Association Database?\n\n1. SPI\n2. Current sequence number\n3. Encryption key\n4. Authentication key\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "The Security Association Database (SAD) stores parameters for active IPsec SAs, including the Security Parameter Index (SPI), cryptographic keys, algorithms, and sequence number counter (state); primarily configuration like SPI/Keys/Algorithms."
+            },
+            {
+                "q": "When tunnel mode is used, which of the following fields in an ESP packet are encrypted?\n\n1. Sequence number\n2. Original IP header\n3. SPI\n4. Original IP datagram payload\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "In ESP tunnel mode, the entire original IP packet (header and payload) is encrypted and encapsulated; the outer ESP header fields (SPI, sequence number) are not encrypted."
+            },
+            {
+                "q": "Which of the following statements about Wi-Fi are true?\n\n1. It typically operates on licensed spectrum.\n2. It uses a binary exponential backoff based MAC protocol.\n3. It is based on the IEEE 802.11 standard.\n4. It does not use link-layer acknowledgment packets.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "Wi-Fi (IEEE 802.11) uses CSMA/CA with binary exponential backoff for medium access control and typically operates in unlicensed frequency bands. It uses link-layer ACKs."
+            },
+            {
+                "q": "Which of the following provides security mechanisms for Wi-Fi?\n\n1. 802.11i\n2. 802.11w\n3. 802.11b\n4. 802.11g\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "IEEE 802.11i (WPA2/WPA3) defines robust security protocols, and IEEE 802.11w adds protection for management frames in Wi-Fi networks."
+            },
+            {
+                "q": "(MCQ) Which of the following ciphers is used in WEP?",
+                "options": {
+                    "a": "AES",
+                    "b": "DES",
+                    "c": "RC4",
+                    "d": "IDEA"
+                },
+                "answer": "c",
+                "explanation": "The original (and insecure) Wi-Fi security protocol, WEP, used the RC4 stream cipher for confidentiality."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. WEP provides mutual authentication between the AP and mobile device.\n2. WEP authentication is similar to the ap4.0 protocol.\n3. Message integrity in WEP is based on a CRC.\n4. Message integrity in WEP is based on a message authentication code.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "WEP uses a non-cryptographic CRC for integrity (which is insecure) and its shared-key challenge-response authentication is conceptually similar to simple challenge-response protocols like ap4.0 (but flawed)."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. During WEP authentication, the two parties agree on a session key.\n2. During WEP authentication, no session keys are agreed upon.\n3. WEP uses different keys for authentication and encryption.\n4. WEP uses the same key for authentication and encryption.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "WEP uses the same static pre-shared key for both its flawed authentication mechanism and as input to derive per-packet RC4 keys; no dynamic session keys are negotiated."
+            },
+            {
+                "q": "Which of the following are modes supported by IPsec?\n\n1. Transport mode\n2. Verbose mode\n3. Lightweight mode\n4. Tunnel mode\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "IPsec operates in two primary modes: Transport mode (protecting packet payload) and Tunnel mode (encapsulating the entire original packet)."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Which of the following are true of EAP authentication protocols?\n\n1. EAP-TLS requires both station and authentication server to have digital certificates.\n2. EAP-TTLS requires both station and authentication server to have digital certificates.\n3. EAP-MD5 is vulnerable to a replay attack.\n4. Under EAP-MD5, the station sends its password to the authentication server.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "EAP-TLS provides strong mutual authentication using client and server certificates, while the older EAP-MD5 protocol is vulnerable to replay and offline dictionary attacks."
+            },
+            {
+                "q": "For which of the following tasks is the Key Confirmation Key (KCK) used?\n\n1. To integrity-protect data between the station and the AP.\n2. To integrity-protect messages in the four-way handshake.\n3. To encrypt data between the station and the AP.\n4. To encrypt the message containing the Group Key.\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "Only 2",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "The Key Confirmation Key (KCK), derived from the PTK, is used to compute Message Integrity Checks (MICs) on certain messages within the 4-way handshake to confirm key derivation."
+            },
+            {
+                "q": "For which of the following tasks is the four-way handshake used?\n\n1. To authenticate the station to the AP.\n2. To authenticate the AP to the station.\n3. To agree on a Pairwise Master Key (PMK).\n4. To agree on a Pairwise Transient Key (PTK).\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 2, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "The 4-way handshake confirms mutual possession of the PMK (implicit authentication) and derives fresh session keys (PTK) for unicast traffic protection."
+            },
+            {
+                "q": "Which of the following are standards for authentication servers?\n\n1. Tangent\n2. RADIUS\n3. Chord\n4. Diameter\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "RADIUS and its successor Diameter are standard protocols used for centralized Authentication, Authorization, and Accounting (AAA) services in networks."
+            },
+            {
+                "q": "(MCQ) What is the length of the Pairwise Transient Key (PTK)?",
+                "options": {
+                    "a": "128 bits",
+                    "b": "256 bits",
+                    "c": "384 bits",
+                    "d": "512 bits"
+                },
+                "answer": "c",
+                "explanation": "For WPA2/WPA3 using CCMP (AES), the PTK comprises KCK (128b) + KEK (128b) + TK (128b), totaling 384 bits."
+            },
+            {
+                "q": "Which of the following are inputs to the pseudo-random function used to compute the Pairwise Transient Key (PTK)?\n\n1. PMK\n2. KCK\n3. KEK\n4. MAC address of the AP\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1, 2, and 3",
+                    "d": "1, 2, 3, and 4"
+                },
+                "answer": "a",
+                "explanation": "The PTK is derived using a PRF taking the Pairwise Master Key (PMK), nonces (ANonce, SNonce), and the MAC addresses of both the AP and the station as inputs."
+            },
+            {
+                "q": "Which of the following are extracted from the Pairwise Transient Key (PTK)?\n\n1. GTK\n2. TK\n3. KEK\n4. KCK\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "The computed PTK is split into the Temporal Key (TK) for data, Key Encryption Key (KEK) for group key transport, and Key Confirmation Key (KCK) for handshake integrity."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. TKIP uses RC4 for encryption\n2. TKIP uses AES for encryption\n3. CCMP uses RC4 for encryption\n4. CCMP uses AES for encryption\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "TKIP (an older protocol) uses RC4 for encryption, while the standard CCMP protocol (used in WPA2/WPA3) mandates AES for encryption."
+            },
+            {
+                "q": "(MCQ) Which of the following is used for message integrity in CCMP?",
+                "options": {
+                    "a": "HMAC",
+                    "b": "CBC-MAC",
+                    "c": "CRC",
+                    "d": "TURBO-MAC"
+                },
+                "answer": "b",
+                "explanation": "CCMP uses AES in CBC-MAC mode to provide strong cryptographic message integrity protection."
+            },
+            {
+                "q": "Which of the following management frames are not protected under 802.11w?\n\n1. Probe response frame\n2. Disassociate frame\n3. Association response frame\n4. Deauthenticate frame\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "802.11w protects certain management frames post-association (like Deauthenticate, Disassociate) but generally not frames required for initial discovery and association (like Probe/Association responses)."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "In GSM, which of the following is/ are included in the secret(s) stored on the SIM card?\n\n1. the IMSI.\n2. a long-term key shared with the MSC/ HLR.\n3. the key used for encrypting user messages.\n4. the key used for integrity-protecting all messages.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "A GSM SIM card securely stores the subscriber's permanent identifier (IMSI) and the secret authentication key (Ki) shared only with the network's Authentication Center."
+            },
+            {
+                "q": "In UMTS, using which of the following does the SIM authenticate itself to the MSC/ HLR?\n\n1. a user password.\n2. a digital certificate.\n3. a response to a challenge.\n4. an encrypted signalling message.\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "Only 3",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "UMTS authentication is challenge-response based; the network sends a random challenge (RAND), and the SIM computes a response (RES) using its secret key (Ki)."
+            },
+            {
+                "q": "In UMTS, the key used for message integrity protection is a function of which of the following?\n\n1. the IMSI.\n2. the TMSI.\n3. a random number generated by the MSC/ HLR.\n4. the long-term key shared between the SIM and the MSC/ HLR.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "The UMTS Integrity Key (IK) is derived during the authentication process using a function (f4) whose inputs are the long-term secret key (Ki) and the random challenge (RAND)."
+            },
+            {
+                "q": "Which of the following is/ are true of encryption/ integrity protection in UMTS?\n\n1. KASUMI is used in OFB mode for encryption.\n2. KASUMI is used in CFB mode for encryption.\n3. A keyed hash (SHA-1) is used for integrity protection.\n4. KASUMI is used in CBC mode for integrity protection.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "UMTS uses the KASUMI cipher in an OFB-like mode for encryption (f8 algorithm) and in a CBC-MAC mode for integrity protection (f9 algorithm)."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. In an LTE network, the key KASME is known to an eNodeB.\n2. In an LTE network, the key KASME is not known to an eNodeB.\n3. In an LTE network, the key KNASenc is known to an eNodeB.\n4. In an LTE network, the key KNASenc is not known to an eNodeB.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "In LTE, the high-level key K_ASME and NAS keys (K_NASenc, K_NASint) are known only to the UE and MME, not the eNodeB (base station)."
+            },
+            {
+                "q": "In GSM, using which of the following techniques is user identity confidentiality provided?\n\n1. encrypting the ID of the subscriber.\n2. use of the TMSI.\n3. using the public key of the subscriber.\n4. using the hash of the subscriber's ID.\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "Only 2",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "GSM protects subscriber identity privacy primarily by using a temporary identifier (TMSI) over the air interface instead of the permanent IMSI."
+            },
+            {
+                "q": "For which of the following purposes is the MAC computed in UMTS used?\n\n1. To authenticate the base station to the SIM card.\n2. To authenticate the SIM card to the base station.\n3. To authenticate the MSC/HLR to the SIM card.\n4. To authenticate the SIM card to the MSC/HLR.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "The MAC computed in UMTS (using the IK) provides message integrity and implicit mutual authentication between the core network (MSC/HLR via AUTN) and the SIM card (via RES/uplink data)."
+            },
+            {
+                "q": "Which of the following variables generated/ computed by the MSC during the authentication procedure in UMTS is conveyed to the SIM card?\n\n1. the random number generated by the MSC.\n2. the cipher (encryption) key.\n3. the integrity check key.\n4. the expected response, XRES.\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "1 and 4",
+                    "c": "2 and 3",
+                    "d": "1, 2, 3 and 4"
+                },
+                "answer": "a",
+                "explanation": "During UMTS AKA, the network (MSC/HLR/SGSN) sends the random challenge (RAND) and the authentication token (AUTN) to the SIM; keys and responses are computed, not sent directly in this step."
+            },
+            {
+                "q": "Which of the following are security features in 5G?\n\n1. Home Control\n2. KASUMI\n3. SEAF\n4. COMP-128\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "5G security architecture includes the Security Anchor Function (SEAF) and relies on Home Control principles for policy enforcement, especially in roaming scenarios."
+            },
+            {
+                "q": "When KeNB is changed, which of the following keys also need to be changed?\n\n1. KASME\n2. KuPenc\n3. KRRCInt\n4. KNASenc\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1, 2, and 3",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "Keys used directly between the UE and eNodeB for User Plane encryption (K_UPenc) and RRC integrity (K_RRCint) are derived from K_eNB and must be updated if K_eNB changes."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "Which of the following statements are true?\n\n1. A packet filter can be configured to defend against DDoS attacks.\n2. A packet filter cannot be configured to defend against DDoS attacks.\n3. A packet filter can be configured to defend against worm attacks.\n4. A packet filter cannot be configured to defend against worm attacks.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "Simple packet filters lack the state awareness and deep inspection capabilities to effectively defend against sophisticated DDoS attacks or payload-based worms."
+            },
+            {
+                "q": "Which of the following is/ are performed by a web proxy (HTTP gateway)?\n\n1. webpage caching.\n2. authentication.\n3. spam filtering.\n4. malware signature detection.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 2, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "Web proxies can cache content, authenticate users, and perform application-level content inspection including malware detection."
+            },
+            {
+                "q": "Which of the following is/ are task(s) performed by firewalls?\n\n1. access control.\n2. defense against DDoS attacks.\n3. IP address spoofing detection.\n4. detection of malware.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "1 and 2",
+                    "c": "1, 2, and 3",
+                    "d": "1, 2, 3, and 4"
+                },
+                "answer": "d",
+                "explanation": "Modern firewalls perform access control, often include DDoS mitigation, can implement anti-spoofing rules, and next-generation firewalls incorporate malware detection."
+            },
+            {
+                "q": "Which of the following are types of firewalls?\n\n1. Malware blockers\n2. Application gateways\n3. Traditional packet filters\n4. Stateful packet filters\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Major firewall categories include traditional (stateless) packet filters, stateful packet filters (inspecting connection state), and application gateways (proxies operating at L7)."
+            },
+            {
+                "q": "Which of the following are ICMP packets?\n\n1. Ping packet\n2. SYNACK packet\n3. Redirect packet\n4. FIN packet\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "Ping uses ICMP Echo Request/Reply, and Redirect is an ICMP message type used by routers; SYNACK and FIN are TCP flags."
+            },
+            {
+                "q": "Which of the following statements are true for the traceroute program?\n\n1. It can be used to find a shortest path from one node to another.\n2. It sends a series of TCP packets.\n3. It is implemented using ICMP messages.\n4. It can be used to map the internal configuration of an organization's network.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Traceroute uses ICMP messages (Time Exceeded) generated by routers in response to probes with increasing TTLs to map the path packets take across a network."
+            },
+            {
+                "q": "Which of the following can be used to defend against SYN flood attacks?\n\n1. Biscuits\n2. Cookies\n3. Firewalls\n4. Intrusion Detection Systems\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "SYN Cookies are a direct defense, while Firewalls and Intrusion Detection Systems often incorporate features to detect and mitigate SYN flood attacks."
+            },
+            {
+                "q": "(MCQ) Which port does DNS use?",
+                "options": {
+                    "a": "51",
+                    "b": "52",
+                    "c": "53",
+                    "d": "54"
+                },
+                "answer": "c",
+                "explanation": "The Domain Name System (DNS) primarily uses UDP port 53 for queries and responses, and TCP port 53 for zone transfers or large messages."
+            },
+            {
+                "q": "On which of the following are the filtering decisions of a traditional packet filter typically based?\n\n1. IP destination address\n2. User name\n3. ICMP message type\n4. TCP flag bits\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Traditional (stateless) packet filters make decisions based on information in IP headers (addresses, protocol) and Transport headers (ports, TCP flags, ICMP types)."
+            },
+            {
+                "q": "For which of the following can organizations have application gateways?\n\n1. FTP\n2. ICMP\n3. IP\n4. HTTP\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "Application gateways (proxies) operate at Layer 7 and are specific to application protocols like FTP, HTTP, SMTP, etc."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "Which of the following is/ are preventive measure(s) against a DDoS attack?\n\n1. packet logging.\n2. distributed route filtering.\n3. use of TLS.\n4. egress filtering.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "2 and 4",
+                    "c": "1 and 3",
+                    "d": "3 and 4"
+                },
+                "answer": "b",
+                "explanation": "Filtering spoofed source addresses near the source (distributed ingress filtering) or preventing spoofed packets from leaving a network (egress filtering) are key preventive measures against DDoS."
+            },
+            {
+                "q": "Which of the following make(s) filtering decisions based on application payload?\n\n1. packet filter.\n2. stateful packet inspection firewall.\n3. anomaly-based IDS.\n4. signature-based IDS.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "Intrusion Detection Systems (both anomaly-based and signature-based) perform deep packet inspection to analyze application payload content for malicious patterns or deviations."
+            },
+            {
+                "q": "(MCQ) The probability of false positives in Algorithm 3, which we studied for SYN flood detection, can be reduced by which of the following?",
+                "options": {
+                    "a": "increasing the length of each observation interval.",
+                    "b": "decreasing the length of each observation interval.",
+                    "c": "increasing the threshold.",
+                    "d": "decreasing the threshold."
+                },
+                "answer": "c",
+                "explanation": "Increasing the detection threshold makes the system less sensitive, requiring stronger evidence before flagging an attack, thus reducing false positives (alarms on normal traffic)."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. A network-based IDS would be preferable to a host-based IDS for detecting network scanning.\n2. A host-based IDS would be preferable to a network-based IDS for detecting network scanning.\n3. A network-based IDS would be preferable to a host-based IDS for detecting attempts to break into a server.\n4. A host-based IDS would be preferable to a network-based IDS for detecting attempts to break into a server.\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "a",
+                "explanation": "Network-based IDS (NIDS) see broad network traffic suitable for detecting scanning, while Host-based IDS (HIDS) monitor specific host activities ideal for detecting break-in attempts on that host."
+            },
+            {
+                "q": "Which of the following are examples of network scanning?\n\n1. Port scanning\n2. SYN flood attack\n3. Operating System detection\n4. Host discovery\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Network scanning involves techniques to discover active hosts, open ports, running services, and operating systems on a target network."
+            },
+            {
+                "q": "Which of the following statements are true for a Demilitarized Zone (DMZ)?\n\n1. A DMZ is a high-security region in an organization's network\n2. A DMZ is a low-security region in an organization's network\n3. Machines in a DMZ can communicate with external users\n4. Machines in a DMZ cannot communicate with external users\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "A DMZ is a perimeter network segment, less secure than the internal network but more secure than the internet, designed to host public-facing services that need external access."
+            },
+            {
+                "q": "Which of the following can be the number of relays through which Tor routes traffic between a given source and a given destination?\n\n1. One\n2. Two\n3. Three\n4. Four\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 3",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Standard Tor circuits use three relays (Guard, Middle, Exit) for anonymity, although circuits with four or more relays can sometimes be used."
+            },
+            {
+                "q": "Suppose traffic is exchanged between a source, Alice, and a destination, Bob, using Tor. Which of the following nodes know(s) the IP address of the source Alice?\n\n1. Guard relay\n2. Middle relay\n3. Exit relay\n4. Bob\n\nSelect the correct option:",
+                "options": {
+                    "a": "Only 1",
+                    "b": "1 and 2",
+                    "c": "1 and 3",
+                    "d": "Only 4"
+                },
+                "answer": "a",
+                "explanation": "In the Tor network, only the first relay (Guard relay) directly learns the original source IP address of the client."
+            },
+            {
+                "q": "Which of the following is/ are type(s) of Intrusion Detection System (IDS)?\n\n1. Signature-based system\n2. Application gateway\n3. Anomaly-based system\n4. Packet filter\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "The two main types of Intrusion Detection Systems are Signature-based (detecting known patterns) and Anomaly-based (detecting deviations from normal behavior)."
+            },
+            {
+                "q": "Which of the following statements are true?\n\n1. A host-based IDS is typically a standalone appliance\n2. A host-based IDS typically runs as an application on a host\n3. A network-based IDS is typically a standalone appliance\n4. A network-based IDS typically runs as an application on a host\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Host-based IDS (HIDS) runs as software on the monitored host, while Network-based IDS (NIDS) is often deployed as a dedicated appliance monitoring a network segment."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "(MCQ) Suppose the value of the nBits field in Bitcoin block headers at a given time is 0x181BC330. What is the average number of trials required until a miner succeeds in mining a valid block?",
+                "options": {
+                    "a": "1.7 x 10^18",
+                    "b": "1.7 x 10^19",
+                    "c": "1.7 x 10^20",
+                    "d": "1.7 x 10^21"
+                },
+                "answer": "c",
+                "explanation": "The average number of hashes needed is 2^256 / Target, where Target is derived from nBits; calculation yields approximately 1.7 x 10^20 trials."
+            },
+            {
+                "q": "(MCQ) What is the maximum size of a block in the Bitcoin blockchain?",
+                "options": {
+                    "a": "2 MB",
+                    "b": "4 MB",
+                    "c": "8 MB",
+                    "d": "16 MB"
+                },
+                "answer": "b",
+                "explanation": "While the original limit was 1MB, the SegWit upgrade introduced block weight with a maximum of 4 Million Weight Units, allowing a theoretical maximum size approaching 4MB."
+            },
+            {
+                "q": "Which of the following are received by a node that adds a new block to the Bitcoin blockchain?\n\n1. Block subsidy\n2. Payment equal to expected electricity cost\n3. Payment equal to expected cooling cost\n4. Transaction fees\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1, 2, and 3",
+                    "d": "1, 2, 3, and 4"
+                },
+                "answer": "a",
+                "explanation": "A successful Bitcoin miner receives the block subsidy (newly created coins) and the sum of all transaction fees included in that block."
+            },
+            {
+                "q": "(MCQ) What is the smallest indivisible unit of the Bitcoin currency?",
+                "options": {
+                    "a": "bitcoin",
+                    "b": "satoshi",
+                    "c": "micro-bitcoin",
+                    "d": "merkle"
+                },
+                "answer": "b",
+                "explanation": "The smallest unit of Bitcoin is a satoshi, representing one hundred millionth of a bitcoin (0.00000001 BTC)."
+            },
+            {
+                "q": "Which of the following are fields in the block header of a block in the Bitcoin blockchain?\n\n1. nTime\n2. hashPrevBlock\n3. nNonce\n4. nSubsidy\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 2, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "a",
+                "explanation": "The Bitcoin block header includes the timestamp (nTime), previous block hash (hashPrevBlock), nonce found by miner (nNonce), Merkle root, version, and difficulty target (nBits)."
+            },
+            {
+                "q": "Which of the following statements are true for the hashMerkleRoot field?\n\n1. It is a 16-byte value\n2. It is used for tamper resistance\n3. It enables efficient membership proofs of transactions within a block\n4. It is a 32-byte value\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "The hashMerkleRoot is a 32-byte (256-bit) hash summarizing all transactions, ensuring tamper resistance and enabling efficient SPV proofs."
+            },
+            {
+                "q": "Which of the following are types of nodes in the Bitcoin network?\n\n1. Full nodes\n2. Child nodes\n3. SPV nodes\n4. Parent nodes\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "The Bitcoin network primarily consists of Full nodes (validating all transactions/blocks) and SPV nodes (Simplified Payment Verification, relying on headers)."
+            },
+            {
+                "q": "Which of the following statements are true about blocks in the Bitcoin blockchain?\n\n1. A block can contain multiple coinbase transactions\n2. A block must contain a single coinbase transaction\n3. A block can contain multiple regular transactions\n4. A block must contain a single regular transaction\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 3",
+                    "c": "1 and 4",
+                    "d": "2 and 4"
+                },
+                "answer": "b",
+                "explanation": "Every Bitcoin block must contain exactly one coinbase transaction (miner reward) and can contain zero or more regular transactions."
+            },
+            {
+                "q": "Which of the following are specified by an input of a regular transaction?\n\n1. Amount of bitcoins\n2. A challenge script\n3. A response script\n4. The transaction identifier of a previous transaction\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "A Bitcoin transaction input references a previous transaction's output (by txid and index) and provides a response script (scriptSig or witness) to unlock it."
+            },
+            {
+                "q": "Which of the following actions can a 51 % attacker perform?\n\n1. Launch double spending attacks\n2. Raise the price of bitcoins\n3. Delete transactions from old blocks\n4. Decide which transactions get recorded on the blockchain\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "An attacker with >50% hash power can rewrite recent blockchain history (enabling double spending), censor transactions, and potentially delete recent (but not deeply confirmed old) transactions by creating an alternate longer chain."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "Which of the following are cloud service models?\n\n1. SaaS\n2. IaaS\n3. CaaS\n4. PaaS\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 2, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "2, 3, and 4"
+                },
+                "answer": "b",
+                "explanation": "The three fundamental cloud service models are Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS)."
+            },
+            {
+                "q": "Which of the following statements are true for a private cloud?\n\n1. It is not possible to connect to a private cloud from outside the premises of the enterprise it serves\n2. It is possible to connect to a private cloud from outside the premises of the enterprise it serves\n3. A private cloud may be situated within the premises of the enterprise it serves\n4. A private cloud may be situated outside the premises of the enterprise it serves\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "A private cloud serves a single organization, can be hosted on-premise or off-premise, and typically allows secure remote access (e.g., via VPN)."
+            },
+            {
+                "q": "Which of the following are actors in the cloud computing reference architecture?\n\n1. Cloud Auditor\n2. Cloud Hardware Manufacturer\n3. Cloud Broker\n4. Cloud Carrier\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Key roles defined in cloud architectures include the Cloud Consumer, Provider, Auditor (assessment), Broker (intermediary), and Carrier (connectivity)."
+            },
+            {
+                "q": "Which of the following statements are true for the Fully Homomorphic Encryption Scheme that we discussed in the lecture videos?\n\n1. The scheme divides the plaintext into blocks of k bits each, where k > 1, and encrypts each block independently\n2. The private key is a large even integer\n3. The private key is a large odd integer\n4. The scheme encrypts each bit of the plaintext separately\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 2",
+                    "b": "3 and 4",
+                    "c": "1 and 4",
+                    "d": "2 and 3"
+                },
+                "answer": "b",
+                "explanation": "Many Fully Homomorphic Encryption (FHE) schemes operate by encrypting individual bits, and their security often relies on problems where the private key is a large odd integer."
+            },
+            {
+                "q": "Which of the following are short-range wireless access technologies?\n\n1. IEEE 802.15.4\n2. SigFox\n3. LTE-Advanced\n4. Wi-Fi\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 4",
+                    "b": "2 and 3",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "IEEE 802.15.4 (used by Zigbee, Thread) and Wi-Fi (IEEE 802.11) are designed for communication over shorter distances compared to LPWAN (SigFox) or cellular (LTE)."
+            },
+            {
+                "q": "Which of the following are examples of fog nodes?\n\n1. Data center\n2. Industrial controller\n3. Router\n4. IoT gateway\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "2, 3, and 4",
+                    "c": "1, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Fog computing involves intermediate nodes like controllers, intelligent routers, and IoT gateways placed between the edge devices and the central cloud data center."
+            },
+            {
+                "q": "(MCQ) Which of the following is a lightweight block cipher?",
+                "options": {
+                    "a": "SEA",
+                    "b": "AES",
+                    "c": "PHOTON",
+                    "d": "HMAC"
+                },
+                "answer": "a",
+                "explanation": "Lightweight block ciphers like SEA, PRESENT, SPECK, SIMON, and PHOTON are designed for resource-constrained environments like IoT devices. (Note: PHOTON is also lightweight, often considered a hash function, but SEA is explicitly a block cipher listed)."
+            },
+            {
+                "q": "(MCQ) Which one of the following statements is true?",
+                "options": {
+                    "a": "Short keys in cryptographic algorithms result in low cost and low performance",
+                    "b": "Short keys in cryptographic algorithms result in low cost and high performance",
+                    "c": "Short keys in cryptographic algorithms result in high cost and low performance",
+                    "d": "Short keys in cryptographic algorithms result in high cost and high performance"
+                },
+                "answer": "b",
+                "explanation": "Shorter keys generally require less computation (lower cost, higher speed performance) but provide lower security (lower security performance)."
+            },
+            {
+                "q": "Which of the following tasks can Shor's algorithm perform?\n\n1. It can efficiently factor products of large prime numbers\n2. It can efficiently perform brute-force search\n3. It can efficiently calculate discrete logarithms\n4. It can efficiently break several currently used symmetric key ciphers\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1 and 3",
+                    "b": "2 and 4",
+                    "c": "1 and 2",
+                    "d": "3 and 4"
+                },
+                "answer": "a",
+                "explanation": "Shor's quantum algorithm provides efficient solutions for integer factorization and discrete logarithm problems, breaking RSA, Diffie-Hellman, and ECC."
+            },
+            {
+                "q": "Which of the following are families of post-quantum cryptographic algorithms?\n\n1. Multivariate cryptography\n2. Univariate cryptography\n3. Lattice-based cryptography\n4. Code-based cryptography\n\nSelect the correct combination:",
+                "options": {
+                    "a": "1, 2, and 3",
+                    "b": "1, 3, and 4",
+                    "c": "2, 3, and 4",
+                    "d": "1, 2, and 4"
+                },
+                "answer": "b",
+                "explanation": "Major families of post-quantum cryptography include lattice-based, code-based, hash-based, and multivariate polynomial-based algorithms."
+            }
+        ]
     }
 }
