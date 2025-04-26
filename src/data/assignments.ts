@@ -9681,7 +9681,7 @@ export const assignment: Assignment = {
                     "c": "Preparatory felling ->Secondary felling -> Seeding felling -> Final felling",
                     "d": "Preparatory felling -> Seeding felling -> Secondary felling -> Final felling"
                 },
-                "answer": "b",
+                "answer": "d",
                 "explanation": "The correct sequence of the shelterwood system involves preparatory, seeding, secondary and final fellings."
             },
             {
