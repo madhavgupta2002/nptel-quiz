@@ -54,6 +54,20 @@ const SUBJECTS = [
     image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   },
+  {
+    id: 'Education for Sustainable Development',
+    title: 'Education for Sustainable Development',
+    description: 'Learn about sustainability principles, environmental education, and strategies for promoting sustainable development',
+    image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Conservation Economics',
+    title: 'Conservation Economics',
+    description: 'Study of economic principles applied to natural resource conservation, ecosystem valuation, and sustainable management',
+    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
 
 ];
 
