@@ -12899,10 +12899,1354 @@ export const assignment: Assignment = {
                 "explanation": "While multiple UN agencies work on SDGs, UNESCO (United Nations Educational, Scientific and Cultural Organization) has a specific mandate for education (SDG 4) and plays a key role in promoting Education for Sustainable Development, which underpins all SDGs. UNDP also plays a major coordinating role."
             }
         ]
+    },
+    "Conservation Economics": {
+        "Assignment 1": [
+            {
+                "q": "In the word root for conservation, con stands for",
+                "options": {
+                    "a": "together",
+                    "b": "to keep",
+                    "c": "house",
+                    "d": "manage"
+                },
+                "answer": "a",
+                "explanation": "The prefix 'con-' in Latin commonly means 'with' or 'together'."
+            },
+            {
+                "q": "\"the ability of a single economic actor (or small group of actors) to have a substantial influence on market prices\" is known as",
+                "options": {
+                    "a": "price power",
+                    "b": "market power",
+                    "c": "externality",
+                    "d": "economic power"
+                },
+                "answer": "b",
+                "explanation": "Market power specifically refers to the ability to influence market prices."
+            },
+            {
+                "q": "\"an economy that allocates resources through the decentralised decisions of many firms and households as they interact in markets for goods and services\" is a / an",
+                "options": {
+                    "a": "urban economy",
+                    "b": "rural economy",
+                    "c": "planned economy",
+                    "d": "market economy"
+                },
+                "answer": "d",
+                "explanation": "This is the standard definition of a market economy, contrasting with centrally planned economies."
+            },
+            {
+                "q": "In the word root for conservation, servare stands for",
+                "options": {
+                    "a": "together",
+                    "b": "to keep",
+                    "c": "house",
+                    "d": "manage"
+                },
+                "answer": "b",
+                "explanation": "The Latin verb 'servare' means 'to keep', 'to preserve', or 'to protect'."
+            },
+            {
+                "q": "Which of these is true?",
+                "options": {
+                    "a": "Wants are unlimited, resources are unlimited",
+                    "b": "Wants are limited, resources are limited",
+                    "c": "Wants are unlimited, resources are limited",
+                    "d": "Wants are limited, resources are unlimited"
+                },
+                "answer": "c",
+                "explanation": "The fundamental economic problem of scarcity arises because human wants are virtually unlimited while resources are finite."
+            },
+            {
+                "q": "\"an increase in the overall level of prices in the economy\" is",
+                "options": {
+                    "a": "inflation",
+                    "b": "deflation",
+                    "c": "stagflation",
+                    "d": "priceflation"
+                },
+                "answer": "a",
+                "explanation": "Inflation is defined as a sustained increase in the general price level of goods and services."
+            },
+            {
+                "q": "Phillips curve shows the relation between",
+                "options": {
+                    "a": "profit and loss",
+                    "b": "marked price and selling price",
+                    "c": "inflation rate and unemployment rate",
+                    "d": "electricity consumption and heat output"
+                },
+                "answer": "c",
+                "explanation": "The Phillips curve illustrates a historical inverse relationship between rates of unemployment and corresponding rates of inflation."
+            },
+            {
+                "q": "In the word root for Economics, oikos stands for",
+                "options": {
+                    "a": "together",
+                    "b": "to keep",
+                    "c": "house",
+                    "d": "manage"
+                },
+                "answer": "c",
+                "explanation": "The Greek word 'oikos' means 'house' or 'household', forming the root of economics ('oikonomia' - household management)."
+            },
+            {
+                "q": "Most of rational thinking occurs",
+                "options": {
+                    "a": "before the margin",
+                    "b": "at the margin",
+                    "c": "after the margin",
+                    "d": "none of these"
+                },
+                "answer": "b",
+                "explanation": "Rational economic decisions involve evaluating the costs and benefits of incremental changes, which is thinking 'at the margin'."
+            },
+            {
+                "q": "Input costs that do not require an outlay of money are",
+                "options": {
+                    "a": "explicit costs",
+                    "b": "implicit costs",
+                    "c": "opportunity costs",
+                    "d": "phantom costs"
+                },
+                "answer": "b",
+                "explanation": "Implicit costs represent the opportunity cost of using resources already owned by the firm, rather than a direct cash payment."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Which of these is a pillar of sustainability",
+                "options": {
+                    "a": "social sustainability",
+                    "b": "industrial sustainability",
+                    "c": "agricultural sustainability",
+                    "d": "trans-boundary sustainability"
+                },
+                "answer": "a",
+                "explanation": "The three widely recognized pillars of sustainability are environmental, economic, and social sustainability."
+            },
+            {
+                "q": "According to Malthusian model,",
+                "options": {
+                    "a": "Population grows in geometric progression, food supply increases in arithmetic progression",
+                    "b": "Population grows in geometric progression, food supply increases in geometric progression",
+                    "c": "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+                    "d": "Population grows in arithmetic progression, food supply increases in geometric progression"
+                },
+                "answer": "a",
+                "explanation": "Malthus theorized that unchecked population increases exponentially (geometrically) while food production increases linearly (arithmetically)."
+            },
+            {
+                "q": "Which of these is a preventive check according to Malthus?",
+                "options": {
+                    "a": "foresight",
+                    "b": "vice",
+                    "c": "misery",
+                    "d": "flood"
+                },
+                "answer": "a",
+                "explanation": "Preventive checks in Malthusian theory are voluntary actions to limit population growth, such as foresight leading to delayed marriage or abstinence."
+            },
+            {
+                "q": "Which of these is a positive check according to Malthus?",
+                "options": {
+                    "a": "late marriage",
+                    "b": "war",
+                    "c": "celibacy",
+                    "d": "moral restraint"
+                },
+                "answer": "b",
+                "explanation": "Positive checks in Malthusian theory increase the death rate, such as famine, disease, and war."
+            },
+            {
+                "q": "The Trinity explosion of 1945 is taken as the beginning of the",
+                "options": {
+                    "a": "Holocene",
+                    "b": "Cenocene",
+                    "c": "Anthropocene",
+                    "d": "Eocene"
+                },
+                "answer": "c",
+                "explanation": "The start of the nuclear age, marked by the Trinity test, is often proposed as a marker for the beginning of the Anthropocene, signifying profound human impact."
+            },
+            {
+                "q": "The book \"An Essay on the Principle of Population\" was written by",
+                "options": {
+                    "a": "Darwin",
+                    "b": "Malthus",
+                    "c": "Spencer",
+                    "d": "Owens"
+                },
+                "answer": "b",
+                "explanation": "Thomas Robert Malthus wrote this influential essay on population dynamics in 1798."
+            },
+            {
+                "q": "The demographic transition sees a society move from",
+                "options": {
+                    "a": "high birth rate, low death rate to low birth rate, high death rate",
+                    "b": "low birth rate, high death rate to low birth rate, low death rate",
+                    "c": "high birth rate, high death rate to low birth rate, low death rate",
+                    "d": "high birth rate, high death rate to low birth rate, high death rate"
+                },
+                "answer": "c",
+                "explanation": "The demographic transition model describes a shift from high birth and high death rates (common in pre-industrial societies) to low birth and low death rates (typical of developed societies)."
+            },
+            {
+                "q": "The quantum of human impacts can be written as",
+                "options": {
+                    "a": "I = P + A + T",
+                    "b": "I = P x A + T",
+                    "c": "I = P x A x T",
+                    "d": "I = P + A x T"
+                },
+                "answer": "c",
+                "explanation": "The I=PAT equation models environmental impact (I) as the product of Population (P), Affluence (A, per capita consumption), and Technology (T, impact per unit of consumption)."
+            },
+            {
+                "q": "The logistic growth equation curve is",
+                "options": {
+                    "a": "I-shaped",
+                    "b": "J-shaped",
+                    "c": "S-shaped",
+                    "d": "U-shaped"
+                },
+                "answer": "c",
+                "explanation": "Logistic growth, which accounts for limiting factors and carrying capacity, results in an S-shaped population curve."
+            },
+            {
+                "q": "Which of these is not a pillar of sustainability?",
+                "options": {
+                    "a": "environmental sustainability",
+                    "b": "economic sustainability",
+                    "c": "trans-boundary sustainability",
+                    "d": "social sustainability"
+                },
+                "answer": "c",
+                "explanation": "While trans-boundary issues are important in sustainability, the core pillars are generally defined as environmental, economic, and social."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "____ is used to identify which potential impacts are relevant to assess. (Fill in the blank)",
+                "options": {
+                    "a": "screening",
+                    "b": "scoping",
+                    "c": "reporting",
+                    "d": "review"
+                },
+                "answer": "b",
+                "explanation": "Scoping is the process in Environmental Impact Assessment (EIA) that determines the key issues and impacts to be studied in detail."
+            },
+            {
+                "q": "\"the potential or capacity of a material to have adverse effects on living organisms\" is",
+                "options": {
+                    "a": "vulnerability",
+                    "b": "susceptibility",
+                    "c": "sustainability",
+                    "d": "toxicity"
+                },
+                "answer": "d",
+                "explanation": "Toxicity specifically refers to the degree to which a substance can damage an organism."
+            },
+            {
+                "q": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with soil and species of deciduous forest planted again. This is an example of",
+                "options": {
+                    "a": "recovery",
+                    "b": "restoration",
+                    "c": "enhancement",
+                    "d": "replacement"
+                },
+                "answer": "b",
+                "explanation": "Ecological restoration aims to assist the recovery of an ecosystem that has been degraded, damaged, or destroyed, often by reintroducing native species."
+            },
+            {
+                "q": "Hydrocarbons derived from incomplete burning of mineral oils are",
+                "options": {
+                    "a": "petrogenic hydrocarbons",
+                    "b": "pyrogenic hydrocarbons",
+                    "c": "biogenic hydrocarbons",
+                    "d": "chemoenic hydrocarbons"
+                },
+                "answer": "b",
+                "explanation": "Pyrogenic hydrocarbons (pyro=fire) are formed through the high-temperature partial combustion of organic matter, including fossil fuels."
+            },
+            {
+                "q": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
+                "options": {
+                    "a": "recovery",
+                    "b": "restoration",
+                    "c": "enhancement",
+                    "d": "replacement"
+                },
+                "answer": "d",
+                "explanation": "Replacement involves changing the ecosystem type entirely, such as converting a former forest/mine site into a lake habitat."
+            },
+            {
+                "q": "\"the relative effect of exposure\" is",
+                "options": {
+                    "a": "vulnerability",
+                    "b": "sensitivity",
+                    "c": "sustainability",
+                    "d": "toxicity"
+                },
+                "answer": "b",
+                "explanation": "Sensitivity describes the degree to which a system is affected, either adversely or beneficially, by exposure to a stressor like climate variability or a chemical."
+            },
+            {
+                "q": "____ determines which projects or developments require a full or partial impact assessment study. (Fill in the blank)",
+                "options": {
+                    "a": "screening",
+                    "b": "scoping",
+                    "c": "reporting",
+                    "d": "review"
+                },
+                "answer": "a",
+                "explanation": "Screening is the initial stage of EIA that determines if an EIA is needed based on the project's potential significance."
+            },
+            {
+                "q": "\"the extent to which a chemical is available for uptake into an organism\" is",
+                "options": {
+                    "a": "bioavailability",
+                    "b": "bioaccumulation",
+                    "c": "biomagnification",
+                    "d": "bioresponse"
+                },
+                "answer": "a",
+                "explanation": "Bioavailability refers to the fraction of an administered dose or environmental contaminant that reaches the systemic circulation or target site in an organism."
+            },
+            {
+                "q": "Hydrocarbons derived from biological processes acting on mineral oils are",
+                "options": {
+                    "a": "petrogenic hydrocarbons",
+                    "b": "pyrogenic hydrocarbons",
+                    "c": "biogenic hydrocarbons",
+                    "d": "chemoenic hydrocarbons"
+                },
+                "answer": "c",
+                "explanation": "Biogenic hydrocarbons (bio=life) are produced by living organisms, including microbial degradation or transformation of petroleum components."
+            },
+            {
+                "q": "\"Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead\" is a definition for",
+                "options": {
+                    "a": "adaptation",
+                    "b": "mitigation",
+                    "c": "maladaptation",
+                    "d": "malmitigation"
+                },
+                "answer": "c",
+                "explanation": "Maladaptation describes actions taken ostensibly to adapt to climate change that end up increasing vulnerability rather than decreasing it."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Which of these is a deterministic factor?",
+                "options": {
+                    "a": "environmental variation",
+                    "b": "forest fire",
+                    "c": "death rate",
+                    "d": "diseases"
+                },
+                "answer": "c",
+                "explanation": "In population models, birth and death rates are often treated as deterministic parameters, whereas environmental factors, fires, and diseases are usually stochastic."
+            },
+            {
+                "q": "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
+                "options": {
+                    "a": "autophagy",
+                    "b": "allelophagy",
+                    "c": "autopathy",
+                    "d": "allelopathy"
+                },
+                "answer": "d",
+                "explanation": "Allelopathy is the chemical inhibition of one plant species by another, common with trees like teak affecting understory growth."
+            },
+            {
+                "q": "The movement of lions across the Gir landscape is an example of",
+                "options": {
+                    "a": "diffusion",
+                    "b": "secular dispersal",
+                    "c": "jump dispersal",
+                    "d": "drifting"
+                },
+                "answer": "a",
+                "explanation": "Diffusion describes the gradual spread of individuals within a population across a suitable habitat or landscape."
+            },
+            {
+                "q": "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
+                "options": {
+                    "a": "Liebig's law of the minimum",
+                    "b": "Liebig's law of the maximum",
+                    "c": "Shelford's law of tolerance",
+                    "d": "Shelford's law of intolerance"
+                },
+                "answer": "c",
+                "explanation": "Shelford's law of tolerance expands on Liebig's law, stating that organisms have tolerance ranges for various factors, and distribution is limited by the factor with the narrowest range."
+            },
+            {
+                "q": "The regular, seasonal movement of animals, often along fixed routes is called",
+                "options": {
+                    "a": "translocation",
+                    "b": "migration",
+                    "c": "dispersal",
+                    "d": "drifting"
+                },
+                "answer": "b",
+                "explanation": "Migration specifically refers to the regular, predictable, often seasonal movement of animals between different habitats."
+            },
+            {
+                "q": "Which of these is a stochastic factor?",
+                "options": {
+                    "a": "birth rate",
+                    "b": "death rate",
+                    "c": "population structure",
+                    "d": "environmental fluctuation"
+                },
+                "answer": "d",
+                "explanation": "Stochastic factors involve randomness or unpredictability, such as weather patterns or environmental fluctuations, unlike average rates or structure."
+            },
+            {
+                "q": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+                "options": {
+                    "a": "translocation",
+                    "b": "migration",
+                    "c": "dispersal",
+                    "d": "drifting"
+                },
+                "answer": "c",
+                "explanation": "Dispersal is the one-way movement of individuals away from their natal area to establish elsewhere, distinct from cyclical migration."
+            },
+            {
+                "q": "Scarcity of food is a",
+                "options": {
+                    "a": "chemical factor",
+                    "b": "demographic factor",
+                    "c": "push factor",
+                    "d": "pull factor"
+                },
+                "answer": "c",
+                "explanation": "A push factor is a negative condition in the current habitat (like food scarcity) that encourages individuals to leave."
+            },
+            {
+                "q": "Which of these correctly represents the process of habitat fragmentation and loss?",
+                "options": {
+                    "a": "Original forest → Dissection → Perforation → Fragmentation → Attrition",
+                    "b": "Original forest → Dissection → Attrition → Fragmentation → Perforation",
+                    "c": "Original forest → Dissection → Perforation → Attrition → Fragmentation",
+                    "d": "Original forest → Dissection → Fragmentation → Perforation → Attrition"
+                },
+                "answer": "a",
+                "explanation": "This sequence correctly orders the typical spatial patterns of habitat loss: initial linear cuts (dissection), small holes (perforation), breaking apart (fragmentation), and loss of entire patches (attrition)."
+            },
+            {
+                "q": "A root zone treatment plant is an example of",
+                "options": {
+                    "a": "phytoremediation",
+                    "b": "biological control",
+                    "c": "biomagnification",
+                    "d": "bioaccumulation"
+                },
+                "answer": "a",
+                "explanation": "Phytoremediation uses plants ('phyto') to clean up ('remediate') contaminated soil or water, as in root zone treatment systems."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "\"a measure of the responsiveness of quantity demanded or quantity supplied to a change in one of its determinants\" is",
+                "options": {
+                    "a": "elasticity",
+                    "b": "responsivity",
+                    "c": "demand-supply equilibrium",
+                    "d": "pricing"
+                },
+                "answer": "a",
+                "explanation": "Elasticity is the economic term for measuring the sensitivity or responsiveness of one variable (like quantity) to changes in another (like price or income)."
+            },
+            {
+                "q": "\"the ability to produce a good using fewer inputs than another producer\" is",
+                "options": {
+                    "a": "comparative advantage",
+                    "b": "absolute advantage",
+                    "c": "production advantage",
+                    "d": "resource advantage"
+                },
+                "answer": "b",
+                "explanation": "Absolute advantage refers to being able to produce something more efficiently (with fewer resources) than someone else."
+            },
+            {
+                "q": "Common resource goods are",
+                "options": {
+                    "a": "excludable, rival in consumption",
+                    "b": "non-excludable, rival in consumption",
+                    "c": "excludable, non-rival in consumption",
+                    "d": "non-excludable, non-rival in consumption"
+                },
+                "answer": "b",
+                "explanation": "Common resources (e.g., fisheries, common grazing land) are rival (use by one diminishes availability for others) but non-excludable (difficult to prevent access)."
+            },
+            {
+                "q": "If private parties can bargain without cost over the allocation of resources, they can solve the problem of externalities on their own.\" This is a statement for",
+                "options": {
+                    "a": "Allocation theorem",
+                    "b": "Phillips theorem",
+                    "c": "Coase theorem",
+                    "d": "Nash theorem4"
+                },
+                "answer": "c",
+                "explanation": "The Coase theorem states that efficient outcomes can be reached through private bargaining to address externalities, provided transaction costs are negligible."
+            },
+            {
+                "q": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs is known as",
+                "options": {
+                    "a": "Good development",
+                    "b": "Sustainable development",
+                    "c": "Futuristic development",
+                    "d": "Gandhian development"
+                },
+                "answer": "b",
+                "explanation": "This is the most widely recognized definition of sustainable development, originating from the Brundtland Report (1987)."
+            },
+            {
+                "q": "Club goods are",
+                "options": {
+                    "a": "excludable, rival in consumption",
+                    "b": "non-excludable, rival in consumption",
+                    "c": "excludable, non-rival in consumption",
+                    "d": "non-excludable, non-rival in consumption"
+                },
+                "answer": "c",
+                "explanation": "Club goods (e.g., satellite TV, private parks) are excludable (access can be restricted) but non-rival (one person's use doesn't prevent others' use)."
+            },
+            {
+                "q": "Which of these is not a method of internalisation of externalities?",
+                "options": {
+                    "a": "tradable pollution permits",
+                    "b": "charities to social causes",
+                    "c": "command-and-control policies",
+                    "d": "free market"
+                },
+                "answer": "d",
+                "explanation": "Internalizing externalities involves making agents account for the external costs/benefits; free markets often fail to do this without intervention (like permits, taxes, regulations, or Coasian bargaining/charity)."
+            },
+            {
+                "q": "Private goods are",
+                "options": {
+                    "a": "excludable, rival in consumption",
+                    "b": "non-excludable, rival in consumption",
+                    "c": "excludable, non-rival in consumption",
+                    "d": "non-excludable, non-rival in consumption"
+                },
+                "answer": "a",
+                "explanation": "Private goods (e.g., food, clothing) are both excludable (access can be restricted to payers) and rival (one person's consumption prevents another's)."
+            },
+            {
+                "q": "\"a simplified description, especially a mathematical one, of a system or process, to assist calculations and predictions\" is the definition of a / an",
+                "options": {
+                    "a": "equation",
+                    "b": "model",
+                    "c": "philosophy",
+                    "d": "process dynamics"
+                },
+                "answer": "b",
+                "explanation": "An economic model simplifies reality to help understand complex systems and relationships and make predictions."
+            },
+            {
+                "q": "\"the impact of one person's actions on the well-being of a bystander\" is",
+                "options": {
+                    "a": "actor-observer effect",
+                    "b": "externality",
+                    "c": "internality",
+                    "d": "benefits principle"
+                },
+                "answer": "b",
+                "explanation": "An externality occurs when a transaction or activity imposes uncompensated costs (negative) or benefits (positive) on a third party."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "\"the claim that, other things being equal, the quantity demanded of a good falls when the price of the good rises\" is a statement of",
+                "options": {
+                    "a": "law of demand",
+                    "b": "law of supply",
+                    "c": "law of quantity demanded",
+                    "d": "law of quantity supplied"
+                },
+                "answer": "a",
+                "explanation": "This defines the fundamental law of demand, describing the inverse relationship between price and quantity demanded."
+            },
+            {
+                "q": "\"a legal maximum on the price at which a good can be sold\" is",
+                "options": {
+                    "a": "price ceiling",
+                    "b": "price floor",
+                    "c": "selling ceiling",
+                    "d": "selling floor"
+                },
+                "answer": "a",
+                "explanation": "A price ceiling is a government-imposed limit on how high a price can be charged for a product."
+            },
+            {
+                "q": "\"a good for which, other things being equal, an increase in income leads to a decrease in demand\" is",
+                "options": {
+                    "a": "normal good",
+                    "b": "inferior good",
+                    "c": "Giffen good",
+                    "d": "common good"
+                },
+                "answer": "b",
+                "explanation": "An inferior good is one whose demand falls as consumer income rises (e.g., instant noodles might be replaced by restaurant meals)."
+            },
+            {
+                "q": "\"a table that shows the relationship between the price of a good and the quantity supplied\" is",
+                "options": {
+                    "a": "demand table",
+                    "b": "demand schedule",
+                    "c": "supply table",
+                    "d": "supply schedule"
+                },
+                "answer": "d",
+                "explanation": "A supply schedule lists the quantities sellers are willing and able to sell at various prices."
+            },
+            {
+                "q": "\"a graph of the relationship between the price of a good and the quantity demanded\" is",
+                "options": {
+                    "a": "demand curve",
+                    "b": "supply curve",
+                    "c": "Laffer's curve",
+                    "d": "Phillips curve"
+                },
+                "answer": "a",
+                "explanation": "The demand curve visually represents the relationship between price and quantity demanded shown in a demand schedule."
+            },
+            {
+                "q": "\"a table that shows the relationship between the price of a good and the quantity demanded\" is",
+                "options": {
+                    "a": "demand table",
+                    "b": "demand schedule",
+                    "c": "supply table",
+                    "d": "supply schedule"
+                },
+                "answer": "b",
+                "explanation": "A demand schedule lists the quantities buyers are willing and able to purchase at various prices."
+            },
+            {
+                "q": "\"a measure of how much the quantity demanded of one good responds to a change in the price of another good, computed as the percentage change in quantity demanded of the first good divided by the percentage change in price of the second good\" is",
+                "options": {
+                    "a": "price elasticity of demand",
+                    "b": "income elasticity of demand",
+                    "c": "cross-price elasticity of demand",
+                    "d": "price elasticity of supply"
+                },
+                "answer": "c",
+                "explanation": "This formula defines the cross-price elasticity of demand, indicating whether goods are substitutes (positive elasticity) or complements (negative elasticity)."
+            },
+            {
+                "q": "Rice and wheat are",
+                "options": {
+                    "a": "substitutes",
+                    "b": "complements",
+                    "c": "club goods",
+                    "d": "public goods"
+                },
+                "answer": "a",
+                "explanation": "Substitutes are goods that can be used in place of one another; consumers might switch between rice and wheat depending on price and preference."
+            },
+            {
+                "q": "\"a good for which, other things being equal, an increase in income leads to an increase in demand\" is",
+                "options": {
+                    "a": "normal good",
+                    "b": "inferior good",
+                    "c": "Giffen good",
+                    "d": "common good"
+                },
+                "answer": "a",
+                "explanation": "A normal good is one whose demand rises as consumer income increases (e.g., steak dinners, vacations)."
+            },
+            {
+                "q": "\"a measure of how much the quantity demanded of a good responds to a change in the price of that good, computed as the percentage change in quantity demanded divided by the percentage change in price” is",
+                "options": {
+                    "a": "price elasticity of demand",
+                    "b": "income elasticity of demand",
+                    "c": "cross-price elasticity of demand",
+                    "d": "price elasticity of supply"
+                },
+                "answer": "a",
+                "explanation": "This formula defines the (own-)price elasticity of demand, measuring the sensitivity of quantity demanded to changes in the good's own price."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "\"the price of a good that prevails in the world market for that good\" is the definition of",
+                "options": {
+                    "a": "export price",
+                    "b": "import price",
+                    "c": "world price",
+                    "d": "domestic price"
+                },
+                "answer": "c",
+                "explanation": "The world price represents the global equilibrium price for a tradable good."
+            },
+            {
+                "q": "The area between the demand curve and the price is an indicator of",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "a",
+                "explanation": "Graphically, consumer surplus is the area below the demand curve and above the market price, up to the quantity purchased."
+            },
+            {
+                "q": "\"the amount a buyer is willing to pay for a good minus the amount the buyer actually pays for it\" is",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "a",
+                "explanation": "This is the definition of consumer surplus, measuring the net benefit buyers receive from purchasing a good."
+            },
+            {
+                "q": "\"the amount a seller is paid for a good minus the seller's cost of providing it\" is",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "b",
+                "explanation": "This is the definition of producer surplus, measuring the net benefit sellers receive from selling a good."
+            },
+            {
+                "q": "Value to buyers - Cost to sellers is",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "c",
+                "explanation": "Total surplus in a market represents the sum of consumer and producer surplus, equivalent to the total value to buyers minus the total cost to sellers."
+            },
+            {
+                "q": "\"the fall in total surplus that results from a market distortion, such as a tax\" is",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "d",
+                "explanation": "Deadweight loss measures the inefficiency or loss of economic welfare caused by market interventions like taxes or price controls."
+            },
+            {
+                "q": "Laffer's curve is the relationship between",
+                "options": {
+                    "a": "inflation and unemployment",
+                    "b": "tax size and tax revenue",
+                    "c": "producer surplus and consumer surplus",
+                    "d": "tax size and deadweight loss"
+                },
+                "answer": "b",
+                "explanation": "The Laffer curve illustrates the theoretical relationship between tax rates and the resulting level of government tax revenue."
+            },
+            {
+                "q": "Imposition of tariff",
+                "options": {
+                    "a": "increases producer surplus and government revenue",
+                    "b": "increases consumer surplus and government revenue",
+                    "c": "increases producer surplus, consumer surplus and government revenue",
+                    "d": "increases total surplus"
+                },
+                "answer": "a",
+                "explanation": "A tariff raises the domestic price, benefiting domestic producers (higher surplus) and the government (tariff revenue), but harms consumers (lower surplus) and reduces overall total surplus."
+            },
+            {
+                "q": "\"the maximum amount that a buyer will pay for a good\" is",
+                "options": {
+                    "a": "willingness to pay",
+                    "b": "market demand",
+                    "c": "demand curve",
+                    "d": "buyer's surplus"
+                },
+                "answer": "a",
+                "explanation": "Willingness to pay reflects the maximum value a consumer places on a good or service."
+            },
+            {
+                "q": "The area between the supply curve and the price is an indicator of",
+                "options": {
+                    "a": "consumer surplus",
+                    "b": "producer surplus",
+                    "c": "total surplus",
+                    "d": "deadweight loss"
+                },
+                "answer": "b",
+                "explanation": "Graphically, producer surplus is the area above the supply curve and below the market price, up to the quantity sold."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "For a positive consumption externality,",
+                "options": {
+                    "a": "SMB = PMB",
+                    "b": "SMB = PMB - MD",
+                    "c": "SMB = PMB + MB",
+                    "d": "SMC = PMC / MD"
+                },
+                "answer": "c",
+                "explanation": "With a positive consumption externality, the social marginal benefit (SMB) exceeds the private marginal benefit (PMB) by the amount of the external marginal benefit (MB)."
+            },
+            {
+                "q": "For a positive production externality,",
+                "options": {
+                    "a": "SMB = PMB",
+                    "b": "SMB = PMB - MD",
+                    "c": "SMB = PMB + MB",
+                    "d": "SMC = PMC / MD"
+                },
+                "answer": "a",
+                "explanation": "A positive production externality affects costs (SMC < PMC), not benefits, so the relationship SMB = PMB still holds unless there's also a consumption externality."
+            },
+            {
+                "q": "\"The direct cost to producers of producing an additional unit of a good\" is",
+                "options": {
+                    "a": "private marginal cost (PMC)",
+                    "b": "social marginal cost (SMC)",
+                    "c": "private marginal benefit (PMB)",
+                    "d": "social marginal benefit (SMB)"
+                },
+                "answer": "a",
+                "explanation": "Private marginal cost represents the firm's direct internal cost of producing one more unit."
+            },
+            {
+                "q": "For a negative production externality,",
+                "options": {
+                    "a": "SMC = PMC + MD",
+                    "b": "SMC = PMC - MD",
+                    "c": "SMC = PMC",
+                    "d": "SMC = PMC - MB"
+                },
+                "answer": "a",
+                "explanation": "With a negative production externality, the social marginal cost (SMC) exceeds the private marginal cost (PMC) by the amount of the external marginal damage (MD)."
+            },
+            {
+                "q": "\"The private marginal cost to producers plus any costs associated with the production of the good that are imposed on others\" is",
+                "options": {
+                    "a": "private marginal cost (PMC)",
+                    "b": "social marginal cost (SMC)",
+                    "c": "private marginal benefit (PMB)",
+                    "d": "social marginal benefit (SMB)"
+                },
+                "answer": "b",
+                "explanation": "Social marginal cost includes both the private costs borne by the producer and the external costs imposed on society."
+            },
+            {
+                "q": "Partying with loud noise is an example of",
+                "options": {
+                    "a": "negative production externality",
+                    "b": "positive production externality",
+                    "c": "negative consumption externality",
+                    "d": "positive consumption externality"
+                },
+                "answer": "c",
+                "explanation": "The consumption activity (partying) imposes a negative externality (noise disturbance) on bystanders (neighbours)."
+            },
+            {
+                "q": "\"When an individual's consumption increases the well-being of others, but the individual is not compensated by those others,\" we have",
+                "options": {
+                    "a": "negative production externality",
+                    "b": "positive production externality",
+                    "c": "negative consumption externality",
+                    "d": "positive consumption externality"
+                },
+                "answer": "d",
+                "explanation": "This describes a positive consumption externality, where the act of consumption creates uncompensated benefits for third parties (e.g., getting vaccinated)."
+            },
+            {
+                "q": "\"When a firm's production increases the well-being of others but the firm is not compensated by those others,\" we have",
+                "options": {
+                    "a": "negative production externality",
+                    "b": "positive production externality",
+                    "c": "negative consumption externality",
+                    "d": "positive consumption externality"
+                },
+                "answer": "b",
+                "explanation": "This describes a positive production externality, where the act of production creates uncompensated benefits for third parties (e.g., beekeeping pollinating nearby orchards)."
+            },
+            {
+                "q": "\"When an individual's consumption reduces the well-being of others who are not compensated by the individual,\" we have",
+                "options": {
+                    "a": "negative production externality",
+                    "b": "positive production externality",
+                    "c": "negative consumption externality",
+                    "d": "positive consumption externality"
+                },
+                "answer": "c",
+                "explanation": "This describes a negative consumption externality, where consumption imposes uncompensated costs on third parties (e.g., smoking in public)."
+            },
+            {
+                "q": "For a negative consumption externality,",
+                "options": {
+                    "a": "SMB = PMB",
+                    "b": "SMB = PMB - MD",
+                    "c": "SMB = PMB + MB",
+                    "d": "SMC = PMC / MD"
+                },
+                "answer": "b",
+                "explanation": "With a negative consumption externality, the social marginal benefit (SMB) is less than the private marginal benefit (PMB) by the amount of the external marginal damage (MD)."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "\"costs that have already been committed and cannot be recovered\" are",
+                "options": {
+                    "a": "fixed costs",
+                    "b": "variable costs",
+                    "c": "marginal costs",
+                    "d": "sunk costs"
+                },
+                "answer": "d",
+                "explanation": "Sunk costs are past expenditures that are irrelevant to future decision-making because they cannot be changed or recovered."
+            },
+            {
+                "q": "\"total revenue minus total cost, including both explicit and implicit costs\" is a definition of",
+                "options": {
+                    "a": "economic profit",
+                    "b": "accounting profit",
+                    "c": "profit",
+                    "d": "loss"
+                },
+                "answer": "a",
+                "explanation": "Economic profit considers all opportunity costs (explicit and implicit), providing a measure of profit above the normal return."
+            },
+            {
+                "q": "\"the increase in total cost that arises from an extra unit of production\" are",
+                "options": {
+                    "a": "fixed costs",
+                    "b": "variable costs",
+                    "c": "marginal costs",
+                    "d": "sunk costs"
+                },
+                "answer": "c",
+                "explanation": "Marginal cost measures the cost of producing one additional unit of output."
+            },
+            {
+                "q": "A monopolist firm's profit is given by",
+                "options": {
+                    "a": "(Price - ATC) × Q",
+                    "b": "(Price - Q) × ATC",
+                    "c": "(ATC - Q) x Price",
+                    "d": "Price x Q - ATC"
+                },
+                "answer": "a",
+                "explanation": "Profit equals total revenue (Price × Q) minus total cost (ATC × Q), which simplifies to (Price - ATC) × Q."
+            },
+            {
+                "q": "Which of the following is true for a competitive firm?",
+                "options": {
+                    "a": "P > MR",
+                    "b": "P > MC",
+                    "c": "MR > MC",
+                    "d": "MR = MC"
+                },
+                "answer": "d",
+                "explanation": "All profit-maximizing firms produce where Marginal Revenue (MR) equals Marginal Cost (MC); for a competitive firm, Price (P) also equals MR."
+            },
+            {
+                "q": "\"the amount a firm receives for the sale of its output\" is a definition of",
+                "options": {
+                    "a": "total revenue",
+                    "b": "total cost",
+                    "c": "profit",
+                    "d": "loss"
+                },
+                "answer": "a",
+                "explanation": "Total revenue is calculated as the price per unit multiplied by the quantity of output sold (P × Q)."
+            },
+            {
+                "q": "When the cost of production for a single firm is much lesser than the cost of production for competitive firms, we have a / an",
+                "options": {
+                    "a": "natural monopoly",
+                    "b": "artificial monopoly",
+                    "c": "oligopoly",
+                    "d": "duopoly"
+                },
+                "answer": "a",
+                "explanation": "A natural monopoly occurs when significant economies of scale allow one firm to supply the entire market at a lower average cost than multiple firms could."
+            },
+            {
+                "q": "\"costs that do not vary with the quantity of output produced\" are",
+                "options": {
+                    "a": "fixed costs",
+                    "b": "variable costs",
+                    "c": "marginal costs",
+                    "d": "sunk costs"
+                },
+                "answer": "a",
+                "explanation": "Fixed costs (e.g., rent, salaries) remain constant regardless of the level of production in the short run."
+            },
+            {
+                "q": "\"costs that vary with the quantity of output produced\" are",
+                "options": {
+                    "a": "fixed costs",
+                    "b": "variable costs",
+                    "c": "marginal costs",
+                    "d": "sunk costs"
+                },
+                "answer": "b",
+                "explanation": "Variable costs (e.g., raw materials, hourly wages) change directly with the amount of output produced."
+            },
+            {
+                "q": "\"the increase in output that arises from an additional unit of input\" is",
+                "options": {
+                    "a": "marginal product",
+                    "b": "marginal profit",
+                    "c": "marginal loss",
+                    "d": "marginal cost"
+                },
+                "answer": "a",
+                "explanation": "Marginal product measures the additional output generated by employing one more unit of a variable input (like labor or capital)."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "\"an absolute level of income set by the government for each family size below which a family is deemed to be in poverty\" is known as",
+                "options": {
+                    "a": "deprivation line",
+                    "b": "poverty line",
+                    "c": "deprivation index",
+                    "d": "poverty index"
+                },
+                "answer": "b",
+                "explanation": "The poverty line is an official income threshold used to determine eligibility for certain benefits and measure poverty rates."
+            },
+            {
+                "q": "Absolute poverty depends",
+                "options": {
+                    "a": "on income but not on access to social services",
+                    "b": "not on income but on access to social services",
+                    "c": "on income and on access to social services",
+                    "d": "neither on income nor on access to social services"
+                },
+                "answer": "c",
+                "explanation": "Absolute poverty signifies a lack of resources to meet basic needs, encompassing both insufficient income and inadequate access to essential services like healthcare and education."
+            },
+            {
+                "q": "\"the equipment and structures used to produce goods and services\" is the definition of",
+                "options": {
+                    "a": "tools",
+                    "b": "machinery",
+                    "c": "capital",
+                    "d": "factors of production"
+                },
+                "answer": "c",
+                "explanation": "In economics, capital refers to the physical assets (buildings, machinery, tools) used in the production process."
+            },
+            {
+                "q": "\"above-equilibrium wages paid by firms to increase worker productivity\" are known as",
+                "options": {
+                    "a": "compensating wage",
+                    "b": "efficiency wage",
+                    "c": "productivity wage",
+                    "d": "retention wage"
+                },
+                "answer": "b",
+                "explanation": "Efficiency wage theory suggests firms may pay higher-than-market wages to boost productivity, reduce turnover, and attract better workers."
+            },
+            {
+                "q": "\"government policy aimed at protecting people against the risk of adverse events\" is",
+                "options": {
+                    "a": "Social protection",
+                    "b": "Social insurance",
+                    "c": "Social security",
+                    "d": "Socialism"
+                },
+                "answer": "b",
+                "explanation": "Social insurance programs (like unemployment benefits or disability insurance) specifically target protection against specific adverse economic events."
+            },
+            {
+                "q": "\"a difference in wages that arises to offset the non-monetary characteristics of different jobs\" is known as",
+                "options": {
+                    "a": "differentiating differential",
+                    "b": "compensating differential",
+                    "c": "differentiating integral",
+                    "d": "compensating integral"
+                },
+                "answer": "b",
+                "explanation": "Compensating wage differentials arise to make less desirable jobs (e.g., risky, unpleasant) financially attractive enough to draw workers."
+            },
+            {
+                "q": "For a competitive and profit-maximising firm,",
+                "options": {
+                    "a": "each factor's rental price < the value of the marginal product for that factor",
+                    "b": "each factor's rental price = the value of the marginal product for that factor",
+                    "c": "each factor's rental price > the value of the marginal product for that factor",
+                    "d": "each factor's rental price = the value of the average product for that factor"
+                },
+                "answer": "b",
+                "explanation": "Profit maximization occurs when a firm hires inputs up to the point where the cost of the input (its rental price or wage) equals the value of the output it produces (Value of Marginal Product)."
+            },
+            {
+                "q": "\"a condition characterised by severe deprivation of basic human needs, including food, safe drinking water, sanitation facilities, health, shelter, education and information\" is known as",
+                "options": {
+                    "a": "absolute poverty",
+                    "b": "relative poverty",
+                    "c": "median poverty",
+                    "d": "poverty line"
+                },
+                "answer": "a",
+                "explanation": "This comprehensive definition describes absolute poverty, focusing on the lack of essential resources for survival and basic well-being."
+            },
+            {
+                "q": "\"a condition where a household's income is lower than the median income in the particular country\" is known as",
+                "options": {
+                    "a": "absolute poverty",
+                    "b": "relative poverty",
+                    "c": "median poverty",
+                    "d": "poverty line"
+                },
+                "answer": "b",
+                "explanation": "Relative poverty defines poverty in comparison to the living standards of the majority in a given society, often using a threshold relative to median income."
+            },
+            {
+                "q": "\"the increase in the amount of output from an additional unit of labor\" is",
+                "options": {
+                    "a": "marginal product of labour",
+                    "b": "marginal product of input",
+                    "c": "average product of labour",
+                    "d": "average product of input"
+                },
+                "answer": "a",
+                "explanation": "The marginal product of labor (MPL) specifically measures the change in output resulting from adding one more unit of labor, holding other inputs constant."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "\"an action taken by an uninformed party to induce an informed party to reveal information\" is known as",
+                "options": {
+                    "a": "signalling",
+                    "b": "screening",
+                    "c": "informing",
+                    "d": "heuristics"
+                },
+                "answer": "b",
+                "explanation": "Screening mechanisms are designed by the less-informed party to sort or differentiate the more-informed parties (e.g., deductibles in insurance)."
+            },
+            {
+                "q": "\"the part of actual resources that can be developed profitably in the future\" are",
+                "options": {
+                    "a": "potential resources",
+                    "b": "actual resources",
+                    "c": "reserve resources",
+                    "d": "stock resources"
+                },
+                "answer": "c",
+                "explanation": "Reserve resources are the subset of identified (actual) resources that are economically viable to extract with current technology and prices."
+            },
+            {
+                "q": "\"the limit on the consumption bundles that a consumer can afford\" is known as",
+                "options": {
+                    "a": "consumption constraint",
+                    "b": "budget constraint",
+                    "c": "bundle constraint",
+                    "d": "affordability constraint"
+                },
+                "answer": "b",
+                "explanation": "The budget constraint defines the feasible set of consumption choices given a consumer's income and the prices of goods."
+            },
+            {
+                "q": "\"mental short cut using emotion (gut feeling) to influences the decision\" is",
+                "options": {
+                    "a": "affect heuristic",
+                    "b": "availability heuristic",
+                    "c": "effort heuristic",
+                    "d": "familiarity heuristic"
+                },
+                "answer": "a",
+                "explanation": "The affect heuristic involves making judgments based on emotional responses rather than purely rational calculation."
+            },
+            {
+                "q": "\"those resources that are currently being used after surveying, quantification and qualification\" are",
+                "options": {
+                    "a": "potential resources",
+                    "b": "actual resources",
+                    "c": "reserve resources",
+                    "d": "stock resources"
+                },
+                "answer": "b",
+                "explanation": "Actual resources have been identified and quantified, indicating they are known and potentially usable, including reserves and currently utilized portions."
+            },
+            {
+                "q": "\"the change in consumption that results when a price change moves the consumer along a given indifference curve to a point with a new marginal rate of substitution\" is known as",
+                "options": {
+                    "a": "income effect",
+                    "b": "substitution effect",
+                    "c": "indifference effect",
+                    "d": "budget effect"
+                },
+                "answer": "b",
+                "explanation": "The substitution effect isolates the change in consumption due solely to the change in relative prices, keeping the consumer's utility level constant."
+            },
+            {
+                "q": "An inferior good whose demand increases with price is called as",
+                "options": {
+                    "a": "Normal good",
+                    "b": "Veblen good",
+                    "c": "Giffen good",
+                    "d": "Demand good"
+                },
+                "answer": "c",
+                "explanation": "A Giffen good is a theoretical exception to the law of demand, where a price increase leads to higher demand because the income effect outweighs the substitution effect for a strongly inferior good."
+            },
+            {
+                "q": "Which of these is not a property of indifference curves?",
+                "options": {
+                    "a": "Higher indifference curves are preferred to lower ones",
+                    "b": "Indifference curves are downward-sloping",
+                    "c": "Indifference curves cross at right angles",
+                    "d": "Indifference curves are bowed inwards"
+                },
+                "answer": "c",
+                "explanation": "Indifference curves cannot cross, as this would violate the assumption that preferences are transitive (consistent)."
+            },
+            {
+                "q": "\"an action taken by an informed party to reveal private information to an uninformed party\" is known as",
+                "options": {
+                    "a": "signalling",
+                    "b": "screening",
+                    "c": "informing",
+                    "d": "heuristics"
+                },
+                "answer": "a",
+                "explanation": "Signalling involves the party with more information taking credible actions to convey that information (e.g., a degree signals ability to employers)."
+            },
+            {
+                "q": "\"simple strategies or mental processes used to quickly form judgments, make decisions, and find solutions to complex problems\" is known as",
+                "options": {
+                    "a": "signalling",
+                    "b": "screening",
+                    "c": "informing",
+                    "d": "heuristics"
+                },
+                "answer": "d",
+                "explanation": "Heuristics are cognitive shortcuts or rules of thumb that simplify decision-making, often used under uncertainty or time pressure."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "As per Wildlife Protection Act 1972 (WPA 1972), wild life includes any animal, aquatic or land vegetation which forms part of any ____. (fill in the blank)",
+                "options": {
+                    "a": "ecosystem",
+                    "b": "state",
+                    "c": "country",
+                    "d": "habitat"
+                },
+                "answer": "d",
+                "explanation": "The WPA 1972 defines wildlife in the context of its natural habitat, emphasizing the environment where it lives."
+            },
+            {
+                "q": "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+                "options": {
+                    "a": "umbrella species",
+                    "b": "keystone species",
+                    "c": "flagship species",
+                    "d": "all of the above"
+                },
+                "answer": "d",
+                "explanation": "The tiger fits all roles: its large range makes it an umbrella species, its ecological role makes it keystone, and its charisma makes it a flagship species for conservation."
+            },
+            {
+                "q": "Soil formation is an example of",
+                "options": {
+                    "a": "provisioning service",
+                    "b": "regulating service",
+                    "c": "supporting service",
+                    "d": "cultural service"
+                },
+                "answer": "c",
+                "explanation": "Supporting services, like soil formation and nutrient cycling, are fundamental processes that underpin all other ecosystem services."
+            },
+            {
+                "q": "Zoo is an example of",
+                "options": {
+                    "a": "in-situ conservation",
+                    "b": "ex-situ conservation",
+                    "c": "in-situ preservation",
+                    "d": "ex-situ preservation"
+                },
+                "answer": "b",
+                "explanation": "Ex-situ (off-site) conservation involves protecting species outside their natural habitats, such as in zoos or botanical gardens."
+            },
+            {
+                "q": "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+                "options": {
+                    "a": "least concern species",
+                    "b": "keystone species",
+                    "c": "flagship species",
+                    "d": "extinct species"
+                },
+                "answer": "b",
+                "explanation": "A keystone species has a disproportionately large effect on its environment relative to its abundance; providing critical resources like food during scarcity makes the fig tree keystone."
+            },
+            {
+                "q": "Nutrient cycling is an example of",
+                "options": {
+                    "a": "provisioning service",
+                    "b": "regulating service",
+                    "c": "supporting service",
+                    "d": "cultural service"
+                },
+                "answer": "c",
+                "explanation": "Nutrient cycling is a crucial supporting service, essential for maintaining ecosystem health and productivity."
+            },
+            {
+                "q": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+                "options": {
+                    "a": "umbrella species",
+                    "b": "keystone species",
+                    "c": "flagship species",
+                    "d": "extinct species"
+                },
+                "answer": "c",
+                "explanation": "Flagship species are charismatic species that attract public support and funding for conservation efforts, like the orchids attracting tourists."
+            },
+            {
+                "q": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+                "options": {
+                    "a": "very high",
+                    "b": "medium",
+                    "c": "very low",
+                    "d": "non-existent"
+                },
+                "answer": "b",
+                "explanation": "Conservation Reserves in India are often designated in areas adjacent to National Parks/Sanctuaries or connecting them, typically facing medium threats and allowing some sustainable human activities."
+            },
+            {
+                "q": "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
+                "options": {
+                    "a": "umbrella species",
+                    "b": "keystone species",
+                    "c": "flagship species",
+                    "d": "all of the above"
+                },
+                "answer": "d",
+                "explanation": "Similar to the tiger, the elephant serves as an umbrella (large range), keystone (ecosystem engineer), and flagship (charismatic) species."
+            },
+            {
+                "q": "Biological control of pest populations is an example of",
+                "options": {
+                    "a": "provisioning service",
+                    "b": "regulating service",
+                    "c": "supporting service",
+                    "d": "cultural service"
+                },
+                "answer": "b",
+                "explanation": "Regulating services control natural processes; biological pest control, where predators or diseases limit pest numbers, falls under this category."
+            }
+        ]
+
+
+
     }
-
-
-
-
-
 }
