@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { BookOpen, Brain, Linkedin, Moon } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { BookOpen, Brain, Linkedin, Moon, Search } from 'lucide-react';
 import QuizApp from './components/QuizApp';
 import SubjectSelector from './components/SubjectSelector';
 import { useDarkMode } from './contexts/DarkModeContext';
@@ -81,13 +81,40 @@ const SUBJECTS = [
     description: 'Learn about CPU/GPU architectures, SIMD/SIMT paradigms, and programming models like CUDA and OpenCL with optimization techniques',
     image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
+  },
+  {
+    id: 'Introduction to Large Language Models (LLMs)',
+    title: 'Introduction to Large Language Models (LLMs)',
+    description: 'Learn about the architecture, training, capabilities, and applications of large language models in AI',
+    image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Fuzzy Logic',
+    title: 'Fuzzy Logic',
+    description: 'Study fuzzy set theory, fuzzy logic systems, membership functions, and applications in control systems and decision making',
+    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
   }
-
 ];
 
 const App: React.FC = () => {
   const [selectedSubject, setSelectedSubject] = useState<typeof SUBJECTS[0] | null>(null);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [filteredSubjects, setFilteredSubjects] = useState(SUBJECTS);
   const { isDarkMode, toggleDarkMode } = useDarkMode();
+
+  useEffect(() => {
+    if (searchQuery.trim() === '') {
+      setFilteredSubjects(SUBJECTS);
+    } else {
+      const filtered = SUBJECTS.filter(subject =>
+        subject.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        subject.description.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+      setFilteredSubjects(filtered);
+    }
+  }, [searchQuery]);
 
   const handleSubjectSelect = (subject: typeof SUBJECTS[0]) => {
     setSelectedSubject(subject);
@@ -97,16 +124,20 @@ const App: React.FC = () => {
     setSelectedSubject(null);
   };
 
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+  };
+
   return (
-    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-indigo-100 to-purple-100'}`}>
-      <nav className={`${isDarkMode ? 'bg-gray-800/50' : 'bg-indigo-50/50'} backdrop-blur-sm shadow-sm`}>
+    <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100'}`}>
+      <nav className={`${isDarkMode ? 'bg-gray-800/70' : 'bg-indigo-50/70'} backdrop-blur-md shadow-md sticky top-0 z-10`}>
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <button
             onClick={handleBackToSubjects}
-            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity group"
           >
-            <Brain className="h-8 w-8 text-indigo-600" />
-            <span className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>NPTEL Course Quiz</span>
+            <Brain className={`h-8 w-8 ${isDarkMode ? 'text-indigo-400' : 'text-indigo-600'} group-hover:animate-pulse`} />
+            <span className={`text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'} group-hover:text-indigo-500 transition-colors`}>NPTEL Course Quiz</span>
           </button>
 
           <div className="flex items-center space-x-4">
@@ -114,14 +145,14 @@ const App: React.FC = () => {
               href="https://www.linkedin.com/in/madhavgupta2002"
               target="_blank"
               rel="noopener noreferrer"
-              className={`flex items-center space-x-2 border border-gray-300 rounded-full px-3 py-1 ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-indigo-600'} transition-colors`}
+              className={`flex items-center space-x-2 border ${isDarkMode ? 'border-gray-600 hover:border-indigo-400' : 'border-gray-300 hover:border-indigo-500'} rounded-full px-3 py-1 ${isDarkMode ? 'text-gray-300 hover:text-indigo-300' : 'text-gray-600 hover:text-indigo-600'} transition-all hover:shadow-md`}
             >
               <span className="text-sm">Made by Madhav Gupta</span>
               <Linkedin className="h-5 w-5" />
             </a>
             <button
               onClick={toggleDarkMode}
-              className={`p-2 ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-indigo-600'} transition-colors rounded-full hover:bg-indigo-100`}
+              className={`p-2 ${isDarkMode ? 'text-gray-300 hover:text-indigo-300 hover:bg-gray-700' : 'text-gray-600 hover:text-indigo-600 hover:bg-indigo-100'} transition-all rounded-full`}
               aria-label="Toggle dark mode"
             >
               <Moon className="h-5 w-5" />
@@ -130,10 +161,38 @@ const App: React.FC = () => {
         </div>
       </nav>
 
+      {!selectedSubject && (
+        <div className={`container mx-auto px-4 py-6 max-w-3xl`}>
+          <div className={`relative mb-8 ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>
+            <div className={`absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none`}>
+              <Search className={`h-5 w-5 ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`} />
+            </div>
+            <input
+              type="text"
+              placeholder="Search for courses by name or description..."
+              value={searchQuery}
+              onChange={handleSearchChange}
+              className={`w-full pl-10 pr-4 py-3 rounded-xl ${isDarkMode
+                  ? 'bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus:ring-indigo-500 focus:border-indigo-500'
+                  : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500'
+                } border shadow-sm focus:outline-none focus:ring-2 transition-all`}
+            />
+          </div>
+        </div>
+      )}
+
       {selectedSubject ? (
         <QuizApp subject={selectedSubject} onBack={handleBackToSubjects} />
       ) : (
-        <SubjectSelector subjects={SUBJECTS} onSelect={handleSubjectSelect} />
+        <SubjectSelector subjects={filteredSubjects} onSelect={handleSubjectSelect} />
+      )}
+
+      {!selectedSubject && filteredSubjects.length === 0 && (
+        <div className="container mx-auto px-4 py-12 text-center">
+          <h3 className={`text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+            No courses found matching "{searchQuery}". Try a different search term.
+          </h3>
+        </div>
       )}
     </div>
   );
