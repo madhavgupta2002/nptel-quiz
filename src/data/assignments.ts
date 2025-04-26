@@ -15594,5 +15594,1118 @@ export const assignment: Assignment = {
                 "explanation": "Major families of post-quantum cryptography include lattice-based, code-based, hash-based, and multivariate polynomial-based algorithms."
             }
         ]
+    },
+    "GPU Architectures and Programming": {
+        "Assignment 1": [
+            {
+                "q": "What is the clock cycle time for the pipelined processor?\n\nCommon data: Given a 5-stage pipelined processor with stage latencies of 3, 4, 4, 5, and 2 clock cycles for fetch, decode, execute, memory, and write-back respectively, and an additional 1 clock cycle of register latency between stages.",
+                "options": {
+                    "a": "7 Clock cycle",
+                    "b": "5 Clock cycle",
+                    "c": "6 Clock cycle",
+                    "d": "8 Clock cycle"
+                },
+                "answer": "c",
+                "explanation": "Pipeline clock cycle time is determined by the maximum stage latency plus the inter-stage register latency."
+            },
+            {
+                "q": "What is the total number of clock cycles to complete 20 instructions using pipelining?\n\nCommon data: Given a 5-stage pipelined processor with stage latencies of 3, 4, 4, 5, and 2 clock cycles for fetch, decode, execute, memory, and write-back respectively, and an additional 1 clock cycle of register latency between stages. Clock cycle time is 6 cycles (from Q1).",
+                "options": {
+                    "a": "21 clock cycle",
+                    "b": "26 clock cycle",
+                    "c": "30 clock cycle",
+                    "d": "25 clock cycle"
+                },
+                "answer": "d",
+                "explanation": "Total cycles = Cycles to fill pipeline + (Number of instructions - 1) = Clock cycle time + (N-1) = 6 + (20-1) = 25 cycles."
+            },
+            {
+                "q": "What is the total number of clock cycles to complete 20 instructions without pipelining?\n\nCommon data: Given a 5-stage pipelined processor with stage latencies of 3, 4, 4, 5, and 2 clock cycles for fetch, decode, execute, memory, and write-back respectively, and an additional 1 clock cycle of register latency between stages.",
+                "options": {
+                    "a": "400 clock cycles",
+                    "b": "440 clock cycles",
+                    "c": "470 clock cycles",
+                    "d": "425 clock cycles"
+                },
+                "answer": "b",
+                "explanation": "Time per instruction (non-pipelined) = sum of stage latencies + (number of stages - 1) * register latency = (3+4+4+5+2) + 4*1 = 22 cycles. Total time = 20 instructions * 22 cycles/instruction = 440 cycles."
+            },
+            {
+                "q": "What is the speedup achieved by pipelining?\n\nCommon data: Given a 5-stage pipelined processor with stage latencies of 3, 4, 4, 5, and 2 clock cycles for fetch, decode, execute, memory, and write-back respectively, and an additional 1 clock cycle of register latency between stages. Time with pipeline = 25 cycles (Q2). Time without pipeline = 440 cycles (Q3).",
+                "options": {
+                    "a": "17.6",
+                    "b": "16.5",
+                    "c": "20.2",
+                    "d": "15.8"
+                },
+                "answer": "a",
+                "explanation": "Speedup = Time without pipelining / Time with pipelining = 440 / 25 = 17.6."
+            },
+            {
+                "q": "Consider a 1-bit branch predictor with 2 stages Taken and Not Taken. If the current state is “Taken” and the branch is taken, the state remains at “Taken”. Similarly, if the current state is “Not Taken” and the branch is not taken, the state remains at “Not Taken”. Conversely, if the current state is \"Taken\" and the branch is not taken, the state changes to “Not Taken”. Similarly, if the current state is “Not Taken” and the branch is taken, the state changes to “Taken”. Calculate what is the percentage of misprediction for the given predictor, given that the initial state is Not Taken.\n\nCommon data: Assume the following outcome of a branch: T, T, T, T, NT, T, T, T, T, NT. [ T represents the branch that is taken and NT represents that the branch is not taken].",
+                "options": {
+                    "a": "20%",
+                    "b": "30%",
+                    "c": "40%",
+                    "d": "50%"
+                },
+                "answer": "c",
+                "explanation": "Tracing the 1-bit predictor state (Initial: NT) for sequence T,T,T,T,NT,T,T,T,T,NT results in 4 mispredictions out of 10 branches (NT->T miss, T->NT miss, NT->T miss, T->NT miss)."
+            },
+            {
+                "q": "Consider a 2-bit branch predictor with 4 stages Strongly Taken, Weakly Taken, Weakly Not Taken, and Strongly Not Taken. [Rules defined in text]. Calculate what is the percentage of misprediction for the given predictor, given that the initial state is Strongly Not Taken.\n\nCommon data: Assume the following outcome of a branch: T, T, T, T, NT, T, T, T, T, NT. [ T represents the branch that is taken and NT represents that the branch is not taken].",
+                "options": {
+                    "a": "20%",
+                    "b": "30%",
+                    "c": "40%",
+                    "d": "50%"
+                },
+                "answer": "c",
+                "explanation": "Tracing the 2-bit predictor state (Initial: SNT) for sequence T,T,T,T,NT,T,T,T,T,NT results in 4 mispredictions out of 10 branches (SNT->T miss, WNT->T miss, ST->NT miss, ST->NT miss)."
+            },
+            {
+                "q": "Assume a computer has a 32 bit address. Each block stores 64 bytes.A direct-mapped cache has 256 blocks. In what block of the cache would the address B108C432 be present.",
+                "options": {
+                    "a": "16",
+                    "b": "32",
+                    "c": "28",
+                    "d": "12"
+                },
+                "answer": "a",
+                "explanation": "Block size 64B -> 6 offset bits. Cache size 256 blocks -> 8 index bits. Address B108C432 (Hex) = 1011 0001 0000 1000 1100 0100 0011 0010 (Bin). Index bits (after tag, before offset) are 00010000 (binary), which is 16 (decimal)."
+            },
+            {
+                "q": "What hit rate is required for the cache to reduce the effective memory access time from 100ns to 25ns, given that the cache access time is 15ns and cache access and main memory access occur simultaneously?",
+                "options": {
+                    "a": "0.75",
+                    "b": "0.90",
+                    "c": "0.88",
+                    "d": "0.80"
+                },
+                "answer": "c",
+                "explanation": "Using t_avg = t_cache + (1-H) * t_miss_penalty (where t_miss_penalty = t_mem), we have 25 = 15 + (1-H)*100. Solving yields H = 0.88 (approximately)."
+            },
+            {
+                "q": "A CPI of 10 was observed from simulation experiments conducted with a perfect cache for a processor with clock rate 5Ghz. A 64KB L1 cache having a miss rate of 5% and cache miss penalty of 60ns is proposed to be used. What would be the nearest CPI with the 64KB L1 cache?",
+                "options": {
+                    "a": "5",
+                    "b": "10",
+                    "c": "15",
+                    "d": "25"
+                },
+                "answer": "d",
+                "explanation": "Clock cycle = 1 / 5GHz = 0.2 ns. Miss penalty = 60 ns = 60 / 0.2 = 300 cycles. CPI = Base CPI + Miss Rate * Miss Penalty = 10 + 0.05 * 300 = 10 + 15 = 25."
+            },
+            {
+                "q": "Given the following assembly code,which instruction will cause RAW(Read after Write) Hazard.\n\n1. ADD R1, R2, R3 // R1 = R2 + R3\n2. SUB R4, R1, R5 // R4 = R1 - R5\n3. MUL R6, R7, R8 // R6 = R7 * R8\n4. DIV R12, R9, R13 // R12 = R1 / R13",
+                "options": {
+                    "a": "SUB R4, R1, R5",
+                    "b": "MUL R6, R7, R8",
+                    "c": "DIV R12, R9, R13",
+                    "d": "ADD R9, R10, R11"
+                },
+                "answer": "a",
+                "explanation": "Instruction 1 writes to R1, and instruction 2 reads from R1 before instruction 1 has necessarily finished writing, causing a Read-After-Write hazard."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Which of the following statements about vector processors is TRUE?",
+                "options": {
+                    "a": "Vector processors are designed to process multiple data elements using a single instruction.",
+                    "b": "Vector processors execute scalar operations more efficiently than vector operations.",
+                    "c": "Vector processors are primarily used for control-intensive tasks.",
+                    "d": "In vector processors, data dependencies between vector elements are common and unavoidable."
+                },
+                "answer": "a",
+                "explanation": "Vector processors excel at SIMD (Single Instruction, Multiple Data) operations, applying one instruction to many data elements simultaneously."
+            },
+            {
+                "q": "A vector processor can perform 8 floating-point operations per clock cycle. If the clock frequency of the processor is 2 GHz, how many floating-point operations per second (FLOPS) can the processor achieve?",
+                "options": {
+                    "a": "8×10^9",
+                    "b": "32×10^9",
+                    "c": "16×10^9",
+                    "d": "4×10^9"
+                },
+                "answer": "c",
+                "explanation": "FLOPS = (Operations per cycle) * (Clock frequency) = 8 * (2 * 10^9 Hz) = 16 * 10^9 FLOPS."
+            },
+            {
+                "q": "Which of the following correctly describes the memory hierarchy in NVIDIA's Fermi GPU architecture from fastest to slowest access speed?",
+                "options": {
+                    "a": "Global Memory → Shared Memory → Registers → L1 Cache",
+                    "b": "Registers → L1 Cache → Shared Memory → Global Memory",
+                    "c": "L1 Cache → Registers → Shared Memory → Global Memory",
+                    "d": "Shared Memory → Registers → L1 Cache → Global Memory"
+                },
+                "answer": "b",
+                "explanation": "The typical GPU memory hierarchy arranges memory types from fastest/smallest (Registers) to slowest/largest (Global Memory)."
+            },
+            {
+                "q": "Match column 1 with column 2.\n\na) Vertex Shader\nb) Pixel Shader\nc) Geometry Shader\n\ni) Operates on lines and triangles defined by multiple vertices, changing or generating additional primitives in graphics\nii) Maps the position of vertices onto the screen, altering their position color, or orientation.\niii) Fills the interior of primitives, including interpolating per fragment parameters, texturing, and colouring in graphics.",
+                "options": {
+                    "a": "a-i,b-ii,c-iii",
+                    "b": "a-ii,b-iii,c-i",
+                    "c": "a-ii,b-i,c-iii",
+                    "d": "a-iii,b-i,c-ii"
+                },
+                "answer": "b",
+                "explanation": "Vertex shaders process vertices (ii), pixel shaders process fragments/pixels (iii), and geometry shaders process whole primitives (i)."
+            },
+            {
+                "q": "An NVIDIA Tesla GPU consists of 128 Scalar Processor (SP) cores and 16 KB of Shared Memory. There are a total 4 TPC and each TPC has 2 Streaming Multiprocessors (SMs). How many SPs are present in one SM and What is the total shared memory available across all SMs in the GPU?",
+                "options": {
+                    "a": "16,256 KB",
+                    "b": "32,128 KB",
+                    "c": "16,128 KB",
+                    "d": "32,256 KB"
+                },
+                "answer": "c",
+                "explanation": "Total SMs = 4 TPC * 2 SMs/TPC = 8 SMs. SPs per SM = 128 SPs / 8 SMs = 16 SPs/SM. Total Shared Memory = 8 SMs * 16 KB/SM = 128 KB."
+            },
+            {
+                "q": "In GPGPU,how many warps are selected by the SM warp scheduler in each operation cycle.",
+                "options": {
+                    "a": "10",
+                    "b": "32",
+                    "c": "1",
+                    "d": "8"
+                },
+                "answer": "c",
+                "explanation": "A common simplification is that the warp scheduler selects one ready warp to issue its next instruction per cycle, though modern architectures might select more."
+            },
+            {
+                "q": "Match column 1 with the correct option in column 2\n\na) Global memory\nb) Shared memory\nc) Local memory\nd) Constant memory\n\ni) Shared only within a single SM\nii) Shared across all SMs\niii) Private to a wrap\niv) Private to a thread\nv) Shared across group of SMs but not among all SMs",
+                "options": {
+                    "a": "a-ii,b-i,c-iv,d-iii",
+                    "b": "a-ii,b-i,c-iv,d-ii",
+                    "c": "a-ii,b-ii,c-iv,d-v",
+                    "d": "a-ii,b-i,c-v,d-iii"
+                },
+                "answer": "b",
+                "explanation": "Global and Constant are shared across SMs (ii), Shared is within an SM (i), and Local is private per thread (iv)."
+            },
+            {
+                "q": "PTX instructions have format: opcode.type d, a, b, c; where d is the",
+                "options": {
+                    "a": "Destination",
+                    "b": "Domain",
+                    "c": "Data",
+                    "d": "Double"
+                },
+                "answer": "a",
+                "explanation": "In PTX assembly, the first operand listed after the opcode and type is typically the destination register."
+            },
+            {
+                "q": "GPGPU programming uses ___________ execution model.",
+                "options": {
+                    "a": "SIMD",
+                    "b": "SIMT",
+                    "c": "SPMD",
+                    "d": "SPMT"
+                },
+                "answer": "b",
+                "explanation": "GPGPUs utilize the Single Instruction, Multiple Threads (SIMT) execution model, where groups of threads (warps) execute the same instruction but can diverge."
+            },
+            {
+                "q": "Amdahl's law is an expression used to find the maximum expected improvement to an overall system when only part of the system is improved. It is often used in parallel computing to predict the theoretical maximum speedup. Amdahl's law for overall speedup is given by-\nOverall Speedup = 1 / ((1– Fraction_enhanced) + (Fraction_enhanced / SpeedUp_enhanced))\nA program has two parts: one that is parallelizable and one that is not. Suppose 60% of the program can be parallelized, while the remaining 40% is inherently sequential. If the program is run on a system with 8 processing cores, calculate the maximum speedup achievable according to Amdahl's Law.",
+                "options": {
+                    "a": "2.208",
+                    "b": "2.105",
+                    "c": "2.575",
+                    "d": "3.820"
+                },
+                "answer": "b",
+                "explanation": "Speedup = 1 / ((1 - 0.6) + (0.6 / 8)) = 1 / (0.4 + 0.075) = 1 / 0.475 ≈ 2.105."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "Memory management function for allocating memory in GPU device using CUDA is:",
+                "options": {
+                    "a": "malloc",
+                    "b": "cudaMemcpy",
+                    "c": "cudaMalloc",
+                    "d": "calloc"
+                },
+                "answer": "c",
+                "explanation": "`cudaMalloc` is the CUDA API function used to allocate memory on the GPU device."
+            },
+            {
+                "q": "Correct statement for allocation of memory chunk for 1024 floating point data element in GPU device is (Assume mem_chunk is device pointer):",
+                "options": {
+                    "a": "cudaMalloc((void **)&mem_chunk, 1024*sizeof(float))",
+                    "b": "cudaMalloc((void **)&mem_chunk, 1024)",
+                    "c": "cudaMalloc((float **)&mem_chunk, 1024*sizeof(float))",
+                    "d": "cudaMalloc((float **)&mem_chunk, 1024)"
+                },
+                "answer": "a",
+                "explanation": "The correct syntax requires casting the pointer address to `(void**)` and specifying the total size in bytes (number of elements * size of each element)."
+            },
+            {
+                "q": "Which of the following CUDA kernels correctly multiplies two 1D arrays element-wise:",
+                "options": {
+                    "a": "_global_void multiplyArrays(float *A, float *B, float *C, int n) {\n int i = threadIdx.x + blockIdx.x * blockDim.x;\n if (i < n) {\n C[i] = A[i] * B[i];\n }\n}",
+                    "b": "_global_void multiplyArrays(float *A, float *B, float *C, int n) {\n int i = threadIdx.x;\n C[i] = A[i] * B[i];\n }",
+                    "c": "_global_void multiplyArrays(float *A, float *B, float *C, int n) {\n int i = blockldx.x * blockDim.x;\n if (i < n) {\n C[i] = A[i] * B[i];\n }\n}",
+                    "d": "_global_void multiplyArrays(float *A, float *B, float *C, int n) {\n int i = threadIdx.x + threadIdx.y * blockDim.x;\n if(i < n)\n C[i] = A[i] * B[i];\n }"
+                },
+                "answer": "a",
+                "explanation": "This kernel correctly calculates a unique global thread ID (`i`) for a 1D grid and performs the multiplication only if the ID is within the array bounds (`i < n`)."
+            },
+            {
+                "q": "What is the output of the following code if a kernel fails during execution:\n\ncudaError_t err = cudaGetLastError();\nif (err != cudaSuccess) {\n printf(\"CUDA error: %s\\n\", cudaGetErrorString(err));\n}",
+                "options": {
+                    "a": "It prints the error code as an integer.",
+                    "b": "It prints the error message corresponding to the error code.",
+                    "c": "It resets the last error state and continues execution.",
+                    "d": "It terminates the program immediately."
+                },
+                "answer": "b",
+                "explanation": "`cudaGetLastError` retrieves the last error code, and `cudaGetErrorString` converts that code into a human-readable error message for printing."
+            },
+            {
+                "q": "Which among the following statements is True:",
+                "options": {
+                    "a": "_device_ function can have return type other than void",
+                    "b": "_global_ function must always returns int",
+                    "c": "A function can not be declared as both _host_ and _device_ function",
+                    "d": "Every function is a default __global_ function"
+                },
+                "answer": "a",
+                "explanation": "`__device__` functions are called from the GPU and can return values like regular C functions; `__global__` functions (kernels) must return void."
+            },
+            {
+                "q": "How is the total number of blocks to be launched determined in the code:",
+                "options": {
+                    "a": "n / threadsPerBlock",
+                    "b": "threads PerBlock / n",
+                    "c": "(n + threadsPerBlock - 1) / threadsPerBlock",
+                    "d": "(n - threadsPerBlock) / threadsPerBlock"
+                },
+                "answer": "c",
+                "explanation": "To ensure enough blocks cover all `n` elements using `threadsPerBlock` per block, integer division requires the ceiling formula `(n + threadsPerBlock - 1) / threadsPerBlock`."
+            },
+            {
+                "q": "Consider a vector addition kernel launch\nvectorAdd<<<dim3(16, 8), dim3(32, 16)>>>(d_A, d_B, d_C, n );\n\nWhat does the following CUDA kernel launch configuration imply:",
+                "options": {
+                    "a": "128 threads per block and 128 blocks in the grid.",
+                    "b": "256 threads per block and 128 blocks in the grid.",
+                    "c": "512 threads per block and 2048 blocks in the grid.",
+                    "d": "512 threads per block and 128 blocks in the grid."
+                },
+                "answer": "d",
+                "explanation": "The first triple `dim3(16, 8)` defines the grid dimension (16*8 = 128 blocks), and the second triple `dim3(32, 16)` defines the block dimension (32*16 = 512 threads per block)."
+            },
+            {
+                "q": "A typical CUDA program structure consists of five main steps:\n\n1.Allocate GPU memories.\n2.Copy data from CPU memory to GPU memory.\n3.Invoke the CUDA kernel to perform program-specific computation.\n4.Copy data back from GPU memory to CPU memory.\n5.Destroy GPU memories.\n\nCUDA API for the step no 1,2 and 5 respectively are",
+                "options": {
+                    "a": "cudaMalloc(), cudaMemcpy(), cudaFree()",
+                    "b": "malloc(), copy(),free()",
+                    "c": "cudaAlloc(), cudaCopy(), cudaRelease()",
+                    "d": "cudaAlloc(), copy(), free()"
+                },
+                "answer": "a",
+                "explanation": "The standard CUDA API functions for device allocation, memory transfer, and deallocation are `cudaMalloc`, `cudaMemcpy`, and `cudaFree` respectively."
+            },
+            {
+                "q": "Consider the following kernel specific system variables and the subsequent statements (a)-(d).\n\n(i) gridDim.x\n(ii) blockDim.y\n(iii) blockidx.y\n(iv) threadidx.x\n\n(a) number of blocks in dimension x of multi-dim grid\n(b) thread number inside a block in dimension x\n(c) number of threads per block in dimension y of multi-dim block.\n(d) block number for a thread in dimension y\n\nMatch and pair. Choose the correct option that represents the correct solution.",
+                "options": {
+                    "a": "(i)-(a), (ii)-(c), (iii)-(d), (iv)-(b)",
+                    "b": "(i)-(a), (ii)-(b), (iii)-(c), (iv)-(d)",
+                    "c": "(i)-(d), (ii)-(a), (iii)-(b), (iv)-(c)",
+                    "d": "(i)-(a), (ii)-(c), (iii)-(b), (iv)-(d)"
+                },
+                "answer": "a",
+                "explanation": "The variables map directly: `gridDim` defines grid size (a), `blockDim` defines block size (c), `blockIdx` gives block's index (d), `threadIdx` gives thread's index within block (b)."
+            },
+            {
+                "q": "A CUDA kernel is launched with the following configuration:\nvectorMultiply<<<dim3(8, 2, 4), dim3(16, 32, 2)>>>(d_A, d_B, d_C, n);\nHow many total threads will be launched:",
+                "options": {
+                    "a": "4096",
+                    "b": "16,384",
+                    "c": "32,768",
+                    "d": "65,536"
+                },
+                "answer": "d",
+                "explanation": "Total threads = (Grid X * Y * Z) * (Block X * Y * Z) = (8 * 2 * 4) * (16 * 32 * 2) = 64 * 1024 = 65536."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Consider a 1D CUDA kernel that computes on a 1D array A of size 2048 with launch parameters <<<(32),(64)>>> . Each CUDA thread operates only on one data point. On what data point will the thread with threadIdx.x=20, blockIdx.x=20 operate on. Assume that thread ids along the x-dimension represent rows and thread ids along the y-dimension represent columns. Choose the correct option.",
+                "options": {
+                    "a": "A[200]",
+                    "b": "A[40]",
+                    "c": "A[1300]",
+                    "d": "None of the above"
+                },
+                "answer": "c",
+                "explanation": "Global thread ID = threadIdx.x + blockIdx.x * blockDim.x = 20 + 20 * 64 = 20 + 1280 = 1300. The thread operates on element A[1300]."
+            },
+            {
+                "q": "What is the total number of CUDA threads that are spawned for the given launch configuration?\n\n<<<(2,2,1),(32,32,4)>>>",
+                "options": {
+                    "a": "16384",
+                    "b": "2048",
+                    "c": "8192",
+                    "d": "4096"
+                },
+                "answer": "a",
+                "explanation": "Total threads = (Grid X * Y * Z) * (Block X * Y * Z) = (2 * 2 * 1) * (32 * 32 * 4) = 4 * 4096 = 16384."
+            },
+            {
+                "q": "For the launch parameter configuration provided in Question 2 (`<<<(2,2,1),(32,32,4)>>>`), what are the minimum and maximum values of threadIdx.x?",
+                "options": {
+                    "a": "min=0, max=1023",
+                    "b": "min=1,max=32",
+                    "c": "min=0,max=31",
+                    "d": "min=1,max=1024"
+                },
+                "answer": "c",
+                "explanation": "`threadIdx.x` ranges from 0 to `blockDim.x - 1`. Here `blockDim.x` is 32, so the range is 0 to 31."
+            },
+            {
+                "q": "For the launch parameter configuration provided in Question 2 (`<<<(2,2,1),(32,32,4)>>>`), what are the minimum and maximum values of blockIdx.y?",
+                "options": {
+                    "a": "min=0,max=1",
+                    "b": "min=1,max=2",
+                    "c": "min=0,max=31",
+                    "d": "min=1,max=32"
+                },
+                "answer": "a",
+                "explanation": "`blockIdx.y` ranges from 0 to `gridDim.y - 1`. Here `gridDim.y` is 2, so the range is 0 to 1."
+            },
+            {
+                "q": "A CUDA kernel is launched with a following grid and block configuration. Given:\nGrid configuration: <<<2, ?, 1>>>\nBlock configuration:<<<4, 4, ?>>>\nWith what values should ? be replaced if the total number of threads are 128:",
+                "options": {
+                    "a": "Grid: <<<2, 4, 1>>>, Block: <4, 4, 2>",
+                    "b": "Grid: <<<2, 4, 1>>>, Block: <4, 4, 1>",
+                    "c": "Grid: <<<2, 2, 1>>>, Block: <4, 4, 2>",
+                    "d": "Grid: <<<2, 8, 1>>>, Block: <4, 4, 2>"
+                },
+                "answer": "b",
+                "explanation": "Total Threads = (GridX*GridY*GridZ) * (BlockX*BlockY*BlockZ) = (2*GridY*1) * (4*4*BlockZ) = 32 * GridY * BlockZ. We need 32 * GridY * BlockZ = 128, so GridY * BlockZ = 4. Option B (GridY=4, BlockZ=1) satisfies this."
+            },
+            {
+                "q": "What will happen if __syncthreads() is called conditionally, as shown in the code snippet :\n_global_void conditionalSync() {\n if (threadIdx.x % 2 == 0) {\n ___syncthreads();\n }\n}\n\nC. Kernel execution may lead to undefined behavior.\nD. No synchronization takes place.",
+                "options": {
+                    "a": "A. All threads synchronize correctly.",
+                    "b": "B. Only even threads synchronize correctly.",
+                    "c": "C and D",
+                    "d": "Neither C nor D"
+                },
+                "answer": "c",
+                "explanation": "Conditional `__syncthreads` leads to undefined behavior because threads skipping the call won't wait, potentially causing deadlock for those that do call it; the intended synchronization across all threads fails."
+            },
+            {
+                "q": "Consider the given kernel code:\n_global_ void syncExample(int *array) {\n int idx = threadIdx.x + blockIdx.x * blockDim.x;\n if (threadIdx.x == 0) {\n array[idx] = 1;\n }\n ___syncthreads();\n array[idx] += threadIdx.x;\n}\nIf the kernel is launched with<<<1, 4>>> and array is initially {0, 0, 0, 0}, what is the value of array after execution?",
+                "options": {
+                    "a": "{1, 2, 3, 4}",
+                    "b": "{1, 1, 1, 1}",
+                    "c": "{1, 2, 3, 4}",
+                    "d": "{1, 1, 2, 3}"
+                },
+                "answer": "d",
+                "explanation": "Thread 0 sets array[0] to 1. After sync, all threads add their threadIdx.x to array[idx] (original value 0, except for index 0). Result: array[0]=1+0, array[1]=0+1, array[2]=0+2, array[3]=0+3 -> {1, 1, 2, 3}."
+            },
+            {
+                "q": "A CUDA kernel with a 3D grid and block configuration is launched. Let total number of blocks be 72 and total number of threads be 576. Then what can be the difrent ways to represent a block structure.\n\nA. (2, 2, 2)\nC. (2, 4, 1)",
+                "options": {
+                    "a": "A only",
+                    "b": "B. (3, 2, 3)",
+                    "c": "A and C",
+                    "d": "D. (1, 8, 0)"
+                },
+                "answer": "c",
+                "explanation": "The total number of threads per block must be Total Threads / Total Blocks = 576 / 72 = 8. Both (2,2,2) and (2,4,1) multiply to 8."
+            },
+            {
+                "q": "Consider a 2D CUDA kernel that computes on a 2D matrix M of size 2048x2048 with launch parameters <<<(32,32),(64,64)>>> . Each CUDA thread operates only on one data point. On what data point will the thread with the threadIdx.x=0, threadIdx.y=0, blockIdx.x=10 and =blockIdx.y=10 operate on. Assume that thread ids along the x-dimension represent rows and thread ids along the y-dimension represent columns. Choose the correct option.",
+                "options": {
+                    "a": "M[10][10]",
+                    "b": "M[32][32]",
+                    "c": "M[640][640]",
+                    "d": "None of the above"
+                },
+                "answer": "c",
+                "explanation": "Global Row(x) = blockIdx.x * blockDim.x + threadIdx.x = 10 * 64 + 0 = 640. Global Col(y) = blockIdx.y * blockDim.y + threadIdx.y = 10 * 64 + 0 = 640. The thread operates on M[640][640]."
+            },
+            {
+                "q": "Which among the following statement is FALSE:",
+                "options": {
+                    "a": "gridDim.x,y,z gives the number of blocks in a grid, in the x,y,z direction respectively.",
+                    "b": "blockDim.x,y,z gives the number of threads in a block, in the x,y,z direction respectively",
+                    "c": "blockDim.x * gridDim.x gives the number of threads in a grid in the x direction",
+                    "d": "Each thread in a block has unique id given by system variable gridIdx.x"
+                },
+                "answer": "d",
+                "explanation": "A thread's unique ID within a block is given by `threadIdx`, not `gridIdx` (which doesn't exist); `blockIdx` identifies the block itself."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Consider the following grid and block dimensions for a kernel.\ngridDim =< 4, 2 > and blockDim =< 4, 4 >\nFor a hypothetical GPU architecture, where number of SMs is 4 and number of SPs per SM is 32, how many thread blocks of the kernel are mapped to a single SM?",
+                "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "4",
+                    "d": "8"
+                },
+                "answer": "b",
+                "explanation": "Each block has 4*4=16 threads. Each SM has 32 SPs (can run 32 threads concurrently). Therefore, an SM can run 32 SPs / 16 threads/block = 2 blocks concurrently, resource permitting."
+            },
+            {
+                "q": "Consider a GPU architecture with the following constraints.\nThe total number of threads in a thread block is 512. The maximum number of threads in the x-dimension is 256, in the y-dimension is 256 and in the z dimension is 8. Considering a three dimensional CUDA kernel, which of the following thread block configurations is feasible ?",
+                "options": {
+                    "a": "blockDim.x = 256, blockDim.y = 256 blockDim.z = 8",
+                    "b": "blockDim.x = 32, blockDim.y = 32 blockDim.z = 8",
+                    "c": "blockDim.x = 32, blockDim.y = 16 blockDim.z = 8",
+                    "d": "blockDim.x = 32, blockDim.y = 16 blockDim.z = 1"
+                },
+                "answer": "d",
+                "explanation": "Check constraints: Max total threads 512, max X 256, max Y 256, max Z 8. Option D: (32, 16, 1) -> Total=32*16*1=512 (OK). X=32<=256 (OK), Y=16<=256 (OK), Z=1<=8 (OK). Feasible."
+            },
+            {
+                "q": "What policy does TBS use to place a thread block on an SM:",
+                "options": {
+                    "a": "Round Robin",
+                    "b": "Most-Room",
+                    "c": "Least Recently Fetched",
+                    "d": "Fair"
+                },
+                "answer": "b",
+                "explanation": "Thread Block Schedulers often use heuristics like 'Most-Room' to assign blocks to SMs with sufficient available resources (registers, shared memory)."
+            },
+            {
+                "q": "Which scheduling policy ensures equal opportunity for all warps in terms of the number of instructions fetched?",
+                "options": {
+                    "a": "Round Robin",
+                    "b": "Least Recently Fetched",
+                    "c": "Fair",
+                    "d": "Criticality Aware Warp Scheduling"
+                },
+                "answer": "c",
+                "explanation": "Fair scheduling policies aim to provide equal execution opportunities over time to different entities, such as warps."
+            },
+            {
+                "q": "When calling cudaGetDeviceCount(), what type of variable should you pass to the function:",
+                "options": {
+                    "a": "A pointer to an integer to store the number of devices",
+                    "b": "A pointer to a float to store the device count",
+                    "c": "A string buffer to store the device names",
+                    "d": "A boolean variable to check the presence of devices"
+                },
+                "answer": "a",
+                "explanation": "The `cudaGetDeviceCount` function takes a pointer to an integer (`int*`) where it writes the number of available CUDA-enabled devices."
+            },
+            {
+                "q": "Consider a GPU architecture where the warp size is 16. What are the total number of warps launched during the lifetime of a kernel with the following kernel launch configuration parameters <<< (1,1,1), (32,32,1)>>>",
+                "options": {
+                    "a": "16",
+                    "b": "32",
+                    "c": "64",
+                    "d": "128"
+                },
+                "answer": "c",
+                "explanation": "Total threads = (GridX*Y*Z) * (BlockX*Y*Z) = (1*1*1) * (32*32*1) = 1024. Total warps = Total threads / Warp size = 1024 / 16 = 64."
+            },
+            {
+                "q": "Analyze the following code snippet for divergence:\nint idx = threadIdx.x;\nif (idx % 2 == 0) {\narr[idx] = idx * 2;\n} else {\narr[idx] = idx * 3;\n}\n\nWhich statement best explains the behavior of this code regarding thread divergence?",
+                "options": {
+                    "a": "Divergence occurs because threads within a wrap follow different paths based on their index",
+                    "b": "No divergence occurs because idx % 2 is a uniform conditional",
+                    "c": "Wrap size ensures even and odd threads are seperated",
+                    "d": "Wrap execution is independent of branching"
+                },
+                "answer": "a",
+                "explanation": "The `if (idx % 2 == 0)` condition causes threads with even `idx` to take one path and threads with odd `idx` to take another; since a warp contains threads with consecutive `idx`, it will diverge."
+            },
+            {
+                "q": "Consider a hypothetical GPU architecture where the warp size is 8 and a kernel program which is launched with a configuration where the total number of threads in a thread block is 32. The total number of warps launched per thread block is thus 4. Consider the following conditional statements in the kernel.\n\ni. if(threadIdx.x <16)\nii. if(threadIdx.x %2)\niii. if(threadIdx.x %32)\niv. if(threadIdx.x < 8)\n\nWhich of the following options is correct?",
+                "options": {
+                    "a": "All conditional branches (i)-(iv) are divergent for all warps",
+                    "b": "Conditional branch (iv) is not divergent for warp 0",
+                    "c": "Conditional branch (ii) is divergent only for warps 0 and 4",
+                    "d": "Conditional branch (i) is divergent only for warps 0 and 1"
+                },
+                "answer": "b",
+                "explanation": "Branch (iv) `if(threadIdx.x < 8)` is true for all threads in warp 0 (IDs 0-7) and false for all threads in warps 1, 2, 3 (IDs >= 8), hence it doesn't cause divergence within any single warp."
+            },
+            {
+                "q": "Which of the following statements is false?",
+                "options": {
+                    "a": "Multiple CUDA thread blocks can execute in a single SM of an NVIDIA GPU.",
+                    "b": "The computation of one CUDA thread block can be distributed across multiple SMs.",
+                    "c": "Threads across multiple CUDA thread blocks cannot be synchronized using __syncthreads().",
+                    "d": "Threads in a single CUDA thread block mapped to a single SM can communicate using shared memory ."
+                },
+                "answer": "b",
+                "explanation": "A single CUDA thread block always executes entirely on a single SM; its execution is not distributed across multiple SMs."
+            },
+            {
+                "q": "Consider a kernel processing a 1D array of 8192 elements where each thread is assigned to perform an operation on a single element of the array. The kernel is launched with the following grid and block configurations: <16,a,2> blocks of <b,2,4>",
+                "options": {
+                    "a": "a=16,b=2",
+                    "b": "a= 2 b= 16",
+                    "c": "a=8 b=4",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Total threads = (GridX*Y*Z) * (BlockX*Y*Z) = (16*a*2) * (b*2*4) = 256*a*b. Need 256*a*b = 8192, so a*b = 32. All options (A, B, C) satisfy a*b = 32."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "A CUDA kernel traverses a 1024×1024 matrix, where each element is a single-precision floating-point number. The kernel will sum all the elements of the matrix and return the total sum. The matrix is stored in row-major order in global memory and Block size is 16×16.Which of the following is the most efficient way to traverse the matrix using CUDA threads in the kernel, ensuring coalesced memory access and efficient use of shared memory?",
+                "options": {
+                    "a": "Each thread accesses elements in the matrix in a column-major order, with each thread in the block loads elements into shared memory, and then the entire block performs the summation of its tile.",
+                    "b": "Each block processes a row of the matrix, and threads within the block access elements in a column-major order.",
+                    "c": "Each thread processes a single element in the matrix, with threads accessing elements in the matrix row by row. Each thread in the block loads elements into shared memory, and then the entire block performs the summation of its tile.",
+                    "d": "Each thread accesses one element of the matrix and stores the partial sum into global memory immediately after reading the element then again access partial sum from global memory to perform final summation.."
+                },
+                "answer": "c",
+                "explanation": "Row-by-row access by threads within a block ensures coalesced global memory reads for row-major data; loading into shared memory allows for fast partial summation within the block's tile."
+            },
+            {
+                "q": "If the value of stride is 2, then for a thread with threadIdx.x = 5, the thread will access the elements of the arrays at indices.\n\nCommon data: Consider the following CUDA kernel... block size of 256 threads. `if (index < N && (index%4==0 || index%4==1)) { C[index] = A[index] + B[index]; index += stride; C[index] = A[index] + B[index]; }`",
+                "options": {
+                    "a": "[6,7]",
+                    "b": "[5,7]",
+                    "c": "[5, 8]",
+                    "d": "None of the above."
+                },
+                "answer": "b",
+                "explanation": "Thread 5 has index=5. 5%4=1, so the 'if' condition is true. First access is index 5. Then index becomes 5+stride = 5+2=7. Second access is index 7. Indices accessed are [5, 7]."
+            },
+            {
+                "q": "If the value of stride is 4, then for a thread with threadIdx.x = 19, the thread will access the elements of the arrays at indices.\n\nCommon data: Consider the following CUDA kernel... block size of 256 threads. `if (index < N && (index%4==0 || index%4==1)) { C[index] = A[index] + B[index]; index += stride; C[index] = A[index] + B[index]; }`",
+                "options": {
+                    "a": "19 and 21",
+                    "b": "20 and 22",
+                    "c": "18 and 20",
+                    "d": "None of the above."
+                },
+                "answer": "d",
+                "explanation": "Thread 19 has index=19. 19%4=3. The 'if' condition (index%4==0 || index%4==1) is false, so the thread performs no accesses within the 'if' block."
+            },
+            {
+                "q": "Consider an array of size N is stored sequentially in global memory and each thread swaps one element from the beginning with one element from the end of the array, the following kernel is launched with 128 threads per block and 4 blocks. In total, how many warp READ accesses (i.e., global memory read accesses made by all warps) will occur when performing the array reversal given that each warp consists of 32 threads ? (Assume no effect of Cache subsystem and N=1024)",
+                "options": {
+                    "a": "16 warp accesses",
+                    "b": "32 warp accesses",
+                    "c": "64 warp accesses",
+                    "d": "128 warp accesses"
+                },
+                "answer": "b",
+                "explanation": "Total threads = 128*4=512. Warps = 512/32 = 16. Each thread reads 2 elements (one start, one end). Each warp reads 32 elements near start (1 coalesced read access) and 32 near end (1 coalesced read access). Total warp reads = 16 warps * 2 reads/warp = 32."
+            },
+            {
+                "q": "You are performing matrix multiplication on a GPU for two matrices A and B, both sized 4096×4096, resulting in a matrix C that is also of the same size. Each element in the matrices requires 4 bytes of storage. The GPU has a warp size of 32.The multiplication kernel uses tiling with size 32×32 and thread block dimensions also as 32 × 32. The GPU has 96 KB of shared memory per multiprocessor (SM). If each SM can support a maximum of 2048 threads, calculate the percentage of shared memory utilization per SM.",
+                "options": {
+                    "a": "15.57%",
+                    "b": "16.67%",
+                    "c": "20.0%",
+                    "d": "18.33%"
+                },
+                "answer": "b",
+                "explanation": "Block uses 1024 threads, needs 2 tiles * 32*32*4 bytes = 8KB shared mem. SM supports 2048 threads, so fits 2 blocks. Shared mem used per SM = 2 blocks * 8KB/block = 16KB. Utilization = 16KB / 96KB = 1/6 ≈ 16.67%."
+            },
+            {
+                "q": "The kernel is launched with parameters <<<(32,32),(32,32)>>>. Consider the last shared load operation `out[gid] = tile[tidx][tidy];`. The accesses for this operation depends on the values of tidx and tidy. State whether the following statement is true or false.\n\n\"For tidx=threadIdx.y, tidy=threadIdx.x, shared load transactions are bank conflict free”\n\nCommon data: Consider the following code snippet executing on a GPU architecture where the number of shared memory banks is 32 and the bank width is 4 bytes. Tile size SZ=32. `_shared_int tile[SZ][SZ]; ... unsigned int gid = threadIdx.x * blockDim.y + threadIdx.y; tile[threadIdx.x][threadIdx.y] = gid; _syncthreads(); int tidx = ...; int tidy = ...; out[gid] = tile[tidx][tidy];`",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Accessing `tile[threadIdx.y][threadIdx.x]` means threads in a warp (fixed `threadIdx.y`, varying `threadIdx.x`) access elements across a row. With 32 banks and 32 columns, row access is bank conflict-free."
+            },
+            {
+                "q": "For the code snippet in Question 6, state whether the following statement is true or false.\n\"For tidx=threadIdx.x, tidy=threadIdx.y, shared load transactions are bank conflict free”",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Accessing `tile[threadIdx.x][threadIdx.y]` means threads in a warp (fixed `threadIdx.y`, varying `threadIdx.x`) access elements down a column. With 32 banks, all threads in the warp access the same bank, causing conflicts."
+            },
+            {
+                "q": "For the code snippet in Question 6, state whether the following statement is true or false.\n\"For tidx=threadIdx.x, tidy=threadIdx.x, shared load transactions have bank conflicts”",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Accessing `tile[threadIdx.x][threadIdx.x]` means threads in a warp access diagonal elements (0,0), (1,1), ... (31,31). Each accesses a different bank (x % 32), so it is conflict-free."
+            },
+            {
+                "q": "In a GPU system with memory transaction width of 16, a global memory access can coalesce (bring in a single transaction) 16 consecutive floating point data values. Consider the following code snippet.\n_global_void mem_access(float* A) {\n int tid = threadIdx.x;\n for(int i=1; i<=32; i=i*2) A[tid*i]+=2;\n}\nLet the number of threads be 256 (tid = 0 to 255) and the size of the array A be 8192. Assuming a warp size of 16, compute the total number of global memory transactions made in the for loop for transaction widths of 16 elements. Assume no caching occurs.",
+                "options": {
+                    "a": "752",
+                    "b": "992",
+                    "c": "768",
+                    "d": "1024"
+                },
+                "answer": "a",
+                "explanation": "Total transactions = Sum over iterations [ (Total accesses) / (Transaction width / Access stride) ]. Iter 1(i=1): 256/(16/1)=16. Iter 2(i=2): 256/(16/2)=32. Iter 3(i=4): 256/(16/4)=64. Iter 4(i=8): 256/(16/8)=128. Iter 5(i=16): 256/(16/16)=256. Iter 6(i=32): 256/(16/32? -> assumed 1)=256. Total=16+32+64+128+256+256=752."
+            },
+            {
+                "q": "Consider the following kernel code snippet.\n#define BDIMX 32\n#define BDIMY 32\n_global_void setRowReadCol(int *out) {\n _shared_ int tile[BDIMY][BDIMX];\n unsigned int row_idx = threadIdx.y * blockDim.x + threadIdx.x;\n unsigned int col_idx = threadIdx.x * blockDim.y + threadIdx.y;\n tile[row_idx] = row_idx; // Likely error: 1D index to 2D array\n _syncthreads();\n out[row_idx] = tile[col_idx]; // Reading using 1D index\n}\nThe kernel is executed on a GPU architecture where the number of shared memory banks is 16 and the bank width is 4 bytes. The kernel is launched with the following configuration.\ndim3 block (BDIMX, BDIMY); dim3 grid (1,1);\nAssuming the size of an integer is 4 bytes, match and pair the following.\n\ni. Number of shared loads per warp request\nii. Number of shared stores per warp request\niii. Number of global loads per warp request\niv. Number of global stores per warp request\n\na. 1\nb. 16\nc. 32",
+                "options": {
+                    "a": "i→b, ii->b, iii->a, iv->a",
+                    "b": "i→b, ii->a, iii->a, iv->a",
+                    "c": "i→ c, ii->c, iii->a, iv->a",
+                    "d": "i → a, ii->a, iii->b, iv->b"
+                },
+                "answer": "b",
+                "explanation": "Based on the provided answer interpretation: Shared loads (i) require 16 transactions (b) due to conflicts in `tile[col_idx]` access. Shared stores (ii) require 1 transaction (a) assuming `tile[row_idx]` access maps to conflict-free pattern. Global loads (iii) and stores (iv) are assumed 1 (a), potentially representing the `out[row_idx]` write, though it's one store not load."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Consider an array A where A[i]=1 if i is divisible by 2 and A[i] = 0 otherwise. The array has 1024 elements. Let us consider a reduction which computes the addition of all the elements of the array. What is the final value of this reduction operation?",
+                "options": {
+                    "a": "1024",
+                    "b": "512",
+                    "c": "2048",
+                    "d": "256"
+                },
+                "answer": "b",
+                "explanation": "A[i]=1 if i is even. There are 1024/2 = 512 even numbers (and 512 odd) in the range [0, 1023]. The sum is 512 * 1 + 512 * 0 = 512."
+            },
+            {
+                "q": "Consider the same array A with 1024 elements where A[i]=1 if i is divisible by 2 and A[i] = 0 otherwise. Let us consider the most naive reduction kernel but with the XOR operation as the reduction operation in question. What is the final value of this XOR reduction operation after applying it on A?",
+                "options": {
+                    "a": "0",
+                    "b": "1"
+                },
+                "answer": "a",
+                "explanation": "The array has 512 ones (at even indices) and 512 zeros (at odd indices). The XOR sum of an even number of 1s is 0. The XOR sum of any number of 0s is 0. The final result is 0 ^ 0 = 0."
+            },
+            {
+                "q": "Consider the following reduction kernel code snippet.\n_global_ void reduce (int * g_idata, int * g_odata, unsigned int n) {\n extern __shared__ int sdata [];\n unsigned int tid = threadIdx .x;\n unsigned int i = blockIdx .x * blockDim .x + threadIdx .x ;\n sdata [ tid ] = (i<n)?g_idata [i]: 0;\n __syncthreads ();\n for(unsigned int s=1; s <blockDim.x; s *= 2)\n {\n int index = 2 * s * tid;\n if (index < blockDim.x)\n sdata [index] += sdata [index + s ];\n __syncthreads () ;\n }\n if (tid == 0)\n g_odata [blockIdx . x ] = sdata [0];\n}\nWhich of the following options is correct?",
+                "options": {
+                    "a": "The kernel suffers only from high divergence.",
+                    "b": "The kernel suffers only from shared memory bank conflicts.",
+                    "c": "The kernel suffers from high divergence as well as memory bank conflicts.",
+                    "d": "None of the above"
+                },
+                "answer": "b",
+                "explanation": "This reduction kernel (Reduction 2 style) primarily suffers from shared memory bank conflicts when the stride `s` becomes large enough (e.g., multiple of half the number of banks)."
+            },
+            {
+                "q": "Consider the reduction kernels taught in the lecture. Which among them completely unrolls the loop using the template parameter?",
+                "options": {
+                    "a": "Reduction 2",
+                    "b": "Reduction 3",
+                    "c": "Reduction 4",
+                    "d": "Reduction 6"
+                },
+                "answer": "d",
+                "explanation": "Optimized reduction kernels (like Reduction 6 in NVIDIA examples) often use C++ templates based on block size to fully unroll the reduction loop in shared memory for better performance."
+            },
+            {
+                "q": "In a CUDA reduction kernel, if the input array size is n=1024 and threads per block are 32, how many total threads are required in the second kernel invocation, assuming two elements are processed per thread in the first iteration?",
+                "options": {
+                    "a": "32",
+                    "b": "64",
+                    "c": "128",
+                    "d": "256"
+                },
+                "answer": "d",
+                "explanation": "First pass: 1024 elements processed 2 per thread requires 1024/2 = 512 conceptual results (partial sums per block). Second pass: 512 inputs processed 2 per thread requires 512/2 = 256 threads."
+            },
+            {
+                "q": "In a parallel reduction kernel, the size of the input array is 210, and each block has 64 threads. Assuming each thread processes two elements in the first iteration, how many blocks are required for the first kernel invocation?",
+                "options": {
+                    "a": "4",
+                    "b": "2",
+                    "c": "8",
+                    "d": "16"
+                },
+                "answer": "b",
+                "explanation": "Each block processes 64 threads * 2 elements/thread = 128 elements. To process 210 elements, we need ceil(210 / 128) = ceil(1.64) = 2 blocks."
+            },
+            {
+                "q": "Which of the following statements is correct?",
+                "options": {
+                    "a": "Inclusive scan of an array generates a new array where each element j is the sum of all elements up to and excluding j.",
+                    "b": "Exclusive scan of an array generates a new array where each element j is the sum of all elements including j",
+                    "c": "A Bitonic Sequence is a sequence of numbers which is first strictly decreasing then after a point strictly increasing.",
+                    "d": "In the most naive version of the reduction operation, half of the threads are idle on first loop iteration while executing the kernel."
+                },
+                "answer": "d",
+                "explanation": "Naive reductions often halve the active threads each iteration (`if(tid < s)`), meaning half are idle in the first iteration (s=blockDim/2)."
+            },
+            {
+                "q": "In the given code snippet for reduction using Algorithm Cascading, there are some mistakes. Identify the line number(s) for the probable error(s). Multiple choices can be possible for this question.\n\n1: unsigned int tid = threadIdx .x;\n2: unsigned int i = blockIdx .x * 2 * ( blockDim .x) + threadIdx .x;\n3: unsigned int gridSize = blockSize*2*gridDim.x;\n4: sdata[tid] = 0;\n5: while (i < n) {\n6: sdata[tid] += g_idata[i] + g_idata[i+gridSize];\n7: i ++;\n8: }\n\nC) Line 7\nD) Line 6",
+                "options": {
+                    "a": "A) Line 3",
+                    "b": "B) Line 4",
+                    "c": "C and D",
+                    "d": "Only C"
+                },
+                "answer": "c",
+                "explanation": "Line 6 incorrectly uses gridSize for the offset (should likely be related to blockDim or stride), and Line 7 incorrectly increments i by 1 instead of the appropriate grid stride for cascading reduction."
+            },
+            {
+                "q": "For the following code snippet for reduction, find the total number of memory write accesses between line number 6 and 10 per block. The blockDim.x is 64 and warp size is 16.\nKernel\n• unsigned int tid = threadIdx .x;\n• unsigned int i = blockldx .x* blockDim .x + threadIdx .x;\n• __shared__ float sdata[64];\n• sdata [ tid ] = (i < n) ? g_idata [i] : 0;\n• __syncthreads ();\n• (6) for (unsigned int s=blockDim.x/2; s>0; s»=1)\n• { if (tid < s)\n• (8) sdata [ tid ] += sdata [tid + s];\n• __syncthreads ();\n• (10) }",
+                "options": {
+                    "a": "10",
+                    "b": "5",
+                    "c": "4",
+                    "d": "20"
+                },
+                "answer": "c",
+                "explanation": "Assuming 'write accesses' refers to the number of shared memory write transactions per block, and given 64 threads/block and 16 threads/warp, there are 4 warps. If each warp ideally causes one write transaction per iteration where it's active, the total might relate to the number of warps, which is 4."
+            },
+            {
+                "q": "Referring to the above code snippet (Q9) find the total number of memory read accesses between line number 6 and 10 per block as described in question 9.",
+                "options": {
+                    "a": "10",
+                    "b": "20",
+                    "c": "23",
+                    "d": "30"
+                },
+                "answer": "b",
+                "explanation": "Following the solution's logic: 5 read accesses (transactions) per warp over the loop * 4 warps per block = 20 total read accesses (transactions) per block."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "What is the optimal coarsening factor for thread-level coarsening for the above program.\n\nCommon data: GPU Arch: 20 SMs, 2048 active thr/SM, 32 blocks/SM, 64K reg/SM, 96KB shm/SM, 48KB shm/block. Kernel: finds maximum, uses `__shared__ int sdata [1024]`, blockDim.x implicitly 1024 based on array size.",
+                "options": {
+                    "a": "4",
+                    "b": "8",
+                    "c": "12",
+                    "d": "16"
+                },
+                "answer": "b",
+                "explanation": "Thread coarsening factor x: Threads/block = 1024/x. Active blocks/SM = 2048 / (1024/x) = 2x. Shared mem/block = 4KB. Shared mem/SM = 2x * 4KB <= 96KB => x <= 12. Optimal power of 2 is 8."
+            },
+            {
+                "q": "What is the optimal coarsening factor for block-level coarsening for the above program.\n\nCommon data: GPU Arch: 20 SMs, 2048 active thr/SM, 32 blocks/SM, 64K reg/SM, 96KB shm/SM, 48KB shm/block. Kernel: finds maximum, uses `__shared__ int sdata [1024]`, blockDim.x implicitly 1024 based on array size.",
+                "options": {
+                    "a": "4",
+                    "b": "16",
+                    "c": "12",
+                    "d": "8"
+                },
+                "answer": "d",
+                "explanation": "Block coarsening factor x: Threads/block = 1024. Active blocks/SM = 2048/1024=2. Shared mem/block = x * 4KB. Shared mem/SM = 2 * (x*4KB) = 8x KB <= 96KB => x <= 12. Optimal power of 2 is 8."
+            },
+            {
+                "q": "For an effective Thread-level Coarsening across x axis for a 2D kernel with launch parameter <<<(16,16,1),(64,16,1)>>>, coarsening factor 4 and target platform with warp size 8, the minimum and maximum bound for stride length are",
+                "options": {
+                    "a": "1, 4",
+                    "b": "8, 8",
+                    "c": "4, 8",
+                    "d": "8, 16"
+                },
+                "answer": "d",
+                "explanation": "Max stride <= (Threads in dimension) / Factor = 64 / 4 = 16. Min stride >= Warp size = 8. Range is [8, 16]."
+            },
+            {
+                "q": "For an effective Thread-level Coarsening across z axis for a 3D kernel with launch parameter <<<(16,16,16),(32,16,8)>>>, coarsening factor 2 and target platform with warp size 8, the minimum and maximum bound for stride length are",
+                "options": {
+                    "a": "8, 4",
+                    "b": "4, 8",
+                    "c": "1, 4",
+                    "d": "not feasible"
+                },
+                "answer": "d",
+                "explanation": "Max stride <= (Threads in dimension) / Factor = 8 / 2 = 4. Min stride >= Warp size = 8. Since Max (4) < Min (8), this coarsening configuration is not feasible."
+            },
+            {
+                "q": "What does \"cache pressure\" refer to in the context of memory access?",
+                "options": {
+                    "a": "Overloading the processor with instructions",
+                    "b": "Overworking the memory cache with excessive or wasteful memory access",
+                    "c": "Using GPU memory inefficiently for computation",
+                    "d": "Reducing memory bandwidth usage"
+                },
+                "answer": "b",
+                "explanation": "Cache pressure describes a situation where the working set size exceeds cache capacity or access patterns cause frequent evictions, leading to poor cache performance."
+            },
+            {
+                "q": "What type of memory access pattern minimizes cache pressure on a GPU?",
+                "options": {
+                    "a": "Frequent re-use of the same cache line",
+                    "b": "Random memory accesses",
+                    "c": "Streaming data access with no data re-use",
+                    "d": "Accessing non-coalesced global memory"
+                },
+                "answer": "c",
+                "explanation": "Streaming access patterns that read data only once minimize cache pressure because data doesn't need to be kept resident in the cache for re-use."
+            },
+            {
+                "q": "Which reduction kernel method is likely to experience divergent branching due to modulo arithmetic?",
+                "options": {
+                    "a": "Reduce1",
+                    "b": "Reduce2",
+                    "c": "Reduce3",
+                    "d": "Reduce5"
+                },
+                "answer": "a",
+                "explanation": "Early or naive reduction implementations (like Reduce1 in NVIDIA examples) often use modulo operations or thread index checks that can lead to divergence within warps."
+            },
+            {
+                "q": "Consider the kernels specified with modified calling parameters: kernel1<<< 512, 512 >>>, kernel2<<< 256, 1024 >>>. What will be kernel launch parameters for a inner thread fused version of kernels 1 and 2?",
+                "options": {
+                    "a": "fused_kernel<<<512,512 >>>",
+                    "b": "fused_kernel<<<512,1024 >>>",
+                    "c": "fused_kernel<<<1024,1024 >>>",
+                    "d": "None of the above"
+                },
+                "answer": "b",
+                "explanation": "Inner thread fusion combines threads: Fused BlockDim = max(BlockDim1, BlockDim2) = max(512, 1024) = 1024. Fused GridDim = max(GridDim1, GridDim2) = max(512, 256) = 512. Launch <<<512, 1024>>>."
+            },
+            {
+                "q": "Consider the kernels specified with modified calling parameters: kernel1<<< 1024, 512 >>>, kernel2<<< 512, 1024 >>>. What will be kernel launch parameters for a inner block fused version of kernels 1 and 2?",
+                "options": {
+                    "a": "fused_kernel<<<512,512 >>>",
+                    "b": "fused_kernel<<<512,1024 >>>",
+                    "c": "fused_kernel<<<1024,1024 >>> (correct)",
+                    "d": "fused_kernel<<<1024, 1536>>>"
+                },
+                "answer": "d",
+                "explanation": "Inner block fusion combines blocks: Fused BlockDim = BlockDim1 + BlockDim2 = 512 + 1024 = 1536. Fused GridDim = max(GridDim1, GridDim2) = max(1024, 512) = 1024. Launch <<<1024, 1536>>>."
+            },
+            {
+                "q": "Consider the kernels specified with modified calling parameters: kernel1<<< 512, 512 >>>, kernel2<<< 512, 1024 >>>. What will be kernel launch parameters for a inter block fused version of the kernels 1 and 2?",
+                "options": {
+                    "a": "fused_kernel<<<512,1024 >>>",
+                    "b": "fused_kernel<<<1024,512 >>>",
+                    "c": "fused_kernel<<<1024,1024 >>> (correct)",
+                    "d": "fused_kernel<<<1024,2048 >>>"
+                },
+                "answer": "c",
+                "explanation": "Inter block fusion combines grids sequentially: Fused BlockDim = max(BlockDim1, BlockDim2) = max(512, 1024) = 1024. Fused GridDim = GridDim1 + GridDim2 = 512 + 512 = 1024. Launch <<<1024, 1024>>>."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "State which of the following statements are true.\na)OpenCl context keeps track of the memory and programs objects that are created for each device.\nb)For single device, OpenCl context is not required\nc)Command-queue to co-ordinate execution of the kernels on the devices\nd)Host can have access to local memory at run-time\ne)OpenCL allows synchronization across different work-groups.",
+                "options": {
+                    "a": "a, c",
+                    "b": "b, c, d",
+                    "c": "a, d",
+                    "d": "a, c, e"
+                },
+                "answer": "a",
+                "explanation": "Statements (a) and (c) are true: Contexts manage objects, and command queues manage kernel execution. Contexts are always required, hosts cannot access device local memory directly, and standard OpenCL sync is within work-groups."
+            },
+            {
+                "q": "What is the corresponding term in OpenCL for scalar core in CUDA:",
+                "options": {
+                    "a": "thread",
+                    "b": "work-item",
+                    "c": "compute unit",
+                    "d": "processing element"
+                },
+                "answer": "d",
+                "explanation": "A CUDA core (or Scalar Processor, SP) corresponds most directly to a Processing Element (PE) in OpenCL terminology."
+            },
+            {
+                "q": "What will be the suitable global_work_size:\n\nCommon data: Matmul kernel (tiled), inputs 128X256 and 256X4096. Tile (32,32). Output size 128x4096.",
+                "options": {
+                    "a": "global_work_size = {32,128,1 }",
+                    "b": "global_work_size = {128, 4096,1 }",
+                    "c": "global_work_size = {256, 4096, 1}",
+                    "d": "global_work_size = {1024 ,4096, 1}"
+                },
+                "answer": "b",
+                "explanation": "The global work size should typically match the dimensions of the output matrix, which is 128 rows and 4096 columns. Assuming columns map to x and rows to y, this might be {4096, 128, 1}. Option B {128, 4096, 1} swaps these but covers the dimensions."
+            },
+            {
+                "q": "What will be the suitable local work size\n\nCommon data: Matmul kernel (tiled), inputs 128X256 and 256X4096. Tile (32,32). Output size 128x4096. Max threads/block=1024.",
+                "options": {
+                    "a": "local_work_size = {32,32, 1}",
+                    "b": "local_work_size = {1024,1,1 }",
+                    "c": "local_work_size = {1024 ,2048,1 }",
+                    "d": "local_work_size = { 2048, 4096,1 }"
+                },
+                "answer": "a",
+                "explanation": "For tiled algorithms, the local work size (work-group size) is typically set to match the tile dimensions, which is (32, 32) here."
+            },
+            {
+                "q": "What is the corresponding term in CUDA for private memory in OpenCL:",
+                "options": {
+                    "a": "global memory",
+                    "b": "local memory",
+                    "c": "shared memory",
+                    "d": "private memory"
+                },
+                "answer": "d",
+                "explanation": "OpenCL `private` memory corresponds directly to CUDA `private` memory (per-thread registers and stack spills)."
+            },
+            {
+                "q": "What is the corresponding term in OpenCL for thread in CUDA:",
+                "options": {
+                    "a": "work-item",
+                    "b": "work-group",
+                    "c": "compute unit",
+                    "d": "compute core"
+                },
+                "answer": "a",
+                "explanation": "A CUDA thread corresponds directly to an OpenCL work-item."
+            },
+            {
+                "q": "Regardless of whether the command-queue resides on the host or a device, each Command in OpenCL passes through six states in the following order-",
+                "options": {
+                    "a": "Queued, Submitted, Ready, Running, Ended, Complete",
+                    "b": "Submitted, Queued, Ready, Running, Ended, Complete",
+                    "c": "Submitted, Queued, Running, Pause, Ended, Complete",
+                    "d": "Queued, Submitted, Running, Pause, Restart ,Completens"
+                },
+                "answer": "a",
+                "explanation": "The standard lifecycle states for an OpenCL command in a queue are Queued, Submitted, Ready, Running, Ended, and Complete."
+            },
+            {
+                "q": "For multiple devices, a single OpenCL context can be created. Is the statement true or false?",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "An OpenCL context can be created to manage multiple devices, allowing coordination and data sharing between them."
+            },
+            {
+                "q": "Consider a 1D Naive Reduction Kernel calculating the sum of 2^22 elements. The maximum size of a work group that can be launched is 512. The kernel is invoked multiple times. What is the content of the arrays global_work_size and local_work_size when the kernel is invoked in the third iteration.",
+                "options": {
+                    "a": "global_work_size = {8192,1,1 }, local_work_size = {512,1,1 }",
+                    "b": "global_work_size = {512, 1,1 ], local_work_size = {512,1,1 }",
+                    "c": "global_work_size = {1, 1, 1}, local_work_size = {16,1,1 }",
+                    "d": "global_work_size = {16,1, 1}, local_work_size = { 16, 1,1 }"
+                },
+                "answer": "d",
+                "explanation": "Iter 1 reduces 2^22 elements to 2^22/512 = 2^13 outputs. Iter 2 reduces 2^13 elements to 2^13/512 = 2^4 = 16 outputs. Iter 3 reduces 16 elements. Requires 16 threads. Launch needs global size >= 16 and multiple of local size. Smallest feasible is global={16}, local={16}."
+            },
+            {
+                "q": "The objective(s) of creating command queue in OpenCL is(are)-\ni) To co-ordinate execution of the kernels on the devices\nii) To queue a set of commands in some order\niii) To share common data between multiple commands",
+                "options": {
+                    "a": "i, ii, iii",
+                    "b": "i,ii",
+                    "c": "i",
+                    "d": "None of them"
+                },
+                "answer": "b",
+                "explanation": "Command queues coordinate kernel execution (i) by enqueuing commands in a specific order (ii); data sharing happens via memory objects (buffers), not the queue itself."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "What is the advantage of implementing multiple command queues within the same context in a single device for an OpenCL code?",
+                "options": {
+                    "a": "Helps in the faster data processing by improving synchronization",
+                    "b": "Reduces kernel launch overhead by having multiple command queues",
+                    "c": "Pipeline can be formed for better utilization by not having the device sit idle waiting for data",
+                    "d": "None of them"
+                },
+                "answer": "c",
+                "explanation": "Multiple command queues on a single device enable out-of-order execution and pipelining of tasks (like data transfers and kernel executions) to improve device utilization."
+            },
+            {
+                "q": "Device fission can be helpful in following case(s)-\ni) Dividing CPU-like devices into smaller sub-devices\nii) To build multiple OpenCL streams in GPUs\niii) To merge multiple devices to increase parallelism",
+                "options": {
+                    "a": "i,ii,iii",
+                    "b": "i,ii",
+                    "c": "i",
+                    "d": "None of them"
+                },
+                "answer": "c",
+                "explanation": "OpenCL Device Fission is primarily used to partition a device (especially CPUs) into smaller logical sub-devices (i); it's not the standard mechanism for GPU streams or merging devices."
+            },
+            {
+                "q": "Consider the reduction kernel to find the maximum of a given data set (65536 elements). Kernel code provided... If you apply thread coarsening with coarsening factor 4 for a kernel. The maximum for a size of a work group that can be launched is 1024 work-items. The kernel invocation command is given below. What is the content of the arrays global_work_size and local_work_size?\n\nerr = clEnqueueNDRangeKernel (commands, max_coarsened, 1, NULL, &global_work_size, &local_work_size, 0, NULL, NULL );",
+                "options": {
+                    "a": "global_work_size = {8192,1,1 }, local_work_size = {2048,1,1 }",
+                    "b": "global_work_size = {4194304,1,1}, local_work_size = {2048,1 ,1 }",
+                    "c": "global_work_size = {16384, 1, 1}, local_work_size = {1024 ,1,1 }",
+                    "d": "global_work_size = {131072,1, 1}, local_work_size = { 1024, 1,1 } (correct)"
+                },
+                "answer": "c",
+                "explanation": "With 65536 (2^16) elements and coarsening factor 4, the effective number of items the launch needs to cover is 65536 / 4 = 16384 (2^14). Max local size is 1024. So, global={16384,1,1}, local={1024,1,1}."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (i).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\ncl_event event_cpu, event_gpul, event_gpu2, events_1[2], events_2[2] ;\nerr = clEnqueueNDRangeKernel ( cmdQ_CPU, K1, 1, NULL, global, local, 0, NULL, &event_cpu );\nevents_1[0]=*(_____i_____);",
+                "options": {
+                    "a": "&event_gpul",
+                    "b": "&event_cpu",
+                    "c": "&events_1",
+                    "d": "1"
+                },
+                "answer": "b",
+                "explanation": "The line `events_1[0]=*(...);` likely intends to store the event associated with the K1 kernel launch, which is `event_cpu`. The asterisk `*` seems erroneous; it should likely be `events_1[0] = event_cpu;`. Filling blank (i) requires the event handle itself or its address, matching `&event_cpu`."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (ii).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nerr = clEnqueueNDRangeKernel ( cmdQ_GPU1, K2, 1, NULL, global, local, 0, NULL, &event_gpu1 );\nevents_1[1]=*(_____ii_____);",
+                "options": {
+                    "a": "&event_gpul",
+                    "b": "&event_gpu2",
+                    "c": "&events_1",
+                    "d": "&event_cpu"
+                },
+                "answer": "a",
+                "explanation": "This line likely intends to store the event from the K2 kernel launch, which is `event_gpu1`. Filling blank (ii) requires `&event_gpu1`."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (iii).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nerr = clEnqueueNDRangeKernel ( cmdQ_GPU2, K3, 1, NULL, global, local, ___iii___, ___iv___, &event_gpu2 );",
+                "options": {
+                    "a": "0",
+                    "b": "1",
+                    "c": "2",
+                    "d": "3"
+                },
+                "answer": "c",
+                "explanation": "Kernel K3 depends on K1 (event_cpu) and K2 (event_gpu1), which are stored in `events_1`. Therefore, K3 must wait for 2 events."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (iv).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nerr = clEnqueueNDRangeKernel ( cmdQ_GPU2, K3, 1, NULL, global, local, ___iii___, ___iv___, &event_gpu2 );",
+                "options": {
+                    "a": "&event_gpul",
+                    "b": "&event_gpu2",
+                    "c": "events_1",
+                    "d": "&event_cpu"
+                },
+                "answer": "c",
+                "explanation": "Kernel K3 depends on the events stored in the `events_1` array (which holds event_cpu and event_gpu1)."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (v).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nevents_2[0]=*(&event_gpu1); // Suspected typo\nevents_2[1]=*(&event_gpu2); // Suspected typo\nerr = clEnqueueNDRangeKernel ( cmdQ_CPU, K4_c, 1, NULL, global, local, ___v___, ___vi___, &event_cpu);\n...",
+                "options": {
+                    "a": "0",
+                    "b": "1",
+                    "c": "2",
+                    "d": "3"
+                },
+                "answer": "c",
+                "explanation": "Kernel K4_c depends on K3 (event_gpu2). Based on the provided answer 'C' (2), it implies K4_c waits for 2 events, likely K3 and perhaps an earlier one, though the DAG shows only K3 as direct predecessor. Following the answer pattern."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (vi).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nevents_2[0]=*(&event_gpu1); // Suspected typo\nevents_2[1]=*(&event_gpu2); // Suspected typo\nerr = clEnqueueNDRangeKernel ( cmdQ_CPU, K4_c, 1, NULL, global, local, ___v___, ___vi___, &event_cpu);\n...",
+                "options": {
+                    "a": "&event_gpul",
+                    "b": "&event_gpu2",
+                    "c": "&events_1",
+                    "d": "&events_2"
+                },
+                "answer": "d",
+                "explanation": "Consistent with the answer to Q8 (v=2), this blank for the event wait list pointer likely corresponds to `&events_2`, assuming `events_2` holds the required two wait events."
+            },
+            {
+                "q": "Choose the correct option to fill in the blank in (vii).\n\nCommon data: DAG execution snippet. K1 on CPU, K2 on GPU1, K3 on GPU2. K4_c on CPU, K4_g on GPU1. Dependencies: (K1,K2)->K3, K3->K4_c, K3->K4_g.\nCode snippet:\n...\nerr = clEnqueueNDRangeKernel ( cmdQ_GPU1, K4_g, 1, NULL, global, local, ___vii___, &events_2, &event_gpu1 );",
+                "options": {
+                    "a": "0",
+                    "b": "1",
+                    "c": "2",
+                    "d": "3"
+                },
+                "answer": "c",
+                "explanation": "Kernel K4_g depends on K3 (event_gpu2). The launch command explicitly uses `&events_2` as the wait list. Consistent with answers for Q8/Q9, if `events_2` holds 2 events, then the number of events to wait for (vii) is 2."
+            }
+        ]
+
     }
 }

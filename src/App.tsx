@@ -76,9 +76,9 @@ const SUBJECTS = [
     icon: BookOpen
   },
   {
-    id: 'GPU Architecture and Programming',
+    id: 'GPU Architectures and Programming',
     title: 'GPU Architecture and Programming',
-    description: 'Study GPU hardware design, parallel computing principles, and programming models like CUDA and OpenCL',
+    description: 'Learn about CPU/GPU architectures, SIMD/SIMT paradigms, and programming models like CUDA and OpenCL with optimization techniques',
     image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   }
