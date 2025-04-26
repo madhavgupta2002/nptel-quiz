@@ -90,8 +90,8 @@ const SUBJECTS = [
     icon: BookOpen
   },
   {
-    id: 'Fuzzy Logic',
-    title: 'Fuzzy Logic',
+    id: 'Fuzzy Sets, Logic and Systems & Applications',
+    title: 'Fuzzy Sets, Logic and Systems & Applications',
     description: 'Study fuzzy set theory, fuzzy logic systems, membership functions, and applications in control systems and decision making',
     image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
@@ -173,8 +173,8 @@ const App: React.FC = () => {
               value={searchQuery}
               onChange={handleSearchChange}
               className={`w-full pl-10 pr-4 py-3 rounded-xl ${isDarkMode
-                  ? 'bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus:ring-indigo-500 focus:border-indigo-500'
-                  : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500'
+                ? 'bg-gray-800 border-gray-700 text-white placeholder-gray-400 focus:ring-indigo-500 focus:border-indigo-500'
+                : 'bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500'
                 } border shadow-sm focus:outline-none focus:ring-2 transition-all`}
             />
           </div>
