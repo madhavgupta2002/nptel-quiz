@@ -20511,5 +20511,1343 @@ export const assignment: Assignment = {
 
 
 
+
+
+
+    },
+
+    "Introduction to Cognitive Psychology": {
+        "Assignment 1": [
+            {
+                "q": "Wilhelm Wundt and his students used a technique known as __________ to study mental states.",
+                "options": {
+                    "a": "behaviorism",
+                    "b": "intensity measurement",
+                    "c": "componentialism",
+                    "d": "introspection"
+                },
+                "answer": "d",
+                "explanation": "Wundt used introspection, the examination of one's own conscious thoughts and feelings, as a primary method in his early psychological laboratory."
+            },
+            {
+                "q": "Which psychologist extensively tested his own memory to develop theories of cognition?",
+                "options": {
+                    "a": "Aristotle",
+                    "b": "Wundt",
+                    "c": "Ebbinghaus",
+                    "d": "Chomsky"
+                },
+                "answer": "c",
+                "explanation": "Hermann Ebbinghaus conducted pioneering experimental studies on memory, famously using himself as the primary subject to study learning and forgetting curves."
+            },
+            {
+                "q": "All connectionist models share the assumption that:",
+                "options": {
+                    "a": "a central processor directs the flow of information",
+                    "b": "processing occurs in parallel",
+                    "c": "knowledge is stored in various storehouses",
+                    "d": "processing occurs serially"
+                },
+                "answer": "b",
+                "explanation": "Connectionist models, inspired by neural networks, assume that information processing happens simultaneously across many interconnected units, i.e., in parallel."
+            },
+            {
+                "q": "The term “limited capacity processors” suggests that:",
+                "options": {
+                    "a": "computers have limited memory storage",
+                    "b": "neurons can only fire at a certain rate",
+                    "c": "human beings can only do so many things at once",
+                    "d": "processing in the brain occurs in parallel"
+                },
+                "answer": "c",
+                "explanation": "This term refers to the idea that humans have finite cognitive resources and can only attend to and process a limited amount of information at any given time."
+            },
+            {
+                "q": "A traditional \"school\" within psychology that had as its goal the identification of the simplest possible units of the mind:",
+                "options": {
+                    "a": "functionalism",
+                    "b": "structuralism",
+                    "c": "behaviorism",
+                    "d": "componentialism"
+                },
+                "answer": "b",
+                "explanation": "Structuralism, associated with Wundt and Titchener, aimed to analyze the basic elements or structures of conscious experience."
+            },
+            {
+                "q": "Cognitive psychology is broad, and thus overlaps with many other elds including neuroscience, philosophy, and __________.",
+                "options": {
+                    "a": "botany",
+                    "b": "astronomy",
+                    "c": "linguistics",
+                    "d": "mining"
+                },
+                "answer": "c",
+                "explanation": "Cognitive psychology frequently intersects with linguistics, the scientific study of language, as language is a key cognitive function."
+            },
+            {
+                "q": "William James's ideas regarding psychological phenomena centered around the idea of",
+                "options": {
+                    "a": "the sea of the subconscious",
+                    "b": "a stream of consciousness",
+                    "c": "a stream of subconsciousness",
+                    "d": "a sea of consciousness"
+                },
+                "answer": "b",
+                "explanation": "William James famously described consciousness not as a series of disconnected states but as a continuous, flowing 'stream'."
+            },
+            {
+                "q": "A body of knowledge structured according to what its proponents consider important, which guides research topics and research methods, is called a __________",
+                "options": {
+                    "a": "hypothesis",
+                    "b": "methodology",
+                    "c": "paradigm",
+                    "d": "metaphor"
+                },
+                "answer": "c",
+                "explanation": "A paradigm provides the fundamental assumptions, concepts, and practices for a field of inquiry, guiding research within it."
+            },
+            {
+                "q": "The analysis of information processing systems is of special interest to __________ psychology.",
+                "options": {
+                    "a": "behavioral",
+                    "b": "biological",
+                    "c": "psychoanalytic",
+                    "d": "cognitive"
+                },
+                "answer": "d",
+                "explanation": "Cognitive psychology heavily utilizes the information processing approach, viewing the mind as a system that encodes, stores, and retrieves information."
+            },
+            {
+                "q": "If you think of cognitive processing as a type of information processing, then the brain is the __________ and the cognitive processes themselves are the __________",
+                "options": {
+                    "a": "response; stimulus",
+                    "b": "hardware; software",
+                    "c": "software; hardware",
+                    "d": "stimulus; response"
+                },
+                "answer": "b",
+                "explanation": "In the computer metaphor often used in cognitive psychology, the physical brain is likened to hardware, and mental processes (thinking, memory) are likened to software."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "Which of the following processes the sensations coming into each sense organ, allowing us to understand and interpret the sensations we receive?",
+                "options": {
+                    "a": "environment",
+                    "b": "sensory system",
+                    "c": "stimulus",
+                    "d": "brain"
+                },
+                "answer": "b",
+                "explanation": "The sensory system receives raw sensory input, but perception involves the brain interpreting these sensations."
+            },
+            {
+                "q": "Which of these psychological approaches focuses on how humans use principles of organization to understand our surroundings?",
+                "options": {
+                    "a": "perception-action",
+                    "b": "gestalt",
+                    "c": "top-down",
+                    "d": "computational"
+                },
+                "answer": "b",
+                "explanation": "Gestalt psychology emphasized that we perceive whole forms and patterns based on inherent organizational principles, rather than just individual sensations."
+            },
+            {
+                "q": "The two best studied forms of perception are:",
+                "options": {
+                    "a": "visual and auditory",
+                    "b": "visual and olfactory",
+                    "c": "visual and haptic",
+                    "d": "auditory and olfactory"
+                },
+                "answer": "a",
+                "explanation": "Vision and hearing are the most extensively researched sensory modalities in the study of perception."
+            },
+            {
+                "q": "Reversible figures illustrate the principle of:",
+                "options": {
+                    "a": "bottom-up processing",
+                    "b": "figure-ground organization",
+                    "c": "size constancy",
+                    "d": "retinal imagery"
+                },
+                "answer": "b",
+                "explanation": "Reversible figures (like the Necker cube or vase/face illusion) demonstrate how our perception organizes a stimulus into a figure that stands out against a background."
+            },
+            {
+                "q": "A stencil provides a good analogy for the theory of:",
+                "options": {
+                    "a": "top-down processing",
+                    "b": "template matching",
+                    "c": "good continuation",
+                    "d": "featural analysis"
+                },
+                "answer": "b",
+                "explanation": "Template matching theory suggests we recognize patterns by comparing incoming sensory information to stored templates, much like fitting a shape through a stencil."
+            },
+            {
+                "q": "Gibson's theory of direct perception is in direct opposition to the __________ approach to perception.",
+                "options": {
+                    "a": "connectionist",
+                    "b": "constructivist",
+                    "c": "bottom-up",
+                    "d": "gestalt"
+                },
+                "answer": "b",
+                "explanation": "Gibson argued for direct perception (information is available in the stimulus itself), contrasting with constructivist views that perception involves significant cognitive interpretation and construction."
+            },
+            {
+                "q": "Prototype matching theory argues that precepts are compared to __________ in memory.",
+                "options": {
+                    "a": "idealized representations",
+                    "b": "abstract dot patterns",
+                    "c": "gestalt principles",
+                    "d": "lists of features"
+                },
+                "answer": "a",
+                "explanation": "Prototype theory posits that we categorize objects by comparing them to an averaged, idealized representation (prototype) of the category stored in memory."
+            },
+            {
+                "q": "__________ are to visual perception what phonemes are to language, according to Biederman.",
+                "options": {
+                    "a": "templates",
+                    "b": "distal stimuli",
+                    "c": "geons",
+                    "d": "receptors"
+                },
+                "answer": "c",
+                "explanation": "Biederman's Recognition-by-Components theory proposes that objects are recognized based on combinations of basic 3D shapes called geons, analogous to phonemes in language."
+            },
+            {
+                "q": "Which of these help us estimate objects' size and distance to aid in our perception?",
+                "options": {
+                    "a": "stimuli",
+                    "b": "sensations",
+                    "c": "cues",
+                    "d": "neurons"
+                },
+                "answer": "c",
+                "explanation": "Perceptual cues (like linear perspective, relative size, texture gradient) are features in the environment or visual system that provide information about depth, size, and distance."
+            },
+            {
+                "q": "You are eating a meal at an open-air restaurant a few hundred yards from the ocean. You hear a constant whooshing sound. According to the likelihood principle, what would you assume caused the noise?",
+                "options": {
+                    "a": "an earthquake",
+                    "b": "a series of airplanes landing",
+                    "c": "traffic a few miles away",
+                    "d": "waves crashing on the beach"
+                },
+                "answer": "d",
+                "explanation": "The likelihood principle (Helmholtz) suggests we perceive the object or event that is most likely to have caused the pattern of sensory stimulation, making waves the most probable cause in this context."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "Noticing a red flower among a eld of purple flowers illustrates",
+                "options": {
+                    "a": "the attention capture phenomenon",
+                    "b": "the cocktail party effect",
+                    "c": "the bottleneck of attention",
+                    "d": "a shadowing task"
+                },
+                "answer": "a",
+                "explanation": "Attention capture occurs when a stimulus automatically draws attention due to its distinctiveness or salience compared to its surroundings."
+            },
+            {
+                "q": "According to Treisman, if you listen to two competing messages simultaneously, you are more likely to pick up information from the second message if that message __________.",
+                "options": {
+                    "a": "relates to the other message",
+                    "b": "was spoken more slowly",
+                    "c": "includes a spotlight",
+                    "d": "is louder"
+                },
+                "answer": "a",
+                "explanation": "Treisman's Attenuation Theory suggests that even unattended messages are processed for meaning, and relevant information (like that related to the attended message) can break through."
+            },
+            {
+                "q": "Stroop interference lessens when:",
+                "options": {
+                    "a": "participants are given more practice at naming colors",
+                    "b": "participants are encouraged to focus carefully",
+                    "c": "participants are given more practice at reading color names",
+                    "d": "participants are better readers"
+                },
+                "answer": "a",
+                "explanation": "Practicing the less automatic task (color naming) helps override the more automatic task (word reading), thus reducing the interference observed in the Stroop effect."
+            },
+            {
+                "q": "When listening to a conversation, your attention is momentarily diverted when you hear your name spoken in a different conversation across the room. This is an example of the:",
+                "options": {
+                    "a": "Stroop effect",
+                    "b": "cocktail party effect",
+                    "c": "dichotic listening phenomenon",
+                    "d": "attenuation effect"
+                },
+                "answer": "b",
+                "explanation": "The cocktail party effect demonstrates our ability to focus on one auditory stream while filtering others, but also how salient stimuli (like one's name) from unattended streams can capture attention."
+            },
+            {
+                "q": "Broadbent, in proposing his filter theory of attention, argued that an attentional filter lets some information through and blocks out the rest. This filter is based upon:",
+                "options": {
+                    "a": "the meaning of the message",
+                    "b": "a physical characteristic of the message, such as its location",
+                    "c": "the importance of the message",
+                    "d": "the number of repetitions of the message"
+                },
+                "answer": "b",
+                "explanation": "Broadbent's early selection filter theory proposed that selection occurs early, based on physical characteristics (e.g., pitch, location), before semantic processing."
+            },
+            {
+                "q": "Our attention has been said to involve a __________ that filters out everything except the information we are attending to.",
+                "options": {
+                    "a": "net",
+                    "b": "bottleneck",
+                    "c": "switchboard",
+                    "d": "bridge"
+                },
+                "answer": "b",
+                "explanation": "The bottleneck metaphor describes attention as a limited capacity system where only a certain amount of information can pass through for further processing at any given time."
+            },
+            {
+                "q": "Which of these is known to influence the cocktail party effect?",
+                "options": {
+                    "a": "a person's level of extroversion or introversion",
+                    "b": "a person's intelligence",
+                    "c": "the salience of the message",
+                    "d": "cultural differences in filtering abilities"
+                },
+                "answer": "c",
+                "explanation": "The personal relevance or salience of unattended information (like hearing your name) significantly influences whether it breaks through the attentional filter."
+            },
+            {
+                "q": "According to __________ theory, we never actually acquire unattended material at all.",
+                "options": {
+                    "a": "capacity",
+                    "b": "bottleneck",
+                    "c": "schema",
+                    "d": "attenuation"
+                },
+                "answer": "c",
+                "explanation": "Some interpretations of schema theory suggest that information inconsistent with active schemas might not be processed or acquired, effectively filtering it out entirely."
+            },
+            {
+                "q": "Children with attention deficit hyperactivity disorder (ADHD):",
+                "options": {
+                    "a": "are more likely to be girls than boys",
+                    "b": "cannot sustain vigilance on repetitive or dull tasks",
+                    "c": "cannot switch attention from one task to another",
+                    "d": "cannot devote mental resources to tasks"
+                },
+                "answer": "b",
+                "explanation": "A key characteristic of ADHD is difficulty maintaining sustained attention, particularly on tasks perceived as boring or requiring prolonged mental effort."
+            },
+            {
+                "q": "According to Treisman, people tend to process:",
+                "options": {
+                    "a": "only as much as is necessary to separate the attended from the unattended message",
+                    "b": "only to the highest possible level given the amount of background distraction",
+                    "c": "only to the level of linguistic characteristics, separating it into words",
+                    "d": "only to the level of physical characteristics"
+                },
+                "answer": "a",
+                "explanation": "Treisman's Attenuation Theory suggests unattended information is processed to the extent needed to determine its relevance, allowing separation from the attended stream."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "Remembering your phone number in sequences such as xxx-xxx-xxxx and your Social Security number in sequences such as xxx-xx-xxxx are examples of",
+                "options": {
+                    "a": "short-term memory",
+                    "b": "encoding",
+                    "c": "sensory memory",
+                    "d": "chunking"
+                },
+                "answer": "d",
+                "explanation": "Chunking is the process of grouping individual pieces of information into larger, meaningful units to make them easier to remember."
+            },
+            {
+                "q": "The briefest form of memory is __________ memory.",
+                "options": {
+                    "a": "long-term",
+                    "b": "working",
+                    "c": "short-term",
+                    "d": "sensory"
+                },
+                "answer": "d",
+                "explanation": "Sensory memory holds information from the senses for a very brief period (milliseconds to seconds) before it decays or is transferred."
+            },
+            {
+                "q": "The suffix effect relates to which type of memory?",
+                "options": {
+                    "a": "iconic",
+                    "b": "echoic",
+                    "c": "short term",
+                    "d": "long term"
+                },
+                "answer": "b",
+                "explanation": "The suffix effect, where recall of the last items in an auditory list is impaired by an irrelevant sound ('suffix'), demonstrates properties of echoic (auditory sensory) memory."
+            },
+            {
+                "q": "The fact that the size of the memory set does affect search time in short-term memory suggests that:",
+                "options": {
+                    "a": "search is both self-terminating and serial",
+                    "b": "search is a serial process",
+                    "c": "search is a parallel process",
+                    "d": "search is exhaustive"
+                },
+                "answer": "b",
+                "explanation": "Sternberg's research showed search time increases linearly with set size, indicating a serial (one-by-one) comparison process in short-term memory search."
+            },
+            {
+                "q": "Some experts describe memory as a __________, while others believe it is a __________.",
+                "options": {
+                    "a": "checklist; blueprint",
+                    "b": "secret; journey",
+                    "c": "structure; process",
+                    "d": "ball of string; pool of water"
+                },
+                "answer": "c",
+                "explanation": "Memory can be conceptualized as both distinct storage systems (structure) and the dynamic operations involved in encoding, storage, and retrieval (process)."
+            },
+            {
+                "q": "Which of these is a component of the memory formation process?",
+                "options": {
+                    "a": "retrieval",
+                    "b": "interference",
+                    "c": "modality",
+                    "d": "inspiration"
+                },
+                "answer": "a",
+                "explanation": "The core processes of memory formation and use are encoding (getting information in), storage (keeping it), and retrieval (getting it out)."
+            },
+            {
+                "q": "Unattended information is stored briefly in:",
+                "options": {
+                    "a": "sensory memory",
+                    "b": "short-term memory",
+                    "c": "long-term memory",
+                    "d": "secondary memory"
+                },
+                "answer": "a",
+                "explanation": "Information that doesn't receive attention typically resides only briefly in sensory memory before fading away."
+            },
+            {
+                "q": "In the absence of rehearsal, short-term memory tends to:",
+                "options": {
+                    "a": "last about 8 seconds",
+                    "b": "last about 20 seconds",
+                    "c": "decay slowly over 24 hours",
+                    "d": "last for an unlimited amount of time"
+                },
+                "answer": "b",
+                "explanation": "Classic studies (e.g., Peterson & Peterson) suggest that without active rehearsal, information in short-term memory decays significantly within about 15-30 seconds."
+            },
+            {
+                "q": "The concept of fluid intelligence is highly related to:",
+                "options": {
+                    "a": "working memory capacity",
+                    "b": "echoic memory capacity",
+                    "c": "iconic memory capacity",
+                    "d": "interference"
+                },
+                "answer": "a",
+                "explanation": "Fluid intelligence (reasoning, problem-solving) strongly correlates with working memory capacity, the ability to hold and manipulate information actively."
+            },
+            {
+                "q": "One basic physiological mechanism for learning is the __________ rule, which states that if a synapse between two neurons is repeatedly activated at about the same time the postsynaptic neuron res, the chemistry of the synapse changes.",
+                "options": {
+                    "a": "Baddeley",
+                    "b": "Hebb",
+                    "c": "Tulving",
+                    "d": "Carlson"
+                },
+                "answer": "b",
+                "explanation": "The Hebbian rule ('neurons that fire together, wire together') describes a basic mechanism of synaptic plasticity thought to underlie learning and memory."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "Ebbinghaus's forgetting curve demonstrates that:",
+                "options": {
+                    "a": "Forgetting is rapid at first and then levels off",
+                    "b": "forgetting is slow at rst and then speeds up",
+                    "c": "forgetting occurs at a steady pace, beginning immediately after learning",
+                    "d": "no forgetting occurs until 24 hours after learning"
+                },
+                "answer": "a",
+                "explanation": "Ebbinghaus's research showed that forgetting is initially very rapid, but the rate of forgetting slows down over time."
+            },
+            {
+                "q": "Which of the following would be part of your declarative memory system?",
+                "options": {
+                    "a": "being able to name a hybrid car",
+                    "b": "knowing how to react to a red light",
+                    "c": "knowing how to drive a car",
+                    "d": "knowing how to ride a bicycle"
+                },
+                "answer": "a",
+                "explanation": "Declarative memory involves the conscious recall of facts (semantic memory) and events (episodic memory), like knowing the name of a type of car."
+            },
+            {
+                "q": "A schema for a routine event, such as going to the dentist, is called a:",
+                "options": {
+                    "a": "script",
+                    "b": "category",
+                    "c": "exemplar",
+                    "d": "prototype"
+                },
+                "answer": "a",
+                "explanation": "A script is a type of schema that represents the typical sequence of actions and events in a common situation."
+            },
+            {
+                "q": "Information such as the name of the person who sat in front of you in the fifth grade is stored in:",
+                "options": {
+                    "a": "sensory memory",
+                    "b": "short-term memory",
+                    "c": "working memory",
+                    "d": "long-term memory"
+                },
+                "answer": "d",
+                "explanation": "Memories for past events and information learned long ago, like details from fifth grade, reside in long-term memory."
+            },
+            {
+                "q": "The term “anterograde amnesia” refers to:",
+                "options": {
+                    "a": "the loss of the ability to form new memories.",
+                    "b": "the loss of the ability to recall old events.",
+                    "c": "the loss of short-term memory.",
+                    "d": "the loss of all memory ability."
+                },
+                "answer": "a",
+                "explanation": "Anterograde amnesia is the inability to create new long-term memories after the event that caused the amnesia."
+            },
+            {
+                "q": "The term \"retrograde amnesia\" refers to:",
+                "options": {
+                    "a": "the loss of the ability to form new memories.",
+                    "b": "the loss of the ability to recall old events.",
+                    "c": "the loss of short-term memory.",
+                    "d": "the loss of sensory memory."
+                },
+                "answer": "b",
+                "explanation": "Retrograde amnesia involves the loss of memories for events that occurred before the onset of amnesia."
+            },
+            {
+                "q": "When we cannot retrieve information from memory, we say that __________ has occurred.",
+                "options": {
+                    "a": "forgetting",
+                    "b": "a memory trace",
+                    "c": "sensory decay"
+                },
+                "answer": "a",
+                "explanation": "Forgetting is the general term for the inability to retrieve previously stored information from memory."
+            },
+            {
+                "q": "The results of the Brown-Peterson short-term memory task can be explained by",
+                "options": {
+                    "a": "decay",
+                    "b": "interference",
+                    "c": "both decay and interference",
+                    "d": "neither decay nor interference"
+                },
+                "answer": "c",
+                "explanation": "Forgetting in the Brown-Peterson task is attributed to both the natural decay of the memory trace over time and interference from previously learned or subsequent items."
+            },
+            {
+                "q": "The calling to mind of previously stored information is known as",
+                "options": {
+                    "a": "retrieval",
+                    "b": "encoding",
+                    "c": "storage",
+                    "d": "forgetting"
+                },
+                "answer": "a",
+                "explanation": "Retrieval is the process of accessing and bringing stored information back into conscious awareness."
+            },
+            {
+                "q": "You have just listened to a list of 20 words. When asked to recall these words in any order, you are MOST LEAST LIKELY to recall the",
+                "options": {
+                    "a": "first word",
+                    "b": "second word",
+                    "c": "10th word",
+                    "d": "20th word"
+                },
+                "answer": "c",
+                "explanation": "Due to the serial position effect (primacy and recency effects), words in the middle of a list (like the 10th) are typically recalled less often than words at the beginning or end."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "According to the notion of cognitive economy, a characteristic like “has wings” would be stored along with which of the following semantic memory nodes?",
+                "options": {
+                    "a": "bird",
+                    "b": "ostrich",
+                    "c": "robin",
+                    "d": "all of these"
+                },
+                "answer": "a",
+                "explanation": "Cognitive economy suggests properties are stored at the highest possible category level to avoid redundancy; thus, 'has wings' would be stored with 'bird', not every specific bird."
+            },
+            {
+                "q": "Contrary to the predictions of hierarchical models, Rips, Shoben, and Smith have found that people can verify the statement “A pig is an animal\":",
+                "options": {
+                    "a": "faster than \"A pig is a mammal.”",
+                    "b": "faster than “A dog is an animal.”",
+                    "c": "faster than “A pig is actually very clean.”",
+                    "d": "faster than “A pig is a bird.”"
+                },
+                "answer": "a",
+                "explanation": "This finding challenges strict hierarchical models because 'animal' is a higher level than 'mammal', yet verification is faster, suggesting typicality or association strength plays a role."
+            },
+            {
+                "q": "According to research by Collins and Quillian, the statement “Siamese cats have blue eyes” will be verified:",
+                "options": {
+                    "a": "slower than “Siamese cats give birth to live young.\"",
+                    "b": "faster than “Siamese cats give birth to live young.\"",
+                    "c": "in the same amount of time as “Siamese cats give birth to live young.\"",
+                    "d": "slower than \"Siamese cats have tails.\""
+                },
+                "answer": "b",
+                "explanation": "In their model, specific features ('blue eyes') are stored directly with the concept ('Siamese cat'), while general features ('give birth to live young') are stored higher up ('mammal'), requiring more processing time."
+            },
+            {
+                "q": "Collins and Loftus's spreading activation theory differs from the hierarchical network theory in that:",
+                "options": {
+                    "a": "it dispenses with the idea of cognitive economy.",
+                    "b": "it relies on the assumption of hierarchical structure.",
+                    "c": "it cannot account for the typicality effect.",
+                    "d": "it makes stronger predictions than hierarchical models."
+                },
+                "answer": "a",
+                "explanation": "Spreading activation models allow connections based on semantic relatedness, not just hierarchy, thus abandoning strict cognitive economy where features are stored only at the highest level."
+            },
+            {
+                "q": "ACT models distinguish among three types of memory systems:",
+                "options": {
+                    "a": "working memory, episodic memory, and declarative memory",
+                    "b": "semantic memory, episodic memory, and procedural memory",
+                    "c": "procedural memory, declarative memory, and semantic memory",
+                    "d": "working memory, declarative memory, and procedural memory"
+                },
+                "answer": "d",
+                "explanation": "Anderson's ACT (Adaptive Control of Thought) models typically distinguish between working memory (active information), declarative memory (facts/events), and procedural memory (skills)."
+            },
+            {
+                "q": "According to ACT models, __________ memory represents information in if–then production rules.",
+                "options": {
+                    "a": "working",
+                    "b": "procedural",
+                    "c": "episodic",
+                    "d": "semantic"
+                },
+                "answer": "b",
+                "explanation": "In ACT models, procedural memory, which underlies skills and habits, is represented as a series of condition-action ('if-then') rules called productions."
+            },
+            {
+                "q": "Which of the following would be a part of your declarative memory system?",
+                "options": {
+                    "a": "being able to name a hybrid car",
+                    "b": "knowing how to react to a red light",
+                    "c": "knowing how to drive a car",
+                    "d": "knowing how to ride a bicycle"
+                },
+                "answer": "a",
+                "explanation": "Declarative memory includes semantic memory (general knowledge) like knowing the name for a type of car."
+            },
+            {
+                "q": "Which of the following is FALSE regarding a connectionist training “epoch”?",
+                "options": {
+                    "a": "It begins by generating a random output.",
+                    "b": "Connection weights are initially set at random levels.",
+                    "c": "Generated output patterns are compared with target patterns.",
+                    "d": "Back propagation occurs over many trials."
+                },
+                "answer": "a",
+                "explanation": "An epoch involves presenting the training data and adjusting weights; it doesn't begin by generating random output, but rather processes the input based on current weights."
+            },
+            {
+                "q": "Studies of semantic memory have shown that in a lexical decision task, people are faster at responding to the stimulus “bread” if it is paired with a stimulus such as:",
+                "options": {
+                    "a": "rencle",
+                    "b": "dog",
+                    "c": "xqkrf",
+                    "d": "butter"
+                },
+                "answer": "d",
+                "explanation": "This demonstrates semantic priming: processing 'bread' activates related concepts like 'butter', making the subsequent recognition of 'butter' faster."
+            },
+            {
+                "q": "Which of the following would be a part of your procedural memory system?",
+                "options": {
+                    "a": "knowing that the Baseball Hall of Fame is in Cooperstown, New York",
+                    "b": "knowing the lifetime batting average of Ted Williams",
+                    "c": "knowing how to swing a baseball bat",
+                    "d": "being able to remember the ball and strike count of the current pitch"
+                },
+                "answer": "c",
+                "explanation": "Procedural memory involves knowing 'how' to do things, like the motor skills involved in swinging a baseball bat."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "A __________ is a mental representation of some object, event, or pattern.",
+                "options": {
+                    "a": "category",
+                    "b": "concept",
+                    "c": "script",
+                    "d": "memory"
+                },
+                "answer": "b",
+                "explanation": "A concept is a fundamental unit of thought, representing a class or category of items, events, or ideas."
+            },
+            {
+                "q": "\"Characteristic features\" and \"family resemblance” are important aspects of the __________ view of concepts.",
+                "options": {
+                    "a": "classical",
+                    "b": "prototype",
+                    "c": "exemplar",
+                    "d": "schema"
+                },
+                "answer": "b",
+                "explanation": "The prototype view suggests concepts are organized around characteristic features and family resemblance to a central prototype, rather than strict defining features."
+            },
+            {
+                "q": "If \"soda\" is a basic-level category, then __________ would be a subordinate level.",
+                "options": {
+                    "a": "soft drink",
+                    "b": "beverage",
+                    "c": "drink",
+                    "d": "Coca-Cola"
+                },
+                "answer": "d",
+                "explanation": "Basic-level categories (e.g., soda) are common; subordinate levels are more specific examples (e.g., Coca-Cola), and superordinate levels are broader (e.g., beverage)."
+            },
+            {
+                "q": "According to the __________ view of concepts, people categorize new instances by comparing them to representations of previously stored instances.",
+                "options": {
+                    "a": "classical",
+                    "b": "prototype",
+                    "c": "exemplar",
+                    "d": "schema"
+                },
+                "answer": "c",
+                "explanation": "The exemplar view proposes that categorization involves comparing a new item to specific stored examples (exemplars) of the category."
+            },
+            {
+                "q": "The __________ view of concepts argues that concepts include representations of at least some individual instances and not only abstract summaries.",
+                "options": {
+                    "a": "classical",
+                    "b": "prototype",
+                    "c": "schemata",
+                    "d": "both exemplar and schemata"
+                },
+                "answer": "d",
+                "explanation": "Both exemplar theory (explicitly storing instances) and schema theory (allowing slots for specific instances within a framework) incorporate representations of individual examples."
+            },
+            {
+                "q": "Which of the following is true regarding schemata?",
+                "options": {
+                    "a": "A schema refers to something smaller and more specific than a concept.",
+                    "b": "Schemata are passive rather than active.",
+                    "c": "A schema contains only fixed parts, never variables.",
+                    "d": "Schemata can indicate relationships among various pieces of information."
+                },
+                "answer": "d",
+                "explanation": "Schemata are organized knowledge structures that represent relationships between concepts and attributes, providing a framework for understanding."
+            },
+            {
+                "q": "The __________ view of concepts argues that a person uses his/her theories about the way the world works to justify the classification of instances in the same category.",
+                "options": {
+                    "a": "prototype",
+                    "b": "exemplar",
+                    "c": "schema",
+                    "d": "knowledge-based"
+                },
+                "answer": "d",
+                "explanation": "The knowledge-based or theory-based view suggests categorization relies on underlying theories or explanations about why items belong together, not just surface features."
+            },
+            {
+                "q": "The schema view of concept formation assumes that:",
+                "options": {
+                    "a": "there are clear boundaries among individual schemata.",
+                    "b": "there is cognitive economy among concepts.",
+                    "c": "information is abstracted across instances.",
+                    "d": "no information is stored about actual instances."
+                },
+                "answer": "c",
+                "explanation": "Schema formation involves generalizing and abstracting commonalities across multiple experiences or instances to create a structured representation."
+            },
+            {
+                "q": "Which of the following is a good example of a basic level of categorization?",
+                "options": {
+                    "a": "musical instrument",
+                    "b": "piano",
+                    "c": "electronic keyboard",
+                    "d": "grand piano"
+                },
+                "answer": "b",
+                "explanation": "'Piano' is typically considered a basic-level category – more specific than 'musical instrument' (superordinate) but more general than 'grand piano' (subordinate)."
+            },
+            {
+                "q": "If “sandwich” is a basic-level category, then __________ would be a superordinate level.",
+                "options": {
+                    "a": "soup",
+                    "b": "sub",
+                    "c": "panini",
+                    "d": "food"
+                },
+                "answer": "d",
+                "explanation": "'Food' is a broader, more general category that includes 'sandwich', making it the superordinate level relative to the basic level 'sandwich'."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "Several mnemonic devices, including the method of loci, the pegword method, and the method of interacting images, have in common their reliance on:",
+                "options": {
+                    "a": "verbal rehearsal",
+                    "b": "creating a story",
+                    "c": "visual imagery",
+                    "d": "connecting new information to well-known information"
+                },
+                "answer": "c",
+                "explanation": "Many powerful mnemonic techniques leverage the power of visual imagery to create distinctive and interconnected memory cues."
+            },
+            {
+                "q": "According to the dual-coding hypothesis, which of the following word pairs would be easiest to remember?",
+                "options": {
+                    "a": "fire-inspiration",
+                    "b": "ferret-catalog",
+                    "c": "freedom-honesty",
+                    "d": "cat-liberty"
+                },
+                "answer": "b",
+                "explanation": "Paivio's dual-coding theory suggests concrete words (ferret, catalog) are easier to remember because they can be encoded both visually and verbally, unlike abstract words."
+            },
+            {
+                "q": "In Paivio's study of paired-associate learning, subjects learned four types of word pairs: I. concrete-concrete (for example, book-table) II. concrete-abstract (for example, book-freedom) III. abstract-concrete (for example, freedom-table) IV. abstract-abstract (for example, freedom-honesty) Which of the following accurately portrays participants' recall of the four types of pairs, from highest recall to lowest?",
+                "options": {
+                    "a": "I, III, II, IV",
+                    "b": "I, II, III, IV",
+                    "c": "II, III, I, IV",
+                    "d": "IV, III, II, I"
+                },
+                "answer": "b",
+                "explanation": "Recall is generally best for concrete-concrete pairs (dual coding), followed by concrete-abstract, then abstract-concrete, and worst for abstract-abstract pairs (hardest to image)."
+            },
+            {
+                "q": "The relational-organizational hypothesis is supported by:",
+                "options": {
+                    "a": "the effectiveness of the method of loci.",
+                    "b": "the fact that concrete words are recalled better than abstract words.",
+                    "c": "the fact that noninteractive images do not facilitate recall whereas interactive images do facilitate recall.",
+                    "d": "the effectiveness of the pegword method."
+                },
+                "answer": "c",
+                "explanation": "This hypothesis (Bower) emphasizes that imagery aids memory by creating integrated representations; interactive images link items together more effectively than separate, noninteractive images."
+            },
+            {
+                "q": "Some theorists believe that there is a single code for all types of information; this code is known as a __________ representation.",
+                "options": {
+                    "a": "visual",
+                    "b": "pictorial",
+                    "c": "verbal",
+                    "d": "propositional"
+                },
+                "answer": "d",
+                "explanation": "Propositional theory argues that all information (visual, verbal, etc.) is ultimately stored in an abstract, language-like format called propositions."
+            },
+            {
+                "q": "Behaviorists objected to the study of visual imagery because:",
+                "options": {
+                    "a": "it cannot be investigated with sufficient scientific control.",
+                    "b": "there are too many individual differences in people's abilities to visualize.",
+                    "c": "behaviorists prefer to study animals and animals have no imagery abilities.",
+                    "d": "we can only study visual imagery and not auditory images, olfactory images, etc."
+                },
+                "answer": "a",
+                "explanation": "Behaviorism focused on observable behavior, and mental phenomena like imagery were considered subjective and difficult to measure objectively or scientifically control."
+            },
+            {
+                "q": "Kosslyn compared people's verification times for statements like “Cats have claws” (high association, small visual part of a cat) to “Cats have heads” (low association, large visual part of a cat). He found that people were:",
+                "options": {
+                    "a": "faster at verifying “claws” whether or not they used visual imagery.",
+                    "b": "faster at verifying “heads” whether or not they used visual imagery.",
+                    "c": "faster at verifying “heads” when they used imagery, “claws” when they did not.",
+                    "d": "faster at verifying “claws” when they used imagery, “heads” when they did not."
+                },
+                "answer": "c",
+                "explanation": "Kosslyn's imagery studies suggested scanning larger mental distances takes longer; verifying the large 'head' was faster with imagery, while verifying 'claws' (semantically associated) was faster without imagery."
+            },
+            {
+                "q": "Finke's principle of __________ states that mental imagery allows us to retrieve information that was not intentionally stored.",
+                "options": {
+                    "a": "perceptual equivalence",
+                    "b": "transformational equivalence",
+                    "c": "implicit encoding",
+                    "d": "structural encoding"
+                },
+                "answer": "c",
+                "explanation": "Implicit encoding suggests that details can be stored within an image representation unintentionally and later retrieved through mental imagery, even if not explicitly focused on during encoding."
+            },
+            {
+                "q": "Your mental map of your campus is probably:",
+                "options": {
+                    "a": "larger than reality.",
+                    "b": "smaller than reality.",
+                    "c": "more regular, with more straight lines and right angles, than reality.",
+                    "d": "less regular, with fewer straight lines and right angles, than reality."
+                },
+                "answer": "c",
+                "explanation": "Mental maps often exhibit systematic distortions, tending towards regularization, such as straightening curves and aligning angles closer to 90 degrees."
+            },
+            {
+                "q": "Cooper's studies of the mental rotation of complex polygons indicated that:",
+                "options": {
+                    "a": "people rotated more complex polygons in the same amount of time as simpler polygons.",
+                    "b": "people took longer to rotate more complex polygons.",
+                    "c": "people actually took less time to rotate more complex polygons.",
+                    "d": "people were unable to mentally rotate a polygon with greater than 10 points with more than chance accuracy."
+                },
+                "answer": "a",
+                "explanation": "Cooper's findings suggested mental rotation operates holistically on the object, with rotation time depending primarily on the angle of rotation, not the complexity of the shape itself."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "Which of the following is/are generally agreed upon as necessary criterion for claiming that a communication system is a language?",
+                "options": {
+                    "a": "regularity",
+                    "b": "productivity",
+                    "c": "referentiality",
+                    "d": "both regularity and productivity"
+                },
+                "answer": "d",
+                "explanation": "Key features defining language include regularity (rule-governed structure) and productivity (ability to generate infinite novel utterances)."
+            },
+            {
+                "q": "Bird songs and bee dances are not considered to be languages because:",
+                "options": {
+                    "a": "they do not use words.",
+                    "b": "they do not have a formal grammar.",
+                    "c": "they cannot express infinite combinations of ideas.",
+                    "d": "they do not have a permanent (written) form."
+                },
+                "answer": "c",
+                "explanation": "Animal communication systems typically lack productivity; they have a fixed set of signals and cannot generate limitless new combinations like human language."
+            },
+            {
+                "q": "The smallest unit of language that carries a consistent meaning is called a:",
+                "options": {
+                    "a": "feature.",
+                    "b": "phoneme.",
+                    "c": "phonetic.",
+                    "d": "morpheme."
+                },
+                "answer": "d",
+                "explanation": "A morpheme is the smallest unit in a language that has semantic meaning (e.g., 'cat', 'un-', '-ing')."
+            },
+            {
+                "q": "English speakers hear a distinction between “l” and “r” sounds; speakers of some Chinese dialects do not hear this distinction. This example illustrates a difference in the __________ aspects of the two languages.",
+                "options": {
+                    "a": "phonetic",
+                    "b": "phonological",
+                    "c": "semantic",
+                    "d": "syntactic"
+                },
+                "answer": "a",
+                "explanation": "Phonetics deals with the physical properties of speech sounds; the ability to produce and perceive specific sounds like /l/ and /r/ varies across languages."
+            },
+            {
+                "q": "Studies of sentence comprehension have shown all of the following EXCEPT:",
+                "options": {
+                    "a": "Exact wording of a clause is preserved in memory while that clause is actively being processed.",
+                    "b": "After a sentence has been processed, exact wording is discarded and only the general meaning is preserved in memory.",
+                    "c": "We typically do not consciously notice ambiguities in sentences.",
+                    "d": "We do not process exact wording in memory; we only process meaning."
+                },
+                "answer": "d",
+                "explanation": "While the gist (meaning) is better retained long-term, research shows exact wording *is* processed initially, even if it fades faster than meaning."
+            },
+            {
+                "q": "“What's for dinner?” “Food.” The second speaker is breaking Grice's maxim of",
+                "options": {
+                    "a": "quantity.",
+                    "b": "quality.",
+                    "c": "relation.",
+                    "d": "manner."
+                },
+                "answer": "a",
+                "explanation": "The maxim of quantity requires speakers to be as informative as required, but no more; 'Food' is under-informative in this context."
+            },
+            {
+                "q": "Fodor's modularity hypothesis proposes that:",
+                "options": {
+                    "a": "language processing actually encompasses several subskills (modules).",
+                    "b": "in understanding language, we separate sentences and phrases into individual units known as modules.",
+                    "c": "thought processes are dependent upon the language we use to think.",
+                    "d": "certain language processes operate independently of other cognitive processes such as memory and attention."
+                },
+                "answer": "d",
+                "explanation": "Fodor's modularity posits that specific cognitive functions, like aspects of language processing, operate via dedicated, independent modules, insulated from other cognitive systems."
+            },
+            {
+                "q": "Whorf's linguistic relativity hypothesis:",
+                "options": {
+                    "a": "asserts that thought is dependent upon language.",
+                    "b": "is supported by studies of color perception.",
+                    "c": "asserts that thought is dependent upon language, and is supported by studies of color perception.",
+                    "d": "asserts that thought is dependent upon language, and is not supported by studies of color perception."
+                },
+                "answer": "d",
+                "explanation": "While Whorf proposed language influences thought (linguistic relativity), strong versions are not well-supported; cross-cultural color perception studies show similarities despite language differences, suggesting thought isn't fully dependent on language."
+            },
+            {
+                "q": "Damage to Broca's area often leads to:",
+                "options": {
+                    "a": "expressive aphasia.",
+                    "b": "receptive aphasia.",
+                    "c": "inability to comprehend written language.",
+                    "d": "both expressive aphasia and inability to comprehend written language."
+                },
+                "answer": "a",
+                "explanation": "Damage to Broca's area typically results in expressive aphasia, characterized by difficulties in producing fluent speech, while comprehension remains relatively intact."
+            },
+            {
+                "q": "The word “bat” is considered to be lexically ambiguous because it has two possible meanings.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Lexical ambiguity occurs when a single word form has multiple distinct meanings (e.g., 'bat' the animal vs. 'bat' the sports equipment)."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "A(n) __________ problem has a clear goal, a small set of starting information, and rules about how to attain the goal.",
+                "options": {
+                    "a": "classic",
+                    "b": "laboratory",
+                    "c": "well-defined",
+                    "d": "introspective"
+                },
+                "answer": "c",
+                "explanation": "Well-defined problems have clearly specified initial states, goal states, and allowable operations or rules."
+            },
+            {
+                "q": "The problem-solving technique of __________ involves comparing the goal with the starting point, thinking of possible ways to overcome the distance between them, and choosing the best one.",
+                "options": {
+                    "a": "generate-and-test",
+                    "b": "means-end analysis",
+                    "c": "reasoning by analogy",
+                    "d": "mental set"
+                },
+                "answer": "b",
+                "explanation": "Means-end analysis involves identifying the difference between the current state and the goal state and applying operators (means) to reduce that difference."
+            },
+            {
+                "q": "The General Problem Solver (GPS) is a computer program that solves problems in crypt arithmetic and logic using:",
+                "options": {
+                    "a": "means-end analysis.",
+                    "b": "generate-and-test.",
+                    "c": "reasoning by analogy.",
+                    "d": "introspection."
+                },
+                "answer": "a",
+                "explanation": "GPS was an early AI program designed specifically to implement the means-end analysis problem-solving strategy."
+            },
+            {
+                "q": "__________ is a very important technique for solving the Towers of Hanoi problem.",
+                "options": {
+                    "a": "Means-end analysis",
+                    "b": "Generate-and-test",
+                    "c": "Working backward",
+                    "d": "Reasoning by analogy"
+                },
+                "answer": "c",
+                "explanation": "While means-end analysis can be used, establishing subgoals by working backward from the final goal state is a common and effective strategy for the Towers of Hanoi."
+            },
+            {
+                "q": "A tendency to adopt a certain framework, strategy, or procedure, which can become an obstacle to successful problem solving, is called:",
+                "options": {
+                    "a": "mental set.",
+                    "b": "functional fixedness.",
+                    "c": "well-defined thinking.",
+                    "d": "ill-defined thinking."
+                },
+                "answer": "a",
+                "explanation": "Mental set (or Einstellung) is the tendency to persist with a problem-solving strategy that has worked in the past, even if it's not appropriate for the current problem."
+            },
+            {
+                "q": "The string problem often generates __________ when participants do not think to use the screwdriver as a pendulum.",
+                "options": {
+                    "a": "functional fixedness",
+                    "b": "mental set",
+                    "c": "incomplete representations",
+                    "d": "reasoning by analogy"
+                },
+                "answer": "a",
+                "explanation": "Functional fixedness is the inability to see an object as having a function other than its usual one (e.g., seeing a screwdriver only as a tool for screws, not as a potential pendulum weight)."
+            },
+            {
+                "q": "__________ involves appropriate novelty in generating solutions.",
+                "options": {
+                    "a": "Intelligence",
+                    "b": "Genius",
+                    "c": "Creativity",
+                    "d": "Mental disorder"
+                },
+                "answer": "c",
+                "explanation": "Creativity is generally defined as the ability to produce ideas or solutions that are both novel (original) and appropriate (useful, effective)."
+            },
+            {
+                "q": "Research on the incubation effect has shown that:",
+                "options": {
+                    "a": "most empirical studies support the positive effects of incubation.",
+                    "b": "incubation effects are only found with very long incubation intervals.",
+                    "c": "incubation actually has a negative effect on performance.",
+                    "d": "participants who take physical and mental breaks rarely show increased ability to solve problems."
+                },
+                "answer": "d",
+                "explanation": "The evidence for a strong, reliable incubation effect (improved problem solving after a break) is mixed, and simple breaks don't always lead to better solutions compared to continued work."
+            },
+            {
+                "q": "The prefrontal cortex is involved in the ability to plan and solve problems.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The prefrontal cortex is crucial for executive functions, including planning, strategic thinking, working memory, and goal-directed problem solving."
+            },
+            {
+                "q": "The detailed, concurrent, and nonjudgmental observation of the contents of your consciousness is called:",
+                "options": {
+                    "a": "thinking.",
+                    "b": "daydreaming.",
+                    "c": "problem solving.",
+                    "d": "introspection."
+                },
+                "answer": "d",
+                "explanation": "Introspection involves carefully observing and reporting on one's own ongoing mental experiences."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "Deductive reasoning involves which of the following?",
+                "options": {
+                    "a": "going from general to specific statements",
+                    "b": "conclusions that add new information to what is given",
+                    "c": "going from specific to general statements",
+                    "d": "going from specific to specific statements"
+                },
+                "answer": "a",
+                "explanation": "Deductive reasoning starts with general premises and derives logically certain specific conclusions."
+            },
+            {
+                "q": "When it is improbable (but not impossible) for an argument's premises to be true and its conclusions false, the argument has:",
+                "options": {
+                    "a": "deductive validity.",
+                    "b": "deductive strength.",
+                    "c": "inductive validity.",
+                    "d": "inductive strength."
+                },
+                "answer": "d",
+                "explanation": "Inductive strength refers to the likelihood that the conclusion is true given that the premises are true; a strong inductive argument makes the conclusion probable."
+            },
+            {
+                "q": "If a person has five letters in his or her name, then s/he is a Glirple. I can now validly assume that:",
+                "options": {
+                    "a": "Shawn is a Glirple.",
+                    "b": "anyone who is a Glirple must have five letters in his/her name.",
+                    "c": "anyone who is not a Glirple cannot be named Susan.",
+                    "d": "Shawn is a Glirple, and anyone who is not a Glirple cannot be named Susan."
+                },
+                "answer": "d",
+                "explanation": "The first part ('Shawn is a Glirple') is applying the rule (modus ponens). The second part ('anyone who is not a Glirple cannot be named Susan') is the contrapositive of the implicit premise that 'Susan does not have five letters' (modus tollens)."
+            },
+            {
+                "q": "In completing Wason's four-card task, participants usually:",
+                "options": {
+                    "a": "turn over the two cards that are necessary and sufficient to test the rule.",
+                    "b": "turn over all four cards, when only two would have been sufficient.",
+                    "c": "turn over all four cards, when only one would have been sufficient.",
+                    "d": "show understanding of modus ponens but neglect modus tollens."
+                },
+                "answer": "d",
+                "explanation": "People typically correctly turn over the card matching the antecedent (modus ponens) but fail to turn over the card negating the consequent (modus tollens), which is necessary to falsify the rule."
+            },
+            {
+                "q": "People have more difficulty working with:",
+                "options": {
+                    "a": "quantifiers such as \"all\" or \"no.\"",
+                    "b": "quantifiers such as \"some.\"",
+                    "c": "premises that have negatives in them, and quantifiers such as \"all\" or \"no.”",
+                    "d": "premises that have negatives in them, and quantifiers such as \"some.\""
+                },
+                "answer": "d",
+                "explanation": "Reasoning is often harder with negative premises and particular quantifiers like 'some', which are less definitive than universal quantifiers like 'all' or 'no'."
+            },
+            {
+                "q": "The tendency to seek out information that supports our current beliefs is called:",
+                "options": {
+                    "a": "a believability effect.",
+                    "b": "a content effect.",
+                    "c": "a confirmation bias.",
+                    "d": "syllogistic reasoning."
+                },
+                "answer": "c",
+                "explanation": "Confirmation bias is the cognitive tendency to search for, interpret, favor, and recall information that confirms or supports one's preexisting beliefs."
+            },
+            {
+                "q": "The gambler's fallacy is thought of as a special instance of:",
+                "options": {
+                    "a": "framing.",
+                    "b": "availability.",
+                    "c": "belief in the law of small numbers.",
+                    "d": "hindsight."
+                },
+                "answer": "c",
+                "explanation": "The gambler's fallacy reflects the mistaken belief that random sequences will correct themselves in the short run, characteristic of misunderstanding randomness (belief in the law of small numbers)."
+            },
+            {
+                "q": "Let p = \"Mary got an A on her exam\" and q = \"John got a C on his exam.\" In which of the following situations is the statement \"p & q\" true?",
+                "options": {
+                    "a": "Mary and John both got A's.",
+                    "b": "Mary and John both got C's.",
+                    "c": "Mary got an A and John got a C.",
+                    "d": "Mary got a C and John got an A."
+                },
+                "answer": "c",
+                "explanation": "The logical conjunction 'p & q' (p AND q) is true only if both constituent statements, p and q, are true."
+            },
+            {
+                "q": "\"All dogs chase cats. Bingo is a dog. Therefore, Bingo chases cats.\" This is an example of deductive reasoning.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is a valid deductive argument (specifically, a syllogism) where the conclusion necessarily follows from the general premise and the specific premise."
+            },
+            {
+                "q": "The representativeness heuristic causes us to erroneously judge words with \"L\" as their first letter to be more common than words with \"L\" as their third letter.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "This error is typically attributed to the *availability* heuristic (it's easier to recall words starting with L), not representativeness. Words with L as the third letter are actually more common."
+            }
+        ],
+        "Assignment 12": [
+            {
+                "q": "__________ is a normative model for integrating different dimensions and goals of a complex decision.",
+                "options": {
+                    "a": "Expected utility",
+                    "b": "MAUT",
+                    "c": "Framing",
+                    "d": "Availability"
+                },
+                "answer": "b",
+                "explanation": "Multi-Attribute Utility Theory (MAUT) is a normative framework for decision-making that involves evaluating alternatives across multiple objectives or attributes."
+            },
+            {
+                "q": "Expert decision makers may rely on intuition and mental simulation, according to the __________ model.",
+                "options": {
+                    "a": "recognition-primed decision-making",
+                    "b": "MAUT",
+                    "c": "EU",
+                    "d": "elimination-by-aspects"
+                },
+                "answer": "a",
+                "explanation": "The Recognition-Primed Decision (RPD) model describes how experts often make rapid decisions by recognizing patterns from past experience and mentally simulating outcomes."
+            },
+            {
+                "q": "Expected utility is a descriptive model of human decision making.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Expected Utility Theory is a *normative* model (prescribing how rational decisions *should* be made), not a descriptive model (describing how people *actually* make decisions)."
+            },
+            {
+                "q": "When making a complex decision such as choosing 1 of 10 different apartments to rent,",
+                "options": {
+                    "a": "participants spontaneously use multiattribute utility theory.",
+                    "b": "participants use the same decision strategies regardless of the number of alternatives they are choosing between.",
+                    "c": "participants systematically search for all available information.",
+                    "d": "participants often eliminate some alternatives on the basis of only one or a few undesirable characteristics."
+                },
+                "answer": "d",
+                "explanation": "People often use simplifying heuristics like elimination-by-aspects in complex decisions, ruling out options based on specific criteria rather than exhaustively evaluating all attributes."
+            },
+            {
+                "q": "Expected utility theory is usually regarded as a __________ model of decision making.",
+                "options": {
+                    "a": "descriptive",
+                    "b": "prescriptive",
+                    "c": "normative",
+                    "d": "both descriptive and prescriptive"
+                },
+                "answer": "c",
+                "explanation": "Expected utility theory is a foundational normative model in decision theory, defining rational choice under uncertainty based on maximizing expected utility."
+            },
+            {
+                "q": "You are offered a chance to buy a lottery ticket. The probability of winning is 1 in 100. If you win, the prize is $100,000. According to expected value, a \"fair\" price for this lottery ticket would be:",
+                "options": {
+                    "a": "$5.",
+                    "b": "$10",
+                    "c": "$100",
+                    "d": "$1000"
+                },
+                "answer": "d",
+                "explanation": "Expected Value = (Probability of Winning) * (Prize Amount) = (1/100) * $100,000 = $1000."
+            },
+            {
+                "q": "Normative models of decision making describe:",
+                "options": {
+                    "a": "ideal performance under ideal circumstances.",
+                    "b": "what people actually do when they make decisions.",
+                    "c": "cognitive illusions.",
+                    "d": "hindsight biases."
+                },
+                "answer": "a",
+                "explanation": "Normative models prescribe how decisions *should* be made to be optimal or rational, representing an ideal standard."
+            },
+            {
+                "q": "You are a participant in an experiment in which you answer a long list of general knowledge questions. After answering each question, you are asked to rate your probability of being correct. If you are like the typical participant in such experiments, you will probably be correct on what percentage of questions for which you estimated \"60% probability correct\"?",
+                "options": {
+                    "a": "55%",
+                    "b": "60%",
+                    "c": "70%",
+                    "d": "100%"
+                },
+                "answer": "a",
+                "explanation": "This relates to the overconfidence effect; people's subjective probability estimates (confidence) often exceed their actual accuracy rates. When estimating 60% confidence, actual accuracy tends to be lower."
+            },
+            {
+                "q": "The normative model for integrating different dimensions of a complex decision is called MAUT.",
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Multi-Attribute Utility Theory (MAUT) is indeed a normative model designed for evaluating complex decisions involving multiple criteria or goals."
+            },
+            {
+                "q": "You have just spent 10 minutes trying to figure out the answer to a single problem on your math quiz. In spite of your lack of success, you continue to struggle, neglecting to continue on to other problems because you've already invested so much time and effort in this problem. You have fallen victim to:",
+                "options": {
+                    "a": "the sunk cost effect.",
+                    "b": "a framing effect.",
+                    "c": "the anchor effect.",
+                    "d": "availability bias."
+                },
+                "answer": "a",
+                "explanation": "The sunk cost effect is the tendency to continue an endeavor as a result of previously invested resources (time, money, or effort), even when it's no longer rational."
+            }
+        ]
     }
+
 }

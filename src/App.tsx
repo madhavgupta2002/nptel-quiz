@@ -6,80 +6,17 @@ import { useDarkMode } from './contexts/DarkModeContext';
 
 const SUBJECTS = [
   {
-    id: 'Wildlife Ecology',
-    title: 'Wildlife Ecology',
-    description: 'Study of interactions between wildlife species, their habitats, and human impacts',
-    image: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&q=80&w=1000',
+    id: 'Introduction to Cognitive Psychology',
+    title: 'Introduction to Cognitive Psychology',
+    description: 'Study of mental processes including perception, attention, memory, language, problem solving, and decision making',
+    image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   },
   {
-    id: 'Psychology Of Learning',
-    title: 'Psychology Of Learning',
-    description: 'Study of cognitive processes, behavior, and how humans learn and develop',
-    image: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Programming In Java',
-    title: 'Programming In Java',
-    description: 'Learn Java programming fundamentals, object-oriented concepts, and application development',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Introduction to Internet of Things',
-    title: 'Introduction to Internet of Things',
-    description: 'Learn about IoT architecture, protocols, sensors, data processing and applications',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Ethical Hacking',
-    title: 'Ethical Hacking',
-    description: 'Learn cybersecurity concepts, penetration testing techniques, and ethical hacking methodologies',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Cloud Computing',
-    title: 'Cloud Computing',
-    description: 'Learn about cloud service models, deployment models, virtualization, and cloud platforms',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Forests and their Management',
-    title: 'Forests and their Management',
-    description: 'Learn about forest ecosystems, sustainable forestry practices, conservation, and management techniques',
-    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Education for Sustainable Development',
-    title: 'Education for Sustainable Development',
-    description: 'Learn about sustainability principles, environmental education, and strategies for promoting sustainable development',
-    image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Conservation Economics',
-    title: 'Conservation Economics',
-    description: 'Study of economic principles applied to natural resource conservation, ecosystem valuation, and sustainable management',
-    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'Network Security',
-    title: 'Network Security',
-    description: 'Learn about network vulnerabilities, security protocols, encryption techniques, and defense mechanisms',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1000',
-    icon: BookOpen
-  },
-  {
-    id: 'GPU Architectures and Programming',
-    title: 'GPU Architecture and Programming',
-    description: 'Learn about CPU/GPU architectures, SIMD/SIMT paradigms, and programming models like CUDA and OpenCL with optimization techniques',
-    image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1000',
+    id: 'Fuzzy Sets, Logic and Systems & Applications',
+    title: 'Fuzzy Sets, Logic and Systems & Applications',
+    description: 'Study fuzzy set theory, fuzzy logic systems, membership functions, and applications in control systems and decision making',
+    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   },
   {
@@ -90,10 +27,80 @@ const SUBJECTS = [
     icon: BookOpen
   },
   {
-    id: 'Fuzzy Sets, Logic and Systems & Applications',
-    title: 'Fuzzy Sets, Logic and Systems & Applications',
-    description: 'Study fuzzy set theory, fuzzy logic systems, membership functions, and applications in control systems and decision making',
-    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1000',
+    id: 'GPU Architectures and Programming',
+    title: 'GPU Architecture and Programming',
+    description: 'Learn about CPU/GPU architectures, SIMD/SIMT paradigms, and programming models like CUDA and OpenCL with optimization techniques',
+    image: 'https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Network Security',
+    title: 'Network Security',
+    description: 'Learn about network vulnerabilities, security protocols, encryption techniques, and defense mechanisms',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Conservation Economics',
+    title: 'Conservation Economics',
+    description: 'Study of economic principles applied to natural resource conservation, ecosystem valuation, and sustainable management',
+    image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Education for Sustainable Development',
+    title: 'Education for Sustainable Development',
+    description: 'Learn about sustainability principles, environmental education, and strategies for promoting sustainable development',
+    image: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Forests and their Management',
+    title: 'Forests and their Management',
+    description: 'Learn about forest ecosystems, sustainable forestry practices, conservation, and management techniques',
+    image: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Cloud Computing',
+    title: 'Cloud Computing',
+    description: 'Learn about cloud service models, deployment models, virtualization, and cloud platforms',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Ethical Hacking',
+    title: 'Ethical Hacking',
+    description: 'Learn cybersecurity concepts, penetration testing techniques, and ethical hacking methodologies',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Introduction to Internet of Things',
+    title: 'Introduction to Internet of Things',
+    description: 'Learn about IoT architecture, protocols, sensors, data processing and applications',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Programming In Java',
+    title: 'Programming In Java',
+    description: 'Learn Java programming fundamentals, object-oriented concepts, and application development',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Psychology Of Learning',
+    title: 'Psychology Of Learning',
+    description: 'Study of cognitive processes, behavior, and how humans learn and develop',
+    image: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
+    id: 'Wildlife Ecology',
+    title: 'Wildlife Ecology',
+    description: 'Study of interactions between wildlife species, their habitats, and human impacts',
+    image: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&q=80&w=1000',
     icon: BookOpen
   }
 ];
