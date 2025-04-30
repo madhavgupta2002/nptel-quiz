@@ -7492,6 +7492,126 @@ export const assignment: Assignment = {
         ]
     },
     "Cloud Computing": {
+        "Assignment 0": [
+            {
+                "q": "Which software does prevent external access to a system?",
+                "year": 2024.2,
+                "options": {
+                    "a": "Firewall",
+                    "b": "Gateway",
+                    "c": "Router",
+                    "d": "Virus checker"
+                },
+                "answer": "a",
+                "explanation": "A firewall is a network securing software that prevents unauthorized users and dangerous elements from accessing the network. Software firewall acts as a filter for our network which prevents harmful information."
+            },
+            {
+                "q": "Which classes are used for connection-less socket programming?",
+                "year": 2024.2,
+                "options": {
+                    "a": "Datagram Socket",
+                    "b": "Datagram Packet",
+                    "c": "Both Datagram Socket & Datagram Packet",
+                    "d": "Server Socket"
+                },
+                "answer": "c",
+                "explanation": "Datagram is basically some information traveling between the sender and the receiver, but there is no guarantee of its content, arrival or arrival time. Datagram Socket, Datagram Packet are used for connection-less socket programming, while Server Socket is used for connection-oriented socket programming."
+            },
+            {
+                "q": "Which of the following is most appropriate about Threads? Threads of a process share",
+                "year": 2024.2,
+                "options": {
+                    "a": "only global variables",
+                    "b": "only heap",
+                    "c": "neither global variables nor heap",
+                    "d": "both heap and global variables"
+                },
+                "answer": "d",
+                "explanation": "Thread shares all other resources of the process except local data like – register, stack."
+            },
+            {
+                "q": "What is the maximum number of hosts under class B addresses?",
+                "year": 2024.2,
+                "options": {
+                    "a": "65536",
+                    "b": "65534",
+                    "c": "65535",
+                    "d": "254"
+                },
+                "answer": "b",
+                "explanation": "In Class B IP address first two octets are used to represent the network number, which leaves two octets or 16 bits to represent the host portion of the address. With 16 bits total, 2^16 combinations are possible, yielding 65,536 Class B addresses. Although two of those numbers, the lowest and highest values, are reserved for special purposes. Therefore, each Class B address can support up to 65,534 hosts."
+            },
+            {
+                "q": "Consider a system with 2 level caches. Access times of Level 1 cache, Level 2 cache, and main memory are 1 ns, 10ns, and 400 ns, respectively. The hit rates of Level 1 and Level 2 caches are 0.8 and 0.9, respectively. What is the average access time of the system ignoring the search time within the cache?",
+                "year": 2024.2,
+                "options": {
+                    "a": "12.6 ns",
+                    "b": "11.2 ns",
+                    "c": "10.6 ns",
+                    "d": "12.4 ns"
+                },
+                "answer": "c",
+                "explanation": "Average access time = [H1*T1]+[(1-H1)*H2*T2]+[(1-H1)(1-H2)*Hm*Tm], where H1=0.8 (L1 hit rate), T1=1ns, H2=0.9 (L2 hit rate), T2=10ns, Hm=1 (main memory hit rate), Tm=200ns"
+            },
+            {
+                "q": "Using a larger block size in a fixed block size file system leads to",
+                "year": 2024.2,
+                "options": {
+                    "a": "better disk throughput but poorer disk space utilization",
+                    "b": "better disk throughput and better disk space utilization",
+                    "c": "poorer disk throughput but better disk space utilization",
+                    "d": "poorer disk throughput and poorer disk space utilization"
+                },
+                "answer": "a",
+                "explanation": "Using larger block size in a fixed block size system leads to poor disk space utilization due to data items which are very small comparable to block size cause fragmentation. But it leads to better disk through put since no. of blocks needs to fetch & replace become less."
+            },
+            {
+                "q": "Transport layer is implemented in the Firmware of a computer system.",
+                "year": 2024.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Transport layer is implemented in the kernel."
+            },
+            {
+                "q": "A computer's processor sends 32 bit addresses to the cache controller. It has a 512 KByte, 8-way set associative, write back data cache with block size of 32 Bytes. In addition to the address tag, each cache tag directory entry contains 3 valid bits and 1 modified bit. Find the size of the cache tag directory.",
+                "year": 2024.2,
+                "options": {
+                    "a": "212 Kbits",
+                    "b": "320 Kbits",
+                    "c": "160 Kbits",
+                    "d": "120 Kbits"
+                },
+                "answer": "b",
+                "explanation": "Number of blocks = Cache-Size/Block-Size = 512 KB / 32 Bytes = 2^14, Number of Sets = 2^14 / 8 = 2^11, Tag + Set offset + Byte offset = 32, Tag + 11 + 5 = 32, Tag = 16, Total bits = 20 (16 bit address + 3 bit valid + 1 modified), 20 × no. of blocks = 320 K bits."
+            },
+            {
+                "q": "Flow control is mainly implemented in",
+                "year": 2024.2,
+                "options": {
+                    "a": "Physical Layer",
+                    "b": "Application Layer",
+                    "c": "Transport Layer",
+                    "d": "Session Layer"
+                },
+                "answer": "c",
+                "explanation": "Flow control is mainly a function of the Transport Layer."
+            },
+            {
+                "q": "Where does the swap space reside?",
+                "year": 2024.2,
+                "options": {
+                    "a": "RAM",
+                    "b": "Disk",
+                    "c": "ROM",
+                    "d": "On-chip cache"
+                },
+                "answer": "b",
+                "explanation": "Swap space is an area on disk that temporarily holds a process memory image."
+            }
+        ],
         "[2023.1] Assignment 1": [
             {
                 "q": "A distributed system is preferred when the task is: i)Data-intensive; ii) Computing-intensive",
