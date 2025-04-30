@@ -9,6 +9,7 @@ import AnswerStatus from './AnswerStatus';
 import { ArrowRight, ArrowLeft, RefreshCw, Home, ChevronDown, ChevronUp, BookOpen, ArrowLeftCircle } from 'lucide-react';
 import ReactGA from 'react-ga4';
 import ShortNotes from './ShortNotes';
+import { useDarkMode } from '../contexts/DarkModeContext';
 
 interface QuizAppProps {
   subject: string;
@@ -17,6 +18,7 @@ interface QuizAppProps {
 
 const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
   const assignments = assignment[subject];
+  const { isDarkMode } = useDarkMode();
   const [quizState, setQuizState] = useState<QuizState>({
     practiceMode: 'assignment',
     questionOrder: 'inOrder',
@@ -78,6 +80,15 @@ const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
     } else {
       questions = Object.values(assignments).flat();
     }
+
+    // Check if 2025 filter is enabled via localStorage
+    const show2025Only = localStorage.getItem('show2025Only') === 'true';
+
+    // Only filter by year when 2025 toggle is ON
+    if (show2025Only) {
+      questions = questions.filter(question => question.year === undefined || question.year === 2025);
+    }
+    // When toggle is OFF, use all questions regardless of year
 
     if (quizState.questionOrder === 'random') {
       questions = shuffleArray([...questions]);
@@ -346,12 +357,35 @@ const QuizApp: React.FC<QuizAppProps> = ({ subject, onBack }) => {
             {quizState.practiceMode === 'assignment' ? (
               <AssignmentSelector assignments={assignments} onSelect={startQuiz} />
             ) : (
-              <button
-                onClick={() => startQuiz()}
-                className="px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out"
-              >
-                Start Full Practice
-              </button>
+              <div className="flex flex-col gap-4">
+                <div className="flex justify-between items-center">
+                  <h2 className={`text-xl font-bold ${isDarkMode ? 'text-gray-100' : 'text-indigo-700'}`}>Full Practice Mode</h2>
+                  <button
+                    onClick={() => {
+                      const currentValue = localStorage.getItem('show2025Only') === 'true';
+                      if (currentValue) {
+                        localStorage.removeItem('show2025Only');
+                      } else {
+                        localStorage.setItem('show2025Only', 'true');
+                      }
+                      // Force re-render
+                      setQuizState(prev => ({ ...prev }));
+                    }}
+                    className={`px-4 py-2 rounded-full font-medium text-sm transition duration-300 ease-in-out ${localStorage.getItem('show2025Only') === 'true'
+                        ? `${isDarkMode ? 'bg-purple-700 text-white' : 'bg-purple-600 text-white'}`
+                        : `${isDarkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-200 text-gray-700'}`
+                      }`}
+                  >
+                    {localStorage.getItem('show2025Only') === 'true' ? '2025 Only: ON' : 'Toggle 2025 Only'}
+                  </button>
+                </div>
+                <button
+                  onClick={() => startQuiz()}
+                  className="px-6 py-3 bg-green-600 text-white rounded-full font-semibold hover:bg-green-700 transition duration-300 ease-in-out"
+                >
+                  Start Full Practice
+                </button>
+              </div>
             )}
           </>
         ) : quizCompleted ? (

@@ -10289,7 +10289,8 @@ export const assignment: Assignment = {
                     "e": "Brazil"
                 },
                 "answer": "e",
-                "explanation": "The United Nations Conference on Environment and Development (UNCED), also known as the Earth Summit, was held in Rio de Janeiro, Brazil, in June 1992. Agenda 21, a comprehensive plan for sustainable development, was adopted there."
+                "explanation": "The United Nations Conference on Environment and Development (UNCED), also known as the Earth Summit, was held in Rio de Janeiro, Brazil, in June 1992. Agenda 21, a comprehensive plan for sustainable development, was adopted there.",
+                "year": 2024
             },
             {
                 "q": "The Brundtland Report published in 1987 is also known as ___.",
@@ -10301,7 +10302,8 @@ export const assignment: Assignment = {
                     "e": "Our Common Future"
                 },
                 "answer": "e",
-                "explanation": "The Brundtland Report, formally titled 'Our Common Future', was published by the World Commission on Environment and Development in 1987. It famously defined sustainable development."
+                "explanation": "The Brundtland Report, formally titled 'Our Common Future', was published by the World Commission on Environment and Development in 1987. It famously defined sustainable development.",
+                "year": 2024
             },
             {
                 "q": "Multidimensional poverty measures reveal the following except",
@@ -10312,7 +10314,8 @@ export const assignment: Assignment = {
                     "d": "poverty level in different areas of a country"
                 },
                 "answer": "c",
-                "explanation": "Multidimensional Poverty Indices (MPIs) typically measure deprivations across health, education, and living standards, focusing on disadvantages and subgroup/regional disparities, not specific types of property ownership."
+                "explanation": "Multidimensional Poverty Indices (MPIs) typically measure deprivations across health, education, and living standards, focusing on disadvantages and subgroup/regional disparities, not specific types of property ownership.",
+                "year": 2024
             },
             {
                 "q": "The Indian government’s ___ program prioritizes national wellbeing and is leading change towards SDG 3",
@@ -10324,7 +10327,8 @@ export const assignment: Assignment = {
                     "e": "National Change Mission"
                 },
                 "answer": "c",
-                "explanation": "The National Health Mission (NHM) is India's key program aimed at improving health outcomes and achieving universal health coverage, directly contributing to Sustainable Development Goal 3 (Good Health and Well-being)."
+                "explanation": "The National Health Mission (NHM) is India's key program aimed at improving health outcomes and achieving universal health coverage, directly contributing to Sustainable Development Goal 3 (Good Health and Well-being).",
+                "year": 2024
             },
             {
                 "q": "Quality education entails issues such as ___",
@@ -10336,7 +10340,8 @@ export const assignment: Assignment = {
                     "e": "All of the above"
                 },
                 "answer": "e",
-                "explanation": "Quality education (related to SDG 4) is multifaceted, encompassing access (scholarships, infrastructure), equity (gender parity), relevance (skills development), and effective learning environments."
+                "explanation": "Quality education (related to SDG 4) is multifaceted, encompassing access (scholarships, infrastructure), equity (gender parity), relevance (skills development), and effective learning environments.",
+                "year": 2024
             },
             {
                 "q": "As per Ministry of Housing and Urban Affairs of India, ___ litre per capita per day (lpcd) has been suggested as the benchmark for urban water supply.",
@@ -10348,7 +10353,8 @@ export const assignment: Assignment = {
                     "e": "380"
                 },
                 "answer": "d",
-                "explanation": "The Ministry of Housing and Urban Affairs (MoHUA), Government of India, recommends a benchmark of 135 litres per capita per day (lpcd) for urban water supply service levels."
+                "explanation": "The Ministry of Housing and Urban Affairs (MoHUA), Government of India, recommends a benchmark of 135 litres per capita per day (lpcd) for urban water supply service levels.",
+                "year": 2024
             },
             {
                 "q": "SDG 8 aims to ___",
@@ -10359,7 +10365,8 @@ export const assignment: Assignment = {
                     "d": "Promote sustained inclusive and sustainable economic growth, full and productive employment and decent work for all"
                 },
                 "answer": "d",
-                "explanation": "Sustainable Development Goal 8 (SDG 8) specifically focuses on promoting decent work and sustainable, inclusive economic growth for everyone."
+                "explanation": "Sustainable Development Goal 8 (SDG 8) specifically focuses on promoting decent work and sustainable, inclusive economic growth for everyone.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is used as a factor or measure of inequality?",
@@ -10371,7 +10378,8 @@ export const assignment: Assignment = {
                     "e": "All of the above"
                 },
                 "answer": "e",
-                "explanation": "Inequality (related to SDG 10) can be measured across various dimensions, including economic factors (income), demographic factors (age), social identity (sexual orientation), and physical/mental status (disability)."
+                "explanation": "Inequality (related to SDG 10) can be measured across various dimensions, including economic factors (income), demographic factors (age), social identity (sexual orientation), and physical/mental status (disability).",
+                "year": 2024
             },
             {
                 "q": "___ means that our food practices meet the dietary needs of today in terms of nutrition and satiation, without compromising the needs of future generations (especially regarding ecological concerns).",
@@ -10383,7 +10391,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "This definition aligns with the concept of sustainable consumption (part of SDG 12), which involves using resources and services to meet basic needs while minimizing environmental impact and ensuring future availability."
+                "explanation": "This definition aligns with the concept of sustainable consumption (part of SDG 12), which involves using resources and services to meet basic needs while minimizing environmental impact and ensuring future availability.",
+                "year": 2024
             },
             {
                 "q": "SDG ___ highlights that we cannot hope for sustainable development without peace, stability, human rights and effective governance",
@@ -10395,7 +10404,8 @@ export const assignment: Assignment = {
                     "e": "11"
                 },
                 "answer": "c",
-                "explanation": "Sustainable Development Goal 16 (SDG 16) focuses on promoting peaceful and inclusive societies, providing access to justice for all, and building effective, accountable, and inclusive institutions at all levels."
+                "explanation": "Sustainable Development Goal 16 (SDG 16) focuses on promoting peaceful and inclusive societies, providing access to justice for all, and building effective, accountable, and inclusive institutions at all levels.",
+                "year": 2024
             },
             {
                 "q": "Which document, adopted at Rio+20 in 2012, emphasized the development of Sustainable Development Goals (SDGs)?",
@@ -10406,7 +10416,20 @@ export const assignment: Assignment = {
                     "d": "Millennium Declaration"
                 },
                 "answer": "c",
-                "explanation": "The outcome document of the Rio+20 conference (United Nations Conference on Sustainable Development) held in Rio de Janeiro in 2012 was titled 'The Future We Want'. It initiated the process of developing the SDGs."
+                "explanation": "The outcome document of the Rio+20 conference (United Nations Conference on Sustainable Development) held in Rio de Janeiro in 2012 was titled 'The Future We Want'. It initiated the process of developing the SDGs.",
+                "year": 2025
+            },
+            {
+                "q": "The concept of sustainable development was first introduced in which report?",
+                "options": {
+                    "a": "The Future We Want",
+                    "b": "The Millennium Report",
+                    "c": "The Brundtland Report",
+                    "d": "Agenda 21"
+                },
+                "answer": "c",
+                "explanation": "The concept of sustainable development gained prominence with the publication of the Brundtland Report ('Our Common Future') in 1987.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is a target of SDG 1?",
@@ -10418,7 +10441,8 @@ export const assignment: Assignment = {
                     "e": "Strengthen global partnerships"
                 },
                 "answer": "b",
-                "explanation": "Sustainable Development Goal 1 (SDG 1) is focused on ending poverty in all its forms everywhere. Eradicating extreme poverty (living on less than $1.90 a day) is a primary target (Target 1.1)."
+                "explanation": "Sustainable Development Goal 1 (SDG 1) is focused on ending poverty in all its forms everywhere. Eradicating extreme poverty (living on less than $1.90 a day) is a primary target (Target 1.1).",
+                "year": 2025
             },
             {
                 "q": "___ occurs when the body adapts to prolonged absence of food.",
@@ -10429,7 +10453,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "b",
-                "explanation": "Malnutrition encompasses deficiencies, excesses, or imbalances in a person's intake of energy and/or nutrients. Adapting to a prolonged absence of food leads to undernutrition, a form of malnutrition."
+                "explanation": "Malnutrition encompasses deficiencies, excesses, or imbalances in a person's intake of energy and/or nutrients. Adapting to a prolonged absence of food leads to undernutrition, a form of malnutrition.",
+                "year": 2025
             },
             {
                 "q": "The National ECCE policy in India stands for--------",
@@ -10440,7 +10465,8 @@ export const assignment: Assignment = {
                     "d": "Early Childhood Career Engagement"
                 },
                 "answer": "c",
-                "explanation": "ECCE stands for Early Childhood Care and Education. The National ECCE Policy in India focuses on providing quality care and education for children from birth to six years."
+                "explanation": "ECCE stands for Early Childhood Care and Education. The National ECCE Policy in India focuses on providing quality care and education for children from birth to six years.",
+                "year": 2025
             },
             {
                 "q": "What percentage of the human body is composed of water approximately, highlighting the importance of SDG 6?",
@@ -10451,7 +10477,8 @@ export const assignment: Assignment = {
                     "d": "90%"
                 },
                 "answer": "c",
-                "explanation": "The adult human body is composed of about 60-65% water, underscoring the critical importance of clean water and sanitation, which is the focus of SDG 6."
+                "explanation": "The adult human body is composed of about 60-65% water, underscoring the critical importance of clean water and sanitation, which is the focus of SDG 6.",
+                "year": 2025
             },
             {
                 "q": "Which SDG emphasizes \"Affordable and Clean Energy\"?",
@@ -10462,7 +10489,8 @@ export const assignment: Assignment = {
                     "d": "SDG 13"
                 },
                 "answer": "b",
-                "explanation": "Sustainable Development Goal 7 (SDG 7) is dedicated to ensuring access to affordable, reliable, sustainable, and modern energy for all."
+                "explanation": "Sustainable Development Goal 7 (SDG 7) is dedicated to ensuring access to affordable, reliable, sustainable, and modern energy for all.",
+                "year": 2025
             },
             {
                 "q": "The SDGs are also known as--------------------.",
@@ -10473,7 +10501,8 @@ export const assignment: Assignment = {
                     "d": "Global goals"
                 },
                 "answer": "d",
-                "explanation": "The Sustainable Development Goals (SDGs) are often referred to as the Global Goals because they represent a universal call to action adopted by all United Nations Member States."
+                "explanation": "The Sustainable Development Goals (SDGs) are often referred to as the Global Goals because they represent a universal call to action adopted by all United Nations Member States.",
+                "year": 2025
             },
             {
                 "q": "The Global Hunger Index ranks countries based on indicators such as:",
@@ -10484,7 +10513,8 @@ export const assignment: Assignment = {
                     "d": "Food production, trade policies, and GDP"
                 },
                 "answer": "b",
-                "explanation": "The Global Hunger Index (GHI) measures hunger based on four component indicators: undernourishment, child wasting, child stunting, and child mortality. Wasting and stunting are forms of malnutrition."
+                "explanation": "The Global Hunger Index (GHI) measures hunger based on four component indicators: undernourishment, child wasting, child stunting, and child mortality. Wasting and stunting are forms of malnutrition.",
+                "year": 2025
             },
             {
                 "q": "___ absorb about 30% of carbon dioxide produced by humans.",
@@ -10495,7 +10525,8 @@ export const assignment: Assignment = {
                     "d": "Mountains"
                 },
                 "answer": "c",
-                "explanation": "Oceans play a crucial role in the global carbon cycle, acting as a major carbon sink by absorbing a significant portion (estimated around 25-30%) of the anthropogenic carbon dioxide emissions."
+                "explanation": "Oceans play a crucial role in the global carbon cycle, acting as a major carbon sink by absorbing a significant portion (estimated around 25-30%) of the anthropogenic carbon dioxide emissions.",
+                "year": 2025
             }
         ],
         "Assignment 2": [
@@ -10508,7 +10539,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Education for Sustainable Development (ESD) is relevant across all forms and levels of education and learning: formal (schools, universities), non-formal (community workshops, workplace training), and informal (everyday experiences, media)."
+                "explanation": "Education for Sustainable Development (ESD) is relevant across all forms and levels of education and learning: formal (schools, universities), non-formal (community workshops, workplace training), and informal (everyday experiences, media).",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not a characteristic of ESD?",
@@ -10520,7 +10552,8 @@ export const assignment: Assignment = {
                     "e": "It uses a variety of pedagogical techniques"
                 },
                 "answer": "c",
-                "explanation": "A key characteristic of ESD is that it recognizes sustainability as an evolving, dynamic concept, not a stagnant or fixed one. ESD adapts to new understandings and changing contexts."
+                "explanation": "A key characteristic of ESD is that it recognizes sustainability as an evolving, dynamic concept, not a stagnant or fixed one. ESD adapts to new understandings and changing contexts.",
+                "year": 2024
             },
             {
                 "q": "The ___ stated that everyone is entitled to participate in, contribute to, and enjoy economic, social, cultural and political development.",
@@ -10532,7 +10565,8 @@ export const assignment: Assignment = {
                     "e": "Declaration on the Right to Prosperity"
                 },
                 "answer": "d",
-                "explanation": "The UN Declaration on the Right to Development, adopted in 1986, explicitly states this principle, recognizing development as an inalienable human right."
+                "explanation": "The UN Declaration on the Right to Development, adopted in 1986, explicitly states this principle, recognizing development as an inalienable human right.",
+                "year": 2024
             },
             {
                 "q": "Text-based methods of assessing ESD penetration into programs of study can be improved by using ___.",
@@ -10544,7 +10578,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "d",
-                "explanation": "Interpretive methodologies (like qualitative analysis, case studies, discourse analysis) can provide deeper insights into how ESD is actually understood, integrated, and experienced within educational programs, going beyond simple text-based keyword searches."
+                "explanation": "Interpretive methodologies (like qualitative analysis, case studies, discourse analysis) can provide deeper insights into how ESD is actually understood, integrated, and experienced within educational programs, going beyond simple text-based keyword searches.",
+                "year": 2024
             },
             {
                 "q": "While MDGs apply to ___ countries, SDGs are applied to ___ countries",
@@ -10556,7 +10591,8 @@ export const assignment: Assignment = {
                     "e": "developing, all"
                 },
                 "answer": "e",
-                "explanation": "The Millennium Development Goals (MDGs) primarily targeted developing countries, whereas the Sustainable Development Goals (SDGs) are universal and apply to all countries, developed and developing alike."
+                "explanation": "The Millennium Development Goals (MDGs) primarily targeted developing countries, whereas the Sustainable Development Goals (SDGs) are universal and apply to all countries, developed and developing alike.",
+                "year": 2024
             },
             {
                 "q": "The following characteristics apply to the 2030 Agenda except",
@@ -10567,7 +10603,8 @@ export const assignment: Assignment = {
                     "d": "It is exclusive"
                 },
                 "answer": "d",
-                "explanation": "The 2030 Agenda for Sustainable Development is explicitly inclusive, aiming to 'leave no one behind'. It is universal, people-centred, and transformative, but not exclusive."
+                "explanation": "The 2030 Agenda for Sustainable Development is explicitly inclusive, aiming to 'leave no one behind'. It is universal, people-centred, and transformative, but not exclusive.",
+                "year": 2024
             },
             {
                 "q": "HRE, a tool for building peaceful and just societies, stands for ___",
@@ -10579,7 +10616,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "HRE stands for Human Rights Education, which aims to promote knowledge, skills, and attitudes consistent with internationally recognized human rights principles."
+                "explanation": "HRE stands for Human Rights Education, which aims to promote knowledge, skills, and attitudes consistent with internationally recognized human rights principles.",
+                "year": 2024
             },
             {
                 "q": "ESD builds civil capacity for ___",
@@ -10590,7 +10628,8 @@ export const assignment: Assignment = {
                     "d": "All of the above"
                 },
                 "answer": "d",
-                "explanation": "Education for Sustainable Development aims to empower individuals and communities with the knowledge, skills, values, and attitudes needed for social tolerance, participatory decision-making, and responsible environmental action (stewardship)."
+                "explanation": "Education for Sustainable Development aims to empower individuals and communities with the knowledge, skills, values, and attitudes needed for social tolerance, participatory decision-making, and responsible environmental action (stewardship).",
+                "year": 2024
             },
             {
                 "q": "Creating a world culture of peace requires the involvement of all the following parties except ___",
@@ -10602,7 +10641,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "e",
-                "explanation": "Building a culture of peace requires a broad societal effort involving all stakeholders, including politicians, scientists, media, educators, parents, community leaders, and individuals. Therefore, none of the listed parties are exceptions."
+                "explanation": "Building a culture of peace requires a broad societal effort involving all stakeholders, including politicians, scientists, media, educators, parents, community leaders, and individuals. Therefore, none of the listed parties are exceptions.",
+                "year": 2024
             },
             {
                 "q": "Which international organization has highlighted a policy focusing on education and engagement for indigenous people?",
@@ -10614,7 +10654,8 @@ export const assignment: Assignment = {
                     "e": "UNESCO"
                 },
                 "answer": "e",
-                "explanation": "UNESCO (United Nations Educational, Scientific and Cultural Organization) has a specific focus on promoting education for all, including tailored approaches for indigenous peoples, recognizing their unique cultures and knowledge systems."
+                "explanation": "UNESCO (United Nations Educational, Scientific and Cultural Organization) has a specific focus on promoting education for all, including tailored approaches for indigenous peoples, recognizing their unique cultures and knowledge systems.",
+                "year": 2024
             },
             {
                 "q": "As a means of ___, education is an important tool to achieve SDGs.",
@@ -10625,7 +10666,8 @@ export const assignment: Assignment = {
                     "d": "Exploitation"
                 },
                 "answer": "c",
-                "explanation": "Education is recognized as a crucial means of implementation for achieving all Sustainable Development Goals, empowering individuals and societies to build a sustainable future."
+                "explanation": "Education is recognized as a crucial means of implementation for achieving all Sustainable Development Goals, empowering individuals and societies to build a sustainable future.",
+                "year": 2025
             },
             {
                 "q": "One of the essential characteristics of ESD is that it--------------.",
@@ -10636,7 +10678,8 @@ export const assignment: Assignment = {
                     "d": "Prioritizes physical education"
                 },
                 "answer": "c",
-                "explanation": "Education for Sustainable Development (ESD) inherently requires interdisciplinary and holistic approaches, as sustainability challenges cut across environmental, social, and economic domains."
+                "explanation": "Education for Sustainable Development (ESD) inherently requires interdisciplinary and holistic approaches, as sustainability challenges cut across environmental, social, and economic domains.",
+                "year": 2025
             },
             {
                 "q": "Education for Sustainable Development aims to -------------.",
@@ -10647,7 +10690,8 @@ export const assignment: Assignment = {
                     "d": "Train individuals in emotional skillsets"
                 },
                 "answer": "b",
-                "explanation": "The core purpose of ESD is to equip learners with the knowledge, skills, values, and attitudes necessary to take informed actions and address complex global challenges related to sustainability."
+                "explanation": "The core purpose of ESD is to equip learners with the knowledge, skills, values, and attitudes necessary to take informed actions and address complex global challenges related to sustainability.",
+                "year": 2025
             },
             {
                 "q": "The Declaration on the Right to Development (1986) identifies which of the following as essential for sustainable development?",
@@ -10658,7 +10702,8 @@ export const assignment: Assignment = {
                     "d": "Technological awareness"
                 },
                 "answer": "b",
-                "explanation": "The Declaration emphasizes the importance of international cooperation as a duty of States to achieve development and eliminate obstacles, recognizing the interconnectedness of global challenges."
+                "explanation": "The Declaration emphasizes the importance of international cooperation as a duty of States to achieve development and eliminate obstacles, recognizing the interconnectedness of global challenges.",
+                "year": 2025
             },
             {
                 "q": "The concept of sustainability is ___.",
@@ -10669,7 +10714,8 @@ export const assignment: Assignment = {
                     "d": "fixed"
                 },
                 "answer": "b",
-                "explanation": "Sustainability is widely understood as a dynamic and evolving concept, adapting to new scientific understanding, changing societal values, and different contexts."
+                "explanation": "Sustainability is widely understood as a dynamic and evolving concept, adapting to new scientific understanding, changing societal values, and different contexts.",
+                "year": 2025
             },
             {
                 "q": "Which pedagogical approach is emphasized in Education for Sustainable Development (ESD)?",
@@ -10680,7 +10726,8 @@ export const assignment: Assignment = {
                     "d": "Sole focus on textbook-based education"
                 },
                 "answer": "c",
-                "explanation": "ESD promotes active learning pedagogies that foster critical thinking, problem-solving, collaboration, and participation, moving beyond traditional rote learning."
+                "explanation": "ESD promotes active learning pedagogies that foster critical thinking, problem-solving, collaboration, and participation, moving beyond traditional rote learning.",
+                "year": 2025
             },
             {
                 "q": "SDGs have one advantage over the MDGs that they are ___.",
@@ -10691,7 +10738,8 @@ export const assignment: Assignment = {
                     "d": "exclusive"
                 },
                 "answer": "b",
-                "explanation": "A key difference and advantage of the SDGs compared to the MDGs is their universality; they apply to all countries, not just developing ones."
+                "explanation": "A key difference and advantage of the SDGs compared to the MDGs is their universality; they apply to all countries, not just developing ones.",
+                "year": 2025
             },
             {
                 "q": "GDI stands for ___.",
@@ -10702,7 +10750,8 @@ export const assignment: Assignment = {
                     "d": "Gender Discrimination Index"
                 },
                 "answer": "b",
-                "explanation": "GDI stands for the Gender Development Index. It measures gender gaps in human development achievements by accounting for disparities between women and men in three basic dimensions: health, knowledge, and living standards."
+                "explanation": "GDI stands for the Gender Development Index. It measures gender gaps in human development achievements by accounting for disparities between women and men in three basic dimensions: health, knowledge, and living standards.",
+                "year": 2025
             },
             {
                 "q": "Peace education should ___.",
@@ -10713,7 +10762,8 @@ export const assignment: Assignment = {
                     "d": "Focus exclusively on vulnerable sections"
                 },
                 "answer": "b",
-                "explanation": "Effective peace education needs to be comprehensive and reach all sections of society, addressing the root causes of conflict and promoting values of tolerance, understanding, and non-violence throughout communities."
+                "explanation": "Effective peace education needs to be comprehensive and reach all sections of society, addressing the root causes of conflict and promoting values of tolerance, understanding, and non-violence throughout communities.",
+                "year": 2025
             },
             {
                 "q": "One of the principles of ESD involves harmonizing economic development with -------.",
@@ -10724,7 +10774,8 @@ export const assignment: Assignment = {
                     "d": "emotional development"
                 },
                 "answer": "b",
-                "explanation": "A core principle of ESD and sustainable development is the integration and harmonization of the three dimensions: economic development, social equity, and environmental protection."
+                "explanation": "A core principle of ESD and sustainable development is the integration and harmonization of the three dimensions: economic development, social equity, and environmental protection.",
+                "year": 2025
             }
         ],
         "Assignment 3": [
@@ -10738,7 +10789,8 @@ export const assignment: Assignment = {
                     "e": "non-local"
                 },
                 "answer": "b",
-                "explanation": "Global citizenship implies belonging to multiple, diverse networks that extend beyond single, local, or national boundaries, encompassing interconnected global communities."
+                "explanation": "Global citizenship implies belonging to multiple, diverse networks that extend beyond single, local, or national boundaries, encompassing interconnected global communities.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is false about global citizenship?",
@@ -10749,7 +10801,8 @@ export const assignment: Assignment = {
                     "d": "Global citizenship is all about encouraging young people to develop characteristics they need to engage with the world."
                 },
                 "answer": "c",
-                "explanation": "Global citizenship encourages active participation and responsibility within local and global communities to address challenges and contribute to a more sustainable and just world, not passivity."
+                "explanation": "Global citizenship encourages active participation and responsibility within local and global communities to address challenges and contribute to a more sustainable and just world, not passivity.",
+                "year": 2024
             },
             {
                 "q": "UNESCO’s work in the field of global citizenship is guided primarily by ___",
@@ -10761,7 +10814,8 @@ export const assignment: Assignment = {
                     "e": "SDG 10"
                 },
                 "answer": "c",
-                "explanation": "UNESCO's work on Global Citizenship Education (GCED) is a core component of SDG 4 (Quality Education), specifically Target 4.7, which aims to ensure learners acquire knowledge and skills for sustainable development, including global citizenship."
+                "explanation": "UNESCO's work on Global Citizenship Education (GCED) is a core component of SDG 4 (Quality Education), specifically Target 4.7, which aims to ensure learners acquire knowledge and skills for sustainable development, including global citizenship.",
+                "year": 2024
             },
             {
                 "q": "Global citizenship ___",
@@ -10773,7 +10827,8 @@ export const assignment: Assignment = {
                     "e": "teaches learners to have their voices heard"
                 },
                 "answer": "e",
-                "explanation": "Global citizenship education empowers learners by fostering critical thinking, empathy, and a sense of agency, encouraging them to participate actively and voice their perspectives on global issues."
+                "explanation": "Global citizenship education empowers learners by fostering critical thinking, empathy, and a sense of agency, encouraging them to participate actively and voice their perspectives on global issues.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is untrue about global citizens?",
@@ -10785,7 +10840,8 @@ export const assignment: Assignment = {
                     "e": "none of the above"
                 },
                 "answer": "e",
-                "explanation": "Options A, B, C, and D describe typical characteristics or aims associated with global citizenship. Therefore, none of the statements listed are untrue in the context of the ideals of global citizenship."
+                "explanation": "Options A, B, C, and D describe typical characteristics or aims associated with global citizenship. Therefore, none of the statements listed are untrue in the context of the ideals of global citizenship.",
+                "year": 2024
             },
             {
                 "q": "GCED is based on three domains of learning. Which of the following is not one of them?",
@@ -10796,7 +10852,8 @@ export const assignment: Assignment = {
                     "d": "socio-emotional"
                 },
                 "answer": "b",
-                "explanation": "Global Citizenship Education (GCED) typically encompasses three domains of learning: Cognitive (knowledge and thinking skills), Socio-emotional (values, attitudes, social skills), and Behavioral (conduct, practical application, engagement)."
+                "explanation": "Global Citizenship Education (GCED) typically encompasses three domains of learning: Cognitive (knowledge and thinking skills), Socio-emotional (values, attitudes, social skills), and Behavioral (conduct, practical application, engagement).",
+                "year": 2024
             },
             {
                 "q": "UNESCO-MGIEP has called for integrating ___ in education systems.",
@@ -10808,7 +10865,8 @@ export const assignment: Assignment = {
                     "e": "social and emotional learning"
                 },
                 "answer": "e",
-                "explanation": "UNESCO MGIEP (Mahatma Gandhi Institute of Education for Peace and Sustainable Development) strongly advocates for the integration of Social and Emotional Learning (SEL) into education systems globally."
+                "explanation": "UNESCO MGIEP (Mahatma Gandhi Institute of Education for Peace and Sustainable Development) strongly advocates for the integration of Social and Emotional Learning (SEL) into education systems globally.",
+                "year": 2024
             },
             {
                 "q": "___ is an under-recognized resource for sustainable development that defines citizens’ shared identity.",
@@ -10820,7 +10878,8 @@ export const assignment: Assignment = {
                     "e": "cultural heritage"
                 },
                 "answer": "e",
-                "explanation": "Cultural heritage (both tangible and intangible) shapes identity, fosters social cohesion, and holds traditional knowledge relevant to sustainable practices, making it a vital but often under-recognized resource for sustainable development."
+                "explanation": "Cultural heritage (both tangible and intangible) shapes identity, fosters social cohesion, and holds traditional knowledge relevant to sustainable practices, making it a vital but often under-recognized resource for sustainable development.",
+                "year": 2024
             },
             {
                 "q": "TVET stands for ____",
@@ -10831,7 +10890,8 @@ export const assignment: Assignment = {
                     "d": "Technical and Vocational Education and Training"
                 },
                 "answer": "d",
-                "explanation": "TVET is the standard acronym for Technical and Vocational Education and Training, which focuses on practical skills and knowledge for specific occupations."
+                "explanation": "TVET is the standard acronym for Technical and Vocational Education and Training, which focuses on practical skills and knowledge for specific occupations.",
+                "year": 2024
             },
             {
                 "q": "A green economy has four interconnected and mutually dependent goals. Which of the following is not one of them?",
@@ -10842,7 +10902,8 @@ export const assignment: Assignment = {
                     "d": "increasing social exclusion and equity"
                 },
                 "answer": "d",
-                "explanation": "A green economy aims to achieve sustainable development by integrating economic growth, social equity (reducing exclusion), and environmental protection (reducing emissions). Increasing social exclusion is contrary to its goals."
+                "explanation": "A green economy aims to achieve sustainable development by integrating economic growth, social equity (reducing exclusion), and environmental protection (reducing emissions). Increasing social exclusion is contrary to its goals.",
+                "year": 2024
             },
             {
                 "q": "Global citizenship refers to the belief that individuals are members of:------------",
@@ -10853,7 +10914,8 @@ export const assignment: Assignment = {
                     "d": "Independent economies"
                 },
                 "answer": "c",
-                "explanation": "The concept of global citizenship emphasizes the interconnectedness of people across the world, recognizing membership in multiple, diverse local and global networks."
+                "explanation": "The concept of global citizenship emphasizes the interconnectedness of people across the world, recognizing membership in multiple, diverse local and global networks.",
+                "year": 2025
             },
             {
                 "q": "Which domain of learning is not part of GCED?",
@@ -10864,7 +10926,8 @@ export const assignment: Assignment = {
                     "d": "Technical"
                 },
                 "answer": "d",
-                "explanation": "Global Citizenship Education (GCED) focuses on Cognitive, Socio-emotional, and Behavioral domains. While technical skills can be relevant, 'Technical' is not considered one of the core conceptual domains of GCED itself."
+                "explanation": "Global Citizenship Education (GCED) focuses on Cognitive, Socio-emotional, and Behavioral domains. While technical skills can be relevant, 'Technical' is not considered one of the core conceptual domains of GCED itself.",
+                "year": 2025
             },
             {
                 "q": "The domains of GCED emphasize: -------------------",
@@ -10875,7 +10938,8 @@ export const assignment: Assignment = {
                     "d": "Rote learning and repetition"
                 },
                 "answer": "a",
-                "explanation": "GCED aims to develop learners' understanding (knowledge), ability to connect with others (empathy/socio-emotional skills), and capacity to engage constructively (action/behavioral skills)."
+                "explanation": "GCED aims to develop learners' understanding (knowledge), ability to connect with others (empathy/socio-emotional skills), and capacity to engage constructively (action/behavioral skills).",
+                "year": 2025
             },
             {
                 "q": "Global Citizenship Education (GCED) is directly linked to which SDG target?",
@@ -10886,7 +10950,8 @@ export const assignment: Assignment = {
                     "d": "7.5"
                 },
                 "answer": "a",
-                "explanation": "SDG Target 4.7 explicitly calls for ensuring that all learners acquire the knowledge and skills needed to promote sustainable development, including through education for sustainable development and global citizenship."
+                "explanation": "SDG Target 4.7 explicitly calls for ensuring that all learners acquire the knowledge and skills needed to promote sustainable development, including through education for sustainable development and global citizenship.",
+                "year": 2025
             },
             {
                 "q": "UNESCO-MGIEP advocates for the integration of ____ into education systems to promote global citizenship.",
@@ -10897,7 +10962,8 @@ export const assignment: Assignment = {
                     "d": "Legal awareness"
                 },
                 "answer": "b",
-                "explanation": "UNESCO MGIEP champions Social and Emotional Learning (SEL) as crucial for developing competencies like empathy, compassion, and critical inquiry, which are foundational to global citizenship and sustainable development."
+                "explanation": "UNESCO MGIEP champions Social and Emotional Learning (SEL) as crucial for developing competencies like empathy, compassion, and critical inquiry, which are foundational to global citizenship and sustainable development.",
+                "year": 2025
             },
             {
                 "q": "The green economy has interconnected goals, but which of the following is NOT one of them?",
@@ -10908,7 +10974,8 @@ export const assignment: Assignment = {
                     "d": "Alleviating poverty"
                 },
                 "answer": "c",
-                "explanation": "A green economy seeks improved human well-being and social equity while significantly reducing environmental risks. Increasing social exclusion contradicts the goal of social equity."
+                "explanation": "A green economy seeks improved human well-being and social equity while significantly reducing environmental risks. Increasing social exclusion contradicts the goal of social equity.",
+                "year": 2025
             },
             {
                 "q": "TVET stands for: ---------",
@@ -10919,7 +10986,8 @@ export const assignment: Assignment = {
                     "d": "Technical Vision in Education Training"
                 },
                 "answer": "a",
-                "explanation": "TVET is the widely accepted acronym for Technical and Vocational Education and Training."
+                "explanation": "TVET is the widely accepted acronym for Technical and Vocational Education and Training.",
+                "year": 2025
             },
             {
                 "q": "Global citizenship helps students develop an awareness of:----------------",
@@ -10930,7 +10998,8 @@ export const assignment: Assignment = {
                     "d": "Localized solutions only"
                 },
                 "answer": "b",
-                "explanation": "A core element of global citizenship is understanding the interconnectedness (interdependence) of global systems and fostering skills for active collaboration across diverse groups."
+                "explanation": "A core element of global citizenship is understanding the interconnectedness (interdependence) of global systems and fostering skills for active collaboration across diverse groups.",
+                "year": 2025
             },
             {
                 "q": "Cultural and natural heritage serve to: ----------------",
@@ -10941,7 +11010,8 @@ export const assignment: Assignment = {
                     "d": "Diminish diversity"
                 },
                 "answer": "c",
-                "explanation": "Shared cultural and natural heritage can be powerful symbols that foster a sense of common identity, belonging, and national unity."
+                "explanation": "Shared cultural and natural heritage can be powerful symbols that foster a sense of common identity, belonging, and national unity.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is emphasized as an under-recognized resource for sustainable development?",
@@ -10952,7 +11022,8 @@ export const assignment: Assignment = {
                     "d": "Technological innovation"
                 },
                 "answer": "c",
-                "explanation": "Cultural heritage, encompassing traditions, values, and knowledge systems, plays a vital role in social cohesion, identity, and sustainable practices, yet its contribution is often underestimated in development frameworks."
+                "explanation": "Cultural heritage, encompassing traditions, values, and knowledge systems, plays a vital role in social cohesion, identity, and sustainable practices, yet its contribution is often underestimated in development frameworks.",
+                "year": 2025
             }
         ],
         "Assignment 4": [
@@ -10965,7 +11036,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "c",
-                "explanation": "GNEO stands for 'Greening New and Emerging Occupations'. This term refers to how existing jobs evolve or new jobs are created due to the shift towards a greener economy."
+                "explanation": "GNEO stands for 'Greening New and Emerging Occupations'. This term refers to how existing jobs evolve or new jobs are created due to the shift towards a greener economy.",
+                "year": 2024
             },
             {
                 "q": "The International Framework for greening TVET for green society gives a ___-tier approach.",
@@ -10977,7 +11049,8 @@ export const assignment: Assignment = {
                     "e": "seven"
                 },
                 "answer": "d",
-                "explanation": "International guidelines, such as those from UNESCO-UNEVOC, often propose a multi-level or tiered approach (commonly three tiers: policy, institution, and classroom/workshop level) for integrating greening principles into Technical and Vocational Education and Training (TVET)."
+                "explanation": "International guidelines, such as those from UNESCO-UNEVOC, often propose a multi-level or tiered approach (commonly three tiers: policy, institution, and classroom/workshop level) for integrating greening principles into Technical and Vocational Education and Training (TVET).",
+                "year": 2024
             },
             {
                 "q": "The five dimensions or criteria of greening TVET include the following except ___",
@@ -10989,7 +11062,8 @@ export const assignment: Assignment = {
                     "e": "Green community"
                 },
                 "answer": "c",
-                "explanation": "Common dimensions for greening TVET focus on institutional practices (Green campus), educational content (Green curriculum), innovation (Green research), and community engagement (Green community). 'Green discipline' is not a standard dimension; greening applies across various disciplines."
+                "explanation": "Common dimensions for greening TVET focus on institutional practices (Green campus), educational content (Green curriculum), innovation (Green research), and community engagement (Green community). 'Green discipline' is not a standard dimension; greening applies across various disciplines.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not an indicator of green culture?",
@@ -11000,7 +11074,8 @@ export const assignment: Assignment = {
                     "d": "research programs in sustainable development"
                 },
                 "answer": "d",
-                "explanation": "While research programs are important for advancing sustainability, 'green culture' within an institution refers more directly to the shared values, attitudes, practices, and active participation related to environmental and social responsibility, as well as innovative sustainability initiatives."
+                "explanation": "While research programs are important for advancing sustainability, 'green culture' within an institution refers more directly to the shared values, attitudes, practices, and active participation related to environmental and social responsibility, as well as innovative sustainability initiatives.",
+                "year": 2024
             },
             {
                 "q": "___ as an umbrella term often includes social entrepreneurship, eco-preneurship and intra-preneurship",
@@ -11012,7 +11087,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "d",
-                "explanation": "Sustainable entrepreneurship encompasses various forms of venturing that aim to create economic, social, and environmental value, including social entrepreneurship (social mission), eco-preneurship (environmental focus), and intra-preneurship (within existing organizations)."
+                "explanation": "Sustainable entrepreneurship encompasses various forms of venturing that aim to create economic, social, and environmental value, including social entrepreneurship (social mission), eco-preneurship (environmental focus), and intra-preneurship (within existing organizations).",
+                "year": 2024
             },
             {
                 "q": "The definition most commonly used to understand a sustainable healthcare system is given by ___.",
@@ -11024,7 +11100,8 @@ export const assignment: Assignment = {
                     "e": "none of the above"
                 },
                 "answer": "b",
-                "explanation": "The World Health Organization (WHO) provides influential frameworks and definitions regarding health systems, including aspects related to sustainability, resilience, and universal health coverage."
+                "explanation": "The World Health Organization (WHO) provides influential frameworks and definitions regarding health systems, including aspects related to sustainability, resilience, and universal health coverage.",
+                "year": 2024
             },
             {
                 "q": "A genuinely sustainable healthcare system has the following characteristics except ___",
@@ -11036,7 +11113,8 @@ export const assignment: Assignment = {
                     "e": "focuses only on meeting healthcare needs"
                 },
                 "answer": "e",
-                "explanation": "A sustainable healthcare system considers the triple bottom line: environmental impact (conserving resources, minimizing damage), social equity (population health, future generations), and economic viability (financial costs), not just immediate healthcare delivery."
+                "explanation": "A sustainable healthcare system considers the triple bottom line: environmental impact (conserving resources, minimizing damage), social equity (population health, future generations), and economic viability (financial costs), not just immediate healthcare delivery.",
+                "year": 2024
             },
             {
                 "q": "There are ___ number of accelerator themes under the Global Action Plan for Healthy Lives and Wellbeing",
@@ -11048,7 +11126,8 @@ export const assignment: Assignment = {
                     "e": "7"
                 },
                 "answer": "e",
-                "explanation": "The Global Action Plan for Healthy Lives and Well-being for All outlines seven accelerator themes focusing on areas like primary health care, sustainable financing, community engagement, determinants of health, R&D, digital health, and humanitarian settings."
+                "explanation": "The Global Action Plan for Healthy Lives and Well-being for All outlines seven accelerator themes focusing on areas like primary health care, sustainable financing, community engagement, determinants of health, R&D, digital health, and humanitarian settings.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the accelerator themes under the Global Action Plan for Healthy Lives and Wellbeing?",
@@ -11059,7 +11138,8 @@ export const assignment: Assignment = {
                     "d": "Knowledge of health"
                 },
                 "answer": "d",
-                "explanation": "The seven accelerator themes focus on action areas like primary health care, sustainable financing, community engagement, determinants of health, R&D, digital health, and emergencies. 'Knowledge of health' is a broader concept, not one of the specific accelerator themes."
+                "explanation": "The seven accelerator themes focus on action areas like primary health care, sustainable financing, community engagement, determinants of health, R&D, digital health, and emergencies. 'Knowledge of health' is a broader concept, not one of the specific accelerator themes.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not a dimension of health?",
@@ -11070,7 +11150,8 @@ export const assignment: Assignment = {
                     "d": "technical"
                 },
                 "answer": "d",
-                "explanation": "Health is typically understood as multidimensional, commonly including physical, mental (or psychological), and social well-being. Spiritual, emotional, and environmental dimensions are also sometimes included. 'Technical' is not a recognized dimension of health."
+                "explanation": "Health is typically understood as multidimensional, commonly including physical, mental (or psychological), and social well-being. Spiritual, emotional, and environmental dimensions are also sometimes included. 'Technical' is not a recognized dimension of health.",
+                "year": 2024
             },
             {
                 "q": "IGP stands for ___.",
@@ -11081,7 +11162,8 @@ export const assignment: Assignment = {
                     "d": "Instructional Governance Policy"
                 },
                 "answer": "c",
-                "explanation": "Within the context of greening educational institutions (like TVET), IGP likely refers to an Institutional Greening Plan, a strategic document outlining how the institution will implement sustainable practices."
+                "explanation": "Within the context of greening educational institutions (like TVET), IGP likely refers to an Institutional Greening Plan, a strategic document outlining how the institution will implement sustainable practices.",
+                "year": 2025
             },
             {
                 "q": "___ highlight the classification of the shift in the work and worker requirements of an existing occupation due to green economic activities and technologies.",
@@ -11092,7 +11174,8 @@ export const assignment: Assignment = {
                     "d": "GESO"
                 },
                 "answer": "d",
-                "explanation": "GESO stands for 'Greening Existing Occupations'. It describes how current jobs are changing and require new 'green' skills and knowledge due to the transition towards environmental sustainability."
+                "explanation": "GESO stands for 'Greening Existing Occupations'. It describes how current jobs are changing and require new 'green' skills and knowledge due to the transition towards environmental sustainability.",
+                "year": 2025
             },
             {
                 "q": "The International Framework for Greening TVET for a Green Society is a: ---------",
@@ -11103,7 +11186,8 @@ export const assignment: Assignment = {
                     "d": "One step process"
                 },
                 "answer": "a",
-                "explanation": "Frameworks for greening TVET often adopt a multi-level or tiered structure (commonly three tiers: macro/policy, meso/institutional, micro/teaching-learning) to address the complexity of integration."
+                "explanation": "Frameworks for greening TVET often adopt a multi-level or tiered structure (commonly three tiers: macro/policy, meso/institutional, micro/teaching-learning) to address the complexity of integration.",
+                "year": 2025
             },
             {
                 "q": "A holistic framework for TVET institutions is required to support: -----------",
@@ -11114,7 +11198,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Greening TVET aims to equip individuals with skills for both a sustainable economy (green jobs, green industries) and a sustainable society (responsible consumption, environmental awareness, social equity)."
+                "explanation": "Greening TVET aims to equip individuals with skills for both a sustainable economy (green jobs, green industries) and a sustainable society (responsible consumption, environmental awareness, social equity).",
+                "year": 2025
             },
             {
                 "q": "The National Green Growth Policy focuses on: ----------------",
@@ -11125,7 +11210,8 @@ export const assignment: Assignment = {
                     "d": "All of the above"
                 },
                 "answer": "d",
-                "explanation": "Green growth policies typically aim to foster economic growth and development while ensuring environmental sustainability. This involves addressing climate change, promoting green jobs/occupations, and considering socio-economic impacts."
+                "explanation": "Green growth policies typically aim to foster economic growth and development while ensuring environmental sustainability. This involves addressing climate change, promoting green jobs/occupations, and considering socio-economic impacts.",
+                "year": 2025
             },
             {
                 "q": "Green practices in classroom is an indicator of ___.",
@@ -11136,7 +11222,8 @@ export const assignment: Assignment = {
                     "d": "Green house"
                 },
                 "answer": "c",
-                "explanation": "Integrating sustainable practices and topics directly into teaching and learning activities within the classroom is a key aspect of implementing a 'Green Curriculum'."
+                "explanation": "Integrating sustainable practices and topics directly into teaching and learning activities within the classroom is a key aspect of implementing a 'Green Curriculum'.",
+                "year": 2025
             },
             {
                 "q": "Not-for-profit entrepreneurship is an example of ___.",
@@ -11147,7 +11234,8 @@ export const assignment: Assignment = {
                     "d": "Corporate entrepreneurship"
                 },
                 "answer": "a",
-                "explanation": "Social entrepreneurship focuses primarily on creating social value and addressing social problems, often through non-profit or hybrid models, rather than maximizing profit."
+                "explanation": "Social entrepreneurship focuses primarily on creating social value and addressing social problems, often through non-profit or hybrid models, rather than maximizing profit.",
+                "year": 2025
             },
             {
                 "q": "Commitment to end diseases like AIDS and malaria is focused on by ___.",
@@ -11158,7 +11246,8 @@ export const assignment: Assignment = {
                     "d": "SDG 8"
                 },
                 "answer": "b",
-                "explanation": "SDG 3 (Good Health and Well-being) specifically includes targets (Target 3.3) to end the epidemics of AIDS, tuberculosis, malaria, and neglected tropical diseases by 2030."
+                "explanation": "SDG 3 (Good Health and Well-being) specifically includes targets (Target 3.3) to end the epidemics of AIDS, tuberculosis, malaria, and neglected tropical diseases by 2030.",
+                "year": 2025
             },
             {
                 "q": "Genetically defined human motor capacity is referred to as ___.",
@@ -11169,7 +11258,8 @@ export const assignment: Assignment = {
                     "d": "aesthetic fitness"
                 },
                 "answer": "c",
-                "explanation": "Physical fitness relates to the body's ability to function efficiently and effectively in work and leisure activities. Underlying motor capacity, influenced by genetics, is a component of this."
+                "explanation": "Physical fitness relates to the body's ability to function efficiently and effectively in work and leisure activities. Underlying motor capacity, influenced by genetics, is a component of this.",
+                "year": 2025
             },
             {
                 "q": "Nutritional requirements for an individual are determined by ___.",
@@ -11180,7 +11270,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Individual nutritional needs vary based on factors like age, sex, body size (mass/composition), physical activity level, health status, and life stage (e.g., pregnancy)."
+                "explanation": "Individual nutritional needs vary based on factors like age, sex, body size (mass/composition), physical activity level, health status, and life stage (e.g., pregnancy).",
+                "year": 2025
             }
         ],
         "Assignment 5": [
@@ -11194,7 +11285,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "d",
-                "explanation": "Significant disparities exist in healthcare infrastructure and access between different states (inter-state) and within states (intra-state, e.g., rural vs. urban) in India."
+                "explanation": "Significant disparities exist in healthcare infrastructure and access between different states (inter-state) and within states (intra-state, e.g., rural vs. urban) in India.",
+                "year": 2024
             },
             {
                 "q": "WHO’s framework of health system building blocks include the following except ___",
@@ -11206,7 +11298,8 @@ export const assignment: Assignment = {
                     "e": "health workforce"
                 },
                 "answer": "d",
-                "explanation": "The WHO health system framework includes six building blocks: Service Delivery, Health Workforce, Health Information Systems, Access to Essential Medicines, Financing, and Leadership/Governance. 'Access to essential customers' is not one of them; the focus is on populations/patients."
+                "explanation": "The WHO health system framework includes six building blocks: Service Delivery, Health Workforce, Health Information Systems, Access to Essential Medicines, Financing, and Leadership/Governance. 'Access to essential customers' is not one of them; the focus is on populations/patients.",
+                "year": 2024
             },
             {
                 "q": "Sustainability of a healthcare system depends on ___ number of major factors which include internal and external factors",
@@ -11218,7 +11311,8 @@ export const assignment: Assignment = {
                     "e": "Nine"
                 },
                 "answer": "d",
-                "explanation": "While frameworks vary, analyses of healthcare sustainability often consider multiple interconnected factors (commonly around 5-7 or more) covering governance, financing, workforce, service delivery, technology, community engagement, and environmental impact."
+                "explanation": "While frameworks vary, analyses of healthcare sustainability often consider multiple interconnected factors (commonly around 5-7 or more) covering governance, financing, workforce, service delivery, technology, community engagement, and environmental impact.",
+                "year": 2024
             },
             {
                 "q": "Costs related to value in healthcare include ___",
@@ -11229,7 +11323,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Value-based healthcare considers outcomes relative to costs across the full cycle of care. A sustainable view of value broadens the definition of 'costs' to include not just financial expenditures but also environmental and social impacts (the triple bottom line)."
+                "explanation": "Value-based healthcare considers outcomes relative to costs across the full cycle of care. A sustainable view of value broadens the definition of 'costs' to include not just financial expenditures but also environmental and social impacts (the triple bottom line).",
+                "year": 2024
             },
             {
                 "q": "The ___ is India’s flagship programme to improve nutritional outcomes for children, pregnant women and lactating mothers",
@@ -11240,7 +11335,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "POSHAN Abhiyan (National Nutrition Mission) is India's primary initiative launched in 2018 to tackle malnutrition comprehensively, targeting children, adolescent girls, pregnant women, and lactating mothers."
+                "explanation": "POSHAN Abhiyan (National Nutrition Mission) is India's primary initiative launched in 2018 to tackle malnutrition comprehensively, targeting children, adolescent girls, pregnant women, and lactating mothers.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the four stages for Sustainable Quality Improvement (Sus-QI)",
@@ -11252,7 +11348,8 @@ export const assignment: Assignment = {
                     "e": "Design the improvement effort"
                 },
                 "answer": "b",
-                "explanation": "Sustainable Quality Improvement (Sus-QI) methodologies typically involve stages like setting goals (including sustainability), studying the system, measuring impacts (including environmental/social), designing/implementing changes, and evaluating. 'Violating the system' is not part of a constructive improvement process."
+                "explanation": "Sustainable Quality Improvement (Sus-QI) methodologies typically involve stages like setting goals (including sustainability), studying the system, measuring impacts (including environmental/social), designing/implementing changes, and evaluating. 'Violating the system' is not part of a constructive improvement process.",
+                "year": 2024
             },
             {
                 "q": "Sus-QI extends the scope of QI by including the following except ___",
@@ -11263,7 +11360,8 @@ export const assignment: Assignment = {
                     "d": "economic sustainability"
                 },
                 "answer": "d",
-                "explanation": "Sus-QI explicitly adds environmental (ecological) and social dimensions to traditional Quality Improvement (QI), which often primarily focuses on clinical effectiveness and economic efficiency. While economic aspects remain important, the key extension is social and ecological."
+                "explanation": "Sus-QI explicitly adds environmental (ecological) and social dimensions to traditional Quality Improvement (QI), which often primarily focuses on clinical effectiveness and economic efficiency. While economic aspects remain important, the key extension is social and ecological.",
+                "year": 2024
             },
             {
                 "q": "Ideally, when considering the environmental impacts of a system, one would calculate total ___ instead of just estimating greenhouse gas emissions",
@@ -11274,7 +11372,8 @@ export const assignment: Assignment = {
                     "d": "Ecological footprint"
                 },
                 "answer": "d",
-                "explanation": "While carbon footprint measures greenhouse gas emissions, the ecological footprint is a broader measure of human demand on nature, comparing resource consumption and waste generation to the Earth's capacity to regenerate, providing a more holistic environmental impact assessment."
+                "explanation": "While carbon footprint measures greenhouse gas emissions, the ecological footprint is a broader measure of human demand on nature, comparing resource consumption and waste generation to the Earth's capacity to regenerate, providing a more holistic environmental impact assessment.",
+                "year": 2024
             },
             {
                 "q": "A ___ has been defined as an environment in which data of medical interest can be stired and made easily available to different actors in the healthcare system.",
@@ -11286,7 +11385,8 @@ export const assignment: Assignment = {
                     "e": "none of the above"
                 },
                 "answer": "d",
-                "explanation": "The term 'health grid' often refers to interconnected digital infrastructure designed to securely store, share, and manage health-related data among various healthcare providers and stakeholders."
+                "explanation": "The term 'health grid' often refers to interconnected digital infrastructure designed to securely store, share, and manage health-related data among various healthcare providers and stakeholders.",
+                "year": 2024
             },
             {
                 "q": "With respect to value in healthcare, outcomes refer to ___",
@@ -11297,7 +11397,8 @@ export const assignment: Assignment = {
                     "d": "both a and b"
                 },
                 "answer": "d",
-                "explanation": "Value in healthcare considers outcomes that matter to patients (individual level, e.g., functional status, quality of life) and also broader health outcomes at the population level (e.g., mortality rates, disease prevalence)."
+                "explanation": "Value in healthcare considers outcomes that matter to patients (individual level, e.g., functional status, quality of life) and also broader health outcomes at the population level (e.g., mortality rates, disease prevalence).",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not an indigenous system of medicine?",
@@ -11308,7 +11409,8 @@ export const assignment: Assignment = {
                     "d": "homeopathy"
                 },
                 "answer": "c",
-                "explanation": "Ayurveda and Siddha are traditional Indian systems of medicine. Homeopathy originated in Germany. Surgery, while practiced in ancient forms, is generally considered a branch of modern/conventional medicine rather than a distinct indigenous system."
+                "explanation": "Ayurveda and Siddha are traditional Indian systems of medicine. Homeopathy originated in Germany. Surgery, while practiced in ancient forms, is generally considered a branch of modern/conventional medicine rather than a distinct indigenous system.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a health system building block as suggested by WHO?",
@@ -11319,7 +11421,8 @@ export const assignment: Assignment = {
                     "d": "Leadership/Governance"
                 },
                 "answer": "c",
-                "explanation": "The WHO framework includes Leadership/Governance, Health Information Systems, Health Financing, Health Workforce, Medical Products & Technologies, and Service Delivery. While politics influences health systems, it is not listed as a formal building block itself."
+                "explanation": "The WHO framework includes Leadership/Governance, Health Information Systems, Health Financing, Health Workforce, Medical Products & Technologies, and Service Delivery. While politics influences health systems, it is not listed as a formal building block itself.",
+                "year": 2025
             },
             {
                 "q": "Technology in healthcare infrastructure can be used through ___.",
@@ -11330,7 +11433,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "b",
-                "explanation": "Technology enables innovative healthcare delivery models, including mobile hospitals or clinics that bring diagnostic and treatment facilities to remote or underserved areas, leveraging infrastructure advancements."
+                "explanation": "Technology enables innovative healthcare delivery models, including mobile hospitals or clinics that bring diagnostic and treatment facilities to remote or underserved areas, leveraging infrastructure advancements.",
+                "year": 2025
             },
             {
                 "q": "___ in healthcare is how well a healthcare system meets its objectives.",
@@ -11341,7 +11445,8 @@ export const assignment: Assignment = {
                     "d": "Expense"
                 },
                 "answer": "b",
-                "explanation": "Value in healthcare is often defined as the health outcomes achieved per unit of cost. It assesses how effectively and efficiently a system achieves its goals (improving health) relative to the resources used."
+                "explanation": "Value in healthcare is often defined as the health outcomes achieved per unit of cost. It assesses how effectively and efficiently a system achieves its goals (improving health) relative to the resources used.",
+                "year": 2025
             },
             {
                 "q": "The National Digital Health Mission will help in better management using the open ___ framework.",
@@ -11352,7 +11457,8 @@ export const assignment: Assignment = {
                     "d": "API"
                 },
                 "answer": "d",
-                "explanation": "Digital health initiatives like India's Ayushman Bharat Digital Mission (building on NDHM) rely on open Application Programming Interfaces (APIs) to allow different software systems and applications to connect and share health data securely and efficiently."
+                "explanation": "Digital health initiatives like India's Ayushman Bharat Digital Mission (building on NDHM) rely on open Application Programming Interfaces (APIs) to allow different software systems and applications to connect and share health data securely and efficiently.",
+                "year": 2025
             },
             {
                 "q": "The POSHAN Abhiyan in India was launched in ___ .",
@@ -11363,7 +11469,8 @@ export const assignment: Assignment = {
                     "d": "1965"
                 },
                 "answer": "c",
-                "explanation": "POSHAN Abhiyan (National Nutrition Mission) was launched by the Government of India on March 8, 2018, to address malnutrition challenges."
+                "explanation": "POSHAN Abhiyan (National Nutrition Mission) was launched by the Government of India on March 8, 2018, to address malnutrition challenges.",
+                "year": 2025
             },
             {
                 "q": "Sus-QI extends the scope of QI to include ___.",
@@ -11374,7 +11481,8 @@ export const assignment: Assignment = {
                     "d": "economic profit"
                 },
                 "answer": "a",
-                "explanation": "Sustainable Quality Improvement (Sus-QI) explicitly integrates environmental (ecological) and social considerations alongside the traditional clinical and economic aspects of Quality Improvement."
+                "explanation": "Sustainable Quality Improvement (Sus-QI) explicitly integrates environmental (ecological) and social considerations alongside the traditional clinical and economic aspects of Quality Improvement.",
+                "year": 2025
             },
             {
                 "q": "___ is the worst level of food security for a country.",
@@ -11385,7 +11493,8 @@ export const assignment: Assignment = {
                     "d": "Obesity"
                 },
                 "answer": "b",
-                "explanation": "Famine represents the most extreme level of food insecurity, characterized by widespread starvation, death, and social disruption due to a lack of access to food. Drought and flood can cause famine, but famine itself is the state of extreme food scarcity."
+                "explanation": "Famine represents the most extreme level of food insecurity, characterized by widespread starvation, death, and social disruption due to a lack of access to food. Drought and flood can cause famine, but famine itself is the state of extreme food scarcity.",
+                "year": 2025
             },
             {
                 "q": "The ___ program in India has been key source of extra nourishment for millions of school going children.",
@@ -11396,7 +11505,8 @@ export const assignment: Assignment = {
                     "d": "start-day meal"
                 },
                 "answer": "c",
-                "explanation": "The Mid-Day Meal Scheme (now PM-POSHAN) has been a crucial government program in India providing cooked meals to school children, aiming to improve nutritional status, school attendance, and concentration."
+                "explanation": "The Mid-Day Meal Scheme (now PM-POSHAN) has been a crucial government program in India providing cooked meals to school children, aiming to improve nutritional status, school attendance, and concentration.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a pillar of food security?",
@@ -11407,7 +11517,8 @@ export const assignment: Assignment = {
                     "d": "Food use"
                 },
                 "answer": "b",
-                "explanation": "The internationally recognized pillars of food security are Availability (sufficient quantity of food), Access (physical and economic access), Utilization (proper biological use of food), and Stability (access at all times). 'Food tax' is not a pillar."
+                "explanation": "The internationally recognized pillars of food security are Availability (sufficient quantity of food), Access (physical and economic access), Utilization (proper biological use of food), and Stability (access at all times). 'Food tax' is not a pillar.",
+                "year": 2025
             }
         ],
         "Assignment 6": [
@@ -11420,7 +11531,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Hunger is a complex issue with multiple interconnected causes, including poverty, lack of infrastructure for food distribution, conflict disrupting production and access, climate change, and economic instability."
+                "explanation": "Hunger is a complex issue with multiple interconnected causes, including poverty, lack of infrastructure for food distribution, conflict disrupting production and access, climate change, and economic instability.",
+                "year": 2024
             },
             {
                 "q": "Hidden hunger as a form of malnutrition has to do with ___ of food more than the ___",
@@ -11431,7 +11543,8 @@ export const assignment: Assignment = {
                     "d": "quality, quantity"
                 },
                 "answer": "d",
-                "explanation": "Hidden hunger refers to micronutrient deficiencies (vitamins and minerals). It occurs when the quality of food consumed is poor and lacks essential nutrients, even if the quantity of food (calories) is sufficient."
+                "explanation": "Hidden hunger refers to micronutrient deficiencies (vitamins and minerals). It occurs when the quality of food consumed is poor and lacks essential nutrients, even if the quantity of food (calories) is sufficient.",
+                "year": 2024
             },
             {
                 "q": "Desertification typically is a result of the following except ___",
@@ -11442,7 +11555,8 @@ export const assignment: Assignment = {
                     "d": "deforestation"
                 },
                 "answer": "c",
-                "explanation": "Desertification is land degradation in arid, semi-arid, and dry sub-humid areas, primarily caused by factors like climate variations (drought) and human activities (deforestation, overgrazing, inappropriate agriculture). Floods are generally associated with excess water, not arid land degradation."
+                "explanation": "Desertification is land degradation in arid, semi-arid, and dry sub-humid areas, primarily caused by factors like climate variations (drought) and human activities (deforestation, overgrazing, inappropriate agriculture). Floods are generally associated with excess water, not arid land degradation.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is a sustainable agriculture practice?",
@@ -11454,7 +11568,8 @@ export const assignment: Assignment = {
                     "e": "all of the above"
                 },
                 "answer": "e",
-                "explanation": "Sustainable agriculture involves practices that maintain ecological balance and long-term productivity. Biofertilizers, IPM, reduced pesticide use, and crop rotation are all established sustainable techniques."
+                "explanation": "Sustainable agriculture involves practices that maintain ecological balance and long-term productivity. Biofertilizers, IPM, reduced pesticide use, and crop rotation are all established sustainable techniques.",
+                "year": 2024
             },
             {
                 "q": "Which of the following policy changes are essential to improve India’s hunger situation?",
@@ -11465,7 +11580,8 @@ export const assignment: Assignment = {
                     "d": "Decrease the earned income tax credit for childless workers"
                 },
                 "answer": "c",
-                "explanation": "Addressing hunger requires tackling poverty and inequality. Supporting pay equity helps ensure fairer wages, particularly for women and marginalized groups, improving their ability to afford adequate food."
+                "explanation": "Addressing hunger requires tackling poverty and inequality. Supporting pay equity helps ensure fairer wages, particularly for women and marginalized groups, improving their ability to afford adequate food.",
+                "year": 2024
             },
             {
                 "q": "___ crops can handle temperature and precipitation variation and precipitation fluctuations.",
@@ -11476,7 +11592,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "c",
-                "explanation": "Climate-resilient crops are varieties bred or adapted to withstand the adverse effects of climate change, including temperature extremes, drought, and erratic precipitation patterns."
+                "explanation": "Climate-resilient crops are varieties bred or adapted to withstand the adverse effects of climate change, including temperature extremes, drought, and erratic precipitation patterns.",
+                "year": 2024
             },
             {
                 "q": "India will probably suffer with wheat production due to global warming. Wheat productivity is dependent on ___",
@@ -11487,7 +11604,8 @@ export const assignment: Assignment = {
                     "d": "cold night temperatures"
                 },
                 "answer": "d",
-                "explanation": "Wheat requires specific temperature ranges, particularly cooler temperatures during certain growth stages (like grain filling). Global warming, leading to warmer nights, can negatively impact wheat yields."
+                "explanation": "Wheat requires specific temperature ranges, particularly cooler temperatures during certain growth stages (like grain filling). Global warming, leading to warmer nights, can negatively impact wheat yields.",
+                "year": 2024
             },
             {
                 "q": "Bringing forgotten and neglected foods like millets and yam into cultivation and onto the market is known as ___",
@@ -11498,7 +11616,8 @@ export const assignment: Assignment = {
                     "d": "discrimination of food basket"
                 },
                 "answer": "c",
-                "explanation": "Promoting underutilized traditional crops like millets and yams contributes to diversifying the food supply (food basket), enhancing nutritional security, and promoting agricultural biodiversity."
+                "explanation": "Promoting underutilized traditional crops like millets and yams contributes to diversifying the food supply (food basket), enhancing nutritional security, and promoting agricultural biodiversity.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is a type of electric vehicle?",
@@ -11509,7 +11628,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "BEV (Battery Electric Vehicle) runs solely on battery power. PEV (Plug-in Electric Vehicle) includes both BEVs and PHEVs (Plug-in Hybrid Electric Vehicles). ZEV (Zero Emission Vehicle) typically refers to vehicles that produce no tailpipe emissions, like BEVs and Fuel Cell EVs. All listed are related classifications."
+                "explanation": "BEV (Battery Electric Vehicle) runs solely on battery power. PEV (Plug-in Electric Vehicle) includes both BEVs and PHEVs (Plug-in Hybrid Electric Vehicles). ZEV (Zero Emission Vehicle) typically refers to vehicles that produce no tailpipe emissions, like BEVs and Fuel Cell EVs. All listed are related classifications.",
+                "year": 2024
             },
             {
                 "q": "___ won the Peace Nobel in 2007, an acknowledgment of its efforts in creating awareness for the fight against climate change",
@@ -11520,7 +11640,8 @@ export const assignment: Assignment = {
                     "d": "IPCC"
                 },
                 "answer": "d",
-                "explanation": "The Intergovernmental Panel on Climate Change (IPCC) shared the 2007 Nobel Peace Prize with Al Gore for their efforts to build up and disseminate greater knowledge about man-made climate change."
+                "explanation": "The Intergovernmental Panel on Climate Change (IPCC) shared the 2007 Nobel Peace Prize with Al Gore for their efforts to build up and disseminate greater knowledge about man-made climate change.",
+                "year": 2024
             },
             {
                 "q": "___ systems provide water for countries with unreliable or low rainfall.",
@@ -11531,7 +11652,8 @@ export const assignment: Assignment = {
                     "d": "Landscaping"
                 },
                 "answer": "a",
-                "explanation": "Irrigation systems are designed to artificially supply water to land, essential for agriculture in regions with insufficient or unreliable rainfall."
+                "explanation": "Irrigation systems are designed to artificially supply water to land, essential for agriculture in regions with insufficient or unreliable rainfall.",
+                "year": 2025
             },
             {
                 "q": "In high income countries, hunger is mainly caused due to ___ .",
@@ -11542,7 +11664,8 @@ export const assignment: Assignment = {
                     "d": "politics"
                 },
                 "answer": "c",
-                "explanation": "While absolute hunger is less common, food insecurity and hunger in high-income countries are strongly linked to poverty, unemployment, low wages, and lack of access to affordable, nutritious food."
+                "explanation": "While absolute hunger is less common, food insecurity and hunger in high-income countries are strongly linked to poverty, unemployment, low wages, and lack of access to affordable, nutritious food.",
+                "year": 2025
             },
             {
                 "q": "___ as a form of malnutrition has to with quality of food and not quantity.",
@@ -11553,7 +11676,8 @@ export const assignment: Assignment = {
                     "d": "Hidden hunger"
                 },
                 "answer": "d",
-                "explanation": "Hidden hunger specifically refers to deficiencies in essential vitamins and minerals (micronutrients), which results from poor dietary quality, even if caloric intake (quantity) is adequate."
+                "explanation": "Hidden hunger specifically refers to deficiencies in essential vitamins and minerals (micronutrients), which results from poor dietary quality, even if caloric intake (quantity) is adequate.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a sustainable agriculture practice?",
@@ -11564,7 +11688,8 @@ export const assignment: Assignment = {
                     "d": "integrated pest management"
                 },
                 "answer": "b",
-                "explanation": "Sustainable agriculture aims to minimize reliance on synthetic inputs. While careful use might be debated, excessive or sole reliance on chemical fertilizers can lead to environmental problems (water pollution, soil degradation) and is generally contrasted with sustainable practices like using organic matter or biofertilizers."
+                "explanation": "Sustainable agriculture aims to minimize reliance on synthetic inputs. While careful use might be debated, excessive or sole reliance on chemical fertilizers can lead to environmental problems (water pollution, soil degradation) and is generally contrasted with sustainable practices like using organic matter or biofertilizers.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is a positive impact of MGNREGA programme?",
@@ -11575,7 +11700,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Studies on India's Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) have indicated positive impacts including increased bargaining power leading to higher rural wages, reduction in gender wage disparity due to equal pay provisions, and improved household food security through income generation."
+                "explanation": "Studies on India's Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) have indicated positive impacts including increased bargaining power leading to higher rural wages, reduction in gender wage disparity due to equal pay provisions, and improved household food security through income generation.",
+                "year": 2025
             },
             {
                 "q": "According to research, mother’s education is positively associated with ___ .",
@@ -11586,7 +11712,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Extensive research shows a strong correlation between maternal education levels and improved outcomes for children, including better health, nutrition, and educational attainment."
+                "explanation": "Extensive research shows a strong correlation between maternal education levels and improved outcomes for children, including better health, nutrition, and educational attainment.",
+                "year": 2025
             },
             {
                 "q": "As the world population is growing, food production needs to rise by approximately ___ by 2030 to meet the needs.",
@@ -11597,7 +11724,8 @@ export const assignment: Assignment = {
                     "d": "0.5%"
                 },
                 "answer": "a",
-                "explanation": "Estimates vary, but organizations like the FAO have projected significant increases in food demand due to population growth and changing diets, often cited in the range of 50-70% increase needed by 2050 compared to baseline years. A 50% increase by 2030 reflects this substantial need."
+                "explanation": "Estimates vary, but organizations like the FAO have projected significant increases in food demand due to population growth and changing diets, often cited in the range of 50-70% increase needed by 2050 compared to baseline years. A 50% increase by 2030 reflects this substantial need.",
+                "year": 2025
             },
             {
                 "q": "SDG 7 (Affordable and clean energy) has __ major targets.",
@@ -11608,7 +11736,8 @@ export const assignment: Assignment = {
                     "d": "20"
                 },
                 "answer": "b",
-                "explanation": "Sustainable Development Goal 7 has five specific targets (7.1, 7.2, 7.3, 7.a, 7.b) covering access to energy, renewable energy share, energy efficiency, international cooperation, and infrastructure/technology."
+                "explanation": "Sustainable Development Goal 7 has five specific targets (7.1, 7.2, 7.3, 7.a, 7.b) covering access to energy, renewable energy share, energy efficiency, international cooperation, and infrastructure/technology.",
+                "year": 2025
             },
             {
                 "q": "Which state has the highest renewable energy capacity?",
@@ -11619,7 +11748,8 @@ export const assignment: Assignment = {
                     "d": "West Bengal"
                 },
                 "answer": "c",
-                "explanation": "India's renewable energy landscape is dynamic, but as of recent years (early 2020s), states like Rajasthan, Gujarat, Tamil Nadu, and Karnataka have consistently ranked among the top in terms of installed renewable energy capacity. Among the options given, Karnataka has been a leading state."
+                "explanation": "India's renewable energy landscape is dynamic, but as of recent years (early 2020s), states like Rajasthan, Gujarat, Tamil Nadu, and Karnataka have consistently ranked among the top in terms of installed renewable energy capacity. Among the options given, Karnataka has been a leading state.",
+                "year": 2025
             },
             {
                 "q": "The ___ had won the Peace Nobel in 2007 for its efforts in creating awareness for the fight against climate change.",
@@ -11630,7 +11760,8 @@ export const assignment: Assignment = {
                     "d": "ICPP"
                 },
                 "answer": "b",
-                "explanation": "The Intergovernmental Panel on Climate Change (IPCC) was awarded the Nobel Peace Prize in 2007, shared with Al Gore, for their work in assessing and communicating the science of climate change."
+                "explanation": "The Intergovernmental Panel on Climate Change (IPCC) was awarded the Nobel Peace Prize in 2007, shared with Al Gore, for their work in assessing and communicating the science of climate change.",
+                "year": 2025
             }
         ],
         "Assignment 7": [
@@ -11643,7 +11774,8 @@ export const assignment: Assignment = {
                     "d": "Intergovernmental Practical for Climate and Culture"
                 },
                 "answer": "c",
-                "explanation": "IPCC stands for the Intergovernmental Panel on Climate Change, the UN body responsible for assessing the science related to climate change."
+                "explanation": "IPCC stands for the Intergovernmental Panel on Climate Change, the UN body responsible for assessing the science related to climate change.",
+                "year": 2024
             },
             {
                 "q": "The greatest contributor to outdoor air pollution in India is ___.",
@@ -11655,7 +11787,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "b",
-                "explanation": "While multiple sources contribute, studies often highlight the significant contribution of burning solid biomass (like wood, crop residue, dung) for household cooking and heating to ambient (outdoor) air pollution in India, alongside other sources like transport and industry."
+                "explanation": "While multiple sources contribute, studies often highlight the significant contribution of burning solid biomass (like wood, crop residue, dung) for household cooking and heating to ambient (outdoor) air pollution in India, alongside other sources like transport and industry.",
+                "year": 2024
             },
             {
                 "q": "The term ___ grew out of the climate justice movement, and is grounded on the basic understanding that “the decisions that shape our lives should be established jointly and without regard to the principle of profit.",
@@ -11666,7 +11799,8 @@ export const assignment: Assignment = {
                     "d": "Energy equality"
                 },
                 "answer": "c",
-                "explanation": "Energy democracy is a concept emphasizing community control and social equity in energy systems, moving away from centralized, profit-driven models towards more participatory and just energy transitions."
+                "explanation": "Energy democracy is a concept emphasizing community control and social equity in energy systems, moving away from centralized, profit-driven models towards more participatory and just energy transitions.",
+                "year": 2024
             },
             {
                 "q": "Increased deployment of renewable energy has been shown to improve energy security in the EU, where renewable’s substitution for natural gas accounted for 30 % of the estimated reduction in fossil fuel demand during 2013. This is an example of ___ impact of renewable energy.",
@@ -11678,7 +11812,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "d",
-                "explanation": "Reducing reliance on imported fossil fuels through domestic renewable energy enhances a nation's or region's energy security, which is a key political and security consideration."
+                "explanation": "Reducing reliance on imported fossil fuels through domestic renewable energy enhances a nation's or region's energy security, which is a key political and security consideration.",
+                "year": 2024
             },
             {
                 "q": "___ is now recognized as a promising and attractive energy carrier to decarbonize the sectors responsible for global warming, such as electricity production, industry, and transportation",
@@ -11689,7 +11824,8 @@ export const assignment: Assignment = {
                     "d": "Hydrogen"
                 },
                 "answer": "d",
-                "explanation": "Hydrogen, particularly when produced using renewable energy ('green hydrogen'), is considered a key energy carrier for decarbonizing sectors where direct electrification is difficult."
+                "explanation": "Hydrogen, particularly when produced using renewable energy ('green hydrogen'), is considered a key energy carrier for decarbonizing sectors where direct electrification is difficult.",
+                "year": 2024
             },
             {
                 "q": "___ was the first state in India to introduce a comprehensive EV policy and has emerged as an integral hotspot for EV businesses in the country.",
@@ -11700,7 +11836,8 @@ export const assignment: Assignment = {
                     "d": "Karnataka"
                 },
                 "answer": "d",
-                "explanation": "Karnataka was among the pioneering states in India to launch a dedicated Electric Vehicle (EV) policy, aiming to establish itself as a hub for EV manufacturing and adoption."
+                "explanation": "Karnataka was among the pioneering states in India to launch a dedicated Electric Vehicle (EV) policy, aiming to establish itself as a hub for EV manufacturing and adoption.",
+                "year": 2024
             },
             {
                 "q": "With the Paris Agreement, countries established ___, under which, starting in 2024, countries will report transparently on actions taken and progress in climate change mitigation, adaptation measures and support provided or received",
@@ -11711,7 +11848,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "b",
-                "explanation": "The Paris Agreement established the Enhanced Transparency Framework (ETF) requiring all participating countries to report regularly on their emissions, progress towards their climate targets (NDCs), and adaptation efforts."
+                "explanation": "The Paris Agreement established the Enhanced Transparency Framework (ETF) requiring all participating countries to report regularly on their emissions, progress towards their climate targets (NDCs), and adaptation efforts.",
+                "year": 2024
             },
             {
                 "q": "The Government of India launched the National Action Plan on Climate Change in 2008 outlining ___ number of National Missions.",
@@ -11722,7 +11860,8 @@ export const assignment: Assignment = {
                     "d": "8"
                 },
                 "answer": "d",
-                "explanation": "India's National Action Plan on Climate Change (NAPCC), launched in 2008, initially comprised eight National Missions focusing on various aspects of climate change mitigation and adaptation."
+                "explanation": "India's National Action Plan on Climate Change (NAPCC), launched in 2008, initially comprised eight National Missions focusing on various aspects of climate change mitigation and adaptation.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the missions given by National Action Plan on Climate Change in 2008?",
@@ -11733,7 +11872,8 @@ export const assignment: Assignment = {
                     "d": "National Air Mission"
                 },
                 "answer": "d",
-                "explanation": "The eight original missions under NAPCC were: Solar Energy, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge for Climate Change. There was no specific 'National Air Mission'."
+                "explanation": "The eight original missions under NAPCC were: Solar Energy, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining the Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge for Climate Change. There was no specific 'National Air Mission'.",
+                "year": 2024
             },
             {
                 "q": "There are three major means of implementation of SDG 4. Which of the following is not one of them?",
@@ -11744,7 +11884,8 @@ export const assignment: Assignment = {
                     "d": "AC classrooms"
                 },
                 "answer": "d",
-                "explanation": "The means of implementation for SDG 4 (Quality Education) focus on creating effective learning environments, supporting teachers, and providing resources like scholarships. While AC might contribute to a comfortable environment, it's not a major implementation category itself."
+                "explanation": "The means of implementation for SDG 4 (Quality Education) focus on creating effective learning environments, supporting teachers, and providing resources like scholarships. While AC might contribute to a comfortable environment, it's not a major implementation category itself.",
+                "year": 2024
             },
             {
                 "q": "Renewable energy technologies provide ___ .",
@@ -11755,7 +11896,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Renewable energy sources like solar, wind, geothermal, etc., can be used for various applications including electricity generation (lighting, appliances), heating (solar thermal, geothermal), and powering transportation (electric vehicles charged with renewables)."
+                "explanation": "Renewable energy sources like solar, wind, geothermal, etc., can be used for various applications including electricity generation (lighting, appliances), heating (solar thermal, geothermal), and powering transportation (electric vehicles charged with renewables).",
+                "year": 2025
             },
             {
                 "q": "Loss of biodiversity and risk of nuclear accidents are examples of ___ impacts of extraction and use of fuels.",
@@ -11766,7 +11908,8 @@ export const assignment: Assignment = {
                     "d": "biological"
                 },
                 "answer": "c",
-                "explanation": "The extraction and use of energy sources, both fossil fuels and nuclear, can have significant environmental impacts, including habitat destruction leading to biodiversity loss and the potential risks associated with nuclear materials."
+                "explanation": "The extraction and use of energy sources, both fossil fuels and nuclear, can have significant environmental impacts, including habitat destruction leading to biodiversity loss and the potential risks associated with nuclear materials.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a political and security driver of renewable energy?",
@@ -11777,7 +11920,8 @@ export const assignment: Assignment = {
                     "d": "improve public health"
                 },
                 "answer": "d",
-                "explanation": "Improving energy security, enhancing grid resilience, and promoting energy democracy are primarily political/security/social drivers. While renewable energy does improve public health (by reducing air pollution), health improvement itself is primarily a social/environmental benefit, not a political/security driver in the same category as the others."
+                "explanation": "Improving energy security, enhancing grid resilience, and promoting energy democracy are primarily political/security/social drivers. While renewable energy does improve public health (by reducing air pollution), health improvement itself is primarily a social/environmental benefit, not a political/security driver in the same category as the others.",
+                "year": 2025
             },
             {
                 "q": "Hydrogen is produced mainly from a ___ process.",
@@ -11788,7 +11932,8 @@ export const assignment: Assignment = {
                     "d": "thermochemical"
                 },
                 "answer": "d",
-                "explanation": "Currently, the vast majority of hydrogen production globally uses thermochemical processes, primarily steam methane reforming (SMR) from natural gas. Electrolysis (electrical) and biological processes are less common but growing, especially for 'green' hydrogen."
+                "explanation": "Currently, the vast majority of hydrogen production globally uses thermochemical processes, primarily steam methane reforming (SMR) from natural gas. Electrolysis (electrical) and biological processes are less common but growing, especially for 'green' hydrogen.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is the key EV industry body in India?",
@@ -11799,7 +11944,8 @@ export const assignment: Assignment = {
                     "d": "Society of Manufacturers of Electric Vehicles"
                 },
                 "answer": "d",
-                "explanation": "The Society of Manufacturers of Electric Vehicles (SMEV) is the primary industry body representing manufacturers of electric vehicles and components in India."
+                "explanation": "The Society of Manufacturers of Electric Vehicles (SMEV) is the primary industry body representing manufacturers of electric vehicles and components in India.",
+                "year": 2025
             },
             {
                 "q": "The ___ agreement is a legally binding international treaty on climate change.",
@@ -11810,7 +11956,8 @@ export const assignment: Assignment = {
                     "d": "Paris"
                 },
                 "answer": "d",
-                "explanation": "The Paris Agreement, adopted in 2015, is the landmark legally binding international treaty aimed at limiting global warming, requiring countries to set and report on emission reduction targets."
+                "explanation": "The Paris Agreement, adopted in 2015, is the landmark legally binding international treaty aimed at limiting global warming, requiring countries to set and report on emission reduction targets.",
+                "year": 2025
             },
             {
                 "q": "As a target of COP26, ___ is the agreed limit for the temperature to rise to avoid climate catastrophe.",
@@ -11821,7 +11968,8 @@ export const assignment: Assignment = {
                     "d": "10° C"
                 },
                 "answer": "a",
-                "explanation": "A key goal reinforced at COP26 (building on the Paris Agreement) was to keep the global average temperature rise well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C."
+                "explanation": "A key goal reinforced at COP26 (building on the Paris Agreement) was to keep the global average temperature rise well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C.",
+                "year": 2025
             },
             {
                 "q": "Zero-carbon solutions are becoming competitive across economic sectors, representing ___ % of emissions presently.",
@@ -11832,7 +11980,8 @@ export const assignment: Assignment = {
                     "d": "90"
                 },
                 "answer": "b",
-                "explanation": "While the exact percentage fluctuates and depends on definitions, analyses around the early 2020s indicated that zero-carbon solutions were becoming economically competitive in sectors representing roughly 25% of global emissions, with this share expected to grow rapidly."
+                "explanation": "While the exact percentage fluctuates and depends on definitions, analyses around the early 2020s indicated that zero-carbon solutions were becoming economically competitive in sectors representing roughly 25% of global emissions, with this share expected to grow rapidly.",
+                "year": 2025
             },
             {
                 "q": "Which university in India offers a dual degree in electrical engineering with specialization in power and energy system?",
@@ -11843,7 +11992,8 @@ export const assignment: Assignment = {
                     "d": "NIT Kurukshetra"
                 },
                 "answer": "c",
-                "explanation": "IIT Kharagpur has been known to offer specialized programs, including dual degrees, focusing on power and energy systems within its Electrical Engineering department."
+                "explanation": "IIT Kharagpur has been known to offer specialized programs, including dual degrees, focusing on power and energy systems within its Electrical Engineering department.",
+                "year": 2025
             },
             {
                 "q": "Intentionally setting fire to straw that remains after grains like rice and wheat are harvested is called ___.",
@@ -11854,7 +12004,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "b",
-                "explanation": "The practice of burning the residual crop stalks (stubble) left in the field after harvest is commonly referred to as stubble burning."
+                "explanation": "The practice of burning the residual crop stalks (stubble) left in the field after harvest is commonly referred to as stubble burning.",
+                "year": 2025
             }
         ],
         "Assignment 8": [
@@ -11867,7 +12018,8 @@ export const assignment: Assignment = {
                     "d": "Capacity building"
                 },
                 "answer": "c",
-                "explanation": "The Okayama Commitment on ESD often emphasizes policy support through enabling frameworks, resource mobilization, fostering networks, and capacity building for stakeholders. Direct infrastructure development is less commonly listed as a primary policy support mechanism within this specific ESD context compared to enabling actions."
+                "explanation": "The Okayama Commitment on ESD often emphasizes policy support through enabling frameworks, resource mobilization, fostering networks, and capacity building for stakeholders. Direct infrastructure development is less commonly listed as a primary policy support mechanism within this specific ESD context compared to enabling actions.",
+                "year": 2024
             },
             {
                 "q": "The Frame model gives three goal dimensions (GD). Which of the following is not one of them?",
@@ -11878,7 +12030,8 @@ export const assignment: Assignment = {
                     "d": "Affective-motivational"
                 },
                 "answer": "b",
-                "explanation": "Models structuring sustainability competencies, like the Frame model mentioned, typically categorize goals or competencies into Cognitive (knowledge, thinking), Affective-motivational (values, attitudes, motivation), and Behavioral (actions, skills) dimensions. 'Biological' is not a standard dimension in these educational/psychological frameworks."
+                "explanation": "Models structuring sustainability competencies, like the Frame model mentioned, typically categorize goals or competencies into Cognitive (knowledge, thinking), Affective-motivational (values, attitudes, motivation), and Behavioral (actions, skills) dimensions. 'Biological' is not a standard dimension in these educational/psychological frameworks.",
+                "year": 2024
             },
             {
                 "q": "Value and attitudes come under the ___ facets of sustainable competencies.",
@@ -11889,7 +12042,8 @@ export const assignment: Assignment = {
                     "d": "Behavioral"
                 },
                 "answer": "b",
-                "explanation": "Values, attitudes, and motivations related to sustainability fall within the Affective-motivational domain of learning and competency development."
+                "explanation": "Values, attitudes, and motivations related to sustainability fall within the Affective-motivational domain of learning and competency development.",
+                "year": 2024
             },
             {
                 "q": "Which of the following statements is false regarding perspectives of sustainable development?",
@@ -11900,7 +12054,8 @@ export const assignment: Assignment = {
                     "d": "A systems thinking approach is important"
                 },
                 "answer": "c",
-                "explanation": "A fundamental principle of sustainable development is the interconnectedness and interdependence of its pillars. Peace, development (social and economic), and environmental protection are intrinsically linked and mutually reinforcing, not independent."
+                "explanation": "A fundamental principle of sustainable development is the interconnectedness and interdependence of its pillars. Peace, development (social and economic), and environmental protection are intrinsically linked and mutually reinforcing, not independent.",
+                "year": 2024
             },
             {
                 "q": "GAP for ESD stands for ___",
@@ -11911,7 +12066,8 @@ export const assignment: Assignment = {
                     "d": "Global Action Programme"
                 },
                 "answer": "d",
-                "explanation": "GAP on ESD stands for the Global Action Programme on Education for Sustainable Development, which was UNESCO's roadmap for ESD from 2015 to 2019."
+                "explanation": "GAP on ESD stands for the Global Action Programme on Education for Sustainable Development, which was UNESCO's roadmap for ESD from 2015 to 2019.",
+                "year": 2024
             },
             {
                 "q": "___ competency is the ability to collectively develop and implement innovative actions that further sustainability at the local level and further a field.",
@@ -11922,7 +12078,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Strategic competency in ESD involves the ability to collectively design and implement interventions, transitions, and strategies to address complex sustainability challenges."
+                "explanation": "Strategic competency in ESD involves the ability to collectively design and implement interventions, transitions, and strategies to address complex sustainability challenges.",
+                "year": 2024
             },
             {
                 "q": "___ competency refers to the ability to understand and evaluate multiple futures – possible, probable and desirable – and to create one’s own visions for the future",
@@ -11933,7 +12090,8 @@ export const assignment: Assignment = {
                     "d": "Self awareness"
                 },
                 "answer": "a",
-                "explanation": "Anticipatory competency (or futures thinking) is a key ESD competency involving the ability to envision and analyze potential future scenarios and develop pathways towards preferred, sustainable futures."
+                "explanation": "Anticipatory competency (or futures thinking) is a key ESD competency involving the ability to envision and analyze potential future scenarios and develop pathways towards preferred, sustainable futures.",
+                "year": 2024
             },
             {
                 "q": "In the ___ approaches, the process is organized in a manner that enable all stakeholders to jointly develop a vision and plan to implement ESD.",
@@ -11944,7 +12102,8 @@ export const assignment: Assignment = {
                     "d": "Whole institution"
                 },
                 "answer": "d",
-                "explanation": "The 'Whole Institution Approach' to ESD emphasizes involving all members of an educational institution (students, teachers, staff, management) and integrating sustainability principles across curriculum, operations, governance, and community engagement."
+                "explanation": "The 'Whole Institution Approach' to ESD emphasizes involving all members of an educational institution (students, teachers, staff, management) and integrating sustainability principles across curriculum, operations, governance, and community engagement.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not true regarding the learner centered approach to ESD?",
@@ -11955,7 +12114,8 @@ export const assignment: Assignment = {
                     "d": "change the role of an educator from that of a facilitator to an expert who transfers structured knowledge"
                 },
                 "answer": "d",
-                "explanation": "Learner-centered approaches, including in ESD, shift the educator's role from a primary knowledge transmitter (expert) towards that of a facilitator, guide, and co-learner, empowering students to actively construct knowledge."
+                "explanation": "Learner-centered approaches, including in ESD, shift the educator's role from a primary knowledge transmitter (expert) towards that of a facilitator, guide, and co-learner, empowering students to actively construct knowledge.",
+                "year": 2024
             },
             {
                 "q": "Action-learning draws on Kolb’s learning cycle of ___ learning.",
@@ -11966,7 +12126,8 @@ export const assignment: Assignment = {
                     "d": "passive"
                 },
                 "answer": "c",
-                "explanation": "Action learning is closely related to Kolb's cycle of experiential learning, which involves a cycle of concrete experience, reflective observation, abstract conceptualization, and active experimentation."
+                "explanation": "Action learning is closely related to Kolb's cycle of experiential learning, which involves a cycle of concrete experience, reflective observation, abstract conceptualization, and active experimentation.",
+                "year": 2024
             },
             {
                 "q": "The Okayama Commitments, Japan focus on ___ .",
@@ -11977,7 +12138,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "The Okayama Commitments, stemming from the UNESCO World Conference on ESD (2014), address various facets of ESD, including environmental aspects, quality education (related to literacy), and empowering learners and communities for sustainable development."
+                "explanation": "The Okayama Commitments, stemming from the UNESCO World Conference on ESD (2014), address various facets of ESD, including environmental aspects, quality education (related to literacy), and empowering learners and communities for sustainable development.",
+                "year": 2025
             },
             {
                 "q": "Education is related to SDG 1 such that ___ .",
@@ -11988,7 +12150,8 @@ export const assignment: Assignment = {
                     "d": "education helps reduce gender gaps"
                 },
                 "answer": "c",
-                "explanation": "Education is a powerful tool for poverty reduction (SDG 1) by enhancing skills, improving employment opportunities, boosting earning potential, and empowering individuals to make informed decisions."
+                "explanation": "Education is a powerful tool for poverty reduction (SDG 1) by enhancing skills, improving employment opportunities, boosting earning potential, and empowering individuals to make informed decisions.",
+                "year": 2025
             },
             {
                 "q": "The ___ model structures sustainability competencies into cognitive, affective motivational and behavioral goal dimensions .",
@@ -11999,7 +12162,8 @@ export const assignment: Assignment = {
                     "d": "frame"
                 },
                 "answer": "d",
-                "explanation": "Competency frameworks in education often use terms like 'Frame' or 'Framework' to structure learning domains (cognitive, affective, behavioral) for specific areas like sustainability."
+                "explanation": "Competency frameworks in education often use terms like 'Frame' or 'Framework' to structure learning domains (cognitive, affective, behavioral) for specific areas like sustainability.",
+                "year": 2025
             },
             {
                 "q": "An affective goal commitment or a _ of actions, is the core of any motivation.",
@@ -12010,7 +12174,8 @@ export const assignment: Assignment = {
                     "d": "biologically assessed sequence"
                 },
                 "answer": "b",
-                "explanation": "Motivation is driven by the anticipation of positive outcomes or the avoidance of negative ones. A commitment arises when a sequence of actions is positively assessed as leading towards a desired affective goal."
+                "explanation": "Motivation is driven by the anticipation of positive outcomes or the avoidance of negative ones. A commitment arises when a sequence of actions is positively assessed as leading towards a desired affective goal.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is false?",
@@ -12021,7 +12186,8 @@ export const assignment: Assignment = {
                     "d": "warfare is inherently constructive"
                 },
                 "answer": "d",
-                "explanation": "Warfare is inherently destructive, causing immense human suffering, environmental damage, and social disruption, directly undermining sustainable development."
+                "explanation": "Warfare is inherently destructive, causing immense human suffering, environmental damage, and social disruption, directly undermining sustainable development.",
+                "year": 2025
             },
             {
                 "q": "The ___ principle advocates to take action to avoid possibility of irreversible environmental or social harm.",
@@ -12032,7 +12198,20 @@ export const assignment: Assignment = {
                     "d": "permanent"
                 },
                 "answer": "a",
-                "explanation": "The precautionary principle states that if an action or policy has a suspected risk of causing severe or irreversible harm to the public or the environment, in the absence of scientific consensus that harm would not ensue, the burden of proof falls on those who would advocate taking the action."
+                "explanation": "The precautionary principle states that if an action or policy has a suspected risk of causing severe or irreversible harm to the public or the environment, in the absence of scientific consensus that harm would not ensue, the burden of proof falls on those who would advocate taking the action.",
+                "year": 2025
+            },
+            {
+                "q": "GAP on ESD stands for Global ___ Programme.",
+                "options": {
+                    "a": "Action",
+                    "b": "Activity",
+                    "c": "Affect",
+                    "d": "Antecedent"
+                },
+                "answer": "a",
+                "explanation": "GAP on ESD stands for the Global Action Programme on Education for Sustainable Development.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a key competency for sustainable development?",
@@ -12043,7 +12222,8 @@ export const assignment: Assignment = {
                     "d": "normative"
                 },
                 "answer": "b",
-                "explanation": "Key competencies for sustainable development emphasize connection and interaction, such as systems thinking, collaboration, and empathy. 'Isolative' competency is contradictory to these principles."
+                "explanation": "Key competencies for sustainable development emphasize connection and interaction, such as systems thinking, collaboration, and empathy. 'Isolative' competency is contradictory to these principles.",
+                "year": 2025
             },
             {
                 "q": "___ pedagogy sees students as autonomous learners and emphasizes active development of knowledge.",
@@ -12054,7 +12234,8 @@ export const assignment: Assignment = {
                     "d": "Teacher-centered"
                 },
                 "answer": "b",
-                "explanation": "Learner-centered pedagogy places the student at the heart of the learning process, fostering autonomy, active engagement, and construction of knowledge, often facilitated by the teacher."
+                "explanation": "Learner-centered pedagogy places the student at the heart of the learning process, fostering autonomy, active engagement, and construction of knowledge, often facilitated by the teacher.",
+                "year": 2025
             },
             {
                 "q": "Experience for action-oriented learning may come from a ___.",
@@ -12065,7 +12246,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Action-oriented learning involves learning through doing and reflecting on experiences gained from various activities like projects, internships, workshops, community engagement, etc."
+                "explanation": "Action-oriented learning involves learning through doing and reflecting on experiences gained from various activities like projects, internships, workshops, community engagement, etc.",
+                "year": 2025
             }
         ],
         "Assignment 9": [
@@ -12079,7 +12261,8 @@ export const assignment: Assignment = {
                     "e": "Science fiction thinking"
                 },
                 "answer": "d",
-                "explanation": "Future workshops, scenario analysis, exploring dystopian/utopian narratives, and science fiction thinking are methods used in ESD to stimulate anticipatory competency and vision building. Fishbowl discussions are a dialogue technique, not specifically a visioning exercise."
+                "explanation": "Future workshops, scenario analysis, exploring dystopian/utopian narratives, and science fiction thinking are methods used in ESD to stimulate anticipatory competency and vision building. Fishbowl discussions are a dialogue technique, not specifically a visioning exercise.",
+                "year": 2024
             },
             {
                 "q": "Communication skills, empathy, compassion and leadership are examples of which of the key competency area proposed for the assessment of ESD?",
@@ -12091,7 +12274,8 @@ export const assignment: Assignment = {
                     "e": "Future thinking"
                 },
                 "answer": "c",
-                "explanation": "Competencies like communication, empathy, compassion, and leadership heavily involve interaction and collaboration with others, falling under the Interpersonal competency domain."
+                "explanation": "Competencies like communication, empathy, compassion, and leadership heavily involve interaction and collaboration with others, falling under the Interpersonal competency domain.",
+                "year": 2024
             },
             {
                 "q": "___ is the ability to stay present to your internal environment at the same time as engaging with your external environment",
@@ -12103,7 +12287,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Presencing, a concept often associated with Theory U, refers to a state of deep awareness combining observation of the external world with introspection of one's internal state (thoughts, feelings)."
+                "explanation": "Presencing, a concept often associated with Theory U, refers to a state of deep awareness combining observation of the external world with introspection of one's internal state (thoughts, feelings).",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the intelligences proposed by Gardner in the model of multiple intelligences?",
@@ -12115,7 +12300,8 @@ export const assignment: Assignment = {
                     "e": "Spatial"
                 },
                 "answer": "d",
-                "explanation": "Howard Gardner's theory of multiple intelligences includes Linguistic, Logical-Mathematical, Spatial, Bodily-Kinesthetic, Musical, Interpersonal, Intrapersonal, and Naturalist intelligences. 'Acoustic' is related to sound but 'Musical' is the specific intelligence Gardner proposed."
+                "explanation": "Howard Gardner's theory of multiple intelligences includes Linguistic, Logical-Mathematical, Spatial, Bodily-Kinesthetic, Musical, Interpersonal, Intrapersonal, and Naturalist intelligences. 'Acoustic' is related to sound but 'Musical' is the specific intelligence Gardner proposed.",
+                "year": 2024
             },
             {
                 "q": "The idea of ___ implies changes in individual action intertwined with reorganization of societal structures.",
@@ -12126,7 +12312,8 @@ export const assignment: Assignment = {
                     "d": "Big transformation"
                 },
                 "answer": "d",
-                "explanation": "Significant societal change or 'Big Transformation' towards sustainability requires both shifts in individual behaviors and values, coupled with changes in underlying societal structures, policies, and systems."
+                "explanation": "Significant societal change or 'Big Transformation' towards sustainability requires both shifts in individual behaviors and values, coupled with changes in underlying societal structures, policies, and systems.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is false about transformative learning?",
@@ -12137,7 +12324,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "d",
-                "explanation": "Transformative learning theory (Mezirow) involves shifts in frames of reference (A), critical reflection on assumptions (B), and distinguishes between instrumental (task-oriented) and communicative (understanding meaning) learning (C). Therefore, none of the statements A, B, or C are false."
+                "explanation": "Transformative learning theory (Mezirow) involves shifts in frames of reference (A), critical reflection on assumptions (B), and distinguishes between instrumental (task-oriented) and communicative (understanding meaning) learning (C). Therefore, none of the statements A, B, or C are false.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the phases given in Mezirow’s 10 phases of transformative learning?",
@@ -12148,7 +12336,8 @@ export const assignment: Assignment = {
                     "d": "Disorienting dilemma"
                 },
                 "answer": "a",
-                "explanation": "Mezirow's phases include experiencing a disorienting dilemma, self-examination, critical assessment, exploring options, planning action, acquiring knowledge, trying new roles, building competence, and reintegrating the new perspective. 'Regulation' is not one of the listed phases."
+                "explanation": "Mezirow's phases include experiencing a disorienting dilemma, self-examination, critical assessment, exploring options, planning action, acquiring knowledge, trying new roles, building competence, and reintegrating the new perspective. 'Regulation' is not one of the listed phases.",
+                "year": 2024
             },
             {
                 "q": "Need to know why, Self-Concept, Role of experience, Readiness to learn, Orientation to learning and Motivation are six assumptions often stated as principles of ___",
@@ -12159,7 +12348,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "These six points are core principles of Andragogy, Malcolm Knowles' theory of adult learning (adult education), distinguishing it from pedagogy (child learning)."
+                "explanation": "These six points are core principles of Andragogy, Malcolm Knowles' theory of adult learning (adult education), distinguishing it from pedagogy (child learning).",
+                "year": 2024
             },
             {
                 "q": "In the sustainable education model in the Indian context by Mohanty(2019), the role of driver 1 of profit is played by ___",
@@ -12170,7 +12360,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Context specific models might assign roles differently. In Mohanty's model discussed, the government ministry (MHRD, now Ministry of Education) likely represents the key driver influencing the 'profit' or economic/viability aspect of the education system through policy and funding."
+                "explanation": "Context specific models might assign roles differently. In Mohanty's model discussed, the government ministry (MHRD, now Ministry of Education) likely represents the key driver influencing the 'profit' or economic/viability aspect of the education system through policy and funding.",
+                "year": 2024
             },
             {
                 "q": "TPACK in the context of ESD and transformative learning stands for ___",
@@ -12181,7 +12372,8 @@ export const assignment: Assignment = {
                     "d": "Transformative pedagogical contextual knowledge"
                 },
                 "answer": "c",
-                "explanation": "TPACK stands for Technological Pedagogical Content Knowledge, a framework describing the intersection of knowledge about technology, pedagogy (teaching methods), and content (subject matter) needed for effective technology integration in education, which is also relevant for ESD."
+                "explanation": "TPACK stands for Technological Pedagogical Content Knowledge, a framework describing the intersection of knowledge about technology, pedagogy (teaching methods), and content (subject matter) needed for effective technology integration in education, which is also relevant for ESD.",
+                "year": 2024
             },
             {
                 "q": "Utopian story-telling and science-fiction thinking are some examples of ___ method in ESD.",
@@ -12192,7 +12384,8 @@ export const assignment: Assignment = {
                     "d": "vision building exercises"
                 },
                 "answer": "d",
-                "explanation": "Exploring utopian/dystopian narratives and engaging with science fiction are pedagogical techniques used in ESD to stimulate imagination, critical thinking about the future, and the development of visions for a sustainable society."
+                "explanation": "Exploring utopian/dystopian narratives and engaging with science fiction are pedagogical techniques used in ESD to stimulate imagination, critical thinking about the future, and the development of visions for a sustainable society.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a key competency area for assessment of ESD?",
@@ -12203,7 +12396,8 @@ export const assignment: Assignment = {
                     "d": "past thinking"
                 },
                 "answer": "d",
-                "explanation": "ESD competencies focus on understanding complexity (systems thinking), interacting with others (interpersonal), self-reflection (intrapersonal), planning action (strategic), and envisioning futures (anticipatory). 'Past thinking' is not typically categorized as a key forward-looking ESD competency."
+                "explanation": "ESD competencies focus on understanding complexity (systems thinking), interacting with others (interpersonal), self-reflection (intrapersonal), planning action (strategic), and envisioning futures (anticipatory). 'Past thinking' is not typically categorized as a key forward-looking ESD competency.",
+                "year": 2025
             },
             {
                 "q": "The ___ intelligences represent a sum total of human capacities to influence, interact with, and communicate with our world.",
@@ -12214,7 +12408,8 @@ export const assignment: Assignment = {
                     "d": "multiple"
                 },
                 "answer": "d",
-                "explanation": "The concept of multiple intelligences (popularized by Gardner) suggests that human capacity is diverse and comprises various distinct types of intelligence, rather than a single, general ability."
+                "explanation": "The concept of multiple intelligences (popularized by Gardner) suggests that human capacity is diverse and comprises various distinct types of intelligence, rather than a single, general ability.",
+                "year": 2025
             },
             {
                 "q": "___ intelligence refers to seeing and mapping the world in 3D.",
@@ -12225,7 +12420,8 @@ export const assignment: Assignment = {
                     "d": "Spatial"
                 },
                 "answer": "d",
-                "explanation": "Spatial intelligence involves the capacity to perceive the visual-spatial world accurately, perform transformations on one's initial perceptions, and visualize mentally, including mapping in 3D."
+                "explanation": "Spatial intelligence involves the capacity to perceive the visual-spatial world accurately, perform transformations on one's initial perceptions, and visualize mentally, including mapping in 3D.",
+                "year": 2025
             },
             {
                 "q": "ESD assessment is a part of a/an___ of planning, implementing, learning reflection and replanning.",
@@ -12236,7 +12432,20 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "a",
-                "explanation": "Effective ESD involves a cyclical process of planning, action, assessment/reflection, and replanning, emphasizing continuous learning and adaptation through interactive action and reflection."
+                "explanation": "Effective ESD involves a cyclical process of planning, action, assessment/reflection, and replanning, emphasizing continuous learning and adaptation through interactive action and reflection.",
+                "year": 2025
+            },
+            {
+                "q": "The idea of ___ implies changes in individual action intertwined with reorganization of societal structures.",
+                "options": {
+                    "a": "big transformation",
+                    "b": "small transformation",
+                    "c": "slow transformation",
+                    "d": "fast transformation"
+                },
+                "answer": "a",
+                "explanation": "Significant societal change or 'Big Transformation' towards sustainability requires both shifts in individual behaviors and values, coupled with changes in underlying societal structures, policies, and systems.",
+                "year": 2025
             },
             {
                 "q": "Transformative learning and two major focuses: ___ and ___ learning.",
@@ -12247,7 +12456,8 @@ export const assignment: Assignment = {
                     "d": "industrial, constructive"
                 },
                 "answer": "a",
-                "explanation": "Jack Mezirow, a key theorist of transformative learning, distinguished between instrumental learning (controlling environment, task-oriented) and communicative learning (understanding meaning, values, intentions)."
+                "explanation": "Jack Mezirow, a key theorist of transformative learning, distinguished between instrumental learning (controlling environment, task-oriented) and communicative learning (understanding meaning, values, intentions).",
+                "year": 2025
             },
             {
                 "q": "When a learner finds what they believed in the past is not accurate, they experience ___.",
@@ -12258,7 +12468,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "b",
-                "explanation": "According to Mezirow's transformative learning theory, the process often begins with a 'disorienting dilemma' – an experience that challenges one's existing assumptions and frame of reference."
+                "explanation": "According to Mezirow's transformative learning theory, the process often begins with a 'disorienting dilemma' – an experience that challenges one's existing assumptions and frame of reference.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a key principle of adult education?",
@@ -12269,7 +12480,8 @@ export const assignment: Assignment = {
                     "d": "role of experience"
                 },
                 "answer": "b",
-                "explanation": "Principles of adult education (andragogy) emphasize that adults are typically self-directed, bring life experiences, are motivated by internal factors and relevance, and are ready to learn when they perceive a need. Reluctance is a barrier, not a principle."
+                "explanation": "Principles of adult education (andragogy) emphasize that adults are typically self-directed, bring life experiences, are motivated by internal factors and relevance, and are ready to learn when they perceive a need. Reluctance is a barrier, not a principle.",
+                "year": 2025
             },
             {
                 "q": "Following are the vital components/drivers of sustainable education, except ___.",
@@ -12280,7 +12492,8 @@ export const assignment: Assignment = {
                     "d": "punishment"
                 },
                 "answer": "d",
-                "explanation": "Sustainable education, like sustainable development, often considers the interplay of People (social equity), Planet (environmental integrity), and Profit/Prosperity (economic viability) – the Triple Bottom Line. Punishment is not a core component or driver."
+                "explanation": "Sustainable education, like sustainable development, often considers the interplay of People (social equity), Planet (environmental integrity), and Profit/Prosperity (economic viability) – the Triple Bottom Line. Punishment is not a core component or driver.",
+                "year": 2025
             }
         ],
         "Assignment 10": [
@@ -12293,7 +12506,8 @@ export const assignment: Assignment = {
                     "d": "Focus only on the environment while ignoring the financial performance"
                 },
                 "answer": "d",
-                "explanation": "Sustainable leadership involves integrating environmental, social, AND economic (financial) considerations. Ignoring financial performance is unsustainable for any organization."
+                "explanation": "Sustainable leadership involves integrating environmental, social, AND economic (financial) considerations. Ignoring financial performance is unsustainable for any organization.",
+                "year": 2024
             },
             {
                 "q": "The triple bottom line approach focuses on the three ___",
@@ -12305,7 +12519,8 @@ export const assignment: Assignment = {
                     "e": "D’s"
                 },
                 "answer": "d",
-                "explanation": "The Triple Bottom Line (TBL) framework focuses on three pillars of sustainability: People (social equity), Planet (environmental health), and Profit (economic prosperity)."
+                "explanation": "The Triple Bottom Line (TBL) framework focuses on three pillars of sustainability: People (social equity), Planet (environmental health), and Profit (economic prosperity).",
+                "year": 2024
             },
             {
                 "q": "Which of the following is a behavior of sustainable leaders?",
@@ -12317,7 +12532,8 @@ export const assignment: Assignment = {
                     "e": "All of the above"
                 },
                 "answer": "e",
-                "explanation": "Sustainable leaders exhibit behaviors such as setting a sustainability vision, integrating CSR into operations, engaging stakeholders, and measuring performance across the triple bottom line."
+                "explanation": "Sustainable leaders exhibit behaviors such as setting a sustainability vision, integrating CSR into operations, engaging stakeholders, and measuring performance across the triple bottom line.",
+                "year": 2024
             },
             {
                 "q": "A ___ is a strong interior sense of purpose combined with a long term orientation and an inherent motivation to meet the triple bottom line",
@@ -12329,7 +12545,8 @@ export const assignment: Assignment = {
                     "e": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "A sustainable mindset integrates systems thinking, a long-term perspective, and an intrinsic motivation to contribute positively to social, environmental, and economic well-being."
+                "explanation": "A sustainable mindset integrates systems thinking, a long-term perspective, and an intrinsic motivation to contribute positively to social, environmental, and economic well-being.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not a sustainable leadership practice?",
@@ -12340,7 +12557,8 @@ export const assignment: Assignment = {
                     "d": "Ignoring social change dynamics"
                 },
                 "answer": "d",
-                "explanation": "Sustainable leadership requires awareness of and engagement with evolving social dynamics and stakeholder expectations, not ignoring them."
+                "explanation": "Sustainable leadership requires awareness of and engagement with evolving social dynamics and stakeholder expectations, not ignoring them.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not a component of the 360 degree sustainable leadership?",
@@ -12352,7 +12570,8 @@ export const assignment: Assignment = {
                     "e": "Resource exploitation"
                 },
                 "answer": "e",
-                "explanation": "360-degree sustainable leadership considers the well-being of individuals, communities, and nature, alongside ensuring business viability. Resource exploitation is contrary to the principle of environmental well-being."
+                "explanation": "360-degree sustainable leadership considers the well-being of individuals, communities, and nature, alongside ensuring business viability. Resource exploitation is contrary to the principle of environmental well-being.",
+                "year": 2024
             },
             {
                 "q": "Which of the following statements is false?",
@@ -12363,7 +12582,8 @@ export const assignment: Assignment = {
                     "d": "Sustainable leadership develops environmental diversity"
                 },
                 "answer": "b",
-                "explanation": "Sustainable leadership is holistic and addresses social justice issues alongside environmental concerns like climate change; it does not ignore social equity."
+                "explanation": "Sustainable leadership is holistic and addresses social justice issues alongside environmental concerns like climate change; it does not ignore social equity.",
+                "year": 2024
             },
             {
                 "q": "Working style of sustainable leaders is ___",
@@ -12374,7 +12594,8 @@ export const assignment: Assignment = {
                     "d": "Repetitive or non-creative"
                 },
                 "answer": "c",
-                "explanation": "Sustainable leaders often need to be 'radical' in the sense of challenging conventional thinking, driving fundamental change, and adopting innovative, transformative approaches."
+                "explanation": "Sustainable leaders often need to be 'radical' in the sense of challenging conventional thinking, driving fundamental change, and adopting innovative, transformative approaches.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the basic principles of lean leadership?",
@@ -12386,7 +12607,8 @@ export const assignment: Assignment = {
                     "e": "Direct the route"
                 },
                 "answer": "d",
-                "explanation": "Lean leadership principles typically emphasize continuous improvement, respect for people, data-driven decisions, and fostering innovation, not ignoring it or punishing lack thereof."
+                "explanation": "Lean leadership principles typically emphasize continuous improvement, respect for people, data-driven decisions, and fostering innovation, not ignoring it or punishing lack thereof.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the higher level practices in the sustainable leadership pyramid?",
@@ -12397,7 +12619,8 @@ export const assignment: Assignment = {
                     "d": "Team orientation"
                 },
                 "answer": "c",
-                "explanation": "While financial performance is necessary for sustainability, higher-level practices in leadership models often focus on building trust, fostering an enabling culture, promoting team orientation, and long-term vision, which underpin sustainable success."
+                "explanation": "While financial performance is necessary for sustainability, higher-level practices in leadership models often focus on building trust, fostering an enabling culture, promoting team orientation, and long-term vision, which underpin sustainable success.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is false about sustainable leaders?",
@@ -12408,7 +12631,8 @@ export const assignment: Assignment = {
                     "d": "they look at immediate gains"
                 },
                 "answer": "d",
-                "explanation": "Sustainable leaders are characterized by a long-term perspective, considering future impacts rather than focusing solely on immediate, short-term gains."
+                "explanation": "Sustainable leaders are characterized by a long-term perspective, considering future impacts rather than focusing solely on immediate, short-term gains.",
+                "year": 2025
             },
             {
                 "q": "Organizations are now expected to take responsibility for the ways in which their activities impact ___.",
@@ -12419,7 +12643,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Modern expectations of corporate social responsibility (CSR) and sustainability require organizations to consider their impact on all stakeholders, including employees, customers, society at large, and the environment."
+                "explanation": "Modern expectations of corporate social responsibility (CSR) and sustainability require organizations to consider their impact on all stakeholders, including employees, customers, society at large, and the environment.",
+                "year": 2025
             },
             {
                 "q": "All leaders, no matter what sphere they are operating in, must attend to sustainability challenges.",
@@ -12428,7 +12653,8 @@ export const assignment: Assignment = {
                     "b": "True"
                 },
                 "answer": "b",
-                "explanation": "Sustainability challenges (environmental, social, economic) are pervasive and interconnected, requiring leaders across all sectors (business, government, civil society) to address them."
+                "explanation": "Sustainability challenges (environmental, social, economic) are pervasive and interconnected, requiring leaders across all sectors (business, government, civil society) to address them.",
+                "year": 2025
             },
             {
                 "q": "The sustainability mindset involves the following except ___.",
@@ -12439,7 +12665,8 @@ export const assignment: Assignment = {
                     "d": "short term orientation"
                 },
                 "answer": "d",
-                "explanation": "A sustainability mindset is characterized by long-term thinking, systems awareness, empathy, and valuing social and environmental well-being, contrasting with a short-term orientation."
+                "explanation": "A sustainability mindset is characterized by long-term thinking, systems awareness, empathy, and valuing social and environmental well-being, contrasting with a short-term orientation.",
+                "year": 2025
             },
             {
                 "q": "___ thinking is often highlighted by the ability to zoom in and zoom out.",
@@ -12450,7 +12677,8 @@ export const assignment: Assignment = {
                     "d": "Structural"
                 },
                 "answer": "c",
-                "explanation": "Systems thinking involves understanding interconnectedness and seeing both the details (zooming in) and the larger patterns and relationships (zooming out) within a complex system."
+                "explanation": "Systems thinking involves understanding interconnectedness and seeing both the details (zooming in) and the larger patterns and relationships (zooming out) within a complex system.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not one of the sustainable leadership practices?",
@@ -12461,7 +12689,8 @@ export const assignment: Assignment = {
                     "d": "building authentic relationships"
                 },
                 "answer": "a",
-                "explanation": "Sustainable leadership often involves navigating complexity, ambiguity, and conflicting interests constructively, rather than avoiding them. Effective conflict management is a crucial skill."
+                "explanation": "Sustainable leadership often involves navigating complexity, ambiguity, and conflicting interests constructively, rather than avoiding them. Effective conflict management is a crucial skill.",
+                "year": 2025
             },
             {
                 "q": "___ is an example of a sustainability framework for integrated analysis and action.",
@@ -12472,7 +12701,8 @@ export const assignment: Assignment = {
                     "d": "All of the above"
                 },
                 "answer": "d",
-                "explanation": "The Natural Step, Natural Capitalism, and various community sustainability frameworks (like the Five Domains) are all examples of established models used for analyzing and planning sustainability initiatives."
+                "explanation": "The Natural Step, Natural Capitalism, and various community sustainability frameworks (like the Five Domains) are all examples of established models used for analyzing and planning sustainability initiatives.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is false about sustainable leadership?",
@@ -12483,7 +12713,8 @@ export const assignment: Assignment = {
                     "d": "secures success over time"
                 },
                 "answer": "b",
-                "explanation": "Sustainable leadership aims to build capacity and empower others, sustaining leadership throughout the organization and community, not just focusing on the individual leader."
+                "explanation": "Sustainable leadership aims to build capacity and empower others, sustaining leadership throughout the organization and community, not just focusing on the individual leader.",
+                "year": 2025
             },
             {
                 "q": "The practice of inclusive leadership involves the following except ___.",
@@ -12494,7 +12725,8 @@ export const assignment: Assignment = {
                     "d": "coaching"
                 },
                 "answer": "b",
-                "explanation": "Inclusive leadership focuses on collaboration, participation, valuing diverse perspectives, and empowering others through dialogue, coaching, and democratic methods. Coercion is antithetical to inclusivity."
+                "explanation": "Inclusive leadership focuses on collaboration, participation, valuing diverse perspectives, and empowering others through dialogue, coaching, and democratic methods. Coercion is antithetical to inclusivity.",
+                "year": 2025
             },
             {
                 "q": "The ability to detect the path as a leader and change the course of action if necessary is known as ___.",
@@ -12505,7 +12737,8 @@ export const assignment: Assignment = {
                     "d": "pivot"
                 },
                 "answer": "d",
-                "explanation": "In leadership and strategy, 'pivoting' refers to the ability to adapt and make a significant change in direction based on new information, feedback, or changing circumstances."
+                "explanation": "In leadership and strategy, 'pivoting' refers to the ability to adapt and make a significant change in direction based on new information, feedback, or changing circumstances.",
+                "year": 2025
             }
         ],
         "Assignment 11": [
@@ -12518,7 +12751,8 @@ export const assignment: Assignment = {
                     "d": "All of the above"
                 },
                 "answer": "d",
-                "explanation": "Sustainable leadership involves a range of actions including assessing impacts (measuring, analyzing), tracking progress (monitoring), communicating performance (reporting), managing risks (mitigating), and ensuring accountability (controlling)."
+                "explanation": "Sustainable leadership involves a range of actions including assessing impacts (measuring, analyzing), tracking progress (monitoring), communicating performance (reporting), managing risks (mitigating), and ensuring accountability (controlling).",
+                "year": 2024
             },
             {
                 "q": "Which of the following components of sustainable leadership pertains to the social dimension?",
@@ -12529,7 +12763,8 @@ export const assignment: Assignment = {
                     "d": "Results"
                 },
                 "answer": "c",
-                "explanation": "The social dimension of leadership directly involves relationships and interactions with others, including followers, stakeholders, and the wider community."
+                "explanation": "The social dimension of leadership directly involves relationships and interactions with others, including followers, stakeholders, and the wider community.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not an acquired demographic characteristic that leads to sustainability outcomes in the sustainable leadership model?",
@@ -12540,7 +12775,8 @@ export const assignment: Assignment = {
                     "d": "Relationship building"
                 },
                 "answer": "d",
-                "explanation": "Leadership tenure, functional experience, and educational level are demographic or background characteristics. Relationship building is a skill or competency developed through interaction, not a demographic trait."
+                "explanation": "Leadership tenure, functional experience, and educational level are demographic or background characteristics. Relationship building is a skill or competency developed through interaction, not a demographic trait.",
+                "year": 2024
             },
             {
                 "q": "Co-initiating, co-sensing and co-creating are components of ___",
@@ -12551,7 +12787,8 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "c",
-                "explanation": "Co-initiating, co-sensing, presencing, co-creating, and co-evolving are key phases or movements described in Otto Scharmer's Theory U, a framework for leading profound change."
+                "explanation": "Co-initiating, co-sensing, presencing, co-creating, and co-evolving are key phases or movements described in Otto Scharmer's Theory U, a framework for leading profound change.",
+                "year": 2024
             },
             {
                 "q": "Maxwell (2018) identifies ___ number of levels of global leadership.",
@@ -12563,7 +12800,8 @@ export const assignment: Assignment = {
                     "e": "Five"
                 },
                 "answer": "e",
-                "explanation": "John C. Maxwell's popular leadership model outlines 5 Levels of Leadership: Position, Permission, Production, People Development, and Pinnacle."
+                "explanation": "John C. Maxwell's popular leadership model outlines 5 Levels of Leadership: Position, Permission, Production, People Development, and Pinnacle.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is an individual and not organizational enabler of global leadership?",
@@ -12574,7 +12812,8 @@ export const assignment: Assignment = {
                     "d": "Perceived control"
                 },
                 "answer": "d",
-                "explanation": "Innovation culture, adequate facilities, and clear job responsibilities are organizational factors. Perceived control (or self-efficacy) is an individual psychological factor – the belief in one's own ability to influence events."
+                "explanation": "Innovation culture, adequate facilities, and clear job responsibilities are organizational factors. Perceived control (or self-efficacy) is an individual psychological factor – the belief in one's own ability to influence events.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not a component of transformational leadership?",
@@ -12585,7 +12824,8 @@ export const assignment: Assignment = {
                     "d": "individualized consideration"
                 },
                 "answer": "c",
-                "explanation": "Transformational leadership typically includes four components: Idealized Influence (role model), Inspirational Motivation (inspiring vision), Intellectual Stimulation (challenging assumptions), and Individualized Consideration (supporting individuals). Intellectual stagnation is the opposite of stimulation."
+                "explanation": "Transformational leadership typically includes four components: Idealized Influence (role model), Inspirational Motivation (inspiring vision), Intellectual Stimulation (challenging assumptions), and Individualized Consideration (supporting individuals). Intellectual stagnation is the opposite of stimulation.",
+                "year": 2024
             },
             {
                 "q": "Working for the collective benefit for the whole society instead of personal selfish gains is known as the trait of ___",
@@ -12596,7 +12836,8 @@ export const assignment: Assignment = {
                     "d": "self-transcendence"
                 },
                 "answer": "d",
-                "explanation": "Self-transcendence refers to a focus beyond oneself, connecting to something larger (like society or humanity) and finding meaning in contributing to the collective good, often contrasted with self-enhancement values."
+                "explanation": "Self-transcendence refers to a focus beyond oneself, connecting to something larger (like society or humanity) and finding meaning in contributing to the collective good, often contrasted with self-enhancement values.",
+                "year": 2024
             },
             {
                 "q": "Cities can do a number of things to support sustainable practices. Which of the following is not one of them?",
@@ -12607,7 +12848,8 @@ export const assignment: Assignment = {
                     "d": "Improve water conservation and wastewater management"
                 },
                 "answer": "c",
-                "explanation": "Supporting sustainable transportation includes promoting EV adoption, which requires making charging stations accessible, not inaccessible."
+                "explanation": "Supporting sustainable transportation includes promoting EV adoption, which requires making charging stations accessible, not inaccessible.",
+                "year": 2024
             },
             {
                 "q": "Sustainable cities aim to reverse the negative impact of urbanization through ___.",
@@ -12619,7 +12861,8 @@ export const assignment: Assignment = {
                     "e": "all of the above"
                 },
                 "answer": "e",
-                "explanation": "Sustainable cities (related to SDG 11) strive to minimize their environmental footprint (resource consumption, emissions), enhance social well-being (sense of place, equity), and build resilience to climate change through integrated planning and action."
+                "explanation": "Sustainable cities (related to SDG 11) strive to minimize their environmental footprint (resource consumption, emissions), enhance social well-being (sense of place, equity), and build resilience to climate change through integrated planning and action.",
+                "year": 2024
             },
             {
                 "q": "_________ leadership style entails transcending self-interest to serve the needs of others.",
@@ -12630,7 +12873,8 @@ export const assignment: Assignment = {
                     "d": "visionary"
                 },
                 "answer": "a",
-                "explanation": "Servant leadership is a philosophy where the leader's primary focus is on the growth and well-being of people and the communities to which they belong, prioritizing others' needs over their own."
+                "explanation": "Servant leadership is a philosophy where the leader's primary focus is on the growth and well-being of people and the communities to which they belong, prioritizing others' needs over their own.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a key skill of sustainable leaders?",
@@ -12641,7 +12885,20 @@ export const assignment: Assignment = {
                     "d": "alienating disciplines"
                 },
                 "answer": "d",
-                "explanation": "Sustainable leadership requires integrating perspectives and fostering collaboration across disciplines (interdisciplinarity), not alienating or siloing them."
+                "explanation": "Sustainable leadership requires integrating perspectives and fostering collaboration across disciplines (interdisciplinarity), not alienating or siloing them.",
+                "year": 2025
+            },
+            {
+                "q": "LEAD India gives a theory ___ that consists of aspects like co-initiating, co-sensing and co-evolving among others.",
+                "options": {
+                    "a": "U",
+                    "b": "C",
+                    "c": "T",
+                    "d": "S"
+                },
+                "answer": "a",
+                "explanation": "Theory U, associated with Otto Scharmer and often used in leadership development contexts like LEAD, includes phases like co-initiating, co-sensing, presencing, co-creating, and co-evolving.",
+                "year": 2025
             },
             {
                 "q": "Global leaders cannot be trained since their skills are genetic.",
@@ -12650,7 +12907,8 @@ export const assignment: Assignment = {
                     "b": "False"
                 },
                 "answer": "b",
-                "explanation": "While innate traits play a role, leadership skills, including those needed for global leadership (cross-cultural competence, systems thinking, etc.), can be developed and trained through education, experience, and coaching."
+                "explanation": "While innate traits play a role, leadership skills, including those needed for global leadership (cross-cultural competence, systems thinking, etc.), can be developed and trained through education, experience, and coaching.",
+                "year": 2025
             },
             {
                 "q": "Which of the factors helps leaders to become global leaders?",
@@ -12661,7 +12919,8 @@ export const assignment: Assignment = {
                     "d": "act based on self-interest"
                 },
                 "answer": "c",
-                "explanation": "Becoming an effective global leader requires navigating complex challenges. Building a diverse and capable support team is crucial for leveraging expertise, gaining different perspectives, and managing workload."
+                "explanation": "Becoming an effective global leader requires navigating complex challenges. Building a diverse and capable support team is crucial for leveraging expertise, gaining different perspectives, and managing workload.",
+                "year": 2025
             },
             {
                 "q": "According to Maxwell’s 5 levels of leadership, level 4 which highlights how people follow because of what you have done for them, is known as the level of ___.",
@@ -12672,7 +12931,8 @@ export const assignment: Assignment = {
                     "d": "respect"
                 },
                 "answer": "a",
-                "explanation": "In Maxwell's model, Level 4 is 'People Development', where leaders gain following because they have invested in their followers and helped them grow. This leads to 'reproduction' as they develop other leaders."
+                "explanation": "In Maxwell's model, Level 4 is 'People Development', where leaders gain following because they have invested in their followers and helped them grow. This leads to 'reproduction' as they develop other leaders.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is not a core component of transformational leadership?",
@@ -12683,7 +12943,8 @@ export const assignment: Assignment = {
                     "d": "collective consideration"
                 },
                 "answer": "d",
-                "explanation": "The fourth component of transformational leadership is 'Individualized Consideration' (attending to individual needs), not 'collective consideration'."
+                "explanation": "The fourth component of transformational leadership is 'Individualized Consideration' (attending to individual needs), not 'collective consideration'.",
+                "year": 2025
             },
             {
                 "q": "Accurately sensing the feelings an individual has about himself or others is known as __________.",
@@ -12694,7 +12955,8 @@ export const assignment: Assignment = {
                     "d": "metacognition"
                 },
                 "answer": "b",
-                "explanation": "Empathy involves understanding and sharing the feelings of another. Empathetic sensing refers to the ability to accurately perceive and sense the emotional state of others or oneself."
+                "explanation": "Empathy involves understanding and sharing the feelings of another. Empathetic sensing refers to the ability to accurately perceive and sense the emotional state of others or oneself.",
+                "year": 2025
             },
             {
                 "q": "___________ technology is a key factor helping foster more sustainable urban development.",
@@ -12705,7 +12967,8 @@ export const assignment: Assignment = {
                     "d": "white"
                 },
                 "answer": "b",
-                "explanation": "Green technology refers to technologies and solutions designed to mitigate environmental impact and promote sustainability, playing a crucial role in areas like energy, waste management, transportation, and building design for sustainable cities."
+                "explanation": "Green technology refers to technologies and solutions designed to mitigate environmental impact and promote sustainability, playing a crucial role in areas like energy, waste management, transportation, and building design for sustainable cities.",
+                "year": 2025
             },
             {
                 "q": "Which of the following is a characteristic of a sustainable city?",
@@ -12716,7 +12979,8 @@ export const assignment: Assignment = {
                     "d": "all of the above"
                 },
                 "answer": "d",
-                "explanation": "Sustainable cities incorporate various features like energy-efficient green buildings, renewable energy sources (like solar farms), sustainable transportation options (promoting walking and cycling), green spaces, and efficient resource management."
+                "explanation": "Sustainable cities incorporate various features like energy-efficient green buildings, renewable energy sources (like solar farms), sustainable transportation options (promoting walking and cycling), green spaces, and efficient resource management.",
+                "year": 2025
             }
         ],
         "Assignment 12": [
@@ -12729,7 +12993,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "c",
-                "explanation": "SDG 12 (Responsible Consumption and Production) fundamentally aims to reduce our ecological footprint by promoting sustainable patterns of production and consumption, decoupling economic growth from environmental degradation."
+                "explanation": "SDG 12 (Responsible Consumption and Production) fundamentally aims to reduce our ecological footprint by promoting sustainable patterns of production and consumption, decoupling economic growth from environmental degradation.",
+                "year": 2024
             },
             {
                 "q": "In order to support reform on green fiscal policy, UN has established the Green Fiscal Policy Network in partnership with the ___",
@@ -12740,7 +13005,8 @@ export const assignment: Assignment = {
                     "d": "International Monetary Fund"
                 },
                 "answer": "d",
-                "explanation": "The Green Fiscal Policy Network was launched by UN Environment, the International Monetary Fund (IMF), and the German development agency GIZ to promote the use of fiscal policies (taxes, subsidies, spending) to achieve environmental goals."
+                "explanation": "The Green Fiscal Policy Network was launched by UN Environment, the International Monetary Fund (IMF), and the German development agency GIZ to promote the use of fiscal policies (taxes, subsidies, spending) to achieve environmental goals.",
+                "year": 2024
             },
             {
                 "q": "Responsible and sustainable consumption is necessary because ___",
@@ -12752,7 +13018,8 @@ export const assignment: Assignment = {
                     "e": "all of the above"
                 },
                 "answer": "e",
-                "explanation": "Sustainable consumption has multiple benefits: environmental (resource conservation, pollution reduction), social (supporting ethical/local producers, animal welfare), and economic (saving money through reduced waste/consumption)."
+                "explanation": "Sustainable consumption has multiple benefits: environmental (resource conservation, pollution reduction), social (supporting ethical/local producers, animal welfare), and economic (saving money through reduced waste/consumption).",
+                "year": 2024
             },
             {
                 "q": "Responsible consumption leads to the three Rs. Which of the following is not a component of it?",
@@ -12763,7 +13030,8 @@ export const assignment: Assignment = {
                     "d": "Reimburse"
                 },
                 "answer": "d",
-                "explanation": "The 'Three Rs' of waste management and sustainable consumption are Reduce (use less), Reuse (use again), and Recycle (process materials for new products). 'Reimburse' is not part of this framework."
+                "explanation": "The 'Three Rs' of waste management and sustainable consumption are Reduce (use less), Reuse (use again), and Recycle (process materials for new products). 'Reimburse' is not part of this framework.",
+                "year": 2024
             },
             {
                 "q": "The technique of ‘satyagraha’ of Gandhi that carries the means to combat many social and environmental threats, be it climate change and natural resource depletion essentially stands for ___",
@@ -12774,7 +13042,8 @@ export const assignment: Assignment = {
                     "d": "non-violent protest"
                 },
                 "answer": "d",
-                "explanation": "Satyagraha, a term coined by Mahatma Gandhi, translates roughly to 'truth force' or 'holding onto truth'. It represents a philosophy and practice of non-violent resistance or civil disobedience."
+                "explanation": "Satyagraha, a term coined by Mahatma Gandhi, translates roughly to 'truth force' or 'holding onto truth'. It represents a philosophy and practice of non-violent resistance or civil disobedience.",
+                "year": 2024
             },
             {
                 "q": "Which of the following statements is false regarding education for international understanding?",
@@ -12785,7 +13054,8 @@ export const assignment: Assignment = {
                     "d": "none of the above"
                 },
                 "answer": "b",
-                "explanation": "Education for international understanding aims to foster a sense of global citizenship and interconnectedness, promoting empathy and understanding across cultures, rather than emphasizing fragmentation and nationalism from an early age."
+                "explanation": "Education for international understanding aims to foster a sense of global citizenship and interconnectedness, promoting empathy and understanding across cultures, rather than emphasizing fragmentation and nationalism from an early age.",
+                "year": 2024
             },
             {
                 "q": "Strategic partnerships can be classified into the following except ___",
@@ -12796,7 +13066,8 @@ export const assignment: Assignment = {
                     "d": "non-equity strategic alliances"
                 },
                 "answer": "c",
-                "explanation": "Strategic partnerships involve collaboration between organizations. Common forms include joint ventures (new entity created), equity alliances (cross-ownership), and non-equity alliances (contractual agreements). 'Individual alliance' is not a standard classification for organizational partnerships."
+                "explanation": "Strategic partnerships involve collaboration between organizations. Common forms include joint ventures (new entity created), equity alliances (cross-ownership), and non-equity alliances (contractual agreements). 'Individual alliance' is not a standard classification for organizational partnerships.",
+                "year": 2024
             },
             {
                 "q": "Which of the following is not one of the impacts of happiness on an individual?",
@@ -12807,7 +13078,8 @@ export const assignment: Assignment = {
                     "d": "lower probability of disease"
                 },
                 "answer": "c",
-                "explanation": "Research in positive psychology suggests happiness and positive emotions are linked to numerous benefits, including lower stress, better physical health, and stronger immune function, not lowered immunity."
+                "explanation": "Research in positive psychology suggests happiness and positive emotions are linked to numerous benefits, including lower stress, better physical health, and stronger immune function, not lowered immunity.",
+                "year": 2024
             },
             {
                 "q": "___ refers to being present and attentive purposefully and non-judgmentally; “in the moment”",
@@ -12818,7 +13090,8 @@ export const assignment: Assignment = {
                     "d": "Flourishing"
                 },
                 "answer": "c",
-                "explanation": "This is a standard definition of Mindfulness – paying attention in a particular way: on purpose, in the present moment, and non-judgmentally."
+                "explanation": "This is a standard definition of Mindfulness – paying attention in a particular way: on purpose, in the present moment, and non-judgmentally.",
+                "year": 2024
             },
             {
                 "q": "Natural resources are those that exist in the __ of human intervention.",
@@ -12829,7 +13102,8 @@ export const assignment: Assignment = {
                     "d": "collaboration"
                 },
                 "answer": "a",
-                "explanation": "Natural resources are materials or substances occurring in nature which can be exploited for economic gain. They exist independently, i.e., in the absence of human creation or intervention, although humans utilize them."
+                "explanation": "Natural resources are materials or substances occurring in nature which can be exploited for economic gain. They exist independently, i.e., in the absence of human creation or intervention, although humans utilize them.",
+                "year": 2025
             },
             {
                 "q": "SDG ___ advocates to reduce ecological footprint by changing the way we produce and consume goods and resources.",
@@ -12840,7 +13114,8 @@ export const assignment: Assignment = {
                     "d": "14"
                 },
                 "answer": "c",
-                "explanation": "Sustainable Development Goal 12 (SDG 12) is explicitly focused on ensuring sustainable consumption and production patterns."
+                "explanation": "Sustainable Development Goal 12 (SDG 12) is explicitly focused on ensuring sustainable consumption and production patterns.",
+                "year": 2025
             },
             {
                 "q": "Over 66% of electricity produced daily is from ___.",
@@ -12851,7 +13126,8 @@ export const assignment: Assignment = {
                     "d": "wind"
                 },
                 "answer": "a",
-                "explanation": "Globally, fossil fuels remain the dominant source of electricity generation. While the exact percentage varies by region and year, coal alone has historically accounted for a very large share, often exceeding 35-40% globally, and combined with other fossil fuels, makes up the majority (well over 60%)."
+                "explanation": "Globally, fossil fuels remain the dominant source of electricity generation. While the exact percentage varies by region and year, coal alone has historically accounted for a very large share, often exceeding 35-40% globally, and combined with other fossil fuels, makes up the majority (well over 60%).",
+                "year": 2025
             },
             {
                 "q": "___ is the largest environmental cause of disease and premature death globally.",
@@ -12862,7 +13138,20 @@ export const assignment: Assignment = {
                     "d": "hunger"
                 },
                 "answer": "c",
-                "explanation": "According to the World Health Organization (WHO) and numerous studies, environmental pollution (including air, water, and soil pollution, as well as chemical exposure) is the single largest environmental risk factor for disease and premature death worldwide."
+                "explanation": "According to the World Health Organization (WHO) and numerous studies, environmental pollution (including air, water, and soil pollution, as well as chemical exposure) is the single largest environmental risk factor for disease and premature death worldwide.",
+                "year": 2025
+            },
+            {
+                "q": "In order to support reform on green fiscal policy, UN Environment has established the Green Fiscal Policy Network in partnership with the ___.",
+                "options": {
+                    "a": "International Green Fund",
+                    "b": "International Consumption Fund",
+                    "c": "International Monetary Fund",
+                    "d": "International Sustenance Fund"
+                },
+                "answer": "c",
+                "explanation": "The Green Fiscal Policy Network was established by UN Environment in partnership with the International Monetary Fund (IMF) and GIZ.",
+                "year": 2025
             },
             {
                 "q": "The 3Rs include the following except ___ .",
@@ -12873,7 +13162,8 @@ export const assignment: Assignment = {
                     "d": "reduce"
                 },
                 "answer": "a",
-                "explanation": "The traditional '3Rs' of waste hierarchy are Reduce, Reuse, and Recycle. While 'Refuse' (avoiding consumption in the first place) is an important principle often added (making it 4Rs or 5Rs), it's not part of the original three."
+                "explanation": "The traditional '3Rs' of waste hierarchy are Reduce, Reuse, and Recycle. While 'Refuse' (avoiding consumption in the first place) is an important principle often added (making it 4Rs or 5Rs), it's not part of the original three.",
+                "year": 2025
             },
             {
                 "q": "Mobiles and computers which are thrown after use are collectively known as ___ .",
@@ -12884,7 +13174,20 @@ export const assignment: Assignment = {
                     "d": "e-waste"
                 },
                 "answer": "d",
-                "explanation": "E-waste (electronic waste) is the common term for discarded electrical or electronic devices, including computers, mobile phones, televisions, etc."
+                "explanation": "E-waste (electronic waste) is the common term for discarded electrical or electronic devices, including computers, mobile phones, televisions, etc.",
+                "year": 2025
+            },
+            {
+                "q": "Gandhi’s techniques of ‘satyagraha’ or __, carry the means to combat many social and environmental threats, be it climate change, natural resource depletion.",
+                "options": {
+                    "a": "sustainability",
+                    "b": "violent protest",
+                    "c": "non-violent protest",
+                    "d": "spirituality"
+                },
+                "answer": "c",
+                "explanation": "Satyagraha, Gandhi's philosophy, fundamentally relies on non-violent protest or civil resistance as a means to achieve social and political change.",
+                "year": 2025
             },
             {
                 "q": "___ is the flag bearer of SDGs.",
@@ -12895,7 +13198,20 @@ export const assignment: Assignment = {
                     "d": "Politics"
                 },
                 "answer": "b",
-                "explanation": "While multiple UN agencies work on SDGs, UNESCO (United Nations Educational, Scientific and Cultural Organization) has a specific mandate for education (SDG 4) and plays a key role in promoting Education for Sustainable Development, which underpins all SDGs. UNDP also plays a major coordinating role."
+                "explanation": "While multiple UN agencies work on SDGs, UNESCO (United Nations Educational, Scientific and Cultural Organization) has a specific mandate for education (SDG 4) and plays a key role in promoting Education for Sustainable Development, which underpins all SDGs. UNDP also plays a major coordinating role.",
+                "year": 2025
+            },
+            {
+                "q": "Being aware of one's current thoughts, feelings and surroundings without judging oneself is called ___.",
+                "options": {
+                    "a": "generosity",
+                    "b": "gratitude",
+                    "c": "mindlessness",
+                    "d": "mindfulness"
+                },
+                "answer": "d",
+                "explanation": "This describes the core concept of mindfulness: paying attention to the present moment intentionally and without judgment.",
+                "year": 2025
             }
         ]
     },

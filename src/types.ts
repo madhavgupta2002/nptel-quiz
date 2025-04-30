@@ -12,6 +12,8 @@ export interface Question {
   options: Option;
   answer: string;
   explanation: string;
+  year?: number;
+  selectedAnswer?: string;
 }
 
 export interface Assignment {
