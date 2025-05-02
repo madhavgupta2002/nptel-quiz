@@ -7614,19 +7614,19 @@ export const assignment: Assignment = {
         ],
         "Assignment 1": [
             {
-                "q": "Which of the following fall(s) under the “essential characteristics” of cloud computing?\n\n Options:\nA. Resource Pooling\nB. Measured Service\nC. Rapid Elasticity\nD. Latency",
+                "q": "Which of the following fall(s) under the “essential characteristics” of cloud computing?\n\nOptions:\nA. Resource Pooling\nB. Measured Service\nC. Rapid Elasticity\nD. Latency",
                 "year": 2025,
                 "options": {
                     "a": "A and B",
                     "b": "A, B, and C",
-                    "c": "B and D",
+                    "c": "B and C",
                     "d": "A, C, and D"
                 },
                 "answer": "b",
-                "explanation": "Resource pooling, measured service, and rapid elasticity are key characteristics defined by NIST."
+                "explanation": "Resource pooling, measured service, and rapid elasticity are defined by NIST as essential characteristics of cloud computing."
             },
             {
-                "q": "\"Google Doc\" is an example of",
+                "q": "“Google Slide” is an example of",
                 "year": 2025,
                 "options": {
                     "a": "PaaS",
@@ -7635,73 +7635,75 @@ export const assignment: Assignment = {
                     "d": "FaaS"
                 },
                 "answer": "c",
-                "explanation": "Google Docs is a software application delivered over the web, fitting the SaaS model."
+                "explanation": "Google Slides is a software application delivered over the internet, which fits the Software as a Service (SaaS) model."
             },
             {
-                "q": "Business-Process-as-a-Service is not a part of XaaS.",
+                "q": "Which of the following is/are public cloud platform(s)?",
                 "year": 2025,
                 "options": {
-                    "a": "True",
-                    "b": "False"
-                },
-                "answer": "b",
-                "explanation": "Business-Process-as-a-Service (BPaaS) is considered a type of Anything-as-a-Service (XaaS)."
-            },
-            {
-                "q": "Network Function Virtualization involves the implementation of ______ function in software that can run on a range of industry-standard servers ______",
-                "year": 2025,
-                "options": {
-                    "a": "network, software",
-                    "b": "hardware, software",
-                    "c": "hardware, network",
-                    "d": "network, hardware"
+                    "a": "Windows Server Hyper-V",
+                    "b": "Google Cloud Interconnect",
+                    "c": "Amazon Virtual Private Cloud",
+                    "d": "Microsoft Azure"
                 },
                 "answer": "d",
-                "explanation": "NFV implements network functions in software running on standard server hardware."
+                "explanation": "Microsoft Azure is a major public cloud platform; the others are a hypervisor, a connection service, and a private cloud service, respectively."
             },
             {
-                "q": "Which are the following applications for SaaS (Software as a Service) architecture?\n\n Options:\nA) Billing software\nB) CRM\nC) App engines\nD) None of above",
-                "year": 2025,
-                "options": {
-                    "a": "A and B",
-                    "b": "A and C",
-                    "c": "B and C",
-                    "d": "A and D"
-                },
-                "answer": "a",
-                "explanation": "Billing software and CRM are common examples of SaaS; App engines are typically PaaS."
-            },
-            {
-                "q": "Web access to commercial software is one of the SaaS characteristics in the cloud computing paradigm.",
+                "q": "VM technology allows multiple virtual machines to run on a single physical system.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
                 "answer": "a",
-                "explanation": "Accessing software via a web browser is a fundamental characteristic of the SaaS model."
+                "explanation": "This is the fundamental concept of server virtualization using VM technology."
             },
             {
-                "q": "In the case of the client-server model: Statement (i) Virtualization is a core concept; Statement (ii) system can scale infinitely",
+                "q": "Which one of the following is/are disadvantage(s) of cloud computing?",
                 "year": 2025,
                 "options": {
-                    "a": "Only Statement (i) is correct",
-                    "b": "Only Statement (ii) is correct",
-                    "c": "Both Statements (i) and (ii) are correct",
-                    "d": "None of the statements is correct"
+                    "a": "Resource pooling",
+                    "b": "It requires an always-on internet connection.",
+                    "c": "Ubiquitous",
+                    "d": "On-demand payment policy"
                 },
-                "answer": "d",
-                "explanation": "Traditional client-server models do not inherently rely on virtualization, and scaling has practical limits."
+                "answer": "b",
+                "explanation": "Dependency on a stable internet connection is a common requirement and potential disadvantage of using cloud services."
             },
             {
-                "q": "Client-server model is always load-balanced",
+                "q": "For less data-intensive applications, horizontal scale-out elasticity is the ideal solution.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
                 "answer": "b",
-                "explanation": "Load balancing is an additional mechanism that can be applied but is not inherent to all client-server models."
+                "explanation": "Horizontal scaling (scale-out) adds more machines and is suitable for various loads, while vertical scaling increases resources on a single machine; the statement is overly simplistic."
+            },
+            {
+                "q": "The combination of Service-Oriented Infrastructure and Cloud Computing realizes to",
+                "year": 2025,
+                "options": {
+                    "a": "FTP",
+                    "b": "SNTP",
+                    "c": "XaaS",
+                    "d": "FaaS"
+                },
+                "answer": "c",
+                "explanation": "Combining service orientation with cloud infrastructure enables delivering 'Anything as a Service' (XaaS)."
+            },
+            {
+                "q": "What is/are the main requirement(s) of a Cloud Service Provider (CSP)?\n\nOptions:\nA. Increase agility\nB. Increase cost\nC. Increase productivity\nD. Decrease cost",
+                "year": 2025,
+                "options": {
+                    "a": "A and C",
+                    "b": "B and D",
+                    "c": "A and D",
+                    "d": "B and C"
+                },
+                "answer": "a",
+                "explanation": "CSPs aim to provide services that increase customer agility and productivity, while often aiming to decrease operational costs for the customer compared to on-premise solutions."
             },
             {
                 "q": "PaaS (Platform as a Service) brings the benefits: (i) Creation of software (ii) Integration of web services and databases",
@@ -7713,165 +7715,163 @@ export const assignment: Assignment = {
                     "d": "Neither (i) nor (ii)"
                 },
                 "answer": "c",
-                "explanation": "PaaS provides platforms specifically for developing/creating software and often includes tools/APIs for integrating services and databases."
+                "explanation": "PaaS provides the platform and tools necessary for software creation and facilitates the integration of databases and web services."
             },
             {
-                "q": "Which of the following is false?",
+                "q": "A _________ is a distributed computer system that consists of a collection of interconnected stand-alone computers working together as an integrated computing resource.",
                 "year": 2025,
                 "options": {
-                    "a": "Private cloud is dedicated solely to an organization.",
-                    "b": "Community cloud is a composition of public and private cloud.",
-                    "c": "Public cloud is available to the general public.",
-                    "d": "None of these"
+                    "a": "Grid",
+                    "b": "Cluster",
+                    "c": "Cloud",
+                    "d": "Node"
                 },
                 "answer": "b",
-                "explanation": "A community cloud is shared by several organizations with common concerns, not necessarily a mix of public and private."
+                "explanation": "This definition accurately describes a computer cluster, where interconnected computers work as a single resource."
             }
         ],
         "Assignment 2": [
             {
-                "q": "Service-Oriented Architecture (SOA) possess:",
-                "year": 2025,
-                "options": {
-                    "a": "A service provider, service requestor and service broker",
-                    "b": "A service provider and service requestor",
-                    "c": "A service requestor and service broker",
-                    "d": "Only a service broker"
-                },
-                "answer": "a",
-                "explanation": "The three primary roles in SOA are the provider, requestor, and an optional broker/registry."
-            },
-            {
-                "q": "XML is designed to describe",
-                "year": 2025,
-                "options": {
-                    "a": "pricing",
-                    "b": "SLA",
-                    "c": "data",
-                    "d": "service"
-                },
-                "answer": "c",
-                "explanation": "XML (Extensible Markup Language) is fundamentally designed to structure, store, and transport data."
-            },
-            {
-                "q": "SOAP (Simple Object Access Protocol) does not restrict the endpoint implementation technology choices. SOAP is a platform-neutral choice.",
+                "q": "The public cloud has a risk of multi-tenancy.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
                 "answer": "a",
-                "explanation": "SOAP is designed to be platform and language neutral, allowing diverse systems to communicate."
+                "explanation": "Multi-tenancy, where multiple customers share the same infrastructure, introduces potential security risks if isolation is not properly implemented."
             },
             {
-                "q": "A Cyber-Physical Cloud Computing (CPCC) architectural framework is a ______ environment that can rapidly build, modify and provision cyber-physical systems composed of a set of ______ based sensor, processing, control, and data services.",
+                "q": "Ubuntu Enterprise Cloud (UEC) is an example of",
                 "year": 2025,
                 "options": {
-                    "a": "system, cloud computing",
-                    "b": "cloud computing, system",
-                    "c": "system, edge computing",
-                    "d": "edge, system computing"
+                    "a": "Private cloud",
+                    "b": "Public cloud",
+                    "c": "Hybrid cloud",
+                    "d": "Community Cloud"
                 },
                 "answer": "a",
-                "explanation": "CPCC defines a system environment utilizing cloud computing based services for cyber-physical systems."
+                "explanation": "UEC was a software stack used to build private clouds, similar to OpenStack or Eucalyptus."
             },
             {
-                "q": "Network Virtualization is a ______ environment that allows ______ service providers to dynamically compose ______ virtual networks.",
+                "q": "Organization should consider-(i) Network Dependency and (ii) Risks from multi-tenancy while thinking of deploying an outsourced private cloud.",
                 "year": 2025,
                 "options": {
-                    "a": "networking, single, single",
-                    "b": "physical, single, multiple",
-                    "c": "networking, multiple, single",
-                    "d": "networking, multiple, multiple"
+                    "a": "Only (i)",
+                    "b": "Only (ii)",
+                    "c": "Both (i) and (ii)",
+                    "d": "None of (i) and (ii)"
                 },
-                "answer": "d",
-                "explanation": "Network Virtualization is a networking environment allowing multiple providers to create multiple virtual networks."
+                "answer": "c",
+                "explanation": "When outsourcing even a private cloud, network dependency on the provider and potential risks if the provider uses multi-tenant infrastructure for its backend are valid considerations."
             },
             {
-                "q": "Customized wearable devices for collecting health parameters are the best examples of",
+                "q": "Which of the following is/are XML parser API(s)?\n\nOptions:\nA. XaaS (Anything as a Model)\nB. DOM (Document Object Model)\nC. CLI (Command Line Interface)\nD. SLA (Service Level Agreement)",
                 "year": 2025,
                 "options": {
-                    "a": "IoHT",
-                    "b": "Fog device",
-                    "c": "Fog-Cloud interfaced.",
-                    "d": "Cloud-Fog-Edge-IoHT"
-                },
-                "answer": "d",
-                "explanation": "Such devices often involve edge processing, fog aggregation, and cloud storage/analysis, fitting the Cloud-Fog-Edge-IoHT architecture."
-            },
-            {
-                "q": "Dew Computing is a paradigm where on-premises computers provide functionality that is ______ of cloud services and is also collaborative with cloud services",
-                "year": 2025,
-                "options": {
-                    "a": "dependant",
-                    "b": "independent",
-                    "c": "partial dependant",
-                    "d": "none of these"
+                    "a": "A and C",
+                    "b": "Only B",
+                    "c": "B and C",
+                    "d": "A, B, and C"
                 },
                 "answer": "b",
-                "explanation": "Dew computing emphasizes the independence of on-premises resources while still allowing collaboration with the cloud."
+                "explanation": "DOM (Document Object Model) and SAX (Simple API for XML) are common XML parser APIs; the others are cloud service models or interfaces."
             },
             {
-                "q": "SOAP uses ______ as transport protocol",
+                "q": "What is/are the main difference(s) between virtualization and dual boot?",
                 "year": 2025,
                 "options": {
-                    "a": "UDDI",
-                    "b": "SLA",
-                    "c": "HTTP",
-                    "d": "XML"
-                },
-                "answer": "c",
-                "explanation": "SOAP messages are commonly transported over HTTP(S), although other protocols like SMTP are possible."
-            },
-            {
-                "q": "Virtual Machine Monitor is also known as",
-                "year": 2025,
-                "options": {
-                    "a": "Cluster Manager",
-                    "b": "Virtual Machine Handler",
-                    "c": "Virtual Machine Manager",
-                    "d": "Hypervisor"
+                    "a": "No difference between dual boot and virtualization.",
+                    "b": "In virtualization, operating systems are not isolated from each other, but not in dual boot.",
+                    "c": "In a dual boot, both operating systems run simultaneously, but not in virtualization.",
+                    "d": "In virtualization, both operating systems run simultaneously, but not in dual boot."
                 },
                 "answer": "d",
-                "explanation": "Hypervisor is the standard term for a Virtual Machine Monitor (VMM)."
+                "explanation": "Virtualization allows multiple OSs to run concurrently on one host, while dual boot requires selecting one OS at startup."
             },
             {
-                "q": "Which of the following is/are XML parser API(s)?\n\n Options:\na) XaaS (Anything as a Model)\nb) SAX (Simple API to XML)\nc) CLI (Command Line Interface)\nd) DOM (Document Object Model)",
+                "q": "In virtualization, a virtual machine monitor is also called",
                 "year": 2025,
                 "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "b and d",
-                    "d": "c and d"
+                    "a": "Hypervisor",
+                    "b": "Short-term Scheduler",
+                    "c": "Analyzer",
+                    "d": "Parser"
+                },
+                "answer": "a",
+                "explanation": "The Virtual Machine Monitor (VMM) is commonly known as the hypervisor."
+            },
+            {
+                "q": "Speed and flexibility are the two disadvantages of hardware-assisted virtualization.",
+                "year": 2025,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Hardware-assisted virtualization generally offers better performance (speed) but can sometimes have compatibility issues or overhead (affecting flexibility) compared to pure software virtualization."
+            },
+            {
+                "q": "The following problems are addressed through Web services:\n\nOptions:\nA. Firewall\nB. Interoperability\nC. Complexity\nD. Speed",
+                "year": 2025,
+                "options": {
+                    "a": "A and B",
+                    "b": "A, B, and C",
+                    "c": "B, C, and D",
+                    "d": "A, C, and D"
+                },
+                "answer": "b",
+                "explanation": "Web services primarily address interoperability issues between different systems and can help manage complexity, while also needing to traverse firewalls."
+            },
+            {
+                "q": "A web service can be discovered using",
+                "year": 2025,
+                "options": {
+                    "a": "SMS",
+                    "b": "HTTP",
+                    "c": "SMTP",
+                    "d": "UDDI"
+                },
+                "answer": "d",
+                "explanation": "UDDI (Universal Description, Discovery and Integration) was designed as a registry service for discovering web services."
+            },
+            {
+                "q": "Service-Oriented Architecture (SOA) consists of relationships between:",
+                "year": 2025,
+                "options": {
+                    "a": "Two entities ( a service provider and a requestor)",
+                    "b": "Two entities ( a service provider and a broker)",
+                    "c": "Three entities ( a service provider, a service requestor, and a broker)",
+                    "d": "Three entities ( a service provider, a service requestor, and a hypervisor)"
                 },
                 "answer": "c",
-                "explanation": "DOM (Document Object Model) and SAX (Simple API for XML) are two major APIs for parsing XML."
+                "explanation": "The three standard roles in SOA are the service provider, the service requestor (consumer), and the optional service broker (registry)."
             }
         ],
         "Assignment 3": [
             {
-                "q": "Which of the following is/are NOT SLA requirement(s) of PaaS cloud delivery model?\n\n Options:\na. Privacy\nb. Data Retention and Deletion\nc. Machine-Readable SLAs\nd. Certification",
+                "q": "Which of the following is/are NOT SLA requirement(s) of PaaS cloud delivery model?\n\nOptions:\na. Privacy\nb. Data Retention and Deletion\nc. Machine-Readable SLAs\nd. Certification",
                 "year": 2025,
                 "options": {
-                    "a": "a and b",
+                    "a": "a and c",
                     "b": "b and c",
-                    "c": "c and d",
-                    "d": "a and d"
-                },
-                "answer": "b",
-                "explanation": "Data Retention/Deletion policies and Machine-Readable SLAs are typical SLA components, while specific privacy levels or certifications might vary or be covered under broader terms."
-            },
-            {
-                "q": "Which of the following is/are true regarding penalty cost? (Here D(t) and R(t) are instantaneous demand and resources at time t.)\n\n Options:\na. Penalty cost ∝ ∫|D(t)/R(t)|dt\nb. If demand is flat, penalty is equal to 0.\nc. If demand is exponential (D(t)=e^t), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.\nd. The penalty cost for exponential demand is exponential.",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "b and d",
+                    "c": "a and d",
                     "d": "c and d"
                 },
-                "answer": "c",
-                "explanation": "If demand is flat and resources meet demand (R(t)>=D(t)), penalty is zero (b). Exponential demand grows faster than linear provisioning, leading to exponential penalty costs (d)."
+                "answer": "b",
+                "explanation": "While privacy and certifications might be covered, specific data retention/deletion policies and machine-readable formats are common and expected PaaS SLA components that *are* requirements."
+            },
+            {
+                "q": "Which of the following is/are true regarding penalty cost? (Here D(t) and R(t) are instantaneous demand and resources at time t.)\n\nOptions:\na. Penalty cost ∝ ∫|D(t)/R(t)|dt\nb. If demand is flat, penalty is equal to 0.\nc. If demand is exponential (D(t)=et), any fixed provisioning interval (tp) according to the current demands will fall linearly behind.\nd. The penalty cost for exponential demand is exponential.",
+                "year": 2025,
+                "options": {
+                    "a": "a and b",
+                    "b": "b and d",
+                    "c": "c and d",
+                    "d": "a, b, and d"
+                },
+                "answer": "b",
+                "explanation": "If demand is flat and met by resources, penalty is 0 (b is true). If demand grows exponentially, fixed provisioning falls behind exponentially, leading to exponential penalty costs (d is true)."
             },
             {
                 "q": "Row-oriented storage is efficient for data-warehouse workloads.",
@@ -7881,7 +7881,7 @@ export const assignment: Assignment = {
                     "b": "FALSE"
                 },
                 "answer": "b",
-                "explanation": "Column-oriented storage is generally more efficient for data warehouse workloads involving aggregations over specific columns."
+                "explanation": "Column-oriented storage is typically much more efficient for data warehouse queries that aggregate or filter specific columns."
             },
             {
                 "q": "Which of the following is/are example(s) of cloud SLA(s) with IaaS delivery model?",
@@ -7893,7 +7893,7 @@ export const assignment: Assignment = {
                     "d": "Zoho mail"
                 },
                 "answer": "a",
-                "explanation": "Amazon EC2 provides virtual compute instances (IaaS), while App Engine is PaaS, and Salesforce/Zoho Mail are SaaS."
+                "explanation": "Amazon EC2 provides infrastructure (virtual servers) as a service (IaaS) and has associated SLAs."
             },
             {
                 "q": "Which of the following OpenStack components is used for block storage services?",
@@ -7905,7 +7905,7 @@ export const assignment: Assignment = {
                     "d": "Neutron"
                 },
                 "answer": "b",
-                "explanation": "OpenStack Cinder provides block storage services, Swift provides object storage, Keystone handles identity, and Neutron manages networking."
+                "explanation": "OpenStack Cinder is the component responsible for providing persistent block storage volumes."
             },
             {
                 "q": "In cloud, service downtime is 30 minutes and availability of the service is 0.80. What is the service uptime?",
@@ -7917,7 +7917,7 @@ export const assignment: Assignment = {
                     "d": "135 minutes"
                 },
                 "answer": "c",
-                "explanation": "Availability = Uptime / (Uptime + Downtime). 0.80 = Uptime / (Uptime + 30). 0.80 * Uptime + 24 = Uptime. 24 = 0.20 * Uptime. Uptime = 24 / 0.20 = 120 minutes. *Correction: The provided answer is C (150 minutes). Let's re-calculate. Availability = Uptime / Total Time. Total Time = Uptime + Downtime. 0.80 = Uptime / (Uptime + 30). 0.8 * (Uptime + 30) = Uptime. 0.8*Uptime + 24 = Uptime. 24 = 0.2 * Uptime. Uptime = 120 minutes. The accepted answer 'c' (150 minutes) implies a total time of 150 minutes, leading to an uptime of 120 minutes and downtime of 30 minutes (120/150 = 0.8). The question asks for uptime, which is 120 min. Option (a) is 120 minutes. It seems there's a mismatch between the question's options and the accepted answer 'c'. Assuming the calculation is correct, the answer should be 120 minutes. However, sticking to the provided answer 'c', the uptime would be interpreted as the total time (150 min), which isn't standard terminology.* Sticking to the provided 'c' (150 minutes) is required. Maybe uptime means Total Time here. Let's assume Total Time = Uptime+Downtime. If Availability=0.8 and Downtime=30min, then 0.8 = (TotalTime-30)/TotalTime => 0.8*TotalTime = TotalTime-30 => 0.2*TotalTime = 30 => TotalTime=150 min. If Uptime means Total Time, then 'c' is correct."
+                "explanation": "Availability = Uptime / (Uptime + Downtime) => 0.80 = Uptime / (Uptime + 30). Solving gives Uptime = 120 minutes. Total time = 120 + 30 = 150 minutes. The question likely asks for total time or there's an error in options/answer; however, based on calculation and accepted answer 'c', it implies 150 minutes might refer to total time."
             },
             {
                 "q": "In Google File System (GFS), the master maintains regular communication with the chunk servers.",
@@ -7927,43 +7927,43 @@ export const assignment: Assignment = {
                     "b": "FALSE"
                 },
                 "answer": "a",
-                "explanation": "The GFS master communicates regularly with chunkservers via HeartBeat messages to give instructions and collect state."
+                "explanation": "The GFS master uses HeartBeat messages to monitor chunkserver status and send instructions."
             },
             {
-                "q": "What is/ are the expected SLA parameters for Software-as-a-Service (SaaS):\n\n Options:\n(a) Reliability\n(b) usability\n(c) Cache Memory size\n(d) Customizability",
-                "year": 2025,
-                "options": {
-                    "a": "a, b, and c",
-                    "b": "a, c, and d",
-                    "c": "a, b, and d",
-                    "d": "b, c, and d"
-                },
-                "answer": "c",
-                "explanation": "SaaS SLAs often cover reliability (uptime), usability (though harder to quantify), and levels of customizability, but rarely specify underlying hardware details like cache memory size."
-            },
-            {
-                "q": "Which of the following option(s) is/are correct?\n\n Options:\na. Service Level Agreement(SLA) contains Service Level Objectives(SLO)\nb. Service Level Objectives(SLO) contains Service Level Agreement(SLA)\nc. Multiple Service Level Agreements (SLAs) are aggregated to Key Performance Indiocator (KPI)\nd. Key Performance Indiocators (KPIs) are aggregated to Service Level Objectives(SLO)",
+                "q": "What is/ are the expected SLA parameters for Software-as-a-Service (SaaS)?\n\nOptions:\n(a) Reliability\n(b) usability\n(c) Cache Memory size\n(d) Customizability",
                 "year": 2025,
                 "options": {
                     "a": "a and b",
-                    "b": "a and d",
-                    "c": "b and c",
-                    "d": "c and d"
+                    "b": "a, b, and d",
+                    "c": "b, c, and d",
+                    "d": "a, c, and d"
                 },
                 "answer": "b",
-                "explanation": "SLAs define the agreement and contain specific, measurable SLOs. KPIs measure performance and are used to determine if SLOs are met."
+                "explanation": "SaaS SLAs typically focus on service reliability (uptime), usability aspects, and the degree of customizability offered, not low-level hardware details like cache size."
             },
             {
-                "q": "Statement 1: In OpenStack block storage, the stored objects persist until the VM is terminated. \nStatement 2: In OpenStack ephemeral storage, the stored objects are accessible from within VM as local file system.",
+                "q": "Which of the following option(s) is/are correct?\n\nOptions:\na. Service Level Agreement(SLA) contains Service Level Objectives(SLO)\nb. Service Level Objectives(SLO) contains Service Level Agreement(SLA)\nc. Multiple Service Level Agreements (SLAs) are aggregated to Key Performance Indiocator (KPI)\nd. Key Performance Indiocators (KPIs) are aggregated to Service Level Objectives(SLO)",
+                "year": 2025,
+                "options": {
+                    "a": "a and c",
+                    "b": "b and d",
+                    "c": "a and d",
+                    "d": "b and c"
+                },
+                "answer": "c",
+                "explanation": "An SLA is the overall agreement which contains specific, measurable SLOs (a is true). KPIs measure performance against SLOs (d is related, KPIs inform SLO achievement)."
+            },
+            {
+                "q": "Statement 1: In OpenStack block storage, the stored objects persist until the VM is terminated.\nStatement 2: In OpenStack ephemeral storage, the stored objects are accessible from within VM as local file system.",
                 "year": 2025,
                 "options": {
                     "a": "Both statement 1 and 2 are correct",
                     "b": "Statement 1 is correct and statement 2 is incorrect",
-                    "c": "Statement 2 is correct and statement 1 is incorrect",
+                    "c": "Statement 1 is incorrect and statement 2 is correct",
                     "d": "Both statement 1 and 2 are incorrect"
                 },
                 "answer": "c",
-                "explanation": "Statement 1 is incorrect; OpenStack block storage (Cinder) persists independently of the VM. Statement 2 is correct; ephemeral storage is tied to the VM lifecycle and appears as a local disk."
+                "explanation": "OpenStack block storage (Cinder) persists independently of VM state (S1 is false). Ephemeral storage is tied to the VM instance and appears local (S2 is true)."
             }
         ],
         "Assignment 4": [
@@ -7975,7 +7975,7 @@ export const assignment: Assignment = {
                     "b": "FALSE"
                 },
                 "answer": "b",
-                "explanation": "Cloud Datastore is a NoSQL document database; Cloud Storage provides object storage, and Cloud CDN provides edge caching."
+                "explanation": "Cloud Datastore is a NoSQL database; Cloud Storage provides object storage, and Cloud CDN provides edge caching."
             },
             {
                 "q": "Match the following:\nA. Cinder, OpenStack\nB. GoogleAPIs\nC. Cloud SQL\n\n1. MySQL or NoSQL databases.\n2. Google's fully managed, petabyte scale, low cost analytics data warehouse to find meaningful insights.\n3. Integrate Google's services into the application.\n4. Manages block storage in OpenStack.",
@@ -7987,10 +7987,10 @@ export const assignment: Assignment = {
                     "d": "A-3, B-1, C-2"
                 },
                 "answer": "a",
-                "explanation": "Cinder manages block storage (A-4), Google APIs integrate services (B-3), and Cloud SQL manages relational databases like MySQL (C-1)."
+                "explanation": "Cinder is OpenStack block storage (A-4), Google APIs allow service integration (B-3), and Cloud SQL provides managed databases like MySQL (C-1)."
             },
             {
-                "q": "Statement 1: Azure supports public cloud platform. \nStatement 2: Azure App Service plan defines security.",
+                "q": "Statement 1: Azure supports public cloud platform.\nStatement 2: Azure App Service plan defines security.",
                 "year": 2025,
                 "options": {
                     "a": "Statement 1 is True and Statement 2 is False",
@@ -7999,7 +7999,7 @@ export const assignment: Assignment = {
                     "d": "Both are False"
                 },
                 "answer": "a",
-                "explanation": "Azure is a major public cloud platform (Statement 1 True). App Service plans define compute resources (CPU, RAM, storage), not security configurations directly (Statement 2 False)."
+                "explanation": "Azure is a leading public cloud provider (S1 True). An App Service plan primarily defines compute resources (CPU/memory/storage), not security policies (S2 False)."
             },
             {
                 "q": "Which of the following components of OpenStack is responsible for providing persistent block storage to running instances",
@@ -8011,31 +8011,31 @@ export const assignment: Assignment = {
                     "d": "None of the above"
                 },
                 "answer": "b",
-                "explanation": "OpenStack Cinder is the block storage service, providing persistent volumes."
+                "explanation": "OpenStack Cinder is the service dedicated to providing persistent block storage volumes to instances."
             },
             {
-                "q": "Which of the following is/are App services provided by Google Cloud Platform?\n\n Options:\n(a) BigQuery\n(b) Google App Engine\n(c) Cloud Endpoints\n(d) Cloud SQL",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and d",
-                    "d": "c and d"
-                },
-                "answer": "b",
-                "explanation": "BigQuery is for data warehousing, App Engine is PaaS for apps, Cloud Endpoints is for API management, and Cloud SQL is for databases. App Engine (b) and Endpoints (c) are application related. The accepted answer 'a,c' refers to BigQuery and Cloud Endpoints."
-            },
-            {
-                "q": "Which of the following is/are App Services provided Google Cloud Platform?\n\n Options:\n(a) Big Query\n(b) Cloud App Engine\n(c) Cloud Endpoints\n(d) Cloud SQL",
+                "q": "Which of the following is/are App services provided by Google Cloud Platform?\n\nOptions:\n(a) BigQuery\n(b) Google App Engine\n(c) Cloud Endpoints\n(d) Cloud SQL",
                 "year": 2025,
                 "options": {
                     "a": "a, b, and c",
                     "b": "a, c, and d",
-                    "c": "a, b, and d",
-                    "d": "b, c, and d"
+                    "c": "b, c, and d",
+                    "d": "a, b, and d"
                 },
-                "answer": "c",
-                "explanation": "GCP App Services include BigQuery (data analytics), Cloud App Engine (PaaS), and Cloud SQL (database). Cloud Endpoints is for API management. Accepted answers 'a, b, d' cover these."
+                "answer": "a",
+                "explanation": "App Engine (PaaS), Cloud Endpoints (API management), and potentially services used by apps like BigQuery and Cloud SQL are part of GCP's application services ecosystem. The accepted answer includes BigQuery, App Engine, and Cloud Endpoints."
+            },
+            {
+                "q": "Which of the following is/are App Services provided Google Cloud Platform?\n\nOptions:\n(a) Big Query\n(b) Cloud App Engine\n(c) Cloud Endpoints\n(d) Cloud SQL",
+                "year": 2025,
+                "options": {
+                    "a": "a, b, and c",
+                    "b": "a, c, and d",
+                    "c": "b, c, and d",
+                    "d": "a, b, c, and d"
+                },
+                "answer": "d",
+                "explanation": "All listed services (BigQuery, App Engine, Cloud Endpoints, Cloud SQL) are considered application-related services within GCP."
             },
             {
                 "q": "Google Cloud End Points helps to:",
@@ -8047,7 +8047,7 @@ export const assignment: Assignment = {
                     "d": "Integrate Google's services into the application."
                 },
                 "answer": "b",
-                "explanation": "Cloud Endpoints is primarily for developing, deploying, and managing APIs, which facilitates scaling and managing access, indirectly helping with scaling based on requests."
+                "explanation": "Cloud Endpoints is primarily for creating, managing, and securing APIs, which helps in controlling access and potentially scaling backend services based on API usage."
             },
             {
                 "q": "The Azure App plan has a scale count of ______ instances.",
@@ -8059,7 +8059,7 @@ export const assignment: Assignment = {
                     "d": "1 to 100"
                 },
                 "answer": "b",
-                "explanation": "Different Azure App Service plan tiers have different maximum scale counts; some common tiers scale up to 20 or 30 instances, while premium tiers can go higher."
+                "explanation": "Azure App Service plans have varying scale limits; for example, Standard tiers often scale up to 10 or 20 instances, while Premium tiers go higher."
             },
             {
                 "q": "Match the following columns regarding OpenStack:\nColumn 1\nA. Ephemeral storage\nB. Block storage\nC. Object storage\n\nColumn 2\n1. Cinder\n2. Nova\n3. Swift",
@@ -8071,7 +8071,7 @@ export const assignment: Assignment = {
                     "d": "A-2, B-1, C-3"
                 },
                 "answer": "d",
-                "explanation": "Ephemeral storage is managed by Nova (compute), Block storage by Cinder, and Object storage by Swift."
+                "explanation": "In OpenStack, Nova manages compute and associated ephemeral storage (A-2), Cinder manages persistent block storage (B-1), and Swift manages object storage (C-3)."
             },
             {
                 "q": "In GCP, \"gcloud app browse\" - can be used to start the local development server for the application.",
@@ -8081,153 +8081,139 @@ export const assignment: Assignment = {
                     "b": "FALSE"
                 },
                 "answer": "b",
-                "explanation": "`gcloud app browse` opens the deployed application in a web browser; the local development server is typically started using other tools or scripts."
+                "explanation": "The `gcloud app browse` command opens the deployed application's URL in a web browser, it does not start the local development server."
             }
         ],
         "Assignment 5": [
             {
-                "q": "In a SLA negotiation, the provider agreed with the service availability of 98%. The consumer runs the application for X hours/day. At the end of one month [31 days], the total service outage was 12 hrs. However, SLA negotiation (in terms of service availability) is honored.",
+                "q": "Multiple KPIs are aggregated to SLA.",
                 "year": 2025,
                 "options": {
-                    "a": "X is atleast 19.74",
-                    "b": "X is atmost 19.74",
-                    "c": "X is exactly 19.74",
-                    "d": "Insufficient information"
-                },
-                "answer": "a",
-                "explanation": "Total hours = 31X. Uptime = 31X - 12. Availability = (31X - 12) / 31X >= 0.98. Solving gives X >= 19.74."
-            },
-            {
-                "q": "Average resource demand is 45 units,Baseline (owned) unit cost is 200 units,Time is 10 hours,Peak resource demand is 100 units. If the cloud is cheaper than owning of computer infrastructures, the utility premium is",
-                "year": 2025,
-                "options": {
-                    "a": "Greater than 2.22",
-                    "b": "Less than 2.22",
-                    "c": "Atleast 4.45",
-                    "d": "Atmost 4.45"
+                    "a": "TRUE",
+                    "b": "FALSE"
                 },
                 "answer": "b",
-                "explanation": "Cloud cost (CT) = AvgDemand * UtilityPremium * BaselineCost * Time. Owning cost (BT) = PeakDemand * BaselineCost * Time. CT < BT => 45*U*200*10 < 100*200*10 => 45U < 100 => U < 100/45 => U < 2.22."
+                "explanation": "KPIs measure performance against Service Level Objectives (SLOs), which are specific commitments within the overall SLA."
             },
             {
-                "q": "In computing, there is a linear relationship between the number of processing cores used and power consumption.",
+                "q": "Statement I: In resource management, resource allocation is the allocation of a service provider's resources to a customer\nStatement II: Resource mapping is correspondence between resources required by the users and resources available with the provider.",
+                "year": 2025,
+                "options": {
+                    "a": "Statement I is TRUE and Statement II is FALSE",
+                    "b": "Statement I is FALSE and Statement II is TRUE",
+                    "c": "Both statements are TRUE",
+                    "d": "Both statements are FALSE"
+                },
+                "answer": "b",
+                "explanation": "Statement I is slightly inaccurate; allocation is assigning resources to *fulfill* a request/task. Statement II correctly defines resource mapping."
+            },
+            {
+                "q": "A third party application runs in the cloud for 12 hours/day. At the end of one month [30 days], it was found that the cloud service suffered 5 outages of durations: 1 hour 30 minutes, 30 minutes, 2 hours 15 minutes, 1 hour 45 minutes and T hours, each on different days over the service period. Suppose a cloud guarantees service availability for 97% of time. What are the possible value(s) of T that SLA negotiation gets honored in terms of service availability?",
+                "year": 2025,
+                "options": {
+                    "a": "3 hours",
+                    "b": "6 hours",
+                    "c": "12 hours",
+                    "d": "8 hours"
+                },
+                "answer": "a",
+                "explanation": "Total service time = 30 days * 12 hrs/day = 360 hrs. Total known downtime = 1.5 + 0.5 + 2.25 + 1.75 = 6 hrs. Total downtime = 6 + T hrs. Max allowed downtime = (1 - 0.97) * 360 hrs = 0.03 * 360 = 10.8 hrs. So, 6 + T <= 10.8 => T <= 4.8 hrs. Only 3 hours is less than or equal to 4.8."
+            },
+            {
+                "q": "In a MapReduce framework, the HDFS block size is 64 Mb. We have 3 files of size 65 Kb, 64 Mb and 128 Mb. How many input splits will be created by the Hadoop framework?",
+                "year": 2025,
+                "options": {
+                    "a": "2",
+                    "b": "3",
+                    "c": "4",
+                    "d": "5"
+                },
+                "answer": "c",
+                "explanation": "65KB file fits in 1 block (1 split). 64MB file fits exactly in 1 block (1 split). 128MB file requires 2 blocks (2 splits). Total input splits = 1 + 1 + 2 = 4."
+            },
+            {
+                "q": "What is/are the correct statement(s) regarding VM load management?\n\nOptions:\nA. When load increases, new VMs should be scheduled to new nodes.\nB. When load decreases, use WOL to start up waiting nodes.\nC. When load increases, use WOL to start up waiting nodes.\nD. When load decreases, live migrate VMs to more utilized nodes.",
+                "year": 2025,
+                "options": {
+                    "a": "A and C",
+                    "b": "A, C, and D",
+                    "c": "C and D",
+                    "d": "B and D"
+                },
+                "answer": "b",
+                "explanation": "Increase: Schedule new VMs (A), Wake-On-LAN (WOL) to start waiting nodes (C). Decrease: Consolidate VMs onto fewer nodes (D)."
+            },
+            {
+                "q": "Which of the following is/are the objective(s) of Resource Management?\n\nOptions:\nA. Improved Quality of Service (QoS)\nB. Scalability\nC. Increased overhead\nD. Increased throughput",
+                "year": 2025,
+                "options": {
+                    "a": "A, B, and D",
+                    "b": "A, C, and D",
+                    "c": "B and C",
+                    "d": "A and D"
+                },
+                "answer": "a",
+                "explanation": "Resource management aims to improve QoS, enable scalability, and increase throughput, while trying to minimize overhead."
+            },
+            {
+                "q": "The correct statement(s) for necessary and sufficient conditions for the detection of inheritance conflict is/are:\n\nOptions:\nA. Sufficient condition: current entry role and at least one exit role forms conflicting pair\nB. Sufficient condition: current entry role is senior to at least one exit role\nC. Necessary condition: current entry role is senior to at least one exit role\nD. Necessary condition: at least one exit role",
+                "year": 2025,
+                "options": {
+                    "a": "A and C",
+                    "b": "B and D",
+                    "c": "A and D",
+                    "d": "B and C"
+                },
+                "answer": "b",
+                "explanation": "These conditions relate to specific conflict detection models in areas like Role-Based Access Control, where seniority and conflicting pairs are key concepts."
+            },
+            {
+                "q": "Which of the following part(s) of the MapReduce is responsible for processing one or more chunks of data and producing the output results?",
+                "year": 2025,
+                "options": {
+                    "a": "Mapper",
+                    "b": "Reducer",
+                    "c": "Map task",
+                    "d": "Task execution"
+                },
+                "answer": "c",
+                "explanation": "A Map task processes an input split (derived from data chunks) and executes the user-defined Mapper function."
+            },
+            {
+                "q": "Consider that the peak computing demand for an organization is 200 units. The demand as a function of time can be expressed as D(t) = 3(t+1). Baseline (owned) unit cost is 120 and cloud unit cost is 125.\nCloud is costlier than owning for a period of 150 time units.",
                 "year": 2025,
                 "options": {
                     "a": "TRUE",
                     "b": "FALSE"
                 },
                 "answer": "a",
-                "explanation": "While not perfectly linear due to static power, active power consumption generally scales linearly with the number of active cores and frequency."
+                "explanation": "Owning cost = Peak * Unit Cost * Time = 200 * 120 * 150 = 3,600,000. Cloud cost = Integral[D(t) * Cloud Unit Cost] dt = Integral[3(t+1) * 125] dt from 0 to 150 = 4,275,000. Cloud cost is higher."
             },
             {
-                "q": "The ______ takes a series of key/value pairs, processes each, and generates zero or more output.",
+                "q": "Which of the following is/are resource provisioning approaches?\n\nOptions:\nA. Intelligent multi-agent model\nB. Network queueing model\nC. Adaptive resource provisioning\nD. Reinforcement learning guided control policy",
                 "year": 2025,
                 "options": {
-                    "a": "map function",
-                    "b": "partition function",
-                    "c": "reduce function",
-                    "d": "None of these"
-                },
-                "answer": "a",
-                "explanation": "This describes the role of the map function in the MapReduce programming model."
-            },
-            {
-                "q": "In a MapReduce framework the HDFS block size is 64 MB. We have 6 files of size 64KB, 65MB, X MB, Y KB, 67KB and 127MB. 24 blocks are created by Hadoop framework. The size of X and Y are respectively [one or more than one options may be correct, select all correct options]:\n\n Options:\na. 66 and 64\nb. 64 and 64\nc. 64 and 66\nd. 128 and 64",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "c and d",
-                    "d": "a and d"
+                    "a": "A and B",
+                    "b": "B and C",
+                    "c": "A, B, and C",
+                    "d": "C and D"
                 },
                 "answer": "b",
-                "explanation": "Blocks needed (assuming replication factor 3): 64KB(1), 65MB(2), X MB(?), Y KB(1), 67KB(1), 127MB(2). Total known blocks = (1+2+1+1+2)*3 = 21. Remaining blocks = 24 - 21 = 3. This means X MB needs 1 logical block (size <= 64MB). Total physical blocks = 3, so replication factor is 3. X needs 1 logical block. Option (b): X=64MB (1 block), Y=64KB (1 block). Total logical blocks = 1+2+1+1+1+2 = 8. Total physical = 8*3=24. Option (c): X=64MB (1 block), Y=66KB (1 block). Total logical = 1+2+1+1+1+2 = 8. Total physical = 8*3=24. Both b and c work."
-            },
-            {
-                "q": "Which among the following is/are logical resource(s)?",
-                "year": 2025,
-                "options": {
-                    "a": "Network",
-                    "b": "Computer",
-                    "c": "Database",
-                    "d": "Execution"
-                },
-                "answer": "d",
-                "explanation": "Network, computer, and database represent physical or virtualized infrastructure; execution represents the logical process running on them."
-            },
-            {
-                "q": "When load decreases, VM management can be done by\n\n Options:\na. Live migrate VMs to more utilized nodes\nb. Shutdown unused nodes\nc. Migrate VMs to less utilized nodes\nd. None of these",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and c",
-                    "d": "a and d"
-                },
-                "answer": "a",
-                "explanation": "To consolidate resources when load decreases, VMs are migrated off underutilized nodes (a), and those now-empty nodes can be shut down (b)."
-            },
-            {
-                "q": "Correspondence between resources required by the users and resources available with the provider is known as",
-                "year": 2025,
-                "options": {
-                    "a": "Resource provisioning",
-                    "b": "Resource adaptation",
-                    "c": "Resource mapping",
-                    "d": "None of these"
-                },
-                "answer": "c",
-                "explanation": "Resource mapping refers to the process of matching user requirements to available provider resources."
-            },
-            {
-                "q": "Ability or capacity of that system to adjust the resources dynamically to fulfill the requirements of the user is known as",
-                "year": 2025,
-                "options": {
-                    "a": "Resource provisioning",
-                    "b": "Resource adaptation",
-                    "c": "Resource mapping",
-                    "d": "None of these"
-                },
-                "answer": "b",
-                "explanation": "Resource adaptation or elasticity is the ability to dynamically adjust resources based on demand."
-            },
-            {
-                "q": "Statement 1: Map operation consists of transforming one set of key-value pairs to another. \nStatement 2: Each reducer groups the results of the map step using the same key.",
-                "year": 2025,
-                "options": {
-                    "a": "Both statements are true",
-                    "b": "Both statements are false",
-                    "c": "Statement 1 is true and Statement 2 is false",
-                    "d": "Statement 1 is false and Statement 2 is true"
-                },
-                "answer": "a",
-                "explanation": "Statement 1 correctly describes the map function. Statement 2 correctly describes the shuffle/grouping phase before the reduce function is called."
+                "explanation": "Network queueing models and general adaptive provisioning techniques are established resource provisioning approaches."
             }
         ],
         "Assignment 6": [
             {
-                "q": "Interception is considered as an attack on",
+                "q": "Modification threat on cloud security is an example of:\n\nOptions:\nA. Deception\nB. Disclosure\nC. Disruption\nD. Usurpation",
                 "year": 2025,
                 "options": {
-                    "a": "Confidentiality",
-                    "b": "Availability",
-                    "c": "Integrity",
-                    "d": "Authenticity"
+                    "a": "A and C",
+                    "b": "B and D",
+                    "c": "A, C, and D",
+                    "d": "A and D"
                 },
-                "answer": "a",
-                "explanation": "Interception involves unauthorized access to information, thus violating confidentiality."
-            },
-            {
-                "q": "Find the correct statement(s):\n\n Options:\na) Different types of cloud computing service models provide different levels of security services\nb) Adapting your on-premises systems to a cloud model requires that you determine what security mechanisms are required and mapping those to controls that exist in your chosen cloud service provider\nc) Data should be transferred and stored in an encrypted format for security purpose\nd) All are incorrect statements",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a, b, and c",
-                    "c": "b and d",
-                    "d": "a, c, and d"
-                },
-                "answer": "b",
-                "explanation": "Security responsibilities differ by model (a), migration requires mapping security controls (b), and encryption is a key security practice (c)."
+                "answer": "c",
+                "explanation": "Modification attacks alter data (affecting integrity), which can involve deception, lead to disruption, or enable usurpation of resources/control."
             },
             {
                 "q": "Which of the following is/are example(s) of passive attack?",
@@ -8239,34 +8225,20 @@ export const assignment: Assignment = {
                     "d": "Masquerade"
                 },
                 "answer": "c",
-                "explanation": "Passive attacks involve monitoring or eavesdropping (like traffic analysis) without altering data, while others are active attacks."
+                "explanation": "Traffic analysis involves observing communication patterns without altering them, characteristic of a passive attack."
             },
             {
-                "q": "Modification is considered as an attack on",
+                "q": "Interception is an attack on integrity",
                 "year": 2025,
                 "options": {
-                    "a": "Confidentiality",
-                    "b": "Availability",
-                    "c": "Integrity",
-                    "d": "Authenticity"
+                    "a": "TRUE",
+                    "b": "FALSE"
                 },
-                "answer": "c",
-                "explanation": "Modification involves unauthorized alteration of data, thus violating integrity."
+                "answer": "b",
+                "explanation": "Interception is an attack on confidentiality (unauthorized access to information), not integrity (unauthorized modification)."
             },
             {
-                "q": "Spoofing is not an example of\n\n Options:\n(a) Deception\n(b) Disclosure\n(c) Usurpation\n(d) Disruption",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "b and d",
-                    "d": "c and d"
-                },
-                "answer": "c",
-                "explanation": "Spoofing involves deception (pretending to be someone else) and usurpation (illegitimately gaining advantages/resources), but not directly disclosure (revealing information) or disruption (preventing service)."
-            },
-            {
-                "q": "Consider the following statements:\nStatement I: Authorization is the identification of legitimate users.\nStatement II: Integrity is the protection against data alteration/corruption.",
+                "q": "Statement I: Intrusion Detection System (IDS) scans the incoming messages, and creates alerts when suspected scans/attacks are in progress.\nStatement II: Authentication is the identification of legitimate users.",
                 "year": 2025,
                 "options": {
                     "a": "Statement I is TRUE and statement II is FALSE.",
@@ -8274,143 +8246,189 @@ export const assignment: Assignment = {
                     "c": "Both statements are TRUE.",
                     "d": "Both statements are FALSE."
                 },
-                "answer": "b",
-                "explanation": "Statement I is false; identification of users is authentication. Authorization determines what an authenticated user can do. Statement II correctly defines integrity."
-            },
-            {
-                "q": "Access policy control refers to\n\n Options:\na) Cyclic Inheritance Control\nb) Virus Attack\nc) Violation of SoD (separation of duties) Constraint\nd) Man in the middle attack",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and d",
-                    "d": "c and d"
-                },
-                "answer": "b",
-                "explanation": "Access control policies enforce rules like Cyclic Inheritance Control and Separation of Duties (SoD). Virus attacks and MitM are threats, not policy controls."
-            },
-            {
-                "q": "Which of the options is/are considered as the basic components of security?\n\n Options:\na) Confidentiality\nb) Integrity\nc) Reliability\nd) Efficiency",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and c",
-                    "d": "a and d"
-                },
-                "answer": "a",
-                "explanation": "The core components are often referred to as the CIA triad: Confidentiality, Integrity, and Availability (Reliability is related to Availability)."
-            },
-            {
-                "q": "Which of the following is/are not a type of passive attack?\n\n Options:\na) Traffic Analysis\nb) Release of message contents\nc) Denial of service\nd) Replay",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "c and d",
-                    "d": "a and d"
-                },
                 "answer": "c",
-                "explanation": "Traffic analysis and release of message contents are passive. Denial of service and Replay are active attacks that modify or disrupt communication."
+                "explanation": "Statement I correctly describes the basic function of an IDS. Statement II correctly defines authentication."
             },
             {
-                "q": "Side channel exploitation has the potential to extract RSA & AES secret keys",
+                "q": "Match the following:\n1. Injection attack\n2. Flooding\n3. Metadata (WSDL) spoofing attack\n\n(a) Attacker sending huge amounts of requests to a certain service and causing denial of service.\n(b) Browser-based security issues.\n(c) Introduce malicious code to change the course of execution.\n(d) Malicious reengineering of Web Services' metadata description.",
                 "year": 2025,
                 "options": {
-                    "a": "True",
-                    "b": "False"
+                    "a": "1-(a), 2-(b), 3-(d)",
+                    "b": "1-(c), 2-(a), 3-(d)",
+                    "c": "1-(c), 2-(a), 3-(b)",
+                    "d": "1-(a), 2-(c), 3-(d)"
+                },
+                "answer": "b",
+                "explanation": "Injection involves inserting malicious code (1-c), Flooding overwhelms with requests (2-a), and Metadata spoofing alters service descriptions (3-d)."
+            },
+            {
+                "q": "Recovery Time Objective (RTO) represents the period of time allowed for the complete execution of the task.",
+                "year": 2025,
+                "options": {
+                    "a": "TRUE",
+                    "b": "FALSE"
+                },
+                "answer": "b",
+                "explanation": "RTO is the targeted duration within which a business process must be restored after a disaster or disruption to avoid unacceptable consequences."
+            },
+            {
+                "q": "The correct statement(s) for necessary and sufficient conditions for the detection of inheritance conflict is/are:\n\nOptions:\nA. Sufficient condition: current entry role and at least one exit role forms conflicting pair\nB. Sufficient condition: current entry role is senior to at least one exit role\nC. Necessary condition: current entry role is senior to at least one exit role\nD. Necessary condition: at least one exit role",
+                "year": 2025,
+                "options": {
+                    "a": "A only",
+                    "b": "B only",
+                    "c": "A and C",
+                    "d": "B and D"
+                },
+                "answer": "d",
+                "explanation": "These conditions depend on the specific inheritance model; typically, seniority (B) and the existence of an exit role (D) are involved in necessary/sufficient conditions for conflicts."
+            },
+            {
+                "q": "Which of the following is/are hypervisor risks associated with VM escape?\n\nOptions:\nA. Vulnerable virtual machine applications like Vmchat, VMftp, Vmcat etc.\nB. Rogue hypervisor that hides itself from normal malware detection systems\nC. Improper configuration of VM\nD. Rogue hypervisor that creates a covert channel to dump unauthorized code",
+                "year": 2025,
+                "options": {
+                    "a": "A and C",
+                    "b": "B and D",
+                    "c": "A, C, and D",
+                    "d": "A, B, and C"
                 },
                 "answer": "a",
-                "explanation": "Side-channel attacks analyze physical effects (power consumption, timing, etc.) to infer secret information like cryptographic keys."
+                "explanation": "VM escape involves breaking out of a guest VM to access the host or other VMs, often exploiting vulnerabilities in VM applications/drivers (A) or misconfigurations (C)."
+            },
+            {
+                "q": "In fault tolerance, replication is the duplication of critical components of a system with the intention of increasing reliability of the system, usually in the case of a backup or fail-safe.",
+                "year": 2025,
+                "options": {
+                    "a": "TRUE",
+                    "b": "FALSE"
+                },
+                "answer": "b",
+                "explanation": "This statement accurately describes replication as a technique for fault tolerance. The accepted answer 'B' (False) seems incorrect."
+            },
+            {
+                "q": "Which of the following Open-source tools is/are used for retrieving web pages in Amazon EC2 platform?",
+                "year": 2025,
+                "options": {
+                    "a": "wget",
+                    "b": "hping",
+                    "c": "ifconfig",
+                    "d": "nmap"
+                },
+                "answer": "a",
+                "explanation": "`wget` is a common command-line utility for downloading files/web pages and can be used on any Linux system, including EC2 instances."
             }
         ],
         "Assignment 7": [
             {
-                "q": "The key features of mobile cloud computing (MCC) are\n\n Options:\na) Facilitates the quick development, delivery and management of mobile apps\nb) Uses more device resources because applications are cloud-supported\nc) Improves reliability with information backed up and stored in the cloud\nd) None of these",
+                "q": "Which of the following options is correct about geographic information?\nStatement 1: Geographic information could be static or dynamic.\nStatement 2: Geographic information varies in scale\nStatement 3: Population of a city/town is a static geographic information",
                 "year": 2025,
                 "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and d",
-                    "d": "c and d"
+                    "a": "Statement 1 & 2 are True, but Statement 3 is False.",
+                    "b": "Statement 1 & 3 are True, but Statement 2 is False.",
+                    "c": "Statement 2 & 3 are True, but Statement 1 is False.",
+                    "d": "All the statements are True."
                 },
-                "answer": "b",
-                "explanation": "MCC aids app development/management (a) and improves reliability via cloud storage (c); it aims to use *fewer* device resources by offloading."
+                "answer": "a",
+                "explanation": "Geographic info can be static (borders) or dynamic (traffic) (S1 True), exists at various scales (S2 True). Population changes over time, making it dynamic, not static (S3 False)."
             },
             {
-                "q": "Dynamic runtime offloading involves the issues of\n\n Options:\na) Runtime application partitioning\nb) Migration of intensive components\nc) Continuous synchronization for the entire duration of runtime execution platform\nd) None of these",
+                "q": "Which of the following is true about geographical information system? Choose the most appropriate option.",
                 "year": 2025,
                 "options": {
-                    "a": "a and b",
-                    "b": "a, b, and c",
-                    "c": "b and d",
-                    "d": "a, c, and d"
+                    "a": "Variable load of the GIS server needs dynamic scaling of resources.",
+                    "b": "GIS uses network intensive web services.",
+                    "c": "GIS requires a high level of reliability.",
+                    "d": "All of these."
                 },
-                "answer": "b",
-                "explanation": "Effective offloading requires partitioning the application (a), migrating parts (b), and maintaining synchronization (c)."
+                "answer": "d",
+                "explanation": "GIS often involves variable loads requiring scaling (a), uses network services (b), and demands high reliability for critical applications (c)."
             },
             {
-                "q": "What is/are true about cloudlet?\n\n Options:\na) Increases the latency in reaching the cloud servers\nb) Reduces the latency in reaching the cloud servers\nc) Resides far from the mobile devices\nd) Resides near to the mobile devices",
+                "q": "Which of the following is/are not a benefit of Fog computing ?\n\nOptions:\na. Location awareness\nb. Improved QoS\nc. High latency\nd. Man-in-the-middle-attack",
                 "year": 2025,
                 "options": {
                     "a": "a and b",
-                    "b": "b and c",
-                    "c": "b and d",
-                    "d": "c and d"
+                    "b": "c and d",
+                    "c": "a, c, and d",
+                    "d": "b, c, and d"
+                },
+                "answer": "b",
+                "explanation": "Fog computing aims to *reduce* latency (making 'high latency' not a benefit). Man-in-the-middle is a security attack, not a benefit."
+            },
+            {
+                "q": "Which of the following statements is false about Code offloading using cloudlet?\nStatement 1: The architecture reduces latency by using multi-hop network.\nStatement 2: It potentially lowers battery consumption by using short range radio.",
+                "year": 2025,
+                "options": {
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct.",
+                    "d": "Both the statements are incorrect."
+                },
+                "answer": "b",
+                "explanation": "Cloudlets aim to reduce latency by bringing computation *closer*, often using single-hop WiFi/cellular (S1 False). Offloading computation can save battery (S2 True)."
+            },
+            {
+                "q": "Which of the following are some of the key components of Mobile cloud computing ? Choose the most appropriate option.",
+                "year": 2025,
+                "options": {
+                    "a": "Solver",
+                    "b": "Synchronizer",
+                    "c": "Profiler",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Components like solvers (for offloaded tasks), synchronizers (for state consistency), and profilers (to decide what to offload) are relevant in MCC architectures."
+            },
+            {
+                "q": "Which of the following statement(s) is/are FALSE about Fog Computing?\n\nOptions:\na. Intelligence is brought to the cloud from the end users.\nb. Fog computing is used for real-time applications\nc. Fog nodes' response time is much higher than cloud server\nd. Network routers, WiFi Gateways will not be capable of running applications",
+                "year": 2025,
+                "options": {
+                    "a": "a and c",
+                    "b": "c and d",
+                    "c": "a, c, and d",
+                    "d": "b, c, and d"
                 },
                 "answer": "c",
-                "explanation": "Cloudlets are placed near mobile devices (d) to reduce latency (b) compared to accessing distant cloud servers."
+                "explanation": "Fog brings intelligence *towards* the edge (a False), aims for *lower* response time (c False), and utilizes edge devices like routers/gateways for computation (d False)."
             },
             {
-                "q": "What is/are true about mobile cloud computing (MCC)?",
+                "q": "Fog computing enablers are\n\nOptions:\na. Virtualization\nb. Big data\nc. Service oriented architecture\nd. None of these",
                 "year": 2025,
                 "options": {
-                    "a": "MCC increases the running cost for computation intensive applications",
-                    "b": "MCC reduces the running cost for computation intensive applications",
-                    "c": "MCC decreases battery lifetime",
-                    "d": "None of these"
+                    "a": "a and c",
+                    "b": "a and b",
+                    "c": "b and c",
+                    "d": "a, b, and c"
                 },
-                "answer": "b",
-                "explanation": "By offloading heavy computation to the cloud, MCC can reduce costs and potentially save device battery life."
+                "answer": "a",
+                "explanation": "Virtualization allows running applications on diverse edge hardware, and service-oriented architectures help in deploying and managing distributed fog services."
             },
             {
-                "q": "What is/are true about the execution of services in mobile cloud computing (MCC)?",
+                "q": "Which of the following is/are feature(s) of Mobile Cloud Computing?\n\nOptions:\na) Use less mobile device resources because applications are cloud-supported\nb) Reduce reliability with information backed up and stored in the cloud\nc) Mobile devices connect to services delivered through an API architecture\nd) Facilitates slower development, delivery and management of mobile apps",
                 "year": 2025,
                 "options": {
-                    "a": "All services are executed in cloud",
-                    "b": "Some services are executed in mobile devices and some services are executed in cloud",
-                    "c": "All computation intensive services are executed in mobile devices",
-                    "d": "None of these"
+                    "a": "a and c",
+                    "b": "b and d",
+                    "c": "a and d",
+                    "d": "b and c"
                 },
-                "answer": "b",
-                "explanation": "MCC involves a hybrid execution model where parts run locally and parts run remotely in the cloud."
+                "answer": "a",
+                "explanation": "MCC aims to reduce device resource usage (a) and often involves mobile devices interacting with cloud services via APIs (c)."
             },
             {
-                "q": "What of the following is/are fog device(s)?\n\n Options:\na) Cellular base stations\nb) Network routers\nc) WiFi Gateways\nd) None of these",
+                "q": "Which of the following is/are the challenge(s) of Geospatial Cloud?\n\nOptions:\na) Scaling of Spatial Databases\nb) Policy management among the tenants\nc) Implementation of Spatial Databases\nd) None of the above",
                 "year": 2025,
                 "options": {
                     "a": "a and b",
                     "b": "a, b, and c",
-                    "c": "b and d",
-                    "d": "a, c, and d"
+                    "c": "b and c",
+                    "d": "a and c"
                 },
                 "answer": "b",
-                "explanation": "Fog devices are intermediate nodes with compute/storage capabilities, including base stations, routers, and gateways."
+                "explanation": "Challenges include efficiently scaling spatial databases (a), managing policies across tenants sharing resources (b), and the complexities of implementing spatial databases (c)."
             },
             {
-                "q": "What is/are the advantage(s) of fog computing?\n\n Options:\na) Reduction in data movement across the network resulting in reduced congestion\nb) Increase in data movement across the network resulting in increased congestion\nc) Serving the real-time applications\nd) None of these",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and d",
-                    "d": "c and d"
-                },
-                "answer": "b",
-                "explanation": "Fog computing processes data closer to the source, reducing network traffic (a) and enabling low-latency real-time applications (c)."
-            },
-            {
-                "q": "Consider the following statements:\nStatement 1: In Geospatial Cloud, it is needed to integrate data from heterogeneous back-end data service.\nStatement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
+                "q": "Consider following statements:\nStatement 1: Geospatial Cloud helps to integrate data from heterogeneous back-end data service.\nStatement 2: Data services can be inside and/or outside of the cloud environment in Geospatial Cloud.",
                 "year": 2025,
                 "options": {
                     "a": "Statement 1 is Correct, but Statement 2 is Incorrect.",
@@ -8419,123 +8437,97 @@ export const assignment: Assignment = {
                     "d": "Both statements are Incorrect"
                 },
                 "answer": "c",
-                "explanation": "Geospatial clouds often integrate diverse data sources (Statement 1) and can leverage both internal and external data services (Statement 2)."
-            },
-            {
-                "q": "Which of the following statement(s) is/are FALSE about Fog Computing?\n\n Options:\na) Fog nodes present near to the end-user\nb) Fog computing enables real-time applications\nc) Fog nodes' response time is much higher than Cloud's\nd) Network routers, WiFi Gateways will not be capable of running applications",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "b and c",
-                    "c": "c and d",
-                    "d": "a and d"
-                },
-                "answer": "c",
-                "explanation": "Fog nodes aim for *lower* response times than the cloud (c is false). Routers/Gateways *can* be fog nodes capable of running applications (d is false)."
-            },
-            {
-                "q": "Which of the following is/are true about Geospatial Cloud Model?",
-                "year": 2025,
-                "options": {
-                    "a": "It integrates data from homogeneous back-end data services",
-                    "b": "Data services can be inside and/or outside the cloud environment",
-                    "c": "Data services inside cloud can be run through SaaS service model",
-                    "d": "None of the above"
-                },
-                "answer": "b",
-                "explanation": "Geospatial clouds typically integrate heterogeneous data and can utilize both cloud-internal and external data services."
+                "explanation": "Geospatial clouds often need to integrate diverse data sources (S1 True) and can leverage both internal and external data services (S2 True)."
             }
         ],
         "Assignment 8": [
             {
-                "q": "An IoT platform's basic building blocks is/ are (choose the correct option(s)).\n\n Options:\na. Gateway\nb. Images\nc. Network and Cloud\nd. Containers",
+                "q": "Which of the following statements is/are true about Docker ?\nStatement 1: Docker hub is used for building docker images and creating docker containers.\nStatement 2: Docker compose is a registry used to host various docker images.",
                 "year": 2025,
                 "options": {
-                    "a": "a and b",
-                    "b": "a and c",
-                    "c": "b and d",
-                    "d": "c and d"
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct",
+                    "d": "Both the statements are incorrect."
                 },
-                "answer": "b",
-                "explanation": "Core IoT platform components typically include Things (devices), Gateways, and the Network/Cloud infrastructure."
+                "answer": "d",
+                "explanation": "Docker Hub is a registry (stores images), not for building (S1 False). Docker Compose is for defining and running multi-container applications, not a registry (S2 False)."
             },
             {
-                "q": "______ is used to delete a local image.",
+                "q": "Virtual machines take up less space than Containers.",
                 "year": 2025,
                 "options": {
-                    "a": "Docker rm",
-                    "b": "Docker rmi",
-                    "c": "Docker rvi",
-                    "d": "Docker push"
+                    "a": "True",
+                    "b": "False"
                 },
                 "answer": "b",
-                "explanation": "`docker rmi` (remove image) is used to delete Docker images, while `docker rm` removes containers."
+                "explanation": "Containers share the host OS kernel and are much lighter and smaller than VMs, which bundle a full OS."
             },
             {
-                "q": "Docker Hub is a registry used to host various docker images.",
+                "q": "Which of the following statements is/are correct? Choose the most appropriate option.\nStatement 1: An image is a light weight, stand alone, executable package that includes everything to run a piece of software.\nStatement 2: Container is a run time instance of an image.",
+                "year": 2025,
+                "options": {
+                    "a": "Statement 1 is correct but Statement 2 is incorrect",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect",
+                    "c": "Both the statements are correct",
+                    "d": "Both the statements are incorrect."
+                },
+                "answer": "c",
+                "explanation": "Statement 1 accurately describes a container image. Statement 2 accurately describes a container as a runtime instance of an image."
+            },
+            {
+                "q": "In IoT based vehicular data clouds, vehicles providing their networking and data processing capabilities to other vehicles through the cloud is best identified with which of the following services?",
+                "year": 2025,
+                "options": {
+                    "a": "SaaS",
+                    "b": "PaaS",
+                    "c": "IaaS",
+                    "d": "BaaS"
+                },
+                "answer": "c",
+                "explanation": "Providing core infrastructure capabilities like networking and processing aligns with the Infrastructure-as-a-Service model."
+            },
+            {
+                "q": "Each container can not run as an isolated process in user space.",
+                "year": 2025,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Containers are designed to run as isolated processes in the user space of the host operating system."
+            },
+            {
+                "q": "Containers can share the OS kernel with other containers.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
                 "answer": "a",
-                "explanation": "Docker Hub serves as a public (and private) registry for storing and sharing Docker images."
+                "explanation": "Sharing the host OS kernel is the fundamental characteristic that makes containers lightweight compared to VMs."
             },
             {
-                "q": "______ enables different networks, spreads in a huge geographical area to connect together and be employed simultaneously by multiple users on demand.",
-                "year": 2025,
-                "options": {
-                    "a": "Serverless",
-                    "b": "IoT Cloud",
-                    "c": "Sensor Cloud",
-                    "d": "Green Cloud"
-                },
-                "answer": "c",
-                "explanation": "Sensor Cloud abstracts and manages geographically distributed sensor networks for on-demand access."
-            },
-            {
-                "q": "Virtual machines get virtual access to host resources through a",
-                "year": 2025,
-                "options": {
-                    "a": "Containers",
-                    "b": "Hypervisor",
-                    "c": "Both a and b",
-                    "d": "Images"
-                },
-                "answer": "b",
-                "explanation": "The hypervisor is the software layer that manages VMs and mediates their access to the underlying host hardware."
-            },
-            {
-                "q": "Vehicles providing their networking and data processing capabilities to other vehicles through the cloud comes under which service of IoT-based Vehicular Data Clouds.",
-                "year": 2025,
-                "options": {
-                    "a": "SaaS",
-                    "b": "PaaS",
-                    "c": "IaaS",
-                    "d": "None of these"
-                },
-                "answer": "c",
-                "explanation": "Providing fundamental networking and processing capabilities as a service aligns with the Infrastructure-as-a-Service (IaaS) model."
-            },
-            {
-                "q": "Sensor data can be easily shared by different groups of users without any extra effort/ measure.",
+                "q": "For sensor resources that do not have direct connection to the cloud, sensor network proxy provides the connection.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
-                "answer": "b",
-                "explanation": "Sharing raw sensor data often requires significant effort in terms of standardization, access control, and processing, making it not easily shareable without extra measures."
+                "answer": "a",
+                "explanation": "A sensor network proxy acts as an intermediary or gateway to connect local sensor networks to the cloud."
             },
             {
-                "q": "Container is a compile time instance of an image.",
+                "q": "An IoT platform has following basic building blocks\n\nOptions:\n(a) Things\n(b) Gateway\n(c) Network and Cloud\n(d) Learning Module",
                 "year": 2025,
                 "options": {
-                    "a": "True",
-                    "b": "False"
+                    "a": "a and b",
+                    "b": "a, b, and c",
+                    "c": "a, c, and d",
+                    "d": "b, c, and d"
                 },
                 "answer": "b",
-                "explanation": "An image is the compile-time blueprint; a container is a run-time instance created from an image."
+                "explanation": "The core components of most IoT platforms are the devices ('Things'), gateways to connect them, and the backend network/cloud infrastructure."
             },
             {
                 "q": "In the context of Green Cloud Computing, the Power Usage Effectiveness is defined as",
@@ -8547,146 +8539,210 @@ export const assignment: Assignment = {
                     "d": "None of these"
                 },
                 "answer": "b",
-                "explanation": "PUE (Power Usage Effectiveness) is calculated as Total Facility Power / IT Equipment Power (Power Delivered to IT)."
+                "explanation": "PUE is calculated as the Total Facility Power divided by the IT Equipment Power (Power Delivered)."
             },
             {
-                "q": "Statement 1: Sensor-Cloud proxy exposes sensor resources as cloud services.\nStatement 2: Sensor network is still managed from the Sensor-Cloud Interface via Sensor Network Proxy",
+                "q": "A green broker can perform scheduling of applications to reduce energy consumption.",
                 "year": 2025,
                 "options": {
-                    "a": "Statement 1 is True and Statement 2 is False",
-                    "b": "Statement 2 is True and Statement 1 is False",
-                    "c": "Both statements are True",
-                    "d": "Both statements are False"
+                    "a": "True",
+                    "b": "False"
                 },
-                "answer": "c",
-                "explanation": "The proxy in a Sensor-Cloud architecture abstracts sensor resources as services (Statement 1) and acts as the management interface (Statement 2)."
+                "answer": "a",
+                "explanation": "A 'green broker' is a concept for a workload scheduler that considers energy efficiency as a primary optimization goal."
             }
         ],
         "Assignment 9": [
             {
-                "q": "Which of the following statements best describes fog computing?",
+                "q": "Which of the following statements is/are false ?\na. Fog and Edge computing are substitutes for cloud computing.\nb. Fog and Edge computing may aid cloud computing in overcoming some of the limitations like latency issues.",
                 "year": 2025,
                 "options": {
-                    "a": "Fog computing refers to a model where data, processing, and applications are concentrated in the cloud rather than at the network edge.",
-                    "b": "Fog computing is a term introduced by Cisco Systems to describe a model that centralizes data processing in the cloud to manage wireless data transfer to distributed IoT devices.",
-                    "c": "Fog computing is a model where data, processing, and applications are concentrated in devices at the network edge rather than existing almost entirely in the cloud.",
-                    "d": "The vision of fog computing is to enable applications on a few connected devices to run directly in the cloud without interaction at the network edge."
+                    "a": "Only a",
+                    "b": "Only b",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
                 },
-                "answer": "c",
-                "explanation": "Fog computing distributes computation and processing closer to the network edge, complementing centralized cloud resources."
+                "answer": "a",
+                "explanation": "Fog/Edge computing complement the cloud by extending its capabilities to the edge; they are not substitutes (a is false). They help address cloud limitations like latency (b is true)."
             },
             {
-                "q": "Which of the following challenges is most effectively addressed by using fog and edge computing instead of a \"cloud-only\" approach for IoT applications?",
+                "q": "Which of the following is not a layer of the Cloud-Fog environment model?",
                 "year": 2025,
                 "options": {
-                    "a": "Resource management issues related to workload balance and task scheduling in cloud-based environments.",
-                    "b": "The inefficiency of processing time-sensitive applications directly in the cloud due to high latency and large data bandwidth requirements.",
-                    "c": "The need for improved security and privacy features in cloud-based systems, which are not addressed by fog and edge computing.",
-                    "d": "The difficulty in integrating multiple cloud services and platforms for comprehensive IoT data management."
+                    "a": "Client layer",
+                    "b": "Serverless layer",
+                    "c": "Fog layer",
+                    "d": "Cloud layer"
                 },
                 "answer": "b",
-                "explanation": "Fog/edge computing's primary benefit is reducing latency and bandwidth usage by processing data closer to the source, crucial for time-sensitive IoT applications."
+                "explanation": "Typical Cloud-Fog models include the Cloud layer, Fog layer, and Client/Edge/Thing layer. Serverless is a compute model, not usually a distinct architectural layer in this context."
             },
             {
-                "q": "Which of the following correctly describes a classification of resource management architectures in fog/edge computing?\nThreads of a process share",
+                "q": "In the Cloud-Fog environmental model, servers contain a fog server manager and virtual machines to manage requests by using ____________ technique.",
                 "year": 2025,
                 "options": {
-                    "a": "Data Flow",
-                    "b": "Control.",
-                    "c": "Tenancy.",
-                    "d": "Infrastructure."
+                    "a": "Image virtualization",
+                    "b": "Container virtualization",
+                    "c": "Server virtualization",
+                    "d": "None of these"
                 },
                 "answer": "c",
-                "explanation": "Tenancy (supporting single or multiple applications/users on edge nodes) is a key aspect of resource management architecture in fog/edge."
+                "explanation": "Fog servers often use server virtualization (running VMs) to host different services and manage requests efficiently."
             },
             {
-                "q": "Which of the following characteristics is NOT typically associated with fog computing infrastructure?",
+                "q": "The architecture used for resource management in fog/edge computing is classified on the basis of which of the following?\n\nOptions:\na. Tenancy\nb. Data flow\nc. Hardware\nd. All of these",
                 "year": 2025,
                 "options": {
-                    "a": "Location awareness and low latency",
-                    "b": "Better bandwidth utilization",
-                    "c": "High computational power concentrated solely in the Cloud",
-                    "d": "Support for mobility"
+                    "a": "a and b",
+                    "b": "a and c",
+                    "c": "b and c",
+                    "d": "a, b, and c"
+                },
+                "answer": "a",
+                "explanation": "Fog/edge resource management architectures can be classified based on how they handle tenancy (single/multi-user) and manage data flow."
+            },
+            {
+                "q": "Which of the following underlying algorithm(s) is used to facilitate fog/edge computing ?\n\nOptions:\na. Discovery\nb. Load balancing\nc. Benchmarking\nd. Cache Flow",
+                "year": 2025,
+                "options": {
+                    "a": "a and b",
+                    "b": "a, b, and c",
+                    "c": "b, c, and d",
+                    "d": "a, c, and d"
+                },
+                "answer": "b",
+                "explanation": "Facilitating fog/edge requires algorithms for service discovery, load balancing across edge nodes, and benchmarking performance."
+            },
+            {
+                "q": "____________ is a technique in which a server, an application and the associated data are moved onto the edge of the network",
+                "year": 2025,
+                "options": {
+                    "a": "Containerization",
+                    "b": "Virtualization",
+                    "c": "Offloading",
+                    "d": "None of these"
                 },
                 "answer": "c",
-                "explanation": "Fog computing distributes computational power to the edge, rather than concentrating it solely in the cloud."
+                "explanation": "Offloading involves moving computation or data, often from a device or cloud to an edge/fog node."
             },
             {
-                "q": "In the fog computing paradigm, which of the following accurately describes the relationship between local and global analyses?",
+                "q": "Cloud federation is the collaboration between cloud service providers to achieve which of the following? Choose the most appropriate option(s).\n\nOptions:\na. Capacity utilization\nb. Interoperability\nc. Offloading\nd. None of these",
                 "year": 2025,
                 "options": {
-                    "a": "Local analyses are performed exclusively in the Cloud, while global analyses are done at the edge devices.",
-                    "b": "Local and global analyses are performed only in the Cloud data centers.",
-                    "c": "Local analyses are performed at the edge devices, and global analyses can be either performed at the edge or forwarded to the Cloud.",
-                    "d": "Local analyses are conducted by IoT devices, and global analyses are not necessary in fog computing."
+                    "a": "a and b",
+                    "b": "a and c",
+                    "c": "b and c",
+                    "d": "a, b, and c"
+                },
+                "answer": "a",
+                "explanation": "Cloud federation aims to improve capacity utilization by sharing resources and enable interoperability between different cloud platforms."
+            },
+            {
+                "q": "Which of the following is false about loosely coupled federations?",
+                "year": 2025,
+                "options": {
+                    "a": "Limited inter operations between cloud instances.",
+                    "b": "Usually no support for advanced features.",
+                    "c": "Advanced control over remote resources.",
+                    "d": "None of these"
                 },
                 "answer": "c",
-                "explanation": "Fog enables local analysis at the edge for low latency, while global or more complex analyses can occur either at the edge or be sent to the cloud."
+                "explanation": "Loosely coupled federations typically have limited interoperability and control over remote resources compared to tightly coupled ones."
             },
             {
-                "q": "What is the primary goal of the application placement problem in the Cloud-Fog-Edge framework?",
+                "q": "In which of the following different CSPs establish an agreement stating the terms and conditions under which one partner cloud can use resources from another.",
                 "year": 2025,
                 "options": {
-                    "a": "To map all applications onto the Cloud servers to maximize computational power.",
-                    "b": "To find available resources in the network that satisfy application requirements, respect constraints, and optimize the objective, such as minimizing energy consumption.",
-                    "c": "To place all application components on edge devices to ensure low latency.",
-                    "d": "To disregard resource capacities and focus solely on network constraints."
+                    "a": "Loosely coupled federation",
+                    "b": "Partially coupled federation",
+                    "c": "Tightly coupled federation",
+                    "d": "All of these"
                 },
                 "answer": "b",
-                "explanation": "Application placement aims to optimally map application components to available resources across the Cloud-Fog-Edge continuum, balancing requirements, constraints, and objectives."
+                "explanation": "Partially coupled federations involve formal agreements for resource sharing, offering more integration than loosely coupled but less than tightly coupled."
             },
             {
-                "q": "Which of the following is an example of an application constraint in the application placement problem on the Cloud-Fog-Edge framework?",
+                "q": "Hybrid architecture combines the existing on-premise infrastructure (usually a private cloud) with remote resources from one or more public clouds to provide extra capacity to satisfy peak demand periods.",
                 "year": 2025,
                 "options": {
-                    "a": "Finite capabilities of CPU and RAM on infrastructure nodes.",
-                    "b": "Network latency and bandwidth limitations.",
-                    "c": "Locality requirements restricting certain services' executions to specific locations.",
-                    "d": "Availability of storage resources in the Fog nodes."
+                    "a": "True",
+                    "b": "False"
                 },
-                "answer": "c",
-                "explanation": "Locality requirements are constraints imposed by the application itself (e.g., data privacy, need for local hardware), unlike resource or network limitations."
-            },
-            {
-                "q": "What is the primary purpose of offloading in the context of edge computing?",
-                "year": 2025,
-                "options": {
-                    "a": "To move all data processing from edge nodes to the cloud.",
-                    "b": "To augment computing requirements by moving servers, applications, and associated data closer to the network edge.",
-                    "c": "To reduce the number of user devices connected to the network.",
-                    "d": "To centralize all computational resources in the cloud for better performance."
-                },
-                "answer": "b",
-                "explanation": "Offloading in edge/fog computing involves moving computation *closer* to the edge (from devices to edge nodes, or from cloud to edge) to improve performance or save device resources."
-            },
-            {
-                "q": "What is the primary goal of a cloud federation?",
-                "year": 2025,
-                "options": {
-                    "a": "To centralize all cloud services under a single provider.",
-                    "b": "To deploy and manage multiple cloud services to meet business needs by collaborating among different Cloud Service Providers (CSPs).",
-                    "c": "To limit the geographical reach of cloud services.",
-                    "d": "To reduce the number of cloud service providers globally."
-                },
-                "answer": "b",
-                "explanation": "Cloud federation enables collaboration and interoperability between different CSPs to offer combined or enhanced services."
-            },
-            {
-                "q": "Which of the following is a key benefit of forming a cloud federation?",
-                "year": 2025,
-                "options": {
-                    "a": "Centralized control of global cloud services.",
-                    "b": "Increased resource utilization and load balancing across multiple Cloud Service Providers (CSPs).",
-                    "c": "Reduced collaboration among Cloud Service Providers.",
-                    "d": "Limiting the geographical footprint of Cloud Service Providers."
-                },
-                "answer": "b",
-                "explanation": "Federation allows sharing and balancing resources across multiple providers, improving overall utilization and potentially reliability."
+                "answer": "a",
+                "explanation": "This accurately describes a common use case for hybrid cloud architecture, often referred to as cloud bursting."
             }
         ],
         "Assignment 10": [
             {
-                "q": "Post-copy and Pre-copy migration approaches are employed in :",
+                "q": "VM migration is the process of moving running applications or VMs from one physical host to another host.",
+                "year": 2025,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "This is the definition of VM migration, specifically live migration if the VM is running."
+            },
+            {
+                "q": "Given the VM memory size of 1024GB and the transmission rate of 16 MB/sec\nWhat are the total migration time and downtime for non-live VM migration? Choose the most appropriate option.",
+                "year": 2025,
+                "options": {
+                    "a": "20 hours, 25 hours",
+                    "b": "18 hours,18 hours",
+                    "c": "16 hours, 16 hours",
+                    "d": "24 hours,20 hours"
+                },
+                "answer": "b",
+                "explanation": "Migration Time = Total Memory / Rate = (1024 * 1024 MB) / (16 MB/s) = 65536 seconds. 65536 s / 3600 s/hr ≈ 18.2 hours. For non-live migration, downtime equals migration time, so both are approximately 18 hours."
+            },
+            {
+                "q": "With Docker, the resource management effort is separated from the configuration effort.",
+                "year": 2025,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Docker separates the definition of the application environment (configuration in Dockerfile) from the runtime resource allocation and management handled by the Docker engine/orchestrator."
+            },
+            {
+                "q": "In Docker utility, ------------ is a collection of filesystem layers and some metadata which, if taken together, can be spun up as Docker containers.",
+                "year": 2025,
+                "options": {
+                    "a": "Operating System",
+                    "b": "Microservice",
+                    "c": "Virtual Machine",
+                    "d": "Image"
+                },
+                "answer": "d",
+                "explanation": "A Docker image contains the filesystem layers and metadata needed to create and run a Docker container."
+            },
+            {
+                "q": "What is(are) the reason(s) to opt for VM migration in the cloud computing paradigm?\n\nOptions:\na. No particular reason; depends on the will of the end client/user.\nb. To remove a physical machine from service\nc. To save power consumption\nd. To relieve the load on the congested hosts.",
+                "year": 2025,
+                "options": {
+                    "a": "a, b, and c",
+                    "b": "b, c, and d",
+                    "c": "a, c, and d",
+                    "d": "a, b, and d"
+                },
+                "answer": "b",
+                "explanation": "Common reasons for VM migration include host maintenance (b), power saving through consolidation (c), and load balancing (d)."
+            },
+            {
+                "q": "What is(are) the key advantage(s) of Docker?\n\nOptions:\na. It facilitates microservice architecture\nb. It can be used to package software\nc. It can be used to model networks.\nd. None of these",
+                "year": 2025,
+                "options": {
+                    "a": "a and b",
+                    "b": "b and c",
+                    "c": "a, b, and c",
+                    "d": "a and c"
+                },
+                "answer": "c",
+                "explanation": "Docker simplifies packaging software and dependencies (b), supports microservices (a), and enables defining container networks (c)."
+            },
+            {
+                "q": "Post-copy and Pre-copy migration approaches are followed in :",
                 "year": 2025,
                 "options": {
                     "a": "Live Migration process",
@@ -8695,7 +8751,31 @@ export const assignment: Assignment = {
                     "d": "None of these"
                 },
                 "answer": "a",
-                "explanation": "Pre-copy and Post-copy are two primary techniques used to implement live migration of virtual machines with minimal downtime."
+                "explanation": "Pre-copy and post-copy are techniques specifically used for performing live migration of virtual machines."
+            },
+            {
+                "q": "Which of the following is (are) true in the case of Docker architecture?\nStatement-1: Private Docker registry is a service that stores Docker images.\nStatement-2: Docker on the host machine is split into two parts- a daemon with RESTful API and a client who talks with the daemon.",
+                "year": 2025,
+                "options": {
+                    "a": "Only Statement-1 is true",
+                    "b": "Only Statement-2 is true",
+                    "c": "Both Statement-1 and 2 are true",
+                    "d": "Neither Statement 1 nor 2 is true"
+                },
+                "answer": "c",
+                "explanation": "A private registry stores Docker images (S1 True). The Docker architecture consists of a client and a daemon communicating via a REST API (S2 True)."
+            },
+            {
+                "q": "Which of the statement(s) is(are) true for containers?\nStatement-1: Docker is an open platform for automating the deployment, scaling, and management of containerized applications.\nStatement-2: Containers make it easy to share CPU, memory, storage and network resources at the operating system level.",
+                "year": 2025,
+                "options": {
+                    "a": "Only Statement-1 is true",
+                    "b": "Only Statement-2 is true",
+                    "c": "Both Statement-1 and 2 are true",
+                    "d": "Neither Statement 1 nor 2 is true"
+                },
+                "answer": "b",
+                "explanation": "Docker is a platform for containerization, but Kubernetes is more associated with automated deployment, scaling, and management (S1 is debatable in this phrasing). Containers leverage OS-level resource sharing (S2 True). Given the accepted answer 'B', S1 is considered false here."
             },
             {
                 "q": "Kubernetes operates at the hardware level.",
@@ -8705,340 +8785,239 @@ export const assignment: Assignment = {
                     "b": "False"
                 },
                 "answer": "b",
-                "explanation": "Kubernetes operates at the container orchestration level, managing containerized applications, not directly at the hardware level."
-            },
-            {
-                "q": "What is(are) the key advantage(s) of Docker?\n\n Options:\na. Facilitating microservices\nb. Modeling networks.\nc. Packaging software\nd. None of these",
-                "year": 2025,
-                "options": {
-                    "a": "a and b",
-                    "b": "a, b, and c",
-                    "c": "b and d",
-                    "d": "a, c, and d"
-                },
-                "answer": "b",
-                "explanation": "Docker excels at packaging software with dependencies (c), facilitates microservice architectures (a), and allows modeling virtual networks for containers (b)."
-            },
-            {
-                "q": "Which of the following statements is most appropriate about Docker ?",
-                "year": 2025,
-                "options": {
-                    "a": "Docker is a platform that allows to build and run but not ship apps.",
-                    "b": "Docker is a platform that allows to build and ship but but not to run apps.",
-                    "c": "Docker is a platform that allows to build, ship and, run apps.",
-                    "d": "Docker is a platform that only allows to ship and run but not to build apps."
-                },
-                "answer": "c",
-                "explanation": "Docker provides a complete platform to build, ship (distribute), and run containerized applications."
-            },
-            {
-                "q": "In Docker utility, ______ is a collection of filesystem layers and some metadata that, if taken together, can be spun up as Docker containers.",
-                "year": 2025,
-                "options": {
-                    "a": "Operating System",
-                    "b": "Microservice",
-                    "c": "Virtual Machine",
-                    "d": "Image"
-                },
-                "answer": "d",
-                "explanation": "A Docker image is the template containing layers and metadata used to create running Docker containers."
-            },
-            {
-                "q": "Containers are similar to VMs but they have unrelaxed isolation properties to share the operating system among the applications.",
-                "year": 2025,
-                "options": {
-                    "a": "True",
-                    "b": "False"
-                },
-                "answer": "b",
-                "explanation": "Containers have *relaxed* (less strict) isolation compared to VMs because they share the host OS kernel."
-            },
-            {
-                "q": "Choose the most appropriate option.\nStatement 1: Container is a lightweight virtualization technique.\nStatement 2: Container contains the code and all its dependencies.",
-                "year": 2025,
-                "options": {
-                    "a": "Only statement 1 is true",
-                    "b": "Only statement 2 is true",
-                    "c": "Both statement 1 and 2 are true",
-                    "d": "Bothe the statements are false"
-                },
-                "answer": "c",
-                "explanation": "Containers are lightweight because they share the OS kernel (Statement 1), and they package code with dependencies (Statement 2)."
-            },
-            {
-                "q": "Private Docker registry is a service that stores Docker images.",
-                "year": 2025,
-                "options": {
-                    "a": "True",
-                    "b": "False"
-                },
-                "answer": "a",
-                "explanation": "A Docker registry (public like Docker Hub or private) stores Docker images for distribution and deployment."
-            },
-            {
-                "q": "Docker builds offer enhanced reproducibility and replicability compared to conventional software development approaches.",
-                "year": 2025,
-                "options": {
-                    "a": "True",
-                    "b": "False"
-                },
-                "answer": "a",
-                "explanation": "By packaging dependencies within images, Docker builds ensure consistent environments, enhancing reproducibility and replicability."
-            },
-            {
-                "q": "Given the VM memory size of 1024 GB and the transmission rate of 16 MB/sec\nWhat are the total migration time and downtime for non-live VM migration? Choose the most appropriate option.",
-                "year": 2025,
-                "options": {
-                    "a": "20 hours, 25 hours",
-                    "b": "18 hours, 18 hours",
-                    "c": "16 hours, 16 hours",
-                    "d": "24 hours, 20 hours"
-                },
-                "answer": "b",
-                "explanation": "Time = Size / Rate = (1024 * 1024 MB) / (16 MB/sec) = 65536 seconds. 65536 sec / 3600 sec/hr = 18.2 hours (~18 hours). For non-live migration, downtime equals migration time."
+                "explanation": "Kubernetes operates at the container orchestration level, abstracting the underlying hardware."
             }
         ],
         "Assignment 11": [
             {
-                "q": "Which statement best compares PaaS and Serverless regarding environmental control?",
+                "q": "Which of the following statements is/are false ?\na. Serverless computing allows the users with more control over the deployment environment compared to PaaS.\nb. Serverless computing is a form of cloud computing that allows users to run driven granular applications.",
                 "year": 2025,
                 "options": {
-                    "a": "PaaS offers more control over the deployment environment than serverless.",
-                    "b": "Serverless offers more control over the deployment environment than PaaS.",
-                    "c": "Both offer the same level of control.",
-                    "d": "Neither offers any control."
+                    "a": "Only a",
+                    "b": "Only b",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
                 },
                 "answer": "a",
-                "explanation": "PaaS provides control over the application runtime and environment, while serverless abstracts most infrastructure away."
+                "explanation": "PaaS typically offers more control over the deployment environment than Serverless (a is false). Serverless is event-driven (b is true)."
             },
             {
-                "q": "What is a typical characteristic of a FaaS function's execution?",
+                "q": "Which of the following options is most appropriate for FaaS ?\nStatement 1: Each function in the FaaS platform gets unlimited execution time.\nStatement 2: Functions are always active and ready for execution.",
                 "year": 2025,
                 "options": {
-                    "a": "Unlimited execution time",
-                    "b": "Constantly active state",
-                    "c": "Triggered by events",
-                    "d": "Requires manual scaling"
+                    "a": "Statement 1 is correct but Statement 2 is incorrect.",
+                    "b": "Statement 2 is correct but Statement 1 is incorrect.",
+                    "c": "Both the statements are correct.",
+                    "d": "Both the statements are incorrect."
                 },
                 "answer": "d",
-                "explanation": "FaaS functions are event-driven, have limited execution times, are not constantly active, and scaling is managed by the platform. *Correction: Original answer marked 'd'. The explanation in the PDF says 'Correct Answer: (d)', but then explains FaaS has limited execution time and listens for events, matching option (c). Option (d) in the PDF seems to be a typo or misinterpretation. The most defining characteristic listed is being event-triggered.* Let's re-evaluate the PDF explanation. It states: 'A function in FaaS typically has limited execution time. Functions are not constantly active. FaaS platform listens for the events that instantiate the functions. So, the correct option is (d)'. This explanation clearly supports (c) being correct, yet concludes (d). Assuming the explanation text is accurate description and the final letter (d) is a typo, the answer should be (c). However, per instructions, I must use the provided answer. The provided answer is (d). FaaS platforms typically handle scaling automatically, so (d) is incorrect. I will stick to the provided answer (d) but note the discrepancy."
+                "explanation": "FaaS functions typically have strict execution time limits (S1 False) and are instantiated on demand, not always active (S2 False)."
             },
             {
-                "q": "Which AWS service is a fully managed NoSQL key-value and document database?",
+                "q": "AWS S3 is a fully managed proprietary NoSQL database service that supports key -value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio.",
                 "year": 2025,
                 "options": {
-                    "a": "Amazon S3",
-                    "b": "Amazon DynamoDB",
-                    "c": "Amazon RDS",
-                    "d": "Amazon Redshift"
+                    "a": "True",
+                    "b": "False"
                 },
                 "answer": "b",
-                "explanation": "Amazon DynamoDB is AWS's fully managed NoSQL key-value and document database service."
+                "explanation": "AWS S3 is an object storage service, not a NoSQL database; DynamoDB fits that description."
             },
             {
-                "q": "Which Google Cloud service is described as a fully-managed, serverless data warehouse?",
+                "q": "BigQuery is a fully-managed, serverless data warehouse by ______.",
                 "year": 2025,
                 "options": {
-                    "a": "Cloud SQL",
-                    "b": "BigQuery",
-                    "c": "Cloud Spanner",
-                    "d": "Datastore"
+                    "a": "AWS",
+                    "b": "Google",
+                    "c": "Microsoft",
+                    "d": "IBM"
                 },
                 "answer": "b",
-                "explanation": "Google BigQuery is a serverless, highly scalable data warehouse designed for large-scale data analytics."
+                "explanation": "BigQuery is a key component of the Google Cloud Platform (GCP)."
             },
             {
-                "q": "When are you typically charged for AWS Lambda execution?",
+                "q": "AWS charges for the provisioned resources and executing Lambda.",
                 "year": 2025,
                 "options": {
-                    "a": "Charged constantly while the function exists.",
-                    "b": "Charged only when the Lambda code executes.",
-                    "c": "Charged based on the number of deployments.",
-                    "d": "Charged per hour, regardless of execution."
+                    "a": "True",
+                    "b": "False"
                 },
                 "answer": "b",
-                "explanation": "AWS Lambda billing is primarily based on the number of requests and the duration/compute consumed during code execution."
+                "explanation": "AWS Lambda primarily charges based on execution duration, memory allocated, and number of requests, not for idle provisioned resources in the typical serverless sense."
             },
             {
-                "q": "Who manages the scalability of functions in serverless computing?",
+                "q": "In serverless computing the user has to manage the scalability needs of a function, unlike FaaS.",
                 "year": 2025,
                 "options": {
-                    "a": "The developer manually scales.",
-                    "b": "The cloud service provider manages scaling.",
-                    "c": "Scaling is not possible in serverless.",
-                    "d": "Third-party tools manage scaling."
+                    "a": "True",
+                    "b": "False"
                 },
                 "answer": "b",
-                "explanation": "A key benefit of serverless is that the cloud provider automatically manages the scaling of functions based on demand."
+                "explanation": "In both serverless and FaaS (Function-as-a-Service), the cloud provider manages automatic scaling; the user does not manage it."
             },
             {
-                "q": "Which of the following are goals of sustainable cloud computing?",
+                "q": "Which of the following is/are the goal of sustainable cloud computing? Choose the most appropriate option.\n\nOptions:\na. Minimizing the energy consumption.\nb. Increasing reliability of CDCs.\nc. Minimizing carbon footprint related cost.\nd. Increasing network traffic.",
                 "year": 2025,
                 "options": {
-                    "a": "Minimizing energy consumption",
-                    "b": "Minimizing carbon footprint",
-                    "c": "Ensuring reliability of CDCs",
-                    "d": "All of the above"
+                    "a": "a and b",
+                    "b": "a, b, and c",
+                    "c": "b and c",
+                    "d": "a, c, and d"
                 },
-                "answer": "d",
-                "explanation": "Sustainable cloud computing aims to minimize environmental impact (energy, carbon) while maintaining reliable service from Cloud Data Centers (CDCs). *Correction: PDF Correct Answer is (a), (b), and (c). Combined into MCQ option 'd'.*"
+                "answer": "b",
+                "explanation": "Sustainable cloud computing focuses on minimizing energy use (a), reducing carbon footprint (c), while maintaining or improving the reliability of Cloud Data Centers (CDCs) (b)."
             },
             {
-                "q": "Which is NOT a category of research initiative on sustainable cloud computing mentioned?",
+                "q": "Which of the following is not a category of research initiative on sustainable cloud computing?",
                 "year": 2025,
                 "options": {
-                    "a": "Energy Efficiency",
-                    "b": "Carbon Footprint Reduction",
+                    "a": "Renewable Energy",
+                    "b": "Capacity Planning",
                     "c": "Environment Sandboxing",
-                    "d": "CDC Reliability"
+                    "d": "None of these"
                 },
                 "answer": "c",
-                "explanation": "Environment Sandboxing is a security/development technique, not typically categorized as a primary sustainable cloud computing research area like energy efficiency or carbon reduction."
+                "explanation": "Research in sustainable computing focuses on areas like renewable energy use and efficient capacity planning; environment sandboxing is a development/security technique."
             },
             {
-                "q": "What typically makes up the physical infrastructure of Cloud Data Centers (CDCs) for housing servers?",
+                "q": "CDCs consist of a chassis and racks to place the servers to process the IT workloads.",
                 "year": 2025,
                 "options": {
-                    "a": "Chassis and racks",
-                    "b": "Virtual machines only",
-                    "c": "Software-defined networks",
-                    "d": "Cooling towers"
+                    "a": "True",
+                    "b": "False"
                 },
                 "answer": "a",
-                "explanation": "Servers in CDCs are physically placed into chassis which are then mounted in racks to organize the hardware."
+                "explanation": "Cloud Data Centers (CDCs) physically organize servers using chassis and racks for efficient space and resource management."
             },
             {
-                "q": "What is the purpose of Lambda layers in the AWS serverless ecosystem?",
+                "q": "____________ are an important distribution mechanism for libraries and custom runtimes in AWS serverless ecosystem.",
                 "year": 2025,
                 "options": {
-                    "a": "To define function triggers",
-                    "b": "To distribute libraries and dependencies",
-                    "c": "To manage API gateways",
-                    "d": "To monitor function execution"
+                    "a": "Runtimes",
+                    "b": "Lambda Layers",
+                    "c": "Log streams",
+                    "d": "None of these"
                 },
                 "answer": "b",
-                "explanation": "Lambda layers provide a mechanism to package and share common dependencies (libraries, custom runtimes) across multiple Lambda functions."
+                "explanation": "AWS Lambda Layers allow packaging and sharing common dependencies like libraries and custom runtimes across multiple functions."
             }
         ],
         "Assignment 12": [
             {
-                "q": "In which computing environment is latency fixed due to the location of application modules at the Area Gateway?",
+                "q": "The key features of Mobile Cloud Computing (MCC) for 5G networks include\n\nOptions:\na. Reliability improvement\nb. Sharing of resources\nc. Offloading data processing\nd. Mitigating network traffic congestion",
                 "year": 2025,
                 "options": {
-                    "a": "Fog computing",
-                    "b": "Cloud computing",
-                    "c": "Serverless Computing",
-                    "d": "None of the above"
+                    "a": "a and b",
+                    "b": "a, b, and c",
+                    "c": "b, c, and d",
+                    "d": "a, c, and d"
                 },
-                "answer": "a",
-                "explanation": "Fog computing places resources like Area Gateways closer to end-users, resulting in lower and more predictable latency compared to distant clouds."
+                "answer": "b",
+                "explanation": "MCC leverages 5G for improved reliability (a), resource sharing (e.g., edge) (b), and offloading computation (c)."
             },
             {
-                "q": "What does spatial cloud support in terms of resource pooling?",
+                "q": "Cyber-physical system is all about _________ of the physical and the cyber.",
                 "year": 2025,
                 "options": {
-                    "a": "Individual resource allocation for participating organizations",
-                    "b": "Exclusive resource ownership for each organization",
-                    "c": "Shared resource pooling for participating organizations",
-                    "d": "Restricted access to network, servers, apps, services, storages, and databases"
+                    "a": "Union",
+                    "b": "Intersection",
+                    "c": "Segregation",
+                    "d": "None of above"
                 },
-                "answer": "c",
-                "explanation": "Spatial clouds often involve pooling and sharing geospatial resources among organizations with common interests or geographical proximity."
+                "answer": "b",
+                "explanation": "Cyber-Physical Systems (CPS) integrate computation (cyber) with physical processes, representing their intersection."
             },
             {
-                "q": "Dew computing is an on premises computer software-hardware organization paradigm where on-premises computers provide functionality that is ______ of cloud services and is also ______ with cloud services.",
-                "year": 2025,
-                "options": {
-                    "a": "independent, serverless",
-                    "b": "dependant, collaborative",
-                    "c": "independent, collaborative",
-                    "d": "serverless, collaborative"
-                },
-                "answer": "c",
-                "explanation": "Dew computing emphasizes the independence of local resources while allowing them to collaborate with cloud services when needed."
-            },
-            {
-                "q": "Fog-Edge computing leads to increased network congestion",
+                "q": "Cloud computing services provide a flexible platform for realizing the goals of Cyber-Physical systems.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
-                "answer": "b",
-                "explanation": "By processing data locally, Fog-Edge computing aims to reduce the amount of data sent over the network, thus decreasing congestion."
+                "answer": "a",
+                "explanation": "Cloud platforms offer scalable computation, storage, and analytics capabilities that are essential for implementing complex CPS."
             },
             {
-                "q": "A Cyber-Physical Cloud Computing (CPCC) architectural framework is a ______ environment that can rapidly build, modify and provision cyber-physical systems composed of a set of ______ based sensor, processing, control, and data services.",
+                "q": "The advantage(s) of Cyber- Physical Cloud Computing is(are) as follows\n\nOptions:\na. Modular composition\nb. Multi-Tenancy\nc. Data flow\nd. Reliability and resiliency",
                 "year": 2025,
                 "options": {
-                    "a": "system, cloud computing",
-                    "b": "cloud computing, system",
-                    "c": "system, edge computing",
-                    "d": "edge, system computing"
+                    "a": "a and d",
+                    "b": "a, b, and d",
+                    "c": "b, c, and d",
+                    "d": "a, c, and d"
                 },
                 "answer": "a",
-                "explanation": "CPCC leverages a system environment built upon cloud computing services to manage cyber-physical systems."
+                "explanation": "Leveraging cloud for CPS offers advantages like modular design (a) and enhanced reliability/resiliency through cloud infrastructure (d)."
             },
             {
-                "q": "What is(are) the key feature(s) of Mobile Cloud computing for 5G networks?\n\n Options:\nA) Increased resource consumption by mobile applications\nB) Improved reliability due to data storage in the cloud\nC) Sharing resources for mobile applications\nD) None of these",
+                "q": "A _________ is a trace generated by a moving object in geographical space, usually represented by a series of chronologically ordered points.",
                 "year": 2025,
                 "options": {
-                    "a": "A and B",
-                    "b": "B and C",
-                    "c": "C and D",
-                    "d": "A and C"
+                    "a": "Time series",
+                    "b": "Road map",
+                    "c": "Spatial trajectory",
+                    "d": "Spatial crowdsourcing"
+                },
+                "answer": "c",
+                "explanation": "This definition accurately describes a spatial trajectory, tracking movement over time."
+            },
+            {
+                "q": "Limitation(s) of IoT devices is(are)\n\nOptions:\na. Containerization\nb. Storage\nc. Processing\nd. Power requirement",
+                "year": 2025,
+                "options": {
+                    "a": "a and b",
+                    "b": "b, c, and d",
+                    "c": "a, b, and c",
+                    "d": "a, c, and d"
                 },
                 "answer": "b",
-                "explanation": "5G enhances MCC by enabling better resource sharing (e.g., edge compute) (C) and leveraging cloud storage for reliability (B)."
+                "explanation": "IoT devices are typically constrained in terms of local storage (b), processing power (c), and available energy/power (d)."
             },
             {
-                "q": "The key aspect of the intelligent transportation system is efficient",
+                "q": "Which of the statements is(are) true with respect to Spatial cloud\nStatement 1: It does not support shared resource pooling which is useful for participating organizations with common or shared goals\nStatement 2: Spatial cloud provides infrastructure requirement that is based on application, with nothing to purchase. This leverages the scalability of the application.",
                 "year": 2025,
                 "options": {
-                    "a": "cost",
-                    "b": "mobility",
-                    "c": "speed",
-                    "d": "delivery"
+                    "a": "Only statement 1 is true",
+                    "b": "Only statement 2 is true",
+                    "c": "Both statements are true",
+                    "d": "None of the statements is true"
                 },
                 "answer": "b",
-                "explanation": "Intelligent transportation systems aim to improve the overall efficiency, safety, and coordination of mobility."
+                "explanation": "Spatial clouds *do* support shared pooling (S1 False). They provide infrastructure based on application needs, leveraging cloud scalability, usually on a pay-as-you-go basis (S2 True, interpreting 'nothing to purchase' as no upfront hardware purchase)."
             },
             {
-                "q": "In conjunction with 5G and cloud computing, what should service providers focus on in the evolving computing paradigm?",
+                "q": "Customized wearable devices for collecting health parameters are the best examples of",
                 "year": 2025,
                 "options": {
-                    "a": "Limiting end-to-end orchestration",
-                    "b": "Providing manual service layer agreements",
-                    "c": "Offering limited self-service options",
-                    "d": "Providing full end-to-end orchestration with defined service layer agreements"
+                    "a": "IoHT",
+                    "b": "Fog device",
+                    "c": "Fog-Cloud interfaced.",
+                    "d": "Cloud-Fog-Edge-IoHT"
                 },
                 "answer": "d",
-                "explanation": "Leveraging 5G and cloud requires automated, end-to-end orchestration and self-service capabilities governed by clear SLAs for efficient service delivery."
+                "explanation": "Wearable health devices often involve edge processing, fog aggregation, cloud analytics, fitting a comprehensive Cloud-Fog-Edge-IoHT (Internet of Health Things) model."
             },
             {
-                "q": "Mobility Analytics utilizes the cloud platform for computation and storage.",
+                "q": "The cyber-physical system involves transdisciplinary approaches, merging the theory of cybernetics, mechatronics, design, and process science.",
                 "year": 2025,
                 "options": {
                     "a": "True",
                     "b": "False"
                 },
                 "answer": "a",
-                "explanation": "Analyzing large-scale mobility data typically requires the computation and storage capabilities offered by cloud platforms."
+                "explanation": "CPS development requires expertise from multiple disciplines, including control theory (cybernetics), electromechanical systems (mechatronics), design, and process understanding."
             },
             {
-                "q": "What is(are) the benefit(s) of 5G technology for enhanced mobile broadband?",
+                "q": "5G network technology has proven to offer a theoretical download speed of 1Gbit/s.",
                 "year": 2025,
                 "options": {
-                    "a": "Slower data rates",
-                    "b": "Higher latency",
-                    "c": "Lower cost-per-bit",
-                    "d": "Limited device compatibility"
+                    "a": "True",
+                    "b": "False"
                 },
-                "answer": "c",
-                "explanation": "5G aims to deliver significantly higher data rates, lower latency, and improved efficiency leading to a lower cost-per-bit for mobile broadband."
+                "answer": "b",
+                "explanation": "While 5G aims for gigabit speeds and can achieve them under ideal conditions, theoretical maximums are much higher (e.g., 10-20 Gbit/s), and consistent 1 Gbit/s isn't ubiquitously 'proven' in all real-world deployments."
             }
         ],
-
         "[2023.1] Assignment 1": [
             {
                 "q": "A distributed system is preferred when the task is: i)Data-intensive; ii) Computing-intensive",
@@ -14692,7 +14671,6 @@ export const assignment: Assignment = {
             }
         ]
     },
-
     "Forests and their Management": {
         "Assignment 1": [
             {
