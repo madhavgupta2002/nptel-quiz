@@ -4049,11 +4049,12 @@ export const assignment: Assignment = {
             }
         ]
     },
+
     "Introduction to Internet of Things": {
-        // PROMPT IS COPY EXACTLY FROM PROMPT Q, OPTION , DETAIL
-        "Assignment 0": [
+        "[2024.2] Assignment 0": [
             {
                 "q": "Which of the following allows us to identify objects and extract information?",
+                "year": 2024.2,
                 "options": {
                     "a": "RFID",
                     "b": "Sensors",
@@ -4065,6 +4066,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "How many layers does Zigbee consist of?",
+                "year": 2024.2,
                 "options": {
                     "a": "1",
                     "b": "2",
@@ -4076,6 +4078,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is not a component of cloud computing?",
+                "year": 2024.2,
                 "options": {
                     "a": "Clients",
                     "b": "Local Servers",
@@ -4087,6 +4090,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a distance measuring sensor module?",
+                "year": 2024.2,
                 "options": {
                     "a": "DHT22",
                     "b": "HC-SR04",
@@ -4098,6 +4102,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a component in a typical sensor network?",
+                "year": 2024.2,
                 "options": {
                     "a": "Sink",
                     "b": "Gateway",
@@ -4109,6 +4114,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following sensors are responsible for measuring orientation and angular velocity?",
+                "year": 2024.2,
                 "options": {
                     "a": "Accelerometer",
                     "b": "GPS",
@@ -4120,6 +4126,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "\"ISA 100.11A\" is a wireless networking technology standard. ISA stands for _______.",
+                "year": 2024.2,
                 "options": {
                     "a": "International Society of Automation",
                     "b": "International Society of Advancement",
@@ -4131,6 +4138,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is not a difference between traditional data center and cloud computing?",
+                "year": 2024.2,
                 "options": {
                     "a": "Scalability",
                     "b": "Flexibility",
@@ -4142,6 +4150,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Smart grid is also known as the energy internet.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4151,6 +4160,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Can a point of node failure result in the partition of the network in the stationary sensor network?",
+                "year": 2024.2,
                 "options": {
                     "a": "Yes",
                     "b": "No"
@@ -4159,9 +4169,10 @@ export const assignment: Assignment = {
                 "explanation": "If there is a failure in the stationary sensor network then it is likely that the point of failure can partition the network into two or more fragments."
             }
         ],
-        "Assignment 1": [
+        "[2024.2] Assignment 1": [
             {
                 "q": "Which of the following are the enablers of IoT?",
+                "year": 2024.2,
                 "options": {
                     "a": "RFID",
                     "b": "Nanotechnology",
@@ -4173,6 +4184,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are NOT a characteristic of IoT?",
+                "year": 2024.2,
                 "options": {
                     "a": "Efficient, scalable and associated architecture.",
                     "b": "Ambiguous naming and addressing.",
@@ -4184,6 +4196,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False.\nStatement: The increasing number of devices in IoT is expected to result in an address crunch.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4193,6 +4206,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False.\nStatement: The gateway has a unique network prefix, which can be used to identify them globally.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4202,6 +4216,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Sometimes, when there is a need for the nodes to communicate directly to the Internet, ______________ can be used.",
+                "year": 2024.2,
                 "options": {
                     "a": "Sensors",
                     "b": "Actuators",
@@ -4213,6 +4228,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In _______________ a node/network is connected to multiple networks for improved reliability.",
+                "year": 2024.2,
                 "options": {
                     "a": "Transparent roaming",
                     "b": "Multi-homing",
@@ -4224,6 +4240,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The IPv6 notation uses ___________________ values.",
+                "year": 2024.2,
                 "options": {
                     "a": "Roman",
                     "b": "Hexadecimal",
@@ -4235,6 +4252,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "A _____________ detects (senses) changes in the ambient conditions or in the state of another device or a system, and forwards or processes this information in a certain manner.",
+                "year": 2024.2,
                 "options": {
                     "a": "Sensor",
                     "b": "Actuator",
@@ -4246,6 +4264,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "A microphone is an example of an _____________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Input device and actuator",
                     "b": "Only actuator",
@@ -4257,6 +4276,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The ________________ of a sensor is the smallest change it can detect in the quantity that it is measuring.",
+                "year": 2024.2,
                 "options": {
                     "a": "Resolution",
                     "b": "Bias",
@@ -4268,6 +4288,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Based on the data type, sensors are classified as _______________________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Scalar and Vector/Multimedia",
                     "b": "Only scalar",
@@ -4279,6 +4300,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Solenoid valve is an example of ______________________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Sensor",
                     "b": "Actuator",
@@ -4290,6 +4312,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "An actuator requires a ______________________ and ______________________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Control signal and a bias signal",
                     "b": "Control signal and a source of energy",
@@ -4301,6 +4324,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False.\nStatement: Pneumatic rack and pinion actuators are used for valve controls of water pipes.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4310,6 +4334,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is NOT a function of an IoT gateway?",
+                "year": 2024.2,
                 "options": {
                     "a": "Switching",
                     "b": "Routing",
@@ -4320,9 +4345,10 @@ export const assignment: Assignment = {
                 "explanation": "Switching, routing, and protocol conversion are the functions of an IoT gateway."
             }
         ],
-        "Assignment 2": [
+        "[2024.2] Assignment 2": [
             {
                 "q": "The full form of MQTT is",
+                "year": 2024.2,
                 "options": {
                     "a": "Message Queue Telemetry Transport",
                     "b": "Message Query Telemetry Transport",
@@ -4334,6 +4360,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In MQTT, a ________________ controls the publish-subscribe messaging pattern.",
+                "year": 2024.2,
                 "options": {
                     "a": "Publishers",
                     "b": "Message Broker",
@@ -4345,6 +4372,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is NOT a component of MQTT?",
+                "year": 2024.2,
                 "options": {
                     "a": "Publishers",
                     "b": "Users",
@@ -4356,6 +4384,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "______________ is an extension of MQTT which uses lightweight attribute based encryption. It has ___________ main stages.",
+                "year": 2024.2,
                 "options": {
                     "a": "SMQTT, three",
                     "b": "BMQTT, three",
@@ -4367,6 +4396,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is based on Request-Response model between end-points.",
+                "year": 2024.2,
                 "options": {
                     "a": "MQTT",
                     "b": "CoAP",
@@ -4378,6 +4408,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The two sub-layers of CoAP are -",
+                "year": 2024.2,
                 "options": {
                     "a": "Messaging and Holding",
                     "b": "Messaging and Backoff",
@@ -4389,6 +4420,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is used for real-time exchange of structured data?",
+                "year": 2024.2,
                 "options": {
                     "a": "MQTT",
                     "b": "SMQTT",
@@ -4400,6 +4432,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "XMPP uses the ________________ architecture.",
+                "year": 2024.2,
                 "options": {
                     "a": "Publish-subscribe",
                     "b": "Client-server",
@@ -4411,6 +4444,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "With respect to AMQP, which of the following message delivery guarantees allow for each message to be delivered certainly as well as to be delivered multiple times.",
+                "year": 2024.2,
                 "options": {
                     "a": "At-least-once",
                     "b": "At-most-once",
@@ -4422,6 +4456,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are NOT an AMQP frame type?",
+                "year": 2024.2,
                 "options": {
                     "a": "Open",
                     "b": "Close",
@@ -4433,6 +4468,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are NOT the function/functions of the Bindings component of the AMQP protocol?",
+                "year": 2024.2,
                 "options": {
                     "a": "Receives messages and routes them to queues",
                     "b": "Separate queues for separate business process",
@@ -4444,6 +4480,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are NOT exchange types in AMQP?",
+                "year": 2024.2,
                 "options": {
                     "a": "Direct",
                     "b": "Indirect",
@@ -4455,6 +4492,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False.\nStatement: The IEEE 802.15.4 is a well-known standard for low data-rate Wireless Personal Area Network (WPAN).",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4464,6 +4502,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The networking topologies supported in the IEEE 802.15.4 are -",
+                "year": 2024.2,
                 "options": {
                     "a": "Only Star",
                     "b": "Star and Mesh",
@@ -4475,6 +4514,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False.\nStatement: Periodic transmission of beacon messages does not occur in beacon enabled networks (IEEE 802.15.4).",
+                "year": 2024.2,
                 "options": {
                     "a": "False",
                     "b": "True"
@@ -4483,9 +4523,10 @@ export const assignment: Assignment = {
                 "explanation": "Periodic transmission of beacon messages occur in beacon enabled networks (IEEE 802.15.4)."
             }
         ],
-        "Assignment 3": [
+        "[2024.2] Assignment 3": [
             {
                 "q": "State whether the following statement is true or false.\nStatement: Wired HART lacks a network layer.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4495,6 +4536,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The HART physical layer is derived from ____________ protocol and operates only in __________ GHz ISM band.",
+                "year": 2024.2,
                 "options": {
                     "a": "IEEE 802.15.4, 2.4",
                     "b": "IEEE 802.15.4, 4.8",
@@ -4506,6 +4548,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is True or False\nStatement: Super-frames in HART consist of grouped 20ms wide timeslots.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4515,6 +4558,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "_________________ identifies channels consistently affected by interference and removes them from use.",
+                "year": 2024.2,
                 "options": {
                     "a": "Channel hopping",
                     "b": "Channel aggregating",
@@ -4526,6 +4570,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The _________________ supervises each node in the network and guides them on when and where to send packets.",
+                "year": 2024.2,
                 "options": {
                     "a": "Application manager",
                     "b": "Network manager",
@@ -4537,6 +4582,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "NFC is designed for use by devices within _________ to each other?",
+                "year": 2024.2,
                 "options": {
                     "a": "Close proximity",
                     "b": "No near contact",
@@ -4548,6 +4594,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "______________ contain information which is readable by other devices, however it cannot read information itself.",
+                "year": 2024.2,
                 "options": {
                     "a": "Active NFC devices",
                     "b": "Dumb NFC devices",
@@ -4559,6 +4606,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "NFC devices work on the principle of ___________________?",
+                "year": 2024.2,
                 "options": {
                     "a": "Magnetic introduction",
                     "b": "Magnetic induction",
@@ -4570,6 +4618,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of these is NOT a mode of operation NFC?",
+                "year": 2024.2,
                 "options": {
                     "a": "Server-to-Server",
                     "b": "Peer-to-Peer",
@@ -4581,6 +4630,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is true or false\nStatement: Paging in Bluetooth is the process of forming a connection between two Bluetooth devices.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4590,6 +4640,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "There are ______ modes of operation in Bluetooth.",
+                "year": 2024.2,
                 "options": {
                     "a": "3",
                     "b": "4",
@@ -4601,6 +4652,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Zwave uses __________ for signaling and control?",
+                "year": 2024.2,
                 "options": {
                     "a": "Light",
                     "b": "RF",
@@ -4612,6 +4664,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are not a constraint on sensor nodes?",
+                "year": 2024.2,
                 "options": {
                     "a": "Must consume high power",
                     "b": "Not be adaptive to the environment",
@@ -4623,6 +4676,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "___________ are simply those that are unable to perform an operation; this could be because of power failure and environmental events.",
+                "year": 2024.2,
                 "options": {
                     "a": "Normal nodes",
                     "b": "Failed nodes",
@@ -4634,6 +4688,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Dumb behavior of sensor nodes is _______________ in nature (as it is dependent on the effects of the environmental conditions).",
+                "year": 2024.2,
                 "options": {
                     "a": "Temporal",
                     "b": "Spatial",
@@ -4644,9 +4699,10 @@ export const assignment: Assignment = {
                 "explanation": "Dumb behavior of sensor nodes is Temporal in nature (as it is dependent on the effects of the environmental conditions)."
             }
         ],
-        "Assignment 4": [
+        "[2024.2] Assignment 4": [
             {
                 "q": "State whether the following statement is true or false.\nStatement: Coverage in WSN is defined as the area-of-interest is covered satisfactorily.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4656,6 +4712,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "If transmission range >= 2* sensing range,",
+                "year": 2024.2,
                 "options": {
                     "a": "Coverage implies greater coverage",
                     "b": "Coverage implies connectivity",
@@ -4667,6 +4724,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The two types of reporting in WSN are -",
+                "year": 2024.2,
                 "options": {
                     "a": "Event driven and machine driven",
                     "b": "Event driven and weather driven",
@@ -4678,6 +4736,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The objective of coverage in WSN is to use a _______________ number of sensors and _______________ the network lifetime.",
+                "year": 2024.2,
                 "options": {
                     "a": "minimum, minimize",
                     "b": "minimum, maximize",
@@ -4689,6 +4748,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State true or false.\nThe disadvantages of stationary Wireless Sensor Networks are -\nStatement-I: Node failure may result in partition of networks.\nStatement-II: Topology cannot change automatically.",
+                "year": 2024.2,
                 "options": {
                     "a": "Statement-I True, Statement-II False",
                     "b": "Both Statements are False",
@@ -4700,6 +4760,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "A _________________ in MWSN moves in order to collect data from sensor nodes and goes to the sink and delivers the collected data from different sensor nodes.",
+                "year": 2024.2,
                 "options": {
                     "a": "Drop",
                     "b": "Molecule",
@@ -4711,6 +4772,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "________________ allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge.",
+                "year": 2024.2,
                 "options": {
                     "a": "Voluntary sensing",
                     "b": "Compressive sensing",
@@ -4722,6 +4784,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is/are NOT feature/features of UAV networks?",
+                "year": 2024.2,
                 "options": {
                     "a": "Mesh or star networks",
                     "b": "Multi-tasking",
@@ -4733,6 +4796,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is NOT a UAV network constraint?",
+                "year": 2024.2,
                 "options": {
                     "a": "Frequent link breakages",
                     "b": "Prone to malfunction",
@@ -4744,6 +4808,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In _____________________ configuration, UAVs form multiple star topology. One node from each group connects to the ground station.",
+                "year": 2024.2,
                 "options": {
                     "a": "Multi-star",
                     "b": "Ring",
@@ -4755,6 +4820,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The full form of FANET is?",
+                "year": 2024.2,
                 "options": {
                     "a": "Flying Ad Hoc Network",
                     "b": "Fast Ad Hoc Network",
@@ -4766,6 +4832,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Low-end sensor nodes are -",
+                "year": 2024.2,
                 "options": {
                     "a": "Whose deployment has high density in order to increase network lifetime and survivability.",
                     "b": "Who perform basic functions such as data aggregation, auto configuration, and power saving.",
@@ -4777,6 +4844,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following are the components of the M2M ecosystem?",
+                "year": 2024.2,
                 "options": {
                     "a": "Trees",
                     "b": "Ocean",
@@ -4788,6 +4856,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is true or false\nStatement: The M2M Device Platform enables access to objects connected to the Internet anywhere any time.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4797,6 +4866,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "State whether the following statement is true or false\nStatement: The M2M Application Platform provides integrated services based on device collected data-sets.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4805,9 +4875,10 @@ export const assignment: Assignment = {
                 "explanation": "The M2M Application Platform provides integrated services based on device collected data-sets."
             }
         ],
-        "Assignment 5": [
+        "[2024.2] Assignment 5": [
             {
                 "q": "Company ABC manufactures a room temperature monitor which sends data via protocol X and company MNO manufactures another kind of room temperature sensor which sends data via protocol Y. With respect to this, which among the following correctly captures the said scenario?",
+                "year": 2024.2,
                 "options": {
                     "a": "Homogeneity of IoT",
                     "b": "Heterogeneity of IoT"
@@ -4817,6 +4888,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "When two IoT devices wish to communicate, semantic conflict in such a scenario in IoT interoperability refers to____________________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Two devices built by the same manufacturer",
                     "b": "Two devices sensing the same physical parameter",
@@ -4828,6 +4900,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following issues needs to be addressed while solving user interoperability?",
+                "year": 2024.2,
                 "options": {
                     "a": "Device characterization and identification",
                     "b": "Syntactic interoperability",
@@ -4839,6 +4912,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which UMB interoperability component is responsible for converting physical devices into virtually abstracted ones?",
+                "year": 2024.2,
                 "options": {
                     "a": "UMB Adaptor",
                     "b": "UMB Core",
@@ -4850,6 +4924,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "A Protocol Translation Unit (PTU) acts as a middleware between two IoT devices with different native protocols to enable them communicate with each other by translating the language of one device to the other one and vice versa.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4858,9 +4933,10 @@ export const assignment: Assignment = {
                 "explanation": "Refer Lecture 21@22:16 and onwards where PTU has been explained."
             }
         ],
-        "Assignment 6": [
+        "[2024.2] Assignment 6": [
             {
                 "q": "Python doesn't support strict rules for syntax and static variable declaration like C",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4870,6 +4946,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Fill in the blanks. _____ is a data-type in Python.",
+                "year": 2024.2,
                 "options": {
                     "a": "List",
                     "b": "Tuple",
@@ -4881,6 +4958,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Fill in the blanks. _____ are the variables declared inside a function.",
+                "year": 2024.2,
                 "options": {
                     "a": "Immediate variables",
                     "b": "Global variables",
@@ -4892,6 +4970,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What does the open() function return for file operations?",
+                "year": 2024.2,
                 "options": {
                     "a": "File mode",
                     "b": "File object",
@@ -4903,6 +4982,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Python does not follow rigid indentation.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4911,9 +4991,10 @@ export const assignment: Assignment = {
                 "explanation": "As per the basics of Python programming. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 8:18)"
             }
         ],
-        "Assignment 7": [
+        "[2024.2] Assignment 7": [
             {
                 "q": "Raspberry Pi is like a mini computer which can perform a wide range of general purpose tasks.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -4923,6 +5004,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What is the complete form of GPIO pins on Raspberry Pi devices.",
+                "year": 2024.2,
                 "options": {
                     "a": "General Public Input/Output",
                     "b": "Generative Purpose Input/Output",
@@ -4934,6 +5016,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The Python program which you execute on Raspberry Pi to read data from sensors and control actuators has the same syntax and style as any other Python program.",
+                "year": 2024.2,
                 "options": {
                     "a": "False",
                     "b": "True"
@@ -4943,6 +5026,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "During remote server access by a Raspberry Pi, where the Raspberry Pi acts as a client, the client needs the following?",
+                "year": 2024.2,
                 "options": {
                     "a": "Only IP address of server",
                     "b": "Only port number",
@@ -4954,6 +5038,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following are valid data processing activities",
+                "year": 2024.2,
                 "options": {
                     "a": "Data Splitting",
                     "b": "Data filtering",
@@ -4965,6 +5050,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Consider the following Python code snippet. Assume the syntax is correct and all required libraries are imported\nvar = 'Sensor@Actuator%Arduino'\npt = var.split('%')\nprint(pt)\nWhat will be the output (See every detail, including the apostrophes carefully)?",
+                "year": 2024.2,
                 "options": {
                     "a": "['Sensor','Actuator','Arduino']",
                     "b": "['Sensor@Actuator','Arduino']",
@@ -4976,6 +5062,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following functions do you use while using MATPLOTLIB to add title to a plot?",
+                "year": 2024.2,
                 "options": {
                     "a": "plot()",
                     "b": "add()",
@@ -4987,6 +5074,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In traditional non software-defined network consisting of a network of switches, suppose OSPF is being used as the routing protocol. In this context which among the following is true.",
+                "year": 2024.2,
                 "options": {
                     "a": "All the switches execute OSPF distributively",
                     "b": "Only one switch executes OSPF",
@@ -4998,6 +5086,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In SDN, the Operating System (OS) is separated (i.e not strongly coupled) from the physical hardware for each switch.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5007,6 +5096,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following is a popular protocol implementing SDN?",
+                "year": 2024.2,
                 "options": {
                     "a": "OpenSwitch",
                     "b": "OpenStack",
@@ -5018,6 +5108,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "With respect to Software Defined Networking (SDN), which among the following is true?",
+                "year": 2024.2,
                 "options": {
                     "a": "SDN couples the data plane and control plane.",
                     "b": "SDN has no relation to either data plane or control plane",
@@ -5029,6 +5120,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Consider the following figure below. To which issue of SDN does this particular figure can be related to?",
+                "year": 2024.2,
                 "options": {
                     "a": "Controller placement issue",
                     "b": "Flow Rule placement issue",
@@ -5040,6 +5132,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Suppose that there are two LANs, each configured to be SDN enabled with their own set of switches and controller. Which among the following directional APIs will be used for communication between the two controllers?",
+                "year": 2024.2,
                 "options": {
                     "a": "Northbound API",
                     "b": "East-Westbound API",
@@ -5051,6 +5144,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following is true?",
+                "year": 2024.2,
                 "options": {
                     "a": "Backup Controllers have no use is SDN",
                     "b": "There is no difference between the main controller and backup controller",
@@ -5062,6 +5156,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "IoT being data intensive and having a lot of security concerns, it is a good idea to integrate SDN with IoT to mitigate many of these issues.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5070,9 +5165,10 @@ export const assignment: Assignment = {
                 "explanation": "SDN can be integrated with IoT to reap several benefits of both. Refer Lecture 35"
             }
         ],
-        "Assignment 8": [
+        "[2024.2] Assignment 8": [
             {
                 "q": "Traditional Wireless Mobile Networks are cost expensive in terms of _____________?",
+                "year": 2024.2,
                 "options": {
                     "a": "Only CAPEX",
                     "b": "Only OPEX",
@@ -5084,6 +5180,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "High mobility of users is one of the key challenges in rule placement for software defined wireless mobile networks.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5093,6 +5190,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following is a solution for mobility-aware flow rule placement in SDIoT?",
+                "year": 2024.2,
                 "options": {
                     "a": "Mobility-Flow",
                     "b": "Mobile-Flow",
@@ -5104,6 +5202,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Cloud, Utility, Grid and ______________________ have been the major trends in computing",
+                "year": 2024.2,
                 "options": {
                     "a": "Clone",
                     "b": "Cluster",
@@ -5115,6 +5214,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Cloud computing models allow different users to share the same physical resources?",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5124,6 +5224,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "As per NIST Visual Model of Cloud Computing, 'Hybrid Cloud' model and PaaS model both fall in the same category.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5133,6 +5234,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "When you are accessing Google docs or Microsoft Word online for accessing the features of a document writing software from your browser without specifically installing them, which among the following cloud service models is the most appropriate one that you are using.",
+                "year": 2024.2,
                 "options": {
                     "a": "SaaS",
                     "b": "PaaS",
@@ -5144,6 +5246,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
+                "year": 2024.2,
                 "options": {
                     "a": "Private Cloud",
                     "b": "Public Cloud",
@@ -5155,6 +5258,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Cloud services and resources should be rapidly ______________ in order to achieve their required performance",
+                "year": 2024.2,
                 "options": {
                     "a": "entrusted",
                     "b": "elastic",
@@ -5166,6 +5270,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Suppose that a start-up wants to enter into online book delivery business. It wants to create the user interface and the application by itself, but it does not have any networking or storage facility, so it wants to adopt the cloud computing practice. In this respect, which among the following cloud service models is most suitable for the start-up.",
+                "year": 2024.2,
                 "options": {
                     "a": "Only SaaS",
                     "b": "Neither PaaS nor IaaS",
@@ -5177,6 +5282,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Data security and client authentication is an issue in which of the following cloud service models?",
+                "year": 2024.2,
                 "options": {
                     "a": "SaaS",
                     "b": "SaaS and PaaS",
@@ -5188,6 +5294,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Network, ___________________ and application level securities are the three aspects of cloud infrastructure securities.",
+                "year": 2024.2,
                 "options": {
                     "a": "Client",
                     "b": "Web",
@@ -5199,6 +5306,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "When a new user logs into a cloud framework, the first thing that needs to be done is ______________________________.",
+                "year": 2024.2,
                 "options": {
                     "a": "User should be authenticated",
                     "b": "User should immediately be granted all the resources",
@@ -5210,6 +5318,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Service Level Agreements (SLAs) are mutually agreed by the client (customer) and cloud service provider (CSP) at the beginning. With respect to SLAs, what are the views that SLAs provide?",
+                "year": 2024.2,
                 "options": {
                     "a": "Customer Point of View",
                     "b": "CSP Point of View",
@@ -5221,6 +5330,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "CloudAnalyst simulation tool provides GUI and is written on top of CloudSim modules.",
+                "year": 2024.2,
                 "options": {
                     "a": "Yes",
                     "b": "No"
@@ -5229,9 +5339,10 @@ export const assignment: Assignment = {
                 "explanation": "CloudAnalyst is built on top of CloudSim and also provides a GUI."
             }
         ],
-        "Assignment 9": [
+        "[2024.2] Assignment 9": [
             {
                 "q": "Which component of OpenStack do you use to access all the other components?",
+                "year": 2024.2,
                 "options": {
                     "a": "Horizon",
                     "b": "Glance",
@@ -5243,6 +5354,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following is NOT a component of OpenStack?",
+                "year": 2024.2,
                 "options": {
                     "a": "Horizon",
                     "b": "Heat",
@@ -5254,6 +5366,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Sensor cloud is simply dumping and organizing of sensor data on cloud computing platforms.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5263,6 +5376,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following are limitations of traditional Wireless Sensor Networks (WSNs)?",
+                "year": 2024.2,
                 "options": {
                     "a": "Procurement Issues",
                     "b": "Deployment Issues",
@@ -5274,6 +5388,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In a typical sensor cloud architecture, the sensor cloud infrastructure that provides the virtualization lies ______________________________",
+                "year": 2024.2,
                 "options": {
                     "a": "At the same layer as physical sensor devices",
                     "b": "At the application layer",
@@ -5285,6 +5400,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Generally speaking, Sensor Cloud Service Providers (SCSPs) are also always the owners of the physical sensors",
+                "year": 2024.2,
                 "options": {
                     "a": "Yes",
                     "b": "No"
@@ -5294,6 +5410,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "In a typical sensor cloud architecture with virtualization, one virtual sensor can be associated with how many physical sensors?",
+                "year": 2024.2,
                 "options": {
                     "a": "Only one",
                     "b": "One or more than one",
@@ -5305,6 +5422,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Sensor virtualization aims to achieve more _________________________ in providing sensor based services",
+                "year": 2024.2,
                 "options": {
                     "a": "Complexity",
                     "b": "Flexibility"
@@ -5314,6 +5432,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Suppose that you want to start a business to provide some IoT based application, but you do not have the means to develop the application layer logic, neither you have the means to purchase and deploy physical sensors. You can however, rent cloud servers for use and write interface logic for interfacing with other modules. Which among the following actors will be the most suitable for you?",
+                "year": 2024.2,
                 "options": {
                     "a": "Physical sensor owner",
                     "b": "Application layer developer",
@@ -5325,6 +5444,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following is implemented along with sensor cloud to make its services and performance better?",
+                "year": 2024.2,
                 "options": {
                     "a": "Cashing",
                     "b": "Caching",
@@ -5336,6 +5456,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which among the following cases is most likely to reduce the overall price of sensor-cloud implementation provided that the data traverses through multiple sensor hops starting from the origin sensor to the sink node, and provided that all owners are honest and charge for only what is required?",
+                "year": 2024.2,
                 "options": {
                     "a": "If physical sensors are owned by multiple owners with high profit margin",
                     "b": "If all physical sensors are owned by a single owner with uniform profit margin"
@@ -5345,6 +5466,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Fog computing is aimed to replace cloud computing completely and has no scope for integration with cloud",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5354,6 +5476,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Suppose data from an IoT device first goes to Fog layer for some basic processing, after which it goes to Cloud layer for advanced processing, then the processed data comes back to the Fog layer and then, it finally comes back to the origin sensor node. In the return journey no processing of data takes place anywhere, just transfer of data takes place. If 'Tf' is the time taken by the data to travel from sensor to fog and vice versa, and 'Tc' is the time taken by the data to travel from fog to cloud and vice versa, 'Tfp' is the data processing time at fog and 'Tcp' is the data processing time at cloud, what is the total round trip time 'T' taken by data starting from the origin sensor node, processing the data and then back to the sensor node after being processed.",
+                "year": 2024.2,
                 "options": {
                     "a": "T = Tf + Tc + Tfp + Tcp",
                     "b": "T = Tf + Tc",
@@ -5365,6 +5488,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Consider the standard Fog computing architecture. In which of the following layer will 'very time sensitive data' be processed?",
+                "year": 2024.2,
                 "options": {
                     "a": "Nearest fog node",
                     "b": "Distant aggregate fog node",
@@ -5376,6 +5500,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "\"Network, Accelerator, Compute and Storage\" constitute the part of which view of fog computing architecture, as defined by OpenFog Consortium Architecture Working Group?",
+                "year": 2024.2,
                 "options": {
                     "a": "System View",
                     "b": "Node View",
@@ -5386,9 +5511,10 @@ export const assignment: Assignment = {
                 "explanation": "Fog Computing Architectural framework has several views, node, system and software among them. Network, Accelerator, Compute and Storage fall under Node View."
             }
         ],
-        "Assignment 10": [
+        "[2024.2] Assignment 10": [
             {
                 "q": "Data fusion enables optimum utilization of massive data gathered from multiple sources.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5398,6 +5524,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a stage in data fusion?",
+                "year": 2024.2,
                 "options": {
                     "a": "Decision level",
                     "b": "Feature level",
@@ -5409,6 +5536,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is one of the challenges of Data fusion?",
+                "year": 2024.2,
                 "options": {
                     "a": "Imperfection",
                     "b": "Conflicts",
@@ -5420,6 +5548,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is one of the theory of evidence-based mathematical methods of data fusion?",
+                "year": 2024.2,
                 "options": {
                     "a": "Belief function",
                     "b": "Bayesian analysis",
@@ -5431,6 +5560,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "DLNA stands for Digital Living Network Alliance.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5440,6 +5570,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following are the functional layers in smart parking?",
+                "year": 2024.2,
                 "options": {
                     "a": "Information collection",
                     "b": "System Deployment",
@@ -5451,6 +5582,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following statements are true about the HAN standards?\nStatement I: Physical and MAC layers are defined by IEEE802.15.4.\nStatement II: Network layer is defined by Zigbee.\nStatement III: Application layer is defined by IEEE802.15.4",
+                "year": 2024.2,
                 "options": {
                     "a": "Statements I and II",
                     "b": "Statements I and III",
@@ -5462,6 +5594,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following are true about X-10?\nStatement I: It allows remote control of compliant transmitters.\nStatement II: It has low speed and data rate.\nStatement III: It is adopted by GE.",
+                "year": 2024.2,
                 "options": {
                     "a": "Statement I and II",
                     "b": "Statement II and III",
@@ -5473,6 +5606,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "____________enables vehicles to wirelessly share a diverse range of information.",
+                "year": 2024.2,
                 "options": {
                     "a": "Local area network",
                     "b": "V2X Paradigm",
@@ -5484,6 +5618,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a property of Vehicular Ad-hoc Networks?",
+                "year": 2024.2,
                 "options": {
                     "a": "Is based on DSRC",
                     "b": "Is based on WAVE",
@@ -5495,6 +5630,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Knob is a switch type of INN.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5504,6 +5640,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is responsible for central coordination in Body-brain architecture?",
+                "year": 2024.2,
                 "options": {
                     "a": "Body",
                     "b": "INN",
@@ -5515,6 +5652,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following stands for DSRC?",
+                "year": 2024.2,
                 "options": {
                     "a": "Directed Short Range Communication",
                     "b": "Dedicated Short Range Communication",
@@ -5526,6 +5664,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Ad-hoc is a domain of VANET.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5535,6 +5674,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What are the disadvantages of V2X communication?",
+                "year": 2024.2,
                 "options": {
                     "a": "Increased traffic safety",
                     "b": "Tracking of movement",
@@ -5545,9 +5685,10 @@ export const assignment: Assignment = {
                 "explanation": "Disadvantages of V2X communication includes tracking of movement, violation of privacy, loss of data control, etc. (Please refer Lecture 50@21:04)"
             }
         ],
-        "Assignment 11": [
+        "[2024.2] Assignment 11": [
             {
                 "q": "What are some of the other names of the smart grids?",
+                "year": 2024.2,
                 "options": {
                     "a": "Electricity with a brain",
                     "b": "Energy internet",
@@ -5559,6 +5700,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Smart Grid follows which type of the flow of energy?",
+                "year": 2024.2,
                 "options": {
                     "a": "Bidirectional",
                     "b": "Unidirectional",
@@ -5570,6 +5712,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is not a benefit associated with smart grids?",
+                "year": 2024.2,
                 "options": {
                     "a": "Efficient transmission of electricity",
                     "b": "Lower electricity rates",
@@ -5581,6 +5724,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a component of smart grid communication?",
+                "year": 2024.2,
                 "options": {
                     "a": "Gateways",
                     "b": "Smart meters",
@@ -5592,6 +5736,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "___________ can be used as an energy source in on-peak hours.",
+                "year": 2024.2,
                 "options": {
                     "a": "PMUs",
                     "b": "DAUs",
@@ -5603,6 +5748,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a type of Dynamic System Attacks?",
+                "year": 2024.2,
                 "options": {
                     "a": "Replay Attacks",
                     "b": "Dynamic data injection attacks",
@@ -5614,6 +5760,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following statements are true about gateways?\nStatement I: Each gateway connects a few closely located smart meters.\nStatement II: Gateways communicate mostly based on WiFi.\nStatement III: They help in two-way communication.",
+                "year": 2024.2,
                 "options": {
                     "a": "Statements I and II",
                     "b": "Statements I and III",
@@ -5625,6 +5772,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "____________ is a centralized coordinator for smart grid communication.",
+                "year": 2024.2,
                 "options": {
                     "a": "Gateway",
                     "b": "Smart meter",
@@ -5636,6 +5784,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "____________ are available protocols for smart home appliances.",
+                "year": 2024.2,
                 "options": {
                     "a": "C-Bus",
                     "b": "DECT",
@@ -5647,6 +5796,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Fill in the blank. IIoT is a network of____________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Physical objects",
                     "b": "Systems",
@@ -5658,6 +5808,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "IIoT is based on Rip & Replace approach.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5667,6 +5818,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following happened in the 1st Revolution?",
+                "year": 2024.2,
                 "options": {
                     "a": "Mass production",
                     "b": "Internet evolution",
@@ -5678,6 +5830,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a challenge of IIoT?",
+                "year": 2024.2,
                 "options": {
                     "a": "Worker health and safety",
                     "b": "Environmental production",
@@ -5689,6 +5842,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Monitoring and restoration of the traditional electrical grid is done manually.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5698,6 +5852,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What is Hadoop used in?",
+                "year": 2024.2,
                 "options": {
                     "a": "Distributed processing of large datasets",
                     "b": "Large clusters of computers",
@@ -5708,9 +5863,10 @@ export const assignment: Assignment = {
                 "explanation": "Hadoop is used for distributed processing of large datasets across Large clusters of computers (Please refer Lecture 55@23:18)"
             }
         ],
-        "Assignment 12": [
+        "[2024.2] Assignment 12": [
             {
                 "q": "The two types of data analysis are _____________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Qualitative and Quantitative",
                     "b": "Repetitive and Quantitative",
@@ -5722,6 +5878,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a principle of Qualitative analysis?",
+                "year": 2024.2,
                 "options": {
                     "a": "Notice things",
                     "b": "Think about things",
@@ -5733,6 +5890,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Select the statement(s) that denote the type of ANOVA.\nStatement I: One way analysis\nStatement II: Two way analysis\nStatement III: K-way analysis",
+                "year": 2024.2,
                 "options": {
                     "a": "Statement I",
                     "b": "Statement II",
@@ -5744,6 +5902,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What is the type of the data dispersion?",
+                "year": 2024.2,
                 "options": {
                     "a": "Range",
                     "b": "Average absolute deviation",
@@ -5755,6 +5914,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The process by which numerical data is analyzed is known as __________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Qualitative analysis",
                     "b": "Quantitative analysis",
@@ -5766,6 +5926,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "The mathematical equation that is formulated in the form of relationships between variables is known as __________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Logical model",
                     "b": "Relational model",
@@ -5777,6 +5938,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "What are the two types of statistical models?",
+                "year": 2024.2,
                 "options": {
                     "a": "Qualitative and quantitative",
                     "b": "Complete and incomplete",
@@ -5788,6 +5950,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Contingency table is also known as?",
+                "year": 2024.2,
                 "options": {
                     "a": "Cross tabulation",
                     "b": "Cross table",
@@ -5799,6 +5962,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Advances in sensor and connectivity have disabled preventive care.",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5808,6 +5972,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is a feature of IoT Healthcare?",
+                "year": 2024.2,
                 "options": {
                     "a": "Non-invasive monitoring",
                     "b": "Cloud-based analytics",
@@ -5819,6 +5984,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following are components of IoT?",
+                "year": 2024.2,
                 "options": {
                     "a": "Sensing layer",
                     "b": "Aggregated layer",
@@ -5830,6 +5996,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is the advantage of activity monitoring?",
+                "year": 2024.2,
                 "options": {
                     "a": "Hard integration",
                     "b": "Long term monitoring",
@@ -5841,6 +6008,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Deep learning based data analysis cannot be performed on videos",
+                "year": 2024.2,
                 "options": {
                     "a": "True",
                     "b": "False"
@@ -5850,6 +6018,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Which of the following is true for in-place activity monitoring data analysis?",
+                "year": 2024.2,
                 "options": {
                     "a": "Low power",
                     "b": "Good network connection required",
@@ -5861,6 +6030,7 @@ export const assignment: Assignment = {
             },
             {
                 "q": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for ________.",
+                "year": 2024.2,
                 "options": {
                     "a": "Fall detection",
                     "b": "Heart rate detection",
@@ -5869,6 +6039,2102 @@ export const assignment: Assignment = {
                 },
                 "answer": "a",
                 "explanation": "Processing the handheld activity device data with artificial intelligence can be used for detecting sudden fall of a person. (Please refer Lecture 60@11:56)"
+            }
+        ],
+        "[2025.2] Assignment 1": [
+            {
+                "q": "Which of the following is/are not a thing as per IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Fan",
+                    "b": "Light",
+                    "c": "Refrigerator",
+                    "d": "None of the these"
+                },
+                "answer": "d",
+                "explanation": "All of these are things as per IoT."
+            },
+            {
+                "q": "State true or false.\nStatement: The things in IoT consist of embedded systems.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The things in IoT consist of embedded systems."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: IoT is one of the technologies that enable smart farms.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "IoT is one of the technologies that enable smart farms."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: In M2M, it is mandatory that the interactions between the machines and devices happen through a cloud computing infrastructure.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "In M2M, the interactions between the machines and devices can happen through a cloud computing infrastructure."
+            },
+            {
+                "q": "Sometimes, when there is a need for the nodes to communicate directly to the Internet, __________ can be used.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensors",
+                    "b": "Actuators",
+                    "c": "Tunneling",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Sometimes, there is a need for the nodes to communicate directly to the Internet. This is achieved by tunneling."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: In multi-homing a node/network is connected to only two networks for improved reliability.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "In multi-homing, a node/network is connected to multiple networks for improved reliability."
+            },
+            {
+                "q": "Which of the following is/are not enablers of IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Advancement in gene sequencing",
+                    "b": "Nanotechnology",
+                    "c": "Sensors",
+                    "d": "RFID"
+                },
+                "answer": "a",
+                "explanation": "The enablers of IoT are - a. RFID b. Nanotechnology c. Sensors."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: The decreasing number of devices in IoT is expected to result in an address crunch.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "The increasing number of devices in IoT is expected to result in an address crunch."
+            },
+            {
+                "q": "Why IoT has become so popular?",
+                "year": 2025.2,
+                "options": {
+                    "a": "It can provide advanced level of services to the society",
+                    "b": "It can help reduce human effort",
+                    "c": "It can potentially make processes more efficient",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "IoT has become popular as It can provide advanced level of services to the society, It can help reduce human effort, and It can potentially make processes more efficient."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nThe resolution of a sensor is the maximum change it can detect in the quantity that it is measuring.",
+                "year": 2025.2,
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "a",
+                "explanation": "The resolution of a sensor is the smallest change it can detect in the quantity that it is measuring."
+            },
+            {
+                "q": "Transducer is a __________ term and includes __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "special, only sensors",
+                    "b": "special, only actuators",
+                    "c": "collective, both sensors and actuators",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Transducer is a collective term and includes both sensors and actuators."
+            },
+            {
+                "q": "Which of the following is/are feature/features of sensors?",
+                "year": 2025.2,
+                "options": {
+                    "a": "It is only sensitive to the measured property.",
+                    "b": "It acts on the surrounding environment.",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "It is only sensitive to the measured property. It does not influence the measure property and does not act on the surrounding environment."
+            },
+            {
+                "q": "Which of the following technologies have unified and has resulted in the evolution of IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Low-power embedded systems",
+                    "b": "Cloud Computing",
+                    "c": "Machine Learning",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The unification of technologies such as low-power embedded systems, cloud computing, big data, machine learning, and networking has resulted in the advancement of IoT."
+            },
+            {
+                "q": "What is the full form of IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Internet of Tasks",
+                    "b": "Internet of Things",
+                    "c": "Internet of Tracks",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The full form of IoT is “Internet of Things”."
+            },
+            {
+                "q": "A sensor node is not made up of which of the following?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensor/Sensors",
+                    "b": "A processing unit",
+                    "c": "A power unit",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "A sensor node is made up of a combination of sensor/sensors, a processor unit, a radio unit, and a power unit."
+            }
+        ],
+        "[2025.2] Assignment 2": [
+            {
+                "q": "The full form of MQTT is",
+                "year": 2025.2,
+                "options": {
+                    "a": "Message Queue Telephone Transmission",
+                    "b": "Message Query Telemetry Transport",
+                    "c": "Message Queue Telemedicine Transport",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The full form of MQTT is Message Queue Telemetry Transport."
+            },
+            {
+                "q": "Which of the following is NOT a method in MQTT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Break",
+                    "b": "Stick",
+                    "c": "Run",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The standard methods in MQTT are Connect, Disconnect, Subscribe, Unsubscribe, and Publish."
+            },
+            {
+                "q": "Which of the following is/are component/components of MQTT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Publishers",
+                    "b": "Subscribers",
+                    "c": "Brokers",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "The three components of MQTT are Publishers, Subscribers, and Brokers."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nSMQTT is an extension of MQTT which uses lightweight attribute based encryption. It has three main stages.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "SMQTT is an extension of MQTT which uses lightweight attribute based encryption and has four main stages."
+            },
+            {
+                "q": "The OSI model has __________ layers.",
+                "year": 2025.2,
+                "options": {
+                    "a": "6",
+                    "b": "8",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The OSI model is a conceptual framework that divides any networked communication system into seven layers."
+            },
+            {
+                "q": "The two sub-layers of CoAP are -",
+                "year": 2025.2,
+                "options": {
+                    "a": "Messaging and Holding",
+                    "b": "Messaging and Backoff",
+                    "c": "Messaging and Teardown",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "CoAP has two sub-layers which are Messaging and Request/Response."
+            },
+            {
+                "q": "What is the full form of AMQP in the context of IoT protocol?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Another Message Queuing Protocol",
+                    "b": "Anchored Message Queuing Protocol",
+                    "c": "Adjoint Message Queuing Protocol",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "AMQP stands for Advanced Message Queuing Protocol."
+            },
+            {
+                "q": "XMPP uses the __________ architecture.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Publish-subscribe",
+                    "b": "Client-server",
+                    "c": "Both (a) and (b)",
+                    "d": "Neither (a) nor (b)"
+                },
+                "answer": "b",
+                "explanation": "XMPP uses the client-server architecture."
+            },
+            {
+                "q": "How many message delivery guarantee modes are there in the AMQP protocol?",
+                "year": 2025.2,
+                "options": {
+                    "a": "2",
+                    "b": "3",
+                    "c": "4",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "There are three message delivery guarantee modes in the AMQP protocol: At-most-once, At-least-once, and Exactly-once."
+            },
+            {
+                "q": "Which of the following is/are NOT an AMQP frame type?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Open",
+                    "b": "Close",
+                    "c": "Random",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Open, close, and end are valid frame types of the AMQP protocol."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: IEEE 802.15.5 was developed for low data rate monitoring and control applications and extended life low power communication uses.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "IEEE 802.15.4 was developed for low data rate monitoring and control applications and extended life low power communication uses."
+            },
+            {
+                "q": "Which of the following is/are exchange types in AMQP?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Direct",
+                    "b": "Indirect",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "The AMQP exchange types are Direct, Fan-out, Topic, and Header."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: The IEEE 802.15.4 operates in ISM band.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The IEEE 802.15.4 operates in the ISM band."
+            },
+            {
+                "q": "The networking topologies supported in the IEEE 802.15.4 are -",
+                "year": 2025.2,
+                "options": {
+                    "a": "Only Star",
+                    "b": "Star and Mesh",
+                    "c": "Only Mesh",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "The networking topologies defined in IEEE 802.15.4 are star and mesh."
+            },
+            {
+                "q": "State whether the following statement is True or False.\nStatement: Generation of Route Requests (RREQs) by a LOADng Router for discovering a route to a destination is a valid operation of the LOADng routing protocol.",
+                "year": 2025.2,
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "b",
+                "explanation": "Generation of Route Requests (RREQs) by a LOADng Router for discovering a route to a destination is a valid operation of the LOADng routing protocol."
+            }
+        ],
+        "[2025.2] Assignment 3": [
+            {
+                "q": "HART operates only in __________ GHz ISM band.",
+                "year": 2025.2,
+                "options": {
+                    "a": "2.3",
+                    "b": "4.8",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "HART operates only in 2.4 GHz ISM band."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: The HART physical layer is derived from IEEE 802.15.4 protocol and operates only in 2.5 GHz ISM band.",
+                "year": 2025.2,
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "a",
+                "explanation": "The HART physical layer is derived from IEEE 802.15.4 protocol and operates only in 2.4 GHz ISM band."
+            },
+            {
+                "q": "State whether the following statement is True or False\nStatement: Each node is supervised by the application manager and it guides them on when and where to send packets.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "The Network manager supervises each node in the network and guides them on when and where to send packets."
+            },
+            {
+                "q": "__________ identifies channels consistently affected by interference and removes them from use.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Channel hopping",
+                    "b": "Channel aggregating",
+                    "c": "Channel blacklisting",
+                    "d": "Frequency aggregating"
+                },
+                "answer": "c",
+                "explanation": "Channel Blacklisting identifies channels consistently affected by interference and removes them from use."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: The Network Manager supervises each node in the network and guides them on when and where to send packets.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The Network manager supervises each node in the network and guides them on when and where to send packets."
+            },
+            {
+                "q": "Which layer of HART incorporates channel hopping and channel blacklisting?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Surface Layer",
+                    "b": "Troposphere",
+                    "c": "Data Link Layer",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "HART Data Link Layer incorporates channel hopping and channel blacklisting."
+            },
+            {
+                "q": "WirelessHART relies on __________ for its communication.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Star networking",
+                    "b": "Bus networking",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "WirelessHART relies on mesh networking."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nNFC devices work on the principle of magnetic introduction.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "NFC devices work on the principle of magnetic induction."
+            },
+            {
+                "q": "Bluetooth technology is based on Ad-hoc technology also known as __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Ad-hoc meshnet",
+                    "b": "Ad-hoc Piconets",
+                    "c": "Ad-hoc starnet",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Bluetooth technology is based on Ad-hoc technology also known as Ad-hoc Piconets."
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: Booking in Bluetooth is the process of forming a connection between two Bluetooth devices.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Paging in Bluetooth is the process of forming a connection between two Bluetooth devices."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Class 1 Bluetooth radios are used primarily in industrial use cases and have a range of 100 meters or 300 feet.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Class 1 Bluetooth radios are used primarily in industrial use cases and have a range of 100 meters or 300 feet."
+            },
+            {
+                "q": "Zwave uses __________ topology.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Ring",
+                    "b": "Star",
+                    "c": "Mesh",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Zwave uses Mesh topology."
+            },
+            {
+                "q": "Which of the following is an OS for sensor nodes?",
+                "year": 2025.2,
+                "options": {
+                    "a": "MicroOS",
+                    "b": "LiteOS",
+                    "c": "TinyOS",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "TinyOS is an OS for sensor nodes."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Selfish nodes are typified by their unwillingness to cooperate, as the protocol requires whenever there is a personal cost involved.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Selfish nodes are typified by their unwillingness to cooperate, as the protocol requires whenever there is a personal cost involved."
+            },
+            {
+                "q": "Dumb behavior of sensor nodes is __________ in nature (as it is dependent on the effects of the environmental conditions).",
+                "year": 2025.2,
+                "options": {
+                    "a": "Temporal",
+                    "b": "Spatial",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "Dumb behavior of sensor nodes is Temporal in nature (as it is dependent on the effects of the environmental conditions)."
+            }
+        ],
+        "[2025.2] Assignment 4": [
+            {
+                "q": "If transmission range > 2* sensing range,",
+                "year": 2025.2,
+                "options": {
+                    "a": "Coverage implies connectivity",
+                    "b": "Coverage implies greater coverage",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "If transmission range >= 2* sensing range, coverage implies connectivity."
+            },
+            {
+                "q": "What is the full form of AUV in the context of mobile wireless sensor networks?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Aerial and Underwater Vehicle",
+                    "b": "Ambient and Underprivileged Vehicle",
+                    "c": "Astronomical Underwater Vehicle",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The full form of AUV is Autonomous Underwater Vehicle."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Agricultural intrusion detection uses NFC sensors.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Agricultural intrusion detection uses PIR and Ultrasonic sensors."
+            },
+            {
+                "q": "The objective of coverage in WSN is to use a __________ number of sensors and __________ the network lifetime.",
+                "year": 2025.2,
+                "options": {
+                    "a": "minimum, minimize",
+                    "b": "maximum, minimize",
+                    "c": "maximum, maximize",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "The objective of coverage in WSN is to use minimum number of sensors and maximize the network lifetime."
+            },
+            {
+                "q": "WSN in agriculture uses what for processing?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Microprocessor",
+                    "b": "Microcontroller",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "WSN in agriculture uses Microcontroller for processing."
+            },
+            {
+                "q": "Which of the following is/are options for communication among nanodevices?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Electromagnetic",
+                    "b": "Molecular",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Electromagnetic and molecular are options for communication among nanodevices."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Voluntary Sensing allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge.",
+                "year": 2025.2,
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "a",
+                "explanation": "Participatory sensing allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: UAV networks use a ring topology.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "The features of UAV networks are Mesh or star networks, Multi-tasking, and Large coverage area."
+            },
+            {
+                "q": "In multi-UAV networks, the scalability is __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Low",
+                    "b": "Very Low",
+                    "c": "Poor",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "In multi-UAV networks, the scalability is high."
+            },
+            {
+                "q": "Single UAV system uses __________ antenna.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Uni-directional",
+                    "b": "Omni-directional",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "A Single UAV system uses omnidirectional antenna."
+            },
+            {
+                "q": "Which of the following is/are constraint/constraints of UAV network?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Infrequent link breakages",
+                    "b": "Malfunction",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Frequent link breakages and malfunction are constraints of UAV network."
+            },
+            {
+                "q": "Low-end sensor nodes are\n\na. Whose deployment has high density in order to increase network lifetime and survivability.\nb. Who perform basic functions such as data aggregation, auto configuration, and power saving.",
+                "year": 2025.2,
+                "options": {
+                    "a": "only a",
+                    "b": "only b",
+                    "c": "Both (a) and (b)",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Low-end sensor nodes are characterized by high-density deployment to enhance network longevity and perform essential functions like data aggregation and power management."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: FANETs are flying ad hoc networks.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "FANETs are flying ad hoc networks."
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: SCADA is designed for isolated systems using proprietary solutions, whereas M2M is designed for cross-platform integration.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "SCADA is designed for isolated systems using proprietary solutions, whereas M2M is designed for cross-platform integration."
+            },
+            {
+                "q": "State whether the following statement is true or false\nStatement: Low-end sensor nodes are static, energy-hungry, and complex.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Low-end sensor nodes are static, energy-efficient and simple."
+            }
+        ],
+        "[2025.2] Assignment 5": [
+            {
+                "q": "Why interoperability in IoT is an issue?",
+                "year": 2025.2,
+                "options": {
+                    "a": "IoT nodes are heterogeneous hence they communicate in different protocols",
+                    "b": "IoT nodes are homogeneous and communicate with the same protocol",
+                    "c": "IoT nodes do not communicate.",
+                    "d": "IoT nodes are small."
+                },
+                "answer": "a",
+                "explanation": "IoT devices from various manufacturers often use different communication protocols, making seamless interaction a significant challenge."
+            },
+            {
+                "q": "UNSPSC provides a solution for which of the following?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Manufacturing",
+                    "b": "Supply Chain",
+                    "c": "Classification",
+                    "d": "Communication"
+                },
+                "answer": "c",
+                "explanation": "The United Nations Standard Products and Services Code (UNSPSC) is a hierarchical convention used to classify products and services."
+            },
+            {
+                "q": "Arduino development boards are equipped with micro-controller processors which are __________ with respect to their hardware configurations.",
+                "year": 2025.2,
+                "options": {
+                    "a": "closed source",
+                    "b": "open source",
+                    "c": "forward source",
+                    "d": "up sourced"
+                },
+                "answer": "b",
+                "explanation": "Arduino's hardware designs and software are open source, allowing users to freely use and modify them."
+            },
+            {
+                "q": "Translation of inter-device communication forms an important part in solving device interoperability.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Protocol translation is crucial for enabling devices that use different communication standards to understand each other."
+            },
+            {
+                "q": "With respect to the different wireless communication protocols such as Zigbee, Bluetooth, GPRS, 6LoWPAN and WiFi, which of the following terms can be associated with?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Homogeneity",
+                    "b": "Heterogeneity",
+                    "c": "Self Service",
+                    "d": "All of the given"
+                },
+                "answer": "b",
+                "explanation": "The use of multiple, different protocols like Zigbee, WiFi, and Bluetooth in IoT systems is an example of heterogeneity."
+            },
+            {
+                "q": "Which among the following are valid Arduino datatypes?",
+                "year": 2025.2,
+                "options": {
+                    "a": "byte",
+                    "b": "char",
+                    "c": "Boolean",
+                    "d": "All of the given"
+                },
+                "answer": "d",
+                "explanation": "The Arduino programming language supports byte, char, and Boolean as fundamental data types."
+            },
+            {
+                "q": "What is the purpose of the delay() function in Arduino programming?",
+                "year": 2025.2,
+                "options": {
+                    "a": "To speed up the execution",
+                    "b": "To terminate the program",
+                    "c": "To reset all parameters",
+                    "d": "To make the program go to sleep for a certain duration."
+                },
+                "answer": "d",
+                "explanation": "The delay() function pauses the program for the amount of time (in milliseconds) specified as a parameter."
+            },
+            {
+                "q": "Consider the following Arduino code snippet\nString str = “HelloWorld”;\nString ptr = str.ToUpperCase();\nWhat will be the value of String ptr?",
+                "year": 2025.2,
+                "options": {
+                    "a": "HelloWorld",
+                    "b": "helloworld",
+                    "c": "HELLOWORLD",
+                    "d": "WORLDHELLO"
+                },
+                "answer": "c",
+                "explanation": "The ToUpperCase() method converts all characters of the string to uppercase."
+            },
+            {
+                "q": "What does the following code snippet do in interfacing a servo motor with the Arduino MEGA board?\nint servoPin = 12;",
+                "year": 2025.2,
+                "options": {
+                    "a": "Declares pin for connecting servo motor",
+                    "b": "Declares pin for providing power to MEGA board",
+                    "c": "Declares pin for Ground supply for servo motor",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "This line of code declares an integer variable named 'servoPin' and assigns it the value 12, designating pin 12 for the servo motor's signal connection."
+            },
+            {
+                "q": "State True or False.\nStatement: “The “Verify” option in the Arduino IDE checks the code for compilation errors.”",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "The 'Verify' button compiles the sketch to check for syntax and other errors before uploading it to the board."
+            },
+            {
+                "q": "The tool used to select a particular COM port for connecting Arduino to a serial connector is called a sketch.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "A 'sketch' is the program written in the Arduino IDE; the COM port is a communication setting selected under the 'Tools' menu."
+            },
+            {
+                "q": "In general, with respect to any sensor that can be connected to an Arduino board, which of the following is correct?",
+                "year": 2025.2,
+                "options": {
+                    "a": "The sensor has infinite number of connecting pins",
+                    "b": "The sensor will have at least 3 pins (1 +Vcc, 1 GND and 1 Data pin)",
+                    "c": "The sensor need not connect to the Arduino board.",
+                    "d": "The sensor will always have exactly 5 pins."
+                },
+                "answer": "b",
+                "explanation": "Most basic sensors require a minimum of three connections: one for power (Vcc), one for ground (GND), and one for the data signal."
+            },
+            {
+                "q": "You connect the +Vcc PIN of a sensor with which of the corresponding PIN of Arduino board.",
+                "year": 2025.2,
+                "options": {
+                    "a": "3V",
+                    "b": "GND",
+                    "c": "PIN A5",
+                    "d": "PIN CTX"
+                },
+                "answer": "a",
+                "explanation": "The +Vcc pin of a sensor is connected to a power supply pin on the Arduino, such as 3.3V or 5V, to provide it with power."
+            },
+            {
+                "q": "Servo is a type of __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensor",
+                    "b": "Actuator",
+                    "c": "Modifier",
+                    "d": "Pacifier"
+                },
+                "answer": "b",
+                "explanation": "A servo motor is an actuator because it converts an electrical signal into controlled physical motion."
+            },
+            {
+                "q": "While uploading a sketch to an Arduino board, which of the following should be checked?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Board",
+                    "b": "Serial Port",
+                    "c": "Both Board and Serial Port",
+                    "d": "Neither Board nor Serial Port."
+                },
+                "answer": "c",
+                "explanation": "To successfully upload a sketch, the correct Arduino board model and the corresponding serial (COM) port must be selected in the IDE's 'Tools' menu."
+            }
+        ],
+        "[2025.2] Assignment 6": [
+            {
+                "q": "Python programming language can be easily interfaced with different IoT hardware?",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Python's simplicity and extensive libraries (like RPi.GPIO) make it very suitable for programming IoT hardware like the Raspberry Pi."
+            },
+            {
+                "q": "Consider the following Python instruction\naa, bb, cc = 34, [12,23,34], 56.89\nIs the above a valid Python instruction?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Yes",
+                    "b": "No"
+                },
+                "answer": "a",
+                "explanation": "This is a valid example of multiple assignment in Python, where each variable is assigned the corresponding value from the right side."
+            },
+            {
+                "q": "Which of the following is a valid conditional construct instruction in Python?",
+                "year": 2025.2,
+                "options": {
+                    "a": "else-if",
+                    "b": "elif",
+                    "c": "ellif",
+                    "d": "ele"
+                },
+                "answer": "b",
+                "explanation": "In Python, 'elif' is the keyword used for 'else if' conditions within an if-statement block."
+            },
+            {
+                "q": "Consider the following Python code snippet. Assume Python v3.\nwith open('hello.txt', 'w+') as f:\n  f.write('I am learning Python programming')\n  f.seek(0)\n  lines = f.readline()\n  result = lines[2]\nprint(result)",
+                "year": 2025.2,
+                "options": {
+                    "a": "'I am'",
+                    "b": "'I'",
+                    "c": "'a'",
+                    "d": "'am'"
+                },
+                "answer": "c",
+                "explanation": "The code writes a string, seeks to the beginning, reads the entire line, and then accesses the character at index 2, which is 'a'."
+            },
+            {
+                "q": "Which of the following is a mode to open a file in Python?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Read mode",
+                    "b": "Write mode",
+                    "c": "Append mode",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Python supports read ('r'), write ('w'), and append ('a') as standard modes for opening and interacting with files."
+            },
+            {
+                "q": "What does the following line of code do?\nGPIO.output(11,True)",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sets GPIO 11 as output pin",
+                    "b": "Turns on GPIO pin 11",
+                    "c": "Neither (a) nor (b)",
+                    "d": "Both (a) and (b)"
+                },
+                "answer": "b",
+                "explanation": "This command sets the voltage of GPIO pin 11 (which must have already been configured as an output) to HIGH or True, effectively turning it on."
+            },
+            {
+                "q": "What is the utility of the ‘pip' instruction with respect to Python programming?",
+                "year": 2025.2,
+                "options": {
+                    "a": "To act as a package installer",
+                    "b": "To delete the Python version",
+                    "c": "To change from Python v2 to v3",
+                    "d": "None of the given"
+                },
+                "answer": "a",
+                "explanation": "pip is the standard package manager for Python, used to install and manage software libraries and dependencies."
+            },
+            {
+                "q": "Suppose you have used the sock.bind(server_address) while writing programs with sockets in Python.\nWith respect to this, which among the following is a valid initialization of the server_address object?",
+                "year": 2025.2,
+                "options": {
+                    "a": "(1223,1223)",
+                    "b": "('10.12.56.34',1223)",
+                    "c": "('12.56.78.221', ‘10.12.34.56')",
+                    "d": "(1223, '67.34.56.7789')"
+                },
+                "answer": "b",
+                "explanation": "The bind() method for a socket expects a tuple containing the IP address as a string and the port number as an integer."
+            },
+            {
+                "q": "Where do you store the image file of the Raspberry Pi OS before using it to execute the OS on the Pi?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Over the cloud",
+                    "b": "Directly on the Pi motherboard",
+                    "c": "Inside a memory card attached to the Pi",
+                    "d": "OS is installed through wireless means"
+                },
+                "answer": "c",
+                "explanation": "The Raspberry Pi's operating system is loaded from a bootable image file that is written to a microSD card."
+            },
+            {
+                "q": "With which of the following remote access mechanism can you access a Raspberry Pi from your laptop computer?",
+                "year": 2025.2,
+                "options": {
+                    "a": "ssp",
+                    "b": "ssh",
+                    "c": "ssj",
+                    "d": "ssd"
+                },
+                "answer": "b",
+                "explanation": "SSH (Secure Shell) is a standard network protocol used to get secure command-line access to a remote computer like a Raspberry Pi."
+            },
+            {
+                "q": "Fill in the blanks. Raspberry Pi 3 Model B has a GPU support of __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "400 MHz video core IV",
+                    "b": "250 MHz video core IV",
+                    "c": "Quad cortex A53@1.2GHz",
+                    "d": "ARM 11 @ 1 GHz"
+                },
+                "answer": "a",
+                "explanation": "The Raspberry Pi 3 Model B is equipped with a Broadcom VideoCore IV GPU that runs at a clock speed of 400 MHz for 3D graphics."
+            },
+            {
+                "q": "What is the data type of the variable ls in the following piece of Python code?\nls= {1:2, 3:4, 5:6, 7:8}",
+                "year": 2025.2,
+                "options": {
+                    "a": "dictionary",
+                    "b": "list",
+                    "c": "tuple",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "In Python, curly braces containing key-value pairs are used to define a dictionary data type."
+            },
+            {
+                "q": "Consider the image as given below.\nWhich among the following component is highlighted within the red box in the image?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Raspberri Pi",
+                    "b": "Raspbian",
+                    "c": "Raspberry Pi Camera",
+                    "d": "GPIO pins"
+                },
+                "answer": "c",
+                "explanation": "The highlighted component is a standard Raspberry Pi camera module, connected to the board via the CSI connector."
+            },
+            {
+                "q": "Relay is a type of actuator which can be used with Arduino but not with Raspberry Pi.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Relays are simple electromechanical switches that can be controlled by the GPIO pins of both Arduino and Raspberry Pi."
+            },
+            {
+                "q": "State whether the following statement is true or false.\nStatement: Python allows us to only read files. Writing to files is not possible.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Python has comprehensive file I/O capabilities, allowing for both reading from and writing to files using built-in functions."
+            }
+        ],
+        "[2025.2] Assignment 7": [
+            {
+                "q": "A Raspberry Pi can read data from a sensor but cannot send it over to a remote server for further processing.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "A Raspberry Pi is a fully capable computer that can easily read sensor data and transmit it over a network to a remote server."
+            },
+            {
+                "q": "In Python socket programming, with respect to the sock.bind(server_address) function, which among the following does the variable server_address contain?",
+                "year": 2025.2,
+                "options": {
+                    "a": "IP address of destination",
+                    "b": "Port number of destination server",
+                    "c": "Neither IP address nor port number of destination server",
+                    "d": "Both IP address and port number of destination server"
+                },
+                "answer": "d",
+                "explanation": "The server_address for the bind() function must be a tuple containing the host IP address and the port number for the server to listen on."
+            },
+            {
+                "q": "In Python matplotlib, in order to display the graphical plot on a terminal, the command plt.plot() is used in conjunction with which of the following?",
+                "year": 2025.2,
+                "options": {
+                    "a": "plt.plt()",
+                    "b": "plt.show()",
+                    "c": "plt.xtics()",
+                    "d": "plt.axes()"
+                },
+                "answer": "b",
+                "explanation": "After defining the plot elements with plt.plot(), the plt.show() command is required to render and display the plot window."
+            },
+            {
+                "q": "The following Python code displays a parabolic plot using matplotlib.\n(Code snippet provided)\nObserve the code very carefully. Will the code plot the desired parabola?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Yes",
+                    "b": "No"
+                },
+                "answer": "b",
+                "explanation": "The provided code defines the data and sets up the plot aesthetics, but it is missing the essential plt.plot(x, y) command to actually draw the parabola."
+            },
+            {
+                "q": "With respect to the above Question (Question 4), which the must be added to make the code display the parabola?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Nothing, the code works fine",
+                    "b": "plt.xtics() method",
+                    "c": "plt.plot() method",
+                    "d": "plt.setfigure() method"
+                },
+                "answer": "c",
+                "explanation": "The plt.plot(x, y) method is the principal function used to plot the x and y coordinates on the graph."
+            },
+            {
+                "q": "In Python, suppose that that string text = ‘It^is my#birthday!I am*Happy’.\nWhat will the output of the following instruction\ndata = text.split('^')\nprint(data[1])",
+                "year": 2025.2,
+                "options": {
+                    "a": "It^is my#birthday!I am*Happy",
+                    "b": "my#birthday!I",
+                    "c": "am*Happy",
+                    "d": "is my#birthday!I am*Happy"
+                },
+                "answer": "d",
+                "explanation": "The split('^') method divides the string at the '^' character, creating a list ['It', 'is my#birthday!I am*Happy'], and data[1] accesses the second element."
+            },
+            {
+                "q": "Consider the same text again\ntext = ‘It^is my#birthday!I am*Happy’\nNow consider the following instructions. What will be the output?\ndata = text.split('r')\nprint(data[1].split('bi'))",
+                "year": 2025.2,
+                "options": {
+                    "a": "my#birth",
+                    "b": "*Happy",
+                    "c": "thday!I am*Happy",
+                    "d": "It^is"
+                },
+                "answer": "c",
+                "explanation": "The string is first split by 'r', resulting in ['It^is my#bi', 'thday!I am*Happy']. The second element, 'thday!I am*Happy', does not contain 'bi', so the second split returns a list with the original string as its only element."
+            },
+            {
+                "q": "With respect to SDN for IoT what does ‘end-devices” in the phrase ‘control for end-devices’ mean?",
+                "year": 2025.2,
+                "options": {
+                    "a": "SDN Controllers",
+                    "b": "SDN Switches",
+                    "c": "Sensors and Actuators",
+                    "d": "Database"
+                },
+                "answer": "c",
+                "explanation": "In an IoT context, 'end-devices' refers to the sensors that collect data and the actuators that perform actions in the physical world."
+            },
+            {
+                "q": "A Network Operating System (NOS) resides in which of the following logical plane?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Application Plane",
+                    "b": "Control Plane",
+                    "c": "Data Plane",
+                    "d": "Both Data Plane as well as Application Plane"
+                },
+                "answer": "b",
+                "explanation": "The Network Operating System (NOS) in an SDN architecture is the main component of the control plane, responsible for making routing decisions."
+            },
+            {
+                "q": "Consider the figure of the network as given below.\nWhich of the following network topologies does this figure relate to?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Ring topology",
+                    "b": "Bus topology",
+                    "c": "Mesh topology",
+                    "d": "Tree topology"
+                },
+                "answer": "c",
+                "explanation": "The figure illustrates a mesh topology, where multiple nodes are interconnected, providing redundant paths for data."
+            },
+            {
+                "q": "With respect to the same figure (given below), what does the blue directional dotted arrows from the controller to the switches represent?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Northbound API",
+                    "b": "Southbound API",
+                    "c": "Eastbound API",
+                    "d": "Westbound API"
+                },
+                "answer": "b",
+                "explanation": "The Southbound API facilitates communication from the SDN controller (control plane) down to the network switches (data plane)."
+            },
+            {
+                "q": "Consider the following figure below. To which issue of SDN does this particular figure can be related to?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Controller placement issue",
+                    "b": "Flow Rule placement issue",
+                    "c": "Hardware placement issue",
+                    "d": "Analysis placement issue"
+                },
+                "answer": "b",
+                "explanation": "The figure shows a flow table, which is central to the SDN concept of placing specific forwarding rules on switches."
+            },
+            {
+                "q": "Which among the following is the most suitable utility of Mininet?",
+                "year": 2025.2,
+                "options": {
+                    "a": "To act as a virtual sensor",
+                    "b": "To provide a simulation environment for SDN with OpenFlow",
+                    "c": "To act as a generic antenna simulator",
+                    "d": "To perform load testing and analysis."
+                },
+                "answer": "b",
+                "explanation": "Mininet is a network emulator that creates a realistic virtual network, running real kernel, switch and application code, for prototyping and testing SDN applications."
+            },
+            {
+                "q": "Control of end devices such as sensors and actuators do not form a use-case for Software Defined IoT.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Applying SDN principles to IoT (SD-IoT) is specifically useful for dynamically managing and controlling large numbers of sensors and actuators."
+            },
+            {
+                "q": "With respect to packet delivery ratio, which of the following is true?",
+                "year": 2025.2,
+                "options": {
+                    "a": "WSN outperforms Soft-WSN",
+                    "b": "Soft-WSN outperforms WSN",
+                    "c": "Neither of Soft-WSN and WSN outperform each other",
+                    "d": "No relation between Soft-WSN and WSN"
+                },
+                "answer": "b",
+                "explanation": "By centralizing control and optimizing routes, Software-Defined Wireless Sensor Networks (Soft-WSN) can achieve a higher packet delivery ratio than traditional WSNs."
+            }
+        ],
+        "[2025.2] Assignment 8": [
+            {
+                "q": "Which of the following is true with respect to Network Virtualization?",
+                "year": 2025.2,
+                "options": {
+                    "a": "It abstracts the virtual network on a physical network",
+                    "b": "It abstracts the physical network on a virtual network",
+                    "c": "It is essentially a collection of physical SDN routers",
+                    "d": "Network virtualization is a non-existent concept."
+                },
+                "answer": "b",
+                "explanation": "Network virtualization involves creating an abstraction of the physical network resources to create one or more logical, virtual networks."
+            },
+            {
+                "q": "For rule placement at the edge with respect to Software Defined IoT, which of the following is a critical issue that is required to be addressed?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Existence of IoT nodes",
+                    "b": "Data through routers",
+                    "c": "Mobility of end users and nodes",
+                    "d": "None of the given."
+                },
+                "answer": "c",
+                "explanation": "The mobility of IoT devices is a major challenge because it requires the network rules and policies to be dynamically updated as the devices move."
+            },
+            {
+                "q": "Which cloud service model allows users to deploy and control their own software, including operating systems, while the provider manages the infrastructure?",
+                "year": 2025.2,
+                "options": {
+                    "a": "SaaS",
+                    "b": "PaaS",
+                    "c": "IaaS",
+                    "d": "DBaaS"
+                },
+                "answer": "c",
+                "explanation": "Infrastructure as a Service (IaaS) provides fundamental computing resources like virtual machines, storage, and networking, upon which users can install their own OS and applications."
+            },
+            {
+                "q": "Which of the following is NOT a characteristic of Platform-as-a-Service (PaaS)?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Provides tools for application deployment",
+                    "b": "Requires users to manage the virtual machines",
+                    "c": "Offers elastic scaling of applications",
+                    "d": "Simplifies development by abstracting the infrastructure"
+                },
+                "answer": "b",
+                "explanation": "In a PaaS model, the provider manages the underlying infrastructure, including virtual machines, so the user can focus solely on application development."
+            },
+            {
+                "q": "Which essential characteristic of cloud computing refers to the ability of resources to be scaled up or down automatically?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Resource pooling",
+                    "b": "Broad network access",
+                    "c": "Elasticity",
+                    "d": "None of the given"
+                },
+                "answer": "c",
+                "explanation": "Rapid elasticity is a core cloud characteristic that allows computing resources to be quickly and automatically provisioned to meet demand."
+            },
+            {
+                "q": "An organization A wants to deploy a cloud infrastructure, whereby it wants to push majority of the data to a cloud whose servers can be situated anywhere within the globe, but it wants certain private data to be pushed only to cloud servers that are present on-premise and are accessible by only authenticated members of the organization. In this context which among the following deployment model should be used?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Private Cloud",
+                    "b": "Public Cloud",
+                    "c": "Hybrid Cloud",
+                    "d": "Any of these"
+                },
+                "answer": "c",
+                "explanation": "A hybrid cloud model combines public and private cloud environments, allowing an organization to keep sensitive data on-premise while leveraging the scalability of the public cloud."
+            },
+            {
+                "q": "A Private Cloud deployment model cannot provide IaaS but can provide PaaS.",
+                "year": 2025.2,
+                "options": {
+                    "a": "False",
+                    "b": "True"
+                },
+                "answer": "a",
+                "explanation": "Any deployment model (Public, Private, Hybrid) can offer any of the service models (IaaS, PaaS, SaaS)."
+            },
+            {
+                "q": "What is the primary function of a Light Virtual Access Point (LVAP) in the ODIN architecture for SDN-based IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Acts as a firewall between user devices and access points",
+                    "b": "Enables virtualization of Wi-Fi APs for per-client network control",
+                    "c": "Encrypts user traffic before forwarding to the cloud",
+                    "d": "Controls routing at the backbone of the network"
+                },
+                "answer": "b",
+                "explanation": "In the ODIN architecture, each client is assigned a unique LVAP, which allows for fine-grained, per-client network control and policy enforcement."
+            },
+            {
+                "q": "With respect to Virtualization, if one VM runs on a hypervisor, another VM is unable to use the hypervisor.?",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "A hypervisor is specifically designed to manage and run multiple, isolated virtual machines on a single physical host simultaneously."
+            },
+            {
+                "q": "Through which of the following cloud service model, do you use an image editing application without explicitly installing the said application on your local system?",
+                "year": 2025.2,
+                "options": {
+                    "a": "SaaS",
+                    "b": "PaaS",
+                    "c": "IaaS",
+                    "d": "DaaS"
+                },
+                "answer": "a",
+                "explanation": "Software as a Service (SaaS) delivers applications over the internet, typically through a web browser, eliminating the need for local installation."
+            },
+            {
+                "q": "Which of the following best defines ‘measured service’ in cloud computing?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Cloud resources are billed only annually",
+                    "b": "Users must request reports manually for resource usage",
+                    "c": "Cloud systems automatically control and optimize resources based on metering",
+                    "d": "None of the given"
+                },
+                "answer": "c",
+                "explanation": "Measured service is a characteristic of cloud computing where resource usage is monitored and metered, similar to a utility service, enabling pay-per-use billing."
+            },
+            {
+                "q": "With respect to Cloud security, which of the following is expected to have a higher level of security than the other in a very generic sense, on the assumption that on-premise data storage generally is more secure than off-premise data storage.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Public Cloud",
+                    "b": "Private Cloud"
+                },
+                "answer": "b",
+                "explanation": "A private cloud offers greater security and control because its infrastructure is dedicated to a single organization and often located on-premise."
+            },
+            {
+                "q": "Data security and client authentication is an issue in which of the following cloud service models?",
+                "year": 2025.2,
+                "options": {
+                    "a": "SaaS",
+                    "b": "SaaS and PaaS",
+                    "c": "IaaS",
+                    "d": "All of them"
+                },
+                "answer": "d",
+                "explanation": "Security is a shared responsibility and a critical concern across all cloud service models, including SaaS, PaaS, and IaaS."
+            },
+            {
+                "q": "In cloud computing, the users have specific knowledge about the exact physical location of the computing hardware with respect to the cloud services.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "A key principle of cloud computing is location independence, where users are abstracted from the physical location of the hardware providing the service."
+            },
+            {
+                "q": "GreenCloud implementation focuses most on which of the following aspects?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Scalability",
+                    "b": "Energy",
+                    "c": "Reversibility",
+                    "d": "Computation"
+                },
+                "answer": "b",
+                "explanation": "GreenCloud and green computing initiatives are primarily focused on designing and operating data centers for maximum energy efficiency and minimal environmental impact."
+            }
+        ],
+        "[2025.2] Assignment 9": [
+            {
+                "q": "Fog is the layer between which two layers?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Application and Presentation",
+                    "b": "Network and Transport",
+                    "c": "Cloud and IoT",
+                    "d": "Transport and Session"
+                },
+                "answer": "c",
+                "explanation": "Fog computing acts as an intermediate layer that extends cloud computing services to the edge of the network, between the cloud and IoT devices."
+            },
+            {
+                "q": "Which of the following is/are the actors in sensor-cloud?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Users",
+                    "b": "Sensor-owner",
+                    "c": "SCSP",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "The sensor-cloud ecosystem consists of sensor owners who provide the data, end-users who consume it, and the Sensor-Cloud Service Provider (SCSP) who manages the platform."
+            },
+            {
+                "q": "Which of the following are considered key limitations of Wireless Sensor Networks (WSNs)?\n\na. Cost of sensor nodes\nb. Physical deployment of sensors",
+                "year": 2025.2,
+                "options": {
+                    "a": "only a",
+                    "b": "only b",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
+                },
+                "answer": "c",
+                "explanation": "WSNs face significant challenges related to both the hardware cost of nodes and the complexity of their physical deployment and maintenance."
+            },
+            {
+                "q": "Which of the following takes the decision whether the data should be provided directly to the end user or is it required to re-cache the data from external cache?",
+                "year": 2025.2,
+                "options": {
+                    "a": "User cache",
+                    "b": "Sensor cache",
+                    "c": "External cache",
+                    "d": "Internal Cache"
+                },
+                "answer": "d",
+                "explanation": "An Internal Cache component is responsible for managing data requests and deciding whether to serve data from its local store or fetch it from an external source."
+            },
+            {
+                "q": "Fill in the blanks\nThe __________ extends the cloud nearer the IoT devices.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensors",
+                    "b": "Fogging",
+                    "c": "Neither a nor b",
+                    "d": "Both a and b"
+                },
+                "answer": "b",
+                "explanation": "Fogging, or fog computing, is a paradigm that extends cloud computing and services to the edge of a network, closer to IoT devices."
+            },
+            {
+                "q": "Which of the following is/are the types of data with respect to sensitivity.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Time-sensitive",
+                    "b": "Less time-sensitive",
+                    "c": "Not time-sensitive",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Data can be classified based on its sensitivity to delay, including categories like time-sensitive, less time-sensitive, and not time-sensitive."
+            },
+            {
+                "q": "Who coined the term Fog computing?",
+                "year": 2025.2,
+                "options": {
+                    "a": "IBM",
+                    "b": "CISCO",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
+                },
+                "answer": "b",
+                "explanation": "Cisco Systems is widely credited with coining the term 'Fog Computing' to describe a decentralized computing architecture."
+            },
+            {
+                "q": "What of the following is an advantage of fog computing ?\n\na. Anywhere deployability\nb. Mobility",
+                "year": 2025.2,
+                "options": {
+                    "a": "only a",
+                    "b": "only b",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
+                },
+                "answer": "c",
+                "explanation": "Key advantages of fog computing include its ability to be deployed anywhere at the network edge and its support for mobile end-user devices."
+            },
+            {
+                "q": "State True or False\nOpenstack is an open-source software.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "OpenStack is a free and open-source software platform for building and managing public and private clouds."
+            },
+            {
+                "q": "To what are the fog nodes connected to?\n\na. IoT devices\nb. Cloud",
+                "year": 2025.2,
+                "options": {
+                    "a": "only a",
+                    "b": "only b",
+                    "c": "Neither a nor b",
+                    "d": "Both a and b"
+                },
+                "answer": "d",
+                "explanation": "Fog nodes serve as an intermediary layer, connecting to both the IoT devices at the edge and the centralized cloud."
+            },
+            {
+                "q": "Which of the following reduces danger and increases output?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Static analysis",
+                    "b": "Static decision making",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
+                },
+                "answer": "d",
+                "explanation": "Dynamic analysis and decision making are what help to reduce danger and increase output in real-time systems."
+            },
+            {
+                "q": "Fill in the blanks. Fog computing is an intermediate layer between __________ and __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Dew and devices",
+                    "b": "Cloud and devices",
+                    "c": "Cloud and server",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Fog computing occupies an intermediate architectural layer between the centralized cloud and the end-user devices."
+            },
+            {
+                "q": "Unnecessary sensing causes energy consumption.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Activating sensors unnecessarily is a significant cause of energy waste in battery-powered IoT devices."
+            },
+            {
+                "q": "Which of the following is used by the fog applications to increase the speed of service accessibility?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Low power",
+                    "b": "Good network connection",
+                    "c": "Accelerators",
+                    "d": "Analytics"
+                },
+                "answer": "c",
+                "explanation": "Hardware accelerators like GPUs and FPGAs can be deployed in fog nodes to speed up computation-intensive tasks and improve service speed."
+            },
+            {
+                "q": "Fill in the blank. The concept of __________ enables physical hardware to be shared among multiple entities.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Hardware virtualization",
+                    "b": "Software virtualization",
+                    "c": "Module virtualization",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Hardware virtualization is the technology that allows a single piece of physical hardware to be partitioned and shared among multiple, isolated virtual environments."
+            }
+        ],
+        "[2025.2] Assignment 10": [
+            {
+                "q": "DLNA (used in HAN standards) expands to:",
+                "year": 2025.2,
+                "options": {
+                    "a": "Digital Lifestyle Network Alliance",
+                    "b": "Digital Living Network Alliance",
+                    "c": "Digital Lifestyle Network Algorithm",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "DLNA stands for Digital Living Network Alliance, a trade organization that established standards for device interoperability in home networks."
+            },
+            {
+                "q": "Which property best characterizes V2X?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Restricted to a single source",
+                    "b": "Distributed architecture",
+                    "c": "Both a and b",
+                    "d": "Neither a nor b"
+                },
+                "answer": "b",
+                "explanation": "Vehicle-to-Everything (V2X) communication is inherently decentralized, relying on a distributed architecture of vehicles and roadside units."
+            },
+            {
+                "q": "Which set correctly captures smart-home functionality?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Health monitoring only",
+                    "b": "Security only",
+                    "c": "Both health monitoring and security",
+                    "d": "Neither"
+                },
+                "answer": "c",
+                "explanation": "Modern smart homes integrate a wide range of functions, commonly including both security systems and health monitoring capabilities."
+            },
+            {
+                "q": "Which are valid types of sensing?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Stationary",
+                    "b": "Mobile",
+                    "c": "Both a and b",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "Sensing in IoT can be performed by both stationary sensors (fixed in place) and mobile sensors (e.g., in smartphones or vehicles)."
+            },
+            {
+                "q": "Which layers are part of the Zigbee stack?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Physical and transport",
+                    "b": "MAC and transport",
+                    "c": "Network and MAC",
+                    "d": "Transport and MAC"
+                },
+                "answer": "c",
+                "explanation": "The Zigbee specification defines the Network (NWK) and Application (APL) layers, which operate on top of the MAC and Physical layers defined by IEEE 802.15.4."
+            },
+            {
+                "q": "Smart parking primarily reduces traffic __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "mobility",
+                    "b": "area",
+                    "c": "analysis",
+                    "d": "congestion"
+                },
+                "answer": "d",
+                "explanation": "By guiding drivers to available parking spots, smart parking systems reduce the time spent searching, thereby alleviating traffic congestion."
+            },
+            {
+                "q": "About Home Area Network (HAN), consider:\nI) Multi-protocol gateway bridges non-IP to IP.\nII) Wired HAN is low cost.\nIII) Wireless HAN makes implementation easy.\nWhich of these is correct?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Only I",
+                    "b": "I and II only",
+                    "c": "I and III only",
+                    "d": "I, II, and III"
+                },
+                "answer": "d",
+                "explanation": "All three statements are generally true: HANs use gateways for protocol translation, can utilize low-cost wired options, and benefit from the easy implementation of wireless technologies."
+            },
+            {
+                "q": "Which statements about smart health are true?\nI) Low-cost and portable\nII) Allows remote check-ups and diagnosis\nIII) Effortless health monitoring",
+                "year": 2025.2,
+                "options": {
+                    "a": "I only",
+                    "b": "II only",
+                    "c": "I, II, and III",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The goals of smart health technology are to create solutions that are affordable and portable, enable remote care, and provide easy, continuous health monitoring."
+            },
+            {
+                "q": "Phases of Intelligent Connected Vehicle (ICV) development include:\n\na) Based on 2G\nb) Based on 4G LTE",
+                "year": 2025.2,
+                "options": {
+                    "a": "only a",
+                    "b": "only b",
+                    "c": "Both a and b",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The evolution of ICVs has occurred in phases, with early systems based on 2G and later, more advanced systems utilizing 4G LTE for connectivity."
+            },
+            {
+                "q": "In the Ad-hoc domain of VANET, vehicles are:",
+                "year": 2025.2,
+                "options": {
+                    "a": "Stationary",
+                    "b": "Mobile",
+                    "c": "Fixed to RSUs only",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "A defining characteristic of Vehicular Ad-hoc Networks (VANETs) is the high mobility of its nodes, which are the vehicles themselves."
+            },
+            {
+                "q": "Domains of VANET include:",
+                "year": 2025.2,
+                "options": {
+                    "a": "In-vehicle and ad-hoc",
+                    "b": "Ad-hoc and data center",
+                    "c": "Data center",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "VANET communication is typically categorized into the in-vehicle domain (devices inside a car communicating) and the ad-hoc domain (vehicle-to-vehicle/infrastructure)."
+            },
+            {
+                "q": "At which data fusion stage are multiple classifier outputs combined?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Pixel level",
+                    "b": "Feature level",
+                    "c": "Signal level",
+                    "d": "Decision level"
+                },
+                "answer": "d",
+                "explanation": "Decision-level fusion combines the final outputs or decisions from multiple individual classifiers to arrive at a more accurate overall classification."
+            },
+            {
+                "q": "The Body & Brain Architecture consists of how many layers?",
+                "year": 2025.2,
+                "options": {
+                    "a": "1",
+                    "b": "2",
+                    "c": "3",
+                    "d": "4"
+                },
+                "answer": "c",
+                "explanation": "The Body & Brain Architecture for intelligent vehicles is a three-layer model consisting of the vehicle platform, driving brain, and cloud brain."
+            },
+            {
+                "q": "Which statement about smart home infrastructure is correct?",
+                "year": 2025.2,
+                "options": {
+                    "a": "It cannot include wireless devices.",
+                    "b": "It may include wired and/or wireless devices.",
+                    "c": "It must be wireless-only.",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Smart home infrastructures are typically heterogeneous, incorporating a mix of both wired (like Ethernet) and wireless (like Wi-Fi, Zigbee, Z-Wave) devices."
+            },
+            {
+                "q": "Intelligent Connected Vehicles (ICV) communication is based on:",
+                "year": 2025.2,
+                "options": {
+                    "a": "Dedicated Short Range Communication",
+                    "b": "Directed Short Range Communication",
+                    "c": "Dedicated Small Range Communication",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "DSRC (Dedicated Short-Range Communications) is a wireless communication standard designed specifically for automotive use in V2X systems."
+            }
+        ],
+        "[2025.2] Assignment 11": [
+            {
+                "q": "What are some of the other names of the smart grids?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Energy internet",
+                    "b": "Electricity with a hand",
+                    "c": "Electrolyte",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Smart grids are also known by terms like Electricity with a brain, Energy internet, and Electronet."
+            },
+            {
+                "q": "Which of the following is not done in traditional electrical grids?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Manual energy monitoring",
+                    "b": "Unidirectional energy distribution",
+                    "c": "Unidirectional communication",
+                    "d": "Distributed power plants"
+                },
+                "answer": "d",
+                "explanation": "In Traditional electrical grids, the energy generation is done in centralised power plants."
+            },
+            {
+                "q": "Which of the following is a benefit associated with smart grids for customers?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Reduced transmission of electricity",
+                    "b": "Higher electricity rates",
+                    "c": "Less security",
+                    "d": "Different pricing options"
+                },
+                "answer": "d",
+                "explanation": "Smart Grids can provide different pricing options for customers, potentially lower electricity rates, and improved security."
+            },
+            {
+                "q": "Fill in the blank.\n__________ samples voltage and current with a fixed sample rate at the installed location.",
+                "year": 2025.2,
+                "options": {
+                    "a": "PEVs",
+                    "b": "DAUs",
+                    "c": "PMUs",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "PMUs or Phasor Measurement Units sample voltage and current with a fixed sample rate at the installed location."
+            },
+            {
+                "q": "Which of the following statements are true about MDMSs?\nStatement I: Decide the price per unit energy to be paid by the customers\nStatement II: Handled by the energy service providers\nStatement III: Aggregate the energy consumption or energy request of certain geographical area",
+                "year": 2025.2,
+                "options": {
+                    "a": "Statements I and II",
+                    "b": "Statements I and III",
+                    "c": "Statements II and III",
+                    "d": "Statements I, II and III"
+                },
+                "answer": "a",
+                "explanation": "The Meter Data Management Systems (MDMS) are handled by energy service providers and process data used to decide the price per unit of energy."
+            },
+            {
+                "q": "Which of the following aggregate the energy consumption or energy request of a certain geographical area?",
+                "year": 2025.2,
+                "options": {
+                    "a": "DAUs",
+                    "b": "Meter Data Management System",
+                    "c": "Buffer",
+                    "d": "None of these"
+                },
+                "answer": "a",
+                "explanation": "DAUs (Data Aggregator Units) aggregate the energy consumption or energy request of a certain geographical area."
+            },
+            {
+                "q": "Which of the following statements are true about Dynamic System Attacks?\nStatement I: Replay attacks compromises sensors and monitors their outputs.\nStatement II: D-DIA can lead to a system collapse.\nStatement III: Covert attack is a closed loop version of replay attacks.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Statements I and II",
+                    "b": "Statements I and III",
+                    "c": "Statements II and III",
+                    "d": "Statement I, II and III"
+                },
+                "answer": "d",
+                "explanation": "All three statements are true: Replay attacks compromise sensors, D-DIA can cause system collapse, and a covert attack is a form of replay attack."
+            },
+            {
+                "q": "Fill in the blank.\n__________ is performed by compromising the availability of the grid component.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Gateway",
+                    "b": "Data injection attacks",
+                    "c": "AMH",
+                    "d": "Denial of service"
+                },
+                "answer": "d",
+                "explanation": "Denial of service attacks are performed by compromising the availability of a grid component."
+            },
+            {
+                "q": "Fill in the blank.\n__________ is a primary challenge in IIoT.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Worker health and safety",
+                    "b": "Optimised operations",
+                    "c": "Regulatory compliance",
+                    "d": "Integrate existing infrastructure into new IIoT infrastructure"
+                },
+                "answer": "d",
+                "explanation": "Integrating existing infrastructure into new IIoT infrastructure is one of the primary challenges of IIoT."
+            },
+            {
+                "q": "Fill in the blank.\n__________ is based on a wrap and re-use approach.",
+                "year": 2025.2,
+                "options": {
+                    "a": "AoT",
+                    "b": "PoT",
+                    "c": "ToII",
+                    "d": "IIoT"
+                },
+                "answer": "d",
+                "explanation": "IIoT is based on the wrap and re-use approach, where existing machinery is retrofitted with sensors rather than being fully replaced."
+            },
+            {
+                "q": "Mechanized production is a part of the 4th Industrial Revolution.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Mechanized production is a part of the 1st Industrial Revolution."
+            },
+            {
+                "q": "Which of the following happened in the 3rd Revolution?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Mass production",
+                    "b": "IIoT",
+                    "c": "Mechanized production",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Internet evolution and automation happened in the 3rd Revolution."
+            },
+            {
+                "q": "Which of the following is not a vulnerability of Smart Grid?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Integrity",
+                    "b": "Physical threats",
+                    "c": "Dynamic system attacks",
+                    "d": "None of these"
+                },
+                "answer": "d",
+                "explanation": "Integrity, physical threats and dynamic system attacks are all vulnerabilities of smart grids."
+            },
+            {
+                "q": "Big data is characterized by 7 Vs.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "Big data is often characterized by multiple Vs, commonly including Volume, Velocity, Variety, Veracity, Value, Variability, and Visualization."
+            },
+            {
+                "q": "What is the Flow of data?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Acquisition>Generation>Storage>Analysis",
+                    "b": "Generation>Storage>Analysis>Acquisition",
+                    "c": "Generation>Acquisition>Storage>Analysis",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The flow of the data is Generation, Acquisition, Storage and Analysis."
+            }
+        ],
+        "[2025.2] Assignment 12": [
+            {
+                "q": "The two types of data analysis are __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Qualitative and Quantitative",
+                    "b": "Repetitive and Quantitative",
+                    "c": "Repetitive and Qualitative",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Qualitative and Quantitative are the two main types of data analysis."
+            },
+            {
+                "q": "Fill in the blank.\nTo perform an ANOVA, we must have a __________ response variable and at least one __________ factor.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Discrete, categorical",
+                    "b": "Continuous, quantitative",
+                    "c": "Discrete, quantitative",
+                    "d": "Continuous, categorical"
+                },
+                "answer": "d",
+                "explanation": "To perform an ANOVA, we must have a continuous response variable and at least one categorical factor."
+            },
+            {
+                "q": "Select the statement(s) that denote the type of ANOVA.\nStatement I: One way analysis\nStatement II: Two way analysis\nStatement III: K-way analysis",
+                "year": 2025.2,
+                "options": {
+                    "a": "Statement I",
+                    "b": "Statement II",
+                    "c": "Statements I, II, and III",
+                    "d": "None of these"
+                },
+                "answer": "c",
+                "explanation": "The types of ANOVA include One way analysis, Two way analysis and K-way analysis."
+            },
+            {
+                "q": "What is the type of the data dispersion?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Range",
+                    "b": "Average absolute deviation",
+                    "c": "Variance",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Range, average absolute deviation, and variance are all types of data dispersion measures."
+            },
+            {
+                "q": "The two most relevant sensors directly used in agricultures are __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Soil moisture and proximity sensor",
+                    "b": "Soil moisture and water level sensor",
+                    "c": "ECG sensor and water level sensor",
+                    "d": "All of these"
+                },
+                "answer": "b",
+                "explanation": "Soil moisture and water level sensors are the necessary sensors generally used in agriculture."
+            },
+            {
+                "q": "The mathematical equation that is formulated in the form of relationships between variables is known as __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Logical model",
+                    "b": "Relational model",
+                    "c": "Data dispersion",
+                    "d": "Statistical model"
+                },
+                "answer": "d",
+                "explanation": "The mathematical equation that is formulated in the form of relationships between variables is known as a Statistical model."
+            },
+            {
+                "q": "What are the two types of statistical models?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Qualitative and quantitative",
+                    "b": "Complete and incomplete",
+                    "c": "Regression and dispersion",
+                    "d": "None of these"
+                },
+                "answer": "b",
+                "explanation": "Complete and incomplete are two types of statistical models."
+            },
+            {
+                "q": "Select the correct order of the component layers present in the IoT healthcare.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensing layer, cloud platform layer, aggregated layer, processing layer",
+                    "b": "Sensing layer, aggregated layer, processing layer, cloud platform layer",
+                    "c": "Aggregated layer, sensing layer, processing layer, cloud platform layer",
+                    "d": "Sensing layer, processing layer, aggregated layer, cloud platform layer"
+                },
+                "answer": "b",
+                "explanation": "The sensing layer senses data and transmit it to the aggregation layer, which then transfers the data to the processing layer before it is finally sent to the cloud platform."
+            },
+            {
+                "q": "Wireless IoT driven solutions for remote healthcare facility provisioning brings healthcare to patients than bringing patients to healthcare.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "a",
+                "explanation": "In IoT healthcare, wireless IoT driven solutions brings healthcare to patients rather than bringing patients to healthcare."
+            },
+            {
+                "q": "Which of the following handheld devices are used for activity monitoring?",
+                "year": 2025.2,
+                "options": {
+                    "a": "EEG and GPS",
+                    "b": "Accelerometer and EEG",
+                    "c": "Accelerometer and GPS",
+                    "d": "All of these"
+                },
+                "answer": "c",
+                "explanation": "High end smartphones and wearables are likely to have an accelerometer and GPS for activity tracking."
+            },
+            {
+                "q": "Which of the following are components of IoT?",
+                "year": 2025.2,
+                "options": {
+                    "a": "Sensing layer",
+                    "b": "Aggregated layer",
+                    "c": "Processing layer",
+                    "d": "All of these"
+                },
+                "answer": "d",
+                "explanation": "Sensing layer, Aggregated layer, Processing layer and cloud platform are components of IoT."
+            },
+            {
+                "q": "By performing continuous monitoring of a person's activity, it is not possible to observe his/her behavior or to identify any repetitive pattern in his/her day-to-day activity.",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Continuous monitoring of activity results in daily observations of human behavior and repetitive patterns in their activity."
+            },
+            {
+                "q": "Deep learning based data analysis cannot be performed on videos",
+                "year": 2025.2,
+                "options": {
+                    "a": "True",
+                    "b": "False"
+                },
+                "answer": "b",
+                "explanation": "Deep learning based data analysis can be done on sensor data, images and videos."
+            },
+            {
+                "q": "Which of the following are the inbuilt sensors that are present in high end smartphones?",
+                "year": 2025.2,
+                "options": {
+                    "a": "ECG and EEG",
+                    "b": "Accelerometer, proximity sensor, and EEG",
+                    "c": "Accelerometer, Compass, and Gyroscope",
+                    "d": "Pressure sensor and NPK sensor"
+                },
+                "answer": "c",
+                "explanation": "High end smartphones are likely to have an accelerometer, compass, and gyroscope."
+            },
+            {
+                "q": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for __________.",
+                "year": 2025.2,
+                "options": {
+                    "a": "Fall detection",
+                    "b": "Heart rate detection",
+                    "c": "Vehicle detection",
+                    "d": "All of these"
+                },
+                "answer": "a",
+                "explanation": "Processing the handheld activity device data with artificial intelligence can be used for detecting sudden fall of a person."
             }
         ]
     },

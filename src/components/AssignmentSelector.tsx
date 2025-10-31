@@ -26,7 +26,7 @@ const AssignmentSelector: React.FC<AssignmentSelectorProps> = ({ assignments, on
 
     // Filter questions to only include those with year === 2025 (or undefined, which defaults to 2025)
     return assignments[assignmentKey].filter((question: Question) =>
-      question.year === undefined || question.year === 2025
+      question.year === undefined || question.year === 2025 || question.year === 2025.2 || question.year === 2025.1
     );
   };
 
@@ -37,8 +37,8 @@ const AssignmentSelector: React.FC<AssignmentSelectorProps> = ({ assignments, on
         <button
           onClick={toggle2025Mode}
           className={`px-4 py-2 rounded-full font-medium text-sm transition duration-300 ease-in-out ${show2025Only
-              ? `${isDarkMode ? 'bg-purple-700 text-white' : 'bg-purple-600 text-white'}`
-              : `${isDarkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-200 text-gray-700'}`
+            ? `${isDarkMode ? 'bg-purple-700 text-white' : 'bg-purple-600 text-white'}`
+            : `${isDarkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-200 text-gray-700'}`
             }`}
         >
           {show2025Only ? '2025 Only: ON' : 'Toggle 2025 Only'}
