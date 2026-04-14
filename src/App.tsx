@@ -6,6 +6,13 @@ import { useDarkMode } from './contexts/DarkModeContext';
 
 const SUBJECTS = [
   {
+    id: 'Understanding Incubation and Entrepreneurship',
+    title: 'Understanding Incubation and Entrepreneurship',
+    description: 'Learn about entrepreneurship fundamentals, startup incubation, business planning, and strategies for launching successful ventures',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000',
+    icon: BookOpen
+  },
+  {
     id: 'Introduction to Cognitive Psychology',
     title: 'Introduction to Cognitive Psychology',
     description: 'Study of mental processes including perception, attention, memory, language, problem solving, and decision making',

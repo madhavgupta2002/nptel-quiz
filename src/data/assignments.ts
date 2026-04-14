@@ -4049,7 +4049,6 @@ export const assignment: Assignment = {
             }
         ]
     },
-
     "Introduction to Internet of Things": {
         "[2024.2] Assignment 0": [
             {
@@ -31905,6 +31904,1239 @@ export const assignment: Assignment = {
                 "explanation": "The sunk cost effect is the tendency to continue an endeavor as a result of previously invested resources (time, money, or effort), even when it's no longer rational."
             }
         ]
+    },
+    "Understanding Incubation and Entrepreneurship": {
+        "Assignment 1": [
+            {
+                "q": "What makes an idea valuable even if it fails?",
+                "options": {
+                    "a": "Avoiding collaboration to prevent shared blame",
+                    "b": "Gaining valuable lessons and insights from the failure",
+                    "c": "Shifting focus to unrelated projects immediately",
+                    "d": "Disregarding accountability and blaming external factors"
+                },
+                "answer": "b",
+                "explanation": "In the startup ecosystem, 'failing fast' is a strategy. Failure provides empirical data about market preferences and technical limitations, which are essential for a successful 'pivot' later."
+            },
+            {
+                "q": "What are some key characteristics essential for a business to achieve success?",
+                "options": {
+                    "a": "The ability to balance expenses while maintaining product quality",
+                    "b": "Ignoring customer feedback to prioritize internal goals",
+                    "c": "Strategic planning and adaptability to market changes",
+                    "d": "Focusing solely on profit maximization"
+                },
+                "answer": "c",
+                "explanation": "Success requires a balance of long-term vision (strategic planning) and short-term agility (adaptability) to survive volatile market conditions and competitive shifts."
+            },
+            {
+                "q": "What are the primary objectives of selling a product or service, and how do these address customer needs?",
+                "options": {
+                    "a": "Identifying and fulfilling customer and market needs",
+                    "b": "Maximizing profits through aggressive pricing strategies",
+                    "c": "Focusing on complex promotional campaigns",
+                    "d": "Offering discounts to increase sales"
+                },
+                "answer": "a",
+                "explanation": "Modern entrepreneurship shifts from 'product-out' (selling what you made) to 'market-in' (making what customers need). True value is created when a product solves a specific customer 'pain point'."
+            },
+            {
+                "q": "What makes an idea “disruptive”?",
+                "options": {
+                    "a": "Maintaining the existing state and avoiding innovation",
+                    "b": "Imitating successful competitors to gain market share",
+                    "c": "Introducing changes that challenge existing market norms",
+                    "d": "Strictly adhering to traditional market standards"
+                },
+                "answer": "c",
+                "explanation": "Disruptive innovation (a term coined by Clayton Christensen) refers to technology or business models that create new markets or value networks, eventually displacing established market leaders."
+            },
+            {
+                "q": "How does entrepreneurship contribute to economic growth?",
+                "options": {
+                    "a": "By developing robust business models without innovation",
+                    "b": "By focusing solely on customer validation and discovery",
+                    "c": "By identifying and solving market problems effectively",
+                    "d": "By avoiding competitive risks through market isolation"
+                },
+                "answer": "c",
+                "explanation": "Entrepreneurs act as agents of 'creative destruction.' By solving problems, they create jobs, increase competition, and introduce efficiencies that drive overall GDP growth."
+            },
+            {
+                "q": "What is emphasized in the Lean Startup methodology for product development?",
+                "options": {
+                    "a": "Graduation degrees as a prerequisite for entrepreneurship",
+                    "b": "Rigid execution of initial business plans",
+                    "c": "Financial optimization over product innovation",
+                    "d": "Continuous learning and validation through customer feedback"
+                },
+                "answer": "d",
+                "explanation": "The Lean Startup method, popularized by Eric Ries, focuses on 'Validated Learning.' Instead of building a full product in isolation, startups build a Minimum Viable Product (MVP) to test assumptions immediately."
+            },
+            {
+                "q": "What are the key objectives of the Lean Startup methodology when launching a new product or service?",
+                "options": {
+                    "a": "Customer validation and iterative development",
+                    "b": "Company building without market analysis",
+                    "c": "Rapid scaling and long-term planning",
+                    "d": "Agile engineering without customer feedback"
+                },
+                "answer": "a",
+                "explanation": "The objective is to minimize the time spent in the 'Build-Measure-Learn' loop. Iterative development ensures the product evolves based on actual user behavior rather than guesses."
+            },
+            {
+                "q": "How do institutions foster innovation and entrepreneurship effectively?",
+                "options": {
+                    "a": "By connecting academic research to practical applications in the market",
+                    "b": "By focusing exclusively on theoretical research",
+                    "c": "By isolating themselves from marketplace collaborations",
+                    "d": "By discouraging experimentation within the institution"
+                },
+                "answer": "a",
+                "explanation": "Successful incubators bridge the 'Valley of Death'—the gap between laboratory research (academic) and commercialized products (market)."
+            },
+            {
+                "q": "How can evidence-based entrepreneurship be defined and applied effectively?",
+                "options": {
+                    "a": "By utilizing validated learning through continuous experimentation and data analysis",
+                    "b": "By implementing the Build-Measure-Learn cycle to iteratively develop and improve products",
+                    "c": "By making decisions based on empirical evidence rather than assumptions",
+                    "d": "By regularly engaging with customers to gather feedback and validate ideas"
+                },
+                "answer": "c",
+                "explanation": "Evidence-based entrepreneurship applies the scientific method to business. Every business plan is treated as a set of hypotheses that must be proven through experiments and data."
+            },
+            {
+                "q": "What are some common mistakes startups make?",
+                "options": {
+                    "a": "Adopting the Lean Startup methodology",
+                    "b": "Focusing too much on the product and neglecting the market",
+                    "c": "Developing solutions without engaging potential customers",
+                    "d": "Preparing a business plan and estimating market size"
+                },
+                "answer": "b, c",
+                "explanation": "The most common failure is 'Building something nobody wants.' This happens when founders fall in love with their solution (engineering focus) rather than the customer's problem (market focus)."
+            }
+        ],
+        "Assignment 2": [
+            {
+                "q": "What can be the main reason for the failure of a startup?",
+                "options": {
+                    "a": "No real need for the product or service",
+                    "b": "A skilled and experienced team",
+                    "c": "Having sufficient investors and funding",
+                    "d": "Offering a user-friendly product"
+                },
+                "answer": "a",
+                "explanation": "According to research, 'No Market Need' is the #1 cause of failure (approx. 42%). If there is no demand, even the best team and funding cannot save the venture."
+            },
+            {
+                "q": "Which among the following could be a crucial factor in a team’s unity and success?",
+                "options": {
+                    "a": "Individual achievements",
+                    "b": "Lack of diversity",
+                    "c": "Frequent disagreements",
+                    "d": "Shared vision and common ideology"
+                },
+                "answer": "d",
+                "explanation": "While skills can be hired, a 'Shared Vision' ensures the team stays together during the inevitable hardships of the startup journey."
+            },
+            {
+                "q": "What are the key objectives of startup founders when launching a product?",
+                "options": {
+                    "a": "Achieving rapid market entry without validation",
+                    "b": "Iterative development and customer-centric learning",
+                    "c": "Long-term planning without short-term feedback",
+                    "d": "Building internal teams over market exploration"
+                },
+                "answer": "b",
+                "explanation": "Launching is not the end goal; it is the beginning of the 'learning' phase. Founders use early launches to gather data and refine the product."
+            },
+            {
+                "q": "How do customer interactions contribute to effectively identifying and addressing market needs?",
+                "options": {
+                    "a": "By gathering direct feedback on products and services",
+                    "b": "By uncovering customer pain points and preferences",
+                    "c": "By validating business ideas and assumptions",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Customer discovery is a multi-dimensional process. It reveals not just what they want, but *why* they want it, which helps in refining the 'Value Proposition'."
+            },
+            {
+                "q": "What role do early adopters play in helping a company refine its products or services?",
+                "options": {
+                    "a": "Assist in marketing the product to a broader audience",
+                    "b": "Provide critical feedback to improve the product",
+                    "c": "Expand production capacity to meet demands",
+                    "d": "Offer financial support for scaling operations"
+                },
+                "answer": "b",
+                "explanation": "Early adopters are users who feel the 'pain' so severely that they are willing to use an unpolished, buggy product. Their feedback is the most honest and useful for product development."
+            },
+            {
+                "q": "Which misconception can mislead startup founders during the growth phase?",
+                "options": {
+                    "a": "Securing funding guarantees success",
+                    "b": "Scaling the team strategically",
+                    "c": "Prioritizing customer needs over product development",
+                    "d": "Focusing on team-building over business goals"
+                },
+                "answer": "a",
+                "explanation": "Funding is 'fuel,' not the 'engine.' If the business model is broken (no unit economics), more funding simply accelerates the failure."
+            },
+            {
+                "q": "Who plays the most crucial role in validating the success of a startup's product or service?",
+                "options": {
+                    "a": "The founder",
+                    "b": "The investors",
+                    "c": "The customers",
+                    "d": "The marketing teams"
+                },
+                "answer": "c",
+                "explanation": "Success is ultimately defined by 'Product-Market Fit,' which only happens when customers are willing to pay for and use the solution."
+            },
+            {
+                "q": "What actions should founders take when faced with stagnation in progress?",
+                "options": {
+                    "a": "Reevaluate the business strategy and pivot if necessary",
+                    "b": "Increase marketing efforts and budget",
+                    "c": "Ignore the issue and hope for improvement",
+                    "d": "Cut down on expenses and reduce team size"
+                },
+                "answer": "a",
+                "explanation": "Stagnation often indicates that the current approach has hit a limit. A 'pivot' (changing a core part of the business model while keeping the vision) is a standard entrepreneurial response."
+            },
+            {
+                "q": "What characteristics are essential for a startup team to achieve long-term success?",
+                "options": {
+                    "a": "Strong leadership and vision",
+                    "b": "Effective communication and collaboration",
+                    "c": "Ignoring customer feedback's and focusing on company vision",
+                    "d": "Limited market research and focusing on advertisement"
+                },
+                "answer": "a, b",
+                "explanation": "Entrepreneurship is a team sport. Vision provides the direction, while collaboration provides the operational strength to execute that vision."
+            },
+            {
+                "q": "What is an essential quality that startup founders must possess?",
+                "options": {
+                    "a": "Strong belief in the startup's vision",
+                    "b": "Pursuit of endless funding",
+                    "c": "Rapid product development skills",
+                    "d": "Exceptional programming expertise"
+                },
+                "answer": "a",
+                "explanation": "Founders must have 'grit' and conviction. Because they will face constant rejection and failure, a strong belief in the vision is necessary to persevere."
+            }
+        ],
+        "Assignment 3": [
+            {
+                "q": "What role does empathy play while designing a product?",
+                "options": {
+                    "a": "Enhances aesthetics",
+                    "b": "Reduces manufacturing costs",
+                    "c": "Fosters competition among designers",
+                    "d": "Promotes user-centered design"
+                },
+                "answer": "d",
+                "explanation": "Empathy is the first stage of Design Thinking. It requires the designer to set aside their own assumptions to truly understand the emotional and physical needs of the user."
+            },
+            {
+                "q": "What characteristics are crucial for building an ideal team?",
+                "options": {
+                    "a": "A varied skill set and diverse perspectives",
+                    "b": "Singular expertise in a specific domain",
+                    "c": "Limited experience and collaboration",
+                    "d": "A homogeneous team with similar backgrounds"
+                },
+                "answer": "a",
+                "explanation": "Homogeneous teams suffer from 'groupthink.' Diverse teams (cross-functional) bring different perspectives that lead to better problem-solving and innovation."
+            },
+            {
+                "q": "Why is it important to take a product category approach instead of a single-product approach?",
+                "options": {
+                    "a": "Encourages risk diversification and adaptability",
+                    "b": "Focuses solely on cost-cutting measures",
+                    "c": "Reduces customer engagement and feedback",
+                    "d": "Limits the scope of market exploration"
+                },
+                "answer": "a",
+                "explanation": "Markets change. By focusing on a category (e.g., 'sustainable transport') rather than a single product (e.g., 'one specific e-bike model'), a company can adapt its offerings as technology evolves."
+            },
+            {
+                "q": "What are the key qualities that each team member must possess when working as a team?",
+                "options": {
+                    "a": "Flexibility and willingness to adapt",
+                    "b": "Lowering ego and collaborating effectively",
+                    "c": "Taking specific roles to solve problems",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Effective teams require a balance of specialized skills (roles) and the psychological maturity (low ego) to work toward a common goal."
+            },
+            {
+                "q": "What are the key elements essential for creating a clear and concise design brief?",
+                "options": {
+                    "a": "Functional and user requirements",
+                    "b": "Budget estimates and target audience",
+                    "c": "Project timeline and brand vision",
+                    "d": "Comprehensive technical specifications"
+                },
+                "answer": "a",
+                "explanation": "A design brief must define *what* the product needs to do (functional) and *who* it is for (user). Without these, the design process lacks direction."
+            },
+            {
+                "q": "What is the importance of collaborative design in product development?",
+                "options": {
+                    "a": "Facilitates resource sharing and expertise integration",
+                    "b": "Streamlines manufacturing processes",
+                    "c": "Enhances aesthetic appeal of the product",
+                    "d": "Simplifies administrative tasks"
+                },
+                "answer": "a",
+                "explanation": "Collaborative design (co-creation) involves stakeholders, engineers, and users. This integration prevents costly redesigns by identifying constraints early in the process."
+            },
+            {
+                "q": "How can using regulatory barriers help in product design?",
+                "options": {
+                    "a": "Simplifies administrative processes",
+                    "b": "Encourages unrestricted innovation",
+                    "c": "Ensures public health protection and legal compliance",
+                    "d": "Promotes informal market practices"
+                },
+                "answer": "c",
+                "explanation": "In sectors like MedTech or FinTech, regulatory barriers act as a quality control. Designing with these in mind ensures the product is safe and 'market-ready' for regulated environments."
+            },
+            {
+                "q": "Which element is essential for crafting an effective problem statement?",
+                "options": {
+                    "a": "Providing a detailed solution",
+                    "b": "Defining the problem clearly",
+                    "c": "Establishing a strict budget",
+                    "d": "Highlighting only the team's capabilities"
+                },
+                "answer": "b",
+                "explanation": "A well-defined problem is half-solved. A problem statement should focus on the 'gap' between the current state and the desired state, without prematurely jumping to a solution."
+            },
+            {
+                "q": "What is a crucial factor in driving successful innovation within an organization?",
+                "options": {
+                    "a": "Strict compliance with established procedures",
+                    "b": "Competition between internal teams",
+                    "c": "Interdisciplinary collaboration",
+                    "d": "Extensive financial resources"
+                },
+                "answer": "c",
+                "explanation": "Innovation happens at the intersection of different fields. Combining insights from biology and engineering (Biomimicry) or psychology and economics (Behavioral Economics) leads to breakthroughs."
+            },
+            {
+                "q": "Identify the term used for “Previously granted patents and published patent applications.”",
+                "options": {
+                    "a": "Prior art",
+                    "b": "Reference documents",
+                    "c": "Past literature",
+                    "d": "Intellectual archives"
+                },
+                "answer": "a",
+                "explanation": "Prior Art is any evidence that your invention is already known. A patent can only be granted if the invention is 'novel' and 'non-obvious' compared to all existing prior art."
+            }
+        ],
+        "Assignment 4": [
+            {
+                "q": "What could cause a startup to fail despite having an innovative product?",
+                "options": {
+                    "a": "Addressing user pain points effectively",
+                    "b": "Prioritizing customer satisfaction",
+                    "c": "Lack of understanding of customer needs",
+                    "d": "Regular customer feedback for product improvement"
+                },
+                "answer": "c",
+                "explanation": "Innovative technology does not equal a business. If the innovation doesn't solve a problem the customer actually cares about, the startup will fail to gain traction."
+            },
+            {
+                "q": "Which of the following best captures the essence of the ‘outside-in thinking’ approach in product design?",
+                "options": {
+                    "a": "Creating products that cater to customer requirements",
+                    "b": "Enhancing internal operational processes",
+                    "c": "Focusing on excessive engineering solutions",
+                    "d": "Disregarding customer feedback in decision-making"
+                },
+                "answer": "a",
+                "explanation": "Inside-out thinking focuses on what the company is good at. Outside-in thinking focuses on the customer's world and designs the company around those needs."
+            },
+            {
+                "q": "In which areas do startups face challenges during their early stages?",
+                "options": {
+                    "a": "Scaling the business quickly",
+                    "b": "Building a skilled and cohesive team",
+                    "c": "Acquiring venture capital easily",
+                    "d": "Creating an effective marketing strategy"
+                },
+                "answer": "b",
+                "explanation": "Early-stage startups often lack the 'employer brand' to attract top talent. Finding people who believe in the mission enough to work for low pay and high risk is a major hurdle."
+            },
+            {
+                "q": "What strategies can effectively promote sustainable products in rural markets?",
+                "options": {
+                    "a": "Social media campaigns targeting urban audiences",
+                    "b": "Distribution through government schemes",
+                    "c": "Online marketing through digital platforms",
+                    "d": "Door-to-door sales in urban regions"
+                },
+                "answer": "b",
+                "explanation": "In many developing nations, rural markets have poor infrastructure. Leveraging existing government distribution networks or schemes is often the most cost-effective way to reach these customers."
+            },
+            {
+                "q": "What are some effective strategies to increase awareness about sustainable products?",
+                "options": {
+                    "a": "Collaborating with influential figures and forming partnerships",
+                    "b": "Solely relying on multi-level marketing and digital advertisements",
+                    "c": "Hosting engaging and interactive demonstrations",
+                    "d": "Building and educating communities"
+                },
+                "answer": "a, c, d",
+                "explanation": "Sustainability often requires a change in user behavior. This is best achieved through education, community engagement, and seeing the product in action (demonstrations)."
+            },
+            {
+                "q": "How can pricing strategies improve the accessibility and financial viability of sustainable products?",
+                "options": {
+                    "a": "Offering direct sales without intermediaries",
+                    "b": "Government subsidies for eco-friendly products",
+                    "c": "Encouraging bulk orders from organizations",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Sustainability often comes with a 'green premium' (higher cost). To make these products accessible, businesses must use innovative pricing, subsidies, and efficient supply chains."
+            },
+            {
+                "q": "What factors are critical for a startup to attract investors?",
+                "options": {
+                    "a": "Demonstrating a real and solvable problem",
+                    "b": "Ignoring competition in the market",
+                    "c": "Focusing solely on futuristic technology",
+                    "d": "Providing vague or exaggerated solutions"
+                },
+                "answer": "a",
+                "explanation": "Investors look for 'Scalable Problem-Solution Fit.' They want to see that you have identified a massive problem and have a viable, unique way to solve it."
+            },
+            {
+                "q": "What key considerations should businesses keep in mind when entering a new market?",
+                "options": {
+                    "a": "Understanding the cultural and economic environment",
+                    "b": "Avoiding market research and going with instincts",
+                    "c": "Ignoring local regulations and norms",
+                    "d": "Relying solely on existing products and services without adaptation"
+                },
+                "answer": "a",
+                "explanation": "Market entry fails when companies assume what worked in one region will work in another. Local customs, purchasing power, and laws must dictate the strategy."
+            },
+            {
+                "q": "How are urgent or active problems identified on the problem recognition scale?",
+                "options": {
+                    "a": "By ignoring the problem entirely",
+                    "b": "Recognizing a problem and actively seeking a solution",
+                    "c": "Recognizing a problem but refusing to act on it",
+                    "d": "Adjusting to the problem without solving it"
+                },
+                "answer": "b",
+                "explanation": "Active problems are the 'holy grail' for entrepreneurs because the customer is already looking for a solution and is ready to pay for it immediately."
+            },
+            {
+                "q": "In the passive problem stage, what defines an individual's awareness of a problem on the problem recognition scale?",
+                "options": {
+                    "a": "No awareness of the problem exists",
+                    "b": "Awareness of the problem but no motivation to change",
+                    "c": "Motivation to change without understanding the problem",
+                    "d": "Recognizing the problem but being unable to act on it"
+                },
+                "answer": "b",
+                "explanation": "In a passive stage, the customer knows the problem exists but 'lives with it.' Entrepreneurs must educate these customers on the cost of inaction to convert them into buyers."
+            }
+        ],
+        "Assignment 5": [
+            {
+                "q": "What strategies are crucial for converting academic research into practical societal benefits?",
+                "options": {
+                    "a": "Establishing obstacles to innovation",
+                    "b": "Partnering with industries to link research with real-world applications",
+                    "c": "Keeping research results confidential",
+                    "d": "Engaging in rivalry with industries to demonstrate academic dominance"
+                },
+                "answer": "b",
+                "explanation": "University-Industry collaboration ensures that research is not just 'knowledge for the sake of knowledge' but is focused on commercial feasibility and scalability."
+            },
+            {
+                "q": "Why are investors often reluctant to invest in healthcare product startups?",
+                "options": {
+                    "a": "High profit margins in the industry",
+                    "b": "Poor success rates of medical devices",
+                    "c": "Rapidly growing demand for medical devices",
+                    "d": "Shorter research and development cycles"
+                },
+                "answer": "b",
+                "explanation": "Healthcare has high R&D costs, long regulatory cycles (FDA/CE), and complex 'payer-provider' models, making it a high-risk sector for traditional venture capital."
+            },
+            {
+                "q": "What initial step is crucial for developing a successful design solution?",
+                "options": {
+                    "a": "Identifying the problem and understanding functional requirements",
+                    "b": "Planning marketing campaigns and advertising strategies",
+                    "c": "Conducting employee training and managing resources",
+                    "d": "Securing Intellectual Property Rights and patents"
+                },
+                "answer": "a",
+                "explanation": "Functional requirements define what the solution must do. Without these, the project suffers from 'scope creep' and fails to address the root problem."
+            },
+            {
+                "q": "What role did telemedicine play in improving healthcare during global pandemics?",
+                "options": {
+                    "a": "Increased healthcare costs without benefits",
+                    "b": "Reduced the strain on physical healthcare facilities",
+                    "c": "Created barriers for patient access to care",
+                    "d": "Complicated the delivery of medical services"
+                },
+                "answer": "b",
+                "explanation": "Telemedicine acted as a 'force multiplier,' allowing doctors to triage patients remotely and preventing clinics from becoming 'superspreader' locations."
+            },
+            {
+                "q": "What is the main purpose of pilot production in the development process?",
+                "options": {
+                    "a": "Generating marketing and advertising content",
+                    "b": "Testing and adapting design features based on user feedback",
+                    "c": "Filing for patents before large-scale production",
+                    "d": "Conducting research in controlled lab environments"
+                },
+                "answer": "b",
+                "explanation": "Pilot production is a 'small scale' run to identify manufacturing defects and usability issues before investing in expensive mass-production tooling."
+            },
+            {
+                "q": "At which point in the innovation process should businesses prioritize securing Intellectual Property Rights (IPR) to protect their inventions?",
+                "options": {
+                    "a": "During the initial idea conception",
+                    "b": "After developing a working prototype",
+                    "c": "Before commercializing the product",
+                    "d": "Once the product is widely available in the market"
+                },
+                "answer": "c",
+                "explanation": "Filing for IPR too early might reveal your secrets before you have a finished product; filing too late means someone else might steal it. The sweet spot is when the invention is 'complete' but not yet public."
+            },
+            {
+                "q": "Who is eligible to obtain licenses for Intellectual Property Rights (IPR)?",
+                "options": {
+                    "a": "Start-ups only",
+                    "b": "Industry professionals only",
+                    "c": "Non-Governmental Organizations (NGOs) only",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "IPR licensing is a legal contract. Any legal entity that can enter a contract can license IP to generate revenue or use a technology."
+            },
+            {
+                "q": "What does TRL stand for in the context of innovation and development?",
+                "options": {
+                    "a": "Technology Readiness Levels",
+                    "b": "Transition and Research Limits",
+                    "c": "Technological Resource Level",
+                    "d": "Test and Reliability Levels"
+                },
+                "answer": "a",
+                "explanation": "TRL is a scale (1-9) developed by NASA to estimate the maturity of a technology. TRL 1 is basic principles; TRL 9 is a system proven in a successful mission."
+            },
+            {
+                "q": "What key aspect should be prioritized when developing a Proof of Concept (POC)?",
+                "options": {
+                    "a": "Demonstrating functional feasibility",
+                    "b": "Implementing industrial techniques for scalability",
+                    "c": "Securing patent protection during initial stages",
+                    "d": "Brainstorming creative ideas without practical implementation"
+                },
+                "answer": "a",
+                "explanation": "A POC is not a finished product. Its only goal is to prove that the 'core idea' actually works technically. It answers the question: 'Can we build this?'"
+            },
+            {
+                "q": "What are the best practices for defining the functional requirements of a project?",
+                "options": {
+                    "a": "Conducting thorough stakeholder interviews to gather insights",
+                    "b": "Ignoring end-user feedback and relying on assumptions",
+                    "c": "Prioritizing features based on developer convenience",
+                    "d": "Overlooking the project scope and timeline"
+                },
+                "answer": "a",
+                "explanation": "Functional requirements should be 'discovered' from stakeholders (users, buyers, regulators), not 'decided' by the engineering team alone."
+            }
+        ],
+        "Assignment 6": [
+            {
+                "q": "Which key elements are essential for successfully engaging customers using a human-centered approach in product development?",
+                "options": {
+                    "a": "Utilizing lean methods and tools",
+                    "b": "Building empathy and conducting user research",
+                    "c": "Relying on traditional marketing strategies",
+                    "d": "Concentrating solely on product ideas"
+                },
+                "answer": "b",
+                "explanation": "Human-Centered Design (HCD) focuses on understanding the 'human' at the other end. Empathy allows designers to solve the right problem, while research validates that the solution works."
+            },
+            {
+                "q": "Which factor is most critical when aligning a product with customer expectations during development?",
+                "options": {
+                    "a": "Conducting iterative testing and feedback loops",
+                    "b": "Emphasizing aesthetic appeal over functionality",
+                    "c": "Ignoring competitor analysis",
+                    "d": "Skipping the prototyping phase"
+                },
+                "answer": "a",
+                "explanation": "Expectations are often unstated. Iterative testing (showing the user a draft) reveals these hidden expectations early, reducing the risk of a market mismatch."
+            },
+            {
+                "q": "How do design thinking, user research, and strategic planning benefit an organization?",
+                "options": {
+                    "a": "Links business operations with innovation efforts",
+                    "b": "Helps build mock-ups for product testing",
+                    "c": "Focuses on generating creative ideas only",
+                    "d": "Encourages quick decision-making without research"
+                },
+                "answer": "a",
+                "explanation": "These tools align 'Desirability' (User research) with 'Viability' (Business Strategy) and 'Feasibility' (Innovation), ensuring a holistic approach to company growth."
+            },
+            {
+                "q": "What should the primary objective of a design researcher and strategist be when working for a client?",
+                "options": {
+                    "a": "Focus solely on the product's core idea",
+                    "b": "Balance user needs, technological feasibility, and business objectives",
+                    "c": "Ensure customer experience takes precedence over business goals",
+                    "d": "Prioritize technical feasibility over desirability"
+                },
+                "answer": "b",
+                "explanation": "This is often visualized as a Venn diagram. Innovation happens only in the center where all three constraints (User, Tech, Business) are satisfied."
+            },
+            {
+                "q": "Which strategy is most effective for encouraging interviewees to share valuable information?",
+                "options": {
+                    "a": "Asking complex and detailed questions",
+                    "b": "Beginning with secondary objectives",
+                    "c": "Building rapport and trust with the interviewee",
+                    "d": "Employing a rigid and formal interview structure"
+                },
+                "answer": "c",
+                "explanation": "User interviews are qualitative. If the interviewee doesn't feel comfortable (rapport), they will give 'safe' or 'socially acceptable' answers rather than the truth."
+            },
+            {
+                "q": "What are the essential characteristics of a robust design brief?",
+                "options": {
+                    "a": "Providing detailed technical specifications and timelines",
+                    "b": "Outlining comprehensive marketing strategies",
+                    "c": "Including extensive budget estimates",
+                    "d": "Identifying user pain points, mapping user journeys, and ensuring ecosystem fit"
+                },
+                "answer": "d",
+                "explanation": "A robust brief provides 'context.' Understanding the 'user journey' helps the designer see the product as part of the user's life, not just a standalone object."
+            },
+            {
+                "q": "What is design management in relation to achieving organizational goals?",
+                "options": {
+                    "a": "Lateral thinking and creativity",
+                    "b": "Overseeing design teams and their timelines",
+                    "c": "Collaboration between stakeholders to meet business goals",
+                    "d": "A structured process for fulfilling business objectives through design"
+                },
+                "answer": "d",
+                "explanation": "Design Management is the 'business side of design.' It ensures that the creative energy of the design team is channeled toward solving specific organizational challenges."
+            },
+            {
+                "q": "What are the three key qualities that a client seeks in a design firm?",
+                "options": {
+                    "a": "Discipline, speed, and high fees",
+                    "b": "Quality, speed, and transparency",
+                    "c": "Collaboration, extended timelines, and reliability",
+                    "d": "Minimal interaction, predictability, and discipline"
+                },
+                "answer": "b",
+                "explanation": "In a competitive market, clients value high-standard output (Quality), quick time-to-market (Speed), and clear communication (Transparency) regarding costs and progress."
+            },
+            {
+                "q": "What should be included in a comprehensive design brief to ensure project success?",
+                "options": {
+                    "a": "Detailed project timeline and budget",
+                    "b": "In-depth competitor analysis and benchmarking",
+                    "c": "Specific user personas and their pain points",
+                    "d": "Finalized marketing strategies and plans"
+                },
+                "answer": "c",
+                "explanation": "Personas are 'archetypes' of real users. They help the design team stay focused on the specific needs of a human being rather than an abstract 'market segment.'"
+            },
+            {
+                "q": "Why is it important for designers to empathize with both users and business goals?",
+                "options": {
+                    "a": "To ensure marketing and advertising success",
+                    "b": "To prioritize aesthetics over functionality",
+                    "c": "To balance creative ideas with realistic objectives",
+                    "d": "To reduce the complexity of the design process"
+                },
+                "answer": "c",
+                "explanation": "Designing for the user alone might result in a product that is too expensive to build. Designing for the business alone might result in a product no one wants. Balance is key."
+            }
+        ],
+        "Assignment 7": [
+            {
+                "q": "Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?",
+                "options": {
+                    "a": "Economic stability",
+                    "b": "Design thinking",
+                    "c": "Complacency",
+                    "d": "Short-term focus"
+                },
+                "answer": "b",
+                "explanation": "Design Thinking is 'non-linear' because you might go from Testing back to Ideation or from Prototyping back to Empathy as you discover new things."
+            },
+            {
+                "q": "What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?",
+                "options": {
+                    "a": "Brainstorming",
+                    "b": "Synectics",
+                    "c": "Mind mapping",
+                    "d": "SWOT analysis"
+                },
+                "answer": "b",
+                "explanation": "Synectics uses analogies (Personal, Direct, Symbolic, Fantasy) to force the brain to see a familiar problem in a strange way, or a strange problem in a familiar way."
+            },
+            {
+                "q": "What are the most important three critical factors to consider when developing a product?",
+                "options": {
+                    "a": "Market Need, technical feasibility, and business viability",
+                    "b": "Advertisement, product packaging, and distribution networks",
+                    "c": "User sensibility, market size, and product range",
+                    "d": "Profit, market sensitivity, and employee strength"
+                },
+                "answer": "a",
+                "explanation": "These are the three pillars of innovation: Do people want it? (Market Need), Can we build it? (Technical Feasibility), and Can we make money doing it? (Business Viability)."
+            },
+            {
+                "q": "Which tool graphically represents a business model and helps stakeholders understand it easily?",
+                "options": {
+                    "a": "Business Model Canvas",
+                    "b": "Balance sheet",
+                    "c": "Profit and loss statement",
+                    "d": "Organizational chart"
+                },
+                "answer": "a",
+                "explanation": "Developed by Alexander Osterwalder, the BMC is a 1-page visual chart with nine building blocks that describe how a company creates, delivers, and captures value."
+            },
+            {
+                "q": "What is the meaning of \"Double Whammy\"?",
+                "options": {
+                    "a": "A situation where two positive events occur simultaneously.",
+                    "b": "A situation where two adverse events or effects occur simultaneously.",
+                    "c": "A term used to describe a single unfortunate event.",
+                    "d": "A financial model for maximizing profits."
+                },
+                "answer": "b",
+                "explanation": "In business, this might refer to a startup facing a market crash and a product recall at the same time."
+            },
+            {
+                "q": "What makes a collaborative model beneficial for entrepreneurship?",
+                "options": {
+                    "a": "Provides access to resources",
+                    "b": "Offers networking opportunities",
+                    "c": "Creates a sense of community",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Startups are 'resource-poor.' Collaborative models (like co-working spaces or industry clusters) allow them to share costs and benefit from the 'spillover' of knowledge."
+            },
+            {
+                "q": "What distinguishes the fractional ownership business model from other models?",
+                "options": {
+                    "a": "Shared ownership of physical assets",
+                    "b": "Focus on virtual assets and digital goods",
+                    "c": "Primary emphasis on intellectual property rights",
+                    "d": "Leasing equipment to businesses"
+                },
+                "answer": "a",
+                "explanation": "Fractional ownership allows multiple people to own a share of an expensive asset (like a private jet or real estate), making high-value assets accessible to more people."
+            },
+            {
+                "q": "What key criteria should a business model meet to achieve optimal success?",
+                "options": {
+                    "a": "High Initial Investment, Extensive Workforce, and Expensive Marketing",
+                    "b": "Clear Value Proposition, Scalability, and Sustainable Revenue Streams",
+                    "c": "Low Costs, Rapid Expansion, and Minimal Effort",
+                    "d": "Single Revenue Source, Limited Target Market, and High Complexity"
+                },
+                "answer": "b",
+                "explanation": "Scalability is crucial for startups—it means the business can grow its revenue much faster than its costs."
+            },
+            {
+                "q": "Which key performance metrics help to monitor a business's success?",
+                "options": {
+                    "a": "Revenue growth, customer acquisition, and value proposition",
+                    "b": "Employee welfare, operational cost reduction, and inventory turnover",
+                    "c": "Brand recognition, social media reach, and product diversification",
+                    "d": "Customer retention, marketing spends, and aesthetic appeal"
+                },
+                "answer": "a",
+                "explanation": "Founders must track 'Leading Indicators' like growth and acquisition to ensure the business is healthy and attracting users."
+            },
+            {
+                "q": "Why is the Lean Canvas a valuable tool for startups?",
+                "options": {
+                    "a": "Helps secure large investments from venture capitalists",
+                    "b": "Develops a detailed five-year financial plan",
+                    "c": "Allows startups to test and iterate on their business model assumptions quickly",
+                    "d": "Designs a complex organizational structure for future growth"
+                },
+                "answer": "c",
+                "explanation": "The Lean Canvas (by Ash Maurya) replaces the BMC for early-stage startups. It focuses on 'Problem,' 'Solution,' and 'Unfair Advantage' rather than established partnerships."
+            }
+        ],
+        "Assignment 8": [
+            {
+                "q": "What advantages can your business gain from identifying early adopters?",
+                "options": {
+                    "a": "Competitive disadvantage",
+                    "b": "Validate market demands through early feedback",
+                    "c": "Slow revenue generation",
+                    "d": "Requires less marketing effort"
+                },
+                "answer": "b",
+                "explanation": "Early adopters help cross the 'Chasm.' Their early use and feedback allow you to refine the product for the 'Mainstream' market."
+            },
+            {
+                "q": "What are the key characteristics that early-stage entrepreneurs should develop?",
+                "options": {
+                    "a": "An entrepreneurial mindset",
+                    "b": "Adaptability and resilience",
+                    "c": "Upholding ethical standards",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "Entrepreneurship is as much about character as it is about business. Resilience is needed for the lows, and ethics are needed for long-term sustainability."
+            },
+            {
+                "q": "What is essential for delivering a compelling business pitch to investors?",
+                "options": {
+                    "a": "Detailed operational procedures",
+                    "b": "A scalable and profitable business model",
+                    "c": "Market size and demographics",
+                    "d": "Long-term industry trends"
+                },
+                "answer": "b",
+                "explanation": "Investors aren't just buying an idea; they are buying a 'money-making machine.' You must prove that for every $1 they give you, you can eventually return $10."
+            },
+            {
+                "q": "What role does a Minimum Viable Product (MVP) play in product development?",
+                "options": {
+                    "a": "Builds brand reputation without validation",
+                    "b": "Attracts early-adopter customers and validates the product idea",
+                    "c": "Focuses on short-term revenue generation",
+                    "d": "Prioritizes aesthetics over functionality"
+                },
+                "answer": "b",
+                "explanation": "The MVP is the 'smallest thing' you can build that allows you to collect the maximum amount of validated learning about customers with the least effort."
+            },
+            {
+                "q": "What are the initial steps involved in developing a Lean Canvas?",
+                "options": {
+                    "a": "Identify your target customers and users",
+                    "b": "List your customer’s top three problems",
+                    "c": "Develop solutions for each identified problem",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "The canvas starts with the Problem and Customer Segments. If you don't have these right, the rest of the business model is built on sand."
+            },
+            {
+                "q": "What factors must a product have to remain competitive in the market?",
+                "options": {
+                    "a": "Consistent product improvement and innovation",
+                    "b": "Incremental price increases",
+                    "c": "Limited scalability to control costs",
+                    "d": "Focus on low-impact trends"
+                },
+                "answer": "a",
+                "explanation": "A 'Moat' (competitive advantage) must be continuously widened. If a product stops evolving, competitors with better tech or lower prices will inevitably catch up."
+            },
+            {
+                "q": "What term is used to describe legal protections that prevent unauthorized use of original creative works?",
+                "options": {
+                    "a": "Physical property",
+                    "b": "Intellectual property",
+                    "c": "Commercial asset",
+                    "d": "Industrial design"
+                },
+                "answer": "b",
+                "explanation": "IP is the 'intangible asset' of a startup. It can be sold, licensed, or used as collateral for loans."
+            },
+            {
+                "q": "Which types of intellectual property rights (IPR) protect innovations and creative works?",
+                "options": {
+                    "a": "Real estate and buildings",
+                    "b": "Patents, copyrights, trademarks, and trade secrets",
+                    "c": "Financial statements and records",
+                    "d": "Office equipment and tools"
+                },
+                "answer": "b",
+                "explanation": "Patents protect inventions; Copyrights protect expression (code, art); Trademarks protect brand identity; Trade Secrets protect internal processes (like the Coke formula)."
+            },
+            {
+                "q": "What is the primary focus of customer acquisition strategies for startups?",
+                "options": {
+                    "a": "Ensuring long-term customer retention",
+                    "b": "Maximizing short-term sales revenue",
+                    "c": "Ignoring customer feedback for cost-saving",
+                    "d": "Relying on word-of-mouth marketing alone"
+                },
+                "answer": "a",
+                "explanation": "It costs much more to find a new customer than to keep an old one. Startups focus on 'LTV' (Lifetime Value) to ensure the business is sustainable."
+            },
+            {
+                "q": "How does a strong Unique Value Proposition (UVP) benefit a startup?",
+                "options": {
+                    "a": "Enhances the company's ability to attract and retain customers by clearly addressing their needs and preferences",
+                    "b": "Solely focuses on improving financial performance metrics without considering customer satisfaction",
+                    "c": "Prioritizes technological infrastructure over understanding customer needs",
+                    "d": "Concentrates on offering low-cost services at the expense of quality"
+                },
+                "answer": "a",
+                "explanation": "The UVP is a single, clear message that states why you are different and worth buying. It is the heart of the business model."
+            }
+        ],
+        "Assignment 9": [
+            {
+                "q": "What barriers must a designer or entrepreneur overcome to turn an idea into action?",
+                "options": {
+                    "a": "Lack of confidence in their skills",
+                    "b": "Fear of negative feedback",
+                    "c": "Difficulty in securing funding",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "The transition from 'Ideation' to 'Execution' is primarily psychological and financial. Overcoming the fear of failure is often the first hurdle."
+            },
+            {
+                "q": "What is the most important relationship for a startup to manage?",
+                "options": {
+                    "a": "Funding sources",
+                    "b": "Target customers",
+                    "c": "Technological infrastructure",
+                    "d": "Market needs"
+                },
+                "answer": "b",
+                "explanation": "Without customers, you don't have a business; you have a hobby. Every other relationship (investors, suppliers) exists to serve the customer relationship."
+            },
+            {
+                "q": "What types of funding are typically sought by early-stage entrepreneurs or startups?",
+                "options": {
+                    "a": "Government grants",
+                    "b": "Seed funding and crowdfunding",
+                    "c": "Long-term loans with high interest rates",
+                    "d": "Equity funds"
+                },
+                "answer": "a, b",
+                "explanation": "Early stage is high-risk. Startups seek 'Seed' money or 'Non-dilutive' funding (grants) before they have enough revenue to qualify for bank loans."
+            },
+            {
+                "q": "What are some reasons why certain regions may lag in techno-entrepreneurial ventures?",
+                "options": {
+                    "a": "Education is focused solely on securing jobs",
+                    "b": "Abundance of natural resources reduces the need for innovation",
+                    "c": "Government policies discourage entrepreneurship",
+                    "d": "All of the above"
+                },
+                "answer": "d",
+                "explanation": "This is often called the 'Resource Curse' or 'Culture of Job Seeking.' Innovation requires an ecosystem of risk-takers, supportive laws, and experimental education."
+            },
+            {
+                "q": "What is the purpose of the incubation stage in the entrepreneurial journey?",
+                "options": {
+                    "a": "Developing a business plan and securing resources",
+                    "b": "Taking a product idea to commercialization",
+                    "c": "Conducting advanced research and development",
+                    "d": "Scaling the business for global markets"
+                },
+                "answer": "b",
+                "explanation": "Incubation provides the 'nurturing' environment (office space, mentorship, network) to help a fragile startup survive its first 1-2 years."
+            },
+            {
+                "q": "How does the role of an entrepreneur differ from that of an innovator?",
+                "options": {
+                    "a": "Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals",
+                    "b": "Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems",
+                    "c": "Entrepreneurs work alone, while innovators always work in teams",
+                    "d": "Entrepreneurs need formal education, while innovators rely on creativity"
+                },
+                "answer": "b",
+                "explanation": "Innovation is the 'spark' (new idea), but Entrepreneurship is the 'flame' (making that idea a self-sustaining business)."
+            },
+            {
+                "q": "What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?",
+                "options": {
+                    "a": "To provide administrative training and management skills",
+                    "b": "To identify unmet needs and gather insights for innovation",
+                    "c": "To develop marketing strategies for healthcare products",
+                    "d": "To focus on financial analysis and budget planning"
+                },
+                "answer": "b",
+                "explanation": "Entrepreneurs spend time in hospitals to observe where doctors/nurses struggle. This 'ethnographic' research identifies problems that experts might be too close to see."
+            },
+            {
+                "q": "What key factor ensures better execution of an entrepreneurial idea?",
+                "options": {
+                    "a": "Clear definition of customer needs and market gaps",
+                    "b": "Strong advertising strategy and brand presence",
+                    "c": "Advanced office infrastructure and equipment",
+                    "d": "Rigid adherence to the initial business plan"
+                },
+                "answer": "a",
+                "explanation": "Execution is not just 'doing things'; it's 'doing the right things.' A clear focus on the market gap prevents wasted effort on features nobody wants."
+            },
+            {
+                "q": "What is the process of transferring an idea to industry through intellectual property or technology transfer called?",
+                "options": {
+                    "a": "Entrepreneurship",
+                    "b": "Commercialization",
+                    "c": "Enterprise development",
+                    "d": "Incubation"
+                },
+                "answer": "b",
+                "explanation": "Commercialization is the stage where a prototype becomes a product that is packaged, priced, and distributed at scale."
+            },
+            {
+                "q": "Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?",
+                "options": {
+                    "a": "Idea Generation Stage",
+                    "b": "Research Stage",
+                    "c": "Incubation Stage",
+                    "d": "Scaling Stage"
+                },
+                "answer": "a",
+                "explanation": "This stage is characterized by divergent thinking, where many possibilities are explored before converging on a single problem to solve."
+            }
+        ],
+        "Assignment 10": [
+            {
+                "q": "What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?",
+                "options": {
+                    "a": "Fantasy analogy",
+                    "b": "Personal analogy",
+                    "c": "Symbolic analogy",
+                    "d": "CAD analogy"
+                },
+                "answer": "b",
+                "explanation": "In 'Personal Analogy,' an engineer might ask: 'If I were a molecule of water, how would I move through this filter?' This changes the perspective and reveals new solutions."
+            },
+            {
+                "q": "Which of the following is NOT a typical prototyping method?",
+                "options": {
+                    "a": "Additive methods",
+                    "b": "Subtractive methods",
+                    "c": "Forming methods",
+                    "d": "Lateral thinking"
+                },
+                "answer": "d",
+                "explanation": "Lateral thinking is a mental process for ideation. Additive (3D printing), Subtractive (CNC milling), and Forming (molding) are physical manufacturing methods."
+            },
+            {
+                "q": "What is the correct sequence during a product development process?",
+                "options": {
+                    "a": "Ideation → Concept Generation → Prototyping → Testing → Market Launch",
+                    "b": "Market Research → Concept Generation → Testing → Ideation → Prototyping",
+                    "c": "Concept Generation → Prototyping → Testing → Market Launch → Ideation",
+                    "d": "Ideation → Market Launch → Prototype → Testing → Concept Generation"
+                },
+                "answer": "a",
+                "explanation": "This follows the standard engineering and design thinking flow: start with many ideas, narrow to a concept, build a rough version, test it, and then scale."
+            },
+            {
+                "q": "Which type of reasoning involves forming general conclusions from specific observations?",
+                "options": {
+                    "a": "Abductive reasoning",
+                    "b": "Deductive reasoning",
+                    "c": "Inductive reasoning",
+                    "d": "Analytical reasoning"
+                },
+                "answer": "c",
+                "explanation": "Inductive reasoning is 'bottom-up.' If you observe 100 customers struggling with a specific checkout step, you induce the general conclusion that the checkout UI is flawed."
+            },
+            {
+                "q": "How does frugality in product innovation benefit organizations?",
+                "options": {
+                    "a": "By increasing production costs to maximize resources",
+                    "b": "By minimizing waste and reducing costs through efficient use of resources",
+                    "c": "By prioritizing aesthetics over functionality",
+                    "d": "By focusing solely on rapid scaling without cost considerations"
+                },
+                "answer": "b",
+                "explanation": "Often called 'Jugaad' or Frugal Engineering, it involves doing more with less. It's essential for creating products for 'Bottom of the Pyramid' markets."
+            },
+            {
+                "q": "What is the primary purpose of a Proof of Concept (POC)?",
+                "options": {
+                    "a": "To validate the feasibility and viability of a new idea or concept",
+                    "b": "To generate the final product for market launch",
+                    "c": "To secure funding for large-scale production",
+                    "d": "To build prototypes for user feedback"
+                },
+                "answer": "a",
+                "explanation": "A POC is a technical sanity check. It doesn't need to be pretty; it just needs to prove that the proposed mechanism doesn't violate the laws of physics or logic."
+            },
+            {
+                "q": "What does prototyping aim to achieve in the design process?",
+                "options": {
+                    "a": "Finalizing the design for immediate market release",
+                    "b": "Creating models to test and improve design, functionality, and usability",
+                    "c": "Building large-scale production units for market distribution",
+                    "d": "Avoiding iterative development to save time"
+                },
+                "answer": "b",
+                "explanation": "Prototypes are meant to be 'broken' or 'failed.' Every flaw found in a prototype is a flaw that won't reach the final customer."
+            },
+            {
+                "q": "What is the primary goal of Synectics in the design process?",
+                "options": {
+                    "a": "Encouraging exploration and breaking conventional thinking",
+                    "b": "Generating a single, perfect solution to a problem",
+                    "c": "Reaching consensus among team members quickly",
+                    "d": "Applying detailed technical analysis to refine existing concepts"
+                },
+                "answer": "a",
+                "explanation": "Synectics aims to increase creative output by systematically using metaphors to trigger new neural pathways in the problem-solving team."
+            },
+            {
+                "q": "How can entrepreneurs effectively collaborate with one another?",
+                "options": {
+                    "a": "By franchising their mutual businesses",
+                    "b": "By sharing resources and distributing production responsibilities",
+                    "c": "By competing in the same market segments",
+                    "d": "All of the above"
+                },
+                "answer": "b",
+                "explanation": "Collaboration (Co-opetition) allows small startups to compete with giants by pooling their buying power, manufacturing capacity, or customer lists."
+            },
+            {
+                "q": "Why is it important for designers to create prototypes before deploying a product?",
+                "options": {
+                    "a": "To identify and resolve design flaws early in the process",
+                    "b": "To use prototypes as the final version for market release",
+                    "c": "To skip the need for market research and testing",
+                    "d": "To focus on aesthetics without user input"
+                },
+                "answer": "a",
+                "explanation": "The 'Rule of 10' says that a flaw costs $1 to fix in design, $10 in prototyping, $100 in production, and $1000 after the product has reached the customer."
+            }
+        ],
+        "Assignment 11": [
+            {
+                "q": "What is the most effective approach for developing products that meet the needs of specially-abled people?",
+                "options": {
+                    "a": "User-centered design",
+                    "b": "Exclusivity in design",
+                    "c": "Profit maximization",
+                    "d": "Reducing production costs"
+                },
+                "answer": "a",
+                "explanation": "UCD involves the specially-abled person in the design process itself (Inclusive Design), ensuring that the solution actually fits their specific mobility or sensory constraints."
+            },
+            {
+                "q": "What are the two key aspects to focus on when developing a product using assistive technology?",
+                "options": {
+                    "a": "Promoting awareness about digital alternatives",
+                    "b": "Making users independent and fostering social integration",
+                    "c": "Redesigning existing products for the market",
+                    "d": "Creating exclusive and expensive solutions"
+                },
+                "answer": "b",
+                "explanation": "Assistive tech is successful if it 'disappears' and allows the user to live a life with dignity and autonomy, rather than highlighting their disability."
+            },
+            {
+                "q": "What are the critical factors for a product to succeed in the market?",
+                "options": {
+                    "a": "Being trendy and common",
+                    "b": "Being relevant and differentiated",
+                    "c": "Being cheap and generic",
+                    "d": "Being expensive and complex"
+                },
+                "answer": "b",
+                "explanation": "Relevance means it solves a problem; Differentiation means it does it better than the alternative. This creates a strong competitive advantage."
+            },
+            {
+                "q": "What should a startup offer to persuade investors or customers to invest in or purchase its product?",
+                "options": {
+                    "a": "An unrealistic guaranteed return on investment",
+                    "b": "A unique and differentiated service or product",
+                    "c": "A vague and unclear value proposition",
+                    "d": "A low-cost product with limited functionality"
+                },
+                "answer": "b",
+                "explanation": "In a crowded market, 'differentiation' is the only way to gain attention. This is your 'Unfair Advantage' on the Lean Canvas."
+            },
+            {
+                "q": "Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?",
+                "options": {
+                    "a": "Cheap materials reduce production time significantly",
+                    "b": "Using cheap materials increases return and servicing costs",
+                    "c": "Cheap materials ensure better brand reputation",
+                    "d": "Cheap materials improve the product's aesthetic appeal"
+                },
+                "answer": "b",
+                "explanation": "Total Cost of Ownership (TCO) is higher with cheap materials because warranties, returns, and the loss of brand trust cost more than the initial savings on parts."
+            },
+            {
+                "q": "What potential risk factor could affect the viability of a startup's business model?",
+                "options": {
+                    "a": "Strong customer loyalty and retention",
+                    "b": "Reliance on a limited number of corporate clients",
+                    "c": "Rapidly decreasing operational costs",
+                    "d": "Established brand recognition"
+                },
+                "answer": "b",
+                "explanation": "This is called 'Concentration Risk.' If 80% of your revenue comes from one client and they leave, the company collapses instantly."
+            },
+            {
+                "q": "How does human-to-human interaction benefit product design compare to AI-based solutions?",
+                "options": {
+                    "a": "AI processes designs faster and more efficiently",
+                    "b": "Human interaction fosters empathy and understanding of individual needs",
+                    "c": "AI consistently improves through machine learning",
+                    "d": "AI offers a broader range of design capabilities"
+                },
+                "answer": "b",
+                "explanation": "AI is good at 'optimization,' but humans are good at 'context.' AI can't feel the frustration of a user, which is often the source of the best design breakthroughs."
+            },
+            {
+                "q": "How can design contribute to the development of cognitive, motor, and analytical skills in children?",
+                "options": {
+                    "a": "By creating interactive games that encourage physical movement and coordination",
+                    "b": "By focusing solely on aesthetic appeal and trendy designs",
+                    "c": "By using advanced technology for entertainment purposes",
+                    "d": "By emphasizing cost-effectiveness over engagement"
+                },
+                "answer": "a",
+                "explanation": "Educational design (EdTech/Play) uses gamification and sensory feedback to trigger neural development, making learning an active rather than passive process."
+            },
+            {
+                "q": "What factors should be prioritized when developing a product using evidence-based learning methodologies?",
+                "options": {
+                    "a": "Understanding target customers and measuring the impact of the solution",
+                    "b": "Increasing brand recognition and analyzing market competition",
+                    "c": "Allocating advertising budgets and determining technical specifications",
+                    "d": "Designing packaging and setting product pricing"
+                },
+                "answer": "a",
+                "explanation": "Evidence-based learning requires 'metrics.' You must define 'Success' (Impact) before you build, and then measure if you actually achieved it."
+            },
+            {
+                "q": "Why is it essential for a product to align with customer needs and preferences during its design?",
+                "options": {
+                    "a": "To reduce the cost of production",
+                    "b": "To ensure long-term customer satisfaction and loyalty",
+                    "c": "To focus on marketing trends exclusively",
+                    "d": "To simplify the manufacturing process"
+                },
+                "answer": "b",
+                "explanation": "Alignment creates 'Stickiness.' When a product fits perfectly into a user's life, they become advocates for the brand, reducing future marketing costs."
+            }
+        ]
     }
-
 }
